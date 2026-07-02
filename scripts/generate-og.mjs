@@ -31,7 +31,7 @@ const svg = `<svg width="1200" height="630" viewBox="0 0 1200 630" xmlns="http:/
   <rect x="0" y="0" width="1200" height="8" fill="#0d9488"/>
 
   <text x="80" y="150" font-family="'Segoe UI', Arial, sans-serif" font-size="30"
-        fill="#2dd4bf" letter-spacing="2" font-weight="600">&gt;_ ryanmcshane.github.io</text>
+        fill="#2dd4bf" letter-spacing="2" font-weight="600">&gt;_ ryanmcshane-dev.github.io</text>
 
   <text x="78" y="320" font-family="'Segoe UI', Arial, sans-serif" font-size="104"
         fill="#f6f7fa" font-weight="700" letter-spacing="-3">${name}</text>

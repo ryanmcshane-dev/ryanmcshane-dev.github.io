@@ -11,13 +11,13 @@ export const siteConfig = {
     'I lead teams building event-driven backend platforms — and I build the spec-driven, agentic workflows that make modern engineering faster.',
   description:
     'Ryan McShane — Senior Software Engineer & Tech Lead specializing in AI-native engineering: spec-driven development and agentic coding.',
-  siteUrl: 'https://ryanmcshane.github.io',
+  siteUrl: 'https://ryanmcshane-dev.github.io',
   ogImage: '/og-image.png',
   email: 'ryanmcshane429@gmail.com',
   links: {
     email: 'mailto:ryanmcshane429@gmail.com',
     linkedin: 'https://www.linkedin.com/in/ryan-mcshane-4207a5131',
-    github: 'https://github.com/ryanmcshane',
+    github: 'https://github.com/ryanmcshane-dev',
     resume: '/resume.pdf',
   },
 } as const;

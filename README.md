@@ -1,9 +1,9 @@
-# ryanmcshane.github.io
+# ryanmcshane-dev.github.io
 
 Personal portfolio for **Ryan McShane** — Senior Software Engineer & Tech Lead. Built
 spec-driven and agentically; the process is documented on-site at `/colophon`.
 
-Live: https://ryanmcshane.github.io
+Live: https://ryanmcshane-dev.github.io
 
 ## Tech stack
 

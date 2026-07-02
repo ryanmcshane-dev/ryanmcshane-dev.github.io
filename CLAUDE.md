@@ -93,5 +93,5 @@ lint → revise until green → then move on. No task ships red tests.
 ## Deploy
 
 Push to `main` → GitHub Actions (`.github/workflows/deploy.yml`) runs checks and deploys to
-GitHub Pages. Live at https://ryanmcshane.github.io. To add a custom domain later: add
+GitHub Pages. Live at https://ryanmcshane-dev.github.io. To add a custom domain later: add
 `public/CNAME` with the domain and update the canonical URL in `src/config.ts`.

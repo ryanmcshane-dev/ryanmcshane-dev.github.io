@@ -5,7 +5,7 @@ import { fileURLToPath, URL } from 'node:url';
 
 // https://vite.dev/config/
 export default defineConfig({
-  // Served at the root of ryanmcshane.github.io — keep base '/'.
+  // Served at the root of ryanmcshane-dev.github.io — keep base '/'.
   base: '/',
   plugins: [{ enforce: 'pre', ...mdx({ providerImportSource: '@mdx-js/react' }) }, react()],
   resolve: {
