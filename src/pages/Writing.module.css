@@ -1,0 +1,59 @@
+.empty {
+  max-width: var(--prose-max);
+  padding: var(--space-7);
+  border: 1px dashed var(--border-strong);
+  border-radius: var(--radius-lg);
+  background: var(--bg-subtle);
+}
+
+.emptyTitle {
+  font-size: var(--text-xl);
+  font-weight: var(--weight-semibold);
+  color: var(--fg-strong);
+  margin-bottom: var(--space-2);
+}
+
+.emptyBody {
+  color: var(--muted);
+}
+
+.list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: grid;
+  gap: var(--space-4);
+  max-width: var(--prose-max);
+}
+
+.item {
+  border-top: 1px solid var(--border);
+  padding-top: var(--space-4);
+}
+
+.link {
+  display: block;
+  color: inherit;
+}
+
+.date {
+  font-family: var(--font-mono);
+  font-size: var(--text-xs);
+  color: var(--faint);
+}
+
+.postTitle {
+  margin-top: var(--space-2);
+  font-size: var(--text-xl);
+  color: var(--fg-strong);
+}
+
+.link:hover .postTitle {
+  color: var(--accent);
+}
+
+.postDesc {
+  margin-top: var(--space-2);
+  color: var(--muted);
+  font-size: var(--text-sm);
+}

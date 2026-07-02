@@ -1,0 +1,142 @@
+/*
+ * Design tokens. Neutral (zinc/slate) base + a single restrained teal accent.
+ * Semantic variables are theme-aware; raw scales are theme-agnostic.
+ */
+:root {
+  /* Neutral scale (zinc) */
+  --zinc-50: #fafafa;
+  --zinc-100: #f4f4f5;
+  --zinc-200: #e4e4e7;
+  --zinc-300: #d4d4d8;
+  --zinc-400: #a1a1aa;
+  --zinc-500: #71717a;
+  --zinc-600: #52525b;
+  --zinc-700: #3f3f46;
+  --zinc-800: #27272a;
+  --zinc-900: #18181b;
+  --zinc-950: #09090b;
+
+  /* Accent (teal) */
+  --teal-400: #2dd4bf;
+  --teal-500: #14b8a6;
+  --teal-600: #0d9488;
+  --teal-700: #0f766e;
+
+  /* Ink used for dark surfaces (slightly blue-cool near-black) */
+  --ink-900: #0b1220;
+  --ink-850: #0f1729;
+  --ink-800: #131c31;
+
+  /* Typography */
+  --font-sans:
+    'Inter', system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+  --font-mono: 'JetBrains Mono', ui-monospace, 'SF Mono', 'Cascadia Code', Menlo, monospace;
+
+  /* Fluid type scale */
+  --text-xs: 0.8125rem;
+  --text-sm: 0.9375rem;
+  --text-base: 1.0625rem;
+  --text-lg: 1.1875rem;
+  --text-xl: 1.375rem;
+  --text-2xl: clamp(1.5rem, 1.2rem + 1.4vw, 2rem);
+  --text-3xl: clamp(1.875rem, 1.4rem + 2.2vw, 2.75rem);
+  --text-4xl: clamp(2.25rem, 1.6rem + 3.2vw, 3.75rem);
+
+  --leading-tight: 1.15;
+  --leading-snug: 1.35;
+  --leading-normal: 1.65;
+
+  --weight-normal: 400;
+  --weight-medium: 500;
+  --weight-semibold: 600;
+  --weight-bold: 700;
+
+  /* Spacing scale */
+  --space-1: 0.25rem;
+  --space-2: 0.5rem;
+  --space-3: 0.75rem;
+  --space-4: 1rem;
+  --space-5: 1.5rem;
+  --space-6: 2rem;
+  --space-7: 3rem;
+  --space-8: 4rem;
+  --space-9: 6rem;
+  --space-10: 8rem;
+
+  /* Radii */
+  --radius-sm: 6px;
+  --radius-md: 10px;
+  --radius-lg: 16px;
+  --radius-full: 999px;
+
+  /* Layout widths */
+  --container-max: 72rem;
+  --prose-max: 42rem;
+
+  /* Motion */
+  --ease: cubic-bezier(0.22, 1, 0.36, 1);
+  --dur-fast: 140ms;
+  --dur: 240ms;
+  --dur-slow: 520ms;
+
+  /* Z-index */
+  --z-header: 50;
+  --z-skiplink: 100;
+}
+
+/* ---- Light theme (default) ---- */
+:root,
+[data-theme='light'] {
+  color-scheme: light;
+
+  --bg: var(--zinc-50);
+  --bg-subtle: #ffffff;
+  --surface: #ffffff;
+  --surface-raised: #ffffff;
+  --fg: var(--zinc-900);
+  --fg-strong: var(--zinc-950);
+  --muted: var(--zinc-600);
+  --faint: var(--zinc-400);
+  --border: var(--zinc-200);
+  --border-strong: var(--zinc-300);
+
+  --accent: var(--teal-600);
+  --accent-hover: var(--teal-700);
+  --accent-fg: #ffffff;
+  --accent-soft: rgba(13, 148, 136, 0.1);
+  --accent-ring: rgba(13, 148, 136, 0.4);
+
+  --shadow-sm: 0 1px 2px rgba(9, 9, 11, 0.06), 0 1px 3px rgba(9, 9, 11, 0.04);
+  --shadow-md: 0 4px 12px rgba(9, 9, 11, 0.07), 0 2px 6px rgba(9, 9, 11, 0.05);
+  --shadow-lg: 0 12px 32px rgba(9, 9, 11, 0.1), 0 6px 12px rgba(9, 9, 11, 0.06);
+
+  --code-bg: var(--zinc-100);
+}
+
+/* ---- Dark theme ---- */
+[data-theme='dark'] {
+  color-scheme: dark;
+
+  --bg: var(--ink-900);
+  --bg-subtle: var(--ink-850);
+  --surface: var(--ink-850);
+  --surface-raised: var(--ink-800);
+  --fg: #e6e9ef;
+  --fg-strong: #f6f7fa;
+  --muted: #9aa3b2;
+  --faint: #5b667a;
+  --border: rgba(148, 163, 184, 0.16);
+  --border-strong: rgba(148, 163, 184, 0.28);
+
+  --accent: var(--teal-400);
+  --accent-hover: #5eead4;
+  --accent-fg: var(--ink-900);
+  --accent-soft: rgba(45, 212, 191, 0.12);
+  --accent-ring: rgba(45, 212, 191, 0.45);
+
+  --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.4);
+  --shadow-md: 0 6px 18px rgba(0, 0, 0, 0.45);
+  --shadow-lg: 0 16px 40px rgba(0, 0, 0, 0.55);
+
+  --code-bg: rgba(148, 163, 184, 0.1);
+}

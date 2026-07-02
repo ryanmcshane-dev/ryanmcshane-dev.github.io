@@ -1,0 +1,26 @@
+export const meta = {
+  title: 'Post title goes here',
+  description: 'One-sentence summary used for the list and SEO.',
+  date: '2026-01-01',
+  slug: 'example-post',
+  draft: true,
+  tags: ['spec-driven', 'agentic'],
+};
+
+# Post title goes here
+
+This is a template post. It is marked `draft: true`, so it does **not** appear in the
+`/writing` index or get its own route. Copy this file to `your-slug.mdx`, update the
+`meta` export (set `draft: false`), and write your post below.
+
+## A heading
+
+Write in Markdown. You can use lists:
+
+- Point one
+- Point two
+
+> And blockquotes for emphasis.
+
+Once at least one non-draft post exists, add a `Writing` link to `navItems` in
+`src/components/Header/Header.tsx`.

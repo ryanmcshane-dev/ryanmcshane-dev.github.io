@@ -1,0 +1,41 @@
+.card {
+  text-align: center;
+  max-width: 40rem;
+  margin-inline: auto;
+  padding-block: var(--space-6);
+}
+
+.lead {
+  font-size: var(--text-lg);
+  color: var(--muted);
+  line-height: var(--leading-snug);
+  margin-bottom: var(--space-6);
+}
+
+.emailButton {
+  display: inline-block;
+  font-family: var(--font-mono);
+  font-size: var(--text-lg);
+  font-weight: var(--weight-medium);
+  color: var(--accent-fg);
+  background: var(--accent);
+  padding: var(--space-3) var(--space-6);
+  border-radius: var(--radius-md);
+  box-shadow: var(--shadow-sm);
+  transition:
+    transform var(--dur-fast) var(--ease),
+    background-color var(--dur-fast) var(--ease),
+    box-shadow var(--dur-fast) var(--ease);
+}
+
+.emailButton:hover {
+  color: var(--accent-fg);
+  background: var(--accent-hover);
+  transform: translateY(-1px);
+  box-shadow: var(--shadow-md);
+}
+
+.social {
+  justify-content: center;
+  margin-top: var(--space-6);
+}
