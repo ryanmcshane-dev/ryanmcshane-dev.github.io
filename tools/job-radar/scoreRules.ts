@@ -41,12 +41,18 @@ export function scoreFit(kept: KeptPosting, spec: FitSpec = fitSpec): FitScore {
   }
 
   if (posting.remote === 'hybrid') fit -= spec.remote.hybridPenalty;
+
+  // Preferred-company nudge: Ryan's top-choice companies rank a little higher, all else equal.
+  const preferred = spec.preferredCompanies.includes(posting.company);
+  if (preferred) fit += spec.preferredBoost;
+
   fit = Math.max(0, Math.min(100, fit));
 
   const verdict = verdictFor(fit);
 
   // Concerns = the pre-filter's soft flags, plus the missing top differentiator if AI-native didn't hit.
   const concerns = [...kept.flags];
+  if (preferred) matched.push('Top-choice company');
   if (!matchedIds.has('ai-native')) concerns.push('no AI-native engineering signal');
 
   const rationale = [

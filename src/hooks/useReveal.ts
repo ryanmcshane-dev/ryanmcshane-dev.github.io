@@ -12,11 +12,17 @@ interface UseRevealOptions {
  * Reveal-on-scroll: returns a ref and a boolean. Attach the ref to an element and
  * use `isVisible` to trigger enter animations. Respects prefers-reduced-motion by
  * revealing immediately. Falls back to visible if IntersectionObserver is missing.
+ *
+ * `threshold` defaults to 0 (reveal as soon as any part enters). It must NOT require a
+ * visible *fraction* (e.g. 0.15): an element taller than ~1/threshold viewports can never
+ * reach that fraction, so the observer would never fire and the content — which starts at
+ * opacity:0 — would stay permanently hidden. That is exactly what happened to the Job Radar
+ * page, whose single section wraps dozens of cards.
  */
 export function useReveal<T extends HTMLElement = HTMLDivElement>(
   options: UseRevealOptions = {},
 ): { ref: RefObject<T>; isVisible: boolean } {
-  const { threshold = 0.15, once = true, rootMargin = '0px 0px -10% 0px' } = options;
+  const { threshold = 0, once = true, rootMargin = '0px 0px -10% 0px' } = options;
   const ref = useRef<T>(null);
   const [isVisible, setIsVisible] = useState(false);
 

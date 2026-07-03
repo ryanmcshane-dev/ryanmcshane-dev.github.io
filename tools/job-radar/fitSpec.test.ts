@@ -56,10 +56,15 @@ describe('fitSpec structural invariants', () => {
     }
   });
 
-  it('base score plus hybrid penalty stay within a sane 0–100 frame', () => {
+  it('base score plus all additive boosts stay within a sane 0–100 frame', () => {
     const maxWeighted = fitSpec.weighted.reduce((sum, w) => sum + w.weight, 0);
     expect(fitSpec.baseScore).toBeGreaterThan(0);
-    expect(fitSpec.baseScore + maxWeighted).toBeLessThanOrEqual(100);
+    expect(fitSpec.baseScore + maxWeighted + fitSpec.preferredBoost).toBeLessThanOrEqual(100);
     expect(fitSpec.remote.hybridPenalty).toBeLessThanOrEqual(fitSpec.baseScore);
+  });
+
+  it('nudges Ryan\'s top-choice companies with a small positive boost', () => {
+    expect(fitSpec.preferredCompanies).toContain('Airbnb');
+    expect(fitSpec.preferredBoost).toBeGreaterThan(0);
   });
 });

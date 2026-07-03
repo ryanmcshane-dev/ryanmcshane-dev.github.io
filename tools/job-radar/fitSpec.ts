@@ -45,6 +45,12 @@ export interface FitSpec {
 
   /** Weighted signals that raise the score (Tier-1 scorer). */
   weighted: WeightedCriterion[];
+
+  /** Companies Ryan most wants to work at — their roles get a small nudge up the ranking. */
+  preferredCompanies: string[];
+
+  /** Points added when a posting's company is in `preferredCompanies`. */
+  preferredBoost: number;
 }
 
 export const fitSpec: FitSpec = {
@@ -144,4 +150,8 @@ export const fitSpec: FitSpec = {
       weight: 5,
     },
   ],
+
+  // Airbnb is Ryan's top choice among the reachable companies — a modest nudge, not a fit override.
+  preferredCompanies: ['Airbnb'],
+  preferredBoost: 8,
 };

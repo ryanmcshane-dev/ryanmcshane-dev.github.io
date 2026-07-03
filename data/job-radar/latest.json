@@ -1,19 +1,19 @@
 {
-  "generatedAt": "2026-07-03T00:23:22.956Z",
+  "generatedAt": "2026-07-03T11:13:28.177Z",
   "tier": "tier-2",
   "counts": {
-    "fetched": 1568,
-    "kept": 548,
-    "dropped": 1020,
+    "fetched": 1448,
+    "kept": 503,
+    "dropped": 945,
     "byVerdict": {
       "strong": 17,
-      "possible": 16,
-      "weak": 16,
-      "skip": 1
+      "possible": 14,
+      "weak": 19,
+      "skip": 0
     },
     "droppedByReason": {
-      "excluded-title": 623,
-      "off-role-family": 387,
+      "excluded-title": 564,
+      "off-role-family": 371,
       "on-site-only": 10,
       "below-comp-floor": 0
     }
@@ -21,24 +21,24 @@
   "errors": [],
   "items": [
     {
-      "id": "02bc5c21",
+      "id": "3e2de062",
       "source": "greenhouse",
-      "company": "Coinbase",
-      "title": "Staff Software Engineer - AI Platform Team",
+      "company": "Airbnb",
+      "title": "Senior Staff Engineer, Communication & Connectivity",
       "location": "Remote - USA",
       "remote": true,
-      "url": "https://www.coinbase.com/careers/positions/8025505?gh_jid=8025505",
-      "descriptionText": "Ready to do the most impactful work of your career? At Coinbase , we are uncompromising on our mission to increase economic freedom. The bar is high, the environment is intense, and we like it that way. This isn't a place for complacency, it’s a place to be pushed past your perceived limits. If you're ready to build the future of finance alongside people who refuse to settle for \"good enough,\" you belong here. Coinbase is a remote-first, but not remote-only company. Expect to get together quarte",
-      "postedAt": "2026-06-26T01:00:57-04:00",
+      "url": "https://careers.airbnb.com/positions/8017277?gh_jid=8017277",
+      "descriptionText": "Airbnb was born in 2007 when two hosts welcomed three guests to their San Francisco home, and has since grown to over 5 million hosts who have welcomed over 2 billion guest arrivals in almost every country across the globe. Every day, hosts offer unique stays and experiences that make it possible for guests to connect with communities in a more authentic way.\n\nThe Community You Will Join:\n\nAirbnb is powered by our Guests & Hosts. Our teams work on everything from driving improvements for the end",
+      "postedAt": "2026-06-23T11:51:19-04:00",
       "score": {
-        "fit": 86,
+        "fit": 90,
         "verdict": "strong",
-        "rationale": "Staff engineer on Coinbase’s AI Platform team, remote-US — backend platform engineering for AI systems is the intersection of Ryan’s two strengths (backend + AI-native), at his level and location.",
+        "rationale": "Senior Staff engineer on Communication & Connectivity — messaging/connectivity backend maps directly onto Ryan’s event-driven, IBM MQ / streaming platform experience, remote at his top-choice company.",
         "matched": [
-          "AI platform engineering (top differentiator)",
-          "Backend platform",
-          "Remote (US)",
-          "Staff level"
+          "Event-driven / messaging backend (direct match)",
+          "Senior-staff level",
+          "Remote",
+          "Top-choice company (Airbnb)"
         ],
         "concerns": [
           "Comp not disclosed"
@@ -46,24 +46,151 @@
       }
     },
     {
-      "id": "0a39ad82",
+      "id": "56981dbe",
       "source": "greenhouse",
-      "company": "Coinbase",
-      "title": "Staff Software Engineer (Tech Lead, Backend - Platform (Overseer)",
+      "company": "Airbnb",
+      "title": "Senior Software Engineer, (Python, GenAI, MCP)",
+      "location": "Remote - Bangalore, India",
+      "remote": true,
+      "url": "https://careers.airbnb.com/positions/7556182?gh_jid=7556182",
+      "descriptionText": "Airbnb was born in 2007 when two hosts welcomed three guests to their San Francisco home, and has since grown to over 5 million hosts who have welcomed over 2 billion guest arrivals in almost every country across the globe. Every day, hosts offer unique stays and experiences that make it possible for guests to connect with communities in a more authentic way.\n\nSenior Software Engineer, Integrations & Application Engineering\n\nAirbnb | India\n\nCompany Overview\n\nAirbnb was born in 2007 when two host",
+      "postedAt": "2026-06-26T12:07:12-04:00",
+      "score": {
+        "fit": 88,
+        "verdict": "strong",
+        "rationale": "Senior engineer on a Python/GenAI/MCP stack — genuine AI-native/agentic work (Ryan’s headline differentiator), senior and remote at his top-choice company.",
+        "matched": [
+          "Genuine AI-native / agentic (MCP)",
+          "Senior level",
+          "Remote",
+          "Top-choice company (Airbnb)"
+        ],
+        "concerns": [
+          "Python-centric (vs. Ryan’s Java)",
+          "Comp not disclosed"
+        ]
+      }
+    },
+    {
+      "id": "c4ade704",
+      "source": "greenhouse",
+      "company": "Airbnb",
+      "title": "Senior Software Engineer, Dev Tools",
       "location": "Remote - USA",
       "remote": true,
-      "url": "https://www.coinbase.com/careers/positions/7991011?gh_jid=7991011",
-      "descriptionText": "Ready to do the most impactful work of your career? At Coinbase , we are uncompromising on our mission to increase economic freedom. The bar is high, the environment is intense, and we like it that way. This isn't a place for complacency, it’s a place to be pushed past your perceived limits. If you're ready to build the future of finance alongside people who refuse to settle for \"good enough,\" you belong here. Coinbase is a remote-first, but not remote-only company. Expect to get together quarte",
-      "postedAt": "2026-06-26T12:23:56-04:00",
+      "url": "https://careers.airbnb.com/positions/8021476?gh_jid=8021476",
+      "descriptionText": "Airbnb was born in 2007 when two hosts welcomed three guests to their San Francisco home, and has since grown to over 5 million hosts who have welcomed over 2 billion guest arrivals in almost every country across the globe. Every day, hosts offer unique stays and experiences that make it possible for guests to connect with communities in a more authentic way.\n\nThe Community You Will Join:\n\nDev Tools’ mission is to help Airbnb engineers and AI agents build, validate, review, and ship high-quality",
+      "postedAt": "2026-07-02T14:42:34-04:00",
+      "score": {
+        "fit": 88,
+        "verdict": "strong",
+        "rationale": "Senior Dev Tools engineering, remote — developer tooling and platform work is one of Ryan’s core strengths, at his top-choice company.",
+        "matched": [
+          "Dev tooling / platform (Ryan’s strength)",
+          "Senior level",
+          "Remote",
+          "Top-choice company (Airbnb)"
+        ],
+        "concerns": [
+          "Comp not disclosed"
+        ]
+      }
+    },
+    {
+      "id": "458e0086",
+      "source": "greenhouse",
+      "company": "Airbnb",
+      "title": "Staff Software Engineer, Unified Data Store",
+      "location": "Brazil",
+      "remote": true,
+      "url": "https://careers.airbnb.com/positions/7867435?gh_jid=7867435",
+      "descriptionText": "Airbnb was born in 2007 when two hosts welcomed three guests to their San Francisco home, and has since grown to over 5 million hosts who have welcomed over 2 billion guest arrivals in almost every country across the globe. Every day, hosts offer unique stays and experiences that make it possible for guests to connect with communities in a more authentic way.\n\nThe Community You Will Join:\n\nThe Unified Data Store (UDS) team is the architect of Airbnb’s global system-of-record. We design, build, a",
+      "postedAt": "2026-06-16T16:19:54-04:00",
+      "score": {
+        "fit": 88,
+        "verdict": "strong",
+        "rationale": "Staff engineer on the Unified Data Store — distributed backend storage infrastructure at staff level, remote, at his top-choice company.",
+        "matched": [
+          "Backend / distributed systems",
+          "Staff level",
+          "Remote",
+          "Top-choice company (Airbnb)"
+        ],
+        "concerns": [
+          "Comp not disclosed"
+        ]
+      }
+    },
+    {
+      "id": "7f353fb9",
+      "source": "greenhouse",
+      "company": "Airbnb",
+      "title": "Principal Software Engineer, Performance",
+      "location": "Remote-US",
+      "remote": true,
+      "url": "https://careers.airbnb.com/positions/7826679?gh_jid=7826679",
+      "descriptionText": "Airbnb was born in 2007 when two hosts welcomed three guests to their San Francisco home, and has since grown to over 5 million hosts who have welcomed over 2 billion guest arrivals in almost every country across the globe. Every day, hosts offer unique stays and experiences that make it possible for guests to connect with communities in a more authentic way.\n\nAirbnb's infrastructure is scaling fast in the AI era: more compute, more GPU spend, more complexity across the stack. The Infrastructure",
+      "postedAt": "2026-04-17T17:11:47-04:00",
       "score": {
         "fit": 86,
         "verdict": "strong",
-        "rationale": "Staff Tech Lead, Backend Platform (Overseer) at Coinbase, remote-US — a backend-platform tech-lead role, which is exactly what Ryan does today. One of the best fits on the board.",
+        "rationale": "Principal engineer on Performance — deep backend performance ownership at the most senior IC level, remote at his top-choice company.",
         "matched": [
-          "Backend platform tech lead (direct match)",
-          "Remote (US)",
-          "Staff / lead level",
-          "Reputable fintech"
+          "Backend performance",
+          "Principal level",
+          "Remote",
+          "Top-choice company (Airbnb)"
+        ],
+        "concerns": [
+          "Principal bar is high",
+          "Comp not disclosed"
+        ]
+      }
+    },
+    {
+      "id": "8cbeca50",
+      "source": "greenhouse",
+      "company": "Airbnb",
+      "title": "Senior Software Engineer, Service Tools",
+      "location": "Brazil",
+      "remote": true,
+      "url": "https://careers.airbnb.com/positions/8024057?gh_jid=8024057",
+      "descriptionText": "Airbnb was born in 2007 when two hosts welcomed three guests to their San Francisco home, and has since grown to over 5 million hosts who have welcomed over 2 billion guest arrivals in almost every country across the globe. Every day, hosts offer unique stays and experiences that make it possible for guests to connect with communities in a more authentic way.\n\nThe Community You Will Join:\n\nAirbnb is a mission-driven company dedicated to helping create a world where anyone can belong anywhere. It",
+      "postedAt": "2026-06-24T07:09:17-04:00",
+      "score": {
+        "fit": 86,
+        "verdict": "strong",
+        "rationale": "Senior Service Tools engineer — internal platform/tooling for engineering teams, a direct match to Ryan’s tooling work, remote at his top-choice company.",
+        "matched": [
+          "Platform / tooling (Ryan’s strength)",
+          "Senior level",
+          "Remote",
+          "Top-choice company (Airbnb)"
+        ],
+        "concerns": [
+          "Comp not disclosed"
+        ]
+      }
+    },
+    {
+      "id": "ab100bdf",
+      "source": "greenhouse",
+      "company": "Airbnb",
+      "title": "Staff Software Engineer, Build (Bazel)",
+      "location": "Remote - USA",
+      "remote": true,
+      "url": "https://careers.airbnb.com/positions/7739337?gh_jid=7739337",
+      "descriptionText": "Airbnb was born in 2007 when two hosts welcomed three guests to their San Francisco home, and has since grown to over 5 million hosts who have welcomed over 2 billion guest arrivals in almost every country across the globe. Every day, hosts offer unique stays and experiences that make it possible for guests to connect with communities in a more authentic way.\n\nThe Community You Will Join:\n\nThe Developer Infrastructure organization’s mission is to enable Airbnb engineers and AI Coding Agents to s",
+      "postedAt": "2026-06-09T13:27:10-04:00",
+      "score": {
+        "fit": 86,
+        "verdict": "strong",
+        "rationale": "Staff engineer on Build (Bazel) — build and developer-infrastructure work that echoes Ryan’s CI/test-platform modernization, remote at his top-choice company.",
+        "matched": [
+          "Build / dev infrastructure (Ryan’s strength)",
+          "Staff level",
+          "Remote",
+          "Top-choice company (Airbnb)"
         ],
         "concerns": [
           "Comp not disclosed"
@@ -84,7 +211,7 @@
       "score": {
         "fit": 85,
         "verdict": "strong",
-        "rationale": "Senior backend on Ramp’s GTM Platform — backend platform engineering at an AI-forward fintech, fully remote with comp from $200K. A strong, well-rounded match.",
+        "rationale": "Senior backend on Ramp’s GTM Platform — backend platform engineering at an AI-forward fintech, fully remote with comp from $200K.",
         "matched": [
           "Backend platform",
           "Remote",
@@ -92,32 +219,7 @@
           "Comp clears the floor"
         ],
         "concerns": [
-          "GTM-platform domain is adjacent to Ryan’s integration work"
-        ]
-      }
-    },
-    {
-      "id": "36a8b253",
-      "source": "greenhouse",
-      "company": "Coinbase",
-      "title": "Staff Software Engineer, Backend - Platform (FinHub - Transfer)",
-      "location": "Remote - USA",
-      "remote": true,
-      "url": "https://www.coinbase.com/careers/positions/7761563?gh_jid=7761563",
-      "descriptionText": "Ready to do the most impactful work of your career? At Coinbase , we are uncompromising on our mission to increase economic freedom. The bar is high, the environment is intense, and we like it that way. This isn't a place for complacency, it’s a place to be pushed past your perceived limits. If you're ready to build the future of finance alongside people who refuse to settle for \"good enough,\" you belong here. Coinbase is a remote-first, but not remote-only company. Expect to get together quarte",
-      "postedAt": "2026-06-25T15:33:06-04:00",
-      "score": {
-        "fit": 85,
-        "verdict": "strong",
-        "rationale": "Staff backend on Coinbase’s FinHub Transfer platform, remote-US — backend platform work on financial transfers is almost a description of Ryan’s current role.",
-        "matched": [
-          "Backend platform",
-          "Financial-transfer domain (direct match)",
-          "Remote (US)",
-          "Staff level"
-        ],
-        "concerns": [
-          "Comp not disclosed"
+          "GTM-platform domain is adjacent"
         ]
       }
     },
@@ -135,15 +237,39 @@
       "score": {
         "fit": 84,
         "verdict": "strong",
-        "rationale": "AI Systems Engineer on OpenAI’s Codex Agents — building the agent harness (prompting, tool-calling, interpreting model outputs) is exactly Ryan’s AI-native/agentic strength, with excellent comp.",
+        "rationale": "AI Systems Engineer on OpenAI’s Codex Agents — building the agent harness (tool-calling, interpreting model outputs) is exactly Ryan’s agentic strength, with excellent comp.",
         "matched": [
           "Genuine agentic AI engineering (top differentiator)",
-          "Systems / backend",
-          "Comp well above the floor",
-          "Frontier AI company"
+          "Backend systems",
+          "Comp well above the floor"
         ],
         "concerns": [
-          "Remote eligibility unclear — SF-based, likely on-site/hybrid"
+          "Remote unclear — SF-based, likely on-site/hybrid"
+        ]
+      }
+    },
+    {
+      "id": "17ed3271",
+      "source": "greenhouse",
+      "company": "Airbnb",
+      "title": "Senior Staff Software Engineer, Trust",
+      "location": "Remote - US",
+      "remote": true,
+      "url": "https://careers.airbnb.com/positions/7818982?gh_jid=7818982",
+      "descriptionText": "Airbnb was born in 2007 when two hosts welcomed three guests to their San Francisco home, and has since grown to over 5 million hosts who have welcomed over 2 billion guest arrivals in almost every country across the globe. Every day, hosts offer unique stays and experiences that make it possible for guests to connect with communities in a more authentic way.\n\nThe Community You Will Join:\n\nEveryone at Airbnb thinks about trust, but our team obsesses over it daily. At the core of trust is safety,",
+      "postedAt": "2026-04-21T18:51:28-04:00",
+      "score": {
+        "fit": 84,
+        "verdict": "strong",
+        "rationale": "Senior Staff engineer on Trust — backend systems at senior-staff level, remote at his top-choice company.",
+        "matched": [
+          "Backend systems",
+          "Senior-staff level",
+          "Remote",
+          "Top-choice company (Airbnb)"
+        ],
+        "concerns": [
+          "Comp not disclosed"
         ]
       }
     },
@@ -161,7 +287,7 @@
       "score": {
         "fit": 84,
         "verdict": "strong",
-        "rationale": "Backend engineering on Ramp’s Developer API — directly matches Ryan’s API-platform and integration work, at an AI-forward fintech, fully remote with strong comp.",
+        "rationale": "Backend engineering on Ramp’s Developer API — directly matches Ryan’s API-platform/integration work, remote with strong comp.",
         "matched": [
           "Backend / API platform (domain match)",
           "Remote",
@@ -169,32 +295,7 @@
           "Comp clears the floor"
         ],
         "concerns": [
-          "Bottom of the pay band sits below $180K"
-        ]
-      }
-    },
-    {
-      "id": "995ae3b6",
-      "source": "greenhouse",
-      "company": "Coinbase",
-      "title": "Staff Software Engineer (Platform - FinEng)",
-      "location": "Remote - USA",
-      "remote": true,
-      "url": "https://www.coinbase.com/careers/positions/7773776?gh_jid=7773776",
-      "descriptionText": "Ready to do the most impactful work of your career? At Coinbase , we are uncompromising on our mission to increase economic freedom. The bar is high, the environment is intense, and we like it that way. This isn't a place for complacency, it’s a place to be pushed past your perceived limits. If you're ready to build the future of finance alongside people who refuse to settle for \"good enough,\" you belong here. Coinbase is a remote-first, but not remote-only company. Expect to get together quarte",
-      "postedAt": "2026-06-26T12:23:59-04:00",
-      "score": {
-        "fit": 83,
-        "verdict": "strong",
-        "rationale": "Staff platform engineer on Coinbase FinEng — financial-engineering backend at scale, remote-US: a direct match to Ryan’s financial-integration platform work.",
-        "matched": [
-          "Backend platform",
-          "Financial-engineering domain (match)",
-          "Remote (US)",
-          "Staff level"
-        ],
-        "concerns": [
-          "Comp not disclosed"
+          "Bottom of the band dips below $180K"
         ]
       }
     },
@@ -211,7 +312,7 @@
       "score": {
         "fit": 82,
         "verdict": "strong",
-        "rationale": "Product Engineer, AI at Linear — building AI features at an AI-native company, remote across North America. The AI focus and product-eng craft make this one of Ryan’s better fits here.",
+        "rationale": "Product Engineer, AI at Linear — building AI features at a genuinely AI-native company, remote across North America.",
         "matched": [
           "Genuine AI-native engineering (top differentiator)",
           "Remote (North America)",
@@ -224,129 +325,79 @@
       }
     },
     {
-      "id": "4ffb3df6",
-      "source": "ashby",
-      "company": "OpenAI",
-      "title": "Senior+ Software Engineer - Research Platform, Consumer Devices",
-      "location": "San Francisco",
+      "id": "ff10631b",
+      "source": "greenhouse",
+      "company": "Airbnb",
+      "title": "Senior Staff Operations Engineer, AIOps",
+      "location": "Remote - United States",
       "remote": true,
-      "url": "https://jobs.ashbyhq.com/openai/6d9925f4-3d0a-4710-8304-032d0080d12d",
-      "descriptionText": "ABOUT THE TEAM\n\nThe Future of Computing Research team is an Applied Research team within the Consumer Devices group focused on developing new methods and models as we advance forward in our mission of building AGI that benefits all of humanity.\n\nAs a Software Engineer on the Future of Computing Research team, you will work together with both the best ML researchers in the world and the greatest design talent of our generation to push the frontier of model capabilities.\n\nABOUT THE ROLE\n\nWe are lo",
-      "postedAt": "2026-06-26T00:08:20.821+00:00",
-      "compHint": "$293K - $325K",
+      "url": "https://careers.airbnb.com/positions/7644921?gh_jid=7644921",
+      "descriptionText": "Airbnb was born in 2007 when two hosts welcomed three guests to their San Francisco home, and has since grown to over 5 million hosts who have welcomed over 2 billion guest arrivals in almost every country across the globe. Every day, hosts offer unique stays and experiences that make it possible for guests to connect with communities in a more authentic way.\n\nThe Community You Will Join:\n\nBizTech fosters culture and connection at Airbnb by providing reliable corporate tools, innovative products",
+      "postedAt": "2026-03-04T13:54:26-05:00",
       "score": {
         "fit": 82,
         "verdict": "strong",
-        "rationale": "Senior+ engineer on OpenAI’s Research Platform, remote with comp from $293K — platform engineering at a frontier AI company, remote and well-paid: a rare combination.",
+        "rationale": "Senior Staff Operations Engineer, AIOps — combines Ryan’s observability/reliability strengths with applied AI, remote at his top-choice company.",
         "matched": [
-          "Platform engineering",
+          "Reliability / observability + AI (Ryan’s strengths)",
+          "Senior-staff level",
           "Remote",
-          "Frontier AI company",
-          "Comp well above the floor"
+          "Top-choice company (Airbnb)"
         ],
         "concerns": [
-          "Research-platform / consumer-devices niche"
+          "Ops-leaning rather than product backend",
+          "Comp not disclosed"
         ]
       }
     },
     {
-      "id": "7c3641f6",
+      "id": "6c0274b4",
       "source": "greenhouse",
-      "company": "Coinbase",
-      "title": "Staff Software Engineer, Backend (Consumer - Prediction Markets)",
-      "location": "Remote - USA",
+      "company": "Airbnb",
+      "title": "Software Engineer, BizTech(Python, LLM, GenAI, MCP)",
+      "location": "Bangalore, India",
       "remote": true,
-      "url": "https://www.coinbase.com/careers/positions/7997840?gh_jid=7997840",
-      "descriptionText": "Ready to do the most impactful work of your career? At Coinbase , we are uncompromising on our mission to increase economic freedom. The bar is high, the environment is intense, and we like it that way. This isn't a place for complacency, it’s a place to be pushed past your perceived limits. If you're ready to build the future of finance alongside people who refuse to settle for \"good enough,\" you belong here. Coinbase is a remote-first, but not remote-only company. Expect to get together quarte",
-      "postedAt": "2026-06-26T18:29:44-04:00",
+      "url": "https://careers.airbnb.com/positions/7902817?gh_jid=7902817",
+      "descriptionText": "Airbnb was born in 2007 when two hosts welcomed three guests to their San Francisco home, and has since grown to over 5 million hosts who have welcomed over 2 billion guest arrivals in almost every country across the globe. Every day, hosts offer unique stays and experiences that make it possible for guests to connect with communities in a more authentic way.\n\nSoftware Engineer, Integrations & Application Engineering\n\nAirbnb | India\n\nCompany Overview\n\nAirbnb was born in 2007 when two hosts welco",
+      "postedAt": "2026-06-26T12:09:11-04:00",
       "score": {
         "fit": 82,
         "verdict": "strong",
-        "rationale": "Staff backend engineer on Coinbase Prediction Markets, remote-US — backend, distributed, staff-level at a reputable fintech. A clean match.",
+        "rationale": "BizTech engineering on a Python/LLM/GenAI/MCP stack — genuine agentic AI work, remote at his top-choice company.",
         "matched": [
-          "Backend / distributed systems",
-          "Remote (US)",
-          "Staff level",
-          "Fintech"
+          "Genuine AI-native / agentic (LLM, MCP)",
+          "Remote",
+          "Top-choice company (Airbnb)"
         ],
         "concerns": [
-          "Comp not disclosed",
-          "Crypto domain"
+          "Mid-level title",
+          "Python-centric",
+          "Comp not disclosed"
         ]
       }
     },
     {
-      "id": "f294d0d0",
+      "id": "34bb805d",
       "source": "greenhouse",
-      "company": "Coinbase",
-      "title": "Senior Software Engineer, Backend - Identity",
-      "location": "Remote - USA",
+      "company": "Airbnb",
+      "title": "Staff Software Engineer, Marketplaces & Intelligence Data and AI",
+      "location": "United States",
       "remote": true,
-      "url": "https://www.coinbase.com/careers/positions/7746190?gh_jid=7746190",
-      "descriptionText": "Ready to do the most impactful work of your career? At Coinbase , we are uncompromising on our mission to increase economic freedom. The bar is high, the environment is intense, and we like it that way. This isn't a place for complacency, it’s a place to be pushed past your perceived limits. If you're ready to build the future of finance alongside people who refuse to settle for \"good enough,\" you belong here. Coinbase is a remote-first, but not remote-only company. Expect to get together quarte",
-      "postedAt": "2026-06-18T18:48:28-04:00",
-      "score": {
-        "fit": 81,
-        "verdict": "strong",
-        "rationale": "Senior backend engineer on Coinbase’s Identity systems — backend, distributed, remote-US at a reputable company; squarely in Ryan’s wheelhouse.",
-        "matched": [
-          "Backend / distributed systems",
-          "Remote (US)",
-          "Senior level",
-          "Reputable fintech"
-        ],
-        "concerns": [
-          "Comp not disclosed",
-          "Crypto domain"
-        ]
-      }
-    },
-    {
-      "id": "80297c4f",
-      "source": "greenhouse",
-      "company": "Coinbase",
-      "title": "Senior Software Engineer, Backend (Consumer - Prediction Markets)",
-      "location": "Remote - USA",
-      "remote": true,
-      "url": "https://www.coinbase.com/careers/positions/7997836?gh_jid=7997836",
-      "descriptionText": "Ready to do the most impactful work of your career? At Coinbase , we are uncompromising on our mission to increase economic freedom. The bar is high, the environment is intense, and we like it that way. This isn't a place for complacency, it’s a place to be pushed past your perceived limits. If you're ready to build the future of finance alongside people who refuse to settle for \"good enough,\" you belong here. Coinbase is a remote-first, but not remote-only company. Expect to get together quarte",
-      "postedAt": "2026-06-26T18:26:37-04:00",
-      "score": {
-        "fit": 81,
-        "verdict": "strong",
-        "rationale": "The senior counterpart to the Prediction Markets backend role — backend, remote-US, reputable fintech; a strong fit at Ryan’s level.",
-        "matched": [
-          "Backend / distributed systems",
-          "Remote (US)",
-          "Senior level",
-          "Fintech"
-        ],
-        "concerns": [
-          "Comp not disclosed",
-          "Crypto domain"
-        ]
-      }
-    },
-    {
-      "id": "37c2406f",
-      "source": "greenhouse",
-      "company": "Coinbase",
-      "title": "Senior Software Engineer, Infrastructure - Core Infra Systems",
-      "location": "Remote - USA",
-      "remote": true,
-      "url": "https://www.coinbase.com/careers/positions/8026678?gh_jid=8026678",
-      "descriptionText": "Ready to do the most impactful work of your career? At Coinbase , we are uncompromising on our mission to increase economic freedom. The bar is high, the environment is intense, and we like it that way. This isn't a place for complacency, it’s a place to be pushed past your perceived limits. If you're ready to build the future of finance alongside people who refuse to settle for \"good enough,\" you belong here. Coinbase is a remote-first, but not remote-only company. Expect to get together quarte",
-      "postedAt": "2026-06-26T17:38:58-04:00",
+      "url": "https://careers.airbnb.com/positions/7528577?gh_jid=7528577",
+      "descriptionText": "Airbnb was born in 2007 when two hosts welcomed three guests to their San Francisco home, and has since grown to over 5 million hosts who have welcomed over 2 billion guest arrivals in almost every country across the globe. Every day, hosts offer unique stays and experiences that make it possible for guests to connect with communities in a more authentic way.\n\nThe Community You Will Join:\nWe are currently hiring for multiple teams:\n\nAirbnb is powered by our Host and Guest communities. Our teams ",
+      "postedAt": "2026-06-03T21:32:33-04:00",
       "score": {
         "fit": 80,
         "verdict": "strong",
-        "rationale": "Senior backend on Coinbase Core Infrastructure, remote-US — distributed-systems infrastructure work that maps well to Ryan’s platform experience.",
+        "rationale": "Staff engineer on Marketplaces Data and AI — staff-level backend with an AI dimension, remote at his top-choice company.",
         "matched": [
-          "Backend / core infrastructure",
-          "Distributed systems",
-          "Remote (US)"
+          "Backend + AI",
+          "Staff level",
+          "Remote",
+          "Top-choice company (Airbnb)"
         ],
         "concerns": [
+          "Data/AI-leaning scope",
           "Comp not disclosed"
         ]
       }
@@ -364,7 +415,7 @@
       "score": {
         "fit": 79,
         "verdict": "strong",
-        "rationale": "Product engineering at Linear — a genuinely AI-native company building tools “for teams and agents,” remote across North America. Leans fullstack, but the AI-native product context fits Ryan well.",
+        "rationale": "Product Engineer at Linear — an AI-native company building tools “for teams and agents,” remote across North America.",
         "matched": [
           "Genuine AI-native product company",
           "Remote (North America)",
@@ -377,74 +428,26 @@
       }
     },
     {
-      "id": "476ff248",
+      "id": "3f02b6ec",
       "source": "greenhouse",
-      "company": "Dropbox",
-      "title": "Senior Infrastructure Software Engineer, Search Platform",
-      "location": "Remote - US: Select locations",
+      "company": "Airbnb",
+      "title": "Software Engineer, Unified Data Store",
+      "location": "Brazil",
       "remote": true,
-      "url": "https://jobs.dropbox.com/listing/7974878?gh_jid=7974878",
-      "descriptionText": "Role Description\n\nAs a Senior Infrastructure Engineer, your role will be crucial in shaping and constructing the robust systems that not only support our current flagship products but also lay the groundwork for the next wave of engineering innovations. From optimizing user experiences across various projects to ensuring seamless scalability and data integrity, you'll be at the forefront of shaping the technological backbone of our platform.\n\nCollaborating closely with cross-functional teams, yo",
-      "postedAt": "2026-07-02T13:48:16-04:00",
-      "score": {
-        "fit": 78,
-        "verdict": "strong",
-        "rationale": "Senior Infrastructure engineer on Dropbox’s Search Platform, remote-US — backend, distributed-systems work that fits Ryan’s strengths directly.",
-        "matched": [
-          "Backend infrastructure / distributed systems",
-          "Remote (US)",
-          "Senior level"
-        ],
-        "concerns": [
-          "Search-platform specialization",
-          "Comp not disclosed"
-        ]
-      }
-    },
-    {
-      "id": "61fbb1f1",
-      "source": "greenhouse",
-      "company": "Coinbase",
-      "title": "Staff Software Engineer, Developer Infrastructure",
-      "location": "Remote - USA",
-      "remote": true,
-      "url": "https://www.coinbase.com/careers/positions/7964410?gh_jid=7964410",
-      "descriptionText": "Ready to do the most impactful work of your career? At Coinbase , we are uncompromising on our mission to increase economic freedom. The bar is high, the environment is intense, and we like it that way. This isn't a place for complacency, it’s a place to be pushed past your perceived limits. If you're ready to build the future of finance alongside people who refuse to settle for \"good enough,\" you belong here. Coinbase is a remote-first, but not remote-only company. Expect to get together quarte",
-      "postedAt": "2026-06-24T16:02:54-04:00",
-      "score": {
-        "fit": 78,
-        "verdict": "strong",
-        "rationale": "Staff Developer Infrastructure at Coinbase, remote-US — developer-platform and tooling at scale, a direct match to Ryan’s CI/tooling strengths.",
-        "matched": [
-          "Developer infrastructure / tooling (Ryan’s strength)",
-          "Remote (US)",
-          "Staff level"
-        ],
-        "concerns": [
-          "Comp not disclosed"
-        ]
-      }
-    },
-    {
-      "id": "67d1e6ab",
-      "source": "greenhouse",
-      "company": "Coinbase",
-      "title": "Senior Staff Software Engineer, Core Automation",
-      "location": "Remote - USA",
-      "remote": true,
-      "url": "https://www.coinbase.com/careers/positions/7580292?gh_jid=7580292",
-      "descriptionText": "Ready to do the most impactful work of your career? At Coinbase , we are uncompromising on our mission to increase economic freedom. The bar is high, the environment is intense, and we like it that way. This isn't a place for complacency, it’s a place to be pushed past your perceived limits. If you're ready to build the future of finance alongside people who refuse to settle for \"good enough,\" you belong here. Coinbase is a remote-first, but not remote-only company. Expect to get together quarte",
-      "postedAt": "2026-06-26T12:23:42-04:00",
+      "url": "https://careers.airbnb.com/positions/8024426?gh_jid=8024426",
+      "descriptionText": "Airbnb was born in 2007 when two hosts welcomed three guests to their San Francisco home, and has since grown to over 5 million hosts who have welcomed over 2 billion guest arrivals in almost every country across the globe. Every day, hosts offer unique stays and experiences that make it possible for guests to connect with communities in a more authentic way.\n\nThe Community You Will Join:\n\nThe Unified Data Store (UDS) team is on a mission to build a reliable, scalable, and globally distributed s",
+      "postedAt": "2026-06-23T20:38:15-04:00",
       "score": {
         "fit": 76,
         "verdict": "strong",
-        "rationale": "Senior Staff, Core Automation at Coinbase, remote-US — automation-platform engineering that plays directly to Ryan’s CI/automation modernization strengths.",
+        "rationale": "Engineer on the Unified Data Store — distributed backend storage that fits Ryan’s systems background, remote at his top-choice company; the mid-level title is the main caveat.",
         "matched": [
-          "Automation platform (Ryan’s strength)",
-          "Remote (US)",
-          "Senior-staff level"
+          "Backend / distributed systems",
+          "Remote",
+          "Top-choice company (Airbnb)"
         ],
         "concerns": [
+          "Mid-level title (not senior)",
           "Comp not disclosed"
         ]
       }
@@ -462,7 +465,7 @@
       "score": {
         "fit": 74,
         "verdict": "possible",
-        "rationale": "Fullstack engineering at Linear — AI-native company, remote North America; the backend half fits well, though the role carries a substantial frontend load.",
+        "rationale": "Fullstack engineering at Linear — AI-native company, remote North America; the backend half fits well, though it carries a real frontend load.",
         "matched": [
           "AI-native company",
           "Remote (North America)",
@@ -476,75 +479,27 @@
       }
     },
     {
-      "id": "f1e0aebe",
+      "id": "15c5a9d4",
       "source": "greenhouse",
-      "company": "Coinbase",
-      "title": "Staff Software Engineer, Core Reliability",
-      "location": "Remote - USA",
+      "company": "Airbnb",
+      "title": "Senior Software Engineer, Quality Platform",
+      "location": "Brazil",
       "remote": true,
-      "url": "https://www.coinbase.com/careers/positions/8029711?gh_jid=8029711",
-      "descriptionText": "Ready to do the most impactful work of your career? At Coinbase , we are uncompromising on our mission to increase economic freedom. The bar is high, the environment is intense, and we like it that way. This isn't a place for complacency, it’s a place to be pushed past your perceived limits. If you're ready to build the future of finance alongside people who refuse to settle for \"good enough,\" you belong here. Coinbase is a remote-first, but not remote-only company. Expect to get together quarte",
-      "postedAt": "2026-06-25T20:17:15-04:00",
+      "url": "https://careers.airbnb.com/positions/7380149?gh_jid=7380149",
+      "descriptionText": "Airbnb was born in 2007 when two hosts welcomed three guests to their San Francisco home, and has since grown to over 5 million hosts who have welcomed over 2 billion guest arrivals in almost every country across the globe. Every day, hosts offer unique stays and experiences that make it possible for guests to connect with communities in a more authentic way.\n\nThe Community You Will Join:\n\nThe Quality Platform team is at the heart of Airbnb’s mission to deliver a seamless, high-quality experienc",
+      "postedAt": "2026-06-25T16:28:40-04:00",
       "score": {
         "fit": 74,
         "verdict": "possible",
-        "rationale": "Staff Core Reliability at Coinbase, remote-US — reliability engineering aligned with Ryan’s observability/alerting work, at staff level.",
+        "rationale": "Senior engineer on the Quality Platform — Ryan’s deep test-automation/QE background fits this well, remote at his top-choice company.",
         "matched": [
-          "Reliability / observability (Ryan’s strength)",
-          "Remote (US)",
-          "Staff level"
+          "Quality / test platform (Ryan’s QE background)",
+          "Senior level",
+          "Remote",
+          "Top-choice company (Airbnb)"
         ],
         "concerns": [
-          "Reliability-focused rather than product backend",
-          "Comp not disclosed"
-        ]
-      }
-    },
-    {
-      "id": "c4ade704",
-      "source": "greenhouse",
-      "company": "Airbnb",
-      "title": "Senior Software Engineer, Dev Tools",
-      "location": "Remote - USA",
-      "remote": true,
-      "url": "https://careers.airbnb.com/positions/8021476?gh_jid=8021476",
-      "descriptionText": "Airbnb was born in 2007 when two hosts welcomed three guests to their San Francisco home, and has since grown to over 5 million hosts who have welcomed over 2 billion guest arrivals in almost every country across the globe. Every day, hosts offer unique stays and experiences that make it possible for guests to connect with communities in a more authentic way.\n\nThe Community You Will Join:\n\nDev Tools’ mission is to help Airbnb engineers and AI agents build, validate, review, and ship high-quality",
-      "postedAt": "2026-07-02T14:42:34-04:00",
-      "score": {
-        "fit": 73,
-        "verdict": "possible",
-        "rationale": "Senior Dev Tools engineering at Airbnb, remote-US — directly echoes Ryan’s tooling/automation platform work at a reputable company.",
-        "matched": [
-          "Dev tooling / platform (Ryan’s strength)",
-          "Remote (US)",
-          "Senior level"
-        ],
-        "concerns": [
-          "Comp not disclosed"
-        ]
-      }
-    },
-    {
-      "id": "79209ae1",
-      "source": "greenhouse",
-      "company": "Block",
-      "title": "Senior Software Engineer, Square Financial Services",
-      "location": "New York, NY, United States of America",
-      "remote": "unknown",
-      "url": "http://block.xyz/careers/jobs/5284783008?gh_jid=5284783008",
-      "descriptionText": "Block is one company built from many blocks, all united by the same purpose of economic empowerment. The blocks that form our foundational teams — People, Finance, Counsel, Hardware, Information Security, Platform Infrastructure Engineering, and more — provide support and guidance at the corporate level. They work across business groups and around the globe, spanning time zones and disciplines to develop inclusive People policies, forecast finances, give legal counsel, safeguard systems, nurture",
-      "postedAt": "2026-06-26T19:07:42-04:00",
-      "score": {
-        "fit": 72,
-        "verdict": "possible",
-        "rationale": "Backend engineering for Square Financial Services — a genuine financial-platform domain match, though the board doesn’t confirm remote eligibility or comp.",
-        "matched": [
-          "Backend",
-          "Financial-services domain (match)",
-          "Senior level"
-        ],
-        "concerns": [
-          "Remote eligibility unclear",
+          "Quality-platform niche",
           "Comp not disclosed"
         ]
       }
@@ -561,65 +516,91 @@
       "postedAt": "2025-03-27T16:44:10.676+00:00",
       "compHint": "$210K - $490K",
       "score": {
-        "fit": 72,
+        "fit": 74,
         "verdict": "possible",
-        "rationale": "Developer Productivity engineering at OpenAI — internal tooling/platform work that echoes Ryan’s test-automation and DevEx modernization, with strong comp.",
+        "rationale": "Developer Productivity engineering at OpenAI — internal tooling/platform work echoing Ryan’s DevEx modernization, with strong comp.",
         "matched": [
           "Dev tooling / platform (Ryan’s strength)",
           "Frontier AI company",
           "Comp well above the floor"
         ],
         "concerns": [
-          "Remote eligibility unclear (SF)"
+          "Remote unclear (SF)"
         ]
       }
     },
     {
-      "id": "e9f41c9a",
+      "id": "f3440da6",
       "source": "greenhouse",
-      "company": "Coinbase",
-      "title": "Senior Software Engineer - Blockchain Network",
-      "location": "Remote - USA",
+      "company": "Airbnb",
+      "title": "Senior Automation Engineer, Infrastructure",
+      "location": "Brazil",
       "remote": true,
-      "url": "https://www.coinbase.com/careers/positions/7967649?gh_jid=7967649",
-      "descriptionText": "Ready to do the most impactful work of your career? At Coinbase , we are uncompromising on our mission to increase economic freedom. The bar is high, the environment is intense, and we like it that way. This isn't a place for complacency, it’s a place to be pushed past your perceived limits. If you're ready to build the future of finance alongside people who refuse to settle for \"good enough,\" you belong here. Coinbase is a remote-first, but not remote-only company. Expect to get together quarte",
-      "postedAt": "2026-06-26T01:05:36-04:00",
+      "url": "https://careers.airbnb.com/positions/7380262?gh_jid=7380262",
+      "descriptionText": "Airbnb was born in 2007 when two hosts welcomed three guests to their San Francisco home, and has since grown to over 5 million hosts who have welcomed over 2 billion guest arrivals in almost every country across the globe. Every day, hosts offer unique stays and experiences that make it possible for guests to connect with communities in a more authentic way.\n\nThe Community You Will Join:\n\nThe Quality Engineering team helps Airbnb build high-quality software efficiently. We enable Airbnb enginee",
+      "postedAt": "2026-06-09T20:41:20-04:00",
       "score": {
-        "fit": 70,
+        "fit": 72,
         "verdict": "possible",
-        "rationale": "Senior backend on Coinbase’s Blockchain Network, remote-US — backend infrastructure at a reputable fintech, with some crypto-protocol specialization.",
+        "rationale": "Senior Automation Engineer, Infrastructure — infrastructure automation aligns with Ryan’s CI/automation strengths, remote at his top-choice company.",
         "matched": [
-          "Backend / infrastructure",
-          "Remote (US)",
-          "Senior level"
+          "Automation (Ryan’s strength)",
+          "Senior level",
+          "Remote",
+          "Top-choice company (Airbnb)"
         ],
         "concerns": [
-          "Blockchain-network specialization",
+          "Infra-automation niche",
           "Comp not disclosed"
         ]
       }
     },
     {
-      "id": "dfbb38bc",
+      "id": "92e9adbf",
       "source": "greenhouse",
-      "company": "Coinbase",
-      "title": "Staff Software Engineer, EAA CX",
-      "location": "Remote - USA",
-      "remote": true,
-      "url": "https://www.coinbase.com/careers/positions/6784618?gh_jid=6784618",
-      "descriptionText": "Ready to do the most impactful work of your career? At Coinbase , we are uncompromising on our mission to increase economic freedom. The bar is high, the environment is intense, and we like it that way. This isn't a place for complacency, it’s a place to be pushed past your perceived limits. If you're ready to build the future of finance alongside people who refuse to settle for \"good enough,\" you belong here. Coinbase is a remote-first, but not remote-only company. Expect to get together quarte",
-      "postedAt": "2026-06-17T22:27:30-04:00",
+      "company": "Block",
+      "title": "Staff Software Engineer, Cash App Banking",
+      "location": "Toronto, Ontario, Canada",
+      "remote": "unknown",
+      "url": "http://block.xyz/careers/jobs/5196196008?gh_jid=5196196008",
+      "descriptionText": "It all started with an idea at Block in 2013. Initially built to take the pain out of peer-to-peer payments, Cash App has gone from a simple product with a single purpose to a dynamic ecosystem, developing unique financial products, including Afterpay/Clearpay, to provide a better way to send, spend, invest, borrow and save to our 50+ million monthly active customers. We want to redefine the world's relationship with money to make it more relatable, instantly available, and universally accessibl",
+      "postedAt": "2026-07-02T18:17:15-04:00",
+      "score": {
+        "fit": 72,
+        "verdict": "possible",
+        "rationale": "Staff engineer on Cash App Banking — backend at a fintech at staff level, though the board doesn’t confirm remote eligibility or comp.",
+        "matched": [
+          "Backend",
+          "Fintech (banking)",
+          "Staff level"
+        ],
+        "concerns": [
+          "Remote eligibility unclear",
+          "Comp not disclosed"
+        ]
+      }
+    },
+    {
+      "id": "79209ae1",
+      "source": "greenhouse",
+      "company": "Block",
+      "title": "Senior Software Engineer, Square Financial Services",
+      "location": "New York, NY, United States of America",
+      "remote": "unknown",
+      "url": "http://block.xyz/careers/jobs/5284783008?gh_jid=5284783008",
+      "descriptionText": "Block is one company built from many blocks, all united by the same purpose of economic empowerment. The blocks that form our foundational teams — People, Finance, Counsel, Hardware, Information Security, Platform Infrastructure Engineering, and more — provide support and guidance at the corporate level. They work across business groups and around the globe, spanning time zones and disciplines to develop inclusive People policies, forecast finances, give legal counsel, safeguard systems, nurture",
+      "postedAt": "2026-06-26T19:07:42-04:00",
       "score": {
         "fit": 70,
         "verdict": "possible",
-        "rationale": "A staff backend-ish role (EAA CX) at Coinbase, remote-US — good level and location, but the customer-experience scope is ambiguous from the posting.",
+        "rationale": "Backend engineering for Square Financial Services — a genuine financial-platform domain match, though remote and comp aren’t confirmed.",
         "matched": [
-          "Staff level",
-          "Remote (US)",
-          "Reputable fintech"
+          "Backend",
+          "Financial-services domain (match)",
+          "Senior level"
         ],
         "concerns": [
-          "Role scope unclear (CX)",
+          "Remote eligibility unclear",
           "Comp not disclosed"
         ]
       }
@@ -638,7 +619,7 @@
       "score": {
         "fit": 68,
         "verdict": "possible",
-        "rationale": "Backend/platform engineering for OpenAI’s localization — real engineering at a frontier AI company with solid comp, though the localization scope is niche and remote is unclear.",
+        "rationale": "Backend/platform engineering for OpenAI localization — real engineering at a frontier AI company with solid comp, though a niche scope and unclear remote.",
         "matched": [
           "Backend / platform",
           "Frontier AI company",
@@ -646,155 +627,105 @@
         ],
         "concerns": [
           "Localization niche",
-          "Remote eligibility unclear (SF)"
+          "Remote unclear (SF)"
         ]
       }
     },
     {
-      "id": "d6060148",
+      "id": "ff881728",
       "source": "greenhouse",
-      "company": "Dropbox",
-      "title": "Staff Fullstack Software Engineer, Core Performance",
-      "location": "Remote - US: All locations",
-      "remote": true,
-      "url": "https://jobs.dropbox.com/listing/7421149?gh_jid=7421149",
-      "descriptionText": "Role Description\n\nAs a Staff Software Engineer at Dropbox, you'll be the singular technical owner of application performance across the Core org — the part of Dropbox that owns every consumer-facing surface: web, iOS, Android, and desktop. This is one of the company's most visible, cross-cutting technical challenges. Your mandate is to make Dropbox feel fast on every surface our customers use. You'll operate at the intersection of measurement, engineering, and product impact, owning ambiguous pr",
-      "postedAt": "2026-07-02T13:48:16-04:00",
-      "score": {
-        "fit": 68,
-        "verdict": "possible",
-        "rationale": "A staff fullstack performance role at Dropbox, remote-US — real backend performance work, but it spans web/mobile/desktop surfaces, pulling toward fullstack.",
-        "matched": [
-          "Staff level",
-          "Remote (US)",
-          "Backend performance"
-        ],
-        "concerns": [
-          "Fullstack across mobile/frontend surfaces",
-          "Comp not disclosed"
-        ]
-      }
-    },
-    {
-      "id": "f4fd453a",
-      "source": "greenhouse",
-      "company": "Coinbase",
-      "title": "Staff Software Engineer, Solana Staking Protocol",
-      "location": "Remote - USA",
-      "remote": true,
-      "url": "https://www.coinbase.com/careers/positions/7684298?gh_jid=7684298",
-      "descriptionText": "Ready to do the most impactful work of your career? At Coinbase , we are uncompromising on our mission to increase economic freedom. The bar is high, the environment is intense, and we like it that way. This isn't a place for complacency, it’s a place to be pushed past your perceived limits. If you're ready to build the future of finance alongside people who refuse to settle for \"good enough,\" you belong here. Coinbase is a remote-first, but not remote-only company. Expect to get together quarte",
-      "postedAt": "2026-06-26T12:23:54-04:00",
-      "score": {
-        "fit": 68,
-        "verdict": "possible",
-        "rationale": "A staff backend role on Coinbase’s Solana staking protocol, remote-US — solid backend and level, but deep blockchain-protocol specialization narrows the fit.",
-        "matched": [
-          "Backend",
-          "Remote (US)",
-          "Staff level"
-        ],
-        "concerns": [
-          "Deep blockchain-protocol specialization",
-          "Comp not disclosed"
-        ]
-      }
-    },
-    {
-      "id": "b123c1b7",
-      "source": "greenhouse",
-      "company": "Dropbox",
-      "title": "Staff Site Reliability Engineer, Production Engineering",
-      "location": "Remote - US: Select locations",
-      "remote": true,
-      "url": "https://jobs.dropbox.com/listing/7961824?gh_jid=7961824",
-      "descriptionText": "Role Description\n\nAs a Site Reliability Engineer focused on company-wide reliability strategy, you will play a crucial role in advancing Dropbox’s stability, observability, incident response, and operational excellence as AI technologies reshape how software is built and operated. You will help define the reliability strategy for a new chapter of agentic development and AI-enabled software delivery, including preparing Dropbox for increases in pull request volume, service complexity, incident pa",
-      "postedAt": "2026-07-02T13:48:16-04:00",
-      "score": {
-        "fit": 67,
-        "verdict": "possible",
-        "rationale": "A staff SRE role at Dropbox, remote-US — reliability and observability are genuine Ryan strengths (Splunk/New Relic, alerting), though SRE is its own discipline.",
-        "matched": [
-          "Reliability / observability (Ryan’s strength)",
-          "Remote (US)",
-          "Staff level"
-        ],
-        "concerns": [
-          "SRE is distinct from backend product engineering",
-          "Comp not disclosed"
-        ]
-      }
-    },
-    {
-      "id": "b120d86d",
-      "source": "greenhouse",
-      "company": "Dropbox",
-      "title": "Principal Software Engineer, Core Sharing & Collaboration",
-      "location": "Remote - Canada: Select locations",
-      "remote": true,
-      "url": "https://jobs.dropbox.com/listing/8006977?gh_jid=8006977",
-      "descriptionText": "Role Description\n\nAs a Principal Engineer at Dropbox, you will own company critical, loosely defined technical problems with multi year impact, operating at the intersection of technology, product, business strategy, and applied AI. You will define long term technical direction for customer facing experiences used by millions, identifying where AI meaningfully improves customer value and translating evolving business context and industry advances into durable, multi area strategies and roadmaps ",
-      "postedAt": "2026-07-02T13:48:16-04:00",
+      "company": "Block",
+      "title": "Senior Site Reliability Engineer",
+      "location": "New York, NY, United States of America",
+      "remote": "unknown",
+      "url": "http://block.xyz/careers/jobs/5182994008?gh_jid=5182994008",
+      "descriptionText": "Block builds simple, powerful tools that make progress towards an economy that’s truly open to all.\n\nEach of our brands unlocks different aspects of the economy for more people. Square makes commerce and financial services accessible to sellers. Cash App is the easy way to spend, send, and store money. Afterpay is transforming the way customers manage their spending over time. TIDAL is a music platform that empowers artists to thrive as entrepreneurs. Bitkey is a simple self-custody wallet built",
+      "postedAt": "2026-07-02T18:17:15-04:00",
       "score": {
         "fit": 66,
         "verdict": "possible",
-        "rationale": "A Principal backend role at Dropbox with applied-AI scope — senior-most and technically rich, but the Canada-remote posting and Principal bar add friction.",
+        "rationale": "Senior Site Reliability Engineer at Block — reliability/observability is a genuine Ryan strength, though SRE is its own discipline and remote is unclear.",
         "matched": [
-          "Backend / systems",
-          "Applied AI",
-          "Principal (tech-lead) level"
-        ],
-        "concerns": [
-          "Remote listed for Canada — US eligibility unclear",
-          "Comp not disclosed"
-        ]
-      }
-    },
-    {
-      "id": "70b090a4",
-      "source": "greenhouse",
-      "company": "Block",
-      "title": "Software Engineer, Cash App - Lending Products",
-      "location": "Bay Area, CA, United States of America",
-      "remote": "unknown",
-      "url": "http://block.xyz/careers/jobs/5196173008?gh_jid=5196173008",
-      "descriptionText": "It all started with an idea at Block in 2013. Initially built to take the pain out of peer-to-peer payments, Cash App has gone from a simple product with a single purpose to a dynamic ecosystem, developing unique financial products, including Afterpay/Clearpay, to provide a better way to send, spend, invest, borrow and save to our 50+ million monthly active customers. We want to redefine the world's relationship with money to make it more relatable, instantly available, and universally accessibl",
-      "postedAt": "2026-06-09T17:18:51-04:00",
-      "score": {
-        "fit": 60,
-        "verdict": "possible",
-        "rationale": "Backend on Cash App Lending — a real fintech backend fit, but the mid-level title and unclear remote status temper it.",
-        "matched": [
-          "Backend",
-          "Fintech (lending)"
-        ],
-        "concerns": [
-          "Mid-level title (not senior)",
-          "Remote eligibility unclear",
-          "Comp not disclosed"
-        ]
-      }
-    },
-    {
-      "id": "56981dbe",
-      "source": "greenhouse",
-      "company": "Airbnb",
-      "title": "Senior Software Engineer, (Python, GenAI, MCP)",
-      "location": "Remote - Bangalore, India",
-      "remote": true,
-      "url": "https://careers.airbnb.com/positions/7556182?gh_jid=7556182",
-      "descriptionText": "Airbnb was born in 2007 when two hosts welcomed three guests to their San Francisco home, and has since grown to over 5 million hosts who have welcomed over 2 billion guest arrivals in almost every country across the globe. Every day, hosts offer unique stays and experiences that make it possible for guests to connect with communities in a more authentic way.\n\nSenior Software Engineer, Integrations & Application Engineering\n\nAirbnb | India\n\nCompany Overview\n\nAirbnb was born in 2007 when two host",
-      "postedAt": "2026-06-26T12:07:12-04:00",
-      "score": {
-        "fit": 58,
-        "verdict": "possible",
-        "rationale": "A senior GenAI/MCP engineering role — exactly Ryan’s agentic strength, but listed as remote-Bangalore, which likely limits US eligibility.",
-        "matched": [
-          "Genuine GenAI / MCP / agentic stack (top differentiator)",
+          "Reliability / observability (Ryan’s strength)",
           "Senior level"
         ],
         "concerns": [
-          "Based in Bangalore, India — US eligibility unclear",
+          "SRE is distinct from backend product",
+          "Remote eligibility unclear"
+        ]
+      }
+    },
+    {
+      "id": "43cc7a5f",
+      "source": "greenhouse",
+      "company": "Airbnb",
+      "title": "Senior Staff Data Engineer - Data Stewardship",
+      "location": "United States",
+      "remote": true,
+      "url": "https://careers.airbnb.com/positions/7998356?gh_jid=7998356",
+      "descriptionText": "Airbnb was born in 2007 when two hosts welcomed three guests to their San Francisco home, and has since grown to over 5 million hosts who have welcomed over 2 billion guest arrivals in almost every country across the globe. Every day, hosts offer unique stays and experiences that make it possible for guests to connect with communities in a more authentic way.\n\nThe Community You Will Join:\n\nThe Data Stewardship team is a group of passionate data practitioners with a diverse background in analytic",
+      "postedAt": "2026-06-10T19:39:45-04:00",
+      "score": {
+        "fit": 64,
+        "verdict": "possible",
+        "rationale": "Senior Staff Data Engineer, Data Stewardship — senior-staff and remote at his top-choice company, but data engineering sits outside Ryan’s backend/AI core.",
+        "matched": [
+          "Senior-staff level",
+          "Remote",
+          "Top-choice company (Airbnb)"
+        ],
+        "concerns": [
+          "Data-engineering discipline",
+          "Comp not disclosed"
+        ]
+      }
+    },
+    {
+      "id": "b69d1b13",
+      "source": "greenhouse",
+      "company": "Airbnb",
+      "title": "Senior Staff Data Engineer, Marketplaces DNA",
+      "location": "United States",
+      "remote": true,
+      "url": "https://careers.airbnb.com/positions/7463663?gh_jid=7463663",
+      "descriptionText": "Airbnb was born in 2007 when two hosts welcomed three guests to their San Francisco home, and has since grown to over 5 million hosts who have welcomed over 2 billion guest arrivals in almost every country across the globe. Every day, hosts offer unique stays and experiences that make it possible for guests to connect with communities in a more authentic way.\n\nThe Community You Will Join:\n\nMarketplaces Data and AI is a group of passionate machine learning, software, data, and analytics engineers",
+      "postedAt": "2026-01-26T11:47:44-05:00",
+      "score": {
+        "fit": 63,
+        "verdict": "possible",
+        "rationale": "Senior Staff Data Engineer, Marketplaces — attractive level, remote, and top-choice company, but a data-engineering focus rather than backend product work.",
+        "matched": [
+          "Senior-staff level",
+          "Remote",
+          "Top-choice company (Airbnb)"
+        ],
+        "concerns": [
+          "Data-engineering discipline",
+          "Comp not disclosed"
+        ]
+      }
+    },
+    {
+      "id": "bf332374",
+      "source": "greenhouse",
+      "company": "Block",
+      "title": "Software Engineer, Finance Applications",
+      "location": "Bay Area, CA, United States of America",
+      "remote": "unknown",
+      "url": "http://block.xyz/careers/jobs/4888459008?gh_jid=4888459008",
+      "descriptionText": "Block is one company built from many blocks, all united by the same purpose of economic empowerment. The blocks that form our foundational teams — People, Finance, Counsel, Hardware, Information Security, Platform Infrastructure Engineering, and more — provide support and guidance at the corporate level. They work across business groups and around the globe, spanning time zones and disciplines to develop inclusive People policies, forecast finances, give legal counsel, safeguard systems, nurture",
+      "postedAt": "2026-07-02T18:17:15-04:00",
+      "score": {
+        "fit": 60,
+        "verdict": "possible",
+        "rationale": "Software Engineer on Finance Applications at Block — financial-systems backend echoes Ryan’s domain, but the mid-level title and unclear remote temper it.",
+        "matched": [
+          "Backend",
+          "Financial-systems domain (match)"
+        ],
+        "concerns": [
+          "Mid-level title",
+          "Remote eligibility unclear",
           "Comp not disclosed"
         ]
       }
@@ -808,44 +739,166 @@
       "remote": "unknown",
       "url": "http://block.xyz/careers/jobs/5196189008?gh_jid=5196189008",
       "descriptionText": "It all started with an idea at Block in 2013. Initially built to take the pain out of peer-to-peer payments, Cash App has gone from a simple product with a single purpose to a dynamic ecosystem, developing unique financial products, including Afterpay/Clearpay, to provide a better way to send, spend, invest, borrow and save to our 50+ million monthly active customers. We want to redefine the world's relationship with money to make it more relatable, instantly available, and universally accessibl",
-      "postedAt": "2026-07-01T13:28:54-04:00",
+      "postedAt": "2026-07-02T18:17:15-04:00",
       "score": {
         "fit": 58,
         "verdict": "possible",
-        "rationale": "Backend on Cash App Taxes — a fintech backend fit, but the Toronto/Canada listing and unclear remote status hold it back.",
+        "rationale": "Backend on Cash App Taxes — a fintech backend fit, but remote eligibility isn’t confirmed.",
         "matched": [
           "Backend",
           "Fintech",
           "Senior level"
         ],
         "concerns": [
-          "Toronto/Canada — US-remote unclear",
+          "Remote eligibility unclear",
           "Comp not disclosed"
         ]
       }
     },
     {
-      "id": "6c0274b4",
+      "id": "70b090a4",
       "source": "greenhouse",
-      "company": "Airbnb",
-      "title": "Software Engineer, BizTech(Python, LLM, GenAI, MCP)",
-      "location": "Bangalore, India",
-      "remote": true,
-      "url": "https://careers.airbnb.com/positions/7902817?gh_jid=7902817",
-      "descriptionText": "Airbnb was born in 2007 when two hosts welcomed three guests to their San Francisco home, and has since grown to over 5 million hosts who have welcomed over 2 billion guest arrivals in almost every country across the globe. Every day, hosts offer unique stays and experiences that make it possible for guests to connect with communities in a more authentic way.\n\nSoftware Engineer, Integrations & Application Engineering\n\nAirbnb | India\n\nCompany Overview\n\nAirbnb was born in 2007 when two hosts welco",
-      "postedAt": "2026-06-26T12:09:11-04:00",
+      "company": "Block",
+      "title": "Software Engineer, Cash App - Lending Products",
+      "location": "Bay Area, CA, United States of America",
+      "remote": "unknown",
+      "url": "http://block.xyz/careers/jobs/5196173008?gh_jid=5196173008",
+      "descriptionText": "It all started with an idea at Block in 2013. Initially built to take the pain out of peer-to-peer payments, Cash App has gone from a simple product with a single purpose to a dynamic ecosystem, developing unique financial products, including Afterpay/Clearpay, to provide a better way to send, spend, invest, borrow and save to our 50+ million monthly active customers. We want to redefine the world's relationship with money to make it more relatable, instantly available, and universally accessibl",
+      "postedAt": "2026-07-02T18:17:15-04:00",
       "score": {
-        "fit": 55,
+        "fit": 58,
         "verdict": "possible",
-        "rationale": "BizTech engineering with a genuine GenAI/LLM/MCP stack — the AI-native work is a real match, but it’s Bangalore-based and a mid-level title.",
+        "rationale": "Backend on Cash App Lending — a real fintech backend fit, held back by a mid-level title and unclear remote.",
         "matched": [
-          "Genuine GenAI / MCP / agentic stack",
-          "AI-native work"
+          "Backend",
+          "Fintech (lending)"
         ],
         "concerns": [
-          "Based in Bangalore, India — US eligibility unclear",
           "Mid-level title",
+          "Remote eligibility unclear",
           "Comp not disclosed"
+        ]
+      }
+    },
+    {
+      "id": "d62ff971",
+      "source": "greenhouse",
+      "company": "Airbnb",
+      "title": "Staff Machine Learning Engineer, Listings and Host Tools Data and AI",
+      "location": "Remote-USA",
+      "remote": true,
+      "url": "https://careers.airbnb.com/positions/7454348?gh_jid=7454348",
+      "descriptionText": "Airbnb was born in 2007 when two hosts welcomed three guests to their San Francisco home, and has since grown to over 5 million hosts who have welcomed over 2 billion guest arrivals in almost every country across the globe. Every day, hosts offer unique stays and experiences that make it possible for guests to connect with communities in a more authentic way.\n\nThe Community You Will Join:\n\nListings and Host Tools Data and AI (DnA) team: This team supports host personalization products and provid",
+      "postedAt": "2026-05-20T14:06:35-04:00",
+      "score": {
+        "fit": 56,
+        "verdict": "possible",
+        "rationale": "Staff Machine Learning Engineer — staff and remote at his top-choice company, but model-centric ML rather than Ryan’s AI-native engineering.",
+        "matched": [
+          "Staff level",
+          "Remote",
+          "Top-choice company (Airbnb)"
+        ],
+        "concerns": [
+          "ML-modeling focus, not agentic/AI-native",
+          "Comp not disclosed"
+        ]
+      }
+    },
+    {
+      "id": "150d3e10",
+      "source": "greenhouse",
+      "company": "Airbnb",
+      "title": "Senior Machine Learning Engineer, Relevance and Personalization",
+      "location": "United States",
+      "remote": true,
+      "url": "https://careers.airbnb.com/positions/7258033?gh_jid=7258033",
+      "descriptionText": "Airbnb was born in 2007 when two hosts welcomed three guests to their San Francisco home, and has since grown to over 5 million hosts who have welcomed over 2 billion guest arrivals in almost every country across the globe. Every day, hosts offer unique stays and experiences that make it possible for guests to connect with communities in a more authentic way.\n\nThe Community You Will Join:\n\nThe Relevance and Personalization team at Airbnb is responsible for search and recommendation across the en",
+      "postedAt": "2026-07-01T19:35:38-04:00",
+      "score": {
+        "fit": 54,
+        "verdict": "weak",
+        "rationale": "Senior ML Engineer, Relevance — remote at his top-choice company, but ML modeling isn’t Ryan’s engineering focus.",
+        "matched": [
+          "Remote",
+          "Top-choice company (Airbnb)"
+        ],
+        "concerns": [
+          "ML-modeling focus",
+          "Comp not disclosed"
+        ]
+      }
+    },
+    {
+      "id": "9efc71db",
+      "source": "greenhouse",
+      "company": "Airbnb",
+      "title": "Senior Data Engineer, People Analytics",
+      "location": "United States",
+      "remote": true,
+      "url": "https://careers.airbnb.com/positions/7988010?gh_jid=7988010",
+      "descriptionText": "Airbnb was born in 2007 when two hosts welcomed three guests to their San Francisco home, and has since grown to over 5 million hosts who have welcomed over 2 billion guest arrivals in almost every country across the globe. Every day, hosts offer unique stays and experiences that make it possible for guests to connect with communities in a more authentic way.\n\nThe Community you will join:\n\nPeople Analytics & Research is a strong team of Data Scientists, Researchers, and Analysts. Our work is hig",
+      "postedAt": "2026-06-25T18:27:03-04:00",
+      "score": {
+        "fit": 52,
+        "verdict": "weak",
+        "rationale": "Senior Data Engineer, People Analytics — remote and top-choice company, but data engineering for HR analytics is outside Ryan’s focus.",
+        "matched": [
+          "Remote",
+          "Top-choice company (Airbnb)"
+        ],
+        "concerns": [
+          "Data-engineering discipline",
+          "HR-analytics niche",
+          "Comp not disclosed"
+        ]
+      }
+    },
+    {
+      "id": "b00e602d",
+      "source": "greenhouse",
+      "company": "Airbnb",
+      "title": "Principal AI/ML Researcher / Engineer In Reasoning, Planning, and Decision-making systems",
+      "location": "United States",
+      "remote": true,
+      "url": "https://careers.airbnb.com/positions/7955573?gh_jid=7955573",
+      "descriptionText": "Airbnb was born in 2007 when two hosts welcomed three guests to their San Francisco home, and has since grown to over 5 million hosts who have welcomed over 2 billion guest arrivals in almost every country across the globe. Every day, hosts offer unique stays and experiences that make it possible for guests to connect with communities in a more authentic way.\n\nAbout the Role\n\nWe are seeking a Principal / Distinguished AI/ML Researcher and/or Engineer with deep experience in reasoning, planning, ",
+      "postedAt": "2026-06-03T15:51:49-04:00",
+      "score": {
+        "fit": 50,
+        "verdict": "weak",
+        "rationale": "Principal AI/ML Researcher in reasoning/planning — a research role rather than the IC platform engineering Ryan does, though it’s at his top-choice company.",
+        "matched": [
+          "Top-choice company (Airbnb)",
+          "Remote"
+        ],
+        "concerns": [
+          "Research / ML-modeling, not engineering IC",
+          "Comp not disclosed"
+        ]
+      }
+    },
+    {
+      "id": "ee73c68e",
+      "source": "greenhouse",
+      "company": "Block",
+      "title": "Senior Business Systems Engineer",
+      "location": "Bay Area, CA, United States of America",
+      "remote": "unknown",
+      "url": "http://block.xyz/careers/jobs/4962872008?gh_jid=4962872008",
+      "descriptionText": "Block is one company built from many blocks, all united by the same purpose of economic empowerment. The blocks that form our foundational teams — People, Finance, Counsel, Hardware, Information Security, Platform Infrastructure Engineering, and more — provide support and guidance at the corporate level. They work across business groups and around the globe, spanning time zones and disciplines to develop inclusive People policies, forecast finances, give legal counsel, safeguard systems, nurture",
+      "postedAt": "2026-07-02T18:17:15-04:00",
+      "score": {
+        "fit": 50,
+        "verdict": "weak",
+        "rationale": "Senior Business Systems Engineer at Block — internal business-systems work is adjacent to Ryan’s backend focus, and remote is unclear.",
+        "matched": [
+          "Senior level",
+          "Backend-adjacent"
+        ],
+        "concerns": [
+          "Business-systems niche",
+          "Remote eligibility unclear"
         ]
       }
     },
@@ -862,15 +915,13 @@
       "score": {
         "fit": 48,
         "verdict": "weak",
-        "rationale": "A senior data engineering role on Block’s Risk team — adjacent to backend, but data engineering isn’t Ryan’s focus and remote is unclear.",
+        "rationale": "Senior Data Engineer, Risk at Block — adjacent to backend, but data engineering isn’t Ryan’s focus and remote is unclear.",
         "matched": [
-          "Senior level",
-          "Data-adjacent to backend"
+          "Senior level"
         ],
         "concerns": [
           "Data-engineering discipline",
-          "Remote eligibility unclear",
-          "Comp not disclosed"
+          "Remote eligibility unclear"
         ]
       }
     },
@@ -888,161 +939,177 @@
       "score": {
         "fit": 48,
         "verdict": "weak",
-        "rationale": "A post-sale, customer-facing Solutions Architect role deploying GenAI for customers — AI-adjacent, but not the IC backend engineering Ryan does.",
+        "rationale": "A post-sale, customer-facing Solutions Architect deploying GenAI for customers — AI-adjacent, but not the IC backend engineering Ryan does.",
         "matched": [
           "GenAI exposure",
           "Remote",
-          "Top AI company"
+          "Frontier AI company"
         ],
         "concerns": [
           "Customer-facing / post-sale, not core engineering",
-          "Base of range below the floor"
+          "Base below the floor"
         ]
       }
     },
     {
-      "id": "9efc71db",
-      "source": "greenhouse",
-      "company": "Airbnb",
-      "title": "Senior Data Engineer, People Analytics",
-      "location": "United States",
-      "remote": true,
-      "url": "https://careers.airbnb.com/positions/7988010?gh_jid=7988010",
-      "descriptionText": "Airbnb was born in 2007 when two hosts welcomed three guests to their San Francisco home, and has since grown to over 5 million hosts who have welcomed over 2 billion guest arrivals in almost every country across the globe. Every day, hosts offer unique stays and experiences that make it possible for guests to connect with communities in a more authentic way.\n\nThe Community you will join:\n\nPeople Analytics & Research is a strong team of Data Scientists, Researchers, and Analysts. Our work is hig",
-      "postedAt": "2026-06-25T18:27:03-04:00",
-      "score": {
-        "fit": 47,
-        "verdict": "weak",
-        "rationale": "A senior data engineering role at Airbnb, remote-US — the logistics are good, but data engineering for people-analytics is outside Ryan’s backend/AI focus.",
-        "matched": [
-          "Senior level",
-          "Remote (US)"
-        ],
-        "concerns": [
-          "Data-engineering discipline",
-          "HR-analytics niche",
-          "Comp not disclosed"
-        ]
-      }
-    },
-    {
-      "id": "a9c553fe",
+      "id": "da6b9ac4",
       "source": "greenhouse",
       "company": "Block",
-      "title": "Senior Finance Systems Engineer: Oracle Fusion - Remote, US",
+      "title": "Staff Machine Learning Engineer, Underwriting and Credit",
       "location": "Bay Area, CA, United States of America",
       "remote": "unknown",
-      "url": "http://block.xyz/careers/jobs/5249776008?gh_jid=5249776008",
-      "descriptionText": "Block is one company built from many blocks, all united by the same purpose of economic empowerment. The blocks that form our foundational teams — People, Finance, Counsel, Hardware, Information Security, Platform Infrastructure Engineering, and more — provide support and guidance at the corporate level. They work across business groups and around the globe, spanning time zones and disciplines to develop inclusive People policies, forecast finances, give legal counsel, safeguard systems, nurture",
-      "postedAt": "2026-06-29T18:08:36-04:00",
+      "url": "http://block.xyz/careers/jobs/5198104008?gh_jid=5198104008",
+      "descriptionText": "Block builds technology to increase access to the global economy. Across our ecosystem, including Square and Cash App, we create tools that help businesses run and grow, and individuals move, manage, and grow their money with confidence.\n\nSquare empowers sellers of all sizes with integrated, omnichannel tools to accept payments, manage operations, access financial services, and reach customers across online and in-person channels.\n\nCash App complements this by providing a fast, accessible financ",
+      "postedAt": "2026-07-02T18:17:15-04:00",
+      "score": {
+        "fit": 46,
+        "verdict": "weak",
+        "rationale": "Staff ML Engineer, Underwriting at Block — staff level, but model-centric ML rather than Ryan’s AI-native engineering.",
+        "matched": [
+          "Staff level"
+        ],
+        "concerns": [
+          "ML-modeling focus",
+          "Remote eligibility unclear"
+        ]
+      }
+    },
+    {
+      "id": "fac42feb",
+      "source": "greenhouse",
+      "company": "Databricks",
+      "title": "Delivery Solutions Architect",
+      "location": "London, United Kingdom",
+      "remote": "unknown",
+      "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8549681002",
+      "descriptionText": "CSQ427R31\n\nAt Databricks, we are on a mission to empower our customers to solve the world's toughest data problems by utilizing the the Databricks Data Intelligence Platform. As a Delivery Solutions Architect (DSA), you will play an important role during this journey. You will collaborate with our sales and field engineering teams to accelerate the adoption and growth of the Databricks platform in your customers. You will also help ensure customer success by increasing focus and technical accoun",
+      "postedAt": "2026-07-03T05:59:15-04:00",
       "score": {
         "fit": 45,
         "verdict": "weak",
-        "rationale": "An Oracle Fusion finance-systems role — remote-US, but ERP/Fusion work is a niche outside Ryan’s Java/Spring backend stack.",
+        "rationale": "Delivery Solutions Architect at Databricks — a customer-facing delivery role rather than the IC backend engineering Ryan does, remote unclear.",
         "matched": [
-          "Backend-adjacent",
-          "Remote (US) in title"
+          "Reputable data platform"
         ],
         "concerns": [
-          "Oracle Fusion / ERP niche",
-          "Comp not disclosed"
+          "Customer-facing SA, not core engineering",
+          "Remote eligibility unclear"
         ]
       }
     },
     {
-      "id": "f3440da6",
+      "id": "67177dec",
       "source": "greenhouse",
-      "company": "Airbnb",
-      "title": "Senior Automation Engineer, Infrastructure",
-      "location": "Brazil",
-      "remote": true,
-      "url": "https://careers.airbnb.com/positions/7380262?gh_jid=7380262",
-      "descriptionText": "Airbnb was born in 2007 when two hosts welcomed three guests to their San Francisco home, and has since grown to over 5 million hosts who have welcomed over 2 billion guest arrivals in almost every country across the globe. Every day, hosts offer unique stays and experiences that make it possible for guests to connect with communities in a more authentic way.\n\nThe Community You Will Join:\n\nThe Quality Engineering team helps Airbnb build high-quality software efficiently. We enable Airbnb enginee",
-      "postedAt": "2026-06-09T20:41:20-04:00",
+      "company": "Block",
+      "title": "Senior Machine Learning Engineer, AI Personalization",
+      "location": "Bay Area, CA, United States of America",
+      "remote": "unknown",
+      "url": "http://block.xyz/careers/jobs/4811589008?gh_jid=4811589008",
+      "descriptionText": "Block builds simple, powerful tools that make progress towards an economy that’s truly open to all. Each of our brands unlocks different aspects of the economy for more people. Square makes commerce and financial services accessible to sellers. Cash App is the easy way to spend, send, and store money. Afterpay is transforming the way customers manage their spending over time. TIDAL is a music platform that empowers artists to thrive as entrepreneurs. Bitkey is a simple self-custody wallet built ",
+      "postedAt": "2026-07-02T18:17:15-04:00",
       "score": {
-        "fit": 42,
+        "fit": 45,
         "verdict": "weak",
-        "rationale": "Infrastructure automation at Airbnb touches Ryan’s automation experience, but it’s a Brazil-based, infra-automation niche rather than backend product engineering.",
+        "rationale": "Senior ML Engineer, AI Personalization at Block — ML modeling, outside Ryan’s engineering focus, remote unclear.",
         "matched": [
-          "Automation (adjacent)",
           "Senior level"
         ],
         "concerns": [
-          "Based in Brazil",
-          "Infra-automation niche",
-          "Comp not disclosed"
+          "ML-modeling focus",
+          "Remote eligibility unclear"
         ]
       }
     },
     {
-      "id": "150d3e10",
+      "id": "70640bd1",
       "source": "greenhouse",
       "company": "Airbnb",
-      "title": "Senior Machine Learning Engineer, Relevance and Personalization",
-      "location": "United States",
-      "remote": true,
-      "url": "https://careers.airbnb.com/positions/7258033?gh_jid=7258033",
-      "descriptionText": "Airbnb was born in 2007 when two hosts welcomed three guests to their San Francisco home, and has since grown to over 5 million hosts who have welcomed over 2 billion guest arrivals in almost every country across the globe. Every day, hosts offer unique stays and experiences that make it possible for guests to connect with communities in a more authentic way.\n\nThe Community You Will Join:\n\nThe Relevance and Personalization team at Airbnb is responsible for search and recommendation across the en",
-      "postedAt": "2026-07-01T19:35:38-04:00",
-      "score": {
-        "fit": 42,
-        "verdict": "weak",
-        "rationale": "A senior ML engineering role at Airbnb, remote-US — attractive logistics, but model-centric ML rather than Ryan’s AI-native engineering.",
-        "matched": [
-          "Senior level",
-          "Remote (US)"
-        ],
-        "concerns": [
-          "ML-modeling focus, not agentic/AI-native",
-          "Comp not disclosed"
-        ]
-      }
-    },
-    {
-      "id": "15c5a9d4",
-      "source": "greenhouse",
-      "company": "Airbnb",
-      "title": "Senior Software Engineer, Quality Platform",
+      "title": "Senior Frontend Engineer, Quality Platform",
       "location": "Brazil",
       "remote": true,
-      "url": "https://careers.airbnb.com/positions/7380149?gh_jid=7380149",
-      "descriptionText": "Airbnb was born in 2007 when two hosts welcomed three guests to their San Francisco home, and has since grown to over 5 million hosts who have welcomed over 2 billion guest arrivals in almost every country across the globe. Every day, hosts offer unique stays and experiences that make it possible for guests to connect with communities in a more authentic way.\n\nThe Community You Will Join:\n\nThe Quality Platform team is at the heart of Airbnb’s mission to deliver a seamless, high-quality experienc",
-      "postedAt": "2026-06-25T16:28:40-04:00",
+      "url": "https://careers.airbnb.com/positions/8031737?gh_jid=8031737",
+      "descriptionText": "Airbnb was born in 2007 when two hosts welcomed three guests to their San Francisco home, and has since grown to over 5 million hosts who have welcomed over 2 billion guest arrivals in almost every country across the globe. Every day, hosts offer unique stays and experiences that make it possible for guests to connect with communities in a more authentic way.\n\nThe Community You Will Join\n\nThe Quality Platform team is at the heart of Airbnb's mission to deliver a seamless, high-quality experience",
+      "postedAt": "2026-06-26T19:51:54-04:00",
       "score": {
-        "fit": 42,
+        "fit": 44,
         "verdict": "weak",
-        "rationale": "A quality-platform engineering role (adjacent to Ryan’s test-automation background) but based in Brazil, which likely rules out US-remote.",
+        "rationale": "Senior Frontend Engineer on the Quality Platform — remote at his top-choice company, but a frontend focus outside Ryan’s backend lane.",
         "matched": [
-          "Quality / automation platform (adjacent)",
+          "Top-choice company (Airbnb)",
+          "Remote"
+        ],
+        "concerns": [
+          "Frontend-focused",
+          "Comp not disclosed"
+        ]
+      }
+    },
+    {
+      "id": "4cece832",
+      "source": "greenhouse",
+      "company": "Block",
+      "title": "Senior Machine Learning Engineer, Risk Modeling",
+      "location": "Bay Area, CA, United States of America",
+      "remote": "unknown",
+      "url": "http://block.xyz/careers/jobs/5198102008?gh_jid=5198102008",
+      "descriptionText": "Block builds simple, powerful tools that make progress towards an economy that’s truly open to all. Each of our brands unlocks different aspects of the economy for more people. Square makes commerce and financial services accessible to sellers. Cash App is the easy way to spend, send, and store money. Afterpay is transforming the way customers manage their spending over time. TIDAL is a music platform that empowers artists to thrive as entrepreneurs. Bitkey is a simple self-custody wallet built ",
+      "postedAt": "2026-07-02T18:17:15-04:00",
+      "score": {
+        "fit": 44,
+        "verdict": "weak",
+        "rationale": "Senior ML Engineer, Risk Modeling at Block — model-building rather than Ryan’s AI-native engineering.",
+        "matched": [
           "Senior level"
         ],
         "concerns": [
-          "Based in Brazil",
-          "Narrow quality-platform scope",
-          "Comp not disclosed"
+          "ML-modeling focus",
+          "Remote eligibility unclear"
         ]
       }
     },
     {
-      "id": "d62ff971",
+      "id": "37157983",
+      "source": "greenhouse",
+      "company": "Block",
+      "title": "Senior ML/AI Modeler, Risk Automation Machine Learning",
+      "location": "Seattle, WA, United States of America",
+      "remote": "unknown",
+      "url": "http://block.xyz/careers/jobs/5198103008?gh_jid=5198103008",
+      "descriptionText": "Block builds simple, powerful tools that make progress towards an economy that’s truly open to all. Each of our brands unlocks different aspects of the economy for more people. Square makes commerce and financial services accessible to sellers. Cash App is the easy way to spend, send, and store money. Afterpay is transforming the way customers manage their spending over time. TIDAL is a music platform that empowers artists to thrive as entrepreneurs. Bitkey is a simple self-custody wallet built ",
+      "postedAt": "2026-07-02T18:17:15-04:00",
+      "score": {
+        "fit": 44,
+        "verdict": "weak",
+        "rationale": "Senior ML/AI Modeler, Risk Automation at Block — modeling-centric, outside Ryan’s engineering focus.",
+        "matched": [
+          "Senior level"
+        ],
+        "concerns": [
+          "ML-modeling focus",
+          "Remote eligibility unclear"
+        ]
+      }
+    },
+    {
+      "id": "8cfd14eb",
       "source": "greenhouse",
       "company": "Airbnb",
-      "title": "Staff Machine Learning Engineer, Listings and Host Tools Data and AI",
-      "location": "Remote-USA",
+      "title": "Senior iOS Engineer, Global Markets",
+      "location": "China",
       "remote": true,
-      "url": "https://careers.airbnb.com/positions/7454348?gh_jid=7454348",
-      "descriptionText": "Airbnb was born in 2007 when two hosts welcomed three guests to their San Francisco home, and has since grown to over 5 million hosts who have welcomed over 2 billion guest arrivals in almost every country across the globe. Every day, hosts offer unique stays and experiences that make it possible for guests to connect with communities in a more authentic way.\n\nThe Community You Will Join:\n\nListings and Host Tools Data and AI (DnA) team: This team supports host personalization products and provid",
-      "postedAt": "2026-05-20T14:06:35-04:00",
+      "url": "https://careers.airbnb.com/positions/7817040?gh_jid=7817040",
+      "descriptionText": "Airbnb was born in 2007 when two hosts welcomed three guests to their San Francisco home, and has since grown to over 5 million hosts who have welcomed over 2 billion guest arrivals in almost every country across the globe. Every day, hosts offer unique stays and experiences that make it possible for guests to connect with communities in a more authentic way.\n\nNOTE: NO VISA SUPPORT\n\nThe Community You Will Join:\n\nThe Global Markets engineering team is focusing on evolving our guest and host exper",
+      "postedAt": "2026-06-01T00:03:14-04:00",
       "score": {
         "fit": 42,
         "verdict": "weak",
-        "rationale": "A staff ML engineering role — Airbnb and remote-US are attractive, but this is model-building, not the AI-native / agentic engineering Ryan does.",
+        "rationale": "Senior iOS Engineer — remote at his top-choice company, but mobile engineering is outside Ryan’s backend focus.",
         "matched": [
-          "Staff level",
-          "Remote (US)"
+          "Top-choice company (Airbnb)",
+          "Remote"
         ],
         "concerns": [
-          "ML-modeling focus, not agentic/AI-native engineering",
+          "iOS / mobile role",
           "Comp not disclosed"
         ]
       }
@@ -1061,13 +1128,13 @@
       "score": {
         "fit": 40,
         "verdict": "weak",
-        "rationale": "A cloud security engineering role — strong comp and remote, but security is a different discipline from Ryan’s backend/AI focus.",
+        "rationale": "Cloud security engineering at Ramp — strong comp and remote, but security is a different discipline from Ryan’s backend/AI focus.",
         "matched": [
           "Remote",
           "Comp clears the floor"
         ],
         "concerns": [
-          "Security discipline, not backend/AI"
+          "Security discipline"
         ]
       }
     },
@@ -1085,60 +1152,13 @@
       "score": {
         "fit": 40,
         "verdict": "weak",
-        "rationale": "A product security engineering role at Ramp — top comp and remote, but security is outside Ryan’s backend/AI focus.",
+        "rationale": "Product security engineering at Ramp — top comp and remote, but outside Ryan’s backend/AI focus.",
         "matched": [
           "Remote",
           "Comp well above the floor"
         ],
         "concerns": [
-          "Security discipline, not backend/AI"
-        ]
-      }
-    },
-    {
-      "id": "f03003fd",
-      "source": "greenhouse",
-      "company": "Coinbase",
-      "title": "Senior Software Engineer, Frontend (Consumer - Payments)",
-      "location": "Remote - USA",
-      "remote": true,
-      "url": "https://www.coinbase.com/careers/positions/8029035?gh_jid=8029035",
-      "descriptionText": "Ready to do the most impactful work of your career? At Coinbase , we are uncompromising on our mission to increase economic freedom. The bar is high, the environment is intense, and we like it that way. This isn't a place for complacency, it’s a place to be pushed past your perceived limits. If you're ready to build the future of finance alongside people who refuse to settle for \"good enough,\" you belong here. Coinbase is a remote-first, but not remote-only company. Expect to get together quarte",
-      "postedAt": "2026-06-25T15:02:55-04:00",
-      "score": {
-        "fit": 40,
-        "verdict": "weak",
-        "rationale": "A senior frontend role on Coinbase Payments, remote-US — good company and logistics, but frontend is not Ryan’s focus.",
-        "matched": [
-          "Remote (US)",
-          "Fintech"
-        ],
-        "concerns": [
-          "Frontend-focused"
-        ]
-      }
-    },
-    {
-      "id": "90830f55",
-      "source": "greenhouse",
-      "company": "Dropbox",
-      "title": "Senior Infrastructure Security Engineer",
-      "location": "Remote - Canada: Select locations",
-      "remote": true,
-      "url": "https://jobs.dropbox.com/listing/7967468?gh_jid=7967468",
-      "descriptionText": "Role Description\n\nAt Dropbox, we believe in simplifying the way people work together. We provide a range of innovative cloud-based solutions to empower individuals and businesses to share, access, and collaborate on their files seamlessly. Security plays a pivotal role in shaping our mission of building a more enlightened way of working where everyone can unleash their creative potential without constraints.\n\nAs a Security Engineer, you'll safeguard our digital ecosystem alongside a diverse team",
-      "postedAt": "2026-07-02T13:48:16-04:00",
-      "score": {
-        "fit": 38,
-        "verdict": "weak",
-        "rationale": "Infrastructure security engineering at Dropbox — a different discipline from Ryan’s backend/AI work, and listed as Canada-remote.",
-        "matched": [
-          "Senior level"
-        ],
-        "concerns": [
-          "Security discipline",
-          "Remote listed for Canada",
-          "Comp not disclosed"
+          "Security discipline"
         ]
       }
     },
@@ -1154,16 +1174,15 @@
       "postedAt": "2026-06-26T01:57:53.065+00:00",
       "compHint": "$189K - $330K",
       "score": {
-        "fit": 35,
+        "fit": 36,
         "verdict": "weak",
-        "rationale": "A staff-level iOS role at a top fintech with strong comp, but it's a mobile engineering position — outside Ryan's backend / distributed-systems focus.",
+        "rationale": "A staff iOS role at Ramp with strong comp, but mobile engineering is outside Ryan’s backend focus.",
         "matched": [
           "Staff level",
-          "Fintech company",
-          "Comp clears the $180K floor"
+          "Comp clears the floor"
         ],
         "concerns": [
-          "iOS / mobile role — not Ryan’s backend lane"
+          "iOS / mobile role"
         ]
       }
     },
@@ -1176,11 +1195,11 @@
       "remote": "unknown",
       "url": "http://block.xyz/careers/jobs/4884159008?gh_jid=4884159008",
       "descriptionText": "It all started with an idea at Block in 2013. Initially built to take the pain out of peer-to-peer payments, Cash App has gone from a simple product with a single purpose to a dynamic ecosystem, developing unique financial products, including Afterpay/Clearpay, to provide a better way to send, spend, invest, borrow and save to our 50+ million monthly active customers. We want to redefine the world's relationship with money to make it more relatable, instantly available, and universally accessibl",
-      "postedAt": "2026-06-09T16:56:05-04:00",
+      "postedAt": "2026-07-02T18:17:15-04:00",
       "score": {
         "fit": 33,
         "verdict": "weak",
-        "rationale": "Android engineering on Cash App — a reputable fintech, but a mobile role that doesn’t match Ryan’s backend and AI-native strengths.",
+        "rationale": "Android engineering on Cash App — a reputable fintech, but a mobile role outside Ryan’s backend/AI strengths.",
         "matched": [
           "Staff level",
           "Fintech (Cash App)"
@@ -1206,14 +1225,14 @@
       "score": {
         "fit": 30,
         "verdict": "weak",
-        "rationale": "An Android role at OpenAI — same story as its iOS sibling: great company, wrong discipline for Ryan.",
+        "rationale": "An Android role at OpenAI — same story: great company, wrong discipline for Ryan.",
         "matched": [
           "Frontier AI company",
           "Comp well above the floor"
         ],
         "concerns": [
           "Android / mobile role",
-          "Remote eligibility unclear (SF)"
+          "Remote unclear (SF)"
         ]
       }
     },
@@ -1231,39 +1250,14 @@
       "score": {
         "fit": 30,
         "verdict": "weak",
-        "rationale": "An iOS role at OpenAI — frontier company and comp, but mobile engineering is outside Ryan’s backend focus.",
+        "rationale": "An iOS role at OpenAI — frontier company and comp, but mobile is outside Ryan’s focus.",
         "matched": [
           "Frontier AI company",
           "Comp well above the floor"
         ],
         "concerns": [
           "iOS / mobile role",
-          "Remote eligibility unclear (SF)"
-        ]
-      }
-    },
-    {
-      "id": "70640bd1",
-      "source": "greenhouse",
-      "company": "Airbnb",
-      "title": "Senior Frontend Engineer, Quality Platform",
-      "location": "Brazil",
-      "remote": true,
-      "url": "https://careers.airbnb.com/positions/8031737?gh_jid=8031737",
-      "descriptionText": "Airbnb was born in 2007 when two hosts welcomed three guests to their San Francisco home, and has since grown to over 5 million hosts who have welcomed over 2 billion guest arrivals in almost every country across the globe. Every day, hosts offer unique stays and experiences that make it possible for guests to connect with communities in a more authentic way.\n\nThe Community You Will Join\n\nThe Quality Platform team is at the heart of Airbnb's mission to deliver a seamless, high-quality experience",
-      "postedAt": "2026-06-26T19:51:54-04:00",
-      "score": {
-        "fit": 28,
-        "verdict": "skip",
-        "rationale": "A senior frontend role based in Brazil — both the frontend focus and the non-US location put it well outside Ryan’s target.",
-        "matched": [
-          "Senior level",
-          "Reputable company"
-        ],
-        "concerns": [
-          "Frontend-focused",
-          "Based in Brazil — US-remote eligibility unclear",
-          "Comp not disclosed"
+          "Remote unclear (SF)"
         ]
       }
     }

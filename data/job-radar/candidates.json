@@ -1,25 +1,156 @@
 {
-  "generatedAt": "2026-07-02T21:45:21.245Z",
+  "generatedAt": "2026-07-03T11:10:48.533Z",
   "tier": "tier-1",
   "counts": {
-    "fetched": 1568,
-    "kept": 548,
-    "dropped": 1020,
+    "fetched": 1448,
+    "kept": 503,
+    "dropped": 945,
     "byVerdict": {
-      "strong": 145,
-      "possible": 271,
-      "weak": 126,
+      "strong": 117,
+      "possible": 264,
+      "weak": 116,
       "skip": 6
     },
     "droppedByReason": {
-      "excluded-title": 623,
-      "off-role-family": 387,
+      "excluded-title": 564,
+      "off-role-family": 371,
       "on-site-only": 10,
       "below-comp-floor": 0
     }
   },
   "errors": [],
   "candidates": [
+    {
+      "id": "70640bd1",
+      "source": "greenhouse",
+      "company": "Airbnb",
+      "title": "Senior Frontend Engineer, Quality Platform",
+      "location": "Brazil",
+      "remote": true,
+      "url": "https://careers.airbnb.com/positions/8031737?gh_jid=8031737",
+      "descriptionText": "Airbnb was born in 2007 when two hosts welcomed three guests to their San Francisco home, and has since grown to over 5 million hosts who have welcomed over 2 billion guest arrivals in almost every country across the globe. Every day, hosts offer unique stays and experiences that make it possible for guests to connect with communities in a more authentic way.\n\nThe Community You Will Join\n\nThe Quality Platform team is at the heart of Airbnb's mission to deliver a seamless, high-quality experience for millions of hosts and guests. We don't just find bugs - we build the systems that prevent them.\n\nOur team sits at the intersection of Quality Engineering, Infrastructure, and Applied AI. We are evolving how software quality is built by integrating LLMs, intelligent automation, and data-driven systems into the testing lifecycle. The interfaces we build are how thousands of Airbnb engineers experience that work - turning a powerful agentic testing platform into something intuitive, fast, and a pleasure to use. You will join a high-impact group of engineers who care about craft and user experience in equal measure.\n\nThe Difference You Will Make\n\nAs a Senior Frontend Engineer, you will build and maintain the frontend for our Quality Platform and tools - the paved path that gives Airbnb engineers streamlined access to our agentic testing platform. Your primary objective will be to make complex testing and automation workflows simple to understand and effortless to act on, so engineers…",
+      "postedAt": "2026-06-26T19:51:54-04:00",
+      "score": {
+        "fit": 93,
+        "verdict": "strong",
+        "rationale": "Senior Frontend Engineer, Quality Platform at Airbnb scores 93/100 (strong) on the Tier-1 deterministic pass. Matched: Senior / staff / lead level; Genuine AI-native engineering; Backend / distributed / event-driven match; Product engineering; Top-choice company. Concerns: comp unstated.",
+        "matched": [
+          "Senior / staff / lead level",
+          "Genuine AI-native engineering",
+          "Backend / distributed / event-driven match",
+          "Product engineering",
+          "Top-choice company"
+        ],
+        "concerns": [
+          "comp unstated"
+        ]
+      }
+    },
+    {
+      "id": "15c5a9d4",
+      "source": "greenhouse",
+      "company": "Airbnb",
+      "title": "Senior Software Engineer, Quality Platform",
+      "location": "Brazil",
+      "remote": true,
+      "url": "https://careers.airbnb.com/positions/7380149?gh_jid=7380149",
+      "descriptionText": "Airbnb was born in 2007 when two hosts welcomed three guests to their San Francisco home, and has since grown to over 5 million hosts who have welcomed over 2 billion guest arrivals in almost every country across the globe. Every day, hosts offer unique stays and experiences that make it possible for guests to connect with communities in a more authentic way.\n\nThe Community You Will Join:\n\nThe Quality Platform team is at the heart of Airbnb’s mission to deliver a seamless, high-quality experience for millions of hosts and guests. We don’t just find bugs — we build the systems that prevent them.\n\nOur team sits at the intersection of Quality Engineering, Infrastructure, and Applied AI . We are evolving how software quality is built by integrating LLMs, intelligent automation, and data-driven systems into the testing lifecycle. You will join a high-impact group of engineers focused on building AI-powered quality systems that scale across one of the world’s most complex codebases.\n\nThe Difference You Will Make:\n\nAs a Senior Software Engineer , you will play a key role in building and evolving AI-native quality workflows across Airbnb. You will design systems that apply AI directly to the testing lifecycle , helping developers and quality engineers build, validate, and ship high-quality software at scale.\n\nIn this role, you will:\n\nBuild AI Agents for the Testing Lifecycle: Design and implement AI agents that support developers and quality engineers across the testing lifecycle —…",
+      "postedAt": "2026-06-25T16:28:40-04:00",
+      "score": {
+        "fit": 93,
+        "verdict": "strong",
+        "rationale": "Senior Software Engineer, Quality Platform at Airbnb scores 93/100 (strong) on the Tier-1 deterministic pass. Matched: Senior / staff / lead level; Genuine AI-native engineering; Backend / distributed / event-driven match; Product engineering; Top-choice company. Concerns: comp unstated.",
+        "matched": [
+          "Senior / staff / lead level",
+          "Genuine AI-native engineering",
+          "Backend / distributed / event-driven match",
+          "Product engineering",
+          "Top-choice company"
+        ],
+        "concerns": [
+          "comp unstated"
+        ]
+      }
+    },
+    {
+      "id": "f3440da6",
+      "source": "greenhouse",
+      "company": "Airbnb",
+      "title": "Senior Automation Engineer, Infrastructure",
+      "location": "Brazil",
+      "remote": true,
+      "url": "https://careers.airbnb.com/positions/7380262?gh_jid=7380262",
+      "descriptionText": "Airbnb was born in 2007 when two hosts welcomed three guests to their San Francisco home, and has since grown to over 5 million hosts who have welcomed over 2 billion guest arrivals in almost every country across the globe. Every day, hosts offer unique stays and experiences that make it possible for guests to connect with communities in a more authentic way.\n\nThe Community You Will Join:\n\nThe Quality Engineering team helps Airbnb build high-quality software efficiently. We enable Airbnb engineers to build highly testable systems by building and using tools leveraging AI. We own and continuously improve product test cases, automation coverage, test automation tools, environments, frameworks. We navigate Airbnb’s massive codebase identifying weak spots, and help design and implement testable fault-tolerant systems.\n\nThe Difference You Will Make:\n\nBe a leader in Airbnb leveraging AI to redefine and accelerate Quality Engineering\n\nAs a Senior Automation Engineer, you will help us meet this challenge by building and maintaining automation coverage for features and releases. You will work directly with the product engineering team to develop and maintain our test tools, write and test product code, participate in design reviews to architect testable systems, and guide designs and code to enhance modularity and testability.\n\nYou are eager to understand complex systems top to bottom and thrive working across technologies and codebases. In addition, you excel at working through…",
+      "postedAt": "2026-06-09T20:41:20-04:00",
+      "score": {
+        "fit": 93,
+        "verdict": "strong",
+        "rationale": "Senior Automation Engineer, Infrastructure at Airbnb scores 93/100 (strong) on the Tier-1 deterministic pass. Matched: Senior / staff / lead level; Genuine AI-native engineering; Backend / distributed / event-driven match; Product engineering; Top-choice company. Concerns: comp unstated.",
+        "matched": [
+          "Senior / staff / lead level",
+          "Genuine AI-native engineering",
+          "Backend / distributed / event-driven match",
+          "Product engineering",
+          "Top-choice company"
+        ],
+        "concerns": [
+          "comp unstated"
+        ]
+      }
+    },
+    {
+      "id": "d62ff971",
+      "source": "greenhouse",
+      "company": "Airbnb",
+      "title": "Staff Machine Learning Engineer, Listings and Host Tools Data and AI",
+      "location": "Remote-USA",
+      "remote": true,
+      "url": "https://careers.airbnb.com/positions/7454348?gh_jid=7454348",
+      "descriptionText": "Airbnb was born in 2007 when two hosts welcomed three guests to their San Francisco home, and has since grown to over 5 million hosts who have welcomed over 2 billion guest arrivals in almost every country across the globe. Every day, hosts offer unique stays and experiences that make it possible for guests to connect with communities in a more authentic way.\n\nThe Community You Will Join:\n\nListings and Host Tools Data and AI (DnA) team: This team supports host personalization products and provides data driven solutions to achieve superior host experience on Airbnb. These products include but are not limited to managing your space (MYS), host tools etc. We own data pipelines and ML models and will build services for serving that are used in the above areas.\n\nThe Difference You Will Make:\n\nThere is a huge opportunity to improve the Host and Guest experience by leveraging open source, third party, and home grown ML models. As an ML engineer, you will partner closely with our data science, product partners, and other ML + data engineers on the team to execute on these opportunities in order to improve the Host and Guest product experience on Airbnb.\n\nA Typical Day:\n\nWork with large scale structured and unstructured data, build and continuously improve cutting edge Machine Learning models for Airbnb product, business and operational use cases.\n\nWork collaboratively with cross-functional partners including software engineers, product managers, operations and data scientists,…",
+      "postedAt": "2026-05-20T14:06:35-04:00",
+      "score": {
+        "fit": 93,
+        "verdict": "strong",
+        "rationale": "Staff Machine Learning Engineer, Listings and Host Tools Data and AI at Airbnb scores 93/100 (strong) on the Tier-1 deterministic pass. Matched: Senior / staff / lead level; Genuine AI-native engineering; Backend / distributed / event-driven match; Strong engineering culture; Top-choice company. Concerns: comp unstated.",
+        "matched": [
+          "Senior / staff / lead level",
+          "Genuine AI-native engineering",
+          "Backend / distributed / event-driven match",
+          "Strong engineering culture",
+          "Top-choice company"
+        ],
+        "concerns": [
+          "comp unstated"
+        ]
+      }
+    },
+    {
+      "id": "284bf4d9",
+      "source": "greenhouse",
+      "company": "Block",
+      "title": "Staff Android Software Engineer, Cash App Consumer Platform",
+      "location": "Bay Area, CA, United States of America",
+      "remote": "unknown",
+      "url": "http://block.xyz/careers/jobs/4884159008?gh_jid=4884159008",
+      "descriptionText": "It all started with an idea at Block in 2013. Initially built to take the pain out of peer-to-peer payments, Cash App has gone from a simple product with a single purpose to a dynamic ecosystem, developing unique financial products, including Afterpay/Clearpay, to provide a better way to send, spend, invest, borrow and save to our 50+ million monthly active customers. We want to redefine the world's relationship with money to make it more relatable, instantly available, and universally accessible.\n\nToday, Cash App has thousands of employees working globally across office and remote locations, with a culture geared toward innovation, collaboration and impact. We've been a distributed team since day one, and many of our roles can be done remotely from the countries where Cash App operates. No matter the location, we tailor our experience to ensure our employees are creative, productive, and happy.\n\nThe Team\n\nThe Cash App Consumer Platform is responsible for laying the foundation that every Cash App engineer builds on. We own the shared systems, abstractions, and tooling that power product development across the app. We sit at the product platform layer, building on top of core systems enabling feature development. Our customers are the engineers and teams building Cash App's product experiences, and we measure our success by their velocity and quality.\n\nAs AI fundamentally reshapes software engineering, Cash’s Consumer Platform is uniquely positioned to define what AI-native…",
+      "postedAt": "2026-07-02T18:17:15-04:00",
+      "score": {
+        "fit": 90,
+        "verdict": "strong",
+        "rationale": "Staff Android Software Engineer, Cash App Consumer Platform at Block scores 90/100 (strong) on the Tier-1 deterministic pass. Matched: Senior / staff / lead level; Genuine AI-native engineering; Backend / distributed / event-driven match; Strong engineering culture; Product engineering. Concerns: comp unstated; remote unstated.",
+        "matched": [
+          "Senior / staff / lead level",
+          "Genuine AI-native engineering",
+          "Backend / distributed / event-driven match",
+          "Strong engineering culture",
+          "Product engineering"
+        ],
+        "concerns": [
+          "comp unstated",
+          "remote unstated"
+        ]
+      }
+    },
     {
       "id": "c913e7f1",
       "source": "ashby",
@@ -46,25 +177,474 @@
       }
     },
     {
-      "id": "284bf4d9",
+      "id": "c4ade704",
       "source": "greenhouse",
-      "company": "Block",
-      "title": "Staff Android Software Engineer, Cash App Consumer Platform",
-      "location": "Bay Area, CA, United States of America",
-      "remote": "unknown",
-      "url": "http://block.xyz/careers/jobs/4884159008?gh_jid=4884159008",
-      "descriptionText": "It all started with an idea at Block in 2013. Initially built to take the pain out of peer-to-peer payments, Cash App has gone from a simple product with a single purpose to a dynamic ecosystem, developing unique financial products, including Afterpay/Clearpay, to provide a better way to send, spend, invest, borrow and save to our 50+ million monthly active customers. We want to redefine the world's relationship with money to make it more relatable, instantly available, and universally accessible.\n\nToday, Cash App has thousands of employees working globally across office and remote locations, with a culture geared toward innovation, collaboration and impact. We've been a distributed team since day one, and many of our roles can be done remotely from the countries where Cash App operates. No matter the location, we tailor our experience to ensure our employees are creative, productive, and happy.\n\nThe Team\n\nThe Cash App Consumer Platform is responsible for laying the foundation that every Cash App engineer builds on. We own the shared systems, abstractions, and tooling that power product development across the app. We sit at the product platform layer, building on top of core systems enabling feature development. Our customers are the engineers and teams building Cash App's product experiences, and we measure our success by their velocity and quality.\n\nAs AI fundamentally reshapes software engineering, Cash’s Consumer Platform is uniquely positioned to define what AI-native…",
-      "postedAt": "2026-06-09T16:56:05-04:00",
+      "company": "Airbnb",
+      "title": "Senior Software Engineer, Dev Tools",
+      "location": "Remote - USA",
+      "remote": true,
+      "url": "https://careers.airbnb.com/positions/8021476?gh_jid=8021476",
+      "descriptionText": "Airbnb was born in 2007 when two hosts welcomed three guests to their San Francisco home, and has since grown to over 5 million hosts who have welcomed over 2 billion guest arrivals in almost every country across the globe. Every day, hosts offer unique stays and experiences that make it possible for guests to connect with communities in a more authentic way.\n\nThe Community You Will Join:\n\nDev Tools’ mission is to help Airbnb engineers and AI agents build, validate, review, and ship high-quality software quickly, reliably, and safely.\n\nAI-assisted development is rapidly increasing the speed, volume, and concurrency of software delivery. Our team is building the infrastructure needed to support that growth - from cloud development environments and agent execution platforms to source control, code review, validation, and polyglot monorepo tooling.\n\nThe Difference You Will Make:\n\nAs a senior engineer on Dev Tools, you will design, build, and operate foundational systems used across Airbnb engineering. You will work on technically challenging infrastructure problems involving distributed systems, Kubernetes, developer workflows, scalability, reliability, and cost efficiency, while partnering closely with teams across Developer Platform, DevAI, CI/CD, Cloud Infrastructure, and Security. You won't just build - you'll shape the technical direction and set the bar for craft on a small, high-impact team.\n\nHigh leverage: Every improvement you make is felt by every engineer at Airbnb —…",
+      "postedAt": "2026-07-02T14:42:34-04:00",
       "score": {
-        "fit": 90,
+        "fit": 88,
         "verdict": "strong",
-        "rationale": "Staff Android Software Engineer, Cash App Consumer Platform at Block scores 90/100 (strong) on the Tier-1 deterministic pass. Matched: Senior / staff / lead level; Genuine AI-native engineering; Backend / distributed / event-driven match; Strong engineering culture; Product engineering. Concerns: comp unstated; remote unstated.",
+        "rationale": "Senior Software Engineer, Dev Tools at Airbnb scores 88/100 (strong) on the Tier-1 deterministic pass. Matched: Senior / staff / lead level; Genuine AI-native engineering; Backend / distributed / event-driven match; Top-choice company. Concerns: comp unstated.",
         "matched": [
           "Senior / staff / lead level",
           "Genuine AI-native engineering",
           "Backend / distributed / event-driven match",
-          "Strong engineering culture",
-          "Product engineering"
+          "Top-choice company"
+        ],
+        "concerns": [
+          "comp unstated"
+        ]
+      }
+    },
+    {
+      "id": "150d3e10",
+      "source": "greenhouse",
+      "company": "Airbnb",
+      "title": "Senior Machine Learning Engineer, Relevance and Personalization",
+      "location": "United States",
+      "remote": true,
+      "url": "https://careers.airbnb.com/positions/7258033?gh_jid=7258033",
+      "descriptionText": "Airbnb was born in 2007 when two hosts welcomed three guests to their San Francisco home, and has since grown to over 5 million hosts who have welcomed over 2 billion guest arrivals in almost every country across the globe. Every day, hosts offer unique stays and experiences that make it possible for guests to connect with communities in a more authentic way.\n\nThe Community You Will Join:\n\nThe Relevance and Personalization team at Airbnb is responsible for search and recommendation across the entire Airbnb digital platform. Be a leader in the team working on critical, impactful projects with focus on developing end-to-end ranking algorithms and ecosystems for optimizing multiple critical business objectives.\n\nThe Difference You Will Make:\n\nWe build cutting-edge AI technologies across the end-to-end search ranking product stack w.r.t. data pipelines, feature and model innovations, serving and experimentation efficiency, leveraging rich signals from various types of data (structured, sequential, image, text, etc) at Airbnb. We collaborate closely with teams across Airbnb to develop the ranking solutions and support a healthy marketplace for hosts and guests to further Airbnb’s mission of creating a world where people can Belong Anywhere. Some past publications from the team can be found here: https://sites.google.com/view/airbnb-relevance-publications/home\n\nA Typical Day:\n\nWork with large scale structured and unstructured data, build and continuously improve cutting edge…",
+      "postedAt": "2026-07-01T19:35:38-04:00",
+      "score": {
+        "fit": 88,
+        "verdict": "strong",
+        "rationale": "Senior Machine Learning Engineer, Relevance and Personalization at Airbnb scores 88/100 (strong) on the Tier-1 deterministic pass. Matched: Senior / staff / lead level; Genuine AI-native engineering; Backend / distributed / event-driven match; Top-choice company. Concerns: comp unstated.",
+        "matched": [
+          "Senior / staff / lead level",
+          "Genuine AI-native engineering",
+          "Backend / distributed / event-driven match",
+          "Top-choice company"
+        ],
+        "concerns": [
+          "comp unstated"
+        ]
+      }
+    },
+    {
+      "id": "6c0274b4",
+      "source": "greenhouse",
+      "company": "Airbnb",
+      "title": "Software Engineer, BizTech(Python, LLM, GenAI, MCP)",
+      "location": "Bangalore, India",
+      "remote": true,
+      "url": "https://careers.airbnb.com/positions/7902817?gh_jid=7902817",
+      "descriptionText": "Airbnb was born in 2007 when two hosts welcomed three guests to their San Francisco home, and has since grown to over 5 million hosts who have welcomed over 2 billion guest arrivals in almost every country across the globe. Every day, hosts offer unique stays and experiences that make it possible for guests to connect with communities in a more authentic way.\n\nSoftware Engineer, Integrations & Application Engineering\n\nAirbnb | India\n\nCompany Overview\n\nAirbnb was born in 2007 when two hosts welcomed three guests to their San Francisco home, and has since grown to over 5 million hosts who have welcomed over 2 billion guest arrivals in almost every country across the globe. Every day, hosts offer unique stays and experiences that make it possible for guests to connect with communities in a more authentic way.\n\nThe Community You Will Join\n\nThe Integrations & Application Engineering team owns the integration and automation platforms at Airbnb. We enable teams across the company to self-serve in connecting their systems and automating solutions, and we integrate Airbnb’s enterprise systems end-to-end. The team also builds and manages custom in-house solutions and the application infrastructure that supports them.\n\nThis role focuses on designing, building, and maintaining Finance integrations and reports, and on developing the libraries and plugins that power our in-house platforms. We’re looking for someone who takes pride in building reliable systems and solutions, is eager to…",
+      "postedAt": "2026-06-26T12:09:11-04:00",
+      "score": {
+        "fit": 88,
+        "verdict": "strong",
+        "rationale": "Software Engineer, BizTech(Python, LLM, GenAI, MCP) at Airbnb scores 88/100 (strong) on the Tier-1 deterministic pass. Matched: Senior / staff / lead level; Genuine AI-native engineering; Backend / distributed / event-driven match; Top-choice company. Concerns: comp unstated.",
+        "matched": [
+          "Senior / staff / lead level",
+          "Genuine AI-native engineering",
+          "Backend / distributed / event-driven match",
+          "Top-choice company"
+        ],
+        "concerns": [
+          "comp unstated"
+        ]
+      }
+    },
+    {
+      "id": "56981dbe",
+      "source": "greenhouse",
+      "company": "Airbnb",
+      "title": "Senior Software Engineer, (Python, GenAI, MCP)",
+      "location": "Remote - Bangalore, India",
+      "remote": true,
+      "url": "https://careers.airbnb.com/positions/7556182?gh_jid=7556182",
+      "descriptionText": "Airbnb was born in 2007 when two hosts welcomed three guests to their San Francisco home, and has since grown to over 5 million hosts who have welcomed over 2 billion guest arrivals in almost every country across the globe. Every day, hosts offer unique stays and experiences that make it possible for guests to connect with communities in a more authentic way.\n\nSenior Software Engineer, Integrations & Application Engineering\n\nAirbnb | India\n\nCompany Overview\n\nAirbnb was born in 2007 when two hosts welcomed three guests to their San Francisco home, and has since grown to over 5 million hosts who have welcomed over 2 billion guest arrivals in almost every country across the globe. Every day, hosts offer unique stays and experiences that make it possible for guests to connect with communities in a more authentic way.\n\nThe Community You Will Join\n\nThe Integrations & Application Engineering team owns the integration and automation platforms at Airbnb. We enable teams across the company to self-serve in connecting their systems and automating solutions, and we integrate Airbnb’s enterprise systems end-to-end. The team also builds and manages custom in-house solutions and the application infrastructure that supports them.\n\nThis role focuses on designing, building, and maintaining Finance integrations and reports, and on developing the libraries and plugins that power our in-house platforms. We’re looking for someone who takes ownership of systems and solutions, is eager to learn,…",
+      "postedAt": "2026-06-26T12:07:12-04:00",
+      "score": {
+        "fit": 88,
+        "verdict": "strong",
+        "rationale": "Senior Software Engineer, (Python, GenAI, MCP) at Airbnb scores 88/100 (strong) on the Tier-1 deterministic pass. Matched: Senior / staff / lead level; Genuine AI-native engineering; Backend / distributed / event-driven match; Top-choice company. Concerns: comp unstated.",
+        "matched": [
+          "Senior / staff / lead level",
+          "Genuine AI-native engineering",
+          "Backend / distributed / event-driven match",
+          "Top-choice company"
+        ],
+        "concerns": [
+          "comp unstated"
+        ]
+      }
+    },
+    {
+      "id": "9efc71db",
+      "source": "greenhouse",
+      "company": "Airbnb",
+      "title": "Senior Data Engineer, People Analytics",
+      "location": "United States",
+      "remote": true,
+      "url": "https://careers.airbnb.com/positions/7988010?gh_jid=7988010",
+      "descriptionText": "Airbnb was born in 2007 when two hosts welcomed three guests to their San Francisco home, and has since grown to over 5 million hosts who have welcomed over 2 billion guest arrivals in almost every country across the globe. Every day, hosts offer unique stays and experiences that make it possible for guests to connect with communities in a more authentic way.\n\nThe Community you will join:\n\nPeople Analytics & Research is a strong team of Data Scientists, Researchers, and Analysts. Our work is highly sought-after, and we prioritize work that impacts employees and the business. If you have a background in Data Engineering and are excited to help build Airbnb’s community, we want to hear from you.\n\nThe difference you will make:\n\nThe People Analytics & Research team is looking for an experienced Data Engineer to support our growing portfolio of data initiatives — from building data pipelines to delivering data foundations and analytical products that power EX's growing suite of AI-driven tools. Your responsibility spans data infrastructure, analytics engineering, and data product development. The role is highly cross-functional,and you will work with Talent Leaders, Recruiting, Legal, Diversity and Belonging, and other core people-oriented teams, as well as contribute to the AI-driven tools that make people data more accessible across the organization.\n\nYour Responsibilities:\n\nCollaborate with other team members and stakeholders to help understand data- and people-related…",
+      "postedAt": "2026-06-25T18:27:03-04:00",
+      "score": {
+        "fit": 88,
+        "verdict": "strong",
+        "rationale": "Senior Data Engineer, People Analytics at Airbnb scores 88/100 (strong) on the Tier-1 deterministic pass. Matched: Senior / staff / lead level; Genuine AI-native engineering; Backend / distributed / event-driven match; Top-choice company. Concerns: comp unstated.",
+        "matched": [
+          "Senior / staff / lead level",
+          "Genuine AI-native engineering",
+          "Backend / distributed / event-driven match",
+          "Top-choice company"
+        ],
+        "concerns": [
+          "comp unstated"
+        ]
+      }
+    },
+    {
+      "id": "8cbeca50",
+      "source": "greenhouse",
+      "company": "Airbnb",
+      "title": "Senior Software Engineer, Service Tools",
+      "location": "Brazil",
+      "remote": true,
+      "url": "https://careers.airbnb.com/positions/8024057?gh_jid=8024057",
+      "descriptionText": "Airbnb was born in 2007 when two hosts welcomed three guests to their San Francisco home, and has since grown to over 5 million hosts who have welcomed over 2 billion guest arrivals in almost every country across the globe. Every day, hosts offer unique stays and experiences that make it possible for guests to connect with communities in a more authentic way.\n\nThe Community You Will Join:\n\nAirbnb is a mission-driven company dedicated to helping create a world where anyone can belong anywhere. It takes a unified team committed to our core values to achieve this goal. Airbnb's various functions embody the company's innovative spirit and our fast-moving team is committed to leading as a 21st century company.\n\nThe Difference You Will Make:\n\nThe Service Tools team’s mission is to enable Airbnb backend developers to develop, test, and maintain their code quickly and reliably. This team is responsible for the standard development lifecycle for service owners—everything from AI Integration for service development, to how integration tests work, to building services for deployment. This represents Airbnb’s largest cohort of developers, you will ultimately be responsible for their productivity.\n\nA Typical Day:\n\nAs an engineer on Service Tools, you will work on technologies that help shape an industry-leading end to end developer experience for backend developers. In this role you will be:\n\nBuilding our next-gen build system using the latest technologies (e.g., Bazel).\n\nWorking on…",
+      "postedAt": "2026-06-24T07:09:17-04:00",
+      "score": {
+        "fit": 88,
+        "verdict": "strong",
+        "rationale": "Senior Software Engineer, Service Tools at Airbnb scores 88/100 (strong) on the Tier-1 deterministic pass. Matched: Senior / staff / lead level; Genuine AI-native engineering; Backend / distributed / event-driven match; Top-choice company. Concerns: comp unstated.",
+        "matched": [
+          "Senior / staff / lead level",
+          "Genuine AI-native engineering",
+          "Backend / distributed / event-driven match",
+          "Top-choice company"
+        ],
+        "concerns": [
+          "comp unstated"
+        ]
+      }
+    },
+    {
+      "id": "3f02b6ec",
+      "source": "greenhouse",
+      "company": "Airbnb",
+      "title": "Software Engineer, Unified Data Store",
+      "location": "Brazil",
+      "remote": true,
+      "url": "https://careers.airbnb.com/positions/8024426?gh_jid=8024426",
+      "descriptionText": "Airbnb was born in 2007 when two hosts welcomed three guests to their San Francisco home, and has since grown to over 5 million hosts who have welcomed over 2 billion guest arrivals in almost every country across the globe. Every day, hosts offer unique stays and experiences that make it possible for guests to connect with communities in a more authentic way.\n\nThe Community You Will Join:\n\nThe Unified Data Store (UDS) team is on a mission to build a reliable, scalable, and globally distributed system-of-record storage platform for Airbnb. We design, build, and operate the infrastructure that powers all critical Airbnb data, including user, listing, reservation, and financial data.\n\nSupporting over 150 million users and hosts worldwide, our work delivers a world-class user and developer experience grounded in exceptional reliability, scalability, efficiency, and security. As a member of this team, you’ll collaborate with top-tier engineers to build and evolve a modern distributed infrastructure service.\n\nYou will be the expert on data storage systems, high performance infrastructure service APIs, as well as provide guidance to Airbnb product teams on the effective use of technologies in large scale systems and performance optimization.\n\nThe Difference You Will Make:\n\nWe’re looking to hire Engineers or Senior Engineers who are hands-on and excited to tackle broad technical challenges in the following areas:\n\nUDS Client Stack\n\nDesign, build, and operate a high-performance,…",
+      "postedAt": "2026-06-23T20:38:15-04:00",
+      "score": {
+        "fit": 88,
+        "verdict": "strong",
+        "rationale": "Software Engineer, Unified Data Store at Airbnb scores 88/100 (strong) on the Tier-1 deterministic pass. Matched: Senior / staff / lead level; Genuine AI-native engineering; Backend / distributed / event-driven match; Top-choice company. Concerns: comp unstated.",
+        "matched": [
+          "Senior / staff / lead level",
+          "Genuine AI-native engineering",
+          "Backend / distributed / event-driven match",
+          "Top-choice company"
+        ],
+        "concerns": [
+          "comp unstated"
+        ]
+      }
+    },
+    {
+      "id": "3e2de062",
+      "source": "greenhouse",
+      "company": "Airbnb",
+      "title": "Senior Staff Engineer, Communication & Connectivity",
+      "location": "Remote - USA",
+      "remote": true,
+      "url": "https://careers.airbnb.com/positions/8017277?gh_jid=8017277",
+      "descriptionText": "Airbnb was born in 2007 when two hosts welcomed three guests to their San Francisco home, and has since grown to over 5 million hosts who have welcomed over 2 billion guest arrivals in almost every country across the globe. Every day, hosts offer unique stays and experiences that make it possible for guests to connect with communities in a more authentic way.\n\nThe Community You Will Join:\n\nAirbnb is powered by our Guests & Hosts. Our teams work on everything from driving improvements for the end-to-end Host and Guest experience to launching new product verticals from the ground up. Our job is to build world-class, comprehensive platforms and features to create high quality experiences for our outstanding guest and host communities.\n\nWithin our Guest & Host organization is the Communication and Connectivity team. The communication branch owns the tools used daily by millions of guests and hosts, including Messaging (2nd most used surface within Airbnb), push notifications, and other deep integrations with key operating system features. The connectivity branch is responsible to connect hosts together through various ways, it also built a platform to connect 3rd party partners from various domains with Airbnb. The communication and connectivity team has engineers cover multiple disciplines including web engineers, native engineers, backend engineers, data engineers, and machine learning engineers. The role posted here will focus on general backend architecture and application…",
+      "postedAt": "2026-06-23T11:51:19-04:00",
+      "score": {
+        "fit": 88,
+        "verdict": "strong",
+        "rationale": "Senior Staff Engineer, Communication & Connectivity at Airbnb scores 88/100 (strong) on the Tier-1 deterministic pass. Matched: Senior / staff / lead level; Genuine AI-native engineering; Backend / distributed / event-driven match; Top-choice company. Concerns: comp unstated.",
+        "matched": [
+          "Senior / staff / lead level",
+          "Genuine AI-native engineering",
+          "Backend / distributed / event-driven match",
+          "Top-choice company"
+        ],
+        "concerns": [
+          "comp unstated"
+        ]
+      }
+    },
+    {
+      "id": "458e0086",
+      "source": "greenhouse",
+      "company": "Airbnb",
+      "title": "Staff Software Engineer, Unified Data Store",
+      "location": "Brazil",
+      "remote": true,
+      "url": "https://careers.airbnb.com/positions/7867435?gh_jid=7867435",
+      "descriptionText": "Airbnb was born in 2007 when two hosts welcomed three guests to their San Francisco home, and has since grown to over 5 million hosts who have welcomed over 2 billion guest arrivals in almost every country across the globe. Every day, hosts offer unique stays and experiences that make it possible for guests to connect with communities in a more authentic way.\n\nThe Community You Will Join:\n\nThe Unified Data Store (UDS) team is the architect of Airbnb’s global system-of-record. We design, build, and operate the mission-critical storage platform that powers every user profile, listing, reservation, and financial transaction on the platform. Supporting over 150 million users worldwide, our work is the bedrock of Airbnb’s reliability and efficiency.\n\nAs a Staff Engineer in our Brazil Engineering Hub , you will join a high-impact group of technical leaders who value craft and operational excellence. You won't just be managing data; you will be building a modern distributed infrastructure service that enables hundreds of product teams to ship features with total confidence.\n\nThe Difference You Will Make:\n\nWe are looking for a hands-on technical leader who thrives on solving deep architectural challenges and leading through ambiguity. As a Staff Engineer, you will serve as the Technical North Star for the UDS Client Stack, ensuring our data access layer is seamless, high-performance, and future-proof.\n\nA Typical Day:\n\nDefine Technical Strategy: Lead the multi-year roadmap and…",
+      "postedAt": "2026-06-16T16:19:54-04:00",
+      "score": {
+        "fit": 88,
+        "verdict": "strong",
+        "rationale": "Staff Software Engineer, Unified Data Store at Airbnb scores 88/100 (strong) on the Tier-1 deterministic pass. Matched: Senior / staff / lead level; Genuine AI-native engineering; Backend / distributed / event-driven match; Top-choice company. Concerns: comp unstated.",
+        "matched": [
+          "Senior / staff / lead level",
+          "Genuine AI-native engineering",
+          "Backend / distributed / event-driven match",
+          "Top-choice company"
+        ],
+        "concerns": [
+          "comp unstated"
+        ]
+      }
+    },
+    {
+      "id": "43cc7a5f",
+      "source": "greenhouse",
+      "company": "Airbnb",
+      "title": "Senior Staff Data Engineer - Data Stewardship",
+      "location": "United States",
+      "remote": true,
+      "url": "https://careers.airbnb.com/positions/7998356?gh_jid=7998356",
+      "descriptionText": "Airbnb was born in 2007 when two hosts welcomed three guests to their San Francisco home, and has since grown to over 5 million hosts who have welcomed over 2 billion guest arrivals in almost every country across the globe. Every day, hosts offer unique stays and experiences that make it possible for guests to connect with communities in a more authentic way.\n\nThe Community You Will Join:\n\nThe Data Stewardship team is a group of passionate data practitioners with a diverse background in analytics, data modeling, governance, compliance, and scaled data quality. We are responsible for ensuring Airbnb is meeting its compliance obligations across our data ecosystem and ensuring data consumers are able to easily identify the best data for their needs. We support the pipelines, programs, and policy-bodies that make this possible. You’ll be part of the overall Data Infrastructure organization that is responsible for online and offline data infrastructure across the company, and the components that transition data between these environments.\n\nThe Difference You Will Make\n\nSet the North Star: you will define the multi-year vision for Data Governance and Data Quality that scales with our global business and evolving AI landscape.\n\nOrganizational Influence: Act as a primary consultant for executive leadership on data governance, ensuring that compliance and stewardship are integrated into the data product lifecycle from day one.\n\nA Typical Day\n\nArchitect Ecosystems: Lead the design of…",
+      "postedAt": "2026-06-10T19:39:45-04:00",
+      "score": {
+        "fit": 88,
+        "verdict": "strong",
+        "rationale": "Senior Staff Data Engineer - Data Stewardship at Airbnb scores 88/100 (strong) on the Tier-1 deterministic pass. Matched: Senior / staff / lead level; Genuine AI-native engineering; Backend / distributed / event-driven match; Top-choice company. Concerns: comp unstated.",
+        "matched": [
+          "Senior / staff / lead level",
+          "Genuine AI-native engineering",
+          "Backend / distributed / event-driven match",
+          "Top-choice company"
+        ],
+        "concerns": [
+          "comp unstated"
+        ]
+      }
+    },
+    {
+      "id": "ab100bdf",
+      "source": "greenhouse",
+      "company": "Airbnb",
+      "title": "Staff Software Engineer, Build (Bazel)",
+      "location": "Remote - USA",
+      "remote": true,
+      "url": "https://careers.airbnb.com/positions/7739337?gh_jid=7739337",
+      "descriptionText": "Airbnb was born in 2007 when two hosts welcomed three guests to their San Francisco home, and has since grown to over 5 million hosts who have welcomed over 2 billion guest arrivals in almost every country across the globe. Every day, hosts offer unique stays and experiences that make it possible for guests to connect with communities in a more authentic way.\n\nThe Community You Will Join:\n\nThe Developer Infrastructure organization’s mission is to enable Airbnb engineers and AI Coding Agents to ship high quality software with confidence and speed. We work on infrastructure that accelerates Airbnb’s engineering productivity across all stages of the build/test/deploy software development lifecycle.\n\nThe Difference You Will Make:\n\nBuild infrastructure has the potential to be one of the highest-leverage investments for our engineering organization as we attempt to accelerate the iteration loop of engineers and AI agents operating within our developer platform.\n\nTo deliver these improvements, you will operate within the CI+Build team, which owns developer infrastructure that includes remote build systems, CI clusters, flaky test management, and merge queues. The team’s goal is to keep mainline green and PR cycle times fast.\n\nYour role will give you the opportunity to define and deliver world-class build systems at Airbnb’s scale, while driving technical direction for build infrastructure spanning multiple platform teams. Our internal customer teams deliver systems used by product…",
+      "postedAt": "2026-06-09T13:27:10-04:00",
+      "score": {
+        "fit": 88,
+        "verdict": "strong",
+        "rationale": "Staff Software Engineer, Build (Bazel) at Airbnb scores 88/100 (strong) on the Tier-1 deterministic pass. Matched: Senior / staff / lead level; Genuine AI-native engineering; Backend / distributed / event-driven match; Top-choice company. Concerns: comp unstated.",
+        "matched": [
+          "Senior / staff / lead level",
+          "Genuine AI-native engineering",
+          "Backend / distributed / event-driven match",
+          "Top-choice company"
+        ],
+        "concerns": [
+          "comp unstated"
+        ]
+      }
+    },
+    {
+      "id": "34bb805d",
+      "source": "greenhouse",
+      "company": "Airbnb",
+      "title": "Staff Software Engineer, Marketplaces & Intelligence Data and AI",
+      "location": "United States",
+      "remote": true,
+      "url": "https://careers.airbnb.com/positions/7528577?gh_jid=7528577",
+      "descriptionText": "Airbnb was born in 2007 when two hosts welcomed three guests to their San Francisco home, and has since grown to over 5 million hosts who have welcomed over 2 billion guest arrivals in almost every country across the globe. Every day, hosts offer unique stays and experiences that make it possible for guests to connect with communities in a more authentic way.\n\nThe Community You Will Join:\nWe are currently hiring for multiple teams:\n\nAirbnb is powered by our Host and Guest communities. Our teams work on everything from driving improvements for the end-to-end Host and Guest experience to launching new product verticals from the ground up. Our job is to build world-class, comprehensive platforms and features to create high-quality experiences for our outstanding community of Hosts and Guests.\n\nListings and Host Tools Data and AI (LHT-DnA) team is one of the 4 teams of the Marketplace-DnA org: The LHT-DnA team supports host personalization products and provides data driven solutions to achieve superior host experience on Airbnb. These products include but are not limited to managing your space (MYS), host quality standards etc. We own data pipelines and ML models and will build services for serving that are used in the above areas.\n\nSupply & Competitive Intelligence sits at the intersection of Data/AI and Airbnb’s competitive strategy. As part of this team, you will build systems that give Airbnb a real-time, comprehensive view of the global travel market — how competitors…",
+      "postedAt": "2026-06-03T21:32:33-04:00",
+      "score": {
+        "fit": 88,
+        "verdict": "strong",
+        "rationale": "Staff Software Engineer, Marketplaces & Intelligence Data and AI at Airbnb scores 88/100 (strong) on the Tier-1 deterministic pass. Matched: Senior / staff / lead level; Genuine AI-native engineering; Backend / distributed / event-driven match; Top-choice company. Concerns: comp unstated.",
+        "matched": [
+          "Senior / staff / lead level",
+          "Genuine AI-native engineering",
+          "Backend / distributed / event-driven match",
+          "Top-choice company"
+        ],
+        "concerns": [
+          "comp unstated"
+        ]
+      }
+    },
+    {
+      "id": "b00e602d",
+      "source": "greenhouse",
+      "company": "Airbnb",
+      "title": "Principal AI/ML Researcher / Engineer In Reasoning, Planning, and Decision-making systems",
+      "location": "United States",
+      "remote": true,
+      "url": "https://careers.airbnb.com/positions/7955573?gh_jid=7955573",
+      "descriptionText": "Airbnb was born in 2007 when two hosts welcomed three guests to their San Francisco home, and has since grown to over 5 million hosts who have welcomed over 2 billion guest arrivals in almost every country across the globe. Every day, hosts offer unique stays and experiences that make it possible for guests to connect with communities in a more authentic way.\n\nAbout the Role\n\nWe are seeking a Principal / Distinguished AI/ML Researcher and/or Engineer with deep experience in reasoning, planning, and decision-making systems. This role is ideal for individuals who have architected post-training intelligence frameworks, integrated Large Reasoning Models (LRMs) with Knowledge Graphs, and applied Reinforcement Learning (RL) as a first-class component of adaptive planning and control. You will be responsible for inventing, scaling, and operationalizing intelligent decisioning substrates that blend symbolic and sub-symbolic methods, enabling next-generation AI systems that go beyond pattern recognition into the realm of deliberation, foresight, and agency.\n\nOur mission is to build cognitive AI systems that combine post-trained foundational models, explicit memory and knowledge, and recursive planning strategies to power sophisticated real-world decisioning in personalized environments. You will collaborate across disciplines and influence company-wide AI architecture.\n\nA core dimension of this role is the design and deployment of multi-agent systems, where reasoning, planning, and…",
+      "postedAt": "2026-06-03T15:51:49-04:00",
+      "score": {
+        "fit": 88,
+        "verdict": "strong",
+        "rationale": "Principal AI/ML Researcher / Engineer In Reasoning, Planning, and Decision-making systems at Airbnb scores 88/100 (strong) on the Tier-1 deterministic pass. Matched: Senior / staff / lead level; Genuine AI-native engineering; Backend / distributed / event-driven match; Top-choice company. Concerns: comp unstated.",
+        "matched": [
+          "Senior / staff / lead level",
+          "Genuine AI-native engineering",
+          "Backend / distributed / event-driven match",
+          "Top-choice company"
+        ],
+        "concerns": [
+          "comp unstated"
+        ]
+      }
+    },
+    {
+      "id": "8cfd14eb",
+      "source": "greenhouse",
+      "company": "Airbnb",
+      "title": "Senior iOS Engineer, Global Markets",
+      "location": "China",
+      "remote": true,
+      "url": "https://careers.airbnb.com/positions/7817040?gh_jid=7817040",
+      "descriptionText": "Airbnb was born in 2007 when two hosts welcomed three guests to their San Francisco home, and has since grown to over 5 million hosts who have welcomed over 2 billion guest arrivals in almost every country across the globe. Every day, hosts offer unique stays and experiences that make it possible for guests to connect with communities in a more authentic way.\n\nNOTE: NO VISA SUPPORT\n\nThe Community You Will Join:\n\nThe Global Markets engineering team is focusing on evolving our guest and host experience for global markets through new product initiatives to accelerate international growth. Expanding in under-penetrated global markets is a key pillar of our company's growth strategy. To achieve this, we want to innovate in every sense of the word and adapt our product to every corner of the globe. We want every user in each of our 220+ countries and regions to feel right at home.\n\nWe are a remote team based in different cities in China, and we meet up in person regularly to collaborate, connect and celebrate.\n\nThe Difference You Will Make:\n\nAs a senior iOS engineer on the mobile team, you will tackle the unique technical challenges of building for global markets — locale-aware UI, market-specific features and integrations, and performance optimization across diverse conditions. You will work on projects spanning the full product surface, from signup/login, search, PDP, checkout, and reviews to foundational components like maps, networking and logging.\n\nYou will partner closely…",
+      "postedAt": "2026-06-01T00:03:14-04:00",
+      "score": {
+        "fit": 88,
+        "verdict": "strong",
+        "rationale": "Senior iOS Engineer, Global Markets at Airbnb scores 88/100 (strong) on the Tier-1 deterministic pass. Matched: Senior / staff / lead level; Genuine AI-native engineering; Backend / distributed / event-driven match; Top-choice company. Concerns: comp unstated.",
+        "matched": [
+          "Senior / staff / lead level",
+          "Genuine AI-native engineering",
+          "Backend / distributed / event-driven match",
+          "Top-choice company"
+        ],
+        "concerns": [
+          "comp unstated"
+        ]
+      }
+    },
+    {
+      "id": "17ed3271",
+      "source": "greenhouse",
+      "company": "Airbnb",
+      "title": "Senior Staff Software Engineer, Trust",
+      "location": "Remote - US",
+      "remote": true,
+      "url": "https://careers.airbnb.com/positions/7818982?gh_jid=7818982",
+      "descriptionText": "Airbnb was born in 2007 when two hosts welcomed three guests to their San Francisco home, and has since grown to over 5 million hosts who have welcomed over 2 billion guest arrivals in almost every country across the globe. Every day, hosts offer unique stays and experiences that make it possible for guests to connect with communities in a more authentic way.\n\nThe Community You Will Join:\n\nEveryone at Airbnb thinks about trust, but our team obsesses over it daily. At the core of trust is safety, and thus we spend a significant amount of our time and energy keeping the community safe. The Trust team is responsible for developing the technology that helps protect our community and platform from fraud while also ensuring our hosts, guests, homes, and experiences meet our high standards. We constantly work to fight against online fraud (such as monetary loss, compromised accounts, spam and scam in messages, fake inventory, etc.) as well as offline fraud (theft, property damage, personal safety, etc.). We also work on onboarding and screening of users, and think about complex topics like identity and reputation to ensure that every interaction with Airbnb helps build trust in us and our community. Trust Engineering is responsible for the technology vision and development of a complex stack that runs on every key interaction on the platform.\n\nThe Difference You Will Make:\n\nAs a senior technical individual contributor, you will partner closely with our leaders across the broader…",
+      "postedAt": "2026-04-21T18:51:28-04:00",
+      "score": {
+        "fit": 88,
+        "verdict": "strong",
+        "rationale": "Senior Staff Software Engineer, Trust at Airbnb scores 88/100 (strong) on the Tier-1 deterministic pass. Matched: Senior / staff / lead level; Genuine AI-native engineering; Backend / distributed / event-driven match; Top-choice company. Concerns: comp unstated.",
+        "matched": [
+          "Senior / staff / lead level",
+          "Genuine AI-native engineering",
+          "Backend / distributed / event-driven match",
+          "Top-choice company"
+        ],
+        "concerns": [
+          "comp unstated"
+        ]
+      }
+    },
+    {
+      "id": "7f353fb9",
+      "source": "greenhouse",
+      "company": "Airbnb",
+      "title": "Principal Software Engineer, Performance",
+      "location": "Remote-US",
+      "remote": true,
+      "url": "https://careers.airbnb.com/positions/7826679?gh_jid=7826679",
+      "descriptionText": "Airbnb was born in 2007 when two hosts welcomed three guests to their San Francisco home, and has since grown to over 5 million hosts who have welcomed over 2 billion guest arrivals in almost every country across the globe. Every day, hosts offer unique stays and experiences that make it possible for guests to connect with communities in a more authentic way.\n\nAirbnb's infrastructure is scaling fast in the AI era: more compute, more GPU spend, more complexity across the stack. The Infrastructure Performance team exists to make sure that growth doesn't come at the cost of speed, reliability, or efficiency. We treat performance as a first-class engineering property - measurable, continuously improving, and enforced across the software lifecycle.\n\nThis is the most senior performance engineering role at the company. In this role, you won't be handed a roadmap. You'll build one.\n\nThe Performance team owns performance across the full stack: CPU and GPU fleet utilization, backend service efficiency, end-to-end request latency, storage, ML infrastructure, and observability. That means instrumenting and profiling at scale, discovering hot paths, shaping how teams across the company think about performance SLOs, and influencing build vs. buy decisions on emerging hardware and software.\n\nThe team also builds the tooling that lets every backend team self-serve performance insights, scaling good decisions beyond your direct involvement.\n\nOn the product side, as the TL for Performance…",
+      "postedAt": "2026-04-17T17:11:47-04:00",
+      "score": {
+        "fit": 88,
+        "verdict": "strong",
+        "rationale": "Principal Software Engineer, Performance at Airbnb scores 88/100 (strong) on the Tier-1 deterministic pass. Matched: Senior / staff / lead level; Genuine AI-native engineering; Backend / distributed / event-driven match; Top-choice company. Concerns: comp unstated.",
+        "matched": [
+          "Senior / staff / lead level",
+          "Genuine AI-native engineering",
+          "Backend / distributed / event-driven match",
+          "Top-choice company"
+        ],
+        "concerns": [
+          "comp unstated"
+        ]
+      }
+    },
+    {
+      "id": "ff10631b",
+      "source": "greenhouse",
+      "company": "Airbnb",
+      "title": "Senior Staff Operations Engineer, AIOps",
+      "location": "Remote - United States",
+      "remote": true,
+      "url": "https://careers.airbnb.com/positions/7644921?gh_jid=7644921",
+      "descriptionText": "Airbnb was born in 2007 when two hosts welcomed three guests to their San Francisco home, and has since grown to over 5 million hosts who have welcomed over 2 billion guest arrivals in almost every country across the globe. Every day, hosts offer unique stays and experiences that make it possible for guests to connect with communities in a more authentic way.\n\nThe Community You Will Join:\n\nBizTech fosters culture and connection at Airbnb by providing reliable corporate tools, innovative products, and technical support for all teams. We drive technical breakthroughs and strategies that redefine what it means to belong anywhere, delivering greater value for the business and our people. The Global Operations team at BizTech manages production services across Airbnb’s corporate environment, delivering reliable operations through Observability, Incident Management, Core Operations, and AI-enabled automation. We partner across BizTech to scale service quality, efficiency, and resilience.\n\nThe Difference You Will Make:\n\nAs a Senior Staff Engineer in Operations, you will lead and mentor a high-performing team to scale our AI-enabled operations model and deliver AIOps solutions that streamline operational workstreams and help BizTech teams focus on their core work with confidence. Ops owns triage and resolution, proactive monitoring across networks, systems, applications, and cloud services via a homegrown observability platform, and drives process excellence through automation and…",
+      "postedAt": "2026-03-04T13:54:26-05:00",
+      "score": {
+        "fit": 88,
+        "verdict": "strong",
+        "rationale": "Senior Staff Operations Engineer, AIOps at Airbnb scores 88/100 (strong) on the Tier-1 deterministic pass. Matched: Senior / staff / lead level; Genuine AI-native engineering; Backend / distributed / event-driven match; Top-choice company. Concerns: comp unstated.",
+        "matched": [
+          "Senior / staff / lead level",
+          "Genuine AI-native engineering",
+          "Backend / distributed / event-driven match",
+          "Top-choice company"
+        ],
+        "concerns": [
+          "comp unstated"
+        ]
+      }
+    },
+    {
+      "id": "b69d1b13",
+      "source": "greenhouse",
+      "company": "Airbnb",
+      "title": "Senior Staff Data Engineer, Marketplaces DNA",
+      "location": "United States",
+      "remote": true,
+      "url": "https://careers.airbnb.com/positions/7463663?gh_jid=7463663",
+      "descriptionText": "Airbnb was born in 2007 when two hosts welcomed three guests to their San Francisco home, and has since grown to over 5 million hosts who have welcomed over 2 billion guest arrivals in almost every country across the globe. Every day, hosts offer unique stays and experiences that make it possible for guests to connect with communities in a more authentic way.\n\nThe Community You Will Join:\n\nMarketplaces Data and AI is a group of passionate machine learning, software, data, and analytics engineers. We are responsible for developing new, cutting-edge AI and data products that leverage Airbnb’s massive datasets across Users, Listings, Pricing, and Supply/Demand. You will be a crucial part of the Guest and Host organization, building the intelligence that powers the web and native apps used by hundreds of millions of guests and hosts globally.\n\nThe Difference You Will Make:\n\nYou will own some of the most critical data at Airbnb including Users, Listings, and Marketplaces. You will help uplevel Data Engineering practice and foundation while partnering with partner and infra teams to ship data products and ML models. This is a unique opportunity to shape how we develop data products for not just the Users, Listings, and Marketplaces team but also across Airbnb.\n\nYou will play a major role in how data is integrated into our Guest and Host products by\n\nunderstanding the business and product need\n\naligning with software engineers, ml engineers and data scientist on data flow designing…",
+      "postedAt": "2026-01-26T11:47:44-05:00",
+      "score": {
+        "fit": 88,
+        "verdict": "strong",
+        "rationale": "Senior Staff Data Engineer, Marketplaces DNA at Airbnb scores 88/100 (strong) on the Tier-1 deterministic pass. Matched: Senior / staff / lead level; Genuine AI-native engineering; Backend / distributed / event-driven match; Top-choice company. Concerns: comp unstated.",
+        "matched": [
+          "Senior / staff / lead level",
+          "Genuine AI-native engineering",
+          "Backend / distributed / event-driven match",
+          "Top-choice company"
+        ],
+        "concerns": [
+          "comp unstated"
+        ]
+      }
+    },
+    {
+      "id": "70b090a4",
+      "source": "greenhouse",
+      "company": "Block",
+      "title": "Software Engineer, Cash App - Lending Products",
+      "location": "Bay Area, CA, United States of America",
+      "remote": "unknown",
+      "url": "http://block.xyz/careers/jobs/5196173008?gh_jid=5196173008",
+      "descriptionText": "It all started with an idea at Block in 2013. Initially built to take the pain out of peer-to-peer payments, Cash App has gone from a simple product with a single purpose to a dynamic ecosystem, developing unique financial products, including Afterpay/Clearpay, to provide a better way to send, spend, invest, borrow and save to our 50+ million monthly active customers. We want to redefine the world's relationship with money to make it more relatable, instantly available, and universally accessible.\n\nToday, Cash App has thousands of employees working globally across office and remote locations, with a culture geared toward innovation, collaboration and impact. We've been a distributed team since day one, and many of our roles can be done remotely from the countries where Cash App operates. No matter the location, we tailor our experience to ensure our employees are creative, productive, and happy.\n\nThe Role\n\nCash App's mission is to make money instantly available and universally accessible - all the products and features we've released in the app are based on those principles. Lending is one of the newest Cash App products and we're looking for a Software Engineer to join this team and help deliver on our vision of economic empowerment.\n\nLending offers Cash App and Afterpay users low-friction access to credit without prohibitive repayment terms, and the Lending Engineering team is focused on building the complex systems and tooling to support access and availability.The…",
+      "postedAt": "2026-07-02T18:17:15-04:00",
+      "score": {
+        "fit": 85,
+        "verdict": "strong",
+        "rationale": "Software Engineer, Cash App - Lending Products at Block scores 85/100 (strong) on the Tier-1 deterministic pass. Matched: Senior / staff / lead level; Genuine AI-native engineering; Backend / distributed / event-driven match; Strong engineering culture. Concerns: comp unstated; remote unstated.",
+        "matched": [
+          "Senior / staff / lead level",
+          "Genuine AI-native engineering",
+          "Backend / distributed / event-driven match",
+          "Strong engineering culture"
         ],
         "concerns": [
           "comp unstated",
@@ -121,31 +701,6 @@
       }
     },
     {
-      "id": "70640bd1",
-      "source": "greenhouse",
-      "company": "Airbnb",
-      "title": "Senior Frontend Engineer, Quality Platform",
-      "location": "Brazil",
-      "remote": true,
-      "url": "https://careers.airbnb.com/positions/8031737?gh_jid=8031737",
-      "descriptionText": "Airbnb was born in 2007 when two hosts welcomed three guests to their San Francisco home, and has since grown to over 5 million hosts who have welcomed over 2 billion guest arrivals in almost every country across the globe. Every day, hosts offer unique stays and experiences that make it possible for guests to connect with communities in a more authentic way.\n\nThe Community You Will Join\n\nThe Quality Platform team is at the heart of Airbnb's mission to deliver a seamless, high-quality experience for millions of hosts and guests. We don't just find bugs - we build the systems that prevent them.\n\nOur team sits at the intersection of Quality Engineering, Infrastructure, and Applied AI. We are evolving how software quality is built by integrating LLMs, intelligent automation, and data-driven systems into the testing lifecycle. The interfaces we build are how thousands of Airbnb engineers experience that work - turning a powerful agentic testing platform into something intuitive, fast, and a pleasure to use. You will join a high-impact group of engineers who care about craft and user experience in equal measure.\n\nThe Difference You Will Make\n\nAs a Senior Frontend Engineer, you will build and maintain the frontend for our Quality Platform and tools - the paved path that gives Airbnb engineers streamlined access to our agentic testing platform. Your primary objective will be to make complex testing and automation workflows simple to understand and effortless to act on, so engineers…",
-      "postedAt": "2026-06-26T19:51:54-04:00",
-      "score": {
-        "fit": 85,
-        "verdict": "strong",
-        "rationale": "Senior Frontend Engineer, Quality Platform at Airbnb scores 85/100 (strong) on the Tier-1 deterministic pass. Matched: Senior / staff / lead level; Genuine AI-native engineering; Backend / distributed / event-driven match; Product engineering. Concerns: comp unstated.",
-        "matched": [
-          "Senior / staff / lead level",
-          "Genuine AI-native engineering",
-          "Backend / distributed / event-driven match",
-          "Product engineering"
-        ],
-        "concerns": [
-          "comp unstated"
-        ]
-      }
-    },
-    {
       "id": "79209ae1",
       "source": "greenhouse",
       "company": "Block",
@@ -168,157 +723,6 @@
         "concerns": [
           "comp unstated",
           "remote unstated"
-        ]
-      }
-    },
-    {
-      "id": "15c5a9d4",
-      "source": "greenhouse",
-      "company": "Airbnb",
-      "title": "Senior Software Engineer, Quality Platform",
-      "location": "Brazil",
-      "remote": true,
-      "url": "https://careers.airbnb.com/positions/7380149?gh_jid=7380149",
-      "descriptionText": "Airbnb was born in 2007 when two hosts welcomed three guests to their San Francisco home, and has since grown to over 5 million hosts who have welcomed over 2 billion guest arrivals in almost every country across the globe. Every day, hosts offer unique stays and experiences that make it possible for guests to connect with communities in a more authentic way.\n\nThe Community You Will Join:\n\nThe Quality Platform team is at the heart of Airbnb’s mission to deliver a seamless, high-quality experience for millions of hosts and guests. We don’t just find bugs — we build the systems that prevent them.\n\nOur team sits at the intersection of Quality Engineering, Infrastructure, and Applied AI . We are evolving how software quality is built by integrating LLMs, intelligent automation, and data-driven systems into the testing lifecycle. You will join a high-impact group of engineers focused on building AI-powered quality systems that scale across one of the world’s most complex codebases.\n\nThe Difference You Will Make:\n\nAs a Senior Software Engineer , you will play a key role in building and evolving AI-native quality workflows across Airbnb. You will design systems that apply AI directly to the testing lifecycle , helping developers and quality engineers build, validate, and ship high-quality software at scale.\n\nIn this role, you will:\n\nBuild AI Agents for the Testing Lifecycle: Design and implement AI agents that support developers and quality engineers across the testing lifecycle —…",
-      "postedAt": "2026-06-25T16:28:40-04:00",
-      "score": {
-        "fit": 85,
-        "verdict": "strong",
-        "rationale": "Senior Software Engineer, Quality Platform at Airbnb scores 85/100 (strong) on the Tier-1 deterministic pass. Matched: Senior / staff / lead level; Genuine AI-native engineering; Backend / distributed / event-driven match; Product engineering. Concerns: comp unstated.",
-        "matched": [
-          "Senior / staff / lead level",
-          "Genuine AI-native engineering",
-          "Backend / distributed / event-driven match",
-          "Product engineering"
-        ],
-        "concerns": [
-          "comp unstated"
-        ]
-      }
-    },
-    {
-      "id": "f294d0d0",
-      "source": "greenhouse",
-      "company": "Coinbase",
-      "title": "Senior Software Engineer, Backend - Identity",
-      "location": "Remote - USA",
-      "remote": true,
-      "url": "https://www.coinbase.com/careers/positions/7746190?gh_jid=7746190",
-      "descriptionText": "Ready to do the most impactful work of your career? At Coinbase , we are uncompromising on our mission to increase economic freedom. The bar is high, the environment is intense, and we like it that way. This isn't a place for complacency, it’s a place to be pushed past your perceived limits. If you're ready to build the future of finance alongside people who refuse to settle for \"good enough,\" you belong here. Coinbase is a remote-first, but not remote-only company. Expect to get together quarterly for intense in-person working sessions called “surges.” learn more about working at Coinbase .\n\nSenior Software Engineer, Identity (Accounts)\n\nWe're hiring a Senior Software Engineer to join the Identity team within Platform and help build the systems that power every user's relationship with Coinbase. The Identity team owns everything related to user identity - login, passwords, MFA, security questions, and session management - and the Accounts pod is driving the evolution from single-user models to a unified, multi-user and organization-aware platform. You'll architect and deliver the APIs, data models, and backend services that enable seamless, secure, multi-entity account management at Coinbase scale, future-proofing our growth across Consumer, Institutional, and new verticals.\n\nWhat you'll do:\n\nOwn the design and reliability of business-critical Tier-0/Tier-1 backend systems serving millions of customers, ensuring security, observability, and operational excellence.\n\nLead the…",
-      "postedAt": "2026-06-18T18:48:28-04:00",
-      "score": {
-        "fit": 85,
-        "verdict": "strong",
-        "rationale": "Senior Software Engineer, Backend - Identity at Coinbase scores 85/100 (strong) on the Tier-1 deterministic pass. Matched: Senior / staff / lead level; Genuine AI-native engineering; Backend / distributed / event-driven match; Strong engineering culture. Concerns: comp unstated.",
-        "matched": [
-          "Senior / staff / lead level",
-          "Genuine AI-native engineering",
-          "Backend / distributed / event-driven match",
-          "Strong engineering culture"
-        ],
-        "concerns": [
-          "comp unstated"
-        ]
-      }
-    },
-    {
-      "id": "dfbb38bc",
-      "source": "greenhouse",
-      "company": "Coinbase",
-      "title": "Staff Software Engineer, EAA CX",
-      "location": "Remote - USA",
-      "remote": true,
-      "url": "https://www.coinbase.com/careers/positions/6784618?gh_jid=6784618",
-      "descriptionText": "Ready to do the most impactful work of your career? At Coinbase , we are uncompromising on our mission to increase economic freedom. The bar is high, the environment is intense, and we like it that way. This isn't a place for complacency, it’s a place to be pushed past your perceived limits. If you're ready to build the future of finance alongside people who refuse to settle for \"good enough,\" you belong here. Coinbase is a remote-first, but not remote-only company. Expect to get together quarterly for intense in-person working sessions called “surges.” learn more about working at Coinbase .\n\nStaff Software Engineer (EAA)\n\nThe Customer Administration Engineering (CAE) team within Coinbase's Enterprise Applications and Architecture org builds and operates Control Center, the secure platform powering customer data operations for approximately 7,000 internal users across CX, Compliance, Legal, Global Investigations, and Trust and Risk. As a Staff Software Engineer, you'll be the technical anchor driving Control Center's evolution from a human-specialist UI into a modular, AI-agent-ready operations platform exposing capabilities via MCP for both human and autonomous consumers. You'll lead architectural decisions, mentor engineers, and deliver high-impact platform capabilities at an exciting inflection point for the product.\n\nWhat you'll do:\n\nOwn the architecture and delivery of foundational platform capabilities including MCP tool registries, AI orchestration layers, risk-based…",
-      "postedAt": "2026-06-17T22:27:30-04:00",
-      "score": {
-        "fit": 85,
-        "verdict": "strong",
-        "rationale": "Staff Software Engineer, EAA CX at Coinbase scores 85/100 (strong) on the Tier-1 deterministic pass. Matched: Senior / staff / lead level; Genuine AI-native engineering; Backend / distributed / event-driven match; Product engineering. Concerns: comp unstated.",
-        "matched": [
-          "Senior / staff / lead level",
-          "Genuine AI-native engineering",
-          "Backend / distributed / event-driven match",
-          "Product engineering"
-        ],
-        "concerns": [
-          "comp unstated"
-        ]
-      }
-    },
-    {
-      "id": "f3440da6",
-      "source": "greenhouse",
-      "company": "Airbnb",
-      "title": "Senior Automation Engineer, Infrastructure",
-      "location": "Brazil",
-      "remote": true,
-      "url": "https://careers.airbnb.com/positions/7380262?gh_jid=7380262",
-      "descriptionText": "Airbnb was born in 2007 when two hosts welcomed three guests to their San Francisco home, and has since grown to over 5 million hosts who have welcomed over 2 billion guest arrivals in almost every country across the globe. Every day, hosts offer unique stays and experiences that make it possible for guests to connect with communities in a more authentic way.\n\nThe Community You Will Join:\n\nThe Quality Engineering team helps Airbnb build high-quality software efficiently. We enable Airbnb engineers to build highly testable systems by building and using tools leveraging AI. We own and continuously improve product test cases, automation coverage, test automation tools, environments, frameworks. We navigate Airbnb’s massive codebase identifying weak spots, and help design and implement testable fault-tolerant systems.\n\nThe Difference You Will Make:\n\nBe a leader in Airbnb leveraging AI to redefine and accelerate Quality Engineering\n\nAs a Senior Automation Engineer, you will help us meet this challenge by building and maintaining automation coverage for features and releases. You will work directly with the product engineering team to develop and maintain our test tools, write and test product code, participate in design reviews to architect testable systems, and guide designs and code to enhance modularity and testability.\n\nYou are eager to understand complex systems top to bottom and thrive working across technologies and codebases. In addition, you excel at working through…",
-      "postedAt": "2026-06-09T20:41:20-04:00",
-      "score": {
-        "fit": 85,
-        "verdict": "strong",
-        "rationale": "Senior Automation Engineer, Infrastructure at Airbnb scores 85/100 (strong) on the Tier-1 deterministic pass. Matched: Senior / staff / lead level; Genuine AI-native engineering; Backend / distributed / event-driven match; Product engineering. Concerns: comp unstated.",
-        "matched": [
-          "Senior / staff / lead level",
-          "Genuine AI-native engineering",
-          "Backend / distributed / event-driven match",
-          "Product engineering"
-        ],
-        "concerns": [
-          "comp unstated"
-        ]
-      }
-    },
-    {
-      "id": "70b090a4",
-      "source": "greenhouse",
-      "company": "Block",
-      "title": "Software Engineer, Cash App - Lending Products",
-      "location": "Bay Area, CA, United States of America",
-      "remote": "unknown",
-      "url": "http://block.xyz/careers/jobs/5196173008?gh_jid=5196173008",
-      "descriptionText": "It all started with an idea at Block in 2013. Initially built to take the pain out of peer-to-peer payments, Cash App has gone from a simple product with a single purpose to a dynamic ecosystem, developing unique financial products, including Afterpay/Clearpay, to provide a better way to send, spend, invest, borrow and save to our 50+ million monthly active customers. We want to redefine the world's relationship with money to make it more relatable, instantly available, and universally accessible.\n\nToday, Cash App has thousands of employees working globally across office and remote locations, with a culture geared toward innovation, collaboration and impact. We've been a distributed team since day one, and many of our roles can be done remotely from the countries where Cash App operates. No matter the location, we tailor our experience to ensure our employees are creative, productive, and happy.\n\nThe Role\n\nCash App's mission is to make money instantly available and universally accessible - all the products and features we've released in the app are based on those principles. Lending is one of the newest Cash App products and we're looking for a Software Engineer to join this team and help deliver on our vision of economic empowerment.\n\nLending offers Cash App and Afterpay users low-friction access to credit without prohibitive repayment terms, and the Lending Engineering team is focused on building the complex systems and tooling to support access and availability.The…",
-      "postedAt": "2026-06-09T17:18:51-04:00",
-      "score": {
-        "fit": 85,
-        "verdict": "strong",
-        "rationale": "Software Engineer, Cash App - Lending Products at Block scores 85/100 (strong) on the Tier-1 deterministic pass. Matched: Senior / staff / lead level; Genuine AI-native engineering; Backend / distributed / event-driven match; Strong engineering culture. Concerns: comp unstated; remote unstated.",
-        "matched": [
-          "Senior / staff / lead level",
-          "Genuine AI-native engineering",
-          "Backend / distributed / event-driven match",
-          "Strong engineering culture"
-        ],
-        "concerns": [
-          "comp unstated",
-          "remote unstated"
-        ]
-      }
-    },
-    {
-      "id": "d62ff971",
-      "source": "greenhouse",
-      "company": "Airbnb",
-      "title": "Staff Machine Learning Engineer, Listings and Host Tools Data and AI",
-      "location": "Remote-USA",
-      "remote": true,
-      "url": "https://careers.airbnb.com/positions/7454348?gh_jid=7454348",
-      "descriptionText": "Airbnb was born in 2007 when two hosts welcomed three guests to their San Francisco home, and has since grown to over 5 million hosts who have welcomed over 2 billion guest arrivals in almost every country across the globe. Every day, hosts offer unique stays and experiences that make it possible for guests to connect with communities in a more authentic way.\n\nThe Community You Will Join:\n\nListings and Host Tools Data and AI (DnA) team: This team supports host personalization products and provides data driven solutions to achieve superior host experience on Airbnb. These products include but are not limited to managing your space (MYS), host tools etc. We own data pipelines and ML models and will build services for serving that are used in the above areas.\n\nThe Difference You Will Make:\n\nThere is a huge opportunity to improve the Host and Guest experience by leveraging open source, third party, and home grown ML models. As an ML engineer, you will partner closely with our data science, product partners, and other ML + data engineers on the team to execute on these opportunities in order to improve the Host and Guest product experience on Airbnb.\n\nA Typical Day:\n\nWork with large scale structured and unstructured data, build and continuously improve cutting edge Machine Learning models for Airbnb product, business and operational use cases.\n\nWork collaboratively with cross-functional partners including software engineers, product managers, operations and data scientists,…",
-      "postedAt": "2026-05-20T14:06:35-04:00",
-      "score": {
-        "fit": 85,
-        "verdict": "strong",
-        "rationale": "Staff Machine Learning Engineer, Listings and Host Tools Data and AI at Airbnb scores 85/100 (strong) on the Tier-1 deterministic pass. Matched: Senior / staff / lead level; Genuine AI-native engineering; Backend / distributed / event-driven match; Strong engineering culture. Concerns: comp unstated.",
-        "matched": [
-          "Senior / staff / lead level",
-          "Genuine AI-native engineering",
-          "Backend / distributed / event-driven match",
-          "Strong engineering culture"
-        ],
-        "concerns": [
-          "comp unstated"
         ]
       }
     },
@@ -600,6 +1004,256 @@
       }
     },
     {
+      "id": "fac42feb",
+      "source": "greenhouse",
+      "company": "Databricks",
+      "title": "Delivery Solutions Architect",
+      "location": "London, United Kingdom",
+      "remote": "unknown",
+      "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8549681002",
+      "descriptionText": "CSQ427R31\n\nAt Databricks, we are on a mission to empower our customers to solve the world's toughest data problems by utilizing the the Databricks Data Intelligence Platform. As a Delivery Solutions Architect (DSA), you will play an important role during this journey. You will collaborate with our sales and field engineering teams to accelerate the adoption and growth of the Databricks platform in your customers. You will also help ensure customer success by increasing focus and technical accountability to our most complex customers who need guidance to accelerate usage on Databricks workloads that they have already selected, helping them maximise the value they get of our platform and the return on investment.\n\nThis is a hybrid technical and commercial role. It is commercial in the sense that you will drive growth in your assigned customers and use cases through leading your customers' stakeholders, building executive relationships, orchestration of other focused/specialized teams within Databricks, and creating and driving plans and strategies for Databricks colleagues to build upon. This is in parallel to being technical, with expectations being that you become the post-sale technical lead across all Databricks products. This requires you to use your skills and technical credibility to engage and communicate at all levels with an organisation. You will report directly to a DSA Manager within the Field Engineering organization.\n\nThe impact you will have:\n\nEngage with…",
+      "postedAt": "2026-07-03T05:59:15-04:00",
+      "score": {
+        "fit": 80,
+        "verdict": "strong",
+        "rationale": "Delivery Solutions Architect at Databricks scores 80/100 (strong) on the Tier-1 deterministic pass. Matched: Senior / staff / lead level; Genuine AI-native engineering; Backend / distributed / event-driven match. Concerns: comp unstated; remote unstated.",
+        "matched": [
+          "Senior / staff / lead level",
+          "Genuine AI-native engineering",
+          "Backend / distributed / event-driven match"
+        ],
+        "concerns": [
+          "comp unstated",
+          "remote unstated"
+        ]
+      }
+    },
+    {
+      "id": "ee73c68e",
+      "source": "greenhouse",
+      "company": "Block",
+      "title": "Senior Business Systems Engineer",
+      "location": "Bay Area, CA, United States of America",
+      "remote": "unknown",
+      "url": "http://block.xyz/careers/jobs/4962872008?gh_jid=4962872008",
+      "descriptionText": "Block is one company built from many blocks, all united by the same purpose of economic empowerment. The blocks that form our foundational teams — People, Finance, Counsel, Hardware, Information Security, Platform Infrastructure Engineering, and more — provide support and guidance at the corporate level. They work across business groups and around the globe, spanning time zones and disciplines to develop inclusive People policies, forecast finances, give legal counsel, safeguard systems, nurture new initiatives, and more. Every challenge creates possibilities, and we need different perspectives to see them all. Bring yours to Block.\n\nThe Role\n\nThe Business Systems Integration team powers the end-to-end systems that drive Block's CRM, Procurement, Finance, Hardware supply chain, logistics, fulfillment, and after-sales service. We design, build, and manage the integrations and processes that connect all the different systems operations to scale efficiently and intelligently.\n\nWe are looking for a Senior Business Systems Engineer who combines strong technical engineering skills with a deep domain knowledge in APIs and Integration. You will build, and enhance engineering processes, integrations, automations, and extensions across the various business systems our organization works with, including CRM, Oracle Fusion Cloud, Salesforce. You will collaborate closely with partner teams including Sales, Support, Supply chain, and finance teams to translate business needs into…",
+      "postedAt": "2026-07-02T18:17:15-04:00",
+      "score": {
+        "fit": 80,
+        "verdict": "strong",
+        "rationale": "Senior Business Systems Engineer at Block scores 80/100 (strong) on the Tier-1 deterministic pass. Matched: Senior / staff / lead level; Genuine AI-native engineering; Backend / distributed / event-driven match. Concerns: comp unstated; remote unstated.",
+        "matched": [
+          "Senior / staff / lead level",
+          "Genuine AI-native engineering",
+          "Backend / distributed / event-driven match"
+        ],
+        "concerns": [
+          "comp unstated",
+          "remote unstated"
+        ]
+      }
+    },
+    {
+      "id": "67177dec",
+      "source": "greenhouse",
+      "company": "Block",
+      "title": "Senior Machine Learning Engineer, AI Personalization",
+      "location": "Bay Area, CA, United States of America",
+      "remote": "unknown",
+      "url": "http://block.xyz/careers/jobs/4811589008?gh_jid=4811589008",
+      "descriptionText": "Block builds simple, powerful tools that make progress towards an economy that’s truly open to all. Each of our brands unlocks different aspects of the economy for more people. Square makes commerce and financial services accessible to sellers. Cash App is the easy way to spend, send, and store money. Afterpay is transforming the way customers manage their spending over time. TIDAL is a music platform that empowers artists to thrive as entrepreneurs. Bitkey is a simple self-custody wallet built for bitcoin. Proto is a suite of bitcoin mining products and services. Together, we’re helping build a financial system that is open to everyone. Join us.\n\nThe Role\n\nTraditionally, ML systems were built to solve narrow tasks (e.g., item recommendations), with orchestration logic hard-coded outside the model. Increasingly, LLMs are becoming the orchestration layer, deciding which models to invoke, when to use them, how to interpret outputs, and how to chain steps together.\n\nIn this paradigm, the models we build deliver low-latency, large-scale personalization that advances Block’s mission of economic empowerment. We work closely with Design, Product, and Engineering teams across Block’s ecosystem, applying a spectrum of approaches from simple heuristics and embeddings to deep learning and large language models.\n\nWe also invest heavily in agentic engineering and AI-assisted tooling to enable high-velocity, reliable development. This includes code generation, automated testing,…",
+      "postedAt": "2026-07-02T18:17:15-04:00",
+      "score": {
+        "fit": 80,
+        "verdict": "strong",
+        "rationale": "Senior Machine Learning Engineer, AI Personalization at Block scores 80/100 (strong) on the Tier-1 deterministic pass. Matched: Senior / staff / lead level; Genuine AI-native engineering; Backend / distributed / event-driven match. Concerns: comp unstated; remote unstated.",
+        "matched": [
+          "Senior / staff / lead level",
+          "Genuine AI-native engineering",
+          "Backend / distributed / event-driven match"
+        ],
+        "concerns": [
+          "comp unstated",
+          "remote unstated"
+        ]
+      }
+    },
+    {
+      "id": "4cece832",
+      "source": "greenhouse",
+      "company": "Block",
+      "title": "Senior Machine Learning Engineer, Risk Modeling",
+      "location": "Bay Area, CA, United States of America",
+      "remote": "unknown",
+      "url": "http://block.xyz/careers/jobs/5198102008?gh_jid=5198102008",
+      "descriptionText": "Block builds simple, powerful tools that make progress towards an economy that’s truly open to all. Each of our brands unlocks different aspects of the economy for more people. Square makes commerce and financial services accessible to sellers. Cash App is the easy way to spend, send, and store money. Afterpay is transforming the way customers manage their spending over time. TIDAL is a music platform that empowers artists to thrive as entrepreneurs. Bitkey is a simple self-custody wallet built for bitcoin. Proto is a suite of bitcoin mining products and services. Together, we’re helping build a financial system that is open to everyone. Join us.\n\nThe Role\n\nWe’re hiring Senior and Staff Machine Learning Engineers to join Block’s Risk Machine Learning organization, where teams apply ML at massive scale to detect, prevent, and reduce fraud and abuse across Cash App and Square.\n\nThis opening supports multiple senior-level roles, with team placement determined through a collaborative matching process based on your experience, interests, and current business needs. Today, we’re growing teams focused fraud & abuse prevention, merchant risk, credit underwriting (consumer & commercial lending), buy-now-pay-later decisioning, AI-powered customer support & conversational AI, agentic automation for investigations, and model risk governance. We'd love to hear from you whether your background is in adversarial ML, NLP/LLMs, credit modeling, or model validation.\n\nAcross teams, your work…",
+      "postedAt": "2026-07-02T18:17:15-04:00",
+      "score": {
+        "fit": 80,
+        "verdict": "strong",
+        "rationale": "Senior Machine Learning Engineer, Risk Modeling at Block scores 80/100 (strong) on the Tier-1 deterministic pass. Matched: Senior / staff / lead level; Genuine AI-native engineering; Backend / distributed / event-driven match. Concerns: comp unstated; remote unstated.",
+        "matched": [
+          "Senior / staff / lead level",
+          "Genuine AI-native engineering",
+          "Backend / distributed / event-driven match"
+        ],
+        "concerns": [
+          "comp unstated",
+          "remote unstated"
+        ]
+      }
+    },
+    {
+      "id": "37157983",
+      "source": "greenhouse",
+      "company": "Block",
+      "title": "Senior ML/AI Modeler, Risk Automation Machine Learning",
+      "location": "Seattle, WA, United States of America",
+      "remote": "unknown",
+      "url": "http://block.xyz/careers/jobs/5198103008?gh_jid=5198103008",
+      "descriptionText": "Block builds simple, powerful tools that make progress towards an economy that’s truly open to all. Each of our brands unlocks different aspects of the economy for more people. Square makes commerce and financial services accessible to sellers. Cash App is the easy way to spend, send, and store money. Afterpay is transforming the way customers manage their spending over time. TIDAL is a music platform that empowers artists to thrive as entrepreneurs. Bitkey is a simple self-custody wallet built for bitcoin. Proto is a suite of bitcoin mining products and services. Together, we’re helping build a financial system that is open to everyone. Join us.\n\nThe Role\n\nThe Risk Automation ML team automates Risk and Compliance investigations and decision making at Block through the application of agentic and generative AI technology. We work globally with partners in Product, Engineering and Operations to ensure that we are providing a safe user experience for our customers while minimizing or eliminating bad activity on our platform.\n\nWe are leveraging agentic and generative AI as an integral part of our toolkit to fulfill our mission. Block's machine learning systems monitor billions of payment transactions across traditional payment and blockchain networks and surface suspicious activity (fraudulent, suspicious, illegal activity and brand violations) for trained Operations analyst review and decisioning. We are leveraging generative AI to accelerate historically manually intensive…",
+      "postedAt": "2026-07-02T18:17:15-04:00",
+      "score": {
+        "fit": 80,
+        "verdict": "strong",
+        "rationale": "Senior ML/AI Modeler, Risk Automation Machine Learning at Block scores 80/100 (strong) on the Tier-1 deterministic pass. Matched: Senior / staff / lead level; Genuine AI-native engineering; Backend / distributed / event-driven match. Concerns: comp unstated; remote unstated.",
+        "matched": [
+          "Senior / staff / lead level",
+          "Genuine AI-native engineering",
+          "Backend / distributed / event-driven match"
+        ],
+        "concerns": [
+          "comp unstated",
+          "remote unstated"
+        ]
+      }
+    },
+    {
+      "id": "ff881728",
+      "source": "greenhouse",
+      "company": "Block",
+      "title": "Senior Site Reliability Engineer",
+      "location": "New York, NY, United States of America",
+      "remote": "unknown",
+      "url": "http://block.xyz/careers/jobs/5182994008?gh_jid=5182994008",
+      "descriptionText": "Block builds simple, powerful tools that make progress towards an economy that’s truly open to all.\n\nEach of our brands unlocks different aspects of the economy for more people. Square makes commerce and financial services accessible to sellers. Cash App is the easy way to spend, send, and store money. Afterpay is transforming the way customers manage their spending over time. TIDAL is a music platform that empowers artists to thrive as entrepreneurs. Bitkey is a simple self-custody wallet built for bitcoin. Proto is a suite of bitcoin mining products and services. Together, we’re helping build a financial system that is open to everyone. Join us.\n\nThe Role\n\nAs a member of the SRE team, you will proactively and reactively improve the reliability of Block's platform and critical infrastructure. You are metrics-driven, systems-oriented, and focused on building distributed platforms that enable safe, scalable product development.\n\nYou will leverage and continuously improve AI-driven tooling and automation to enhance observability, accelerate incident detection and response, and reduce operational toil. This includes applying AI to incident analysis, alert tuning, and operational workflows.\n\nYou will participate in primary platform oncall (12 hours per day, one week every few weeks, depending on team size), supporting Block's most critical (Tier 0) services. In this role, you will lead incident command, coordinate mitigation, and drive effective escalation during high-severity…",
+      "postedAt": "2026-07-02T18:17:15-04:00",
+      "score": {
+        "fit": 80,
+        "verdict": "strong",
+        "rationale": "Senior Site Reliability Engineer at Block scores 80/100 (strong) on the Tier-1 deterministic pass. Matched: Senior / staff / lead level; Genuine AI-native engineering; Backend / distributed / event-driven match. Concerns: comp unstated; remote unstated.",
+        "matched": [
+          "Senior / staff / lead level",
+          "Genuine AI-native engineering",
+          "Backend / distributed / event-driven match"
+        ],
+        "concerns": [
+          "comp unstated",
+          "remote unstated"
+        ]
+      }
+    },
+    {
+      "id": "b5e4d09f",
+      "source": "greenhouse",
+      "company": "Block",
+      "title": "Senior Software Engineer, Cash App Taxes",
+      "location": "Toronto, Ontario, Canada",
+      "remote": "unknown",
+      "url": "http://block.xyz/careers/jobs/5196189008?gh_jid=5196189008",
+      "descriptionText": "It all started with an idea at Block in 2013. Initially built to take the pain out of peer-to-peer payments, Cash App has gone from a simple product with a single purpose to a dynamic ecosystem, developing unique financial products, including Afterpay/Clearpay, to provide a better way to send, spend, invest, borrow and save to our 50+ million monthly active customers. We want to redefine the world's relationship with money to make it more relatable, instantly available, and universally accessible.\n\nToday, Cash App has thousands of employees working globally across office and remote locations, with a culture geared toward innovation, collaboration and impact. We've been a distributed team since day one, and many of our roles can be done remotely from the countries where Cash App operates. No matter the location, we tailor our experience to ensure our employees are creative, productive, and happy.\n\nThe Role\n\nCash App is offering a better way to file your taxes as an alternative to traditional online DIY tax preparation systems. As a Senior Software Engineer on our Tax Engine Server Engineering team, you will build and enhance the codebase that powers our tax filing experience. You will translate complex tax requirements into seamless software solutions that help millions of users confidently navigate and complete their returns with ease.\n\nYou will collaborate closely with product managers, tax experts on our Tax Product Specialist team, and other cross-functional teams to…",
+      "postedAt": "2026-07-02T18:17:15-04:00",
+      "score": {
+        "fit": 80,
+        "verdict": "strong",
+        "rationale": "Senior Software Engineer, Cash App Taxes at Block scores 80/100 (strong) on the Tier-1 deterministic pass. Matched: Senior / staff / lead level; Genuine AI-native engineering; Backend / distributed / event-driven match. Concerns: comp unstated; remote unstated.",
+        "matched": [
+          "Senior / staff / lead level",
+          "Genuine AI-native engineering",
+          "Backend / distributed / event-driven match"
+        ],
+        "concerns": [
+          "comp unstated",
+          "remote unstated"
+        ]
+      }
+    },
+    {
+      "id": "bf332374",
+      "source": "greenhouse",
+      "company": "Block",
+      "title": "Software Engineer, Finance Applications",
+      "location": "Bay Area, CA, United States of America",
+      "remote": "unknown",
+      "url": "http://block.xyz/careers/jobs/4888459008?gh_jid=4888459008",
+      "descriptionText": "Block is one company built from many blocks, all united by the same purpose of economic empowerment. The blocks that form our foundational teams — People, Finance, Counsel, Hardware, Information Security, Platform Infrastructure Engineering, and more — provide support and guidance at the corporate level. They work across business groups and around the globe, spanning time zones and disciplines to develop inclusive People policies, forecast finances, give legal counsel, safeguard systems, nurture new initiatives, and more. Every challenge creates possibilities, and we need different perspectives to see them all. Bring yours to Block.\n\nThe Role\n\nThe Financial Platform Eng team is part of Block's platform engineering org, with a mandate to run the foundational financial technology infrastructure supporting all our brands. Our charter includes building scalable, reliable, and forward-looking financial infrastructure, from revenue streams to reconciliations to GL to street reporting. This team powers key business functions spanning the CFO org and aids at strategic decision-making.\n\nAs a Software Engineer, you'll design and build the backend services, integrations, and workflow engines that keep the foundational financial operations running. Often you will focus on transforming complex financial requirements into scalable technology solutions — with a specific emphasis on AI enablement. We are an AI-driven engineering team — we use agentic coding tools across our entire…",
+      "postedAt": "2026-07-02T18:17:15-04:00",
+      "score": {
+        "fit": 80,
+        "verdict": "strong",
+        "rationale": "Software Engineer, Finance Applications at Block scores 80/100 (strong) on the Tier-1 deterministic pass. Matched: Senior / staff / lead level; Genuine AI-native engineering; Backend / distributed / event-driven match. Concerns: comp unstated; remote unstated.",
+        "matched": [
+          "Senior / staff / lead level",
+          "Genuine AI-native engineering",
+          "Backend / distributed / event-driven match"
+        ],
+        "concerns": [
+          "comp unstated",
+          "remote unstated"
+        ]
+      }
+    },
+    {
+      "id": "da6b9ac4",
+      "source": "greenhouse",
+      "company": "Block",
+      "title": "Staff Machine Learning Engineer, Underwriting and Credit",
+      "location": "Bay Area, CA, United States of America",
+      "remote": "unknown",
+      "url": "http://block.xyz/careers/jobs/5198104008?gh_jid=5198104008",
+      "descriptionText": "Block builds technology to increase access to the global economy. Across our ecosystem, including Square and Cash App, we create tools that help businesses run and grow, and individuals move, manage, and grow their money with confidence.\n\nSquare empowers sellers of all sizes with integrated, omnichannel tools to accept payments, manage operations, access financial services, and reach customers across online and in-person channels.\n\nCash App complements this by providing a fast, accessible financial platform for millions of people to send, spend, save, invest, and borrow, helping redefine how individuals interact with money.Operating at massive scale across both ecosystems means trust and safety are foundational. Our teams build systems that protect real people and businesses, safeguard financial activity, and ensure our products remain reliable, secure, and easy to use.\n\nBlock is a global, distributed company with a culture rooted in ownership, creativity, and impact. Whether supporting sellers on Square or customers on Cash App, we’re united by a shared mission: to make the global economy more accessible and inclusive.\n\nThe Role\n\nBlock has provided over $200 billion in credit to customers globally. Afterpay and Cash App Borrow are our two largest products in this space, expanding access to credit for consumers who are often underserved by traditional financial systems. Machine learning is the core of how these products work.\n\nOur models decide who gets credit, how much, and…",
+      "postedAt": "2026-07-02T18:17:15-04:00",
+      "score": {
+        "fit": 80,
+        "verdict": "strong",
+        "rationale": "Staff Machine Learning Engineer, Underwriting and Credit at Block scores 80/100 (strong) on the Tier-1 deterministic pass. Matched: Senior / staff / lead level; Genuine AI-native engineering; Backend / distributed / event-driven match. Concerns: comp unstated; remote unstated.",
+        "matched": [
+          "Senior / staff / lead level",
+          "Genuine AI-native engineering",
+          "Backend / distributed / event-driven match"
+        ],
+        "concerns": [
+          "comp unstated",
+          "remote unstated"
+        ]
+      }
+    },
+    {
+      "id": "92e9adbf",
+      "source": "greenhouse",
+      "company": "Block",
+      "title": "Staff Software Engineer, Cash App Banking",
+      "location": "Toronto, Ontario, Canada",
+      "remote": "unknown",
+      "url": "http://block.xyz/careers/jobs/5196196008?gh_jid=5196196008",
+      "descriptionText": "It all started with an idea at Block in 2013. Initially built to take the pain out of peer-to-peer payments, Cash App has gone from a simple product with a single purpose to a dynamic ecosystem, developing unique financial products, including Afterpay/Clearpay, to provide a better way to send, spend, invest, borrow and save to our 50+ million monthly active customers. We want to redefine the world's relationship with money to make it more relatable, instantly available, and universally accessible.\n\nToday, Cash App has thousands of employees working globally across office and remote locations, with a culture geared toward innovation, collaboration and impact. We've been a distributed team since day one, and many of our roles can be done remotely from the countries where Cash App operates. No matter the location, we tailor our experience to ensure our employees are creative, productive, and happy.\n\nThe Role\n\nAt Cash App, we strive to build the best consumer financial products in the world. The Cash App Banking team aspires to make Cash App the primary place for our customers to store, manage, and move money across all their banking needs. We achieve this by providing various offerings including a range of deposit and transfer options, savings and automation tools, and a suite of benefits for Banking customers, all while ensuring a fast and reliable experience.\n\nAs a staff software engineer on the Cash App Banking server engineering team, you will help lead the overall…",
+      "postedAt": "2026-07-02T18:17:15-04:00",
+      "score": {
+        "fit": 80,
+        "verdict": "strong",
+        "rationale": "Staff Software Engineer, Cash App Banking at Block scores 80/100 (strong) on the Tier-1 deterministic pass. Matched: Senior / staff / lead level; Genuine AI-native engineering; Backend / distributed / event-driven match. Concerns: comp unstated; remote unstated.",
+        "matched": [
+          "Senior / staff / lead level",
+          "Genuine AI-native engineering",
+          "Backend / distributed / event-driven match"
+        ],
+        "concerns": [
+          "comp unstated",
+          "remote unstated"
+        ]
+      }
+    },
+    {
       "id": "a0250310",
       "source": "greenhouse",
       "company": "Block",
@@ -621,631 +1275,6 @@
         "concerns": [
           "comp unstated",
           "remote unstated"
-        ]
-      }
-    },
-    {
-      "id": "c4ade704",
-      "source": "greenhouse",
-      "company": "Airbnb",
-      "title": "Senior Software Engineer, Dev Tools",
-      "location": "Remote - USA",
-      "remote": true,
-      "url": "https://careers.airbnb.com/positions/8021476?gh_jid=8021476",
-      "descriptionText": "Airbnb was born in 2007 when two hosts welcomed three guests to their San Francisco home, and has since grown to over 5 million hosts who have welcomed over 2 billion guest arrivals in almost every country across the globe. Every day, hosts offer unique stays and experiences that make it possible for guests to connect with communities in a more authentic way.\n\nThe Community You Will Join:\n\nDev Tools’ mission is to help Airbnb engineers and AI agents build, validate, review, and ship high-quality software quickly, reliably, and safely.\n\nAI-assisted development is rapidly increasing the speed, volume, and concurrency of software delivery. Our team is building the infrastructure needed to support that growth - from cloud development environments and agent execution platforms to source control, code review, validation, and polyglot monorepo tooling.\n\nThe Difference You Will Make:\n\nAs a senior engineer on Dev Tools, you will design, build, and operate foundational systems used across Airbnb engineering. You will work on technically challenging infrastructure problems involving distributed systems, Kubernetes, developer workflows, scalability, reliability, and cost efficiency, while partnering closely with teams across Developer Platform, DevAI, CI/CD, Cloud Infrastructure, and Security. You won't just build - you'll shape the technical direction and set the bar for craft on a small, high-impact team.\n\nHigh leverage: Every improvement you make is felt by every engineer at Airbnb —…",
-      "postedAt": "2026-07-02T14:42:34-04:00",
-      "score": {
-        "fit": 80,
-        "verdict": "strong",
-        "rationale": "Senior Software Engineer, Dev Tools at Airbnb scores 80/100 (strong) on the Tier-1 deterministic pass. Matched: Senior / staff / lead level; Genuine AI-native engineering; Backend / distributed / event-driven match. Concerns: comp unstated.",
-        "matched": [
-          "Senior / staff / lead level",
-          "Genuine AI-native engineering",
-          "Backend / distributed / event-driven match"
-        ],
-        "concerns": [
-          "comp unstated"
-        ]
-      }
-    },
-    {
-      "id": "b120d86d",
-      "source": "greenhouse",
-      "company": "Dropbox",
-      "title": "Principal Software Engineer, Core Sharing & Collaboration",
-      "location": "Remote - Canada: Select locations",
-      "remote": true,
-      "url": "https://jobs.dropbox.com/listing/8006977?gh_jid=8006977",
-      "descriptionText": "Role Description\n\nAs a Principal Engineer at Dropbox, you will own company critical, loosely defined technical problems with multi year impact, operating at the intersection of technology, product, business strategy, and applied AI. You will define long term technical direction for customer facing experiences used by millions, identifying where AI meaningfully improves customer value and translating evolving business context and industry advances into durable, multi area strategies and roadmaps that shape how Dropbox builds, scales, and innovates, while remaining hands on in software development where it provides the greatest leverage.\n\nYour influence will span organizations, setting foundational architecture, driving execution standards, and aligning senior technical and product leaders across boundaries. You will lead the responsible introduction and adoption of AI across product capabilities and engineering workflows, bring clarity to the most complex decisions, institutionalize engineering excellence, and contribute directly through critical design, prototyping, and code reviews.\n\nIn return, you will operate as a trusted technical partner to senior leadership, shape systems and platforms including AI powered foundations that define Dropbox’s future, and act as a company level technical strategist, advancing Dropbox’s mission to create a more enlightened way of working.\n\nOur Engineering Career Framework is viewable by anyone outside the company and describes what’s…",
-      "postedAt": "2026-07-02T13:48:16-04:00",
-      "score": {
-        "fit": 80,
-        "verdict": "strong",
-        "rationale": "Principal Software Engineer, Core Sharing & Collaboration at Dropbox scores 80/100 (strong) on the Tier-1 deterministic pass. Matched: Senior / staff / lead level; Genuine AI-native engineering; Backend / distributed / event-driven match. Concerns: comp unstated.",
-        "matched": [
-          "Senior / staff / lead level",
-          "Genuine AI-native engineering",
-          "Backend / distributed / event-driven match"
-        ],
-        "concerns": [
-          "comp unstated"
-        ]
-      }
-    },
-    {
-      "id": "90830f55",
-      "source": "greenhouse",
-      "company": "Dropbox",
-      "title": "Senior Infrastructure Security Engineer",
-      "location": "Remote - Canada: Select locations",
-      "remote": true,
-      "url": "https://jobs.dropbox.com/listing/7967468?gh_jid=7967468",
-      "descriptionText": "Role Description\n\nAt Dropbox, we believe in simplifying the way people work together. We provide a range of innovative cloud-based solutions to empower individuals and businesses to share, access, and collaborate on their files seamlessly. Security plays a pivotal role in shaping our mission of building a more enlightened way of working where everyone can unleash their creative potential without constraints.\n\nAs a Security Engineer, you'll safeguard our digital ecosystem alongside a diverse team of professionals dedicated to protecting our products and users. Trusted by millions, our mission is to integrate security seamlessly into Dropbox, empowering confident collaboration. Join us in owning a range of security projects, fostering innovation and growth in a collaborative environment.\n\nOur Engineering Career Framework is viewable by anyone outside the company and describes what’s expected for our engineers at each of our career levels. Check out our blog post on this topic and more here .\n\nResponsibilities\n\nDesign, deploy and operate infrastructure-level security controls for Dropbox's AI and agentic infrastructure, including cloud infrastructure, Kubernetes and data stores.\n\nDesign and implement secure authentication, authorization and networking patterns for AI agents and other non-human actors\n\nLead security implementation for secure usage of AI tools and governance.\n\nMaintain a high and continuously improving bar for the security of Dropbox infrastructure in order to…",
-      "postedAt": "2026-07-02T13:48:16-04:00",
-      "score": {
-        "fit": 80,
-        "verdict": "strong",
-        "rationale": "Senior Infrastructure Security Engineer at Dropbox scores 80/100 (strong) on the Tier-1 deterministic pass. Matched: Senior / staff / lead level; Genuine AI-native engineering; Backend / distributed / event-driven match. Concerns: comp unstated.",
-        "matched": [
-          "Senior / staff / lead level",
-          "Genuine AI-native engineering",
-          "Backend / distributed / event-driven match"
-        ],
-        "concerns": [
-          "comp unstated"
-        ]
-      }
-    },
-    {
-      "id": "476ff248",
-      "source": "greenhouse",
-      "company": "Dropbox",
-      "title": "Senior Infrastructure Software Engineer, Search Platform",
-      "location": "Remote - US: Select locations",
-      "remote": true,
-      "url": "https://jobs.dropbox.com/listing/7974878?gh_jid=7974878",
-      "descriptionText": "Role Description\n\nAs a Senior Infrastructure Engineer, your role will be crucial in shaping and constructing the robust systems that not only support our current flagship products but also lay the groundwork for the next wave of engineering innovations. From optimizing user experiences across various projects to ensuring seamless scalability and data integrity, you'll be at the forefront of shaping the technological backbone of our platform.\n\nCollaborating closely with cross-functional teams, you'll leverage your expertise to tackle audacious challenges and push the boundaries of what's possible. Your contributions will directly impact millions of users, as every line of code you write furthers our mission to revolutionize the way people work and collaborate.\n\nJoin us in redefining the future, where your passion for building scalable, reliable systems will drive meaningful change on a global scale.\n\nOur Engineering Career Framework is viewable by anyone outside the company and describes what’s expected for our engineers at each of our career levels. Check out our blog post on this topic and more here .\n\nResponsibilities\n\nBuild a Next-Generation Search Platform: Develop a robust, highly scalable in-house search platform to power Dropbox Dash -AI-powered search for work.\n\nUnify Search Experiences: Design and implement a singular search platform that integrates search for Dropbox Dash with Dropbox’s file and folder search, delivering a seamless and cohesive user experience.…",
-      "postedAt": "2026-07-02T13:48:16-04:00",
-      "score": {
-        "fit": 80,
-        "verdict": "strong",
-        "rationale": "Senior Infrastructure Software Engineer, Search Platform at Dropbox scores 80/100 (strong) on the Tier-1 deterministic pass. Matched: Senior / staff / lead level; Genuine AI-native engineering; Backend / distributed / event-driven match. Concerns: comp unstated.",
-        "matched": [
-          "Senior / staff / lead level",
-          "Genuine AI-native engineering",
-          "Backend / distributed / event-driven match"
-        ],
-        "concerns": [
-          "comp unstated"
-        ]
-      }
-    },
-    {
-      "id": "d6060148",
-      "source": "greenhouse",
-      "company": "Dropbox",
-      "title": "Staff Fullstack Software Engineer, Core Performance",
-      "location": "Remote - US: All locations",
-      "remote": true,
-      "url": "https://jobs.dropbox.com/listing/7421149?gh_jid=7421149",
-      "descriptionText": "Role Description\n\nAs a Staff Software Engineer at Dropbox, you'll be the singular technical owner of application performance across the Core org — the part of Dropbox that owns every consumer-facing surface: web, iOS, Android, and desktop. This is one of the company's most visible, cross-cutting technical challenges. Your mandate is to make Dropbox feel fast on every surface our customers use. You'll operate at the intersection of measurement, engineering, and product impact, owning ambiguous problems that span the entire stack and translate directly into business outcomes for hundreds of millions of users.\n\nThere is no existing performance team at Dropbox — you'll define the discipline. You'll start with the web, profiling our highest-traffic React surfaces, producing flame graphs and heat maps, identifying the most valuable opportunities, and driving fixes through to shipped, measured wins. The web is your initial focus and the surface where you'll be most hands-on. From there, you'll lead the performance initiative across iOS, Android, and desktop by partnering with the internal platform experts who own those clients — coordinating strategy, transferring measurement practices, and driving the work, rather than building everything yourself. You'll also work across the Python and Go backend services that all of these surfaces depend on, since perceived performance rarely lives in one layer.\n\nYour influence will extend across Core Engineering. You'll define the measurement…",
-      "postedAt": "2026-07-02T13:48:16-04:00",
-      "score": {
-        "fit": 80,
-        "verdict": "strong",
-        "rationale": "Staff Fullstack Software Engineer, Core Performance at Dropbox scores 80/100 (strong) on the Tier-1 deterministic pass. Matched: Senior / staff / lead level; Genuine AI-native engineering; Backend / distributed / event-driven match. Concerns: comp unstated.",
-        "matched": [
-          "Senior / staff / lead level",
-          "Genuine AI-native engineering",
-          "Backend / distributed / event-driven match"
-        ],
-        "concerns": [
-          "comp unstated"
-        ]
-      }
-    },
-    {
-      "id": "b123c1b7",
-      "source": "greenhouse",
-      "company": "Dropbox",
-      "title": "Staff Site Reliability Engineer, Production Engineering",
-      "location": "Remote - US: Select locations",
-      "remote": true,
-      "url": "https://jobs.dropbox.com/listing/7961824?gh_jid=7961824",
-      "descriptionText": "Role Description\n\nAs a Site Reliability Engineer focused on company-wide reliability strategy, you will play a crucial role in advancing Dropbox’s stability, observability, incident response, and operational excellence as AI technologies reshape how software is built and operated. You will help define the reliability strategy for a new chapter of agentic development and AI-enabled software delivery, including preparing Dropbox for increases in pull request volume, service complexity, incident patterns, and demand for debugging and monitoring tools. You will partner across Engineering, Product, and leadership teams to raise the bar for reliability, guide long-term platform investments, and ensure Dropbox continues to deliver dependable experiences for millions of users.\n\nOur Engineering Career Framework is viewable by anyone outside the company and describes what’s expected for our engineers at each of our career levels. Check out our blog post on this topic and more here .\n\nResponsibilities\n\nDefine and evolve Dropbox’s company-wide technical reliability strategy to support the changing engineering environment created by AI-assisted and agentic software development.\n\nSet multi-year reliability goals, standards, and roadmaps across observability, debugging, incident management, service health, and operational readiness.\n\nLead cross-team initiatives that reduce reliability risk as software delivery velocity, pull request volume, service complexity, and incident volume increase.…",
-      "postedAt": "2026-07-02T13:48:16-04:00",
-      "score": {
-        "fit": 80,
-        "verdict": "strong",
-        "rationale": "Staff Site Reliability Engineer, Production Engineering at Dropbox scores 80/100 (strong) on the Tier-1 deterministic pass. Matched: Senior / staff / lead level; Genuine AI-native engineering; Backend / distributed / event-driven match. Concerns: comp unstated.",
-        "matched": [
-          "Senior / staff / lead level",
-          "Genuine AI-native engineering",
-          "Backend / distributed / event-driven match"
-        ],
-        "concerns": [
-          "comp unstated"
-        ]
-      }
-    },
-    {
-      "id": "150d3e10",
-      "source": "greenhouse",
-      "company": "Airbnb",
-      "title": "Senior Machine Learning Engineer, Relevance and Personalization",
-      "location": "United States",
-      "remote": true,
-      "url": "https://careers.airbnb.com/positions/7258033?gh_jid=7258033",
-      "descriptionText": "Airbnb was born in 2007 when two hosts welcomed three guests to their San Francisco home, and has since grown to over 5 million hosts who have welcomed over 2 billion guest arrivals in almost every country across the globe. Every day, hosts offer unique stays and experiences that make it possible for guests to connect with communities in a more authentic way.\n\nThe Community You Will Join:\n\nThe Relevance and Personalization team at Airbnb is responsible for search and recommendation across the entire Airbnb digital platform. Be a leader in the team working on critical, impactful projects with focus on developing end-to-end ranking algorithms and ecosystems for optimizing multiple critical business objectives.\n\nThe Difference You Will Make:\n\nWe build cutting-edge AI technologies across the end-to-end search ranking product stack w.r.t. data pipelines, feature and model innovations, serving and experimentation efficiency, leveraging rich signals from various types of data (structured, sequential, image, text, etc) at Airbnb. We collaborate closely with teams across Airbnb to develop the ranking solutions and support a healthy marketplace for hosts and guests to further Airbnb’s mission of creating a world where people can Belong Anywhere. Some past publications from the team can be found here: https://sites.google.com/view/airbnb-relevance-publications/home\n\nA Typical Day:\n\nWork with large scale structured and unstructured data, build and continuously improve cutting edge…",
-      "postedAt": "2026-07-01T19:35:38-04:00",
-      "score": {
-        "fit": 80,
-        "verdict": "strong",
-        "rationale": "Senior Machine Learning Engineer, Relevance and Personalization at Airbnb scores 80/100 (strong) on the Tier-1 deterministic pass. Matched: Senior / staff / lead level; Genuine AI-native engineering; Backend / distributed / event-driven match. Concerns: comp unstated.",
-        "matched": [
-          "Senior / staff / lead level",
-          "Genuine AI-native engineering",
-          "Backend / distributed / event-driven match"
-        ],
-        "concerns": [
-          "comp unstated"
-        ]
-      }
-    },
-    {
-      "id": "b5e4d09f",
-      "source": "greenhouse",
-      "company": "Block",
-      "title": "Senior Software Engineer, Cash App Taxes",
-      "location": "Toronto, Ontario, Canada",
-      "remote": "unknown",
-      "url": "http://block.xyz/careers/jobs/5196189008?gh_jid=5196189008",
-      "descriptionText": "It all started with an idea at Block in 2013. Initially built to take the pain out of peer-to-peer payments, Cash App has gone from a simple product with a single purpose to a dynamic ecosystem, developing unique financial products, including Afterpay/Clearpay, to provide a better way to send, spend, invest, borrow and save to our 50+ million monthly active customers. We want to redefine the world's relationship with money to make it more relatable, instantly available, and universally accessible.\n\nToday, Cash App has thousands of employees working globally across office and remote locations, with a culture geared toward innovation, collaboration and impact. We've been a distributed team since day one, and many of our roles can be done remotely from the countries where Cash App operates. No matter the location, we tailor our experience to ensure our employees are creative, productive, and happy.\n\nThe Role\n\nCash App is offering a better way to file your taxes as an alternative to traditional online DIY tax preparation systems. As a Senior Software Engineer on our Tax Engine Server Engineering team, you will build and enhance the codebase that powers our tax filing experience. You will translate complex tax requirements into seamless software solutions that help millions of users confidently navigate and complete their returns with ease.\n\nYou will collaborate closely with product managers, tax experts on our Tax Product Specialist team, and other cross-functional teams to…",
-      "postedAt": "2026-07-01T13:28:54-04:00",
-      "score": {
-        "fit": 80,
-        "verdict": "strong",
-        "rationale": "Senior Software Engineer, Cash App Taxes at Block scores 80/100 (strong) on the Tier-1 deterministic pass. Matched: Senior / staff / lead level; Genuine AI-native engineering; Backend / distributed / event-driven match. Concerns: comp unstated; remote unstated.",
-        "matched": [
-          "Senior / staff / lead level",
-          "Genuine AI-native engineering",
-          "Backend / distributed / event-driven match"
-        ],
-        "concerns": [
-          "comp unstated",
-          "remote unstated"
-        ]
-      }
-    },
-    {
-      "id": "a9c553fe",
-      "source": "greenhouse",
-      "company": "Block",
-      "title": "Senior Finance Systems Engineer: Oracle Fusion - Remote, US",
-      "location": "Bay Area, CA, United States of America",
-      "remote": "unknown",
-      "url": "http://block.xyz/careers/jobs/5249776008?gh_jid=5249776008",
-      "descriptionText": "Block is one company built from many blocks, all united by the same purpose of economic empowerment. The blocks that form our foundational teams — People, Finance, Counsel, Hardware, Information Security, Platform Infrastructure Engineering, and more — provide support and guidance at the corporate level. They work across business groups and around the globe, spanning time zones and disciplines to develop inclusive People policies, forecast finances, give legal counsel, safeguard systems, nurture new initiatives, and more. Every challenge creates possibilities, and we need different perspectives to see them all. Bring yours to Block.\n\nThe Role\n\nWe are looking for a strategic, hands-on Systems Engineer to lead the next wave of finance technology transformation at Block. This role owns the architecture and scaling of the technology stack that powers our core financial engine across Accounting, Tax, Treasury, Procurement, and FP&A.\n\nWe operate with an AI-first engineering mindset . The ideal candidate brings deep expertise in financial systems architecture (Oracle Fusion) combined with a product-thinking approach, utilizing AI-assisted development to automate financial workflows and compress delivery cycles. You will partner closely with business leaders, product managers, and data engineers to drive high-impact transformation across Oracle Fusion, in-house applications, integration platforms, and enterprise LLMs.\n\nYou will:\n\nDrive AI-First Development: Embed AI-assisted…",
-      "postedAt": "2026-06-29T18:08:36-04:00",
-      "score": {
-        "fit": 80,
-        "verdict": "strong",
-        "rationale": "Senior Finance Systems Engineer: Oracle Fusion - Remote, US at Block scores 80/100 (strong) on the Tier-1 deterministic pass. Matched: Senior / staff / lead level; Genuine AI-native engineering; Backend / distributed / event-driven match. Concerns: comp unstated; remote unstated.",
-        "matched": [
-          "Senior / staff / lead level",
-          "Genuine AI-native engineering",
-          "Backend / distributed / event-driven match"
-        ],
-        "concerns": [
-          "comp unstated",
-          "remote unstated"
-        ]
-      }
-    },
-    {
-      "id": "7c3641f6",
-      "source": "greenhouse",
-      "company": "Coinbase",
-      "title": "Staff Software Engineer, Backend (Consumer - Prediction Markets)",
-      "location": "Remote - USA",
-      "remote": true,
-      "url": "https://www.coinbase.com/careers/positions/7997840?gh_jid=7997840",
-      "descriptionText": "Ready to do the most impactful work of your career? At Coinbase , we are uncompromising on our mission to increase economic freedom. The bar is high, the environment is intense, and we like it that way. This isn't a place for complacency, it’s a place to be pushed past your perceived limits. If you're ready to build the future of finance alongside people who refuse to settle for \"good enough,\" you belong here. Coinbase is a remote-first, but not remote-only company. Expect to get together quarterly for intense in-person working sessions called “surges.” learn more about working at Coinbase .\n\nCoinbase is building prediction markets as part of the Everything Exchange, letting millions of users trade on the outcomes of real-world events across sports, politics, crypto, and culture. We're building the full regulated stack in-house: our own exchange, clearing, and settlement infrastructure. As a Staff Software Engineer on the Prediction Markets team , you'll design and own the core backend systems that power market discovery, best-in-class trading experiences, order management, market resolution, and settlement. It's a rare chance to build market infrastructure from the ground up, with the ownership of a startup and the reach of Coinbase.\n\nWhat you’ll do:\n\nOwn the design, development, and reliability of backend systems that power order management, trade matching, settlement, and market resolution for prediction markets\n\nArchitect distributed systems that enforce strict…",
-      "postedAt": "2026-06-26T18:29:44-04:00",
-      "score": {
-        "fit": 80,
-        "verdict": "strong",
-        "rationale": "Staff Software Engineer, Backend (Consumer - Prediction Markets) at Coinbase scores 80/100 (strong) on the Tier-1 deterministic pass. Matched: Senior / staff / lead level; Genuine AI-native engineering; Backend / distributed / event-driven match. Concerns: comp unstated.",
-        "matched": [
-          "Senior / staff / lead level",
-          "Genuine AI-native engineering",
-          "Backend / distributed / event-driven match"
-        ],
-        "concerns": [
-          "comp unstated"
-        ]
-      }
-    },
-    {
-      "id": "80297c4f",
-      "source": "greenhouse",
-      "company": "Coinbase",
-      "title": "Senior Software Engineer, Backend (Consumer - Prediction Markets)",
-      "location": "Remote - USA",
-      "remote": true,
-      "url": "https://www.coinbase.com/careers/positions/7997836?gh_jid=7997836",
-      "descriptionText": "Ready to do the most impactful work of your career? At Coinbase , we are uncompromising on our mission to increase economic freedom. The bar is high, the environment is intense, and we like it that way. This isn't a place for complacency, it’s a place to be pushed past your perceived limits. If you're ready to build the future of finance alongside people who refuse to settle for \"good enough,\" you belong here. Coinbase is a remote-first, but not remote-only company. Expect to get together quarterly for intense in-person working sessions called “surges.” learn more about working at Coinbase .\n\nCoinbase is building prediction markets as part of the Everything Exchange, letting millions of users trade on the outcomes of real-world events across sports, politics, crypto, and culture. As a Senior Software Engineer on the Prediction Markets team , you'll design and own the core backend systems that power the full market lifecycle: market creation and discovery, real-time market data, best-in-class trading and order management, oracle-driven market resolution, and settlement, payouts, and fund movement. It's a rare chance to build market infrastructure from the ground up, with the ownership of a startup and the reach of Coinbase.\n\nWhat you’ll do:\n\nOwn backend services end to end for prediction markets, from market creation and discovery through trading, oracle resolution, settlement, and payout.\n\nDesign low-latency, high-throughput systems for a real-time financial product used by…",
-      "postedAt": "2026-06-26T18:26:37-04:00",
-      "score": {
-        "fit": 80,
-        "verdict": "strong",
-        "rationale": "Senior Software Engineer, Backend (Consumer - Prediction Markets) at Coinbase scores 80/100 (strong) on the Tier-1 deterministic pass. Matched: Senior / staff / lead level; Genuine AI-native engineering; Backend / distributed / event-driven match. Concerns: comp unstated.",
-        "matched": [
-          "Senior / staff / lead level",
-          "Genuine AI-native engineering",
-          "Backend / distributed / event-driven match"
-        ],
-        "concerns": [
-          "comp unstated"
-        ]
-      }
-    },
-    {
-      "id": "37c2406f",
-      "source": "greenhouse",
-      "company": "Coinbase",
-      "title": "Senior Software Engineer, Infrastructure - Core Infra Systems",
-      "location": "Remote - USA",
-      "remote": true,
-      "url": "https://www.coinbase.com/careers/positions/8026678?gh_jid=8026678",
-      "descriptionText": "Ready to do the most impactful work of your career? At Coinbase , we are uncompromising on our mission to increase economic freedom. The bar is high, the environment is intense, and we like it that way. This isn't a place for complacency, it’s a place to be pushed past your perceived limits. If you're ready to build the future of finance alongside people who refuse to settle for \"good enough,\" you belong here. Coinbase is a remote-first, but not remote-only company. Expect to get together quarterly for intense in-person working sessions called “surges.” learn more about working at Coinbase .\n\nAs a Senior Software Engineer on the Core Infra Systems team within the Platform group, you'll work across the cloud and networking foundations that Coinbase engineers rely on to run reliably at scale. The team owns the front door for GCP paved roads, cloud networking, and AWS-centered infrastructure patterns, with a focus on standardization, self-service, and strong default guardrails. You'll work closely with the AWS, GCP, and Networking owners inside Core Infra Systems and partner with Compute, Infra Security, Routing, and broader infrastructure stakeholders to deliver secure, scalable, and opinionated infrastructure that keeps Coinbase fast and resilient.\n\nWhat you'll do:\n\nOwn cross-cutting infrastructure initiatives that span the AWS, GCP, and Networking pillars inside Core Infra Systems, driving alignment on standards, tooling, and operational patterns.\n\nBuild and maintain…",
-      "postedAt": "2026-06-26T17:38:58-04:00",
-      "score": {
-        "fit": 80,
-        "verdict": "strong",
-        "rationale": "Senior Software Engineer, Infrastructure - Core Infra Systems at Coinbase scores 80/100 (strong) on the Tier-1 deterministic pass. Matched: Senior / staff / lead level; Genuine AI-native engineering; Backend / distributed / event-driven match. Concerns: comp unstated.",
-        "matched": [
-          "Senior / staff / lead level",
-          "Genuine AI-native engineering",
-          "Backend / distributed / event-driven match"
-        ],
-        "concerns": [
-          "comp unstated"
-        ]
-      }
-    },
-    {
-      "id": "995ae3b6",
-      "source": "greenhouse",
-      "company": "Coinbase",
-      "title": "Staff Software Engineer (Platform - FinEng)",
-      "location": "Remote - USA",
-      "remote": true,
-      "url": "https://www.coinbase.com/careers/positions/7773776?gh_jid=7773776",
-      "descriptionText": "Ready to do the most impactful work of your career? At Coinbase , we are uncompromising on our mission to increase economic freedom. The bar is high, the environment is intense, and we like it that way. This isn't a place for complacency, it’s a place to be pushed past your perceived limits. If you're ready to build the future of finance alongside people who refuse to settle for \"good enough,\" you belong here. Coinbase is a remote-first, but not remote-only company. Expect to get together quarterly for intense in-person working sessions called “surges.” learn more about working at Coinbase .\n\nStaff Software Engineer, Platform - FinEng\n\nWe're hiring a Staff Software Engineer to join the Financial Engineering team within Platform and own the architecture and long-term technical strategy for the financial data and reporting systems that power Coinbase's financial operations. Financial Engineering partners with Finance, Accounting, Tax, and other Platform teams to ensure every dollar and coin that moves through Coinbase is tracked accurately, reported on time, and fully auditable. You'll define and drive the foundational backend systems at the intersection of engineering rigor and financial precision, building infrastructure that scales with Coinbase's growth across crypto, fiat, and new verticals.\n\nWhat you'll do:\n\nOwn the multi-year technical strategy and architecture for Coinbase's financial data pipelines, reporting systems, and operational infrastructure, defining how these…",
-      "postedAt": "2026-06-26T12:23:59-04:00",
-      "score": {
-        "fit": 80,
-        "verdict": "strong",
-        "rationale": "Staff Software Engineer (Platform - FinEng) at Coinbase scores 80/100 (strong) on the Tier-1 deterministic pass. Matched: Senior / staff / lead level; Genuine AI-native engineering; Backend / distributed / event-driven match. Concerns: comp unstated.",
-        "matched": [
-          "Senior / staff / lead level",
-          "Genuine AI-native engineering",
-          "Backend / distributed / event-driven match"
-        ],
-        "concerns": [
-          "comp unstated"
-        ]
-      }
-    },
-    {
-      "id": "0a39ad82",
-      "source": "greenhouse",
-      "company": "Coinbase",
-      "title": "Staff Software Engineer (Tech Lead, Backend - Platform (Overseer)",
-      "location": "Remote - USA",
-      "remote": true,
-      "url": "https://www.coinbase.com/careers/positions/7991011?gh_jid=7991011",
-      "descriptionText": "Ready to do the most impactful work of your career? At Coinbase , we are uncompromising on our mission to increase economic freedom. The bar is high, the environment is intense, and we like it that way. This isn't a place for complacency, it’s a place to be pushed past your perceived limits. If you're ready to build the future of finance alongside people who refuse to settle for \"good enough,\" you belong here. Coinbase is a remote-first, but not remote-only company. Expect to get together quarterly for intense in-person working sessions called “surges.” learn more about working at Coinbase .\n\nOverseer is Coinbase's business integrity layer, making the financial contracts between systems explicit and detecting violations before they become incidents. As a Staff Software Engineer on the Overseer team within the Platform product group, you'll define the long-term technical vision for the platform that enforces correctness across every fund flow Coinbase processes. The gap between \"each service works\" and \"the system is correct\" compounds with every product shipped and market entered - you'll ensure Coinbase's correctness infrastructure scales years ahead of that growth.\n\nWhat you'll do:\n\nOwn the multi-quarter technical strategy, architecture, and roadmap for the Overseer platform, including the invariant framework, detection engine, and partner-facing APIs.\n\nLead the design and execution of company P0 initiatives end-to-end, serving as the senior DRI accountable for delivery,…",
-      "postedAt": "2026-06-26T12:23:56-04:00",
-      "score": {
-        "fit": 80,
-        "verdict": "strong",
-        "rationale": "Staff Software Engineer (Tech Lead, Backend - Platform (Overseer) at Coinbase scores 80/100 (strong) on the Tier-1 deterministic pass. Matched: Senior / staff / lead level; Genuine AI-native engineering; Backend / distributed / event-driven match. Concerns: comp unstated.",
-        "matched": [
-          "Senior / staff / lead level",
-          "Genuine AI-native engineering",
-          "Backend / distributed / event-driven match"
-        ],
-        "concerns": [
-          "comp unstated"
-        ]
-      }
-    },
-    {
-      "id": "f4fd453a",
-      "source": "greenhouse",
-      "company": "Coinbase",
-      "title": "Staff Software Engineer, Solana Staking Protocol",
-      "location": "Remote - USA",
-      "remote": true,
-      "url": "https://www.coinbase.com/careers/positions/7684298?gh_jid=7684298",
-      "descriptionText": "Ready to do the most impactful work of your career? At Coinbase , we are uncompromising on our mission to increase economic freedom. The bar is high, the environment is intense, and we like it that way. This isn't a place for complacency, it’s a place to be pushed past your perceived limits. If you're ready to build the future of finance alongside people who refuse to settle for \"good enough,\" you belong here. Coinbase is a remote-first, but not remote-only company. Expect to get together quarterly for intense in-person working sessions called “surges.” learn more about working at Coinbase .\n\nAs a Staff Software Engineer on the Staking Platform team within the Platform group, you'll serve as Coinbase's definitive Solana staking technical authority, owning strategy across validator operations, staking integrations, and protocol evolution. Coinbase operates one of the largest Solana staking operations in the world, managing approximately 9.25% of all staked SOL. You'll combine deep Solana protocol mastery with hands-on engineering execution and external ecosystem influence to shape Coinbase's Solana staking trajectory.\n\nWhat you'll do:\n\nOwn Coinbase's multi-year technical strategy for Solana staking across validator performance, protocol participation, and product integration, connecting engineering decisions to yield optimization, cost efficiency, and customer growth.\n\nLead the engineering effort to achieve industry-leading APY through validator optimization, including vote…",
-      "postedAt": "2026-06-26T12:23:54-04:00",
-      "score": {
-        "fit": 80,
-        "verdict": "strong",
-        "rationale": "Staff Software Engineer, Solana Staking Protocol at Coinbase scores 80/100 (strong) on the Tier-1 deterministic pass. Matched: Senior / staff / lead level; Genuine AI-native engineering; Backend / distributed / event-driven match. Concerns: comp unstated.",
-        "matched": [
-          "Senior / staff / lead level",
-          "Genuine AI-native engineering",
-          "Backend / distributed / event-driven match"
-        ],
-        "concerns": [
-          "comp unstated"
-        ]
-      }
-    },
-    {
-      "id": "67d1e6ab",
-      "source": "greenhouse",
-      "company": "Coinbase",
-      "title": "Senior Staff Software Engineer, Core Automation",
-      "location": "Remote - USA",
-      "remote": true,
-      "url": "https://www.coinbase.com/careers/positions/7580292?gh_jid=7580292",
-      "descriptionText": "Ready to do the most impactful work of your career? At Coinbase , we are uncompromising on our mission to increase economic freedom. The bar is high, the environment is intense, and we like it that way. This isn't a place for complacency, it’s a place to be pushed past your perceived limits. If you're ready to build the future of finance alongside people who refuse to settle for \"good enough,\" you belong here. Coinbase is a remote-first, but not remote-only company. Expect to get together quarterly for intense in-person working sessions called “surges.” learn more about working at Coinbase .\n\nAs a Senior Staff Software Engineer on the Core Automation team within Platform , you'll architect and build the Agentic AI systems that are reimagining how Coinbase delivers customer support and manages compliance at scale. This team is focused on automating high-volume operational processes with AI, then building the primitives and orchestration platform that let every domain at Coinbase leverage those capabilities. You'll own the technical vision for production AI systems that directly improve customer experience, strengthen compliance posture, and drive outsized efficiency gains.\n\nWhat you'll do:\n\nOwn the design and implementation of Agentic AI systems powering Coinbase's customer support and compliance automation\n\nArchitect a reusable platform of primitives, orchestration tools, and interfaces that enable other teams to adopt Agentic AI for their domains\n\nDrive cross-functional…",
-      "postedAt": "2026-06-26T12:23:42-04:00",
-      "score": {
-        "fit": 80,
-        "verdict": "strong",
-        "rationale": "Senior Staff Software Engineer, Core Automation at Coinbase scores 80/100 (strong) on the Tier-1 deterministic pass. Matched: Senior / staff / lead level; Genuine AI-native engineering; Backend / distributed / event-driven match. Concerns: comp unstated.",
-        "matched": [
-          "Senior / staff / lead level",
-          "Genuine AI-native engineering",
-          "Backend / distributed / event-driven match"
-        ],
-        "concerns": [
-          "comp unstated"
-        ]
-      }
-    },
-    {
-      "id": "6c0274b4",
-      "source": "greenhouse",
-      "company": "Airbnb",
-      "title": "Software Engineer, BizTech(Python, LLM, GenAI, MCP)",
-      "location": "Bangalore, India",
-      "remote": true,
-      "url": "https://careers.airbnb.com/positions/7902817?gh_jid=7902817",
-      "descriptionText": "Airbnb was born in 2007 when two hosts welcomed three guests to their San Francisco home, and has since grown to over 5 million hosts who have welcomed over 2 billion guest arrivals in almost every country across the globe. Every day, hosts offer unique stays and experiences that make it possible for guests to connect with communities in a more authentic way.\n\nSoftware Engineer, Integrations & Application Engineering\n\nAirbnb | India\n\nCompany Overview\n\nAirbnb was born in 2007 when two hosts welcomed three guests to their San Francisco home, and has since grown to over 5 million hosts who have welcomed over 2 billion guest arrivals in almost every country across the globe. Every day, hosts offer unique stays and experiences that make it possible for guests to connect with communities in a more authentic way.\n\nThe Community You Will Join\n\nThe Integrations & Application Engineering team owns the integration and automation platforms at Airbnb. We enable teams across the company to self-serve in connecting their systems and automating solutions, and we integrate Airbnb’s enterprise systems end-to-end. The team also builds and manages custom in-house solutions and the application infrastructure that supports them.\n\nThis role focuses on designing, building, and maintaining Finance integrations and reports, and on developing the libraries and plugins that power our in-house platforms. We’re looking for someone who takes pride in building reliable systems and solutions, is eager to…",
-      "postedAt": "2026-06-26T12:09:11-04:00",
-      "score": {
-        "fit": 80,
-        "verdict": "strong",
-        "rationale": "Software Engineer, BizTech(Python, LLM, GenAI, MCP) at Airbnb scores 80/100 (strong) on the Tier-1 deterministic pass. Matched: Senior / staff / lead level; Genuine AI-native engineering; Backend / distributed / event-driven match. Concerns: comp unstated.",
-        "matched": [
-          "Senior / staff / lead level",
-          "Genuine AI-native engineering",
-          "Backend / distributed / event-driven match"
-        ],
-        "concerns": [
-          "comp unstated"
-        ]
-      }
-    },
-    {
-      "id": "56981dbe",
-      "source": "greenhouse",
-      "company": "Airbnb",
-      "title": "Senior Software Engineer, (Python, GenAI, MCP)",
-      "location": "Remote - Bangalore, India",
-      "remote": true,
-      "url": "https://careers.airbnb.com/positions/7556182?gh_jid=7556182",
-      "descriptionText": "Airbnb was born in 2007 when two hosts welcomed three guests to their San Francisco home, and has since grown to over 5 million hosts who have welcomed over 2 billion guest arrivals in almost every country across the globe. Every day, hosts offer unique stays and experiences that make it possible for guests to connect with communities in a more authentic way.\n\nSenior Software Engineer, Integrations & Application Engineering\n\nAirbnb | India\n\nCompany Overview\n\nAirbnb was born in 2007 when two hosts welcomed three guests to their San Francisco home, and has since grown to over 5 million hosts who have welcomed over 2 billion guest arrivals in almost every country across the globe. Every day, hosts offer unique stays and experiences that make it possible for guests to connect with communities in a more authentic way.\n\nThe Community You Will Join\n\nThe Integrations & Application Engineering team owns the integration and automation platforms at Airbnb. We enable teams across the company to self-serve in connecting their systems and automating solutions, and we integrate Airbnb’s enterprise systems end-to-end. The team also builds and manages custom in-house solutions and the application infrastructure that supports them.\n\nThis role focuses on designing, building, and maintaining Finance integrations and reports, and on developing the libraries and plugins that power our in-house platforms. We’re looking for someone who takes ownership of systems and solutions, is eager to learn,…",
-      "postedAt": "2026-06-26T12:07:12-04:00",
-      "score": {
-        "fit": 80,
-        "verdict": "strong",
-        "rationale": "Senior Software Engineer, (Python, GenAI, MCP) at Airbnb scores 80/100 (strong) on the Tier-1 deterministic pass. Matched: Senior / staff / lead level; Genuine AI-native engineering; Backend / distributed / event-driven match. Concerns: comp unstated.",
-        "matched": [
-          "Senior / staff / lead level",
-          "Genuine AI-native engineering",
-          "Backend / distributed / event-driven match"
-        ],
-        "concerns": [
-          "comp unstated"
-        ]
-      }
-    },
-    {
-      "id": "e9f41c9a",
-      "source": "greenhouse",
-      "company": "Coinbase",
-      "title": "Senior Software Engineer - Blockchain Network",
-      "location": "Remote - USA",
-      "remote": true,
-      "url": "https://www.coinbase.com/careers/positions/7967649?gh_jid=7967649",
-      "descriptionText": "Ready to do the most impactful work of your career? At Coinbase , we are uncompromising on our mission to increase economic freedom. The bar is high, the environment is intense, and we like it that way. This isn't a place for complacency, it’s a place to be pushed past your perceived limits. If you're ready to build the future of finance alongside people who refuse to settle for \"good enough,\" you belong here. Coinbase is a remote-first, but not remote-only company. Expect to get together quarterly for intense in-person working sessions called “surges.” learn more about working at Coinbase .\n\nAs a Senior Software Engineer on the Blockchain Networks team within the Platform group, you'll build the critical infrastructure that integrates blockchain protocols with Coinbase's internal services for new assets, stablecoins, and staking. This team translates complex blockchain operations and state machines into simple, reliable APIs that product teams across Coinbase depend on. You'll own multi-quarter technical initiatives and ship platform primitives that directly improve the latency, reliability, and cost of our crypto stack.\n\nWhat you'll do:\n\nOwn the design and delivery of blockchain network infrastructure that abstracts blockchain complexity into reliable, platform APIs\n\nLead multi-quarter initiatives including new chain integrations, re-architecture efforts, and data migrations that improve system latency, reliability, and cost\n\nDefine and maintain APIs, SLOs, and…",
-      "postedAt": "2026-06-26T01:05:36-04:00",
-      "score": {
-        "fit": 80,
-        "verdict": "strong",
-        "rationale": "Senior Software Engineer - Blockchain Network at Coinbase scores 80/100 (strong) on the Tier-1 deterministic pass. Matched: Senior / staff / lead level; Genuine AI-native engineering; Backend / distributed / event-driven match. Concerns: comp unstated.",
-        "matched": [
-          "Senior / staff / lead level",
-          "Genuine AI-native engineering",
-          "Backend / distributed / event-driven match"
-        ],
-        "concerns": [
-          "comp unstated"
-        ]
-      }
-    },
-    {
-      "id": "02bc5c21",
-      "source": "greenhouse",
-      "company": "Coinbase",
-      "title": "Staff Software Engineer - AI Platform Team",
-      "location": "Remote - USA",
-      "remote": true,
-      "url": "https://www.coinbase.com/careers/positions/8025505?gh_jid=8025505",
-      "descriptionText": "Ready to do the most impactful work of your career? At Coinbase , we are uncompromising on our mission to increase economic freedom. The bar is high, the environment is intense, and we like it that way. This isn't a place for complacency, it’s a place to be pushed past your perceived limits. If you're ready to build the future of finance alongside people who refuse to settle for \"good enough,\" you belong here. Coinbase is a remote-first, but not remote-only company. Expect to get together quarterly for intense in-person working sessions called “surges.” learn more about working at Coinbase .\n\nAs a Staff Software Engineer on the AI Platform team within the Platform group, you'll build and operate the LLM and agent infrastructure that every team at Coinbase depends on. This team owns the company's single path to large language models and the full agent lifecycle: build, deploy, run, observe, and improve. You'll lead multi-quarter technical initiatives across the platform, from gateway and runtime systems to knowledge bases and applied AI agents, directly shaping how Coinbase scales AI across the organization.\n\nWhat you'll do:\n\nOwn the architecture and delivery of core platform systems including the LLM Gateway (60+ models, auth, PII redaction, fallbacks, cost optimization), AI Hub, and agent runtime with microVM sandboxes and governed MCP gateway\n\nDrive the design and implementation of Knowledge Base infrastructure, connecting data sources to auto-provisioned vector and…",
-      "postedAt": "2026-06-26T01:00:57-04:00",
-      "score": {
-        "fit": 80,
-        "verdict": "strong",
-        "rationale": "Staff Software Engineer - AI Platform Team at Coinbase scores 80/100 (strong) on the Tier-1 deterministic pass. Matched: Senior / staff / lead level; Genuine AI-native engineering; Backend / distributed / event-driven match. Concerns: comp unstated.",
-        "matched": [
-          "Senior / staff / lead level",
-          "Genuine AI-native engineering",
-          "Backend / distributed / event-driven match"
-        ],
-        "concerns": [
-          "comp unstated"
-        ]
-      }
-    },
-    {
-      "id": "f1e0aebe",
-      "source": "greenhouse",
-      "company": "Coinbase",
-      "title": "Staff Software Engineer, Core Reliability",
-      "location": "Remote - USA",
-      "remote": true,
-      "url": "https://www.coinbase.com/careers/positions/8029711?gh_jid=8029711",
-      "descriptionText": "Ready to do the most impactful work of your career? At Coinbase , we are uncompromising on our mission to increase economic freedom. The bar is high, the environment is intense, and we like it that way. This isn't a place for complacency, it’s a place to be pushed past your perceived limits. If you're ready to build the future of finance alongside people who refuse to settle for \"good enough,\" you belong here. Coinbase is a remote-first, but not remote-only company. Expect to get together quarterly for intense in-person working sessions called “surges.” learn more about working at Coinbase .\n\nAs part of the Infra Reliability team, you will help Coinbase scale systems 50x by improving reliability, security, and deployment safety across our production environment. You will secure service configurations and secrets, reduce customer-facing incidents, and strengthen deployment systems that support thousands of services and hundreds of daily releases.\n\nWhat you’ll do\n\nBuild and launch reliability projects and features that improve resiliency across our service environment in partnership with reliability teams.\n\nWork closely with critical T0/T1 services to understand architecture, improve scalability and reliability, and reduce operational toil.\n\nBuild and enhance systems that securely manage service configurations and secrets at scale.\n\nImprove canary-based release systems to make deployments safer and reduce incidents.\n\nExpand deployment capabilities to support thousands of…",
-      "postedAt": "2026-06-25T20:17:15-04:00",
-      "score": {
-        "fit": 80,
-        "verdict": "strong",
-        "rationale": "Staff Software Engineer, Core Reliability at Coinbase scores 80/100 (strong) on the Tier-1 deterministic pass. Matched: Senior / staff / lead level; Genuine AI-native engineering; Backend / distributed / event-driven match. Concerns: comp unstated.",
-        "matched": [
-          "Senior / staff / lead level",
-          "Genuine AI-native engineering",
-          "Backend / distributed / event-driven match"
-        ],
-        "concerns": [
-          "comp unstated"
-        ]
-      }
-    },
-    {
-      "id": "4ffb3df6",
-      "source": "ashby",
-      "company": "OpenAI",
-      "title": "Senior+ Software Engineer - Research Platform, Consumer Devices",
-      "location": "San Francisco",
-      "remote": true,
-      "url": "https://jobs.ashbyhq.com/openai/6d9925f4-3d0a-4710-8304-032d0080d12d",
-      "descriptionText": "ABOUT THE TEAM\n\nThe Future of Computing Research team is an Applied Research team within the Consumer Devices group focused on developing new methods and models as we advance forward in our mission of building AGI that benefits all of humanity.\n\nAs a Software Engineer on the Future of Computing Research team, you will work together with both the best ML researchers in the world and the greatest design talent of our generation to push the frontier of model capabilities.\n\nABOUT THE ROLE\n\nWe are looking for a Software Engineer to join our team to build tools and services that enable AI research, evaluation, and data generation workflows.\n\nThe best work in this role will start with an ambiguous design question and turn it into working research systems. You will work closely with researchers, designers, and engineers to build the evaluation systems, synthetic data generation pipelines, review tools, and supporting platform services.\n\nThe goal is to make these workflows easier to create, run, and trust without requiring bespoke engineering support for each new design concept. You will help ensure that research artifacts have a clear lifecycle, runs are reproducible and observable, and results provide useful evidence for product and model-training decisions while the underlying systems remain reliable and reusable.\n\nThis role is based in San Francisco, CA. We use a hybrid work model of three days in the office per week and offer relocation assistance to new employees.\n\nIN THIS…",
-      "postedAt": "2026-06-26T00:08:20.821+00:00",
-      "compHint": "$293K - $325K",
-      "score": {
-        "fit": 80,
-        "verdict": "strong",
-        "rationale": "Senior+ Software Engineer - Research Platform, Consumer Devices at OpenAI scores 80/100 (strong) on the Tier-1 deterministic pass. Matched: Senior / staff / lead level; Genuine AI-native engineering; Backend / distributed / event-driven match.",
-        "matched": [
-          "Senior / staff / lead level",
-          "Genuine AI-native engineering",
-          "Backend / distributed / event-driven match"
-        ],
-        "concerns": []
-      }
-    },
-    {
-      "id": "9efc71db",
-      "source": "greenhouse",
-      "company": "Airbnb",
-      "title": "Senior Data Engineer, People Analytics",
-      "location": "United States",
-      "remote": true,
-      "url": "https://careers.airbnb.com/positions/7988010?gh_jid=7988010",
-      "descriptionText": "Airbnb was born in 2007 when two hosts welcomed three guests to their San Francisco home, and has since grown to over 5 million hosts who have welcomed over 2 billion guest arrivals in almost every country across the globe. Every day, hosts offer unique stays and experiences that make it possible for guests to connect with communities in a more authentic way.\n\nThe Community you will join:\n\nPeople Analytics & Research is a strong team of Data Scientists, Researchers, and Analysts. Our work is highly sought-after, and we prioritize work that impacts employees and the business. If you have a background in Data Engineering and are excited to help build Airbnb’s community, we want to hear from you.\n\nThe difference you will make:\n\nThe People Analytics & Research team is looking for an experienced Data Engineer to support our growing portfolio of data initiatives — from building data pipelines to delivering data foundations and analytical products that power EX's growing suite of AI-driven tools. Your responsibility spans data infrastructure, analytics engineering, and data product development. The role is highly cross-functional,and you will work with Talent Leaders, Recruiting, Legal, Diversity and Belonging, and other core people-oriented teams, as well as contribute to the AI-driven tools that make people data more accessible across the organization.\n\nYour Responsibilities:\n\nCollaborate with other team members and stakeholders to help understand data- and people-related…",
-      "postedAt": "2026-06-25T18:27:03-04:00",
-      "score": {
-        "fit": 80,
-        "verdict": "strong",
-        "rationale": "Senior Data Engineer, People Analytics at Airbnb scores 80/100 (strong) on the Tier-1 deterministic pass. Matched: Senior / staff / lead level; Genuine AI-native engineering; Backend / distributed / event-driven match. Concerns: comp unstated.",
-        "matched": [
-          "Senior / staff / lead level",
-          "Genuine AI-native engineering",
-          "Backend / distributed / event-driven match"
-        ],
-        "concerns": [
-          "comp unstated"
-        ]
-      }
-    },
-    {
-      "id": "36a8b253",
-      "source": "greenhouse",
-      "company": "Coinbase",
-      "title": "Staff Software Engineer, Backend - Platform (FinHub - Transfer)",
-      "location": "Remote - USA",
-      "remote": true,
-      "url": "https://www.coinbase.com/careers/positions/7761563?gh_jid=7761563",
-      "descriptionText": "Ready to do the most impactful work of your career? At Coinbase , we are uncompromising on our mission to increase economic freedom. The bar is high, the environment is intense, and we like it that way. This isn't a place for complacency, it’s a place to be pushed past your perceived limits. If you're ready to build the future of finance alongside people who refuse to settle for \"good enough,\" you belong here. Coinbase is a remote-first, but not remote-only company. Expect to get together quarterly for intense in-person working sessions called “surges.” learn more about working at Coinbase .\n\nWe're hiring a Staff Software Engineer to join the FinHub Transfers team within the Platform organization. Transfers is the nerve center of crypto and fiat fund movements at Coinbase, orchestrating routing and settlement across Retail, Prime, Exchange, International, and Payments product groups through one of the most scalable distributed financial systems in the world. You'll own the multi-year technical strategy and architecture for this infrastructure, drive execution on complex cross-team initiatives, and elevate engineering quality across the team while maintaining high-volume individual output.\n\nWhat you'll do:\n\nOwn the technical strategy, architecture, and roadmap for the Transfers platform, making key design decisions on fund movement orchestration, routing, and reliability across crypto and fiat rails.\n\nDrive cross-team initiatives spanning multiple product groups (Retail,…",
-      "postedAt": "2026-06-25T15:33:06-04:00",
-      "score": {
-        "fit": 80,
-        "verdict": "strong",
-        "rationale": "Staff Software Engineer, Backend - Platform (FinHub - Transfer) at Coinbase scores 80/100 (strong) on the Tier-1 deterministic pass. Matched: Senior / staff / lead level; Genuine AI-native engineering; Backend / distributed / event-driven match. Concerns: comp unstated.",
-        "matched": [
-          "Senior / staff / lead level",
-          "Genuine AI-native engineering",
-          "Backend / distributed / event-driven match"
-        ],
-        "concerns": [
-          "comp unstated"
-        ]
-      }
-    },
-    {
-      "id": "f03003fd",
-      "source": "greenhouse",
-      "company": "Coinbase",
-      "title": "Senior Software Engineer, Frontend (Consumer - Payments)",
-      "location": "Remote - USA",
-      "remote": true,
-      "url": "https://www.coinbase.com/careers/positions/8029035?gh_jid=8029035",
-      "descriptionText": "Ready to do the most impactful work of your career? At Coinbase , we are uncompromising on our mission to increase economic freedom. The bar is high, the environment is intense, and we like it that way. This isn't a place for complacency, it’s a place to be pushed past your perceived limits. If you're ready to build the future of finance alongside people who refuse to settle for \"good enough,\" you belong here. Coinbase is a remote-first, but not remote-only company. Expect to get together quarterly for intense in-person working sessions called “surges.” learn more about working at Coinbase .\n\nWe're hiring a Senior Software Engineer, Frontend to join the Consumer Payments team within the Consumer Product Group . This team owns the infrastructure, experiences, and controls that power how millions of users send, receive, and move crypto on Coinbase. You'll own critical user journeys across web and mobile, building fast, reliable, and delightful payment flows while mentoring junior engineers and driving down customer friction at scale.\n\nWhat you’ll do:\n\nOwn end-to-end frontend development for core crypto money movement experiences, including send, receive, and transaction status tracking across web and mobile\n\nDrive measurable improvements in CUJ latency, availability, and SLOs for the payment flows you own\n\nBuild new user-facing features - such as contact management systems and real-time transaction status trackers\n\nPartner with product, design, and backend engineering to…",
-      "postedAt": "2026-06-25T15:02:55-04:00",
-      "score": {
-        "fit": 80,
-        "verdict": "strong",
-        "rationale": "Senior Software Engineer, Frontend (Consumer - Payments) at Coinbase scores 80/100 (strong) on the Tier-1 deterministic pass. Matched: Senior / staff / lead level; Genuine AI-native engineering; Backend / distributed / event-driven match. Concerns: comp unstated.",
-        "matched": [
-          "Senior / staff / lead level",
-          "Genuine AI-native engineering",
-          "Backend / distributed / event-driven match"
-        ],
-        "concerns": [
-          "comp unstated"
-        ]
-      }
-    },
-    {
-      "id": "61fbb1f1",
-      "source": "greenhouse",
-      "company": "Coinbase",
-      "title": "Staff Software Engineer, Developer Infrastructure",
-      "location": "Remote - USA",
-      "remote": true,
-      "url": "https://www.coinbase.com/careers/positions/7964410?gh_jid=7964410",
-      "descriptionText": "Ready to do the most impactful work of your career? At Coinbase , we are uncompromising on our mission to increase economic freedom. The bar is high, the environment is intense, and we like it that way. This isn't a place for complacency, it’s a place to be pushed past your perceived limits. If you're ready to build the future of finance alongside people who refuse to settle for \"good enough,\" you belong here. Coinbase is a remote-first, but not remote-only company. Expect to get together quarterly for intense in-person working sessions called “surges.” learn more about working at Coinbase .\n\nCoinbase's Developer Infrastructure - Test team exists for one reason: every Coinbase engineer should get fast, reliable test signals so the company can test and ship faster. As AI accelerates the pace of code generation, test infrastructure is becoming a critical path for how quickly Coinbase delivers value to customers. As a Staff Software Engineer on the Platform team, you'll set the technical direction for how Coinbase tests and ships software, owning the systems that turn testing into a speed advantage instead of a bottleneck.\n\nWhat you'll do:\n\nDefine and own the technical strategy for test infrastructure across Coinbase engineering, with feedback speed as a core design constraint.\n\nBuild and operate core test infrastructure services, including test orchestration, smart test selection, sharding, flaky-test detection, and test result analysis.\n\nDrive measurable improvements in test…",
-      "postedAt": "2026-06-24T16:02:54-04:00",
-      "score": {
-        "fit": 80,
-        "verdict": "strong",
-        "rationale": "Staff Software Engineer, Developer Infrastructure at Coinbase scores 80/100 (strong) on the Tier-1 deterministic pass. Matched: Senior / staff / lead level; Genuine AI-native engineering; Backend / distributed / event-driven match. Concerns: comp unstated.",
-        "matched": [
-          "Senior / staff / lead level",
-          "Genuine AI-native engineering",
-          "Backend / distributed / event-driven match"
-        ],
-        "concerns": [
-          "comp unstated"
         ]
       }
     }

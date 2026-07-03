@@ -117,6 +117,28 @@ describe('scoreFit — whole-word matching and flag pass-through', () => {
   });
 });
 
+describe('scoreFit — preferred-company boost', () => {
+  it('adds the boost and a "Top-choice company" signal for a preferred company', () => {
+    const desc = 'Senior backend engineer.';
+    const preferred = scoreFit(makeKept({ company: 'Airbnb', descriptionText: desc }));
+    const other = scoreFit(makeKept({ company: 'Stripe', descriptionText: desc }));
+    expect(preferred.fit).toBe(other.fit + fitSpec.preferredBoost);
+    expect(preferred.matched).toContain('Top-choice company');
+    expect(other.matched).not.toContain('Top-choice company');
+  });
+
+  it('never pushes the score past 100', () => {
+    const { fit } = scoreFit(
+      makeKept({
+        company: 'Airbnb',
+        title: 'Senior Staff AI Engineer',
+        descriptionText: 'LLM agents, distributed backend, Kafka, AWS, open source, product engineering.',
+      }),
+    );
+    expect(fit).toBeLessThanOrEqual(100);
+  });
+});
+
 describe('scorePostings', () => {
   it('attaches a FitScore to each posting, preserving fields and order', () => {
     const kept: KeptPosting[] = [

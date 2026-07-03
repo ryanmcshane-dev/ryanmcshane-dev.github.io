@@ -23,4 +23,11 @@ describe('companies target list', () => {
     expect(names).toContain('Airbnb');
     expect(names).toContain('Block');
   });
+
+  it('excludes Coinbase — Ryan opted out of crypto', () => {
+    const tokens = companies.map((c) => c.token);
+    const names = companies.map((c) => c.name);
+    expect(names).not.toContain('Coinbase');
+    expect(tokens).not.toContain('coinbase');
+  });
 });

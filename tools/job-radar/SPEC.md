@@ -146,10 +146,15 @@ interface ScoredPosting extends Posting { score: FitScore; }
 (not LLM-bolt-on), backend/distributed-systems + event-driven match to Ryan's strengths, strong
 engineering culture / eng blog, product company.
 
+**Preferred companies (`preferredCompanies` + `preferredBoost`):** Ryan's top-choice companies get a
+small additive nudge (not a fit override) so their roles rank higher, all else equal. Currently
+**Airbnb** (+8), his top choice among the reachable set.
+
 **Target companies (`companies.ts`):** curated list of reputable companies that expose public
 Greenhouse / Lever / Ashby boards. **Probed live 2026-07-02.** Reachable and seeded: Airbnb, Stripe,
-Databricks, Dropbox, Coinbase, Pinterest, Block (Greenhouse); Spotify, Plaid (Lever); OpenAI, Notion,
+Databricks, Dropbox, Pinterest, Block (Greenhouse); Spotify, Plaid (Lever); OpenAI, Notion,
 Ramp, Linear, Vercel (Ashby) — Ryan opted to include the well-funded AI-native "borderline" names.
+**Excluded by choice:** Coinbase — Ryan does not want to tie his work to crypto.
 **Not reachable via these public ATS APIs** (would need a non-ATS v2 source): Netflix (empty Lever
 board) and Epic Games (no public board) — two of Ryan's four named targets.
 

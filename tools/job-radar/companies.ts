@@ -9,6 +9,8 @@ import type { CompanyConfig } from './types';
  *
  * Probed unavailable via these public ATS APIs (would need a non-ATS v2 source): Netflix (empty
  * Lever board), Epic Games (no public Greenhouse/Lever/Ashby board), Figma & Brex (Lever 404).
+ *
+ * Excluded by choice: Coinbase — Ryan is not interested in tying his work to crypto.
  */
 export const companies: CompanyConfig[] = [
   // Greenhouse — boards-api.greenhouse.io/v1/boards/{token}
@@ -16,7 +18,6 @@ export const companies: CompanyConfig[] = [
   { name: 'Stripe', ats: 'greenhouse', token: 'stripe' },
   { name: 'Databricks', ats: 'greenhouse', token: 'databricks' },
   { name: 'Dropbox', ats: 'greenhouse', token: 'dropbox' },
-  { name: 'Coinbase', ats: 'greenhouse', token: 'coinbase' },
   { name: 'Pinterest', ats: 'greenhouse', token: 'pinterest' },
   { name: 'Block', ats: 'greenhouse', token: 'block' },
 

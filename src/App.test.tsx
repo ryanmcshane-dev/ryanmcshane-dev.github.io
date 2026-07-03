@@ -21,6 +21,15 @@ describe('App routing', () => {
     ).toBeInTheDocument();
   });
 
+  it('renders the job radar page with role cards at /job-radar', async () => {
+    renderWithProviders(<App />, { route: '/job-radar' });
+    expect(
+      await screen.findByRole('heading', { level: 2, name: /agentic pipeline for my own job search/i }),
+    ).toBeInTheDocument();
+    // The committed snapshot must drive visible role cards (guards the blank-page regression).
+    expect((await screen.findAllByRole('link', { name: /view role/i })).length).toBeGreaterThan(0);
+  });
+
   it('renders 404 for an unknown route', async () => {
     renderWithProviders(<App />, { route: '/nope' });
     expect(await screen.findByText('404')).toBeInTheDocument();
