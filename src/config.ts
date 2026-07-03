@@ -18,7 +18,6 @@ export const siteConfig = {
     email: 'mailto:ryanmcshane429@gmail.com',
     linkedin: 'https://www.linkedin.com/in/ryan-mcshane-4207a5131',
     github: 'https://github.com/ryanmcshane-dev',
-    resume: '/resume.pdf',
   },
 } as const;
 
