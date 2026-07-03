@@ -22,11 +22,19 @@ export default defineConfig({
     environment: 'jsdom',
     setupFiles: ['./src/test/setup.ts'],
     css: true,
-    include: ['src/**/*.{test,spec}.{ts,tsx}'],
+    // Pipeline tests live in tools/ (Node code), UI/content tests in src/.
+    include: ['src/**/*.{test,spec}.{ts,tsx}', 'tools/**/*.test.ts'],
     coverage: {
       provider: 'v8',
-      include: ['src/**/*.{ts,tsx}'],
-      exclude: ['src/**/*.{test,spec}.{ts,tsx}', 'src/test/**', 'src/main.tsx', 'src/vite-env.d.ts'],
+      include: ['src/**/*.{ts,tsx}', 'tools/**/*.ts'],
+      exclude: [
+        'src/**/*.{test,spec}.{ts,tsx}',
+        'src/test/**',
+        'src/main.tsx',
+        'src/vite-env.d.ts',
+        'tools/**/*.test.ts',
+        'tools/**/__fixtures__/**',
+      ],
     },
   },
 });

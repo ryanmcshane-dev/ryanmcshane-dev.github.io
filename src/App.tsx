@@ -14,6 +14,9 @@ const WritingPost = lazy(() =>
 const Colophon = lazy(() =>
   import('@/pages/Colophon').then((m) => ({ default: m.Colophon })),
 );
+const JobRadar = lazy(() =>
+  import('@/pages/JobRadar/JobRadar').then((m) => ({ default: m.JobRadar })),
+);
 const NotFound = lazy(() =>
   import('@/pages/NotFound').then((m) => ({ default: m.NotFound })),
 );
@@ -29,6 +32,7 @@ export function App() {
             <Route path="/writing" element={<Writing />} />
             <Route path="/writing/:slug" element={<WritingPost />} />
             <Route path="/colophon" element={<Colophon />} />
+            <Route path="/job-radar" element={<JobRadar />} />
             <Route path="*" element={<NotFound />} />
           </Routes>
         </Suspense>

@@ -1,4 +1,5 @@
 import { describe, it, expect } from 'vitest';
+import { axe } from 'jest-axe';
 import { screen } from '@testing-library/react';
 import { renderWithProviders } from '@/test/utils';
 import { Colophon } from './Colophon';
@@ -22,5 +23,21 @@ describe('Colophon page', () => {
   it('links to the GitHub source', () => {
     renderWithProviders(<Colophon />, { route: '/colophon' });
     expect(screen.getByRole('link', { name: /view the source on github/i })).toBeInTheDocument();
+  });
+
+  it('spotlights the Job Radar pipeline and links to its page', () => {
+    renderWithProviders(<Colophon />, { route: '/colophon' });
+    expect(
+      screen.getByRole('heading', { name: colophon.spotlight.title }),
+    ).toBeInTheDocument();
+    expect(
+      screen.getByRole('link', { name: new RegExp(colophon.spotlight.linkText, 'i') }),
+    ).toHaveAttribute('href', '/job-radar');
+  });
+
+  it('has no detectable accessibility violations', async () => {
+    const { container } = renderWithProviders(<Colophon />, { route: '/colophon' });
+    const results = await axe(container);
+    expect(results).toHaveNoViolations();
   });
 });

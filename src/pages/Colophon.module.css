@@ -53,6 +53,44 @@
   font-size: var(--text-sm);
 }
 
+.spotlight {
+  margin: 0 0 var(--space-8);
+  padding: var(--space-6);
+  background: var(--accent-soft);
+  border: 1px solid var(--accent-ring);
+  border-radius: var(--radius-lg);
+}
+
+.spotlightEyebrow {
+  font-family: var(--font-mono);
+  font-size: var(--text-xs);
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--accent);
+  margin-bottom: var(--space-3);
+}
+
+.spotlightTitle {
+  font-size: var(--text-xl);
+  max-width: var(--prose-max);
+  margin-bottom: var(--space-4);
+}
+
+.spotlightBody {
+  max-width: var(--prose-max);
+  color: var(--fg);
+  font-size: var(--text-sm);
+  line-height: var(--leading-normal);
+  margin-bottom: var(--space-4);
+}
+
+.spotlightLink {
+  display: inline-block;
+  margin-top: var(--space-1);
+  font-size: var(--text-sm);
+  font-weight: var(--weight-medium);
+}
+
 .stack {
   padding: var(--space-6);
   background: var(--bg-subtle);

@@ -18,6 +18,7 @@ export const navItems: NavItem[] = [
   { label: 'Case Study', href: '/#case-study' },
   { label: 'Work', href: '/#work' },
   { label: 'Skills', href: '/#skills' },
+  { label: 'Job Radar', href: '/job-radar' },
   { label: 'Contact', href: '/#contact' },
 ];
 
