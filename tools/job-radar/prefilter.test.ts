@@ -1,6 +1,7 @@
 import { describe, it, expect } from 'vitest';
-import { parseTopUsd, prefilter } from './prefilter';
+import { classifyLocation, parseTopUsd, prefilter } from './prefilter';
 import type { DropReason } from './prefilter';
+import { fitSpec } from './fitSpec';
 import type { Posting, Remote } from './types';
 
 /** Build a Posting with sensible defaults; override only what a case cares about. */
@@ -10,7 +11,7 @@ function makePosting(overrides: Partial<Posting> = {}): Posting {
     source: overrides.source ?? 'greenhouse',
     company: overrides.company ?? 'Acme',
     title: overrides.title ?? 'Senior Software Engineer',
-    location: overrides.location ?? 'Remote',
+    location: overrides.location ?? 'Remote - US',
     remote: overrides.remote ?? true,
     url: overrides.url ?? 'https://example.com/jobs/1',
     descriptionText: overrides.descriptionText ?? 'Build things.',
@@ -83,6 +84,75 @@ describe('prefilter — remote gate', () => {
     ['unknown', ['remote unstated']],
   ])('keeps remote=%s with the right flags', (remote, expectedFlags) => {
     expect(flagsFor(makePosting({ remote, compHint: '$200,000' }))).toEqual(expectedFlags);
+  });
+});
+
+describe('prefilter — US-location gate', () => {
+  it.each([
+    'Remote - USA',
+    'Remote - US',
+    'Remote-US',
+    'Remote - United States',
+    'United States',
+    'New York, NY (HQ)',
+    'San Francisco',
+    'Austin, TX',
+    'Remote (North America)',
+  ])('keeps US / US-remote location %s', (location) => {
+    expect(dropReasonFor(makePosting({ location }))).toBeUndefined();
+  });
+
+  it.each([
+    'Brazil',
+    'Remote - Brazil',
+    'Remote - Bangalore, India',
+    'Bangalore, India',
+    'London, United Kingdom',
+    'Toronto, Canada',
+    'Remote - EMEA',
+  ])('drops clearly non-US location %s', (location) => {
+    expect(dropReasonFor(makePosting({ location }))).toBe('non-us-location');
+  });
+
+  it('lets a US signal win over a co-listed non-US region (Remote - US & Canada)', () => {
+    expect(dropReasonFor(makePosting({ location: 'Remote - US & Canada' }))).toBeUndefined();
+  });
+
+  it('flags — never drops — an unrecognized / bare-remote location', () => {
+    expect(flagsFor(makePosting({ location: 'Remote', compHint: '$200,000' }))).toEqual([
+      'location "Remote" — confirm US eligibility',
+    ]);
+  });
+
+  it('does not read a substring as a US signal (Belarus is not "US")', () => {
+    // "us" is whole-word matched, so it must not fire inside "Belarus" — it reads as ambiguous, not US.
+    expect(classifyLocation('Minsk, Belarus', fitSpec.location)).toBe('ambiguous');
+  });
+});
+
+describe('classifyLocation', () => {
+  const loc = fitSpec.location;
+
+  it.each(['Remote - US', 'United States', 'San Francisco', 'Remote (North America)'])(
+    'reads %s as US',
+    (location) => {
+      expect(classifyLocation(location, loc)).toBe('us');
+    },
+  );
+
+  it.each(['Brazil', 'Bangalore, India', 'London, United Kingdom', 'Remote - EMEA'])(
+    'reads %s as non-us',
+    (location) => {
+      expect(classifyLocation(location, loc)).toBe('non-us');
+    },
+  );
+
+  it.each(['Remote', 'Anywhere', ''])('reads %s as ambiguous', (location) => {
+    expect(classifyLocation(location, loc)).toBe('ambiguous');
+  });
+
+  it('lets a US signal take precedence over a co-listed non-US region', () => {
+    expect(classifyLocation('Remote - US & Canada', loc)).toBe('us');
   });
 });
 

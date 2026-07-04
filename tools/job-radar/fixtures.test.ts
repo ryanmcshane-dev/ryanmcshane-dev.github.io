@@ -2,6 +2,7 @@ import { describe, it, expect } from 'vitest';
 import { greenhouseFixture } from './sources/__fixtures__/greenhouse.fixture';
 import { leverFixture } from './sources/__fixtures__/lever.fixture';
 import { ashbyFixture } from './sources/__fixtures__/ashby.fixture';
+import { adzunaFixture } from './sources/__fixtures__/adzuna.fixture';
 
 /**
  * These assert the fixtures still exercise the raw-payload traits the adapters (Task 2) rely on.
@@ -72,5 +73,26 @@ describe('ashby fixture', () => {
 
   it('includes an unlisted role for the adapter to drop', () => {
     expect(ashbyFixture.jobs.some((j) => j.isListed === false)).toBe(true);
+  });
+});
+
+describe('adzuna fixture', () => {
+  it('carries results with the fields the adapter maps', () => {
+    expect(adzunaFixture.results.length).toBeGreaterThanOrEqual(3);
+    for (const job of adzunaFixture.results) {
+      expect(typeof job.id).toBe('string');
+      expect(job.title).toBeTruthy();
+      expect(job.redirect_url).toMatch(/^https?:\/\//);
+    }
+  });
+
+  it('covers stated vs Adzuna-predicted salary, and a remote / hybrid / on-site spread', () => {
+    expect(adzunaFixture.results.map((j) => j.salary_is_predicted)).toEqual(
+      expect.arrayContaining(['0', '1']),
+    );
+    const text = adzunaFixture.results.map((j) => j.description.toLowerCase()).join(' | ');
+    expect(text).toContain('remote');
+    expect(text).toContain('hybrid');
+    expect(text).toContain('on-site');
   });
 });

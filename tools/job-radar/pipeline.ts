@@ -114,6 +114,7 @@ function countByReason(dropped: Array<{ reason: DropReason }>): Record<DropReaso
     'excluded-title': 0,
     'off-role-family': 0,
     'on-site-only': 0,
+    'non-us-location': 0,
     'below-comp-floor': 0,
   };
   for (const d of dropped) counts[d.reason] += 1;

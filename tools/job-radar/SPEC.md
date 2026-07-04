@@ -47,7 +47,11 @@ search — here's the spec and the code" is the interview-opening artifact.
   nice-to-haves, dealbreakers, weights, comp floor. Values confirmed in §6 (remote-required, $180K floor,
   reputable-only) — the schema and scoring are the engineering; the preferences are personal.
 - **Sources (v1):** public ATS board APIs — Greenhouse, Lever, Ashby — for a configured target-company
-  list, plus (v2) Hacker News "Who is hiring". No scraping, no auth, all JSON.
+  list. Plus an **optional aggregator, Adzuna** (`sources/adzuna.ts`): keyword search across many
+  employers, enabled only when free-tier credentials (`ADZUNA_APP_ID` / `ADZUNA_APP_KEY`) are present,
+  so the no-secrets path is unchanged when they're not. (v2) Hacker News "Who is hiring". No scraping,
+  all JSON. Adzuna widens the funnel but not the curated reputability guarantee, so the pre-filter's
+  gates (esp. US-only location) and Tier-2 judgment carry more weight on its results.
 - **Output is committed to the repo** as JSON and rendered statically. No database, no server.
 
 ## 3. Architecture
@@ -115,9 +119,10 @@ interface ScoredPosting extends Posting { score: FitScore; }
 3. **Pre-filter (deterministic, no LLM)** — `prefilter.ts` applies the fit spec's hard gates in order
    (first failing gate wins the drop reason): `excludeTitles` (too-junior / off-track title, takes
    precedence) → `roleFamily` (title must read as an eng / AI role) → remote (on-site-only dropped;
-   hybrid / unknown kept) → comp floor (a *stated* USD top-of-range below $180K dropped). What we can't
-   read, we don't drop on: **unstated / non-USD comp** and **unknown remote** pass through and are
-   carried as soft `flags` into the rationale. Survivors are `{ posting, flags }`; drops keep a
+   hybrid / unknown kept) → **location** (clearly non-US dropped; a US signal keeps it; an unrecognized
+   location passes + flagged) → comp floor (a *stated* USD top-of-range below $180K dropped). What we
+   can't read, we don't drop on: **unstated / non-USD comp**, **unknown remote**, and an **unrecognized
+   location** pass through and are carried as soft `flags` into the rationale. Survivors are `{ posting, flags }`; drops keep a
    machine-readable reason. Keyword matching is whole-word, case-insensitive (shared `matchesKeyword`).
    Cheap; shrinks the set before scoring.
 4. **Score — Tier 1 (deterministic, free).** `scoreRules.ts` scores each survivor by rule/keyword/weight
@@ -136,6 +141,10 @@ interface ScoredPosting extends Posting { score: FitScore; }
 - **Not remote-friendly.** Role must be remote OR the company clearly open to remote. On-site-only → drop.
   **Hybrid** roles are *not* dropped — they're carried with `remote: 'hybrid'` and scored as a lesser
   fit (Ryan's call: hybrid is less-than-ideal, not a dealbreaker).
+- **US-only location.** Ryan is US-based and only wants US roles. A location that reads as clearly
+  non-US → drop; a US / US-remote signal keeps it (and wins over a co-listed non-US region, so
+  "Remote — US & Canada" stays); an unrecognized location passes but is flagged to confirm US
+  eligibility. `location: { usOnly, usSignals, blockRegions }` in the fit spec.
 - **Comp floor: $180K USD.** If a posting states comp and the top of the range is below $180K → drop.
   If comp isn't stated, don't drop on this gate — pass it through and flag "comp unstated" in the rationale.
 - **Startups / non-reputable.** Prefer established, reputable companies. The target-company list is

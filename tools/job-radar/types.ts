@@ -11,8 +11,11 @@
  * to keep the surface honest.
  */
 
-/** The public ATS board sources supported in v1. */
+/** The public ATS board sources supported in v1 (per-company fan-out). */
 export type AtsSource = 'greenhouse' | 'lever' | 'ashby';
+
+/** Everything a `Posting` can come from: the ATS boards plus query-based aggregators. */
+export type PostingSource = AtsSource | 'adzuna';
 
 /**
  * Remote-eligibility of a posting:
@@ -27,7 +30,7 @@ export type Remote = boolean | 'hybrid' | 'unknown';
 export interface Posting {
   /** Stable id: hash of `source` + the source's external id. */
   id: string;
-  source: AtsSource;
+  source: PostingSource;
   company: string;
   title: string;
   location: string;
@@ -167,4 +170,26 @@ export interface RawAshbyJob {
 export interface RawAshbyResponse {
   jobs: RawAshbyJob[];
   apiVersion?: string;
+}
+
+/** Adzuna: GET api.adzuna.com/v1/api/jobs/{country}/search/{page} — an aggregator, not an ATS. */
+export interface RawAdzunaJob {
+  id: string;
+  title: string;
+  description: string;
+  /** ISO 8601. */
+  created: string;
+  redirect_url: string;
+  company?: { display_name?: string } | null;
+  location?: { display_name?: string; area?: string[] } | null;
+  salary_min?: number | null;
+  salary_max?: number | null;
+  /** Adzuna returns "0"/"1" (string): "1" means the salary is Adzuna's estimate, not from the posting. */
+  salary_is_predicted?: string;
+  contract_time?: string;
+  category?: { label?: string; tag?: string } | null;
+}
+export interface RawAdzunaResponse {
+  results: RawAdzunaJob[];
+  count?: number;
 }

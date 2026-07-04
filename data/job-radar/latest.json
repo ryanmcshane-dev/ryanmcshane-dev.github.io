@@ -1,356 +1,26 @@
 {
-  "generatedAt": "2026-07-03T18:04:22.802Z",
-  "tier": "tier-1",
+  "generatedAt": "2026-07-04T12:26:49.107Z",
+  "tier": "tier-2",
   "counts": {
-    "fetched": 1445,
-    "kept": 503,
-    "dropped": 942,
+    "fetched": 1444,
+    "kept": 375,
+    "dropped": 1069,
     "byVerdict": {
-      "strong": 117,
-      "possible": 264,
-      "weak": 116,
-      "skip": 6
+      "strong": 15,
+      "possible": 14,
+      "weak": 21,
+      "skip": 0
     },
     "droppedByReason": {
       "excluded-title": 564,
-      "off-role-family": 368,
+      "off-role-family": 369,
       "on-site-only": 10,
+      "non-us-location": 126,
       "below-comp-floor": 0
     }
   },
   "errors": [],
   "items": [
-    {
-      "id": "70640bd1",
-      "source": "greenhouse",
-      "company": "Airbnb",
-      "title": "Senior Frontend Engineer, Quality Platform",
-      "location": "Brazil",
-      "remote": true,
-      "url": "https://careers.airbnb.com/positions/8031737?gh_jid=8031737",
-      "descriptionText": "Airbnb was born in 2007 when two hosts welcomed three guests to their San Francisco home, and has since grown to over 5 million hosts who have welcomed over 2 billion guest arrivals in almost every country across the globe. Every day, hosts offer unique stays and experiences that make it possible for guests to connect with communities in a more authentic way.\n\nThe Community You Will Join\n\nThe Quality Platform team is at the heart of Airbnb's mission to deliver a seamless, high-quality experience for millions of hosts and guests. We don't just find bugs - we build the systems that prevent…",
-      "postedAt": "2026-06-26T19:51:54-04:00",
-      "score": {
-        "fit": 93,
-        "verdict": "strong",
-        "rationale": "Senior Frontend Engineer, Quality Platform at Airbnb scores 93/100 (strong) on the Tier-1 deterministic pass. Matched: Senior / staff / lead level; Genuine AI-native engineering; Backend / distributed / event-driven match; Product engineering; Top-choice company. Concerns: comp unstated.",
-        "matched": [
-          "Senior / staff / lead level",
-          "Genuine AI-native engineering",
-          "Backend / distributed / event-driven match",
-          "Product engineering",
-          "Top-choice company"
-        ],
-        "concerns": [
-          "comp unstated"
-        ]
-      }
-    },
-    {
-      "id": "15c5a9d4",
-      "source": "greenhouse",
-      "company": "Airbnb",
-      "title": "Senior Software Engineer, Quality Platform",
-      "location": "Brazil",
-      "remote": true,
-      "url": "https://careers.airbnb.com/positions/7380149?gh_jid=7380149",
-      "descriptionText": "Airbnb was born in 2007 when two hosts welcomed three guests to their San Francisco home, and has since grown to over 5 million hosts who have welcomed over 2 billion guest arrivals in almost every country across the globe. Every day, hosts offer unique stays and experiences that make it possible for guests to connect with communities in a more authentic way.\n\nThe Community You Will Join:\n\nThe Quality Platform team is at the heart of Airbnb’s mission to deliver a seamless, high-quality experience for millions of hosts and guests. We don’t just find bugs — we build the systems that prevent…",
-      "postedAt": "2026-06-25T16:28:40-04:00",
-      "score": {
-        "fit": 93,
-        "verdict": "strong",
-        "rationale": "Senior Software Engineer, Quality Platform at Airbnb scores 93/100 (strong) on the Tier-1 deterministic pass. Matched: Senior / staff / lead level; Genuine AI-native engineering; Backend / distributed / event-driven match; Product engineering; Top-choice company. Concerns: comp unstated.",
-        "matched": [
-          "Senior / staff / lead level",
-          "Genuine AI-native engineering",
-          "Backend / distributed / event-driven match",
-          "Product engineering",
-          "Top-choice company"
-        ],
-        "concerns": [
-          "comp unstated"
-        ]
-      }
-    },
-    {
-      "id": "f3440da6",
-      "source": "greenhouse",
-      "company": "Airbnb",
-      "title": "Senior Automation Engineer, Infrastructure",
-      "location": "Brazil",
-      "remote": true,
-      "url": "https://careers.airbnb.com/positions/7380262?gh_jid=7380262",
-      "descriptionText": "Airbnb was born in 2007 when two hosts welcomed three guests to their San Francisco home, and has since grown to over 5 million hosts who have welcomed over 2 billion guest arrivals in almost every country across the globe. Every day, hosts offer unique stays and experiences that make it possible for guests to connect with communities in a more authentic way.\n\nThe Community You Will Join:\n\nThe Quality Engineering team helps Airbnb build high-quality software efficiently. We enable Airbnb engineers to build highly testable systems by building and using tools leveraging AI. We own and…",
-      "postedAt": "2026-06-09T20:41:20-04:00",
-      "score": {
-        "fit": 93,
-        "verdict": "strong",
-        "rationale": "Senior Automation Engineer, Infrastructure at Airbnb scores 93/100 (strong) on the Tier-1 deterministic pass. Matched: Senior / staff / lead level; Genuine AI-native engineering; Backend / distributed / event-driven match; Product engineering; Top-choice company. Concerns: comp unstated.",
-        "matched": [
-          "Senior / staff / lead level",
-          "Genuine AI-native engineering",
-          "Backend / distributed / event-driven match",
-          "Product engineering",
-          "Top-choice company"
-        ],
-        "concerns": [
-          "comp unstated"
-        ]
-      }
-    },
-    {
-      "id": "d62ff971",
-      "source": "greenhouse",
-      "company": "Airbnb",
-      "title": "Staff Machine Learning Engineer, Listings and Host Tools Data and AI",
-      "location": "Remote-USA",
-      "remote": true,
-      "url": "https://careers.airbnb.com/positions/7454348?gh_jid=7454348",
-      "descriptionText": "Airbnb was born in 2007 when two hosts welcomed three guests to their San Francisco home, and has since grown to over 5 million hosts who have welcomed over 2 billion guest arrivals in almost every country across the globe. Every day, hosts offer unique stays and experiences that make it possible for guests to connect with communities in a more authentic way.\n\nThe Community You Will Join:\n\nListings and Host Tools Data and AI (DnA) team: This team supports host personalization products and provides data driven solutions to achieve superior host experience on Airbnb. These products include but…",
-      "postedAt": "2026-05-20T14:06:35-04:00",
-      "score": {
-        "fit": 93,
-        "verdict": "strong",
-        "rationale": "Staff Machine Learning Engineer, Listings and Host Tools Data and AI at Airbnb scores 93/100 (strong) on the Tier-1 deterministic pass. Matched: Senior / staff / lead level; Genuine AI-native engineering; Backend / distributed / event-driven match; Strong engineering culture; Top-choice company. Concerns: comp unstated.",
-        "matched": [
-          "Senior / staff / lead level",
-          "Genuine AI-native engineering",
-          "Backend / distributed / event-driven match",
-          "Strong engineering culture",
-          "Top-choice company"
-        ],
-        "concerns": [
-          "comp unstated"
-        ]
-      }
-    },
-    {
-      "id": "c6935ebb",
-      "source": "greenhouse",
-      "company": "Block",
-      "title": "Staff Android Software Engineer, Cash App Consumer Platform",
-      "location": "New York, NY, United States of America",
-      "remote": "unknown",
-      "url": "http://block.xyz/careers/jobs/5238423008?gh_jid=5238423008",
-      "descriptionText": "It all started with an idea at Block in 2013. Initially built to take the pain out of peer-to-peer payments, Cash App has gone from a simple product with a single purpose to a dynamic ecosystem, developing unique financial products, including Afterpay/Clearpay, to provide a better way to send, spend, invest, borrow and save to our 50+ million monthly active customers. We want to redefine the world's relationship with money to make it more relatable, instantly available, and universally accessible.\n\nToday, Cash App has thousands of employees working globally across office and remote locations,…",
-      "postedAt": "2026-07-03T11:57:17-04:00",
-      "score": {
-        "fit": 90,
-        "verdict": "strong",
-        "rationale": "Staff Android Software Engineer, Cash App Consumer Platform at Block scores 90/100 (strong) on the Tier-1 deterministic pass. Matched: Senior / staff / lead level; Genuine AI-native engineering; Backend / distributed / event-driven match; Strong engineering culture; Product engineering. Concerns: comp unstated; remote unstated.",
-        "matched": [
-          "Senior / staff / lead level",
-          "Genuine AI-native engineering",
-          "Backend / distributed / event-driven match",
-          "Strong engineering culture",
-          "Product engineering"
-        ],
-        "concerns": [
-          "comp unstated",
-          "remote unstated"
-        ]
-      }
-    },
-    {
-      "id": "c913e7f1",
-      "source": "ashby",
-      "company": "Ramp",
-      "title": "Staff Software Engineer | iOS",
-      "location": "New York, NY (HQ)",
-      "remote": true,
-      "url": "https://jobs.ashbyhq.com/ramp/0ed80a29-6cca-42d7-b7e0-066d4fa7b37f",
-      "descriptionText": "ABOUT RAMP\n\nRamp is building the smart infrastructure for finance teams, embedded in the transaction flow of every dollar a business spends. We automate how over $200B in annualized spend flows in and out of 70,000+ companies: authorizing payments, flagging risk, categorizing spend, and closing books.\n\nThe problems are high-stakes, data-dense, and unforgiving.\n\nWe hire people with high agency and high urgency. We look for slope over intercept. We care less about where you trained and more about what you’ve built. At Ramp, everyone is a builder who owns problems end to end and makes…",
-      "postedAt": "2026-06-26T01:57:53.065+00:00",
-      "compHint": "$189K - $330K",
-      "score": {
-        "fit": 90,
-        "verdict": "strong",
-        "rationale": "Staff Software Engineer | iOS at Ramp scores 90/100 (strong) on the Tier-1 deterministic pass. Matched: Senior / staff / lead level; Genuine AI-native engineering; Backend / distributed / event-driven match; Strong engineering culture; Product engineering.",
-        "matched": [
-          "Senior / staff / lead level",
-          "Genuine AI-native engineering",
-          "Backend / distributed / event-driven match",
-          "Strong engineering culture",
-          "Product engineering"
-        ],
-        "concerns": []
-      }
-    },
-    {
-      "id": "c4ade704",
-      "source": "greenhouse",
-      "company": "Airbnb",
-      "title": "Senior Software Engineer, Dev Tools",
-      "location": "Remote - USA",
-      "remote": true,
-      "url": "https://careers.airbnb.com/positions/8021476?gh_jid=8021476",
-      "descriptionText": "Airbnb was born in 2007 when two hosts welcomed three guests to their San Francisco home, and has since grown to over 5 million hosts who have welcomed over 2 billion guest arrivals in almost every country across the globe. Every day, hosts offer unique stays and experiences that make it possible for guests to connect with communities in a more authentic way.\n\nThe Community You Will Join:\n\nDev Tools’ mission is to help Airbnb engineers and AI agents build, validate, review, and ship high-quality software quickly, reliably, and safely.\n\nAI-assisted development is rapidly increasing the speed,…",
-      "postedAt": "2026-07-02T14:42:34-04:00",
-      "score": {
-        "fit": 88,
-        "verdict": "strong",
-        "rationale": "Senior Software Engineer, Dev Tools at Airbnb scores 88/100 (strong) on the Tier-1 deterministic pass. Matched: Senior / staff / lead level; Genuine AI-native engineering; Backend / distributed / event-driven match; Top-choice company. Concerns: comp unstated.",
-        "matched": [
-          "Senior / staff / lead level",
-          "Genuine AI-native engineering",
-          "Backend / distributed / event-driven match",
-          "Top-choice company"
-        ],
-        "concerns": [
-          "comp unstated"
-        ]
-      }
-    },
-    {
-      "id": "150d3e10",
-      "source": "greenhouse",
-      "company": "Airbnb",
-      "title": "Senior Machine Learning Engineer, Relevance and Personalization",
-      "location": "United States",
-      "remote": true,
-      "url": "https://careers.airbnb.com/positions/7258033?gh_jid=7258033",
-      "descriptionText": "Airbnb was born in 2007 when two hosts welcomed three guests to their San Francisco home, and has since grown to over 5 million hosts who have welcomed over 2 billion guest arrivals in almost every country across the globe. Every day, hosts offer unique stays and experiences that make it possible for guests to connect with communities in a more authentic way.\n\nThe Community You Will Join:\n\nThe Relevance and Personalization team at Airbnb is responsible for search and recommendation across the entire Airbnb digital platform. Be a leader in the team working on critical, impactful projects with…",
-      "postedAt": "2026-07-01T19:35:38-04:00",
-      "score": {
-        "fit": 88,
-        "verdict": "strong",
-        "rationale": "Senior Machine Learning Engineer, Relevance and Personalization at Airbnb scores 88/100 (strong) on the Tier-1 deterministic pass. Matched: Senior / staff / lead level; Genuine AI-native engineering; Backend / distributed / event-driven match; Top-choice company. Concerns: comp unstated.",
-        "matched": [
-          "Senior / staff / lead level",
-          "Genuine AI-native engineering",
-          "Backend / distributed / event-driven match",
-          "Top-choice company"
-        ],
-        "concerns": [
-          "comp unstated"
-        ]
-      }
-    },
-    {
-      "id": "6c0274b4",
-      "source": "greenhouse",
-      "company": "Airbnb",
-      "title": "Software Engineer, BizTech(Python, LLM, GenAI, MCP)",
-      "location": "Bangalore, India",
-      "remote": true,
-      "url": "https://careers.airbnb.com/positions/7902817?gh_jid=7902817",
-      "descriptionText": "Airbnb was born in 2007 when two hosts welcomed three guests to their San Francisco home, and has since grown to over 5 million hosts who have welcomed over 2 billion guest arrivals in almost every country across the globe. Every day, hosts offer unique stays and experiences that make it possible for guests to connect with communities in a more authentic way.\n\nSoftware Engineer, Integrations & Application Engineering\n\nAirbnb | India\n\nCompany Overview\n\nAirbnb was born in 2007 when two hosts welcomed three guests to their San Francisco home, and has since grown to over 5 million hosts who have…",
-      "postedAt": "2026-06-26T12:09:11-04:00",
-      "score": {
-        "fit": 88,
-        "verdict": "strong",
-        "rationale": "Software Engineer, BizTech(Python, LLM, GenAI, MCP) at Airbnb scores 88/100 (strong) on the Tier-1 deterministic pass. Matched: Senior / staff / lead level; Genuine AI-native engineering; Backend / distributed / event-driven match; Top-choice company. Concerns: comp unstated.",
-        "matched": [
-          "Senior / staff / lead level",
-          "Genuine AI-native engineering",
-          "Backend / distributed / event-driven match",
-          "Top-choice company"
-        ],
-        "concerns": [
-          "comp unstated"
-        ]
-      }
-    },
-    {
-      "id": "56981dbe",
-      "source": "greenhouse",
-      "company": "Airbnb",
-      "title": "Senior Software Engineer, (Python, GenAI, MCP)",
-      "location": "Remote - Bangalore, India",
-      "remote": true,
-      "url": "https://careers.airbnb.com/positions/7556182?gh_jid=7556182",
-      "descriptionText": "Airbnb was born in 2007 when two hosts welcomed three guests to their San Francisco home, and has since grown to over 5 million hosts who have welcomed over 2 billion guest arrivals in almost every country across the globe. Every day, hosts offer unique stays and experiences that make it possible for guests to connect with communities in a more authentic way.\n\nSenior Software Engineer, Integrations & Application Engineering\n\nAirbnb | India\n\nCompany Overview\n\nAirbnb was born in 2007 when two hosts welcomed three guests to their San Francisco home, and has since grown to over 5 million hosts…",
-      "postedAt": "2026-06-26T12:07:12-04:00",
-      "score": {
-        "fit": 88,
-        "verdict": "strong",
-        "rationale": "Senior Software Engineer, (Python, GenAI, MCP) at Airbnb scores 88/100 (strong) on the Tier-1 deterministic pass. Matched: Senior / staff / lead level; Genuine AI-native engineering; Backend / distributed / event-driven match; Top-choice company. Concerns: comp unstated.",
-        "matched": [
-          "Senior / staff / lead level",
-          "Genuine AI-native engineering",
-          "Backend / distributed / event-driven match",
-          "Top-choice company"
-        ],
-        "concerns": [
-          "comp unstated"
-        ]
-      }
-    },
-    {
-      "id": "9efc71db",
-      "source": "greenhouse",
-      "company": "Airbnb",
-      "title": "Senior Data Engineer, People Analytics",
-      "location": "United States",
-      "remote": true,
-      "url": "https://careers.airbnb.com/positions/7988010?gh_jid=7988010",
-      "descriptionText": "Airbnb was born in 2007 when two hosts welcomed three guests to their San Francisco home, and has since grown to over 5 million hosts who have welcomed over 2 billion guest arrivals in almost every country across the globe. Every day, hosts offer unique stays and experiences that make it possible for guests to connect with communities in a more authentic way.\n\nThe Community you will join:\n\nPeople Analytics & Research is a strong team of Data Scientists, Researchers, and Analysts. Our work is highly sought-after, and we prioritize work that impacts employees and the business. If you have a…",
-      "postedAt": "2026-06-25T18:27:03-04:00",
-      "score": {
-        "fit": 88,
-        "verdict": "strong",
-        "rationale": "Senior Data Engineer, People Analytics at Airbnb scores 88/100 (strong) on the Tier-1 deterministic pass. Matched: Senior / staff / lead level; Genuine AI-native engineering; Backend / distributed / event-driven match; Top-choice company. Concerns: comp unstated.",
-        "matched": [
-          "Senior / staff / lead level",
-          "Genuine AI-native engineering",
-          "Backend / distributed / event-driven match",
-          "Top-choice company"
-        ],
-        "concerns": [
-          "comp unstated"
-        ]
-      }
-    },
-    {
-      "id": "8cbeca50",
-      "source": "greenhouse",
-      "company": "Airbnb",
-      "title": "Senior Software Engineer, Service Tools",
-      "location": "Brazil",
-      "remote": true,
-      "url": "https://careers.airbnb.com/positions/8024057?gh_jid=8024057",
-      "descriptionText": "Airbnb was born in 2007 when two hosts welcomed three guests to their San Francisco home, and has since grown to over 5 million hosts who have welcomed over 2 billion guest arrivals in almost every country across the globe. Every day, hosts offer unique stays and experiences that make it possible for guests to connect with communities in a more authentic way.\n\nThe Community You Will Join:\n\nAirbnb is a mission-driven company dedicated to helping create a world where anyone can belong anywhere. It takes a unified team committed to our core values to achieve this goal. Airbnb's various functions…",
-      "postedAt": "2026-06-24T07:09:17-04:00",
-      "score": {
-        "fit": 88,
-        "verdict": "strong",
-        "rationale": "Senior Software Engineer, Service Tools at Airbnb scores 88/100 (strong) on the Tier-1 deterministic pass. Matched: Senior / staff / lead level; Genuine AI-native engineering; Backend / distributed / event-driven match; Top-choice company. Concerns: comp unstated.",
-        "matched": [
-          "Senior / staff / lead level",
-          "Genuine AI-native engineering",
-          "Backend / distributed / event-driven match",
-          "Top-choice company"
-        ],
-        "concerns": [
-          "comp unstated"
-        ]
-      }
-    },
-    {
-      "id": "3f02b6ec",
-      "source": "greenhouse",
-      "company": "Airbnb",
-      "title": "Software Engineer, Unified Data Store",
-      "location": "Brazil",
-      "remote": true,
-      "url": "https://careers.airbnb.com/positions/8024426?gh_jid=8024426",
-      "descriptionText": "Airbnb was born in 2007 when two hosts welcomed three guests to their San Francisco home, and has since grown to over 5 million hosts who have welcomed over 2 billion guest arrivals in almost every country across the globe. Every day, hosts offer unique stays and experiences that make it possible for guests to connect with communities in a more authentic way.\n\nThe Community You Will Join:\n\nThe Unified Data Store (UDS) team is on a mission to build a reliable, scalable, and globally distributed system-of-record storage platform for Airbnb. We design, build, and operate the infrastructure that…",
-      "postedAt": "2026-06-23T20:38:15-04:00",
-      "score": {
-        "fit": 88,
-        "verdict": "strong",
-        "rationale": "Software Engineer, Unified Data Store at Airbnb scores 88/100 (strong) on the Tier-1 deterministic pass. Matched: Senior / staff / lead level; Genuine AI-native engineering; Backend / distributed / event-driven match; Top-choice company. Concerns: comp unstated.",
-        "matched": [
-          "Senior / staff / lead level",
-          "Genuine AI-native engineering",
-          "Backend / distributed / event-driven match",
-          "Top-choice company"
-        ],
-        "concerns": [
-          "comp unstated"
-        ]
-      }
-    },
     {
       "id": "3e2de062",
       "source": "greenhouse",
@@ -359,195 +29,20 @@
       "location": "Remote - USA",
       "remote": true,
       "url": "https://careers.airbnb.com/positions/8017277?gh_jid=8017277",
-      "descriptionText": "Airbnb was born in 2007 when two hosts welcomed three guests to their San Francisco home, and has since grown to over 5 million hosts who have welcomed over 2 billion guest arrivals in almost every country across the globe. Every day, hosts offer unique stays and experiences that make it possible for guests to connect with communities in a more authentic way.\n\nThe Community You Will Join:\n\nAirbnb is powered by our Guests & Hosts. Our teams work on everything from driving improvements for the end-to-end Host and Guest experience to launching new product verticals from the ground up. Our job is…",
+      "descriptionText": "Airbnb was born in 2007 when two hosts welcomed three guests to their San Francisco home, and has since grown to over 5 million hosts who have welcomed over 2 billion guest arrivals in almost every country across the globe. Every day, hosts offer unique stays and experiences that make it possible for guests to connect with communities in a more authentic way.\n\nThe Community You Will Join:\n\nAirbnb is powered by our Guests & Hosts. Our teams work on everything from driving improvements for the end",
       "postedAt": "2026-06-23T11:51:19-04:00",
       "score": {
-        "fit": 88,
+        "fit": 90,
         "verdict": "strong",
-        "rationale": "Senior Staff Engineer, Communication & Connectivity at Airbnb scores 88/100 (strong) on the Tier-1 deterministic pass. Matched: Senior / staff / lead level; Genuine AI-native engineering; Backend / distributed / event-driven match; Top-choice company. Concerns: comp unstated.",
+        "rationale": "Senior Staff on Communication & Connectivity — messaging/connectivity backend maps onto Ryan’s event-driven, IBM MQ / streaming experience, remote at his top-choice company.",
         "matched": [
-          "Senior / staff / lead level",
-          "Genuine AI-native engineering",
-          "Backend / distributed / event-driven match",
-          "Top-choice company"
+          "Event-driven / messaging backend (direct match)",
+          "Senior-staff level",
+          "Remote (US)",
+          "Top-choice company (Airbnb)"
         ],
         "concerns": [
-          "comp unstated"
-        ]
-      }
-    },
-    {
-      "id": "458e0086",
-      "source": "greenhouse",
-      "company": "Airbnb",
-      "title": "Staff Software Engineer, Unified Data Store",
-      "location": "Brazil",
-      "remote": true,
-      "url": "https://careers.airbnb.com/positions/7867435?gh_jid=7867435",
-      "descriptionText": "Airbnb was born in 2007 when two hosts welcomed three guests to their San Francisco home, and has since grown to over 5 million hosts who have welcomed over 2 billion guest arrivals in almost every country across the globe. Every day, hosts offer unique stays and experiences that make it possible for guests to connect with communities in a more authentic way.\n\nThe Community You Will Join:\n\nThe Unified Data Store (UDS) team is the architect of Airbnb’s global system-of-record. We design, build, and operate the mission-critical storage platform that powers every user profile, listing,…",
-      "postedAt": "2026-06-16T16:19:54-04:00",
-      "score": {
-        "fit": 88,
-        "verdict": "strong",
-        "rationale": "Staff Software Engineer, Unified Data Store at Airbnb scores 88/100 (strong) on the Tier-1 deterministic pass. Matched: Senior / staff / lead level; Genuine AI-native engineering; Backend / distributed / event-driven match; Top-choice company. Concerns: comp unstated.",
-        "matched": [
-          "Senior / staff / lead level",
-          "Genuine AI-native engineering",
-          "Backend / distributed / event-driven match",
-          "Top-choice company"
-        ],
-        "concerns": [
-          "comp unstated"
-        ]
-      }
-    },
-    {
-      "id": "43cc7a5f",
-      "source": "greenhouse",
-      "company": "Airbnb",
-      "title": "Senior Staff Data Engineer - Data Stewardship",
-      "location": "United States",
-      "remote": true,
-      "url": "https://careers.airbnb.com/positions/7998356?gh_jid=7998356",
-      "descriptionText": "Airbnb was born in 2007 when two hosts welcomed three guests to their San Francisco home, and has since grown to over 5 million hosts who have welcomed over 2 billion guest arrivals in almost every country across the globe. Every day, hosts offer unique stays and experiences that make it possible for guests to connect with communities in a more authentic way.\n\nThe Community You Will Join:\n\nThe Data Stewardship team is a group of passionate data practitioners with a diverse background in analytics, data modeling, governance, compliance, and scaled data quality. We are responsible for ensuring…",
-      "postedAt": "2026-06-10T19:39:45-04:00",
-      "score": {
-        "fit": 88,
-        "verdict": "strong",
-        "rationale": "Senior Staff Data Engineer - Data Stewardship at Airbnb scores 88/100 (strong) on the Tier-1 deterministic pass. Matched: Senior / staff / lead level; Genuine AI-native engineering; Backend / distributed / event-driven match; Top-choice company. Concerns: comp unstated.",
-        "matched": [
-          "Senior / staff / lead level",
-          "Genuine AI-native engineering",
-          "Backend / distributed / event-driven match",
-          "Top-choice company"
-        ],
-        "concerns": [
-          "comp unstated"
-        ]
-      }
-    },
-    {
-      "id": "ab100bdf",
-      "source": "greenhouse",
-      "company": "Airbnb",
-      "title": "Staff Software Engineer, Build (Bazel)",
-      "location": "Remote - USA",
-      "remote": true,
-      "url": "https://careers.airbnb.com/positions/7739337?gh_jid=7739337",
-      "descriptionText": "Airbnb was born in 2007 when two hosts welcomed three guests to their San Francisco home, and has since grown to over 5 million hosts who have welcomed over 2 billion guest arrivals in almost every country across the globe. Every day, hosts offer unique stays and experiences that make it possible for guests to connect with communities in a more authentic way.\n\nThe Community You Will Join:\n\nThe Developer Infrastructure organization’s mission is to enable Airbnb engineers and AI Coding Agents to ship high quality software with confidence and speed. We work on infrastructure that accelerates…",
-      "postedAt": "2026-06-09T13:27:10-04:00",
-      "score": {
-        "fit": 88,
-        "verdict": "strong",
-        "rationale": "Staff Software Engineer, Build (Bazel) at Airbnb scores 88/100 (strong) on the Tier-1 deterministic pass. Matched: Senior / staff / lead level; Genuine AI-native engineering; Backend / distributed / event-driven match; Top-choice company. Concerns: comp unstated.",
-        "matched": [
-          "Senior / staff / lead level",
-          "Genuine AI-native engineering",
-          "Backend / distributed / event-driven match",
-          "Top-choice company"
-        ],
-        "concerns": [
-          "comp unstated"
-        ]
-      }
-    },
-    {
-      "id": "34bb805d",
-      "source": "greenhouse",
-      "company": "Airbnb",
-      "title": "Staff Software Engineer, Marketplaces & Intelligence Data and AI",
-      "location": "United States",
-      "remote": true,
-      "url": "https://careers.airbnb.com/positions/7528577?gh_jid=7528577",
-      "descriptionText": "Airbnb was born in 2007 when two hosts welcomed three guests to their San Francisco home, and has since grown to over 5 million hosts who have welcomed over 2 billion guest arrivals in almost every country across the globe. Every day, hosts offer unique stays and experiences that make it possible for guests to connect with communities in a more authentic way.\n\nThe Community You Will Join:\nWe are currently hiring for multiple teams:\n\nAirbnb is powered by our Host and Guest communities. Our teams work on everything from driving improvements for the end-to-end Host and Guest experience to…",
-      "postedAt": "2026-06-03T21:32:33-04:00",
-      "score": {
-        "fit": 88,
-        "verdict": "strong",
-        "rationale": "Staff Software Engineer, Marketplaces & Intelligence Data and AI at Airbnb scores 88/100 (strong) on the Tier-1 deterministic pass. Matched: Senior / staff / lead level; Genuine AI-native engineering; Backend / distributed / event-driven match; Top-choice company. Concerns: comp unstated.",
-        "matched": [
-          "Senior / staff / lead level",
-          "Genuine AI-native engineering",
-          "Backend / distributed / event-driven match",
-          "Top-choice company"
-        ],
-        "concerns": [
-          "comp unstated"
-        ]
-      }
-    },
-    {
-      "id": "b00e602d",
-      "source": "greenhouse",
-      "company": "Airbnb",
-      "title": "Principal AI/ML Researcher / Engineer In Reasoning, Planning, and Decision-making systems",
-      "location": "United States",
-      "remote": true,
-      "url": "https://careers.airbnb.com/positions/7955573?gh_jid=7955573",
-      "descriptionText": "Airbnb was born in 2007 when two hosts welcomed three guests to their San Francisco home, and has since grown to over 5 million hosts who have welcomed over 2 billion guest arrivals in almost every country across the globe. Every day, hosts offer unique stays and experiences that make it possible for guests to connect with communities in a more authentic way.\n\nAbout the Role\n\nWe are seeking a Principal / Distinguished AI/ML Researcher and/or Engineer with deep experience in reasoning, planning, and decision-making systems. This role is ideal for individuals who have architected post-training…",
-      "postedAt": "2026-06-03T15:51:49-04:00",
-      "score": {
-        "fit": 88,
-        "verdict": "strong",
-        "rationale": "Principal AI/ML Researcher / Engineer In Reasoning, Planning, and Decision-making systems at Airbnb scores 88/100 (strong) on the Tier-1 deterministic pass. Matched: Senior / staff / lead level; Genuine AI-native engineering; Backend / distributed / event-driven match; Top-choice company. Concerns: comp unstated.",
-        "matched": [
-          "Senior / staff / lead level",
-          "Genuine AI-native engineering",
-          "Backend / distributed / event-driven match",
-          "Top-choice company"
-        ],
-        "concerns": [
-          "comp unstated"
-        ]
-      }
-    },
-    {
-      "id": "8cfd14eb",
-      "source": "greenhouse",
-      "company": "Airbnb",
-      "title": "Senior iOS Engineer, Global Markets",
-      "location": "China",
-      "remote": true,
-      "url": "https://careers.airbnb.com/positions/7817040?gh_jid=7817040",
-      "descriptionText": "Airbnb was born in 2007 when two hosts welcomed three guests to their San Francisco home, and has since grown to over 5 million hosts who have welcomed over 2 billion guest arrivals in almost every country across the globe. Every day, hosts offer unique stays and experiences that make it possible for guests to connect with communities in a more authentic way.\n\nNOTE: NO VISA SUPPORT\n\nThe Community You Will Join:\n\nThe Global Markets engineering team is focusing on evolving our guest and host experience for global markets through new product initiatives to accelerate international growth.…",
-      "postedAt": "2026-06-01T00:03:14-04:00",
-      "score": {
-        "fit": 88,
-        "verdict": "strong",
-        "rationale": "Senior iOS Engineer, Global Markets at Airbnb scores 88/100 (strong) on the Tier-1 deterministic pass. Matched: Senior / staff / lead level; Genuine AI-native engineering; Backend / distributed / event-driven match; Top-choice company. Concerns: comp unstated.",
-        "matched": [
-          "Senior / staff / lead level",
-          "Genuine AI-native engineering",
-          "Backend / distributed / event-driven match",
-          "Top-choice company"
-        ],
-        "concerns": [
-          "comp unstated"
-        ]
-      }
-    },
-    {
-      "id": "17ed3271",
-      "source": "greenhouse",
-      "company": "Airbnb",
-      "title": "Senior Staff Software Engineer, Trust",
-      "location": "Remote - US",
-      "remote": true,
-      "url": "https://careers.airbnb.com/positions/7818982?gh_jid=7818982",
-      "descriptionText": "Airbnb was born in 2007 when two hosts welcomed three guests to their San Francisco home, and has since grown to over 5 million hosts who have welcomed over 2 billion guest arrivals in almost every country across the globe. Every day, hosts offer unique stays and experiences that make it possible for guests to connect with communities in a more authentic way.\n\nThe Community You Will Join:\n\nEveryone at Airbnb thinks about trust, but our team obsesses over it daily. At the core of trust is safety, and thus we spend a significant amount of our time and energy keeping the community safe. The…",
-      "postedAt": "2026-04-21T18:51:28-04:00",
-      "score": {
-        "fit": 88,
-        "verdict": "strong",
-        "rationale": "Senior Staff Software Engineer, Trust at Airbnb scores 88/100 (strong) on the Tier-1 deterministic pass. Matched: Senior / staff / lead level; Genuine AI-native engineering; Backend / distributed / event-driven match; Top-choice company. Concerns: comp unstated.",
-        "matched": [
-          "Senior / staff / lead level",
-          "Genuine AI-native engineering",
-          "Backend / distributed / event-driven match",
-          "Top-choice company"
-        ],
-        "concerns": [
-          "comp unstated"
+          "Comp not disclosed"
         ]
       }
     },
@@ -559,196 +54,72 @@
       "location": "Remote-US",
       "remote": true,
       "url": "https://careers.airbnb.com/positions/7826679?gh_jid=7826679",
-      "descriptionText": "Airbnb was born in 2007 when two hosts welcomed three guests to their San Francisco home, and has since grown to over 5 million hosts who have welcomed over 2 billion guest arrivals in almost every country across the globe. Every day, hosts offer unique stays and experiences that make it possible for guests to connect with communities in a more authentic way.\n\nAirbnb's infrastructure is scaling fast in the AI era: more compute, more GPU spend, more complexity across the stack. The Infrastructure Performance team exists to make sure that growth doesn't come at the cost of speed, reliability,…",
+      "descriptionText": "Airbnb was born in 2007 when two hosts welcomed three guests to their San Francisco home, and has since grown to over 5 million hosts who have welcomed over 2 billion guest arrivals in almost every country across the globe. Every day, hosts offer unique stays and experiences that make it possible for guests to connect with communities in a more authentic way.\n\nAirbnb's infrastructure is scaling fast in the AI era: more compute, more GPU spend, more complexity across the stack. The Infrastructure",
       "postedAt": "2026-04-17T17:11:47-04:00",
       "score": {
-        "fit": 88,
+        "fit": 86,
         "verdict": "strong",
-        "rationale": "Principal Software Engineer, Performance at Airbnb scores 88/100 (strong) on the Tier-1 deterministic pass. Matched: Senior / staff / lead level; Genuine AI-native engineering; Backend / distributed / event-driven match; Top-choice company. Concerns: comp unstated.",
+        "rationale": "Principal Software Engineer, Performance — deep backend performance ownership at the most senior IC level, remote at his top-choice company.",
         "matched": [
-          "Senior / staff / lead level",
-          "Genuine AI-native engineering",
-          "Backend / distributed / event-driven match",
-          "Top-choice company"
+          "Backend performance",
+          "Principal level",
+          "Remote (US)",
+          "Top-choice company (Airbnb)"
         ],
         "concerns": [
-          "comp unstated"
+          "Principal bar is high",
+          "Comp not disclosed"
         ]
       }
     },
     {
-      "id": "ff10631b",
-      "source": "greenhouse",
-      "company": "Airbnb",
-      "title": "Senior Staff Operations Engineer, AIOps",
-      "location": "Remote - United States",
-      "remote": true,
-      "url": "https://careers.airbnb.com/positions/7644921?gh_jid=7644921",
-      "descriptionText": "Airbnb was born in 2007 when two hosts welcomed three guests to their San Francisco home, and has since grown to over 5 million hosts who have welcomed over 2 billion guest arrivals in almost every country across the globe. Every day, hosts offer unique stays and experiences that make it possible for guests to connect with communities in a more authentic way.\n\nThe Community You Will Join:\n\nBizTech fosters culture and connection at Airbnb by providing reliable corporate tools, innovative products, and technical support for all teams. We drive technical breakthroughs and strategies that…",
-      "postedAt": "2026-03-04T13:54:26-05:00",
-      "score": {
-        "fit": 88,
-        "verdict": "strong",
-        "rationale": "Senior Staff Operations Engineer, AIOps at Airbnb scores 88/100 (strong) on the Tier-1 deterministic pass. Matched: Senior / staff / lead level; Genuine AI-native engineering; Backend / distributed / event-driven match; Top-choice company. Concerns: comp unstated.",
-        "matched": [
-          "Senior / staff / lead level",
-          "Genuine AI-native engineering",
-          "Backend / distributed / event-driven match",
-          "Top-choice company"
-        ],
-        "concerns": [
-          "comp unstated"
-        ]
-      }
-    },
-    {
-      "id": "b69d1b13",
-      "source": "greenhouse",
-      "company": "Airbnb",
-      "title": "Senior Staff Data Engineer, Marketplaces DNA",
-      "location": "United States",
-      "remote": true,
-      "url": "https://careers.airbnb.com/positions/7463663?gh_jid=7463663",
-      "descriptionText": "Airbnb was born in 2007 when two hosts welcomed three guests to their San Francisco home, and has since grown to over 5 million hosts who have welcomed over 2 billion guest arrivals in almost every country across the globe. Every day, hosts offer unique stays and experiences that make it possible for guests to connect with communities in a more authentic way.\n\nThe Community You Will Join:\n\nMarketplaces Data and AI is a group of passionate machine learning, software, data, and analytics engineers. We are responsible for developing new, cutting-edge AI and data products that leverage Airbnb’s…",
-      "postedAt": "2026-01-26T11:47:44-05:00",
-      "score": {
-        "fit": 88,
-        "verdict": "strong",
-        "rationale": "Senior Staff Data Engineer, Marketplaces DNA at Airbnb scores 88/100 (strong) on the Tier-1 deterministic pass. Matched: Senior / staff / lead level; Genuine AI-native engineering; Backend / distributed / event-driven match; Top-choice company. Concerns: comp unstated.",
-        "matched": [
-          "Senior / staff / lead level",
-          "Genuine AI-native engineering",
-          "Backend / distributed / event-driven match",
-          "Top-choice company"
-        ],
-        "concerns": [
-          "comp unstated"
-        ]
-      }
-    },
-    {
-      "id": "d41f5c29",
-      "source": "greenhouse",
-      "company": "Block",
-      "title": "Senior Software Engineer, Square Financial Services",
-      "location": "Bay Area, CA, United States of America",
-      "remote": "unknown",
-      "url": "http://block.xyz/careers/jobs/5284343008?gh_jid=5284343008",
-      "descriptionText": "Block is one company built from many blocks, all united by the same purpose of economic empowerment. The blocks that form our foundational teams — People, Finance, Counsel, Hardware, Information Security, Platform Infrastructure Engineering, and more — provide support and guidance at the corporate level. They work across business groups and around the globe, spanning time zones and disciplines to develop inclusive People policies, forecast finances, give legal counsel, safeguard systems, nurture new initiatives, and more. Every challenge creates possibilities, and we need different…",
-      "postedAt": "2026-07-03T11:57:17-04:00",
-      "score": {
-        "fit": 85,
-        "verdict": "strong",
-        "rationale": "Senior Software Engineer, Square Financial Services at Block scores 85/100 (strong) on the Tier-1 deterministic pass. Matched: Senior / staff / lead level; Genuine AI-native engineering; Backend / distributed / event-driven match; Strong engineering culture. Concerns: comp unstated; remote unstated.",
-        "matched": [
-          "Senior / staff / lead level",
-          "Genuine AI-native engineering",
-          "Backend / distributed / event-driven match",
-          "Strong engineering culture"
-        ],
-        "concerns": [
-          "comp unstated",
-          "remote unstated"
-        ]
-      }
-    },
-    {
-      "id": "70b090a4",
-      "source": "greenhouse",
-      "company": "Block",
-      "title": "Software Engineer, Cash App - Lending Products",
-      "location": "Bay Area, CA, United States of America",
-      "remote": "unknown",
-      "url": "http://block.xyz/careers/jobs/5196173008?gh_jid=5196173008",
-      "descriptionText": "It all started with an idea at Block in 2013. Initially built to take the pain out of peer-to-peer payments, Cash App has gone from a simple product with a single purpose to a dynamic ecosystem, developing unique financial products, including Afterpay/Clearpay, to provide a better way to send, spend, invest, borrow and save to our 50+ million monthly active customers. We want to redefine the world's relationship with money to make it more relatable, instantly available, and universally accessible.\n\nToday, Cash App has thousands of employees working globally across office and remote locations,…",
-      "postedAt": "2026-07-03T11:57:17-04:00",
-      "score": {
-        "fit": 85,
-        "verdict": "strong",
-        "rationale": "Software Engineer, Cash App - Lending Products at Block scores 85/100 (strong) on the Tier-1 deterministic pass. Matched: Senior / staff / lead level; Genuine AI-native engineering; Backend / distributed / event-driven match; Strong engineering culture. Concerns: comp unstated; remote unstated.",
-        "matched": [
-          "Senior / staff / lead level",
-          "Genuine AI-native engineering",
-          "Backend / distributed / event-driven match",
-          "Strong engineering culture"
-        ],
-        "concerns": [
-          "comp unstated",
-          "remote unstated"
-        ]
-      }
-    },
-    {
-      "id": "a4a523d6",
+      "id": "92f3ecea",
       "source": "ashby",
       "company": "OpenAI",
-      "title": "Solutions Architect, Digital Natives",
+      "title": "Senior Staff Software Engineer, Identity Infrastructure Engineering",
       "location": "San Francisco",
       "remote": true,
-      "url": "https://jobs.ashbyhq.com/openai/e827d138-22de-49f0-9de5-60f3e3ce07a0",
-      "descriptionText": "Solutions Architect, Digital Natives (OpenAI OpCo, LLC; San Francisco, CA):\n\nServe as the primary technical subject matter expert post-sale for a portfolio of customers, embedding deeply with them to design and deploy GenAI solutions. Engage with senior business and technical stakeholders to identify, prioritize, and validate the highest-value GenAI applications in their roadmap. Accelerate customer time to value by providing architectural guidance, building hands-on prototypes, and advising on best practices for scaling solutions in production. Maintain strong relationships with leadership…",
-      "postedAt": "2026-06-29T19:24:55.736+00:00",
-      "compHint": "$175K - $240K",
+      "url": "https://jobs.ashbyhq.com/openai/72a58872-70e2-4340-a259-e9bea3596883",
+      "descriptionText": "About the Team\n\nSecurity is at the foundation of OpenAI’s mission to ensure that artificial general intelligence benefits all of humanity. The Identity Infrastructure Engineering team sits at the core of this effort, designing and building the identity and access management solutions that protect our model weights, customer data, and critical systems across multiple cloud environments. We partner with teams across OpenAI—Applied Engineering, Research, IT, and Security—to provide a secure and sca",
+      "postedAt": "2026-06-02T21:01:11.222+00:00",
+      "compHint": "$347.7K - $385K",
       "score": {
-        "fit": 85,
+        "fit": 86,
         "verdict": "strong",
-        "rationale": "Solutions Architect, Digital Natives at OpenAI scores 85/100 (strong) on the Tier-1 deterministic pass. Matched: Senior / staff / lead level; Genuine AI-native engineering; Backend / distributed / event-driven match; Strong engineering culture.",
+        "rationale": "Senior Staff on Identity Infrastructure — backend infrastructure at senior-staff level, remote, with comp from $347K at a frontier AI company. A rare, strong combination.",
         "matched": [
-          "Senior / staff / lead level",
-          "Genuine AI-native engineering",
-          "Backend / distributed / event-driven match",
-          "Strong engineering culture"
-        ],
-        "concerns": []
-      }
-    },
-    {
-      "id": "5c88f28d",
-      "source": "ashby",
-      "company": "Ramp",
-      "title": "Software Engineer, Developer API",
-      "location": "New York, NY (HQ)",
-      "remote": true,
-      "url": "https://jobs.ashbyhq.com/ramp/42527ca9-03b9-499e-a5c4-18e4245af138",
-      "descriptionText": "ABOUT RAMP\n\nRamp is building the smart infrastructure for finance teams, embedded in the transaction flow of every dollar a business spends. We automate how over $200B in annualized spend flows in and out of 70,000+ companies: authorizing payments, flagging risk, categorizing spend, and closing books.\n\nThe problems are high-stakes, data-dense, and unforgiving.\n\nWe hire people with high agency and high urgency. We look for slope over intercept. We care less about where you trained and more about what you’ve built. At Ramp, everyone is a builder who owns problems end to end and makes…",
-      "postedAt": "2026-06-29T17:10:36.236+00:00",
-      "compHint": "$168K - $330K",
-      "score": {
-        "fit": 85,
-        "verdict": "strong",
-        "rationale": "Software Engineer, Developer API at Ramp scores 85/100 (strong) on the Tier-1 deterministic pass. Matched: Senior / staff / lead level; Genuine AI-native engineering; Backend / distributed / event-driven match; Strong engineering culture.",
-        "matched": [
-          "Senior / staff / lead level",
-          "Genuine AI-native engineering",
-          "Backend / distributed / event-driven match",
-          "Strong engineering culture"
-        ],
-        "concerns": []
-      }
-    },
-    {
-      "id": "ce82c46a",
-      "source": "ashby",
-      "company": "OpenAI",
-      "title": "AI Systems Engineer, Codex Agents",
-      "location": "San Francisco",
-      "remote": "unknown",
-      "url": "https://jobs.ashbyhq.com/openai/de06790a-7243-4e33-a6f1-e7bd34009588",
-      "descriptionText": "AI Systems Engineer - Codex Core Agents\n\nAbout The Team\nThe Codex Core Agents team builds the agent harness that turns model capability into real-world action. We own the systems around the model: prompting and interpreting model outputs, executing actions safely in real environments, and feeding production experience back into better models and better agent behavior.\nThis team sits close to research and works across the stack: harness, model interaction, inference, sandboxed execution, orchestration, evals, production reliability, and the performance envelope around tokens, latency, cost,…",
-      "postedAt": "2026-05-15T00:10:14.175+00:00",
-      "compHint": "$230K - $385K",
-      "score": {
-        "fit": 85,
-        "verdict": "strong",
-        "rationale": "AI Systems Engineer, Codex Agents at OpenAI scores 85/100 (strong) on the Tier-1 deterministic pass. Matched: Senior / staff / lead level; Genuine AI-native engineering; Backend / distributed / event-driven match; Strong engineering culture. Concerns: remote unstated.",
-        "matched": [
-          "Senior / staff / lead level",
-          "Genuine AI-native engineering",
-          "Backend / distributed / event-driven match",
-          "Strong engineering culture"
+          "Backend / identity infrastructure",
+          "Senior-staff level",
+          "Remote",
+          "Comp well above the floor"
         ],
         "concerns": [
-          "remote unstated"
+          "Frontier-lab intensity"
+        ]
+      }
+    },
+    {
+      "id": "ab100bdf",
+      "source": "greenhouse",
+      "company": "Airbnb",
+      "title": "Staff Software Engineer, Build (Bazel)",
+      "location": "Remote - USA",
+      "remote": true,
+      "url": "https://careers.airbnb.com/positions/7739337?gh_jid=7739337",
+      "descriptionText": "Airbnb was born in 2007 when two hosts welcomed three guests to their San Francisco home, and has since grown to over 5 million hosts who have welcomed over 2 billion guest arrivals in almost every country across the globe. Every day, hosts offer unique stays and experiences that make it possible for guests to connect with communities in a more authentic way.\n\nThe Community You Will Join:\n\nThe Developer Infrastructure organization’s mission is to enable Airbnb engineers and AI Coding Agents to s",
+      "postedAt": "2026-06-09T13:27:10-04:00",
+      "score": {
+        "fit": 86,
+        "verdict": "strong",
+        "rationale": "Staff engineer on Build (Bazel) — build and developer-infrastructure work echoing Ryan’s CI/test-platform modernization, remote at his top-choice company.",
+        "matched": [
+          "Build / dev infrastructure (Ryan’s strength)",
+          "Staff level",
+          "Remote (US)",
+          "Top-choice company (Airbnb)"
+        ],
+        "concerns": [
+          "Comp not disclosed"
         ]
       }
     },
@@ -760,170 +131,97 @@
       "location": "New York, NY (HQ)",
       "remote": true,
       "url": "https://jobs.ashbyhq.com/ramp/428f41e2-48e8-409d-b5e3-8053f7fc7a27",
-      "descriptionText": "ABOUT RAMP\n\nRamp is building the smart infrastructure for finance teams, embedded in the transaction flow of every dollar a business spends. We automate how over $200B in annualized spend flows in and out of 70,000+ companies: authorizing payments, flagging risk, categorizing spend, and closing books.\n\nThe problems are high-stakes, data-dense, and unforgiving.\n\nWe hire people with high agency and high urgency. We look for slope over intercept. We care less about where you trained and more about what you’ve built. At Ramp, everyone is a builder who owns problems end to end and makes…",
+      "descriptionText": "ABOUT RAMP\n\nRamp is building the smart infrastructure for finance teams, embedded in the transaction flow of every dollar a business spends. We automate how over $200B in annualized spend flows in and out of 70,000+ companies: authorizing payments, flagging risk, categorizing spend, and closing books.\n\nThe problems are high-stakes, data-dense, and unforgiving.\n\nWe hire people with high agency and high urgency. We look for slope over intercept. We care less about where you trained and more about ",
       "postedAt": "2026-05-13T23:29:57.643+00:00",
       "compHint": "$200K - $310K",
       "score": {
         "fit": 85,
         "verdict": "strong",
-        "rationale": "Senior Software Engineer | GTM Platform, Backend at Ramp scores 85/100 (strong) on the Tier-1 deterministic pass. Matched: Senior / staff / lead level; Genuine AI-native engineering; Backend / distributed / event-driven match; Product engineering.",
+        "rationale": "Senior backend on Ramp’s GTM Platform — backend platform engineering at an AI-forward fintech, fully remote with comp from $200K.",
         "matched": [
-          "Senior / staff / lead level",
-          "Genuine AI-native engineering",
-          "Backend / distributed / event-driven match",
-          "Product engineering"
-        ],
-        "concerns": []
-      }
-    },
-    {
-      "id": "b9c917b6",
-      "source": "ashby",
-      "company": "Ramp",
-      "title": "Security Engineer, Cloud",
-      "location": "New York, NY (HQ)",
-      "remote": true,
-      "url": "https://jobs.ashbyhq.com/ramp/34413f8d-26bf-4bbc-8ade-eb309a0e2245",
-      "descriptionText": "ABOUT RAMP\n\nRamp is building the smart infrastructure for finance teams, embedded in the transaction flow of every dollar a business spends. We automate how over $200B in annualized spend flows in and out of 70,000+ companies: authorizing payments, flagging risk, categorizing spend, and closing books.\n\nThe problems are high-stakes, data-dense, and unforgiving.\n\nWe hire people with high agency and high urgency. We look for slope over intercept. We care less about where you trained and more about what you’ve built. At Ramp, everyone is a builder who owns problems end to end and makes…",
-      "postedAt": "2026-04-07T17:12:35.753+00:00",
-      "compHint": "$211.4K - $290.6K",
-      "score": {
-        "fit": 85,
-        "verdict": "strong",
-        "rationale": "Security Engineer, Cloud at Ramp scores 85/100 (strong) on the Tier-1 deterministic pass. Matched: Senior / staff / lead level; Genuine AI-native engineering; Backend / distributed / event-driven match; Strong engineering culture.",
-        "matched": [
-          "Senior / staff / lead level",
-          "Genuine AI-native engineering",
-          "Backend / distributed / event-driven match",
-          "Strong engineering culture"
-        ],
-        "concerns": []
-      }
-    },
-    {
-      "id": "1ac030a7",
-      "source": "ashby",
-      "company": "OpenAI",
-      "title": "Software Engineer, Localization",
-      "location": "San Francisco",
-      "remote": "unknown",
-      "url": "https://jobs.ashbyhq.com/openai/deff9215-217d-4392-825e-7788cb8205f3",
-      "descriptionText": "ABOUT THE TEAM\n\nOpenAI’s mission is to ensure that artificial general intelligence benefits all of humanity. A majority of our users interact with our products in languages other than English, and our products must work seamlessly across languages, regions, and cultures.\n\nThe Internationalization team builds the infrastructure that enables OpenAI products to ship globally by default. We develop the systems that power localization, international product launches, and high-quality global user experiences across all OpenAI products.\n\nABOUT THE ROLE\n\nAs a Senior Software Engineer on the…",
-      "postedAt": "2026-03-18T21:25:49.295+00:00",
-      "compHint": "$185K - $300K",
-      "score": {
-        "fit": 85,
-        "verdict": "strong",
-        "rationale": "Software Engineer, Localization at OpenAI scores 85/100 (strong) on the Tier-1 deterministic pass. Matched: Senior / staff / lead level; Genuine AI-native engineering; Backend / distributed / event-driven match; Strong engineering culture. Concerns: remote unstated.",
-        "matched": [
-          "Senior / staff / lead level",
-          "Genuine AI-native engineering",
-          "Backend / distributed / event-driven match",
-          "Strong engineering culture"
+          "Backend platform",
+          "Remote",
+          "Fintech",
+          "Comp clears the floor"
         ],
         "concerns": [
-          "remote unstated"
+          "GTM-platform domain is adjacent"
         ]
       }
     },
     {
-      "id": "3fe5ed8a",
-      "source": "ashby",
-      "company": "Linear",
-      "title": "Senior / Staff Product Engineer",
-      "location": "North America",
-      "remote": true,
-      "url": "https://jobs.ashbyhq.com/linear/12f8f208-0b9c-4569-bb3d-41c8a197029e",
-      "descriptionText": "At Linear, we're building the product development system for teams and agents. AI is fundamentally changing how software gets built, and we’re shaping the tools this new era requires.\n\nFounded in 2019, Linear has become the platform of choice for more than 30,000 companies (including OpenAI, Coinbase, and Ramp) to plan, build, and ship their products. Today, our team is distributed across North America, Europe, and Australia, and we’re continuing to grow internationally. What unites us is relentless focus, fast execution, and a deep care for software craftsmanship.\n\nAs a small team, we’re all…",
-      "postedAt": "2026-03-04T02:08:44.483+00:00",
-      "score": {
-        "fit": 85,
-        "verdict": "strong",
-        "rationale": "Senior / Staff Product Engineer at Linear scores 85/100 (strong) on the Tier-1 deterministic pass. Matched: Senior / staff / lead level; Genuine AI-native engineering; Backend / distributed / event-driven match; Product engineering. Concerns: comp unstated.",
-        "matched": [
-          "Senior / staff / lead level",
-          "Genuine AI-native engineering",
-          "Backend / distributed / event-driven match",
-          "Product engineering"
-        ],
-        "concerns": [
-          "comp unstated"
-        ]
-      }
-    },
-    {
-      "id": "88c89abb",
-      "source": "ashby",
-      "company": "Ramp",
-      "title": "Security Engineer, Product",
-      "location": "New York, NY (HQ)",
-      "remote": true,
-      "url": "https://jobs.ashbyhq.com/ramp/7c26780b-7923-42d5-8111-9825ff996966",
-      "descriptionText": "ABOUT RAMP\n\nRamp is building the smart infrastructure for finance teams, embedded in the transaction flow of every dollar a business spends. We automate how over $200B in annualized spend flows in and out of 70,000+ companies: authorizing payments, flagging risk, categorizing spend, and closing books.\n\nThe problems are high-stakes, data-dense, and unforgiving.\n\nWe hire people with high agency and high urgency. We look for slope over intercept. We care less about where you trained and more about what you’ve built. At Ramp, everyone is a builder who owns problems end to end and makes…",
-      "postedAt": "2026-01-20T21:47:15.308+00:00",
-      "compHint": "$257,800 - $354,550",
-      "score": {
-        "fit": 85,
-        "verdict": "strong",
-        "rationale": "Security Engineer, Product at Ramp scores 85/100 (strong) on the Tier-1 deterministic pass. Matched: Senior / staff / lead level; Genuine AI-native engineering; Backend / distributed / event-driven match; Strong engineering culture.",
-        "matched": [
-          "Senior / staff / lead level",
-          "Genuine AI-native engineering",
-          "Backend / distributed / event-driven match",
-          "Strong engineering culture"
-        ],
-        "concerns": []
-      }
-    },
-    {
-      "id": "3eac4a26",
+      "id": "ce82c46a",
       "source": "ashby",
       "company": "OpenAI",
-      "title": "iOS Engineer, Applied Foundations",
+      "title": "AI Systems Engineer, Codex Agents",
       "location": "San Francisco",
       "remote": "unknown",
-      "url": "https://jobs.ashbyhq.com/openai/775240dd-6d36-401a-acca-128df0459610",
-      "descriptionText": "About the Team\n\nOpenAI’s Applications Engineering organization builds and operates the products that bring our cutting-edge research to millions of users and developers worldwide. The Applied Foundations team owns the core product and platform layers that make those experiences possible — from identity & access, to safety to payments & commerce across all of our apps. Our teams span product engineering, infrastructure, and safety, working together to deliver technology that is reliable, secure, and trusted at global scale.\n\nAbout the Role\n\nYou will be a Senior iOS engineer on OpenAI’s Applied…",
-      "postedAt": "2026-01-20T21:19:01.490+00:00",
+      "url": "https://jobs.ashbyhq.com/openai/de06790a-7243-4e33-a6f1-e7bd34009588",
+      "descriptionText": "AI Systems Engineer - Codex Core Agents\n\nAbout The Team\nThe Codex Core Agents team builds the agent harness that turns model capability into real-world action. We own the systems around the model: prompting and interpreting model outputs, executing actions safely in real environments, and feeding production experience back into better models and better agent behavior.\nThis team sits close to research and works across the stack: harness, model interaction, inference, sandboxed execution, orchestr",
+      "postedAt": "2026-05-15T00:10:14.175+00:00",
       "compHint": "$230K - $385K",
       "score": {
-        "fit": 85,
+        "fit": 84,
         "verdict": "strong",
-        "rationale": "iOS Engineer, Applied Foundations at OpenAI scores 85/100 (strong) on the Tier-1 deterministic pass. Matched: Senior / staff / lead level; Genuine AI-native engineering; Backend / distributed / event-driven match; Product engineering. Concerns: remote unstated.",
+        "rationale": "AI Systems Engineer on Codex Agents — the agent harness (tool-calling, interpreting model outputs) is exactly Ryan’s agentic strength, with excellent comp.",
         "matched": [
-          "Senior / staff / lead level",
-          "Genuine AI-native engineering",
-          "Backend / distributed / event-driven match",
-          "Product engineering"
+          "Genuine agentic AI engineering (top differentiator)",
+          "Backend systems",
+          "Comp well above the floor"
         ],
         "concerns": [
-          "remote unstated"
+          "Remote unclear — SF-based, likely on-site/hybrid"
         ]
       }
     },
     {
-      "id": "7bea4a22",
-      "source": "ashby",
-      "company": "OpenAI",
-      "title": "Android Engineer, Applied Foundations",
-      "location": "San Francisco",
-      "remote": "unknown",
-      "url": "https://jobs.ashbyhq.com/openai/6202038a-323b-43ce-ae10-534acba4145c",
-      "descriptionText": "About the Team\n\nOpenAI’s Applications Engineering organization builds and operates the products that bring our cutting-edge research to millions of users and developers worldwide. The Applied Foundations team owns the core product and platform layers that make those experiences possible — from identity & access, to safety to payments & commerce across all of our apps. Our teams span product engineering, infrastructure, and safety, working together to deliver technology that is reliable, secure, and trusted at global scale.\n\nAbout the Role\n\nYou will be a Senior Android engineer on OpenAI’s…",
-      "postedAt": "2026-01-20T21:18:26.922+00:00",
-      "compHint": "$230K - $385K",
+      "id": "17ed3271",
+      "source": "greenhouse",
+      "company": "Airbnb",
+      "title": "Senior Staff Software Engineer, Trust",
+      "location": "Remote - US",
+      "remote": true,
+      "url": "https://careers.airbnb.com/positions/7818982?gh_jid=7818982",
+      "descriptionText": "Airbnb was born in 2007 when two hosts welcomed three guests to their San Francisco home, and has since grown to over 5 million hosts who have welcomed over 2 billion guest arrivals in almost every country across the globe. Every day, hosts offer unique stays and experiences that make it possible for guests to connect with communities in a more authentic way.\n\nThe Community You Will Join:\n\nEveryone at Airbnb thinks about trust, but our team obsesses over it daily. At the core of trust is safety,",
+      "postedAt": "2026-04-21T18:51:28-04:00",
       "score": {
-        "fit": 85,
+        "fit": 84,
         "verdict": "strong",
-        "rationale": "Android Engineer, Applied Foundations at OpenAI scores 85/100 (strong) on the Tier-1 deterministic pass. Matched: Senior / staff / lead level; Genuine AI-native engineering; Backend / distributed / event-driven match; Product engineering. Concerns: remote unstated.",
+        "rationale": "Senior Staff engineer on Trust — backend systems at senior-staff level, remote at his top-choice company.",
         "matched": [
-          "Senior / staff / lead level",
-          "Genuine AI-native engineering",
-          "Backend / distributed / event-driven match",
-          "Product engineering"
+          "Backend systems",
+          "Senior-staff level",
+          "Remote (US)",
+          "Top-choice company (Airbnb)"
         ],
         "concerns": [
-          "remote unstated"
+          "Comp not disclosed"
+        ]
+      }
+    },
+    {
+      "id": "5c88f28d",
+      "source": "ashby",
+      "company": "Ramp",
+      "title": "Software Engineer, Developer API",
+      "location": "New York, NY (HQ)",
+      "remote": true,
+      "url": "https://jobs.ashbyhq.com/ramp/42527ca9-03b9-499e-a5c4-18e4245af138",
+      "descriptionText": "ABOUT RAMP\n\nRamp is building the smart infrastructure for finance teams, embedded in the transaction flow of every dollar a business spends. We automate how over $200B in annualized spend flows in and out of 70,000+ companies: authorizing payments, flagging risk, categorizing spend, and closing books.\n\nThe problems are high-stakes, data-dense, and unforgiving.\n\nWe hire people with high agency and high urgency. We look for slope over intercept. We care less about where you trained and more about ",
+      "postedAt": "2026-06-29T17:10:36.236+00:00",
+      "compHint": "$168K - $330K",
+      "score": {
+        "fit": 84,
+        "verdict": "strong",
+        "rationale": "Backend on Ramp’s Developer API — directly matches Ryan’s API-platform/integration work, remote with strong comp.",
+        "matched": [
+          "Backend / API platform (domain match)",
+          "Remote",
+          "Fintech",
+          "Comp clears the floor"
+        ],
+        "concerns": [
+          "Bottom of band dips below $180K"
         ]
       }
     },
@@ -935,46 +233,172 @@
       "location": "North America",
       "remote": true,
       "url": "https://jobs.ashbyhq.com/linear/b4a7764e-c680-4bdf-9956-dc78f2ca94d5",
-      "descriptionText": "At Linear, we're building the product development system for teams and agents. AI is fundamentally changing how software gets built, and we’re shaping the tools this new era requires.\n\nFounded in 2019, Linear has become the platform of choice for more than 30,000 companies (including OpenAI, Coinbase, and Ramp) to plan, build, and ship their products. Today, our team is distributed across North America, Europe, and Australia, and we’re continuing to grow internationally. What unites us is relentless focus, fast execution, and a deep care for software craftsmanship.\n\nWe’re looking for…",
+      "descriptionText": "At Linear, we're building the product development system for teams and agents. AI is fundamentally changing how software gets built, and we’re shaping the tools this new era requires.\n\nFounded in 2019, Linear has become the platform of choice for more than 30,000 companies (including OpenAI, Coinbase, and Ramp) to plan, build, and ship their products. Today, our team is distributed across North America, Europe, and Australia, and we’re continuing to grow internationally. What unites us is relent",
       "postedAt": "2025-07-10T19:17:43.653+00:00",
       "score": {
-        "fit": 85,
+        "fit": 82,
         "verdict": "strong",
-        "rationale": "Senior / Staff Product Engineer, AI at Linear scores 85/100 (strong) on the Tier-1 deterministic pass. Matched: Senior / staff / lead level; Genuine AI-native engineering; Backend / distributed / event-driven match; Product engineering. Concerns: comp unstated.",
+        "rationale": "Product Engineer, AI at Linear — building AI features at a genuinely AI-native company, remote across North America.",
         "matched": [
-          "Senior / staff / lead level",
-          "Genuine AI-native engineering",
-          "Backend / distributed / event-driven match",
-          "Product engineering"
+          "Genuine AI-native engineering (top differentiator)",
+          "Remote (North America)",
+          "Senior/Staff level"
         ],
         "concerns": [
-          "comp unstated"
+          "Product/fullstack leans frontend",
+          "Comp not disclosed"
         ]
       }
     },
     {
-      "id": "e8345ceb",
-      "source": "ashby",
-      "company": "OpenAI",
-      "title": "Software Engineer, Developer Productivity",
-      "location": "San Francisco",
-      "remote": "unknown",
-      "url": "https://jobs.ashbyhq.com/openai/2cba0d45-7a4f-4f38-ac73-3f8633bf0349",
-      "descriptionText": "About the Team\n\nThe Applied AI team safely brings OpenAI's technology to the world. We released ChatGPT, Plugins, DALL·E, and the APIs for GPT-4, GPT-3, embeddings, and fine-tuning. We also operate inference infrastructure at scale. There's a lot more on the immediate horizon.\n\nWe seek to learn from deployment and distribute the benefits of AI, while ensuring that this powerful tool is used responsibly and safely. Safety is more important to us than unfettered growth. We serve end-users directly through ChatGPT, and serve developers through our APIs, which power product features that were…",
-      "postedAt": "2025-03-27T16:44:10.676+00:00",
-      "compHint": "$210K - $490K",
+      "id": "ff10631b",
+      "source": "greenhouse",
+      "company": "Airbnb",
+      "title": "Senior Staff Operations Engineer, AIOps",
+      "location": "Remote - United States",
+      "remote": true,
+      "url": "https://careers.airbnb.com/positions/7644921?gh_jid=7644921",
+      "descriptionText": "Airbnb was born in 2007 when two hosts welcomed three guests to their San Francisco home, and has since grown to over 5 million hosts who have welcomed over 2 billion guest arrivals in almost every country across the globe. Every day, hosts offer unique stays and experiences that make it possible for guests to connect with communities in a more authentic way.\n\nThe Community You Will Join:\n\nBizTech fosters culture and connection at Airbnb by providing reliable corporate tools, innovative products",
+      "postedAt": "2026-03-04T13:54:26-05:00",
       "score": {
-        "fit": 85,
+        "fit": 82,
         "verdict": "strong",
-        "rationale": "Software Engineer, Developer Productivity at OpenAI scores 85/100 (strong) on the Tier-1 deterministic pass. Matched: Senior / staff / lead level; Genuine AI-native engineering; Backend / distributed / event-driven match; Product engineering. Concerns: remote unstated.",
+        "rationale": "Senior Staff Operations Engineer, AIOps — pairs Ryan’s observability/reliability strengths with applied AI, remote at his top-choice company.",
         "matched": [
-          "Senior / staff / lead level",
-          "Genuine AI-native engineering",
-          "Backend / distributed / event-driven match",
-          "Product engineering"
+          "Reliability / observability + AI (Ryan’s strengths)",
+          "Senior-staff level",
+          "Remote (US)",
+          "Top-choice company (Airbnb)"
         ],
         "concerns": [
-          "remote unstated"
+          "Ops-leaning vs. product backend",
+          "Comp not disclosed"
+        ]
+      }
+    },
+    {
+      "id": "4ffb3df6",
+      "source": "ashby",
+      "company": "OpenAI",
+      "title": "Senior+ Software Engineer - Research Platform, Consumer Devices",
+      "location": "San Francisco",
+      "remote": true,
+      "url": "https://jobs.ashbyhq.com/openai/6d9925f4-3d0a-4710-8304-032d0080d12d",
+      "descriptionText": "ABOUT THE TEAM\n\nThe Future of Computing Research team is an Applied Research team within the Consumer Devices group focused on developing new methods and models as we advance forward in our mission of building AGI that benefits all of humanity.\n\nAs a Software Engineer on the Future of Computing Research team, you will work together with both the best ML researchers in the world and the greatest design talent of our generation to push the frontier of model capabilities.\n\nABOUT THE ROLE\n\nWe are lo",
+      "postedAt": "2026-06-26T00:08:20.821+00:00",
+      "compHint": "$293K - $325K",
+      "score": {
+        "fit": 82,
+        "verdict": "strong",
+        "rationale": "Senior+ on the Research Platform — platform engineering at a frontier AI company, remote with comp from $293K.",
+        "matched": [
+          "Platform engineering",
+          "Remote",
+          "Comp well above the floor"
+        ],
+        "concerns": [
+          "Research-platform niche"
+        ]
+      }
+    },
+    {
+      "id": "34bb805d",
+      "source": "greenhouse",
+      "company": "Airbnb",
+      "title": "Staff Software Engineer, Marketplaces & Intelligence Data and AI",
+      "location": "United States",
+      "remote": true,
+      "url": "https://careers.airbnb.com/positions/7528577?gh_jid=7528577",
+      "descriptionText": "Airbnb was born in 2007 when two hosts welcomed three guests to their San Francisco home, and has since grown to over 5 million hosts who have welcomed over 2 billion guest arrivals in almost every country across the globe. Every day, hosts offer unique stays and experiences that make it possible for guests to connect with communities in a more authentic way.\n\nThe Community You Will Join:\nWe are currently hiring for multiple teams:\n\nAirbnb is powered by our Host and Guest communities. Our teams ",
+      "postedAt": "2026-06-03T21:32:33-04:00",
+      "score": {
+        "fit": 80,
+        "verdict": "strong",
+        "rationale": "Staff engineer on Marketplaces & Intelligence Data and AI — staff-level backend with an AI dimension, remote at his top-choice company.",
+        "matched": [
+          "Backend + AI",
+          "Staff level",
+          "Remote (US)",
+          "Top-choice company (Airbnb)"
+        ],
+        "concerns": [
+          "Data/AI-leaning scope",
+          "Comp not disclosed"
+        ]
+      }
+    },
+    {
+      "id": "3fe5ed8a",
+      "source": "ashby",
+      "company": "Linear",
+      "title": "Senior / Staff Product Engineer",
+      "location": "North America",
+      "remote": true,
+      "url": "https://jobs.ashbyhq.com/linear/12f8f208-0b9c-4569-bb3d-41c8a197029e",
+      "descriptionText": "At Linear, we're building the product development system for teams and agents. AI is fundamentally changing how software gets built, and we’re shaping the tools this new era requires.\n\nFounded in 2019, Linear has become the platform of choice for more than 30,000 companies (including OpenAI, Coinbase, and Ramp) to plan, build, and ship their products. Today, our team is distributed across North America, Europe, and Australia, and we’re continuing to grow internationally. What unites us is relent",
+      "postedAt": "2026-03-04T02:08:44.483+00:00",
+      "score": {
+        "fit": 79,
+        "verdict": "strong",
+        "rationale": "Product Engineer at Linear — an AI-native company building tools “for teams and agents,” remote across North America.",
+        "matched": [
+          "Genuine AI-native product company",
+          "Remote (North America)",
+          "Senior/Staff level"
+        ],
+        "concerns": [
+          "Product/fullstack — heavier frontend than Ryan’s core",
+          "Comp not disclosed"
+        ]
+      }
+    },
+    {
+      "id": "476ff248",
+      "source": "greenhouse",
+      "company": "Dropbox",
+      "title": "Senior Infrastructure Software Engineer, Search Platform",
+      "location": "Remote - US: Select locations",
+      "remote": true,
+      "url": "https://jobs.dropbox.com/listing/7974878?gh_jid=7974878",
+      "descriptionText": "Role Description\n\nAs a Senior Infrastructure Engineer, your role will be crucial in shaping and constructing the robust systems that not only support our current flagship products but also lay the groundwork for the next wave of engineering innovations. From optimizing user experiences across various projects to ensuring seamless scalability and data integrity, you'll be at the forefront of shaping the technological backbone of our platform.\n\nCollaborating closely with cross-functional teams, yo",
+      "postedAt": "2026-07-02T13:48:16-04:00",
+      "score": {
+        "fit": 78,
+        "verdict": "strong",
+        "rationale": "Senior Infrastructure engineer on Dropbox’s Search Platform, remote-US — backend, distributed-systems work that fits Ryan’s strengths.",
+        "matched": [
+          "Backend infrastructure / distributed systems",
+          "Remote (US)",
+          "Senior level"
+        ],
+        "concerns": [
+          "Search-platform specialization",
+          "Comp not disclosed"
+        ]
+      }
+    },
+    {
+      "id": "9c7a0b1b",
+      "source": "ashby",
+      "company": "Notion",
+      "title": "Software Engineer, Developer Experience (Go Lead)",
+      "location": "New York, New York",
+      "remote": true,
+      "url": "https://jobs.ashbyhq.com/notion/876c69a9-be0a-4a71-bf4a-04cbc9c6328e",
+      "descriptionText": "WHO WE ARE\n\nNotion is the collaborative AI workspace where teams and agents think together https://www.youtube.com/watch?v=vkpYpWfEK5s. We're building one place where your knowledge, projects, meetings, and AI tools live side by side, so work is faster, clearer, and less fragmented. Millions of individuals, small teams, and large companies run their work on Notion.\n\nNotinos (our employees) are customer zero in bringing this future of work to life. We care about craft, building things that last, ",
+      "postedAt": "2026-06-23T21:47:12.186+00:00",
+      "score": {
+        "fit": 78,
+        "verdict": "strong",
+        "rationale": "Developer Experience (Go Lead) at Notion, remote-US — developer-platform and tooling leadership, a direct match to Ryan’s DevEx/tooling strengths.",
+        "matched": [
+          "Dev experience / tooling (Ryan’s strength)",
+          "Lead level",
+          "Remote (US)"
+        ],
+        "concerns": [
+          "Go-centric (vs. Ryan’s Java)",
+          "Comp not disclosed"
         ]
       }
     },
@@ -986,269 +410,269 @@
       "location": "North America",
       "remote": true,
       "url": "https://jobs.ashbyhq.com/linear/cd5ae036-0223-427a-b038-ba16ef9dcb32",
-      "descriptionText": "At Linear, we're building the product development system for teams and agents. AI is fundamentally changing how software gets built, and we’re shaping the tools this new era requires.\n\nFounded in 2019, Linear has become the platform of choice for more than 30,000 companies (including OpenAI, Coinbase, and Ramp) to plan, build, and ship their products. Today, our team is distributed across North America, Europe, and Australia, and we’re continuing to grow internationally. What unites us is relentless focus, fast execution, and a deep care for software craftsmanship.\n\nAs a small team, we’re all…",
+      "descriptionText": "At Linear, we're building the product development system for teams and agents. AI is fundamentally changing how software gets built, and we’re shaping the tools this new era requires.\n\nFounded in 2019, Linear has become the platform of choice for more than 30,000 companies (including OpenAI, Coinbase, and Ramp) to plan, build, and ship their products. Today, our team is distributed across North America, Europe, and Australia, and we’re continuing to grow internationally. What unites us is relent",
       "postedAt": "2021-08-18T20:48:26.891+00:00",
       "score": {
-        "fit": 85,
-        "verdict": "strong",
-        "rationale": "Senior / Staff Fullstack Engineer at Linear scores 85/100 (strong) on the Tier-1 deterministic pass. Matched: Senior / staff / lead level; Genuine AI-native engineering; Backend / distributed / event-driven match; Strong engineering culture. Concerns: comp unstated.",
+        "fit": 74,
+        "verdict": "possible",
+        "rationale": "Fullstack at Linear — AI-native company, remote North America; the backend half fits well, though it carries a real frontend load.",
         "matched": [
-          "Senior / staff / lead level",
-          "Genuine AI-native engineering",
-          "Backend / distributed / event-driven match",
-          "Strong engineering culture"
+          "AI-native company",
+          "Remote (North America)",
+          "Backend portion",
+          "Senior/Staff level"
         ],
         "concerns": [
-          "comp unstated"
+          "Fullstack — heavy frontend surface",
+          "Comp not disclosed"
         ]
       }
     },
     {
-      "id": "39332658",
+      "id": "e8345ceb",
+      "source": "ashby",
+      "company": "OpenAI",
+      "title": "Software Engineer, Developer Productivity",
+      "location": "San Francisco",
+      "remote": "unknown",
+      "url": "https://jobs.ashbyhq.com/openai/2cba0d45-7a4f-4f38-ac73-3f8633bf0349",
+      "descriptionText": "About the Team\n\nThe Applied AI team safely brings OpenAI's technology to the world. We released ChatGPT, Plugins, DALL·E, and the APIs for GPT-4, GPT-3, embeddings, and fine-tuning. We also operate inference infrastructure at scale. There's a lot more on the immediate horizon.\n\nWe seek to learn from deployment and distribute the benefits of AI, while ensuring that this powerful tool is used responsibly and safely. Safety is more important to us than unfettered growth. We serve end-users directly",
+      "postedAt": "2025-03-27T16:44:10.676+00:00",
+      "compHint": "$210K - $490K",
+      "score": {
+        "fit": 74,
+        "verdict": "possible",
+        "rationale": "Developer Productivity engineering at OpenAI — internal tooling/platform echoing Ryan’s DevEx modernization, strong comp.",
+        "matched": [
+          "Dev tooling / platform (Ryan’s strength)",
+          "Comp well above the floor"
+        ],
+        "concerns": [
+          "Remote unclear — SF-based, likely on-site/hybrid"
+        ]
+      }
+    },
+    {
+      "id": "79209ae1",
       "source": "greenhouse",
-      "company": "Databricks",
-      "title": "Sr Forward Deployed Engineer",
-      "location": "Remote - India",
+      "company": "Block",
+      "title": "Senior Software Engineer, Square Financial Services",
+      "location": "New York, NY, United States of America",
+      "remote": "unknown",
+      "url": "http://block.xyz/careers/jobs/5284783008?gh_jid=5284783008",
+      "descriptionText": "Block is one company built from many blocks, all united by the same purpose of economic empowerment. The blocks that form our foundational teams — People, Finance, Counsel, Hardware, Information Security, Platform Infrastructure Engineering, and more — provide support and guidance at the corporate level. They work across business groups and around the globe, spanning time zones and disciplines to develop inclusive People policies, forecast finances, give legal counsel, safeguard systems, nurture",
+      "postedAt": "2026-07-03T11:57:17-04:00",
+      "score": {
+        "fit": 70,
+        "verdict": "possible",
+        "rationale": "Backend for Square Financial Services — a genuine financial-platform domain match, though remote and comp aren’t confirmed.",
+        "matched": [
+          "Backend",
+          "Financial-services domain (match)",
+          "Senior level"
+        ],
+        "concerns": [
+          "Remote eligibility unclear",
+          "Comp not disclosed"
+        ]
+      }
+    },
+    {
+      "id": "731bb65f",
+      "source": "ashby",
+      "company": "OpenAI",
+      "title": "Software Engineer, Scaled Abuse",
+      "location": "San Francisco",
+      "remote": "unknown",
+      "url": "https://jobs.ashbyhq.com/openai/3c67f712-697d-48d8-b05c-01be896e61da",
+      "descriptionText": "ABOUT THE TEAM\n\nThe Applied team safely brings OpenAI's technology to the world. We released ChatGPT; Plugins; DALL·E; and the APIs for GPT-5, embeddings, and fine-tuning. We also operate inference infrastructure at scale. There's a lot more on the immediate horizon.\n\nOur customers build fast-growing businesses around our APIs, which power product features that were never before possible. ChatGPT is a prime example of what is currently possible. We simultaneously ensure that our powerful tools a",
+      "postedAt": "2026-06-08T16:15:58.343+00:00",
+      "compHint": "$230K - $385K",
+      "score": {
+        "fit": 70,
+        "verdict": "possible",
+        "rationale": "Software Engineer on Scaled Abuse — backend safety/abuse systems at a frontier AI company with strong comp.",
+        "matched": [
+          "Backend systems",
+          "Comp well above the floor"
+        ],
+        "concerns": [
+          "Remote unclear — SF-based, likely on-site/hybrid"
+        ]
+      }
+    },
+    {
+      "id": "3ae6bc6c",
+      "source": "greenhouse",
+      "company": "Block",
+      "title": "Senior Software Engineer, Product Platform",
+      "location": "New York, NY, United States of America",
+      "remote": "unknown",
+      "url": "http://block.xyz/careers/jobs/5239566008?gh_jid=5239566008",
+      "descriptionText": "Block is one company built from many blocks, all united by the same purpose of economic empowerment. The blocks that form our foundational teams — People, Finance, Counsel, Hardware, Information Security, Platform Infrastructure Engineering, and more — provide support and guidance at the corporate level. They work across business groups and around the globe, spanning time zones and disciplines to develop inclusive People policies, forecast finances, give legal counsel, safeguard systems, nurture",
+      "postedAt": "2026-07-03T11:57:17-04:00",
+      "score": {
+        "fit": 68,
+        "verdict": "possible",
+        "rationale": "Senior engineer on Block’s Product Platform — backend platform at a fintech, though the board doesn’t confirm remote or comp.",
+        "matched": [
+          "Backend platform",
+          "Fintech",
+          "Senior level"
+        ],
+        "concerns": [
+          "Remote eligibility unclear",
+          "Comp not disclosed"
+        ]
+      }
+    },
+    {
+      "id": "1ac030a7",
+      "source": "ashby",
+      "company": "OpenAI",
+      "title": "Software Engineer, Localization",
+      "location": "San Francisco",
+      "remote": "unknown",
+      "url": "https://jobs.ashbyhq.com/openai/deff9215-217d-4392-825e-7788cb8205f3",
+      "descriptionText": "ABOUT THE TEAM\n\nOpenAI’s mission is to ensure that artificial general intelligence benefits all of humanity. A majority of our users interact with our products in languages other than English, and our products must work seamlessly across languages, regions, and cultures.\n\nThe Internationalization team builds the infrastructure that enables OpenAI products to ship globally by default. We develop the systems that power localization, international product launches, and high-quality global user expe",
+      "postedAt": "2026-03-18T21:25:49.295+00:00",
+      "compHint": "$185K - $300K",
+      "score": {
+        "fit": 68,
+        "verdict": "possible",
+        "rationale": "Backend/platform engineering for OpenAI localization — real engineering with solid comp, though a niche scope and unclear remote.",
+        "matched": [
+          "Backend / platform",
+          "Comp clears the floor"
+        ],
+        "concerns": [
+          "Localization niche",
+          "Remote unclear — SF-based, likely on-site/hybrid"
+        ]
+      }
+    },
+    {
+      "id": "d6060148",
+      "source": "greenhouse",
+      "company": "Dropbox",
+      "title": "Staff Fullstack Software Engineer, Core Performance",
+      "location": "Remote - US: All locations",
       "remote": true,
-      "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8362737002",
-      "descriptionText": "CSQ227R29\n\nAs a Forward Deployed Engineer (FDE) you will work with customers to build and productionize solutions to their data & AI challenges using the Databricks platform. You will own the architecture, lead design decisions, and implement end-to-end systems spanning data engineering, AI, and application development. We work cross-functionally to shape long-term strategic priorities and initiatives alongside engineering, product, and developer relations. FDEs deliver with customer empathy, integrating with client systems, training, and other technical needs to help customers get most value…",
-      "postedAt": "2026-07-03T14:01:32-04:00",
+      "url": "https://jobs.dropbox.com/listing/7421149?gh_jid=7421149",
+      "descriptionText": "Role Description\n\nAs a Staff Software Engineer at Dropbox, you'll be the singular technical owner of application performance across the Core org — the part of Dropbox that owns every consumer-facing surface: web, iOS, Android, and desktop. This is one of the company's most visible, cross-cutting technical challenges. Your mandate is to make Dropbox feel fast on every surface our customers use. You'll operate at the intersection of measurement, engineering, and product impact, owning ambiguous pr",
+      "postedAt": "2026-07-02T13:48:16-04:00",
       "score": {
-        "fit": 80,
-        "verdict": "strong",
-        "rationale": "Sr Forward Deployed Engineer at Databricks scores 80/100 (strong) on the Tier-1 deterministic pass. Matched: Senior / staff / lead level; Genuine AI-native engineering; Backend / distributed / event-driven match. Concerns: comp unstated.",
+        "fit": 68,
+        "verdict": "possible",
+        "rationale": "Staff Fullstack on Core Performance at Dropbox, remote-US — real backend performance work, but it spans web/mobile/desktop surfaces.",
         "matched": [
-          "Senior / staff / lead level",
-          "Genuine AI-native engineering",
-          "Backend / distributed / event-driven match"
+          "Staff level",
+          "Remote (US)",
+          "Backend performance"
         ],
         "concerns": [
-          "comp unstated"
+          "Fullstack across mobile/frontend",
+          "Comp not disclosed"
         ]
       }
     },
     {
-      "id": "ee73c68e",
+      "id": "b123c1b7",
+      "source": "greenhouse",
+      "company": "Dropbox",
+      "title": "Staff Site Reliability Engineer, Production Engineering",
+      "location": "Remote - US: Select locations",
+      "remote": true,
+      "url": "https://jobs.dropbox.com/listing/7961824?gh_jid=7961824",
+      "descriptionText": "Role Description\n\nAs a Site Reliability Engineer focused on company-wide reliability strategy, you will play a crucial role in advancing Dropbox’s stability, observability, incident response, and operational excellence as AI technologies reshape how software is built and operated. You will help define the reliability strategy for a new chapter of agentic development and AI-enabled software delivery, including preparing Dropbox for increases in pull request volume, service complexity, incident pa",
+      "postedAt": "2026-07-02T13:48:16-04:00",
+      "score": {
+        "fit": 66,
+        "verdict": "possible",
+        "rationale": "Staff SRE at Dropbox, remote-US — reliability/observability is a genuine Ryan strength, though SRE is its own discipline.",
+        "matched": [
+          "Reliability / observability (Ryan’s strength)",
+          "Remote (US)",
+          "Staff level"
+        ],
+        "concerns": [
+          "SRE is distinct from backend product",
+          "Comp not disclosed"
+        ]
+      }
+    },
+    {
+      "id": "43cc7a5f",
+      "source": "greenhouse",
+      "company": "Airbnb",
+      "title": "Senior Staff Data Engineer - Data Stewardship",
+      "location": "United States",
+      "remote": true,
+      "url": "https://careers.airbnb.com/positions/7998356?gh_jid=7998356",
+      "descriptionText": "Airbnb was born in 2007 when two hosts welcomed three guests to their San Francisco home, and has since grown to over 5 million hosts who have welcomed over 2 billion guest arrivals in almost every country across the globe. Every day, hosts offer unique stays and experiences that make it possible for guests to connect with communities in a more authentic way.\n\nThe Community You Will Join:\n\nThe Data Stewardship team is a group of passionate data practitioners with a diverse background in analytic",
+      "postedAt": "2026-06-10T19:39:45-04:00",
+      "score": {
+        "fit": 64,
+        "verdict": "possible",
+        "rationale": "Senior Staff Data Engineer, Data Stewardship — senior-staff and remote at his top-choice company, but data engineering sits outside Ryan’s backend/AI core.",
+        "matched": [
+          "Senior-staff level",
+          "Remote (US)",
+          "Top-choice company (Airbnb)"
+        ],
+        "concerns": [
+          "Data-engineering discipline",
+          "Comp not disclosed"
+        ]
+      }
+    },
+    {
+      "id": "b69d1b13",
+      "source": "greenhouse",
+      "company": "Airbnb",
+      "title": "Senior Staff Data Engineer, Marketplaces DNA",
+      "location": "United States",
+      "remote": true,
+      "url": "https://careers.airbnb.com/positions/7463663?gh_jid=7463663",
+      "descriptionText": "Airbnb was born in 2007 when two hosts welcomed three guests to their San Francisco home, and has since grown to over 5 million hosts who have welcomed over 2 billion guest arrivals in almost every country across the globe. Every day, hosts offer unique stays and experiences that make it possible for guests to connect with communities in a more authentic way.\n\nThe Community You Will Join:\n\nMarketplaces Data and AI is a group of passionate machine learning, software, data, and analytics engineers",
+      "postedAt": "2026-01-26T11:47:44-05:00",
+      "score": {
+        "fit": 63,
+        "verdict": "possible",
+        "rationale": "Senior Staff Data Engineer, Marketplaces DNA — attractive level and remote at his top-choice company, but a data-engineering focus.",
+        "matched": [
+          "Senior-staff level",
+          "Remote (US)",
+          "Top-choice company (Airbnb)"
+        ],
+        "concerns": [
+          "Data-engineering discipline",
+          "Comp not disclosed"
+        ]
+      }
+    },
+    {
+      "id": "bf332374",
       "source": "greenhouse",
       "company": "Block",
-      "title": "Senior Business Systems Engineer",
+      "title": "Software Engineer, Finance Applications",
       "location": "Bay Area, CA, United States of America",
       "remote": "unknown",
-      "url": "http://block.xyz/careers/jobs/4962872008?gh_jid=4962872008",
-      "descriptionText": "Block is one company built from many blocks, all united by the same purpose of economic empowerment. The blocks that form our foundational teams — People, Finance, Counsel, Hardware, Information Security, Platform Infrastructure Engineering, and more — provide support and guidance at the corporate level. They work across business groups and around the globe, spanning time zones and disciplines to develop inclusive People policies, forecast finances, give legal counsel, safeguard systems, nurture new initiatives, and more. Every challenge creates possibilities, and we need different…",
+      "url": "http://block.xyz/careers/jobs/4888459008?gh_jid=4888459008",
+      "descriptionText": "Block is one company built from many blocks, all united by the same purpose of economic empowerment. The blocks that form our foundational teams — People, Finance, Counsel, Hardware, Information Security, Platform Infrastructure Engineering, and more — provide support and guidance at the corporate level. They work across business groups and around the globe, spanning time zones and disciplines to develop inclusive People policies, forecast finances, give legal counsel, safeguard systems, nurture",
       "postedAt": "2026-07-03T11:57:17-04:00",
       "score": {
-        "fit": 80,
-        "verdict": "strong",
-        "rationale": "Senior Business Systems Engineer at Block scores 80/100 (strong) on the Tier-1 deterministic pass. Matched: Senior / staff / lead level; Genuine AI-native engineering; Backend / distributed / event-driven match. Concerns: comp unstated; remote unstated.",
+        "fit": 60,
+        "verdict": "possible",
+        "rationale": "Software Engineer on Finance Applications at Block — financial-systems backend echoes Ryan’s domain, but the mid-level title and unclear remote temper it.",
         "matched": [
-          "Senior / staff / lead level",
-          "Genuine AI-native engineering",
-          "Backend / distributed / event-driven match"
+          "Backend",
+          "Financial-systems domain (match)"
         ],
         "concerns": [
-          "comp unstated",
-          "remote unstated"
-        ]
-      }
-    },
-    {
-      "id": "a0250310",
-      "source": "greenhouse",
-      "company": "Block",
-      "title": "Senior Data Engineer, Risk",
-      "location": "Bay Area, CA, United States of America",
-      "remote": "unknown",
-      "url": "http://block.xyz/careers/jobs/5281312008?gh_jid=5281312008",
-      "descriptionText": "It all started with an idea at Block in 2013. Initially built to take the pain out of peer-to-peer payments, Cash App has gone from a simple product with a single purpose to a dynamic ecosystem, developing unique financial products, including Afterpay/Clearpay, to provide a better way to send, spend, invest, borrow and save to our 50+ million monthly active customers. We want to redefine the world’s relationship with money to make it more relatable, instantly available, and universally accessible.\n\nToday, Cash App has thousands of employees working globally across office and remote locations,…",
-      "postedAt": "2026-07-03T11:57:17-04:00",
-      "score": {
-        "fit": 80,
-        "verdict": "strong",
-        "rationale": "Senior Data Engineer, Risk at Block scores 80/100 (strong) on the Tier-1 deterministic pass. Matched: Senior / staff / lead level; Genuine AI-native engineering; Backend / distributed / event-driven match. Concerns: comp unstated; remote unstated.",
-        "matched": [
-          "Senior / staff / lead level",
-          "Genuine AI-native engineering",
-          "Backend / distributed / event-driven match"
-        ],
-        "concerns": [
-          "comp unstated",
-          "remote unstated"
-        ]
-      }
-    },
-    {
-      "id": "a9c553fe",
-      "source": "greenhouse",
-      "company": "Block",
-      "title": "Senior Finance Systems Engineer: Oracle Fusion - Remote, US",
-      "location": "Bay Area, CA, United States of America",
-      "remote": "unknown",
-      "url": "http://block.xyz/careers/jobs/5249776008?gh_jid=5249776008",
-      "descriptionText": "Block is one company built from many blocks, all united by the same purpose of economic empowerment. The blocks that form our foundational teams — People, Finance, Counsel, Hardware, Information Security, Platform Infrastructure Engineering, and more — provide support and guidance at the corporate level. They work across business groups and around the globe, spanning time zones and disciplines to develop inclusive People policies, forecast finances, give legal counsel, safeguard systems, nurture new initiatives, and more. Every challenge creates possibilities, and we need different…",
-      "postedAt": "2026-07-03T11:57:17-04:00",
-      "score": {
-        "fit": 80,
-        "verdict": "strong",
-        "rationale": "Senior Finance Systems Engineer: Oracle Fusion - Remote, US at Block scores 80/100 (strong) on the Tier-1 deterministic pass. Matched: Senior / staff / lead level; Genuine AI-native engineering; Backend / distributed / event-driven match. Concerns: comp unstated; remote unstated.",
-        "matched": [
-          "Senior / staff / lead level",
-          "Genuine AI-native engineering",
-          "Backend / distributed / event-driven match"
-        ],
-        "concerns": [
-          "comp unstated",
-          "remote unstated"
-        ]
-      }
-    },
-    {
-      "id": "67177dec",
-      "source": "greenhouse",
-      "company": "Block",
-      "title": "Senior Machine Learning Engineer, AI Personalization",
-      "location": "Bay Area, CA, United States of America",
-      "remote": "unknown",
-      "url": "http://block.xyz/careers/jobs/4811589008?gh_jid=4811589008",
-      "descriptionText": "Block builds simple, powerful tools that make progress towards an economy that’s truly open to all. Each of our brands unlocks different aspects of the economy for more people. Square makes commerce and financial services accessible to sellers. Cash App is the easy way to spend, send, and store money. Afterpay is transforming the way customers manage their spending over time. TIDAL is a music platform that empowers artists to thrive as entrepreneurs. Bitkey is a simple self-custody wallet built for bitcoin. Proto is a suite of bitcoin mining products and services. Together, we’re helping…",
-      "postedAt": "2026-07-03T11:57:17-04:00",
-      "score": {
-        "fit": 80,
-        "verdict": "strong",
-        "rationale": "Senior Machine Learning Engineer, AI Personalization at Block scores 80/100 (strong) on the Tier-1 deterministic pass. Matched: Senior / staff / lead level; Genuine AI-native engineering; Backend / distributed / event-driven match. Concerns: comp unstated; remote unstated.",
-        "matched": [
-          "Senior / staff / lead level",
-          "Genuine AI-native engineering",
-          "Backend / distributed / event-driven match"
-        ],
-        "concerns": [
-          "comp unstated",
-          "remote unstated"
-        ]
-      }
-    },
-    {
-      "id": "4cece832",
-      "source": "greenhouse",
-      "company": "Block",
-      "title": "Senior Machine Learning Engineer, Risk Modeling",
-      "location": "Bay Area, CA, United States of America",
-      "remote": "unknown",
-      "url": "http://block.xyz/careers/jobs/5198102008?gh_jid=5198102008",
-      "descriptionText": "Block builds simple, powerful tools that make progress towards an economy that’s truly open to all. Each of our brands unlocks different aspects of the economy for more people. Square makes commerce and financial services accessible to sellers. Cash App is the easy way to spend, send, and store money. Afterpay is transforming the way customers manage their spending over time. TIDAL is a music platform that empowers artists to thrive as entrepreneurs. Bitkey is a simple self-custody wallet built for bitcoin. Proto is a suite of bitcoin mining products and services. Together, we’re helping…",
-      "postedAt": "2026-07-03T11:57:17-04:00",
-      "score": {
-        "fit": 80,
-        "verdict": "strong",
-        "rationale": "Senior Machine Learning Engineer, Risk Modeling at Block scores 80/100 (strong) on the Tier-1 deterministic pass. Matched: Senior / staff / lead level; Genuine AI-native engineering; Backend / distributed / event-driven match. Concerns: comp unstated; remote unstated.",
-        "matched": [
-          "Senior / staff / lead level",
-          "Genuine AI-native engineering",
-          "Backend / distributed / event-driven match"
-        ],
-        "concerns": [
-          "comp unstated",
-          "remote unstated"
-        ]
-      }
-    },
-    {
-      "id": "37157983",
-      "source": "greenhouse",
-      "company": "Block",
-      "title": "Senior ML/AI Modeler, Risk Automation Machine Learning",
-      "location": "Seattle, WA, United States of America",
-      "remote": "unknown",
-      "url": "http://block.xyz/careers/jobs/5198103008?gh_jid=5198103008",
-      "descriptionText": "Block builds simple, powerful tools that make progress towards an economy that’s truly open to all. Each of our brands unlocks different aspects of the economy for more people. Square makes commerce and financial services accessible to sellers. Cash App is the easy way to spend, send, and store money. Afterpay is transforming the way customers manage their spending over time. TIDAL is a music platform that empowers artists to thrive as entrepreneurs. Bitkey is a simple self-custody wallet built for bitcoin. Proto is a suite of bitcoin mining products and services. Together, we’re helping…",
-      "postedAt": "2026-07-03T11:57:17-04:00",
-      "score": {
-        "fit": 80,
-        "verdict": "strong",
-        "rationale": "Senior ML/AI Modeler, Risk Automation Machine Learning at Block scores 80/100 (strong) on the Tier-1 deterministic pass. Matched: Senior / staff / lead level; Genuine AI-native engineering; Backend / distributed / event-driven match. Concerns: comp unstated; remote unstated.",
-        "matched": [
-          "Senior / staff / lead level",
-          "Genuine AI-native engineering",
-          "Backend / distributed / event-driven match"
-        ],
-        "concerns": [
-          "comp unstated",
-          "remote unstated"
-        ]
-      }
-    },
-    {
-      "id": "ac34bd58",
-      "source": "greenhouse",
-      "company": "Block",
-      "title": "Senior Salesforce Engineer",
-      "location": "Bay Area, CA, United States of America",
-      "remote": "unknown",
-      "url": "http://block.xyz/careers/jobs/5249770008?gh_jid=5249770008",
-      "descriptionText": "Block is one company built from many blocks, all united by the same purpose of economic empowerment. The blocks that form our foundational teams — People, Finance, Counsel, Hardware, Information Security, Platform Infrastructure Engineering, and more — provide support and guidance at the corporate level. They work across business groups and around the globe, spanning time zones and disciplines to develop inclusive People policies, forecast finances, give legal counsel, safeguard systems, nurture new initiatives, and more. Every challenge creates possibilities, and we need different…",
-      "postedAt": "2026-07-03T11:57:17-04:00",
-      "score": {
-        "fit": 80,
-        "verdict": "strong",
-        "rationale": "Senior Salesforce Engineer at Block scores 80/100 (strong) on the Tier-1 deterministic pass. Matched: Senior / staff / lead level; Genuine AI-native engineering; Backend / distributed / event-driven match. Concerns: comp unstated; remote unstated.",
-        "matched": [
-          "Senior / staff / lead level",
-          "Genuine AI-native engineering",
-          "Backend / distributed / event-driven match"
-        ],
-        "concerns": [
-          "comp unstated",
-          "remote unstated"
-        ]
-      }
-    },
-    {
-      "id": "ddf669af",
-      "source": "greenhouse",
-      "company": "Block",
-      "title": "Senior Security Engineer, Platform Security",
-      "location": "Bay Area, CA, United States of America",
-      "remote": "unknown",
-      "url": "http://block.xyz/careers/jobs/5231316008?gh_jid=5231316008",
-      "descriptionText": "Block builds simple, powerful tools that make progress towards an economy that’s truly open to all.\n\nEach of our brands unlocks different aspects of the economy for more people. Square makes commerce and financial services accessible to sellers. Cash App is the easy way to spend, send, and store money. Afterpay is transforming the way customers manage their spending over time. TIDAL is a music platform that empowers artists to thrive as entrepreneurs. Bitkey is a simple self-custody wallet built for bitcoin. Proto is a suite of bitcoin mining products and services. Together, we’re helping…",
-      "postedAt": "2026-07-03T11:57:17-04:00",
-      "score": {
-        "fit": 80,
-        "verdict": "strong",
-        "rationale": "Senior Security Engineer, Platform Security at Block scores 80/100 (strong) on the Tier-1 deterministic pass. Matched: Senior / staff / lead level; Genuine AI-native engineering; Backend / distributed / event-driven match. Concerns: comp unstated; remote unstated.",
-        "matched": [
-          "Senior / staff / lead level",
-          "Genuine AI-native engineering",
-          "Backend / distributed / event-driven match"
-        ],
-        "concerns": [
-          "comp unstated",
-          "remote unstated"
-        ]
-      }
-    },
-    {
-      "id": "b66ab04f",
-      "source": "greenhouse",
-      "company": "Block",
-      "title": "Senior Site Reliability Engineer",
-      "location": "Melbourne, Australia",
-      "remote": "unknown",
-      "url": "http://block.xyz/careers/jobs/5225436008?gh_jid=5225436008",
-      "descriptionText": "Block is one company built from many blocks, all united by the same purpose of economic empowerment. The blocks that form our foundational teams — People, Finance, Counsel, Hardware, Information Security, Platform Infrastructure Engineering, and more — provide support and guidance at the corporate level. They work across business groups and around the globe, spanning time zones and disciplines to develop inclusive People policies, forecast finances, give legal counsel, safeguard systems, nurture new initiatives, and more. Every challenge creates possibilities, and we need different…",
-      "postedAt": "2026-07-03T11:57:17-04:00",
-      "score": {
-        "fit": 80,
-        "verdict": "strong",
-        "rationale": "Senior Site Reliability Engineer at Block scores 80/100 (strong) on the Tier-1 deterministic pass. Matched: Senior / staff / lead level; Genuine AI-native engineering; Backend / distributed / event-driven match. Concerns: comp unstated; remote unstated.",
-        "matched": [
-          "Senior / staff / lead level",
-          "Genuine AI-native engineering",
-          "Backend / distributed / event-driven match"
-        ],
-        "concerns": [
-          "comp unstated",
-          "remote unstated"
+          "Mid-level title",
+          "Remote eligibility unclear",
+          "Comp not disclosed"
         ]
       }
     },
@@ -1260,20 +684,570 @@
       "location": "New York, NY, United States of America",
       "remote": "unknown",
       "url": "http://block.xyz/careers/jobs/5207134008?gh_jid=5207134008",
-      "descriptionText": "It all started with an idea at Block in 2013. Initially built to take the pain out of peer-to-peer payments, Cash App has gone from a simple product with a single purpose to a dynamic ecosystem, developing unique financial products, including Afterpay/Clearpay, to provide a better way to send, spend, invest, borrow and save to our 50+ million monthly active customers. We want to redefine the world's relationship with money to make it more relatable, instantly available, and universally accessible.\n\nToday, Cash App has thousands of employees working globally across office and remote locations,…",
+      "descriptionText": "It all started with an idea at Block in 2013. Initially built to take the pain out of peer-to-peer payments, Cash App has gone from a simple product with a single purpose to a dynamic ecosystem, developing unique financial products, including Afterpay/Clearpay, to provide a better way to send, spend, invest, borrow and save to our 50+ million monthly active customers. We want to redefine the world's relationship with money to make it more relatable, instantly available, and universally accessibl",
       "postedAt": "2026-07-03T11:57:17-04:00",
       "score": {
-        "fit": 80,
-        "verdict": "strong",
-        "rationale": "Senior Software Engineer, Cash App Taxes at Block scores 80/100 (strong) on the Tier-1 deterministic pass. Matched: Senior / staff / lead level; Genuine AI-native engineering; Backend / distributed / event-driven match. Concerns: comp unstated; remote unstated.",
+        "fit": 58,
+        "verdict": "possible",
+        "rationale": "Backend on Cash App Taxes — a fintech backend fit, but remote eligibility isn’t confirmed.",
         "matched": [
-          "Senior / staff / lead level",
-          "Genuine AI-native engineering",
-          "Backend / distributed / event-driven match"
+          "Backend",
+          "Fintech",
+          "Senior level"
         ],
         "concerns": [
-          "comp unstated",
-          "remote unstated"
+          "Remote eligibility unclear",
+          "Comp not disclosed"
+        ]
+      }
+    },
+    {
+      "id": "70b090a4",
+      "source": "greenhouse",
+      "company": "Block",
+      "title": "Software Engineer, Cash App - Lending Products",
+      "location": "Bay Area, CA, United States of America",
+      "remote": "unknown",
+      "url": "http://block.xyz/careers/jobs/5196173008?gh_jid=5196173008",
+      "descriptionText": "It all started with an idea at Block in 2013. Initially built to take the pain out of peer-to-peer payments, Cash App has gone from a simple product with a single purpose to a dynamic ecosystem, developing unique financial products, including Afterpay/Clearpay, to provide a better way to send, spend, invest, borrow and save to our 50+ million monthly active customers. We want to redefine the world's relationship with money to make it more relatable, instantly available, and universally accessibl",
+      "postedAt": "2026-07-03T11:57:17-04:00",
+      "score": {
+        "fit": 58,
+        "verdict": "possible",
+        "rationale": "Backend on Cash App Lending — a real fintech backend fit, held back by a mid-level title and unclear remote.",
+        "matched": [
+          "Backend",
+          "Fintech (lending)"
+        ],
+        "concerns": [
+          "Mid-level title",
+          "Remote eligibility unclear",
+          "Comp not disclosed"
+        ]
+      }
+    },
+    {
+      "id": "d62ff971",
+      "source": "greenhouse",
+      "company": "Airbnb",
+      "title": "Staff Machine Learning Engineer, Listings and Host Tools Data and AI",
+      "location": "Remote-USA",
+      "remote": true,
+      "url": "https://careers.airbnb.com/positions/7454348?gh_jid=7454348",
+      "descriptionText": "Airbnb was born in 2007 when two hosts welcomed three guests to their San Francisco home, and has since grown to over 5 million hosts who have welcomed over 2 billion guest arrivals in almost every country across the globe. Every day, hosts offer unique stays and experiences that make it possible for guests to connect with communities in a more authentic way.\n\nThe Community You Will Join:\n\nListings and Host Tools Data and AI (DnA) team: This team supports host personalization products and provid",
+      "postedAt": "2026-05-20T14:06:35-04:00",
+      "score": {
+        "fit": 56,
+        "verdict": "possible",
+        "rationale": "Staff Machine Learning Engineer, Listings — staff and remote at his top-choice company, but model-centric ML rather than Ryan’s AI-native engineering.",
+        "matched": [
+          "Staff level",
+          "Remote (US)",
+          "Top-choice company (Airbnb)"
+        ],
+        "concerns": [
+          "ML-modeling focus, not agentic/AI-native",
+          "Comp not disclosed"
+        ]
+      }
+    },
+    {
+      "id": "150d3e10",
+      "source": "greenhouse",
+      "company": "Airbnb",
+      "title": "Senior Machine Learning Engineer, Relevance and Personalization",
+      "location": "United States",
+      "remote": true,
+      "url": "https://careers.airbnb.com/positions/7258033?gh_jid=7258033",
+      "descriptionText": "Airbnb was born in 2007 when two hosts welcomed three guests to their San Francisco home, and has since grown to over 5 million hosts who have welcomed over 2 billion guest arrivals in almost every country across the globe. Every day, hosts offer unique stays and experiences that make it possible for guests to connect with communities in a more authentic way.\n\nThe Community You Will Join:\n\nThe Relevance and Personalization team at Airbnb is responsible for search and recommendation across the en",
+      "postedAt": "2026-07-01T19:35:38-04:00",
+      "score": {
+        "fit": 54,
+        "verdict": "weak",
+        "rationale": "Senior ML Engineer, Relevance — remote at his top-choice company, but ML modeling isn’t Ryan’s engineering focus.",
+        "matched": [
+          "Remote (US)",
+          "Top-choice company (Airbnb)"
+        ],
+        "concerns": [
+          "ML-modeling focus",
+          "Comp not disclosed"
+        ]
+      }
+    },
+    {
+      "id": "8ef30170",
+      "source": "ashby",
+      "company": "OpenAI",
+      "title": "Senior Data Engineer, Core Experimentation",
+      "location": "Seattle",
+      "remote": true,
+      "url": "https://jobs.ashbyhq.com/openai/2796d32a-9f7c-4008-a2c5-50dd53b0f2fe",
+      "descriptionText": "About the Team\n\nThe Statsig team at OpenAI https://openai.com?utm_source=chatgpt.com builds and operates the experimentation platform that powers product development, measurement, and decision-making across the company. We partner closely with product, engineering, and infrastructure teams to ensure experiments are trustworthy, statistically rigorous, and scalable to the needs of frontier AI products.\n\nOur mission is to help teams make better decisions through reliable experimentation. We care d",
+      "postedAt": "2026-05-14T16:24:02.877+00:00",
+      "compHint": "$293K - $325K",
+      "score": {
+        "fit": 52,
+        "verdict": "weak",
+        "rationale": "Senior Data Engineer, Core Experimentation — an experimentation platform touches backend, but it’s a data-engineering role, remote with strong comp.",
+        "matched": [
+          "Remote",
+          "Comp well above the floor"
+        ],
+        "concerns": [
+          "Data-engineering discipline"
+        ]
+      }
+    },
+    {
+      "id": "9efc71db",
+      "source": "greenhouse",
+      "company": "Airbnb",
+      "title": "Senior Data Engineer, People Analytics",
+      "location": "United States",
+      "remote": true,
+      "url": "https://careers.airbnb.com/positions/7988010?gh_jid=7988010",
+      "descriptionText": "Airbnb was born in 2007 when two hosts welcomed three guests to their San Francisco home, and has since grown to over 5 million hosts who have welcomed over 2 billion guest arrivals in almost every country across the globe. Every day, hosts offer unique stays and experiences that make it possible for guests to connect with communities in a more authentic way.\n\nThe Community you will join:\n\nPeople Analytics & Research is a strong team of Data Scientists, Researchers, and Analysts. Our work is hig",
+      "postedAt": "2026-06-25T18:27:03-04:00",
+      "score": {
+        "fit": 52,
+        "verdict": "weak",
+        "rationale": "Senior Data Engineer, People Analytics — remote and top-choice company, but data engineering for HR analytics is outside Ryan’s focus.",
+        "matched": [
+          "Remote (US)",
+          "Top-choice company (Airbnb)"
+        ],
+        "concerns": [
+          "Data-engineering discipline",
+          "HR-analytics niche",
+          "Comp not disclosed"
+        ]
+      }
+    },
+    {
+      "id": "b00e602d",
+      "source": "greenhouse",
+      "company": "Airbnb",
+      "title": "Principal AI/ML Researcher / Engineer In Reasoning, Planning, and Decision-making systems",
+      "location": "United States",
+      "remote": true,
+      "url": "https://careers.airbnb.com/positions/7955573?gh_jid=7955573",
+      "descriptionText": "Airbnb was born in 2007 when two hosts welcomed three guests to their San Francisco home, and has since grown to over 5 million hosts who have welcomed over 2 billion guest arrivals in almost every country across the globe. Every day, hosts offer unique stays and experiences that make it possible for guests to connect with communities in a more authentic way.\n\nAbout the Role\n\nWe are seeking a Principal / Distinguished AI/ML Researcher and/or Engineer with deep experience in reasoning, planning, ",
+      "postedAt": "2026-06-03T15:51:49-04:00",
+      "score": {
+        "fit": 50,
+        "verdict": "weak",
+        "rationale": "Principal AI/ML Researcher in reasoning/planning — a research role rather than the IC platform engineering Ryan does, though at his top-choice company.",
+        "matched": [
+          "Top-choice company (Airbnb)",
+          "Remote (US)"
+        ],
+        "concerns": [
+          "Research / ML-modeling, not engineering IC",
+          "Comp not disclosed"
+        ]
+      }
+    },
+    {
+      "id": "ee73c68e",
+      "source": "greenhouse",
+      "company": "Block",
+      "title": "Senior Business Systems Engineer",
+      "location": "Bay Area, CA, United States of America",
+      "remote": "unknown",
+      "url": "http://block.xyz/careers/jobs/4962872008?gh_jid=4962872008",
+      "descriptionText": "Block is one company built from many blocks, all united by the same purpose of economic empowerment. The blocks that form our foundational teams — People, Finance, Counsel, Hardware, Information Security, Platform Infrastructure Engineering, and more — provide support and guidance at the corporate level. They work across business groups and around the globe, spanning time zones and disciplines to develop inclusive People policies, forecast finances, give legal counsel, safeguard systems, nurture",
+      "postedAt": "2026-07-03T11:57:17-04:00",
+      "score": {
+        "fit": 50,
+        "verdict": "weak",
+        "rationale": "Senior Business Systems Engineer at Block — internal business-systems work is adjacent to Ryan’s backend focus, and remote is unclear.",
+        "matched": [
+          "Senior level",
+          "Backend-adjacent"
+        ],
+        "concerns": [
+          "Business-systems niche",
+          "Remote eligibility unclear"
+        ]
+      }
+    },
+    {
+      "id": "a0250310",
+      "source": "greenhouse",
+      "company": "Block",
+      "title": "Senior Data Engineer, Risk",
+      "location": "Bay Area, CA, United States of America",
+      "remote": "unknown",
+      "url": "http://block.xyz/careers/jobs/5281312008?gh_jid=5281312008",
+      "descriptionText": "It all started with an idea at Block in 2013. Initially built to take the pain out of peer-to-peer payments, Cash App has gone from a simple product with a single purpose to a dynamic ecosystem, developing unique financial products, including Afterpay/Clearpay, to provide a better way to send, spend, invest, borrow and save to our 50+ million monthly active customers. We want to redefine the world’s relationship with money to make it more relatable, instantly available, and universally accessibl",
+      "postedAt": "2026-07-03T11:57:17-04:00",
+      "score": {
+        "fit": 48,
+        "verdict": "weak",
+        "rationale": "Senior Data Engineer, Risk at Block — adjacent to backend, but data engineering isn’t Ryan’s focus and remote is unclear.",
+        "matched": [
+          "Senior level"
+        ],
+        "concerns": [
+          "Data-engineering discipline",
+          "Remote eligibility unclear"
+        ]
+      }
+    },
+    {
+      "id": "a4a523d6",
+      "source": "ashby",
+      "company": "OpenAI",
+      "title": "Solutions Architect, Digital Natives",
+      "location": "San Francisco",
+      "remote": true,
+      "url": "https://jobs.ashbyhq.com/openai/e827d138-22de-49f0-9de5-60f3e3ce07a0",
+      "descriptionText": "Solutions Architect, Digital Natives (OpenAI OpCo, LLC; San Francisco, CA):\n\nServe as the primary technical subject matter expert post-sale for a portfolio of customers, embedding deeply with them to design and deploy GenAI solutions. Engage with senior business and technical stakeholders to identify, prioritize, and validate the highest-value GenAI applications in their roadmap. Accelerate customer time to value by providing architectural guidance, building hands-on prototypes, and advising on ",
+      "postedAt": "2026-06-29T19:24:55.736+00:00",
+      "compHint": "$175K - $240K",
+      "score": {
+        "fit": 48,
+        "verdict": "weak",
+        "rationale": "A post-sale, customer-facing Solutions Architect deploying GenAI — AI-adjacent, but not the IC backend engineering Ryan does.",
+        "matched": [
+          "GenAI exposure",
+          "Remote"
+        ],
+        "concerns": [
+          "Customer-facing / post-sale, not core engineering",
+          "Base below the floor"
+        ]
+      }
+    },
+    {
+      "id": "da6b9ac4",
+      "source": "greenhouse",
+      "company": "Block",
+      "title": "Staff Machine Learning Engineer, Underwriting and Credit",
+      "location": "Bay Area, CA, United States of America",
+      "remote": "unknown",
+      "url": "http://block.xyz/careers/jobs/5198104008?gh_jid=5198104008",
+      "descriptionText": "Block builds technology to increase access to the global economy. Across our ecosystem, including Square and Cash App, we create tools that help businesses run and grow, and individuals move, manage, and grow their money with confidence.\n\nSquare empowers sellers of all sizes with integrated, omnichannel tools to accept payments, manage operations, access financial services, and reach customers across online and in-person channels.\n\nCash App complements this by providing a fast, accessible financ",
+      "postedAt": "2026-07-03T11:57:17-04:00",
+      "score": {
+        "fit": 46,
+        "verdict": "weak",
+        "rationale": "Staff ML Engineer, Underwriting at Block — staff level, but model-centric ML rather than AI-native engineering.",
+        "matched": [
+          "Staff level"
+        ],
+        "concerns": [
+          "ML-modeling focus",
+          "Remote eligibility unclear"
+        ]
+      }
+    },
+    {
+      "id": "a9c553fe",
+      "source": "greenhouse",
+      "company": "Block",
+      "title": "Senior Finance Systems Engineer: Oracle Fusion - Remote, US",
+      "location": "Bay Area, CA, United States of America",
+      "remote": "unknown",
+      "url": "http://block.xyz/careers/jobs/5249776008?gh_jid=5249776008",
+      "descriptionText": "Block is one company built from many blocks, all united by the same purpose of economic empowerment. The blocks that form our foundational teams — People, Finance, Counsel, Hardware, Information Security, Platform Infrastructure Engineering, and more — provide support and guidance at the corporate level. They work across business groups and around the globe, spanning time zones and disciplines to develop inclusive People policies, forecast finances, give legal counsel, safeguard systems, nurture",
+      "postedAt": "2026-07-03T11:57:17-04:00",
+      "score": {
+        "fit": 45,
+        "verdict": "weak",
+        "rationale": "Senior Finance Systems Engineer (Oracle Fusion) at Block — remote-US, but ERP/Fusion is a niche outside Ryan’s Java/Spring stack.",
+        "matched": [
+          "Backend-adjacent",
+          "Remote (US) in title"
+        ],
+        "concerns": [
+          "Oracle Fusion / ERP niche",
+          "Remote eligibility unclear"
+        ]
+      }
+    },
+    {
+      "id": "67177dec",
+      "source": "greenhouse",
+      "company": "Block",
+      "title": "Senior Machine Learning Engineer, AI Personalization",
+      "location": "Bay Area, CA, United States of America",
+      "remote": "unknown",
+      "url": "http://block.xyz/careers/jobs/4811589008?gh_jid=4811589008",
+      "descriptionText": "Block builds simple, powerful tools that make progress towards an economy that’s truly open to all. Each of our brands unlocks different aspects of the economy for more people. Square makes commerce and financial services accessible to sellers. Cash App is the easy way to spend, send, and store money. Afterpay is transforming the way customers manage their spending over time. TIDAL is a music platform that empowers artists to thrive as entrepreneurs. Bitkey is a simple self-custody wallet built ",
+      "postedAt": "2026-07-03T11:57:17-04:00",
+      "score": {
+        "fit": 45,
+        "verdict": "weak",
+        "rationale": "Senior ML Engineer, AI Personalization at Block — ML modeling, outside Ryan’s engineering focus, remote unclear.",
+        "matched": [
+          "Senior level"
+        ],
+        "concerns": [
+          "ML-modeling focus",
+          "Remote eligibility unclear"
+        ]
+      }
+    },
+    {
+      "id": "4cece832",
+      "source": "greenhouse",
+      "company": "Block",
+      "title": "Senior Machine Learning Engineer, Risk Modeling",
+      "location": "Bay Area, CA, United States of America",
+      "remote": "unknown",
+      "url": "http://block.xyz/careers/jobs/5198102008?gh_jid=5198102008",
+      "descriptionText": "Block builds simple, powerful tools that make progress towards an economy that’s truly open to all. Each of our brands unlocks different aspects of the economy for more people. Square makes commerce and financial services accessible to sellers. Cash App is the easy way to spend, send, and store money. Afterpay is transforming the way customers manage their spending over time. TIDAL is a music platform that empowers artists to thrive as entrepreneurs. Bitkey is a simple self-custody wallet built ",
+      "postedAt": "2026-07-03T11:57:17-04:00",
+      "score": {
+        "fit": 44,
+        "verdict": "weak",
+        "rationale": "Senior ML Engineer, Risk Modeling at Block — model-building rather than AI-native engineering.",
+        "matched": [
+          "Senior level"
+        ],
+        "concerns": [
+          "ML-modeling focus",
+          "Remote eligibility unclear"
+        ]
+      }
+    },
+    {
+      "id": "37157983",
+      "source": "greenhouse",
+      "company": "Block",
+      "title": "Senior ML/AI Modeler, Risk Automation Machine Learning",
+      "location": "Seattle, WA, United States of America",
+      "remote": "unknown",
+      "url": "http://block.xyz/careers/jobs/5198103008?gh_jid=5198103008",
+      "descriptionText": "Block builds simple, powerful tools that make progress towards an economy that’s truly open to all. Each of our brands unlocks different aspects of the economy for more people. Square makes commerce and financial services accessible to sellers. Cash App is the easy way to spend, send, and store money. Afterpay is transforming the way customers manage their spending over time. TIDAL is a music platform that empowers artists to thrive as entrepreneurs. Bitkey is a simple self-custody wallet built ",
+      "postedAt": "2026-07-03T11:57:17-04:00",
+      "score": {
+        "fit": 44,
+        "verdict": "weak",
+        "rationale": "Senior ML/AI Modeler, Risk Automation at Block — modeling-centric, outside Ryan’s engineering focus.",
+        "matched": [
+          "Senior level"
+        ],
+        "concerns": [
+          "ML-modeling focus",
+          "Remote eligibility unclear"
+        ]
+      }
+    },
+    {
+      "id": "ac34bd58",
+      "source": "greenhouse",
+      "company": "Block",
+      "title": "Senior Salesforce Engineer",
+      "location": "Bay Area, CA, United States of America",
+      "remote": "unknown",
+      "url": "http://block.xyz/careers/jobs/5249770008?gh_jid=5249770008",
+      "descriptionText": "Block is one company built from many blocks, all united by the same purpose of economic empowerment. The blocks that form our foundational teams — People, Finance, Counsel, Hardware, Information Security, Platform Infrastructure Engineering, and more — provide support and guidance at the corporate level. They work across business groups and around the globe, spanning time zones and disciplines to develop inclusive People policies, forecast finances, give legal counsel, safeguard systems, nurture",
+      "postedAt": "2026-07-03T11:57:17-04:00",
+      "score": {
+        "fit": 42,
+        "verdict": "weak",
+        "rationale": "Senior Salesforce Engineer at Block — Salesforce platform development is a niche outside Ryan’s backend stack.",
+        "matched": [
+          "Senior level"
+        ],
+        "concerns": [
+          "Salesforce niche",
+          "Remote eligibility unclear"
+        ]
+      }
+    },
+    {
+      "id": "b9c917b6",
+      "source": "ashby",
+      "company": "Ramp",
+      "title": "Security Engineer, Cloud",
+      "location": "New York, NY (HQ)",
+      "remote": true,
+      "url": "https://jobs.ashbyhq.com/ramp/34413f8d-26bf-4bbc-8ade-eb309a0e2245",
+      "descriptionText": "ABOUT RAMP\n\nRamp is building the smart infrastructure for finance teams, embedded in the transaction flow of every dollar a business spends. We automate how over $200B in annualized spend flows in and out of 70,000+ companies: authorizing payments, flagging risk, categorizing spend, and closing books.\n\nThe problems are high-stakes, data-dense, and unforgiving.\n\nWe hire people with high agency and high urgency. We look for slope over intercept. We care less about where you trained and more about ",
+      "postedAt": "2026-04-07T17:12:35.753+00:00",
+      "compHint": "$211.4K - $290.6K",
+      "score": {
+        "fit": 40,
+        "verdict": "weak",
+        "rationale": "Cloud security engineering at Ramp — strong comp and remote, but security is a different discipline from Ryan’s backend/AI focus.",
+        "matched": [
+          "Remote",
+          "Comp clears the floor"
+        ],
+        "concerns": [
+          "Security discipline"
+        ]
+      }
+    },
+    {
+      "id": "88c89abb",
+      "source": "ashby",
+      "company": "Ramp",
+      "title": "Security Engineer, Product",
+      "location": "New York, NY (HQ)",
+      "remote": true,
+      "url": "https://jobs.ashbyhq.com/ramp/7c26780b-7923-42d5-8111-9825ff996966",
+      "descriptionText": "ABOUT RAMP\n\nRamp is building the smart infrastructure for finance teams, embedded in the transaction flow of every dollar a business spends. We automate how over $200B in annualized spend flows in and out of 70,000+ companies: authorizing payments, flagging risk, categorizing spend, and closing books.\n\nThe problems are high-stakes, data-dense, and unforgiving.\n\nWe hire people with high agency and high urgency. We look for slope over intercept. We care less about where you trained and more about ",
+      "postedAt": "2026-01-20T21:47:15.308+00:00",
+      "compHint": "$257,800 - $354,550",
+      "score": {
+        "fit": 40,
+        "verdict": "weak",
+        "rationale": "Product security engineering at Ramp — top comp and remote, but outside Ryan’s backend/AI focus.",
+        "matched": [
+          "Remote",
+          "Comp well above the floor"
+        ],
+        "concerns": [
+          "Security discipline"
+        ]
+      }
+    },
+    {
+      "id": "ddf669af",
+      "source": "greenhouse",
+      "company": "Block",
+      "title": "Senior Security Engineer, Platform Security",
+      "location": "Bay Area, CA, United States of America",
+      "remote": "unknown",
+      "url": "http://block.xyz/careers/jobs/5231316008?gh_jid=5231316008",
+      "descriptionText": "Block builds simple, powerful tools that make progress towards an economy that’s truly open to all.\n\nEach of our brands unlocks different aspects of the economy for more people. Square makes commerce and financial services accessible to sellers. Cash App is the easy way to spend, send, and store money. Afterpay is transforming the way customers manage their spending over time. TIDAL is a music platform that empowers artists to thrive as entrepreneurs. Bitkey is a simple self-custody wallet built",
+      "postedAt": "2026-07-03T11:57:17-04:00",
+      "score": {
+        "fit": 40,
+        "verdict": "weak",
+        "rationale": "Senior Security Engineer, Platform Security at Block — security is a different discipline from Ryan’s backend/AI focus.",
+        "matched": [
+          "Senior level"
+        ],
+        "concerns": [
+          "Security discipline",
+          "Remote eligibility unclear"
+        ]
+      }
+    },
+    {
+      "id": "9ff52919",
+      "source": "ashby",
+      "company": "OpenAI",
+      "title": "Audiovisual Design Engineer",
+      "location": "San Francisco",
+      "remote": true,
+      "url": "https://jobs.ashbyhq.com/openai/cc11f3f0-8b04-488c-9567-4165a4fad17b",
+      "descriptionText": "About the Team\n\nOpenAI’s IT organization supports the mission of deploying artificial general intelligence (AGI) for the benefit of all. Our team is committed to providing seamless technological support and solutions to ensure that all OpenAI employees are well-equipped and connected. This enables them to contribute effectively towards our AI research, corporate operations and product initiatives.\n\nAbout the Role\n\nAs an Audiovisual (AV) Engineer at OpenAI you will play a pivotal role in designin",
+      "postedAt": "2026-06-02T16:34:16.975+00:00",
+      "compHint": "$251K - $264K",
+      "score": {
+        "fit": 38,
+        "verdict": "weak",
+        "rationale": "Audiovisual Design Engineer — a hardware/AV-leaning design role outside Ryan’s software backend focus, despite strong comp.",
+        "matched": [
+          "Remote",
+          "Comp well above the floor"
+        ],
+        "concerns": [
+          "AV / design engineering, not backend software"
+        ]
+      }
+    },
+    {
+      "id": "c913e7f1",
+      "source": "ashby",
+      "company": "Ramp",
+      "title": "Staff Software Engineer | iOS",
+      "location": "New York, NY (HQ)",
+      "remote": true,
+      "url": "https://jobs.ashbyhq.com/ramp/0ed80a29-6cca-42d7-b7e0-066d4fa7b37f",
+      "descriptionText": "ABOUT RAMP\n\nRamp is building the smart infrastructure for finance teams, embedded in the transaction flow of every dollar a business spends. We automate how over $200B in annualized spend flows in and out of 70,000+ companies: authorizing payments, flagging risk, categorizing spend, and closing books.\n\nThe problems are high-stakes, data-dense, and unforgiving.\n\nWe hire people with high agency and high urgency. We look for slope over intercept. We care less about where you trained and more about ",
+      "postedAt": "2026-06-26T01:57:53.065+00:00",
+      "compHint": "$189K - $330K",
+      "score": {
+        "fit": 36,
+        "verdict": "weak",
+        "rationale": "A staff iOS role at Ramp with strong comp, but mobile engineering is outside Ryan’s backend focus.",
+        "matched": [
+          "Staff level",
+          "Comp clears the floor"
+        ],
+        "concerns": [
+          "iOS / mobile role"
+        ]
+      }
+    },
+    {
+      "id": "c6935ebb",
+      "source": "greenhouse",
+      "company": "Block",
+      "title": "Staff Android Software Engineer, Cash App Consumer Platform",
+      "location": "New York, NY, United States of America",
+      "remote": "unknown",
+      "url": "http://block.xyz/careers/jobs/5238423008?gh_jid=5238423008",
+      "descriptionText": "It all started with an idea at Block in 2013. Initially built to take the pain out of peer-to-peer payments, Cash App has gone from a simple product with a single purpose to a dynamic ecosystem, developing unique financial products, including Afterpay/Clearpay, to provide a better way to send, spend, invest, borrow and save to our 50+ million monthly active customers. We want to redefine the world's relationship with money to make it more relatable, instantly available, and universally accessibl",
+      "postedAt": "2026-07-03T11:57:17-04:00",
+      "score": {
+        "fit": 33,
+        "verdict": "weak",
+        "rationale": "Android engineering on Cash App — a reputable fintech, but a mobile role outside Ryan’s backend/AI strengths.",
+        "matched": [
+          "Staff level",
+          "Fintech (Cash App)"
+        ],
+        "concerns": [
+          "Android / mobile role",
+          "Remote eligibility unclear",
+          "Comp not disclosed"
+        ]
+      }
+    },
+    {
+      "id": "7bea4a22",
+      "source": "ashby",
+      "company": "OpenAI",
+      "title": "Android Engineer, Applied Foundations",
+      "location": "San Francisco",
+      "remote": "unknown",
+      "url": "https://jobs.ashbyhq.com/openai/6202038a-323b-43ce-ae10-534acba4145c",
+      "descriptionText": "About the Team\n\nOpenAI’s Applications Engineering organization builds and operates the products that bring our cutting-edge research to millions of users and developers worldwide. The Applied Foundations team owns the core product and platform layers that make those experiences possible — from identity & access, to safety to payments & commerce across all of our apps. Our teams span product engineering, infrastructure, and safety, working together to deliver technology that is reliable, secure, ",
+      "postedAt": "2026-01-20T21:18:26.922+00:00",
+      "compHint": "$230K - $385K",
+      "score": {
+        "fit": 30,
+        "verdict": "weak",
+        "rationale": "An Android role at OpenAI — same story: great company, wrong discipline for Ryan.",
+        "matched": [
+          "Comp well above the floor"
+        ],
+        "concerns": [
+          "Android / mobile role",
+          "Remote unclear — SF-based, likely on-site/hybrid"
+        ]
+      }
+    },
+    {
+      "id": "3eac4a26",
+      "source": "ashby",
+      "company": "OpenAI",
+      "title": "iOS Engineer, Applied Foundations",
+      "location": "San Francisco",
+      "remote": "unknown",
+      "url": "https://jobs.ashbyhq.com/openai/775240dd-6d36-401a-acca-128df0459610",
+      "descriptionText": "About the Team\n\nOpenAI’s Applications Engineering organization builds and operates the products that bring our cutting-edge research to millions of users and developers worldwide. The Applied Foundations team owns the core product and platform layers that make those experiences possible — from identity & access, to safety to payments & commerce across all of our apps. Our teams span product engineering, infrastructure, and safety, working together to deliver technology that is reliable, secure, ",
+      "postedAt": "2026-01-20T21:19:01.490+00:00",
+      "compHint": "$230K - $385K",
+      "score": {
+        "fit": 30,
+        "verdict": "weak",
+        "rationale": "An iOS role at OpenAI — frontier company and comp, but mobile is outside Ryan’s focus.",
+        "matched": [
+          "Comp well above the floor"
+        ],
+        "concerns": [
+          "iOS / mobile role",
+          "Remote unclear — SF-based, likely on-site/hybrid"
         ]
       }
     }

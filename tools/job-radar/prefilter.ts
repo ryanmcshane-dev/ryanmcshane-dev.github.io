@@ -9,7 +9,9 @@
  *  1. `excludeTitles` — too-junior / off-track title. Takes precedence (§6).
  *  2. `roleFamily`    — title must read as an engineering / AI role.
  *  3. remote          — on-site-only is dropped; hybrid / unknown are kept (unknown is flagged).
- *  4. comp floor      — a *stated* USD top-of-range below the floor is dropped; unstated / non-USD
+ *  4. location        — clearly non-US is dropped; a US signal keeps it, an unrecognized location
+ *                       passes and is flagged (never dropped on a geography we can't read).
+ *  5. comp floor      — a *stated* USD top-of-range below the floor is dropped; unstated / non-USD
  *                       comp passes and is flagged (never dropped on comp we can't read).
  */
 import type { FitSpec } from './fitSpec';
@@ -18,7 +20,27 @@ import type { Posting } from './types';
 import { matchedKeywords, matchesAnyKeyword } from './util';
 
 /** Why a posting was dropped by a hard gate. */
-export type DropReason = 'excluded-title' | 'off-role-family' | 'on-site-only' | 'below-comp-floor';
+export type DropReason =
+  | 'excluded-title'
+  | 'off-role-family'
+  | 'on-site-only'
+  | 'non-us-location'
+  | 'below-comp-floor';
+
+/** Geographic read of a posting's location string against the fit spec. */
+export type LocationClass = 'us' | 'non-us' | 'ambiguous';
+
+/**
+ * Classify a location string: `'us'` when a US signal is present (takes precedence), `'non-us'` when
+ * only a blocked non-US region matches, `'ambiguous'` when neither fires (a bare "Remote", an
+ * unrecognized city). Whole-word matching, so `us` hits "Remote — US" but not "Belarus".
+ */
+export function classifyLocation(location: string, spec: FitSpec['location']): LocationClass {
+  const text = location ?? '';
+  if (matchesAnyKeyword(text, spec.usSignals)) return 'us';
+  if (matchesAnyKeyword(text, spec.blockRegions)) return 'non-us';
+  return 'ambiguous';
+}
 
 /** A posting removed by a hard gate, with the reason and a short human detail. */
 export interface DroppedPosting {
@@ -109,7 +131,26 @@ export function prefilter(postings: Posting[], spec: FitSpec = fitSpec): Prefilt
       continue;
     }
 
-    // 4. Comp floor — drop only when a stated USD top-of-range is below the floor.
+    // 4. Location — must read as US-based / US-remote-eligible. A clearly non-US location is a hard
+    //    drop; an unrecognized location survives but is flagged (see below). "Remote" alone reads as
+    //    ambiguous, not US — so a "Remote - Brazil" role is dropped, a bare "Remote" is flagged.
+    let locationFlag: string | undefined;
+    if (spec.location.usOnly) {
+      const geo = classifyLocation(posting.location, spec.location);
+      if (geo === 'non-us') {
+        dropped.push({
+          posting,
+          reason: 'non-us-location',
+          detail: `location "${posting.location}" reads as outside the US`,
+        });
+        continue;
+      }
+      if (geo === 'ambiguous') {
+        locationFlag = `location "${posting.location}" — confirm US eligibility`;
+      }
+    }
+
+    // 5. Comp floor — drop only when a stated USD top-of-range is below the floor.
     const topUsd = parseTopUsd(posting.compHint);
     if (topUsd !== null && topUsd < spec.compFloorUsd) {
       dropped.push({
@@ -123,6 +164,7 @@ export function prefilter(postings: Posting[], spec: FitSpec = fitSpec): Prefilt
     // Survivor — collect soft flags for the rationale.
     const flags: string[] = [];
     if (topUsd === null) flags.push(posting.compHint ? 'comp not USD-verifiable' : 'comp unstated');
+    if (locationFlag) flags.push(locationFlag);
     if (posting.remote === 'hybrid') flags.push('hybrid (partial remote)');
     if (posting.remote === 'unknown') flags.push('remote unstated');
 

@@ -18,6 +18,21 @@ describe('fitSpec confirmed values (SPEC.md §6)', () => {
     );
   });
 
+  it('gates to US-only with US signals and a non-US block list', () => {
+    expect(fitSpec.location.usOnly).toBe(true);
+    expect(fitSpec.location.usSignals).toEqual(
+      expect.arrayContaining(['united states', 'usa', 'us']),
+    );
+    expect(fitSpec.location.blockRegions).toEqual(
+      expect.arrayContaining(['brazil', 'india', 'canada']),
+    );
+    // The two lists must not overlap, or a US signal and a block would both fire on one term.
+    const overlap = fitSpec.location.usSignals.filter((s) =>
+      fitSpec.location.blockRegions.includes(s),
+    );
+    expect(overlap).toEqual([]);
+  });
+
   it('weights AI-native engineering the highest of the nice-to-haves', () => {
     const byId = Object.fromEntries(fitSpec.weighted.map((w) => [w.id, w.weight]));
     const max = Math.max(...fitSpec.weighted.map((w) => w.weight));
@@ -48,6 +63,8 @@ describe('fitSpec structural invariants', () => {
     const all = [
       ...fitSpec.roleFamily,
       ...fitSpec.excludeTitles,
+      ...fitSpec.location.usSignals,
+      ...fitSpec.location.blockRegions,
       ...fitSpec.weighted.flatMap((w) => w.keywords),
     ];
     for (const kw of all) {

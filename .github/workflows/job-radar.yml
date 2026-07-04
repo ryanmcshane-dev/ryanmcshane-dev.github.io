@@ -34,6 +34,11 @@ jobs:
         run: npm ci
 
       - name: Run Job Radar (fetch → pre-filter → Tier-1 score)
+        # Adzuna is optional: if these repo secrets are unset they resolve to empty strings and the
+        # aggregator is skipped, so the run still works with no secrets and no paid API.
+        env:
+          ADZUNA_APP_ID: ${{ secrets.ADZUNA_APP_ID }}
+          ADZUNA_APP_KEY: ${{ secrets.ADZUNA_APP_KEY }}
         run: npm run radar
 
       - name: Commit refreshed data if changed

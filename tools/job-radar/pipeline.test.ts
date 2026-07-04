@@ -97,6 +97,7 @@ describe('assembleReports', () => {
       'excluded-title': 1,
       'off-role-family': 0,
       'on-site-only': 1,
+      'non-us-location': 0,
       'below-comp-floor': 0,
     });
     const reasons = candidates.droppedSample.map((d) => d.reason).sort();
@@ -148,7 +149,13 @@ describe('writeRadarFiles', () => {
       kept: 0,
       dropped: 0,
       byVerdict: { strong: 0, possible: 0, weak: 0, skip: 0 },
-      droppedByReason: { 'excluded-title': 0, 'off-role-family': 0, 'on-site-only': 0, 'below-comp-floor': 0 },
+      droppedByReason: {
+        'excluded-title': 0,
+        'off-role-family': 0,
+        'on-site-only': 0,
+        'non-us-location': 0,
+        'below-comp-floor': 0,
+      },
     },
     errors: [],
     items: [],

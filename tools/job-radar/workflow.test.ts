@@ -39,9 +39,16 @@ describe('job-radar workflow', () => {
     expect(workflow).toMatch(/git diff --staged --quiet/);
   });
 
-  it('carries no secrets — the autonomous path is zero-cost, zero-key', () => {
-    expect(workflow).not.toMatch(/secrets\./);
+  it('carries no paid-API secrets — the pipeline never calls a metered API', () => {
     expect(workflow).not.toMatch(/ANTHROPIC_API_KEY/);
+    expect(workflow).not.toMatch(/OPENAI_API_KEY/);
+  });
+
+  it('references only the optional free-tier Adzuna credentials (and stays runnable without them)', () => {
+    const secretRefs = workflow.match(/secrets\.\w+/g) ?? [];
+    for (const ref of secretRefs) {
+      expect(ref).toMatch(/secrets\.ADZUNA_APP_(ID|KEY)/);
+    }
   });
 
   it('has write permissions to push data and dispatch the deploy', () => {

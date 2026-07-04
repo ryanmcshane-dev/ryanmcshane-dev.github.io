@@ -3,21 +3,30 @@
  * and dedupe the results. One bad board never fails the whole run — its error is collected and
  * the rest proceed.
  */
-import type { AtsSource, CompanyConfig, FetchLike, Posting } from '../types';
+import type { AtsSource, CompanyConfig, FetchLike, Posting, PostingSource } from '../types';
 import { normalizeKey, normalizeUrl } from '../util';
 import { fetchGreenhouse } from './greenhouse';
 import { fetchLever } from './lever';
 import { fetchAshby } from './ashby';
+import { type AdzunaCreds, fetchAdzuna, getAdzunaCreds } from './adzuna';
 
 export interface SourceError {
   company: string;
-  ats: AtsSource;
+  /** Which source failed — an ATS board or the Adzuna aggregator. */
+  ats: PostingSource;
   message: string;
 }
 
 export interface SourceRunResult {
   postings: Posting[];
   errors: SourceError[];
+}
+
+/** Optional query-based sources layered on top of the curated ATS fan-out. */
+export interface CollectOptions {
+  /** Adzuna credentials. Defaults to reading the environment; `null` disables Adzuna. */
+  adzunaCreds?: AdzunaCreds | null;
+  adzunaQueries?: string[];
 }
 
 type Fetcher = (company: CompanyConfig, fetchImpl?: FetchLike) => Promise<Posting[]>;
@@ -28,10 +37,14 @@ const FETCHERS: Record<AtsSource, Fetcher> = {
   ashby: fetchAshby,
 };
 
-/** Fetch + normalize every company's board, isolating failures, then dedupe the merged set. */
+/**
+ * Fetch + normalize every company's board plus any enabled aggregator (Adzuna), isolating failures
+ * per source, then dedupe the merged set. One bad source never fails the run.
+ */
 export async function collectPostings(
   companies: CompanyConfig[],
   fetchImpl?: FetchLike,
+  options: CollectOptions = {},
 ): Promise<SourceRunResult> {
   const errors: SourceError[] = [];
   const perCompany = await Promise.all(
@@ -48,7 +61,23 @@ export async function collectPostings(
       }
     }),
   );
-  return { postings: dedupe(perCompany.flat()), errors };
+  const pool = perCompany.flat();
+
+  // Adzuna (optional): enabled only when credentials are present, so the no-secrets path is unaffected.
+  const adzunaCreds = options.adzunaCreds !== undefined ? options.adzunaCreds : getAdzunaCreds();
+  if (adzunaCreds) {
+    try {
+      pool.push(...(await fetchAdzuna(adzunaCreds, options.adzunaQueries, fetchImpl)));
+    } catch (err) {
+      errors.push({
+        company: 'Adzuna',
+        ats: 'adzuna',
+        message: err instanceof Error ? err.message : String(err),
+      });
+    }
+  }
+
+  return { postings: dedupe(pool), errors };
 }
 
 /** Sortable freshness: parsed `postedAt`, or 0 when absent/unparseable. */
