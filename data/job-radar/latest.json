@@ -1,22 +1,22 @@
 {
-  "generatedAt": "2026-07-04T16:44:26.105Z",
+  "generatedAt": "2026-07-05T16:50:17.506Z",
   "tier": "tier-1",
   "counts": {
-    "fetched": 1444,
-    "kept": 375,
-    "dropped": 1069,
+    "fetched": 1616,
+    "kept": 498,
+    "dropped": 1118,
     "byVerdict": {
-      "strong": 78,
-      "possible": 214,
-      "weak": 82,
-      "skip": 1
+      "strong": 87,
+      "possible": 257,
+      "weak": 149,
+      "skip": 5
     },
     "droppedByReason": {
-      "excluded-title": 564,
-      "off-role-family": 369,
+      "excluded-title": 585,
+      "off-role-family": 373,
       "on-site-only": 10,
-      "non-us-location": 126,
-      "below-comp-floor": 0
+      "non-us-location": 130,
+      "below-comp-floor": 20
     }
   },
   "errors": [],
@@ -375,13 +375,13 @@
       }
     },
     {
-      "id": "79209ae1",
+      "id": "d41f5c29",
       "source": "greenhouse",
       "company": "Block",
       "title": "Senior Software Engineer, Square Financial Services",
-      "location": "New York, NY, United States of America",
+      "location": "Bay Area, CA, United States of America",
       "remote": "unknown",
-      "url": "http://block.xyz/careers/jobs/5284783008?gh_jid=5284783008",
+      "url": "http://block.xyz/careers/jobs/5284343008?gh_jid=5284343008",
       "descriptionText": "Block is one company built from many blocks, all united by the same purpose of economic empowerment. The blocks that form our foundational teams — People, Finance, Counsel, Hardware, Information Security, Platform Infrastructure Engineering, and more — provide support and guidance at the corporate level. They work across business groups and around the globe, spanning time zones and disciplines to develop inclusive People policies, forecast finances, give legal counsel, safeguard systems, nurture new initiatives, and more. Every challenge creates possibilities, and we need different…",
       "postedAt": "2026-07-03T11:57:17-04:00",
       "score": {
@@ -401,13 +401,13 @@
       }
     },
     {
-      "id": "70b090a4",
+      "id": "98303f35",
       "source": "greenhouse",
       "company": "Block",
       "title": "Software Engineer, Cash App - Lending Products",
-      "location": "Bay Area, CA, United States of America",
+      "location": "New York, NY, United States of America",
       "remote": "unknown",
-      "url": "http://block.xyz/careers/jobs/5196173008?gh_jid=5196173008",
+      "url": "http://block.xyz/careers/jobs/5201726008?gh_jid=5201726008",
       "descriptionText": "It all started with an idea at Block in 2013. Initially built to take the pain out of peer-to-peer payments, Cash App has gone from a simple product with a single purpose to a dynamic ecosystem, developing unique financial products, including Afterpay/Clearpay, to provide a better way to send, spend, invest, borrow and save to our 50+ million monthly active customers. We want to redefine the world's relationship with money to make it more relatable, instantly available, and universally accessible.\n\nToday, Cash App has thousands of employees working globally across office and remote locations,…",
       "postedAt": "2026-07-03T11:57:17-04:00",
       "score": {
@@ -752,6 +752,284 @@
       }
     },
     {
+      "id": "ff6152d6",
+      "source": "adzuna",
+      "company": "Amazon",
+      "title": "Senior Software Development Engineer - AWS Agentic WorkSpaces, EUC Streaming Foundation",
+      "location": "Seattle, King County",
+      "remote": "unknown",
+      "url": "https://www.adzuna.com/land/ad/5788815248?se=plVLmJF48RGw99DSBwaIyw&utm_medium=api&utm_source=e9201d43&v=79E6DC2FFDFDA4E125D01FA9BF405679C466720B",
+      "descriptionText": "As part of the AWS Applied AI Solutions organization, we have a vision to provide business applications, leveraging Amazon’s unique experience and expertise, that are used by millions of companies worldwide to manage day-to-day operations. We will accomplish this by accelerating our customers’ businesses through delivery of intuitive and differentiated technology solutions that solve enduring business challenges. We blend vision with curiosity and Amazon’s real-world experience to build opinion…",
+      "postedAt": "2026-07-05T02:09:36Z",
+      "score": {
+        "fit": 80,
+        "verdict": "strong",
+        "rationale": "Senior Software Development Engineer - AWS Agentic WorkSpaces, EUC Streaming Foundation at Amazon scores 80/100 (strong) on the Tier-1 deterministic pass. Matched: Senior / staff / lead level; Genuine AI-native engineering; Backend / distributed / event-driven match. Concerns: comp unstated; remote unstated.",
+        "matched": [
+          "Senior / staff / lead level",
+          "Genuine AI-native engineering",
+          "Backend / distributed / event-driven match"
+        ],
+        "concerns": [
+          "comp unstated",
+          "remote unstated"
+        ]
+      }
+    },
+    {
+      "id": "f7c3c660",
+      "source": "adzuna",
+      "company": "StackAI",
+      "title": "Senior Software Engineer, Engine & Distributed Systems",
+      "location": "San Francisco, California",
+      "remote": "unknown",
+      "url": "https://www.adzuna.com/details/5788765495?utm_medium=api&utm_source=e9201d43",
+      "descriptionText": "About the Company StackAI (by Asana) is a no-code AI workflow platform that empowers companies to build, deploy, and scale AI-powered workflows easily. With thousands of users and rapidly growing enterprise adoption, our mission is to democratize access to LLMs and bring AI into the hands of every business operator, not just developers. An Asana Company, we're building the foundational platform for the AI-driven future of work The role Enterprises run real work on AI agents, and at StackAI that…",
+      "postedAt": "2026-07-05T00:07:20Z",
+      "compHint": "$202,000 - $230,000",
+      "score": {
+        "fit": 80,
+        "verdict": "strong",
+        "rationale": "Senior Software Engineer, Engine & Distributed Systems at StackAI scores 80/100 (strong) on the Tier-1 deterministic pass. Matched: Senior / staff / lead level; Genuine AI-native engineering; Backend / distributed / event-driven match. Concerns: remote unstated.",
+        "matched": [
+          "Senior / staff / lead level",
+          "Genuine AI-native engineering",
+          "Backend / distributed / event-driven match"
+        ],
+        "concerns": [
+          "remote unstated"
+        ]
+      }
+    },
+    {
+      "id": "a228c4d7",
+      "source": "adzuna",
+      "company": "Amazon",
+      "title": "Sr. Software Development Engineer, Bedrock AgentCore Knowledge Bases",
+      "location": "New York City, New York",
+      "remote": "unknown",
+      "url": "https://www.adzuna.com/land/ad/5788761887?se=plVLmJF48RGw99DSBwaIyw&utm_medium=api&utm_source=e9201d43&v=03DC7D5EFFBD5E92BC5AD33937DFF10E356F74C9",
+      "descriptionText": "Interested in high-scale distributed systems and Gen AI? Our team develops Amazon Bedrock Knowledge Bases, a fully managed service for end-to-end Retrieval Augmented Generation (RAG) workflow. Our team's mission is to make it easier for customers to build AI applications with contextual information from their enteprise data to deliver more relevant, accurate, and customized responses. We continuously develop new features to address real-world problems through research and innovation, such as 1/…",
+      "postedAt": "2026-07-04T23:57:09Z",
+      "score": {
+        "fit": 80,
+        "verdict": "strong",
+        "rationale": "Sr. Software Development Engineer, Bedrock AgentCore Knowledge Bases at Amazon scores 80/100 (strong) on the Tier-1 deterministic pass. Matched: Senior / staff / lead level; Genuine AI-native engineering; Backend / distributed / event-driven match. Concerns: comp unstated; remote unstated.",
+        "matched": [
+          "Senior / staff / lead level",
+          "Genuine AI-native engineering",
+          "Backend / distributed / event-driven match"
+        ],
+        "concerns": [
+          "comp unstated",
+          "remote unstated"
+        ]
+      }
+    },
+    {
+      "id": "101538ae",
+      "source": "adzuna",
+      "company": "JPMorgan Chase Bank, N.A.",
+      "title": "Senior Lead Software Engineer - Python/AWS/AI/LLM",
+      "location": "Summit Avenue, Hudson County",
+      "remote": "unknown",
+      "url": "https://www.adzuna.com/details/5788310196?utm_medium=api&utm_source=e9201d43",
+      "descriptionText": "Be an integral part of an agile team that's constantly pushing the envelope to enhance, build, and deliver top-notch technology products. As a Senior Lead Software Engineer - Python/AWS/AI/LLM at JPMorganChase within the Asset Wealth Management team, you are an integral part of an agile team that works to enhance, build, and deliver trusted market-leading technology products in a secure, stable, and scalable way. Drive significant business impact through your capabilities and contributions, and…",
+      "postedAt": "2026-07-04T17:58:52Z",
+      "score": {
+        "fit": 80,
+        "verdict": "strong",
+        "rationale": "Senior Lead Software Engineer - Python/AWS/AI/LLM at JPMorgan Chase Bank, N.A. scores 80/100 (strong) on the Tier-1 deterministic pass. Matched: Senior / staff / lead level; Genuine AI-native engineering; Backend / distributed / event-driven match. Concerns: comp unstated; location \"Summit Avenue, Hudson County\" — confirm US eligibility; remote unstated.",
+        "matched": [
+          "Senior / staff / lead level",
+          "Genuine AI-native engineering",
+          "Backend / distributed / event-driven match"
+        ],
+        "concerns": [
+          "comp unstated",
+          "location \"Summit Avenue, Hudson County\" — confirm US eligibility",
+          "remote unstated"
+        ]
+      }
+    },
+    {
+      "id": "4aa5fe2e",
+      "source": "adzuna",
+      "company": "JPMorgan Chase Bank, N.A.",
+      "title": "Java/AWS/Agentic Senior Lead Software Engineer",
+      "location": "East Lake-Orient Park, Hillsborough County",
+      "remote": "unknown",
+      "url": "https://www.adzuna.com/details/5788309961?utm_medium=api&utm_source=e9201d43",
+      "descriptionText": "Be an integral part of an agile team that's constantly pushing the envelope to enhance, build, and deliver top-notch technology products. As a Senior Lead Software Engineer at JPMorganChase within the Payments Trust and Safety Technology group, you are an integral part of an agile team that works to enhance, build, and deliver trusted market-leading technology products in a secure, stable, and scalable way. You will be part of the Fraud Protection group, building solutions for merchants to prot…",
+      "postedAt": "2026-07-04T17:58:51Z",
+      "score": {
+        "fit": 80,
+        "verdict": "strong",
+        "rationale": "Java/AWS/Agentic Senior Lead Software Engineer at JPMorgan Chase Bank, N.A. scores 80/100 (strong) on the Tier-1 deterministic pass. Matched: Senior / staff / lead level; Genuine AI-native engineering; Backend / distributed / event-driven match. Concerns: comp unstated; location \"East Lake-Orient Park, Hillsborough County\" — confirm US eligibility; remote unstated.",
+        "matched": [
+          "Senior / staff / lead level",
+          "Genuine AI-native engineering",
+          "Backend / distributed / event-driven match"
+        ],
+        "concerns": [
+          "comp unstated",
+          "location \"East Lake-Orient Park, Hillsborough County\" — confirm US eligibility",
+          "remote unstated"
+        ]
+      }
+    },
+    {
+      "id": "fef2fc9d",
+      "source": "adzuna",
+      "company": "Google",
+      "title": "Senior Staff Software Engineer, Agent Registry and AppHub",
+      "location": "Sunnyvale, Santa Clara County",
+      "remote": "unknown",
+      "url": "https://www.adzuna.com/land/ad/5787948364?se=XmnZmJF48RG-cvvra3L-5Q&utm_medium=api&utm_source=e9201d43&v=2902886D78DF59F2C9DAE9BC012057D8863785A2",
+      "descriptionText": "Minimum qualifications: Bachelor's degree or equivalent practical experience. 8 years of experience programming in C++ or Go. 8 years of experience with large-scale distributed systems. 5 years of experience with design and architecture; and testing/launching software products. 5 years of experience with Cloud. 3 years of experience with Graph Algorithms. Preferred qualifications: Master’s degree or PhD in Engineering, Computer Science, or a related technical field. 8 years of experience with d…",
+      "postedAt": "2026-07-04T06:32:41Z",
+      "score": {
+        "fit": 80,
+        "verdict": "strong",
+        "rationale": "Senior Staff Software Engineer, Agent Registry and AppHub at Google scores 80/100 (strong) on the Tier-1 deterministic pass. Matched: Senior / staff / lead level; Genuine AI-native engineering; Backend / distributed / event-driven match. Concerns: comp unstated; remote unstated.",
+        "matched": [
+          "Senior / staff / lead level",
+          "Genuine AI-native engineering",
+          "Backend / distributed / event-driven match"
+        ],
+        "concerns": [
+          "comp unstated",
+          "remote unstated"
+        ]
+      }
+    },
+    {
+      "id": "ccb62d3b",
+      "source": "adzuna",
+      "company": "Tatari",
+      "title": "Senior Backend Engineer",
+      "location": "San Francisco, California",
+      "remote": "unknown",
+      "url": "https://www.adzuna.com/details/5787790844?utm_medium=api&utm_source=e9201d43",
+      "descriptionText": "Tatari is on a mission to revolutionize TV advertising. Founded in 2016 to help transform the antiquated world of TV advertising through the intelligent application of AI and machine learning, Tatari helps some of the world’s fastest growing brands including Chime, Calm, Tecovas, Manscaped, Saatva, and Liquid I.V ., reach their customers using linear and streaming TV ads. Our platform combines sophisticated media buying with proprietary analytics to turn TV advertising into an automated, digita…",
+      "postedAt": "2026-07-04T04:47:57Z",
+      "score": {
+        "fit": 80,
+        "verdict": "strong",
+        "rationale": "Senior Backend Engineer at Tatari scores 80/100 (strong) on the Tier-1 deterministic pass. Matched: Senior / staff / lead level; Genuine AI-native engineering; Backend / distributed / event-driven match. Concerns: comp unstated; remote unstated.",
+        "matched": [
+          "Senior / staff / lead level",
+          "Genuine AI-native engineering",
+          "Backend / distributed / event-driven match"
+        ],
+        "concerns": [
+          "comp unstated",
+          "remote unstated"
+        ]
+      }
+    },
+    {
+      "id": "89595776",
+      "source": "adzuna",
+      "company": "Cantina",
+      "title": "Staff Software Engineer, Backend",
+      "location": "Los Angeles, Los Angeles County",
+      "remote": "unknown",
+      "url": "https://www.adzuna.com/details/5787790436?utm_medium=api&utm_source=e9201d43",
+      "descriptionText": "About Cantina: Cantina Labs is a social AI company, developing a suite of advanced real-time models that push the boundaries of expression, personality, and realism. We bring characters to life, transforming how people tell stories, connect, and create. We build and power ecosystems. Cantina, our flagship social AI platform, is just the beginning. If you're excited about the potential AI has to shape human creativity and social interactions, join us in building the future! About the Role: As pa…",
+      "postedAt": "2026-07-04T04:47:04Z",
+      "compHint": "$200,000 - $240,000",
+      "score": {
+        "fit": 80,
+        "verdict": "strong",
+        "rationale": "Staff Software Engineer, Backend at Cantina scores 80/100 (strong) on the Tier-1 deterministic pass. Matched: Senior / staff / lead level; Genuine AI-native engineering; Backend / distributed / event-driven match. Concerns: remote unstated.",
+        "matched": [
+          "Senior / staff / lead level",
+          "Genuine AI-native engineering",
+          "Backend / distributed / event-driven match"
+        ],
+        "concerns": [
+          "remote unstated"
+        ]
+      }
+    },
+    {
+      "id": "e124ba6e",
+      "source": "adzuna",
+      "company": "Counsel Health",
+      "title": "Senior Software Engineer (Backend)",
+      "location": "New York City, New York",
+      "remote": "unknown",
+      "url": "https://www.adzuna.com/details/5787764448?utm_medium=api&utm_source=e9201d43",
+      "descriptionText": "About Counsel Counsel’s mission is to multiply the world's healthcare capacity. We believe in a future in which every person has a personalized, AI-enabled doctor always in their pocket. To accomplish this, we’re building the first fully-vertical, AI-native medical group from the ground up. We’ve redesigned the entire clinical stack with custom AI tools that make our in-house physicians 10x faster and smarter. [ learn more on our blog ] Since our founding in 2023, we have formed partnerships wi…",
+      "postedAt": "2026-07-04T04:09:03Z",
+      "compHint": "$185,000 - $225,000",
+      "score": {
+        "fit": 80,
+        "verdict": "strong",
+        "rationale": "Senior Software Engineer (Backend) at Counsel Health scores 80/100 (strong) on the Tier-1 deterministic pass. Matched: Senior / staff / lead level; Genuine AI-native engineering; Backend / distributed / event-driven match. Concerns: remote unstated.",
+        "matched": [
+          "Senior / staff / lead level",
+          "Genuine AI-native engineering",
+          "Backend / distributed / event-driven match"
+        ],
+        "concerns": [
+          "remote unstated"
+        ]
+      }
+    },
+    {
+      "id": "08fe4bae",
+      "source": "adzuna",
+      "company": "Edia",
+      "title": "Senior Backend Engineer",
+      "location": "US",
+      "remote": "unknown",
+      "url": "https://www.adzuna.com/details/5787639953?utm_medium=api&utm_source=e9201d43",
+      "descriptionText": "About Edia Our mission is for every child to have an exceptional experience in school. Edia is a Series A technology startup revolutionizing K-12 education with AI-driven solutions. We develop software to improve math education, tackle chronic absenteeism, and improve intervention processes for school districts. Today, Edia supports 200 districts across the country (e.g. New York City, Denver, Fulton County, San Francisco, etc.). About the Role We're seeking a Senior Backend Engineer to join ou…",
+      "postedAt": "2026-07-04T03:00:20Z",
+      "compHint": "$180,000 - $250,000",
+      "score": {
+        "fit": 80,
+        "verdict": "strong",
+        "rationale": "Senior Backend Engineer at Edia scores 80/100 (strong) on the Tier-1 deterministic pass. Matched: Senior / staff / lead level; Genuine AI-native engineering; Backend / distributed / event-driven match. Concerns: remote unstated.",
+        "matched": [
+          "Senior / staff / lead level",
+          "Genuine AI-native engineering",
+          "Backend / distributed / event-driven match"
+        ],
+        "concerns": [
+          "remote unstated"
+        ]
+      }
+    },
+    {
+      "id": "0f40c1b5",
+      "source": "adzuna",
+      "company": "Workshop Studio",
+      "title": "Sr. Software Development Engineer, Workshop Studio, Catalog & Events",
+      "location": "Jersey City, Hudson County",
+      "remote": "unknown",
+      "url": "https://www.adzuna.com/land/ad/5787576822?se=xMJpmZF48RG-cvvra3L-5Q&utm_medium=api&utm_source=e9201d43&v=A5C2DD719DF6AB011A64145551B74ED7AE41364D",
+      "descriptionText": "Workshop Studio (WS) is an AWS platform that powers hands-on technical learning and product experiences for hundreds of thousands of current and potential AWS customers. WS is transitioning to an AI-native architecture with agentic systems that will discover content, guide participants in real time, automate quality review, and generate post-event intelligence. The platform provisions isolated AWS accounts, deploys infrastructure, manages participant access, security controls and handles automa…",
+      "postedAt": "2026-07-03T23:53:16Z",
+      "score": {
+        "fit": 80,
+        "verdict": "strong",
+        "rationale": "Sr. Software Development Engineer, Workshop Studio, Catalog & Events at Workshop Studio scores 80/100 (strong) on the Tier-1 deterministic pass. Matched: Senior / staff / lead level; Genuine AI-native engineering; Backend / distributed / event-driven match. Concerns: comp unstated; location \"Jersey City, Hudson County\" — confirm US eligibility; remote unstated.",
+        "matched": [
+          "Senior / staff / lead level",
+          "Genuine AI-native engineering",
+          "Backend / distributed / event-driven match"
+        ],
+        "concerns": [
+          "comp unstated",
+          "location \"Jersey City, Hudson County\" — confirm US eligibility",
+          "remote unstated"
+        ]
+      }
+    },
+    {
       "id": "ee73c68e",
       "source": "greenhouse",
       "company": "Block",
@@ -952,44 +1230,19 @@
       }
     },
     {
-      "id": "9b13d968",
+      "id": "ff881728",
       "source": "greenhouse",
       "company": "Block",
-      "title": "Senior Software Engineer, Cash App Taxes",
+      "title": "Senior Site Reliability Engineer",
       "location": "New York, NY, United States of America",
       "remote": "unknown",
-      "url": "http://block.xyz/careers/jobs/5207134008?gh_jid=5207134008",
-      "descriptionText": "It all started with an idea at Block in 2013. Initially built to take the pain out of peer-to-peer payments, Cash App has gone from a simple product with a single purpose to a dynamic ecosystem, developing unique financial products, including Afterpay/Clearpay, to provide a better way to send, spend, invest, borrow and save to our 50+ million monthly active customers. We want to redefine the world's relationship with money to make it more relatable, instantly available, and universally accessible.\n\nToday, Cash App has thousands of employees working globally across office and remote locations,…",
+      "url": "http://block.xyz/careers/jobs/5182994008?gh_jid=5182994008",
+      "descriptionText": "Block builds simple, powerful tools that make progress towards an economy that’s truly open to all.\n\nEach of our brands unlocks different aspects of the economy for more people. Square makes commerce and financial services accessible to sellers. Cash App is the easy way to spend, send, and store money. Afterpay is transforming the way customers manage their spending over time. TIDAL is a music platform that empowers artists to thrive as entrepreneurs. Bitkey is a simple self-custody wallet built for bitcoin. Proto is a suite of bitcoin mining products and services. Together, we’re helping…",
       "postedAt": "2026-07-03T11:57:17-04:00",
       "score": {
         "fit": 80,
         "verdict": "strong",
-        "rationale": "Senior Software Engineer, Cash App Taxes at Block scores 80/100 (strong) on the Tier-1 deterministic pass. Matched: Senior / staff / lead level; Genuine AI-native engineering; Backend / distributed / event-driven match. Concerns: comp unstated; remote unstated.",
-        "matched": [
-          "Senior / staff / lead level",
-          "Genuine AI-native engineering",
-          "Backend / distributed / event-driven match"
-        ],
-        "concerns": [
-          "comp unstated",
-          "remote unstated"
-        ]
-      }
-    },
-    {
-      "id": "3ae6bc6c",
-      "source": "greenhouse",
-      "company": "Block",
-      "title": "Senior Software Engineer, Product Platform",
-      "location": "New York, NY, United States of America",
-      "remote": "unknown",
-      "url": "http://block.xyz/careers/jobs/5239566008?gh_jid=5239566008",
-      "descriptionText": "Block is one company built from many blocks, all united by the same purpose of economic empowerment. The blocks that form our foundational teams — People, Finance, Counsel, Hardware, Information Security, Platform Infrastructure Engineering, and more — provide support and guidance at the corporate level. They work across business groups and around the globe, spanning time zones and disciplines to develop inclusive People policies, forecast finances, give legal counsel, safeguard systems, nurture new initiatives, and more. Every challenge creates possibilities, and we need different…",
-      "postedAt": "2026-07-03T11:57:17-04:00",
-      "score": {
-        "fit": 80,
-        "verdict": "strong",
-        "rationale": "Senior Software Engineer, Product Platform at Block scores 80/100 (strong) on the Tier-1 deterministic pass. Matched: Senior / staff / lead level; Genuine AI-native engineering; Backend / distributed / event-driven match. Concerns: comp unstated; remote unstated.",
+        "rationale": "Senior Site Reliability Engineer at Block scores 80/100 (strong) on the Tier-1 deterministic pass. Matched: Senior / staff / lead level; Genuine AI-native engineering; Backend / distributed / event-driven match. Concerns: comp unstated; remote unstated.",
         "matched": [
           "Senior / staff / lead level",
           "Genuine AI-native engineering",
@@ -1024,244 +1277,6 @@
           "comp unstated",
           "remote unstated"
         ]
-      }
-    },
-    {
-      "id": "da6b9ac4",
-      "source": "greenhouse",
-      "company": "Block",
-      "title": "Staff Machine Learning Engineer, Underwriting and Credit",
-      "location": "Bay Area, CA, United States of America",
-      "remote": "unknown",
-      "url": "http://block.xyz/careers/jobs/5198104008?gh_jid=5198104008",
-      "descriptionText": "Block builds technology to increase access to the global economy. Across our ecosystem, including Square and Cash App, we create tools that help businesses run and grow, and individuals move, manage, and grow their money with confidence.\n\nSquare empowers sellers of all sizes with integrated, omnichannel tools to accept payments, manage operations, access financial services, and reach customers across online and in-person channels.\n\nCash App complements this by providing a fast, accessible financial platform for millions of people to send, spend, save, invest, and borrow, helping redefine how…",
-      "postedAt": "2026-07-03T11:57:17-04:00",
-      "score": {
-        "fit": 80,
-        "verdict": "strong",
-        "rationale": "Staff Machine Learning Engineer, Underwriting and Credit at Block scores 80/100 (strong) on the Tier-1 deterministic pass. Matched: Senior / staff / lead level; Genuine AI-native engineering; Backend / distributed / event-driven match. Concerns: comp unstated; remote unstated.",
-        "matched": [
-          "Senior / staff / lead level",
-          "Genuine AI-native engineering",
-          "Backend / distributed / event-driven match"
-        ],
-        "concerns": [
-          "comp unstated",
-          "remote unstated"
-        ]
-      }
-    },
-    {
-      "id": "476ff248",
-      "source": "greenhouse",
-      "company": "Dropbox",
-      "title": "Senior Infrastructure Software Engineer, Search Platform",
-      "location": "Remote - US: Select locations",
-      "remote": true,
-      "url": "https://jobs.dropbox.com/listing/7974878?gh_jid=7974878",
-      "descriptionText": "Role Description\n\nAs a Senior Infrastructure Engineer, your role will be crucial in shaping and constructing the robust systems that not only support our current flagship products but also lay the groundwork for the next wave of engineering innovations. From optimizing user experiences across various projects to ensuring seamless scalability and data integrity, you'll be at the forefront of shaping the technological backbone of our platform.\n\nCollaborating closely with cross-functional teams, you'll leverage your expertise to tackle audacious challenges and push the boundaries of what's…",
-      "postedAt": "2026-07-02T13:48:16-04:00",
-      "score": {
-        "fit": 80,
-        "verdict": "strong",
-        "rationale": "Senior Infrastructure Software Engineer, Search Platform at Dropbox scores 80/100 (strong) on the Tier-1 deterministic pass. Matched: Senior / staff / lead level; Genuine AI-native engineering; Backend / distributed / event-driven match. Concerns: comp unstated.",
-        "matched": [
-          "Senior / staff / lead level",
-          "Genuine AI-native engineering",
-          "Backend / distributed / event-driven match"
-        ],
-        "concerns": [
-          "comp unstated"
-        ]
-      }
-    },
-    {
-      "id": "d6060148",
-      "source": "greenhouse",
-      "company": "Dropbox",
-      "title": "Staff Fullstack Software Engineer, Core Performance",
-      "location": "Remote - US: All locations",
-      "remote": true,
-      "url": "https://jobs.dropbox.com/listing/7421149?gh_jid=7421149",
-      "descriptionText": "Role Description\n\nAs a Staff Software Engineer at Dropbox, you'll be the singular technical owner of application performance across the Core org — the part of Dropbox that owns every consumer-facing surface: web, iOS, Android, and desktop. This is one of the company's most visible, cross-cutting technical challenges. Your mandate is to make Dropbox feel fast on every surface our customers use. You'll operate at the intersection of measurement, engineering, and product impact, owning ambiguous problems that span the entire stack and translate directly into business outcomes for hundreds of…",
-      "postedAt": "2026-07-02T13:48:16-04:00",
-      "score": {
-        "fit": 80,
-        "verdict": "strong",
-        "rationale": "Staff Fullstack Software Engineer, Core Performance at Dropbox scores 80/100 (strong) on the Tier-1 deterministic pass. Matched: Senior / staff / lead level; Genuine AI-native engineering; Backend / distributed / event-driven match. Concerns: comp unstated.",
-        "matched": [
-          "Senior / staff / lead level",
-          "Genuine AI-native engineering",
-          "Backend / distributed / event-driven match"
-        ],
-        "concerns": [
-          "comp unstated"
-        ]
-      }
-    },
-    {
-      "id": "b123c1b7",
-      "source": "greenhouse",
-      "company": "Dropbox",
-      "title": "Staff Site Reliability Engineer, Production Engineering",
-      "location": "Remote - US: Select locations",
-      "remote": true,
-      "url": "https://jobs.dropbox.com/listing/7961824?gh_jid=7961824",
-      "descriptionText": "Role Description\n\nAs a Site Reliability Engineer focused on company-wide reliability strategy, you will play a crucial role in advancing Dropbox’s stability, observability, incident response, and operational excellence as AI technologies reshape how software is built and operated. You will help define the reliability strategy for a new chapter of agentic development and AI-enabled software delivery, including preparing Dropbox for increases in pull request volume, service complexity, incident patterns, and demand for debugging and monitoring tools. You will partner across Engineering,…",
-      "postedAt": "2026-07-02T13:48:16-04:00",
-      "score": {
-        "fit": 80,
-        "verdict": "strong",
-        "rationale": "Staff Site Reliability Engineer, Production Engineering at Dropbox scores 80/100 (strong) on the Tier-1 deterministic pass. Matched: Senior / staff / lead level; Genuine AI-native engineering; Backend / distributed / event-driven match. Concerns: comp unstated.",
-        "matched": [
-          "Senior / staff / lead level",
-          "Genuine AI-native engineering",
-          "Backend / distributed / event-driven match"
-        ],
-        "concerns": [
-          "comp unstated"
-        ]
-      }
-    },
-    {
-      "id": "4ffb3df6",
-      "source": "ashby",
-      "company": "OpenAI",
-      "title": "Senior+ Software Engineer - Research Platform, Consumer Devices",
-      "location": "San Francisco",
-      "remote": true,
-      "url": "https://jobs.ashbyhq.com/openai/6d9925f4-3d0a-4710-8304-032d0080d12d",
-      "descriptionText": "ABOUT THE TEAM\n\nThe Future of Computing Research team is an Applied Research team within the Consumer Devices group focused on developing new methods and models as we advance forward in our mission of building AGI that benefits all of humanity.\n\nAs a Software Engineer on the Future of Computing Research team, you will work together with both the best ML researchers in the world and the greatest design talent of our generation to push the frontier of model capabilities.\n\nABOUT THE ROLE\n\nWe are looking for a Software Engineer to join our team to build tools and services that enable AI research,…",
-      "postedAt": "2026-06-26T00:08:20.821+00:00",
-      "compHint": "$293K - $325K",
-      "score": {
-        "fit": 80,
-        "verdict": "strong",
-        "rationale": "Senior+ Software Engineer - Research Platform, Consumer Devices at OpenAI scores 80/100 (strong) on the Tier-1 deterministic pass. Matched: Senior / staff / lead level; Genuine AI-native engineering; Backend / distributed / event-driven match.",
-        "matched": [
-          "Senior / staff / lead level",
-          "Genuine AI-native engineering",
-          "Backend / distributed / event-driven match"
-        ],
-        "concerns": []
-      }
-    },
-    {
-      "id": "9c7a0b1b",
-      "source": "ashby",
-      "company": "Notion",
-      "title": "Software Engineer, Developer Experience (Go Lead)",
-      "location": "New York, New York",
-      "remote": true,
-      "url": "https://jobs.ashbyhq.com/notion/876c69a9-be0a-4a71-bf4a-04cbc9c6328e",
-      "descriptionText": "WHO WE ARE\n\nNotion is the collaborative AI workspace where teams and agents think together https://www.youtube.com/watch?v=vkpYpWfEK5s. We're building one place where your knowledge, projects, meetings, and AI tools live side by side, so work is faster, clearer, and less fragmented. Millions of individuals, small teams, and large companies run their work on Notion.\n\nNotinos (our employees) are customer zero in bringing this future of work to life. We care about craft, building things that last, and the belief that great work is still fundamentally human. Our goal isn’t to ship the next…",
-      "postedAt": "2026-06-23T21:47:12.186+00:00",
-      "score": {
-        "fit": 80,
-        "verdict": "strong",
-        "rationale": "Software Engineer, Developer Experience (Go Lead) at Notion scores 80/100 (strong) on the Tier-1 deterministic pass. Matched: Senior / staff / lead level; Genuine AI-native engineering; Backend / distributed / event-driven match. Concerns: comp unstated.",
-        "matched": [
-          "Senior / staff / lead level",
-          "Genuine AI-native engineering",
-          "Backend / distributed / event-driven match"
-        ],
-        "concerns": [
-          "comp unstated"
-        ]
-      }
-    },
-    {
-      "id": "731bb65f",
-      "source": "ashby",
-      "company": "OpenAI",
-      "title": "Software Engineer, Scaled Abuse",
-      "location": "San Francisco",
-      "remote": "unknown",
-      "url": "https://jobs.ashbyhq.com/openai/3c67f712-697d-48d8-b05c-01be896e61da",
-      "descriptionText": "ABOUT THE TEAM\n\nThe Applied team safely brings OpenAI's technology to the world. We released ChatGPT; Plugins; DALL·E; and the APIs for GPT-5, embeddings, and fine-tuning. We also operate inference infrastructure at scale. There's a lot more on the immediate horizon.\n\nOur customers build fast-growing businesses around our APIs, which power product features that were never before possible. ChatGPT is a prime example of what is currently possible. We simultaneously ensure that our powerful tools are used responsibly. Safe deployment is more important to us than unfettered growth.\n\nThe Fraud…",
-      "postedAt": "2026-06-08T16:15:58.343+00:00",
-      "compHint": "$230K - $385K",
-      "score": {
-        "fit": 80,
-        "verdict": "strong",
-        "rationale": "Software Engineer, Scaled Abuse at OpenAI scores 80/100 (strong) on the Tier-1 deterministic pass. Matched: Senior / staff / lead level; Genuine AI-native engineering; Backend / distributed / event-driven match. Concerns: remote unstated.",
-        "matched": [
-          "Senior / staff / lead level",
-          "Genuine AI-native engineering",
-          "Backend / distributed / event-driven match"
-        ],
-        "concerns": [
-          "remote unstated"
-        ]
-      }
-    },
-    {
-      "id": "92f3ecea",
-      "source": "ashby",
-      "company": "OpenAI",
-      "title": "Senior Staff Software Engineer, Identity Infrastructure Engineering",
-      "location": "San Francisco",
-      "remote": true,
-      "url": "https://jobs.ashbyhq.com/openai/72a58872-70e2-4340-a259-e9bea3596883",
-      "descriptionText": "About the Team\n\nSecurity is at the foundation of OpenAI’s mission to ensure that artificial general intelligence benefits all of humanity. The Identity Infrastructure Engineering team sits at the core of this effort, designing and building the identity and access management solutions that protect our model weights, customer data, and critical systems across multiple cloud environments. We partner with teams across OpenAI—Applied Engineering, Research, IT, and Security—to provide a secure and scalable platform for permissioning, orchestration, and innovative AI research.\n\nAbout the Role\n\nWe’re…",
-      "postedAt": "2026-06-02T21:01:11.222+00:00",
-      "compHint": "$347.7K - $385K",
-      "score": {
-        "fit": 80,
-        "verdict": "strong",
-        "rationale": "Senior Staff Software Engineer, Identity Infrastructure Engineering at OpenAI scores 80/100 (strong) on the Tier-1 deterministic pass. Matched: Senior / staff / lead level; Genuine AI-native engineering; Backend / distributed / event-driven match.",
-        "matched": [
-          "Senior / staff / lead level",
-          "Genuine AI-native engineering",
-          "Backend / distributed / event-driven match"
-        ],
-        "concerns": []
-      }
-    },
-    {
-      "id": "9ff52919",
-      "source": "ashby",
-      "company": "OpenAI",
-      "title": "Audiovisual Design Engineer",
-      "location": "San Francisco",
-      "remote": true,
-      "url": "https://jobs.ashbyhq.com/openai/cc11f3f0-8b04-488c-9567-4165a4fad17b",
-      "descriptionText": "About the Team\n\nOpenAI’s IT organization supports the mission of deploying artificial general intelligence (AGI) for the benefit of all. Our team is committed to providing seamless technological support and solutions to ensure that all OpenAI employees are well-equipped and connected. This enables them to contribute effectively towards our AI research, corporate operations and product initiatives.\n\nAbout the Role\n\nAs an Audiovisual (AV) Engineer at OpenAI you will play a pivotal role in designing, implementing and ensuring the availability, reliability, and exceptional ease-of use of our…",
-      "postedAt": "2026-06-02T16:34:16.975+00:00",
-      "compHint": "$251K - $264K",
-      "score": {
-        "fit": 80,
-        "verdict": "strong",
-        "rationale": "Audiovisual Design Engineer at OpenAI scores 80/100 (strong) on the Tier-1 deterministic pass. Matched: Senior / staff / lead level; Genuine AI-native engineering; Backend / distributed / event-driven match.",
-        "matched": [
-          "Senior / staff / lead level",
-          "Genuine AI-native engineering",
-          "Backend / distributed / event-driven match"
-        ],
-        "concerns": []
-      }
-    },
-    {
-      "id": "8ef30170",
-      "source": "ashby",
-      "company": "OpenAI",
-      "title": "Senior Data Engineer, Core Experimentation",
-      "location": "Seattle",
-      "remote": true,
-      "url": "https://jobs.ashbyhq.com/openai/2796d32a-9f7c-4008-a2c5-50dd53b0f2fe",
-      "descriptionText": "About the Team\n\nThe Statsig team at OpenAI https://openai.com?utm_source=chatgpt.com builds and operates the experimentation platform that powers product development, measurement, and decision-making across the company. We partner closely with product, engineering, and infrastructure teams to ensure experiments are trustworthy, statistically rigorous, and scalable to the needs of frontier AI products.\n\nOur mission is to help teams make better decisions through reliable experimentation. We care deeply about statistical correctness, pragmatic solutions, and building systems that researchers and…",
-      "postedAt": "2026-05-14T16:24:02.877+00:00",
-      "compHint": "$293K - $325K",
-      "score": {
-        "fit": 80,
-        "verdict": "strong",
-        "rationale": "Senior Data Engineer, Core Experimentation at OpenAI scores 80/100 (strong) on the Tier-1 deterministic pass. Matched: Senior / staff / lead level; Genuine AI-native engineering; Backend / distributed / event-driven match.",
-        "matched": [
-          "Senior / staff / lead level",
-          "Genuine AI-native engineering",
-          "Backend / distributed / event-driven match"
-        ],
-        "concerns": []
       }
     }
   ]
