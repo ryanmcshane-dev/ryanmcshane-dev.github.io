@@ -188,16 +188,22 @@ OpenAI, Notion, Ramp, Linear, Vercel (Ashby); **ServiceNow** (SmartRecruiters) �
 include the well-funded AI-native "borderline" names, and the 2026-07-05 additions come from his
 best-fit-company guidance.
 **Excluded by choice:** Coinbase — Ryan does not want to tie his work to crypto.
-**Not reachable via public ATS APIs** (need an aggregator or a Workday adapter): the HCM / group-benefits
-domain-overlap tier (Workday, ADP, UKG, Ceridian/Dayforce, Paycom, Paylocity) and insurers
-(Prudential, MetLife, Unum, The Hartford) all recruit on Workday-hosted boards; Capital One, PayPal,
-Shopify, Chewy likewise. The preferred-company boost surfaces these when **Adzuna** returns them by
-keyword. Empty/no board: Atlassian (Lever board returns 0), Netflix, Epic Games.
+**HCM / group-benefits domain-overlap tier (Workday-hosted).** These recruit on
+`{tenant}.{dc}.myworkdayjobs.com`, not a standard public ATS. Reached via the **Workday CXS adapter**
+(discovered live 2026-07-05): **Workday** (`workday/wd5/Workday`) and **Unum** (`unum/wd1/External`) —
+Unum surfaces Java/J2EE group-benefits roles that map ~1:1 to Ryan's stack. The rest (ADP, UKG,
+Ceridian/Dayforce, Paycom, Paylocity; Prudential Financial, MetLife, The Hartford; Capital One,
+PayPal, Shopify, Chewy) aren't on guessable Workday endpoints (ADP runs a custom non-ATS site) — the
+preferred-company boost surfaces them when **Adzuna** returns them by keyword. Empty/no board:
+Atlassian (Lever board returns 0), Netflix, Epic Games. **The Muse** was evaluated and rejected: its
+company filter returns 0 for the target firms (Workday/Prudential/MetLife/Cisco).
 
-**Source adapters (`sources/`):** Greenhouse, Lever, Ashby (single call each), and **SmartRecruiters**
-(two-step: a US-filtered summary list, then a per-posting detail call for the description + canonical
-apply URL, with per-posting failure isolation, a summary fallback, and a detail-call cap). Plus the
-optional **Adzuna** aggregator (§2). All share the `FetchLike` injection so unit tests never hit the network.
+**Source adapters (`sources/`):** Greenhouse, Lever, Ashby (single GET each); **SmartRecruiters**
+(US-filtered summary list → per-posting detail call for the description + apply URL); **Workday** (CXS:
+POST search list → per-posting detail call for country/remote/description; the list's `locationsText`
+is an opaque aggregate, so US-gating needs the detail). The two-step adapters isolate per-posting
+failures and cap detail calls. Plus the optional **Adzuna** aggregator (§2). All share the `FetchLike`
+injection (extended with an optional `init` for Workday's POST) so unit tests never hit the network.
 
 ## 7. Publishing (`/job-radar`)
 

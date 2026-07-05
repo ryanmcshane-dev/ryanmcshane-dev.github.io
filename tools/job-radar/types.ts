@@ -12,7 +12,7 @@
  */
 
 /** The public ATS board sources supported (per-company fan-out). */
-export type AtsSource = 'greenhouse' | 'lever' | 'ashby' | 'smartrecruiters';
+export type AtsSource = 'greenhouse' | 'lever' | 'ashby' | 'smartrecruiters' | 'workday';
 
 /** Everything a `Posting` can come from: the ATS boards plus query-based aggregators. */
 export type PostingSource = AtsSource | 'adzuna';
@@ -63,13 +63,25 @@ export interface ScoredPosting extends Posting {
   score: FitScore;
 }
 
+/** Workday CXS coordinates: a career-site board lives at `{tenant}.{dc}.myworkdayjobs.com/…/{site}`. */
+export interface WorkdayTenant {
+  /** Tenant slug, e.g. "workday". */
+  tenant: string;
+  /** Datacenter subdomain, e.g. "wd5". */
+  dc: string;
+  /** Career-site path segment, e.g. "Workday". */
+  site: string;
+}
+
 /** One entry in the curated target list (`companies.ts`). */
 export interface CompanyConfig {
   /** Display name, e.g. "Airbnb". */
   name: string;
   ats: AtsSource;
-  /** Board slug/token, e.g. "airbnb" for boards-api.greenhouse.io/v1/boards/airbnb. */
+  /** Board slug/token for Greenhouse/Lever/Ashby/SmartRecruiters, e.g. "airbnb". Workday uses `workday`. */
   token: string;
+  /** Workday only: the tenant/datacenter/site that locate the CXS board. */
+  workday?: WorkdayTenant;
 }
 
 /** Minimal structural subset of the fetch `Response` the adapters use. */
@@ -79,11 +91,19 @@ export interface FetchResponseLike {
   json(): Promise<unknown>;
 }
 
+/** The subset of `RequestInit` the POST-based adapters (Workday) need. Global `fetch` accepts it. */
+export interface FetchInitLike {
+  method?: string;
+  headers?: Record<string, string>;
+  body?: string;
+}
+
 /**
  * Injectable fetch. Global `fetch` satisfies it; tests pass a stub returning fixture JSON, so no
- * adapter ever hits the network in a unit test.
+ * adapter ever hits the network in a unit test. The optional `init` supports POST-based sources
+ * (Workday); GET-based adapters just omit it.
  */
-export type FetchLike = (url: string) => Promise<FetchResponseLike>;
+export type FetchLike = (url: string, init?: FetchInitLike) => Promise<FetchResponseLike>;
 
 /* ------------------------------------------------------------------ *
  * Raw wire shapes — the subset of each ATS payload the adapters read. *
@@ -244,5 +264,43 @@ export interface RawSmartRecruitersDetail extends RawSmartRecruitersPosting {
       qualifications?: RawSmartRecruitersSection;
       additionalInformation?: RawSmartRecruitersSection;
     };
+  } | null;
+}
+
+/**
+ * Workday CXS: POST …/wday/cxs/{tenant}/{site}/jobs returns a *summary* list (`jobPostings[]`) whose
+ * `locationsText` is often an opaque aggregate ("2 Locations"), so the adapter fetches each posting's
+ * detail (GET …/{site}{externalPath}) for the real country, remote type, description, and date.
+ * `postedOn` in the list is a human string ("Posted 30+ Days Ago"), not a date — the ISO `startDate`
+ * lives on the detail.
+ */
+export interface RawWorkdayListItem {
+  title: string;
+  /** Starts with "/job/…"; appended to the CXS site base to reach the detail. */
+  externalPath: string;
+  locationsText?: string;
+  postedOn?: string;
+  bulletFields?: string[];
+}
+export interface RawWorkdayListResponse {
+  total?: number;
+  jobPostings?: RawWorkdayListItem[];
+}
+export interface RawWorkdayDetail {
+  jobPostingInfo?: {
+    id?: string;
+    title?: string;
+    /** HTML. */
+    jobDescription?: string;
+    location?: string;
+    additionalLocations?: string[];
+    country?: { descriptor?: string } | null;
+    /** e.g. "Remote", "Hybrid", "On-site" — sometimes absent. */
+    remoteType?: string;
+    timeType?: string;
+    /** ISO date, e.g. "2025-05-28". */
+    startDate?: string;
+    externalUrl?: string;
+    jobReqId?: string;
   } | null;
 }

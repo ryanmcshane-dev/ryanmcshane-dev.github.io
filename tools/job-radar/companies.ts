@@ -37,4 +37,8 @@ export const companies: CompanyConfig[] = [
 
   // SmartRecruiters — api.smartrecruiters.com/v1/companies/{token} (token is case-sensitive)
   { name: 'ServiceNow', ats: 'smartrecruiters', token: 'ServiceNow' },
+
+  // Workday CXS — HCM / group-benefits domain-overlap tier (tenant/dc/site discovered live 2026-07-05).
+  { name: 'Workday', ats: 'workday', token: 'workday', workday: { tenant: 'workday', dc: 'wd5', site: 'Workday' } },
+  { name: 'Unum', ats: 'workday', token: 'unum', workday: { tenant: 'unum', dc: 'wd1', site: 'External' } },
 ];
