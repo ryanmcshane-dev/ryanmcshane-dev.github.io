@@ -3,14 +3,20 @@
  *
  * Free, no-LLM, fully transparent: every point is traceable to a fit-spec criterion. A survivor
  * starts at `baseScore` (it already cleared the hard gates), gains each weighted criterion whose
- * keywords appear in its title + description, and loses `hybridPenalty` if it's hybrid. The result
- * is clamped to 0–100 and mapped to a verdict. The pre-filter's soft flags flow straight into
- * `concerns`, and the absence of the top differentiator (AI-native) is called out.
+ * keywords appear in its title + description, loses a `mismatches` penalty when its *title* reads as
+ * a weaker-fit role family (pure ML / research), loses `hybridPenalty` if it's hybrid, and gains a
+ * preferred-company boost (the highest-matching group). The result is clamped to 0–100 and mapped to
+ * a verdict. The pre-filter's soft flags flow straight into `concerns`, and the absence of the top
+ * differentiator (AI-native) is called out.
+ *
+ * Weights encode Ryan's resume-strength ordering (see `fitSpec.ts`): backend/core engineering is the
+ * strongest signal, platform/reliability and AI-native are secondary, and a pure-ML/research title
+ * is a demotion — so a Machine Learning role no longer outranks a senior backend role by default.
  *
  * Keyword matching is the shared whole-word matcher (`matchesAnyKeyword`), the same one the
  * pre-filter uses, so `ai` hits "AI Engineer" but never "email".
  */
-import type { FitSpec } from './fitSpec';
+import type { FitSpec, PreferredCompanyGroup } from './fitSpec';
 import { fitSpec } from './fitSpec';
 import type { KeptPosting } from './prefilter';
 import type { FitScore, ScoredPosting, Verdict } from './types';
@@ -24,14 +30,31 @@ export function verdictFor(fit: number): Verdict {
   return 'skip';
 }
 
+/** The highest-boost preferred-company group a posting's company matches, or `undefined`. Groups don't stack. */
+export function bestPreferredGroup(
+  company: string,
+  groups: PreferredCompanyGroup[],
+): PreferredCompanyGroup | undefined {
+  let best: PreferredCompanyGroup | undefined;
+  for (const group of groups) {
+    if (matchesAnyKeyword(company, group.match) && (best === undefined || group.boost > best.boost)) {
+      best = group;
+    }
+  }
+  return best;
+}
+
 /** Score one pre-filtered posting deterministically against the fit spec. */
 export function scoreFit(kept: KeptPosting, spec: FitSpec = fitSpec): FitScore {
   const { posting } = kept;
   const corpus = `${posting.title}\n${posting.descriptionText}`;
 
   const matched: string[] = [];
+  const concerns = [...kept.flags];
   const matchedIds = new Set<string>();
   let fit = spec.baseScore;
+
+  // Weighted nice-to-haves: matched against the title + description.
   for (const criterion of spec.weighted) {
     if (matchesAnyKeyword(corpus, criterion.keywords)) {
       fit += criterion.weight;
@@ -40,19 +63,30 @@ export function scoreFit(kept: KeptPosting, spec: FitSpec = fitSpec): FitScore {
     }
   }
 
+  // Role-type mismatches: matched against the *title* only (the role *is* this). A pure ML / research
+  // title is a weaker fit than Ryan's core, so it subtracts and is called out — but not a hard drop.
+  for (const mismatch of spec.mismatches) {
+    if (matchesAnyKeyword(posting.title, mismatch.keywords)) {
+      fit -= mismatch.penalty;
+      concerns.push(mismatch.label);
+    }
+  }
+
   if (posting.remote === 'hybrid') fit -= spec.remote.hybridPenalty;
 
-  // Preferred-company nudge: Ryan's top-choice companies rank a little higher, all else equal.
-  const preferred = spec.preferredCompanies.includes(posting.company);
-  if (preferred) fit += spec.preferredBoost;
+  // Preferred-company nudge: the highest-matching group wins (groups don't stack).
+  const preferred = bestPreferredGroup(posting.company, spec.preferredCompanies);
+  if (preferred) {
+    fit += preferred.boost;
+    matched.push(preferred.reason);
+  }
 
   fit = Math.max(0, Math.min(100, fit));
 
   const verdict = verdictFor(fit);
 
-  // Concerns = the pre-filter's soft flags, plus the missing top differentiator if AI-native didn't hit.
-  const concerns = [...kept.flags];
-  if (preferred) matched.push('Top-choice company');
+  // Concerns already hold the pre-filter's soft flags + any mismatch; add the missing top
+  // differentiator (AI-native) when it didn't hit.
   if (!matchedIds.has('ai-native')) concerns.push('no AI-native engineering signal');
 
   const rationale = [

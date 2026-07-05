@@ -23,6 +23,38 @@ export interface WeightedCriterion {
   weight: number;
 }
 
+/**
+ * A role-type *mismatch*: keywords matched against the posting **title only** (the role *is* this,
+ * not merely *mentions* it). Matching subtracts `penalty` and records a concern. Used for role
+ * families that read as a weaker fit than Ryan's core (senior backend / platform) — e.g. a posting
+ * *titled* as a pure ML / research role. Not a hard drop: such a role can still surface if it scores
+ * well otherwise.
+ */
+export interface MismatchCriterion {
+  id: string;
+  label: string;
+  /** Whole-word, case-insensitive terms matched against the posting **title**. */
+  keywords: string[];
+  /** Points subtracted from the fit score when at least one keyword matches. */
+  penalty: number;
+}
+
+/**
+ * A preferred-company group. Any posting whose company name matches one of `match` (whole-word,
+ * case-insensitive, so `adp` hits "ADP, Inc.") gets `boost` added and `reason` recorded in the
+ * rationale. Grouped by the *kind* of preference so the boost reflects the strategic signal, not a
+ * single name. Groups don't stack — the highest-boost matching group wins.
+ */
+export interface PreferredCompanyGroup {
+  id: string;
+  /** Whole-word tokens matched against `posting.company`. Lowercase. */
+  match: string[];
+  /** Points added when a posting's company matches (highest-matching group wins; no stacking). */
+  boost: number;
+  /** Short, human reason surfaced in the fit rationale's `matched` list. */
+  reason: string;
+}
+
 export interface FitSpec {
   /** Hard USD floor on stated comp (top of range). Unstated comp passes but is flagged. §6. */
   compFloorUsd: number;
@@ -63,11 +95,14 @@ export interface FitSpec {
   /** Weighted signals that raise the score (Tier-1 scorer). */
   weighted: WeightedCriterion[];
 
-  /** Companies Ryan most wants to work at — their roles get a small nudge up the ranking. */
-  preferredCompanies: string[];
+  /** Role-type mismatches that *lower* the score — matched against the title only. */
+  mismatches: MismatchCriterion[];
 
-  /** Points added when a posting's company is in `preferredCompanies`. */
-  preferredBoost: number;
+  /**
+   * Companies Ryan most wants to work at, grouped by the kind of preference. A matching company's
+   * roles get a small additive nudge (not a fit override) so they rank higher, all else equal.
+   */
+  preferredCompanies: PreferredCompanyGroup[];
 }
 
 export const fitSpec: FitSpec = {
@@ -305,24 +340,17 @@ export const fitSpec: FitSpec = {
 
   baseScore: 30,
 
+  // Weights encode Ryan's resume-strength ordering (his guidance): senior *backend* is the
+  // strongest, lowest-friction target, so `backend-core` carries the most weight; platform/
+  // reliability is a genuine secondary strength; AI-native engineering is a real but *secondary*
+  // wedge (a SWE who drives AI adoption — not a pure ML/AI role), so it no longer outweighs backend.
   weighted: [
     {
-      id: 'seniority',
-      label: 'Senior / staff / lead level',
-      keywords: ['senior', 'staff', 'principal', 'lead', 'sr.'],
-      weight: 15,
-    },
-    {
-      id: 'ai-native',
-      label: 'Genuine AI-native engineering',
-      keywords: ['ai', 'llm', 'agent', 'agentic', 'rag', 'machine learning', 'generative', 'genai'],
-      weight: 20,
-    },
-    {
-      id: 'backend-distributed',
-      label: 'Backend / distributed / event-driven match',
+      id: 'backend-core',
+      label: "Backend / distributed / event-driven — Ryan's core strength",
       keywords: [
         'backend',
+        'back-end',
         'distributed',
         'event-driven',
         'event driven',
@@ -333,24 +361,176 @@ export const fitSpec: FitSpec = {
         'java',
         'spring',
         'aws',
+        'ecs',
+        'oauth',
       ],
-      weight: 15,
+      weight: 20,
+    },
+    {
+      id: 'seniority',
+      label: 'Senior / staff / lead level',
+      keywords: ['senior', 'staff', 'principal', 'lead', 'sr.'],
+      weight: 14,
+    },
+    {
+      id: 'platform-reliability',
+      label: "Platform / reliability / observability — Ryan's secondary strength",
+      keywords: [
+        'platform',
+        'reliability',
+        'sre',
+        'site reliability',
+        'observability',
+        'splunk',
+        'new relic',
+        'datadog',
+        'monitoring',
+        'infrastructure',
+        'devops',
+        'developer productivity',
+        'developer experience',
+      ],
+      weight: 10,
+    },
+    {
+      id: 'ai-native',
+      label: 'AI-native engineering (a SWE who drives AI adoption)',
+      keywords: ['ai', 'llm', 'agent', 'agentic', 'rag', 'genai', 'generative', 'copilot', 'applied ai'],
+      weight: 10,
     },
     {
       id: 'eng-culture',
       label: 'Strong engineering culture',
       keywords: ['engineering blog', 'open source', 'open-source', 'technical excellence'],
-      weight: 5,
+      weight: 3,
     },
     {
       id: 'product-company',
       label: 'Product engineering',
       keywords: ['product engineer', 'product engineering', 'product team'],
-      weight: 5,
+      weight: 3,
     },
   ],
 
-  // Airbnb is Ryan's top choice among the reachable companies — a modest nudge, not a fit override.
-  preferredCompanies: ['Airbnb'],
-  preferredBoost: 8,
+  // Off-discipline *titles* are demoted. Big-company JDs mention backend / platform / AI in their
+  // boilerplate regardless of the role, which inflates every senior posting's description-based
+  // score — so the *title* is what actually says what the role is. Matched against the title only (a
+  // backend role that merely mentions ML in its description isn't touched). Penalties are large
+  // enough to pull an off-target role below a true backend / platform / AI-adjacent one, but it's not
+  // a hard drop — a demoted role can still surface if it scores well otherwise.
+  mismatches: [
+    {
+      id: 'pure-ml-research',
+      label: 'pure ML / research role — weaker fit than backend / platform (Ryan drives AI adoption, not modeling)',
+      keywords: [
+        'machine learning engineer',
+        'ml engineer',
+        'ml modeler',
+        'ml scientist',
+        'ml/ai',
+        'ai/ml',
+        'research scientist',
+        'applied scientist',
+        'data scientist',
+        'deep learning',
+        'computer vision',
+        'researcher',
+        'nlp',
+        'modeler',
+      ],
+      penalty: 30,
+    },
+    {
+      id: 'off-target-role',
+      label: 'off-target discipline (mobile / frontend / enterprise-app / QA / sales / security) — not Ryan\'s backend/platform core',
+      keywords: [
+        // mobile
+        'android',
+        'ios',
+        'mobile engineer',
+        'mobile developer',
+        'react native',
+        // frontend
+        'frontend',
+        'front-end',
+        'front end',
+        'ui engineer',
+        // enterprise apps / IT
+        'salesforce',
+        'oracle',
+        'sap',
+        'netsuite',
+        'erp',
+        'business systems',
+        'finance systems',
+        // QA / test
+        'qa engineer',
+        'sdet',
+        'test engineer',
+        'quality engineer',
+        // sales / support / hardware / security
+        'sales engineer',
+        'solutions engineer',
+        'solutions architect',
+        'support engineer',
+        'network engineer',
+        'hardware engineer',
+        'firmware',
+        'embedded',
+        'security engineer',
+      ],
+      penalty: 28,
+    },
+  ],
+
+  // Strategic company preferences (Ryan's guidance), grouped by the *kind* of signal. HCM /
+  // group-benefits companies are the highest-signal domain overlap; the big reputable remote orgs
+  // are a strong-but-broader tier. Most of these aren't in the curated ATS list — the boost pays off
+  // when the Adzuna aggregator surfaces one of their roles.
+  preferredCompanies: [
+    {
+      id: 'top-choice',
+      match: ['airbnb'],
+      boost: 8,
+      reason: 'Top-choice company',
+    },
+    {
+      id: 'hcm-domain-overlap',
+      match: [
+        'workday',
+        'adp',
+        'automatic data processing',
+        'ukg',
+        'ultimate kronos',
+        'ceridian',
+        'dayforce',
+        'paycom',
+        'paylocity',
+        'prudential',
+        'metlife',
+        'unum',
+        'the hartford',
+        'hartford',
+      ],
+      boost: 8,
+      reason: "HCM / group-benefits domain overlap — Ryan's EOI / Absence Management experience translates directly",
+    },
+    {
+      id: 'reputable-remote',
+      match: [
+        'capital one',
+        'stripe',
+        'paypal',
+        'block',
+        'affirm',
+        'chewy',
+        'shopify',
+        'atlassian',
+        'servicenow',
+        'twilio',
+      ],
+      boost: 5,
+      reason: 'Large, reputable, remote-friendly engineering org with a strong Java / distributed-systems bar',
+    },
+  ],
 };

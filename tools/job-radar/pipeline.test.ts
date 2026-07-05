@@ -60,7 +60,7 @@ describe('assembleReports', () => {
       makePosting({
         id: 'strong',
         title: 'Staff AI Engineer',
-        descriptionText: 'LLM agents on a distributed backend with Kafka and AWS.',
+        descriptionText: 'LLM agents on a distributed backend with Kafka, AWS, and deep observability.',
       }),
       makePosting({ id: 'weak', title: 'Software Engineer', descriptionText: '' }),
       makePosting({ id: 'onsite', title: 'Backend Engineer', remote: false }),

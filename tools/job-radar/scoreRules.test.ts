@@ -48,11 +48,11 @@ describe('scoreFit — additive, transparent breakdown', () => {
       descriptionText: 'Build LLM agents on a distributed backend.',
     });
     const { fit, matched } = scoreFit(kept);
-    // seniority (senior) + ai-native (llm/agent) + backend-distributed (distributed/backend).
-    expect(fit).toBe(BASE + weight('seniority') + weight('ai-native') + weight('backend-distributed'));
-    expect(fit).toBe(80);
+    // seniority (senior) + ai-native (llm/agent) + backend-core (distributed/backend).
+    expect(fit).toBe(BASE + weight('seniority') + weight('ai-native') + weight('backend-core'));
+    expect(fit).toBe(74);
     expect(matched).toHaveLength(3);
-    expect(matched).toContain('Genuine AI-native engineering');
+    expect(matched).toContain('AI-native engineering (a SWE who drives AI adoption)');
   });
 
   it('scores a base-only survivor at weak with no matched criteria', () => {
@@ -77,7 +77,8 @@ describe('scoreFit — additive, transparent breakdown', () => {
 
 describe('scoreFit — hybrid penalty', () => {
   it('subtracts the hybrid penalty and can drop the verdict a tier', () => {
-    const desc = 'Build LLM agents on a distributed backend.';
+    // Rich enough to land 'strong' (≥75) when remote: senior + backend + ai-native + platform.
+    const desc = 'Build LLM agents on a distributed backend with strong observability.';
     const remoteScore = scoreFit(makeKept({ descriptionText: desc, remote: true }));
     const hybridScore = scoreFit(
       makeKept({ descriptionText: desc, remote: 'hybrid' }, ['hybrid (partial remote)']),
@@ -117,25 +118,103 @@ describe('scoreFit — whole-word matching and flag pass-through', () => {
   });
 });
 
+const boost = (id: string) => fitSpec.preferredCompanies.find((g) => g.id === id)!.boost;
+
 describe('scoreFit — preferred-company boost', () => {
-  it('adds the boost and a "Top-choice company" signal for a preferred company', () => {
+  it('adds the top-choice boost and a "Top-choice company" signal for Airbnb', () => {
     const desc = 'Senior backend engineer.';
     const preferred = scoreFit(makeKept({ company: 'Airbnb', descriptionText: desc }));
-    const other = scoreFit(makeKept({ company: 'Stripe', descriptionText: desc }));
-    expect(preferred.fit).toBe(other.fit + fitSpec.preferredBoost);
+    const other = scoreFit(makeKept({ company: 'OpenAI', descriptionText: desc })); // not preferred
+    expect(preferred.fit).toBe(other.fit + boost('top-choice'));
     expect(preferred.matched).toContain('Top-choice company');
-    expect(other.matched).not.toContain('Top-choice company');
+    expect(other.matched.some((m) => m.startsWith('Top-choice'))).toBe(false);
+  });
+
+  it('boosts HCM domain-overlap companies (whole-word, so "ADP, Inc." matches)', () => {
+    const desc = 'Senior backend engineer.';
+    const workday = scoreFit(makeKept({ company: 'Workday', descriptionText: desc }));
+    const adp = scoreFit(makeKept({ company: 'ADP, Inc.', descriptionText: desc }));
+    const other = scoreFit(makeKept({ company: 'OpenAI', descriptionText: desc }));
+    expect(workday.fit).toBe(other.fit + boost('hcm-domain-overlap'));
+    expect(adp.fit).toBe(other.fit + boost('hcm-domain-overlap'));
+    expect(workday.matched.some((m) => m.includes('HCM'))).toBe(true);
+  });
+
+  it('gives the big reputable-remote orgs a smaller boost than domain overlap', () => {
+    const desc = 'Senior backend engineer.';
+    const stripe = scoreFit(makeKept({ company: 'Stripe', descriptionText: desc }));
+    const other = scoreFit(makeKept({ company: 'OpenAI', descriptionText: desc }));
+    expect(stripe.fit).toBe(other.fit + boost('reputable-remote'));
+    expect(boost('reputable-remote')).toBeLessThan(boost('hcm-domain-overlap'));
   });
 
   it('never pushes the score past 100', () => {
     const { fit } = scoreFit(
       makeKept({
         company: 'Airbnb',
-        title: 'Senior Staff AI Engineer',
-        descriptionText: 'LLM agents, distributed backend, Kafka, AWS, open source, product engineering.',
+        title: 'Senior Staff Software Engineer',
+        descriptionText:
+          'LLM agents, distributed backend, Kafka, AWS, observability, open source, product engineering.',
       }),
     );
     expect(fit).toBeLessThanOrEqual(100);
+  });
+});
+
+describe('scoreFit — pure-ML / research title demotion', () => {
+  const mlMismatch = fitSpec.mismatches.find((m) => m.id === 'pure-ml-research')!;
+
+  it('subtracts the penalty and flags a pure-ML title, ranking it below a peer backend role', () => {
+    const desc = 'Senior distributed backend systems on AWS with Kafka.';
+    const ml = scoreFit(makeKept({ title: 'Staff Machine Learning Engineer', descriptionText: desc }));
+    const backend = scoreFit(makeKept({ title: 'Staff Software Engineer', descriptionText: desc }));
+    expect(ml.fit).toBe(backend.fit - mlMismatch.penalty);
+    expect(ml.fit).toBeLessThan(backend.fit);
+    expect(ml.concerns).toContain(mlMismatch.label);
+  });
+
+  it('does not penalize a backend role that merely mentions ML in its description', () => {
+    // Title-only matching: "machine learning" in the body must not trigger the demotion.
+    const mlLabel = fitSpec.mismatches.find((m) => m.id === 'pure-ml-research')!.label;
+    const { concerns } = scoreFit(
+      makeKept({
+        title: 'Senior Backend Engineer',
+        descriptionText: 'Support the machine learning platform team with data pipelines.',
+      }),
+    );
+    expect(concerns).not.toContain(mlLabel);
+  });
+});
+
+describe('scoreFit — off-target discipline demotion', () => {
+  const offTarget = fitSpec.mismatches.find((m) => m.id === 'off-target-role')!;
+
+  // Big-company JD boilerplate mentions backend/platform/AI regardless of the role, so an off-target
+  // title (mobile, enterprise-app, sales) must be pulled *below* an otherwise-identical backend role.
+  const richDesc =
+    'Distributed backend on AWS with Kafka, strong observability, and LLM-powered tooling.';
+
+  it.each(['Staff Android Software Engineer', 'Senior Salesforce Engineer', 'Senior Solutions Architect'])(
+    'demotes "%s" below a peer backend role and flags it',
+    (title) => {
+      const off = scoreFit(makeKept({ title, descriptionText: richDesc }));
+      const backend = scoreFit(makeKept({ title: 'Senior Software Engineer', descriptionText: richDesc }));
+      expect(off.fit).toBe(backend.fit - offTarget.penalty);
+      expect(off.fit).toBeLessThan(backend.fit);
+      expect(off.concerns).toContain(offTarget.label);
+    },
+  );
+});
+
+describe('scoreFit — platform / reliability signal', () => {
+  it('credits observability / SRE work as Ryan\'s secondary strength', () => {
+    const { matched } = scoreFit(
+      makeKept({
+        title: 'Senior Site Reliability Engineer',
+        descriptionText: 'Own observability with Splunk and New Relic; on-call and monitoring.',
+      }),
+    );
+    expect(matched).toContain("Platform / reliability / observability — Ryan's secondary strength");
   });
 });
 

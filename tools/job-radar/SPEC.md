@@ -151,13 +151,35 @@ interface ScoredPosting extends Posting { score: FitScore; }
   curated to reputable firms up front, so this is enforced mostly by *which* boards we pull; Tier-2
   scoring also flags anything that reads as early-stage.
 
-**Nice-to-haves (weighted, raise the score):** senior/staff level fit, genuine AI-native engineering
-(not LLM-bolt-on), backend/distributed-systems + event-driven match to Ryan's strengths, strong
-engineering culture / eng blog, product company.
+**Nice-to-haves (weighted, raise the score) — ordered by Ryan's resume strength:**
+- **`backend-core` (+20, top weight):** backend / distributed-systems / event-driven + his stack
+  (Java, Spring, Kafka, AWS/ECS, OAuth). Senior *backend* is his strongest, lowest-friction target,
+  so this outweighs everything else.
+- **`seniority` (+14):** senior / staff / principal / lead.
+- **`platform-reliability` (+10):** platform / SRE / observability (Splunk, New Relic, monitoring),
+  developer-productivity — his genuine secondary strength.
+- **`ai-native` (+10):** a SWE who drives AI adoption (LLM / agentic / RAG / GenAI) — a real but
+  *secondary* wedge. Deliberately **no longer outweighs backend**: it used to be +20, which let a
+  pure ML role float to the top of the shortlist.
+- **`eng-culture` (+3), `product-company` (+3):** softer signals.
 
-**Preferred companies (`preferredCompanies` + `preferredBoost`):** Ryan's top-choice companies get a
-small additive nudge (not a fit override) so their roles rank higher, all else equal. Currently
-**Airbnb** (+8), his top choice among the reachable set.
+**Mismatches (`mismatches`, *lower* the score, title-only):** a posting *titled* as a pure ML /
+research role (Machine Learning Engineer, Research/Applied Scientist, Data Scientist, deep learning,
+computer vision) reads as a weaker fit than Ryan's backend/platform core, so it takes a **−22**
+penalty and a concern. Matched against the **title only**, so a backend role that merely mentions ML
+in its description isn't demoted. Not a hard drop — such a role can still surface if it scores well
+otherwise (his guidance: "less so for pure ML/AI engineer postings").
+
+**Preferred companies (`preferredCompanies`, grouped by strategic signal; highest-matching group
+wins, no stacking):** a small additive nudge (not a fit override), matched whole-word against the
+company name so `adp` hits "ADP, Inc.". Most of these aren't in the curated ATS list — the boost pays
+off when the **Adzuna** aggregator surfaces one of their roles:
+- **Top choice (+8):** Airbnb.
+- **HCM / group-benefits domain overlap (+8):** Workday, ADP, UKG, Ceridian/Dayforce, Paycom,
+  Paylocity, Prudential, MetLife, Unum, The Hartford — highest-signal fit; Ryan's EOI / Absence
+  Management experience translates ~1:1.
+- **Large, reputable, remote-friendly (+5):** Capital One, Stripe, PayPal, Block, Affirm, Chewy,
+  Shopify, Atlassian, ServiceNow, Twilio — strong Java / distributed bar, comp bands above the floor.
 
 **Target companies (`companies.ts`):** curated list of reputable companies that expose public
 Greenhouse / Lever / Ashby boards. **Probed live 2026-07-02.** Reachable and seeded: Airbnb, Stripe,

@@ -33,10 +33,23 @@ describe('fitSpec confirmed values (SPEC.md §6)', () => {
     expect(overlap).toEqual([]);
   });
 
-  it('weights AI-native engineering the highest of the nice-to-haves', () => {
+  it('weights backend / core engineering the highest of the nice-to-haves', () => {
+    // Ryan's guidance: senior backend is his strongest, lowest-friction target — so it, not
+    // AI-native, is the top-weighted signal. AI-native is a real but secondary wedge.
     const byId = Object.fromEntries(fitSpec.weighted.map((w) => [w.id, w.weight]));
     const max = Math.max(...fitSpec.weighted.map((w) => w.weight));
-    expect(byId['ai-native']).toBe(max);
+    expect(byId['backend-core']).toBe(max);
+    expect(byId['ai-native']).toBeLessThan(byId['backend-core']);
+  });
+
+  it('demotes pure-ML / research titles below Ryan\'s backend/platform core', () => {
+    const byId = Object.fromEntries(fitSpec.mismatches.map((m) => [m.id, m]));
+    const ml = byId['pure-ml-research'];
+    expect(ml).toBeDefined();
+    expect(ml.penalty).toBeGreaterThan(0);
+    expect(ml.keywords).toEqual(
+      expect.arrayContaining(['machine learning engineer', 'research scientist', 'data scientist']),
+    );
   });
 });
 
@@ -66,6 +79,8 @@ describe('fitSpec structural invariants', () => {
       ...fitSpec.location.usSignals,
       ...fitSpec.location.blockRegions,
       ...fitSpec.weighted.flatMap((w) => w.keywords),
+      ...fitSpec.mismatches.flatMap((m) => m.keywords),
+      ...fitSpec.preferredCompanies.flatMap((g) => g.match),
     ];
     for (const kw of all) {
       expect(kw).toBe(kw.toLowerCase());
@@ -73,15 +88,36 @@ describe('fitSpec structural invariants', () => {
     }
   });
 
+  it('gives every mismatch a unique id, keywords, and a positive penalty', () => {
+    const ids = new Set<string>();
+    for (const m of fitSpec.mismatches) {
+      expect(m.id).toBeTruthy();
+      expect(m.label).toBeTruthy();
+      expect(m.keywords.length).toBeGreaterThan(0);
+      expect(m.penalty).toBeGreaterThan(0);
+      ids.add(m.id);
+    }
+    expect(ids.size).toBe(fitSpec.mismatches.length);
+  });
+
   it('base score plus all additive boosts stay within a sane 0–100 frame', () => {
     const maxWeighted = fitSpec.weighted.reduce((sum, w) => sum + w.weight, 0);
+    const maxBoost = Math.max(...fitSpec.preferredCompanies.map((g) => g.boost));
     expect(fitSpec.baseScore).toBeGreaterThan(0);
-    expect(fitSpec.baseScore + maxWeighted + fitSpec.preferredBoost).toBeLessThanOrEqual(100);
+    expect(fitSpec.baseScore + maxWeighted + maxBoost).toBeLessThanOrEqual(100);
     expect(fitSpec.remote.hybridPenalty).toBeLessThanOrEqual(fitSpec.baseScore);
   });
 
-  it('nudges Ryan\'s top-choice companies with a small positive boost', () => {
-    expect(fitSpec.preferredCompanies).toContain('Airbnb');
-    expect(fitSpec.preferredBoost).toBeGreaterThan(0);
+  it('nudges Ryan\'s top-choice and domain-overlap companies with positive boosts', () => {
+    // Every group has a positive boost, at least one match token, and a reason.
+    for (const g of fitSpec.preferredCompanies) {
+      expect(g.id).toBeTruthy();
+      expect(g.boost).toBeGreaterThan(0);
+      expect(g.match.length).toBeGreaterThan(0);
+      expect(g.reason.trim()).toBeTruthy();
+    }
+    const allMatches = fitSpec.preferredCompanies.flatMap((g) => g.match);
+    // Airbnb (top choice) and the HCM domain-overlap names Ryan called out are represented.
+    expect(allMatches).toEqual(expect.arrayContaining(['airbnb', 'workday', 'adp', 'ukg']));
   });
 });
