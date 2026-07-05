@@ -48,5 +48,22 @@ export const adzunaFixture: RawAdzunaResponse = {
       location: { display_name: 'New York, NY' },
       salary_is_predicted: '0',
     },
+    {
+      // Shape captured verbatim from the live API (2026-07-05): `__CLASS__` markers, nested
+      // `__CLASS__`, an `adref`, a terse "US" location, and a below-$180K stated salary.
+      __CLASS__: 'Adzuna::API::Response::Job',
+      adref: 'eyJhbGciOiJIUzI1NiJ9',
+      id: '5789058412',
+      title: 'Full Stack Engineer',
+      description: 'Employee-owned company building software for clients.',
+      created: '2026-07-05T06:40:19Z',
+      redirect_url: 'https://www.adzuna.com/details/5789058412?utm_medium=api&utm_source=e9201d43',
+      company: { __CLASS__: 'Adzuna::API::Response::Company', display_name: 'Applied Information Sciences' },
+      location: { __CLASS__: 'Adzuna::API::Response::Location', display_name: 'US', area: ['US'] },
+      salary_min: 100000,
+      salary_max: 150000,
+      salary_is_predicted: '0',
+      contract_time: 'full_time',
+    },
   ],
 };

@@ -94,17 +94,32 @@ export function mapAdzuna(raw: RawAdzunaResponse): Posting[] {
   });
 }
 
-/** Run each configured query and return the merged, normalized postings. */
+export interface AdzunaResult {
+  postings: Posting[];
+  /** One message per query that failed — Adzuna's free tier returns transient 429/503s. */
+  errors: string[];
+}
+
+/**
+ * Run each configured query, **isolating failures per query** so a single transient error (429/503)
+ * doesn't discard the results from the other queries. Returns the merged postings plus any
+ * per-query error messages for the caller to surface.
+ */
 export async function fetchAdzuna(
   creds: AdzunaCreds,
   queries: string[] = ADZUNA_QUERIES,
   fetchImpl: FetchLike = fetch,
-): Promise<Posting[]> {
+): Promise<AdzunaResult> {
   const postings: Posting[] = [];
+  const errors: string[] = [];
   for (const query of queries) {
-    const res = await fetchImpl(adzunaUrl('us', 1, query, creds));
-    if (!res.ok) throw new Error(`Adzuna "${query}" → HTTP ${res.status}`);
-    postings.push(...mapAdzuna((await res.json()) as RawAdzunaResponse));
+    try {
+      const res = await fetchImpl(adzunaUrl('us', 1, query, creds));
+      if (!res.ok) throw new Error(`Adzuna "${query}" → HTTP ${res.status}`);
+      postings.push(...mapAdzuna((await res.json()) as RawAdzunaResponse));
+    } catch (err) {
+      errors.push(err instanceof Error ? err.message : String(err));
+    }
   }
-  return postings;
+  return { postings, errors };
 }

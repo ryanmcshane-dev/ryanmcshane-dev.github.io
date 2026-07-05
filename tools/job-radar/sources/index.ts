@@ -67,7 +67,13 @@ export async function collectPostings(
   const adzunaCreds = options.adzunaCreds !== undefined ? options.adzunaCreds : getAdzunaCreds();
   if (adzunaCreds) {
     try {
-      pool.push(...(await fetchAdzuna(adzunaCreds, options.adzunaQueries, fetchImpl)));
+      const { postings: adzunaPostings, errors: adzunaErrors } = await fetchAdzuna(
+        adzunaCreds,
+        options.adzunaQueries,
+        fetchImpl,
+      );
+      pool.push(...adzunaPostings);
+      for (const message of adzunaErrors) errors.push({ company: 'Adzuna', ats: 'adzuna', message });
     } catch (err) {
       errors.push({
         company: 'Adzuna',

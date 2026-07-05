@@ -172,22 +172,28 @@ export interface RawAshbyResponse {
   apiVersion?: string;
 }
 
-/** Adzuna: GET api.adzuna.com/v1/api/jobs/{country}/search/{page} — an aggregator, not an ATS. */
+/**
+ * Adzuna: GET api.adzuna.com/v1/api/jobs/{country}/search/{page} — an aggregator, not an ATS.
+ * The live payload also carries `__CLASS__` type markers (on the job and nested objects) and an
+ * `adref` field; they're declared optional here and ignored by the adapter.
+ */
 export interface RawAdzunaJob {
+  __CLASS__?: string;
+  adref?: string;
   id: string;
   title: string;
   description: string;
   /** ISO 8601. */
   created: string;
   redirect_url: string;
-  company?: { display_name?: string } | null;
-  location?: { display_name?: string; area?: string[] } | null;
+  company?: { __CLASS__?: string; display_name?: string } | null;
+  location?: { __CLASS__?: string; display_name?: string; area?: string[] } | null;
   salary_min?: number | null;
   salary_max?: number | null;
   /** Adzuna returns "0"/"1" (string): "1" means the salary is Adzuna's estimate, not from the posting. */
   salary_is_predicted?: string;
   contract_time?: string;
-  category?: { label?: string; tag?: string } | null;
+  category?: { __CLASS__?: string; label?: string; tag?: string } | null;
 }
 export interface RawAdzunaResponse {
   results: RawAdzunaJob[];
