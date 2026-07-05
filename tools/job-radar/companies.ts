@@ -20,6 +20,9 @@ export const companies: CompanyConfig[] = [
   { name: 'Dropbox', ats: 'greenhouse', token: 'dropbox' },
   { name: 'Pinterest', ats: 'greenhouse', token: 'pinterest' },
   { name: 'Block', ats: 'greenhouse', token: 'block' },
+  // Domain-overlap / reputable-remote targets confirmed live 2026-07-05 (Ryan's fit guidance).
+  { name: 'Affirm', ats: 'greenhouse', token: 'affirm' },
+  { name: 'Twilio', ats: 'greenhouse', token: 'twilio' },
 
   // Lever — api.lever.co/v0/postings/{token}
   { name: 'Spotify', ats: 'lever', token: 'spotify' },
@@ -31,4 +34,7 @@ export const companies: CompanyConfig[] = [
   { name: 'Ramp', ats: 'ashby', token: 'ramp' },
   { name: 'Linear', ats: 'ashby', token: 'linear' },
   { name: 'Vercel', ats: 'ashby', token: 'vercel' },
+
+  // SmartRecruiters — api.smartrecruiters.com/v1/companies/{token} (token is case-sensitive)
+  { name: 'ServiceNow', ats: 'smartrecruiters', token: 'ServiceNow' },
 ];

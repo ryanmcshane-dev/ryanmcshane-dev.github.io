@@ -1,7 +1,7 @@
 import { describe, it, expect } from 'vitest';
 import { companies } from './companies';
 
-const VALID_ATS = new Set(['greenhouse', 'lever', 'ashby']);
+const VALID_ATS = new Set(['greenhouse', 'lever', 'ashby', 'smartrecruiters']);
 
 describe('companies target list', () => {
   it('has entries, each with a valid ats and a non-empty slug token', () => {
@@ -9,8 +9,15 @@ describe('companies target list', () => {
     for (const c of companies) {
       expect(c.name.trim()).toBeTruthy();
       expect(VALID_ATS.has(c.ats)).toBe(true);
-      expect(c.token).toMatch(/^[a-z0-9-]+$/); // lowercase board slug
+      // Board slug: lowercase for Greenhouse/Lever/Ashby; SmartRecruiters identifiers are case-sensitive.
+      expect(c.token).toMatch(/^[A-Za-z0-9_-]+$/);
     }
+  });
+
+  it('includes the domain-overlap / reputable-remote additions and the SmartRecruiters source', () => {
+    const names = companies.map((c) => c.name);
+    expect(names).toEqual(expect.arrayContaining(['Affirm', 'Twilio', 'ServiceNow']));
+    expect(companies.find((c) => c.name === 'ServiceNow')?.ats).toBe('smartrecruiters');
   });
 
   it('has no duplicate (ats, token) pairs', () => {

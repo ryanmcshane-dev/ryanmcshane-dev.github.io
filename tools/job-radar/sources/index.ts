@@ -8,6 +8,7 @@ import { normalizeKey, normalizeUrl } from '../util';
 import { fetchGreenhouse } from './greenhouse';
 import { fetchLever } from './lever';
 import { fetchAshby } from './ashby';
+import { fetchSmartRecruiters } from './smartrecruiters';
 import { type AdzunaCreds, fetchAdzuna, getAdzunaCreds } from './adzuna';
 
 export interface SourceError {
@@ -35,6 +36,7 @@ const FETCHERS: Record<AtsSource, Fetcher> = {
   greenhouse: fetchGreenhouse,
   lever: fetchLever,
   ashby: fetchAshby,
+  smartrecruiters: fetchSmartRecruiters,
 };
 
 /**

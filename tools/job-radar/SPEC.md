@@ -181,13 +181,23 @@ off when the **Adzuna** aggregator surfaces one of their roles:
 - **Large, reputable, remote-friendly (+5):** Capital One, Stripe, PayPal, Block, Affirm, Chewy,
   Shopify, Atlassian, ServiceNow, Twilio — strong Java / distributed bar, comp bands above the floor.
 
-**Target companies (`companies.ts`):** curated list of reputable companies that expose public
-Greenhouse / Lever / Ashby boards. **Probed live 2026-07-02.** Reachable and seeded: Airbnb, Stripe,
-Databricks, Dropbox, Pinterest, Block (Greenhouse); Spotify, Plaid (Lever); OpenAI, Notion,
-Ramp, Linear, Vercel (Ashby) — Ryan opted to include the well-funded AI-native "borderline" names.
+**Target companies (`companies.ts`):** curated list of reputable companies that expose a public ATS
+board. **Probed live 2026-07-02, extended 2026-07-05.** Reachable and seeded: Airbnb, Stripe,
+Databricks, Dropbox, Pinterest, Block, **Affirm**, **Twilio** (Greenhouse); Spotify, Plaid (Lever);
+OpenAI, Notion, Ramp, Linear, Vercel (Ashby); **ServiceNow** (SmartRecruiters) — Ryan opted to
+include the well-funded AI-native "borderline" names, and the 2026-07-05 additions come from his
+best-fit-company guidance.
 **Excluded by choice:** Coinbase — Ryan does not want to tie his work to crypto.
-**Not reachable via these public ATS APIs** (would need a non-ATS v2 source): Netflix (empty Lever
-board) and Epic Games (no public board) — two of Ryan's four named targets.
+**Not reachable via public ATS APIs** (need an aggregator or a Workday adapter): the HCM / group-benefits
+domain-overlap tier (Workday, ADP, UKG, Ceridian/Dayforce, Paycom, Paylocity) and insurers
+(Prudential, MetLife, Unum, The Hartford) all recruit on Workday-hosted boards; Capital One, PayPal,
+Shopify, Chewy likewise. The preferred-company boost surfaces these when **Adzuna** returns them by
+keyword. Empty/no board: Atlassian (Lever board returns 0), Netflix, Epic Games.
+
+**Source adapters (`sources/`):** Greenhouse, Lever, Ashby (single call each), and **SmartRecruiters**
+(two-step: a US-filtered summary list, then a per-posting detail call for the description + canonical
+apply URL, with per-posting failure isolation, a summary fallback, and a detail-call cap). Plus the
+optional **Adzuna** aggregator (§2). All share the `FetchLike` injection so unit tests never hit the network.
 
 ## 7. Publishing (`/job-radar`)
 

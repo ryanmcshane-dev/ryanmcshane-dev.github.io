@@ -11,8 +11,8 @@
  * to keep the surface honest.
  */
 
-/** The public ATS board sources supported in v1 (per-company fan-out). */
-export type AtsSource = 'greenhouse' | 'lever' | 'ashby';
+/** The public ATS board sources supported (per-company fan-out). */
+export type AtsSource = 'greenhouse' | 'lever' | 'ashby' | 'smartrecruiters';
 
 /** Everything a `Posting` can come from: the ATS boards plus query-based aggregators. */
 export type PostingSource = AtsSource | 'adzuna';
@@ -198,4 +198,51 @@ export interface RawAdzunaJob {
 export interface RawAdzunaResponse {
   results: RawAdzunaJob[];
   count?: number;
+}
+
+/**
+ * SmartRecruiters: GET api.smartrecruiters.com/v1/companies/{id}/postings — a per-company board like
+ * the ATSes above, but the list returns *summaries only* (no description). The per-posting detail
+ * (…/postings/{id}) carries the description + canonical apply URL, so the adapter enriches each
+ * summary with one detail call. Location is structured (`remote` / `hybrid` booleans, ISO-2
+ * `country`), which the adapter reads directly instead of guessing from text.
+ */
+export interface RawSmartRecruitersLocation {
+  city?: string;
+  region?: string;
+  /** ISO-3166 alpha-2, lowercase (e.g. "us", "ca"). */
+  country?: string;
+  remote?: boolean;
+  hybrid?: boolean;
+  fullLocation?: string;
+}
+export interface RawSmartRecruitersPosting {
+  id: string;
+  /** The posting title. */
+  name: string;
+  releasedDate?: string;
+  company?: { identifier?: string; name?: string } | null;
+  location?: RawSmartRecruitersLocation | null;
+  experienceLevel?: { id?: string; label?: string } | null;
+}
+export interface RawSmartRecruitersListResponse {
+  totalFound?: number;
+  content?: RawSmartRecruitersPosting[];
+}
+export interface RawSmartRecruitersSection {
+  title?: string;
+  /** HTML. */
+  text?: string;
+}
+export interface RawSmartRecruitersDetail extends RawSmartRecruitersPosting {
+  postingUrl?: string;
+  applyUrl?: string;
+  jobAd?: {
+    sections?: {
+      companyDescription?: RawSmartRecruitersSection;
+      jobDescription?: RawSmartRecruitersSection;
+      qualifications?: RawSmartRecruitersSection;
+      additionalInformation?: RawSmartRecruitersSection;
+    };
+  } | null;
 }
