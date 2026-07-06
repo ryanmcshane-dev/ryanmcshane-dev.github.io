@@ -1,7 +1,7 @@
 import { describe, it, expect } from 'vitest';
 import type { FetchLike } from '../types';
 import { fetchGreenhouse, greenhouseUrl, mapGreenhouse } from './greenhouse';
-import { greenhouseFixture } from './__fixtures__/greenhouse.fixture';
+import { greenhouseFixture, greenhouseCurrencyRangeFixture } from './__fixtures__/greenhouse.fixture';
 
 const stubFetch =
   (body: unknown, init: { ok?: boolean; status?: number } = {}): FetchLike =>
@@ -46,6 +46,19 @@ describe('mapGreenhouse', () => {
   it('flags a Hybrid Workplace Type as hybrid (kept, but a lesser fit), not a hard yes/no', () => {
     expect(postings[1].remote).toBe('hybrid');
     expect(postings[1].location).toBe('Berlin, Germany');
+  });
+});
+
+describe('mapGreenhouse — boards without a "Workplace Type" field (e.g. Block)', () => {
+  const [block] = mapGreenhouse(greenhouseCurrencyRangeFixture, 'Block');
+
+  it('reads a yes/no "remote" metadata field (no Workplace Type, no "remote" in location)', () => {
+    expect(block.location).toBe('New York, NY, United States of America');
+    expect(block.remote).toBe(true);
+  });
+
+  it('formats a USD currency_range metadata field into a parseable compHint, skipping non-USD zones', () => {
+    expect(block.compHint).toBe('$217,800–$326,800');
   });
 });
 

@@ -109,6 +109,16 @@ export type FetchLike = (url: string, init?: FetchInitLike) => Promise<FetchResp
  * Raw wire shapes — the subset of each ATS payload the adapters read. *
  * ------------------------------------------------------------------ */
 
+/**
+ * Greenhouse `currency_range` metadata value (e.g. a per-zone salary band). `min_value`/`max_value`
+ * arrive as numeric strings (e.g. `"217800.0"`).
+ */
+export interface RawGreenhouseCurrencyRange {
+  unit?: string;
+  min_value?: string | number | null;
+  max_value?: string | number | null;
+}
+
 /** Greenhouse: GET boards-api.greenhouse.io/v1/boards/{token}/jobs?content=true */
 export interface RawGreenhouseJob {
   id: number;
@@ -118,7 +128,17 @@ export interface RawGreenhouseJob {
   location: { name: string } | null;
   /** HTML, entity-encoded (e.g. `&lt;p&gt;`). Present only with `?content=true`. */
   content?: string;
-  metadata?: Array<{ name: string; value: string | boolean | null; value_type: string }> | null;
+  /**
+   * Custom fields each company configures in its own Greenhouse instance — the same field name
+   * (e.g. remote-ness, comp) can carry a different `value_type` per company: a "Workplace Type"
+   * single-select string, a "Position open to remote" yes/no boolean, or a "Zone A Salary Range"
+   * currency_range object.
+   */
+  metadata?: Array<{
+    name: string;
+    value: string | boolean | number | RawGreenhouseCurrencyRange | null;
+    value_type: string;
+  }> | null;
   offices?: Array<{ name: string }> | null;
   departments?: Array<{ name: string }> | null;
 }
