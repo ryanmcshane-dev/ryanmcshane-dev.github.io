@@ -32,3 +32,9 @@ node_modules/.tmp
 # Résumé PDF: kept locally, deliberately not published to the site or the repo.
 # The pipeline uses the markdown mirror (tools/job-radar/candidate-resume.md) instead.
 tools/job-radar/candidate-resume.pdf
+
+# Resume-tailor outputs: per-company application materials and the master experience
+# file. Kept locally only — this repo is a public portfolio, and these reveal which
+# companies Ryan is applying to plus personal application answers.
+tools/resume-tailor/applications/
+tools/resume-tailor/skills_and_experience.md
