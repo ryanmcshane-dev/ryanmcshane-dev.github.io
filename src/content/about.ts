@@ -29,7 +29,6 @@ export const about: AboutContent = {
     { label: 'Scale', value: '1,200+ customers · 9 integrations' },
   ],
   headshot: {
-    // Drop the portrait at public/images/ryan.jpg to replace the placeholder.
     src: '/images/ryan.jpg',
     alt: 'Portrait of Ryan McShane',
   },
