@@ -39,6 +39,15 @@ describe('prefilter — excluded-title gate (takes precedence)', () => {
     'Product Designer',
     'Sales Engineer',
     'Data Analyst',
+    // Architect titles read as too senior / off-discipline — a hard drop (Ryan's call).
+    'Software Architect, Reliability Engineering',
+    'Solutions Architect',
+    'Principal Architect',
+    // Data / big-data / analytics-engineering titles — off-discipline (no big-data background).
+    'Staff Software Engineer (L4) Data Platform',
+    'Senior Data Engineer',
+    'Big Data Engineer',
+    'Analytics Engineer',
   ])('drops %s', (title) => {
     expect(dropReasonFor(makePosting({ title }))).toBe('excluded-title');
   });
@@ -59,7 +68,6 @@ describe('prefilter — role-family gate', () => {
     'Machine Learning Engineer',
     'Distributed Systems Engineer',
     'Member of Technical Staff',
-    'Solutions Architect',
   ])('keeps engineering role %s', (title) => {
     expect(dropReasonFor(makePosting({ title }))).toBeUndefined();
   });

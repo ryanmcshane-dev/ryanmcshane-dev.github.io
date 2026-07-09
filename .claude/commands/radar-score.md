@@ -18,9 +18,17 @@ add or call any Anthropic SDK.
    `droppedByReason` summary (in `counts`), and a small `droppedSample`. **This is your work set.**
 2. `tools/job-radar/fitSpec.ts` — Ryan's fit criteria: `$180K` comp floor, remote-required (hybrid
    is a lesser fit, not a dealbreaker), the role-family / exclude gates, and the weighted signals.
-3. The candidate profile — run `getCandidateProfile()` from `tools/job-radar/candidateProfile.ts`
-   (or read `tools/job-radar/candidate-resume.md` + `src/content/*`) for who Ryan is: senior
-   software / AI engineer, event-driven backend platforms, spec-driven + agentic engineering.
+3. `tools/resume-tailor/skills_and_experience.md` — **the master, fullest inventory of Ryan's
+   skills and experience** (the single source of truth the résumé-tailoring skill draws from).
+   Read this for the nuanced picture a keyword scorer misses: the true tech inventory, the
+   metrics ledger, the AI-native/agentic narrative, and honest depth caveats (e.g. "AWS ECS runs
+   on Fargate, but not deep on Fargate internals"). When judging fit, weigh a role against *this*
+   inventory — reward genuine matches, and don't over-credit a role that leans on a tool Ryan has
+   only shallow exposure to. **Never treat a gap here as something to invent around.**
+4. The compiled candidate profile — run `getCandidateProfile()` from
+   `tools/job-radar/candidateProfile.ts` (or read `tools/job-radar/candidate-resume.md` +
+   `src/content/*`) for the compact, site-derived summary: senior software / AI engineer,
+   event-driven backend platforms, spec-driven + agentic engineering.
 
 ## What to judge (per candidate)
 

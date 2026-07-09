@@ -150,6 +150,12 @@ interface ScoredPosting extends Posting { score: FitScore; }
 - **Startups / non-reputable.** Prefer established, reputable companies. The target-company list is
   curated to reputable firms up front, so this is enforced mostly by *which* boards we pull; Tier-2
   scoring also flags anything that reads as early-stage.
+- **Off-discipline / too-senior titles (hard drop).** Beyond junior/off-track titles (intern,
+  manager, analyst…), the `excludeTitles` gate also drops titles that read as **architect**
+  (too-senior / a role Ryan explicitly isn't) and **data / big-data / analytics engineering**
+  (`data engineer`, `data platform`, `big data`, `hadoop`, `spark`, `lakehouse`, `etl`, …) — no
+  big-data background, and not a domain Ryan wants. Title-only + whole-word, so a backend role that
+  merely mentions data in its body still passes, and `architect` never catches `…Architecture`.
 
 **Nice-to-haves (weighted, raise the score) — ordered by Ryan's resume strength:**
 - **`backend-core` (+20, top weight):** backend / distributed-systems / event-driven + his stack
@@ -157,18 +163,29 @@ interface ScoredPosting extends Posting { score: FitScore; }
   so this outweighs everything else.
 - **`seniority` (+14):** senior / staff / principal / lead.
 - **`platform-reliability` (+10):** platform / SRE / observability (Splunk, New Relic, monitoring),
-  developer-productivity — his genuine secondary strength.
+  infrastructure — his genuine secondary strength. Deliberately **excludes** dev-productivity /
+  DevOps / CI-tooling terms, which were over-crediting build/CI roles Ryan doesn't want as a primary
+  role (those are handled by the build/CI mismatches, not rewarded here).
 - **`ai-native` (+10):** a SWE who drives AI adoption (LLM / agentic / RAG / GenAI) — a real but
   *secondary* wedge. Deliberately **no longer outweighs backend**: it used to be +20, which let a
   pure ML role float to the top of the shortlist.
 - **`eng-culture` (+3), `product-company` (+3):** softer signals.
 
-**Mismatches (`mismatches`, *lower* the score, title-only):** a posting *titled* as a pure ML /
-research role (Machine Learning Engineer, Research/Applied Scientist, Data Scientist, deep learning,
-computer vision) reads as a weaker fit than Ryan's backend/platform core, so it takes a **−22**
-penalty and a concern. Matched against the **title only**, so a backend role that merely mentions ML
-in its description isn't demoted. Not a hard drop — such a role can still surface if it scores well
-otherwise (his guidance: "less so for pure ML/AI engineer postings").
+**Mismatches (`mismatches`, *lower* the score, title-only):** a set of role-type demotions matched
+against the **title only** (the role *is* this, not merely *mentions* it), so a backend role that
+name-drops the term in its body isn't touched. Not hard drops — a demoted role can still surface if
+it scores well otherwise. Current set:
+- **`pure-ml-research` (−30):** pure ML / research titles (Machine Learning Engineer, Research/Applied
+  Scientist, Data Scientist, deep learning, computer vision) — Ryan drives AI *adoption*, not modeling.
+- **`off-target-role` (−28):** off-discipline titles (mobile / frontend / enterprise-app / QA / sales /
+  security) — not his backend/platform core.
+- **`build-systems` (−30):** build-tooling titles (Bazel, build systems/infra) — no background there.
+- **`ci-release-eng` (−18):** CI / release-engineering as the *primary* role — Ryan has some CI
+  exposure (GitLab CI/CD) but it isn't his focus, so it's a low-grade match, not a top one (his
+  guidance). A softer penalty than build-systems for that reason.
+
+(Architect and data / big-data titles are handled one level up as **hard drops** in `excludeTitles`,
+not demotions — see the dealbreakers above.)
 
 **Preferred companies (`preferredCompanies`, grouped by strategic signal; highest-matching group
 wins, no stacking):** a small additive nudge (not a fit override), matched whole-word against the

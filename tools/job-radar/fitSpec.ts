@@ -308,7 +308,6 @@ export const fitSpec: FitSpec = {
     'ml engineer',
     'ai engineer',
     'sre',
-    'architect',
     // "Member of Technical Staff" — the IC engineering title at OpenAI/Anthropic-style labs,
     // which carries none of the terms above. `excludeTitles` still filters out non-eng "…staff".
     'technical staff',
@@ -336,6 +335,23 @@ export const fitSpec: FitSpec = {
     'marketing',
     'designer',
     'analyst',
+    // Architect titles read as too senior (15+ yrs) and a role Ryan explicitly isn't ("I am not an
+    // architect") — a hard drop (his call). Whole-word, so it never catches "…Architecture" team roles.
+    'architect',
+    // Data / big-data / analytics-engineering titles — off-discipline. Ryan has no big-data background
+    // (Hadoop / Spark / lakehouse) and doesn't want data-side roles. Title-only, so a backend role that
+    // merely mentions data in its description still passes the gate.
+    'data engineer',
+    'data engineering',
+    'data platform',
+    'big data',
+    'data infrastructure',
+    'analytics engineer',
+    'data warehouse',
+    'lakehouse',
+    'hadoop',
+    'spark',
+    'etl',
   ],
 
   baseScore: 30,
@@ -375,6 +391,10 @@ export const fitSpec: FitSpec = {
     {
       id: 'platform-reliability',
       label: "Platform / reliability / observability — Ryan's secondary strength",
+      // Genuine reliability/observability/SRE work (his Splunk/New Relic background). Deliberately
+      // *excludes* 'devops' / 'developer productivity' / 'developer experience': those were over-
+      // crediting CI/build-tooling roles (which Ryan doesn't want as a primary role) — that family is
+      // handled by the build-systems / CI mismatches below, not rewarded here.
       keywords: [
         'platform',
         'reliability',
@@ -386,9 +406,6 @@ export const fitSpec: FitSpec = {
         'datadog',
         'monitoring',
         'infrastructure',
-        'devops',
-        'developer productivity',
-        'developer experience',
       ],
       weight: 10,
     },
@@ -480,6 +497,20 @@ export const fitSpec: FitSpec = {
         'security engineer',
       ],
       penalty: 28,
+    },
+    {
+      id: 'build-systems',
+      label:
+        "build-systems / build-tooling role (Bazel, build infra) — Ryan has no build-systems background",
+      keywords: ['bazel', 'build system', 'build systems', 'build engineer', 'build infrastructure'],
+      penalty: 30,
+    },
+    {
+      id: 'ci-release-eng',
+      label:
+        "CI / release-engineering as the primary role — Ryan has some CI exposure but it isn't his focus (a low-grade match, not a top one)",
+      keywords: ['continuous integration', 'continuous delivery', 'release engineer', 'release engineering'],
+      penalty: 18,
     },
   ],
 

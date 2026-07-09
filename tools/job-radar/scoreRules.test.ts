@@ -206,6 +206,33 @@ describe('scoreFit — off-target discipline demotion', () => {
   );
 });
 
+describe('scoreFit — build-systems / CI demotion (Ryan\'s guidance)', () => {
+  const buildMismatch = fitSpec.mismatches.find((m) => m.id === 'build-systems')!;
+  const ciMismatch = fitSpec.mismatches.find((m) => m.id === 'ci-release-eng')!;
+
+  // Both are title-only demotions; the description is a rich backend/platform corpus so we isolate
+  // the title penalty (same construction as the pure-ML / off-target tests above).
+  const richDesc =
+    'Distributed backend on AWS with strong observability, monitoring, and reliability.';
+
+  it('demotes a Bazel / build-systems title hardest and flags it', () => {
+    const build = scoreFit(makeKept({ title: 'Staff Software Engineer, Build (Bazel)', descriptionText: richDesc }));
+    const backend = scoreFit(makeKept({ title: 'Staff Software Engineer', descriptionText: richDesc }));
+    expect(build.fit).toBe(backend.fit - buildMismatch.penalty);
+    expect(build.fit).toBeLessThan(backend.fit);
+    expect(build.concerns).toContain(buildMismatch.label);
+  });
+
+  it('demotes a CI / release-engineering title, but more gently than build-systems (a low-grade match)', () => {
+    const ci = scoreFit(makeKept({ title: 'Staff Software Engineer (Continuous Integration)', descriptionText: richDesc }));
+    const backend = scoreFit(makeKept({ title: 'Staff Software Engineer', descriptionText: richDesc }));
+    expect(ci.fit).toBe(backend.fit - ciMismatch.penalty);
+    expect(ci.concerns).toContain(ciMismatch.label);
+    // CI is a softer penalty than pure build-systems (Ryan has some CI exposure).
+    expect(ciMismatch.penalty).toBeLessThan(buildMismatch.penalty);
+  });
+});
+
 describe('scoreFit — platform / reliability signal', () => {
   it('credits observability / SRE work as Ryan\'s secondary strength', () => {
     const { matched } = scoreFit(
