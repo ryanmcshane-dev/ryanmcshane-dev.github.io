@@ -1,22 +1,22 @@
 {
-  "generatedAt": "2026-07-09T19:12:57.720Z",
+  "generatedAt": "2026-07-10T19:08:01.998Z",
   "tier": "tier-1",
   "counts": {
-    "fetched": 1878,
-    "kept": 523,
-    "dropped": 1355,
+    "fetched": 1925,
+    "kept": 562,
+    "dropped": 1363,
     "byVerdict": {
       "strong": 101,
-      "possible": 210,
-      "weak": 169,
-      "skip": 43
+      "possible": 223,
+      "weak": 188,
+      "skip": 50
     },
     "droppedByReason": {
-      "excluded-title": 724,
-      "off-role-family": 417,
-      "on-site-only": 13,
-      "non-us-location": 181,
-      "below-comp-floor": 20
+      "excluded-title": 719,
+      "off-role-family": 429,
+      "on-site-only": 14,
+      "non-us-location": 184,
+      "below-comp-floor": 17
     }
   },
   "errors": [],
@@ -102,6 +102,34 @@
         ],
         "concerns": [
           "comp unstated"
+        ]
+      }
+    },
+    {
+      "id": "6179a9c9",
+      "source": "workday",
+      "company": "Workday",
+      "title": "Senior Software Engineer, DBaas - US Federal",
+      "location": "USA.VA.Reston — United States of America",
+      "remote": "unknown",
+      "url": "https://workday.wd5.myworkdayjobs.com/Workday/job/USAVAReston/Senior-Software-Engineer--DBaas---US-Federal_JR-0102749",
+      "descriptionText": "Your work days are brighter here.\n\nWe’re obsessed with making hard work pay off, for our people, our customers, and the world around us. As a Fortune 500 company and a leading AI platform for managing people, money, and agents, we’re shaping the future of work so teams can reach their potential and focus on what matters most. The minute you join, you’ll feel it. Not just in the products we build, but in how we show up for each other. Our culture is rooted in integrity, empathy, and shared enthusiasm. We’re in this together, tackling big challenges with bold ideas and genuine care. We look for…",
+      "postedAt": "2026-03-31",
+      "score": {
+        "fit": 95,
+        "verdict": "strong",
+        "rationale": "Senior Software Engineer, DBaas - US Federal at Workday scores 95/100 (strong) on the Tier-1 deterministic pass. Matched: Backend / distributed / event-driven — Ryan's core strength; Senior / staff / lead level; Platform / reliability / observability — Ryan's secondary strength; AI-native engineering (a SWE who drives AI adoption); Strong engineering culture; HCM / group-benefits domain overlap — Ryan's EOI / Absence Management experience translates directly. Concerns: comp unstated; remote unstated.",
+        "matched": [
+          "Backend / distributed / event-driven — Ryan's core strength",
+          "Senior / staff / lead level",
+          "Platform / reliability / observability — Ryan's secondary strength",
+          "AI-native engineering (a SWE who drives AI adoption)",
+          "Strong engineering culture",
+          "HCM / group-benefits domain overlap — Ryan's EOI / Absence Management experience translates directly"
+        ],
+        "concerns": [
+          "comp unstated",
+          "remote unstated"
         ]
       }
     },
@@ -201,32 +229,6 @@
         "fit": 92,
         "verdict": "strong",
         "rationale": "Senior Software Engineer, Square Financial Services at Block scores 92/100 (strong) on the Tier-1 deterministic pass. Matched: Backend / distributed / event-driven — Ryan's core strength; Senior / staff / lead level; Platform / reliability / observability — Ryan's secondary strength; AI-native engineering (a SWE who drives AI adoption); Strong engineering culture; Large, reputable, remote-friendly engineering org with a strong Java / distributed-systems bar.",
-        "matched": [
-          "Backend / distributed / event-driven — Ryan's core strength",
-          "Senior / staff / lead level",
-          "Platform / reliability / observability — Ryan's secondary strength",
-          "AI-native engineering (a SWE who drives AI adoption)",
-          "Strong engineering culture",
-          "Large, reputable, remote-friendly engineering org with a strong Java / distributed-systems bar"
-        ],
-        "concerns": []
-      }
-    },
-    {
-      "id": "70b090a4",
-      "source": "greenhouse",
-      "company": "Block",
-      "title": "Software Engineer, Cash App - Lending Products",
-      "location": "Bay Area, CA, United States of America",
-      "remote": true,
-      "url": "http://block.xyz/careers/jobs/5196173008?gh_jid=5196173008",
-      "descriptionText": "It all started with an idea at Block in 2013. Initially built to take the pain out of peer-to-peer payments, Cash App has gone from a simple product with a single purpose to a dynamic ecosystem, developing unique financial products, including Afterpay/Clearpay, to provide a better way to send, spend, invest, borrow and save to our 50+ million monthly active customers. We want to redefine the world's relationship with money to make it more relatable, instantly available, and universally accessible.\n\nToday, Cash App has thousands of employees working globally across office and remote locations,…",
-      "postedAt": "2026-07-03T11:57:17-04:00",
-      "compHint": "$180,000–$270,000, $171,000–$256,600, $162,000–$243,000, $153,000–$229,600",
-      "score": {
-        "fit": 92,
-        "verdict": "strong",
-        "rationale": "Software Engineer, Cash App - Lending Products at Block scores 92/100 (strong) on the Tier-1 deterministic pass. Matched: Backend / distributed / event-driven — Ryan's core strength; Senior / staff / lead level; Platform / reliability / observability — Ryan's secondary strength; AI-native engineering (a SWE who drives AI adoption); Strong engineering culture; Large, reputable, remote-friendly engineering org with a strong Java / distributed-systems bar.",
         "matched": [
           "Backend / distributed / event-driven — Ryan's core strength",
           "Senior / staff / lead level",
@@ -452,6 +454,33 @@
       }
     },
     {
+      "id": "5ed2990e",
+      "source": "greenhouse",
+      "company": "Twilio",
+      "title": "Senior Software Engineer",
+      "location": "Remote - Estonia",
+      "remote": true,
+      "url": "https://job-boards.greenhouse.io/twilio/jobs/7993530",
+      "descriptionText": "Who we are\n\nAt Twilio, we’re shaping the future of communications, all from the comfort of our homes. We deliver innovative solutions to hundreds of thousands of businesses and empower millions of developers worldwide to craft personalized customer experiences.\n\nOur dedication to remote-first work , and strong culture of connection and global inclusion means that no matter your location, you’re part of a vibrant team with diverse experiences making a global impact each day. As we continue to revolutionize how the world interacts, we’re acquiring new skills and experiences that make work feel…",
+      "postedAt": "2026-07-10T10:28:45-04:00",
+      "score": {
+        "fit": 89,
+        "verdict": "strong",
+        "rationale": "Senior Software Engineer at Twilio scores 89/100 (strong) on the Tier-1 deterministic pass. Matched: Backend / distributed / event-driven — Ryan's core strength; Senior / staff / lead level; Platform / reliability / observability — Ryan's secondary strength; AI-native engineering (a SWE who drives AI adoption); Large, reputable, remote-friendly engineering org with a strong Java / distributed-systems bar. Concerns: comp unstated; location \"Remote - Estonia\" — confirm US eligibility.",
+        "matched": [
+          "Backend / distributed / event-driven — Ryan's core strength",
+          "Senior / staff / lead level",
+          "Platform / reliability / observability — Ryan's secondary strength",
+          "AI-native engineering (a SWE who drives AI adoption)",
+          "Large, reputable, remote-friendly engineering org with a strong Java / distributed-systems bar"
+        ],
+        "concerns": [
+          "comp unstated",
+          "location \"Remote - Estonia\" — confirm US eligibility"
+        ]
+      }
+    },
+    {
       "id": "ddd5f4a2",
       "source": "greenhouse",
       "company": "Twilio",
@@ -460,7 +489,7 @@
       "remote": true,
       "url": "https://job-boards.greenhouse.io/twilio/jobs/7967685",
       "descriptionText": "Who we are\n\nAt Twilio, we’re shaping the future of communications, all from the comfort of our homes. We deliver innovative solutions to hundreds of thousands of businesses and empower millions of developers worldwide to craft personalized customer experiences.\n\nOur dedication to remote-first work , and strong culture of connection and global inclusion means that no matter your location, you’re part of a vibrant team with diverse experiences making a global impact each day. As we continue to revolutionize how the world interacts, we’re acquiring new skills and experiences that make work feel…",
-      "postedAt": "2026-07-09T14:29:02-04:00",
+      "postedAt": "2026-07-09T20:12:57-04:00",
       "score": {
         "fit": 89,
         "verdict": "strong",
@@ -486,11 +515,37 @@
       "remote": true,
       "url": "https://job-boards.greenhouse.io/twilio/jobs/8009057",
       "descriptionText": "Who we are\n\nAt Twilio, we’re shaping the future of communications, all from the comfort of our homes. We deliver innovative solutions to hundreds of thousands of businesses and empower millions of developers worldwide to craft personalized customer experiences.\n\nOur dedication to remote-first work , and strong culture of connection and global inclusion means that no matter your location, you’re part of a vibrant team with diverse experiences making a global impact each day. As we continue to revolutionize how the world interacts, we’re acquiring new skills and experiences that make work feel…",
-      "postedAt": "2026-07-09T14:28:56-04:00",
+      "postedAt": "2026-07-09T20:12:48-04:00",
       "score": {
         "fit": 89,
         "verdict": "strong",
         "rationale": "Software Engineer L3 at Twilio scores 89/100 (strong) on the Tier-1 deterministic pass. Matched: Backend / distributed / event-driven — Ryan's core strength; Senior / staff / lead level; Platform / reliability / observability — Ryan's secondary strength; AI-native engineering (a SWE who drives AI adoption); Large, reputable, remote-friendly engineering org with a strong Java / distributed-systems bar. Concerns: comp unstated.",
+        "matched": [
+          "Backend / distributed / event-driven — Ryan's core strength",
+          "Senior / staff / lead level",
+          "Platform / reliability / observability — Ryan's secondary strength",
+          "AI-native engineering (a SWE who drives AI adoption)",
+          "Large, reputable, remote-friendly engineering org with a strong Java / distributed-systems bar"
+        ],
+        "concerns": [
+          "comp unstated"
+        ]
+      }
+    },
+    {
+      "id": "f3aa01a4",
+      "source": "smartrecruiters",
+      "company": "ServiceNow",
+      "title": "Senior Staff Database Engineer",
+      "location": "West Palm Beach, Florida, United States",
+      "remote": true,
+      "url": "https://jobs.smartrecruiters.com/ServiceNow/744000136904189-senior-staff-database-engineer?oga=true",
+      "descriptionText": "Please Note: This role includes on-call rotation responsibilities.\nTeam:\nOur SWAT (Software Action Team) ensures the production stability of customer applications and infrastructure services. Our engineers are the last line of defense — production champions who own stability at every service level and act as the ultimate escalation point for internal and external customers.\nWe are looking for a strong database engineer with deep technical expertise, sharp logical reasoning, and the flexibility to thrive in a fast-paced, high-stakes environment. If you are passionate about chasing down complex…",
+      "postedAt": "2026-07-09T21:22:41.636Z",
+      "score": {
+        "fit": 89,
+        "verdict": "strong",
+        "rationale": "Senior Staff Database Engineer at ServiceNow scores 89/100 (strong) on the Tier-1 deterministic pass. Matched: Backend / distributed / event-driven — Ryan's core strength; Senior / staff / lead level; Platform / reliability / observability — Ryan's secondary strength; AI-native engineering (a SWE who drives AI adoption); Large, reputable, remote-friendly engineering org with a strong Java / distributed-systems bar. Concerns: comp unstated.",
         "matched": [
           "Backend / distributed / event-driven — Ryan's core strength",
           "Senior / staff / lead level",
@@ -526,33 +581,6 @@
         ],
         "concerns": [
           "comp unstated"
-        ]
-      }
-    },
-    {
-      "id": "5ed2990e",
-      "source": "greenhouse",
-      "company": "Twilio",
-      "title": "Senior Software Engineer",
-      "location": "Remote - Estonia",
-      "remote": true,
-      "url": "https://job-boards.greenhouse.io/twilio/jobs/7993530",
-      "descriptionText": "Who we are\n\nAt Twilio, we’re shaping the future of communications, all from the comfort of our homes. We deliver innovative solutions to hundreds of thousands of businesses and empower millions of developers worldwide to craft personalized customer experiences.\n\nOur dedication to remote-first work , and strong culture of connection and global inclusion means that no matter your location, you’re part of a vibrant team with diverse experiences making a global impact each day. As we continue to revolutionize how the world interacts, we’re acquiring new skills and experiences that make work feel…",
-      "postedAt": "2026-07-09T14:09:25-04:00",
-      "score": {
-        "fit": 89,
-        "verdict": "strong",
-        "rationale": "Senior Software Engineer at Twilio scores 89/100 (strong) on the Tier-1 deterministic pass. Matched: Backend / distributed / event-driven — Ryan's core strength; Senior / staff / lead level; Platform / reliability / observability — Ryan's secondary strength; AI-native engineering (a SWE who drives AI adoption); Large, reputable, remote-friendly engineering org with a strong Java / distributed-systems bar. Concerns: comp unstated; location \"Remote - Estonia\" — confirm US eligibility.",
-        "matched": [
-          "Backend / distributed / event-driven — Ryan's core strength",
-          "Senior / staff / lead level",
-          "Platform / reliability / observability — Ryan's secondary strength",
-          "AI-native engineering (a SWE who drives AI adoption)",
-          "Large, reputable, remote-friendly engineering org with a strong Java / distributed-systems bar"
-        ],
-        "concerns": [
-          "comp unstated",
-          "location \"Remote - Estonia\" — confirm US eligibility"
         ]
       }
     },
@@ -792,32 +820,6 @@
       }
     },
     {
-      "id": "70b59fa2",
-      "source": "smartrecruiters",
-      "company": "ServiceNow",
-      "title": "Senior Staff Technical Product Owner - FinOps Platform Engineering",
-      "location": "Santa Clara, California, United States",
-      "remote": true,
-      "url": "https://jobs.smartrecruiters.com/ServiceNow/744000135368773-senior-staff-technical-product-owner-finops-platform-engineering-?oga=true",
-      "descriptionText": "Team \nJoin the FinOps Platform Engineering organization, the team that builds the FinOps Control Tower, ServiceNow's internal platform for cloud cost governance, financial accountability, and unit economics across our multi-cloud estate (AWS, Azure, and GCP). We own the data engineering and business intelligence layers that turn raw multi-cloud billing data into attributed, governed, decision-ready cost information for the people who run ServiceNow's cloud. \nOur users are FinOps practitioners and the engineering, finance, and executive stakeholders they serve. The team brings together data…",
-      "postedAt": "2026-07-02T00:51:45.907Z",
-      "score": {
-        "fit": 89,
-        "verdict": "strong",
-        "rationale": "Senior Staff Technical Product Owner - FinOps Platform Engineering at ServiceNow scores 89/100 (strong) on the Tier-1 deterministic pass. Matched: Backend / distributed / event-driven — Ryan's core strength; Senior / staff / lead level; Platform / reliability / observability — Ryan's secondary strength; AI-native engineering (a SWE who drives AI adoption); Large, reputable, remote-friendly engineering org with a strong Java / distributed-systems bar. Concerns: comp unstated.",
-        "matched": [
-          "Backend / distributed / event-driven — Ryan's core strength",
-          "Senior / staff / lead level",
-          "Platform / reliability / observability — Ryan's secondary strength",
-          "AI-native engineering (a SWE who drives AI adoption)",
-          "Large, reputable, remote-friendly engineering org with a strong Java / distributed-systems bar"
-        ],
-        "concerns": [
-          "comp unstated"
-        ]
-      }
-    },
-    {
       "id": "6f89000b",
       "source": "smartrecruiters",
       "company": "ServiceNow",
@@ -858,33 +860,6 @@
         "fit": 89,
         "verdict": "strong",
         "rationale": "Senior Software Engineer, Agentic AI Systems - Moveworks at ServiceNow scores 89/100 (strong) on the Tier-1 deterministic pass. Matched: Backend / distributed / event-driven — Ryan's core strength; Senior / staff / lead level; Platform / reliability / observability — Ryan's secondary strength; AI-native engineering (a SWE who drives AI adoption); Large, reputable, remote-friendly engineering org with a strong Java / distributed-systems bar. Concerns: comp unstated; remote unstated.",
-        "matched": [
-          "Backend / distributed / event-driven — Ryan's core strength",
-          "Senior / staff / lead level",
-          "Platform / reliability / observability — Ryan's secondary strength",
-          "AI-native engineering (a SWE who drives AI adoption)",
-          "Large, reputable, remote-friendly engineering org with a strong Java / distributed-systems bar"
-        ],
-        "concerns": [
-          "comp unstated",
-          "remote unstated"
-        ]
-      }
-    },
-    {
-      "id": "f91f410f",
-      "source": "smartrecruiters",
-      "company": "ServiceNow",
-      "title": "Staff Software Engineer",
-      "location": "San Diego, California, United States",
-      "remote": "unknown",
-      "url": "https://jobs.smartrecruiters.com/ServiceNow/744000133443190-staff-software-engineer?oga=true",
-      "descriptionText": "Job Description \n\nThe GAIL (Get AI Live) program deploys engineers directly into strategic customer engagements to drive real AI adoption and measurable value realization. The GAIL Core Team is the permanent engine behind that program — the stable foundation of institutional knowledge, tooling ownership, and senior expertise that makes every engagement, and every rotating engineer, better than the last. \nAs a Staff Software Engineer on the GAIL Core Team, you will own the hardest engagements, set the quality standard for the entire practice, and build the infrastructure that scales it. This…",
-      "postedAt": "2026-06-22T19:34:46.780Z",
-      "score": {
-        "fit": 89,
-        "verdict": "strong",
-        "rationale": "Staff Software Engineer at ServiceNow scores 89/100 (strong) on the Tier-1 deterministic pass. Matched: Backend / distributed / event-driven — Ryan's core strength; Senior / staff / lead level; Platform / reliability / observability — Ryan's secondary strength; AI-native engineering (a SWE who drives AI adoption); Large, reputable, remote-friendly engineering org with a strong Java / distributed-systems bar. Concerns: comp unstated; remote unstated.",
         "matched": [
           "Backend / distributed / event-driven — Ryan's core strength",
           "Senior / staff / lead level",
@@ -1086,62 +1061,6 @@
       }
     },
     {
-      "id": "9771f5d5",
-      "source": "adzuna",
-      "company": "Grafana Labs",
-      "title": "Staff Backend Engineer - Application Core Services, Stacks",
-      "location": "Trammells, Harris County",
-      "remote": "unknown",
-      "url": "https://www.adzuna.com/details/5794147488?utm_medium=api&utm_source=e9201d43",
-      "descriptionText": "Grafana Labs, the company behind the open observability cloud, is founded on the principles of open source, open standards, open ecosystems, and open culture. Grafana Cloud, our fully managed observability platform, is flexible and built for scale. With Grafana Clouds actually useful AI, organizations can see, understand, and act on all their disparate data to move at the speed of their ambitions. Today, more than 35 million users and 7,000 customers – including Anthropic, Bloomberg, NVIDIA, Mi…",
-      "postedAt": "2026-07-09T08:00:27Z",
-      "score": {
-        "fit": 87,
-        "verdict": "strong",
-        "rationale": "Staff Backend Engineer - Application Core Services, Stacks at Grafana Labs scores 87/100 (strong) on the Tier-1 deterministic pass. Matched: Backend / distributed / event-driven — Ryan's core strength; Senior / staff / lead level; Platform / reliability / observability — Ryan's secondary strength; AI-native engineering (a SWE who drives AI adoption); Strong engineering culture. Concerns: comp unstated; location \"Trammells, Harris County\" — confirm US eligibility; remote unstated.",
-        "matched": [
-          "Backend / distributed / event-driven — Ryan's core strength",
-          "Senior / staff / lead level",
-          "Platform / reliability / observability — Ryan's secondary strength",
-          "AI-native engineering (a SWE who drives AI adoption)",
-          "Strong engineering culture"
-        ],
-        "concerns": [
-          "comp unstated",
-          "location \"Trammells, Harris County\" — confirm US eligibility",
-          "remote unstated"
-        ]
-      }
-    },
-    {
-      "id": "8380e0e3",
-      "source": "adzuna",
-      "company": "Grafana Labs",
-      "title": "Staff Backend Engineer - Enterprise",
-      "location": "Grand Central, Manhattan",
-      "remote": "unknown",
-      "url": "https://www.adzuna.com/details/5794147460?utm_medium=api&utm_source=e9201d43",
-      "descriptionText": "Grafana Labs, the company behind the open observability cloud, is founded on the principles of open source, open standards, open ecosystems, and open culture. Grafana Cloud, our fully managed observability platform, is flexible and built for scale. With Grafana Clouds actually useful AI, organizations can see, understand, and act on all their disparate data to move at the speed of their ambitions. Today, more than 35 million users and 7,000 customers – including Anthropic, Bloomberg, NVIDIA, Mi…",
-      "postedAt": "2026-07-09T08:00:27Z",
-      "score": {
-        "fit": 87,
-        "verdict": "strong",
-        "rationale": "Staff Backend Engineer - Enterprise at Grafana Labs scores 87/100 (strong) on the Tier-1 deterministic pass. Matched: Backend / distributed / event-driven — Ryan's core strength; Senior / staff / lead level; Platform / reliability / observability — Ryan's secondary strength; AI-native engineering (a SWE who drives AI adoption); Strong engineering culture. Concerns: comp unstated; location \"Grand Central, Manhattan\" — confirm US eligibility; remote unstated.",
-        "matched": [
-          "Backend / distributed / event-driven — Ryan's core strength",
-          "Senior / staff / lead level",
-          "Platform / reliability / observability — Ryan's secondary strength",
-          "AI-native engineering (a SWE who drives AI adoption)",
-          "Strong engineering culture"
-        ],
-        "concerns": [
-          "comp unstated",
-          "location \"Grand Central, Manhattan\" — confirm US eligibility",
-          "remote unstated"
-        ]
-      }
-    },
-    {
       "id": "1279733b",
       "source": "adzuna",
       "company": "Grafana Labs",
@@ -1165,34 +1084,6 @@
         "concerns": [
           "comp unstated",
           "location \"Campbell, Santa Clara County\" — confirm US eligibility",
-          "remote unstated"
-        ]
-      }
-    },
-    {
-      "id": "138abdef",
-      "source": "adzuna",
-      "company": "Grafana Labs",
-      "title": "Staff Backend Engineer - App Platform",
-      "location": "Elkins Park, Montgomery County",
-      "remote": "unknown",
-      "url": "https://www.adzuna.com/details/5794147428?utm_medium=api&utm_source=e9201d43",
-      "descriptionText": "Grafana Labs, the company behind the open observability cloud, is founded on the principles of open source, open standards, open ecosystems, and open culture. Grafana Cloud, our fully managed observability platform, is flexible and built for scale. With Grafana Clouds actually useful AI, organizations can see, understand, and act on all their disparate data to move at the speed of their ambitions. Today, more than 35 million users and 7,000 customers – including Anthropic, Bloomberg, NVIDIA, Mi…",
-      "postedAt": "2026-07-09T08:00:26Z",
-      "score": {
-        "fit": 87,
-        "verdict": "strong",
-        "rationale": "Staff Backend Engineer - App Platform at Grafana Labs scores 87/100 (strong) on the Tier-1 deterministic pass. Matched: Backend / distributed / event-driven — Ryan's core strength; Senior / staff / lead level; Platform / reliability / observability — Ryan's secondary strength; AI-native engineering (a SWE who drives AI adoption); Strong engineering culture. Concerns: comp unstated; location \"Elkins Park, Montgomery County\" — confirm US eligibility; remote unstated.",
-        "matched": [
-          "Backend / distributed / event-driven — Ryan's core strength",
-          "Senior / staff / lead level",
-          "Platform / reliability / observability — Ryan's secondary strength",
-          "AI-native engineering (a SWE who drives AI adoption)",
-          "Strong engineering culture"
-        ],
-        "concerns": [
-          "comp unstated",
-          "location \"Elkins Park, Montgomery County\" — confirm US eligibility",
           "remote unstated"
         ]
       }
@@ -1350,6 +1241,112 @@
         ],
         "concerns": [
           "comp unstated"
+        ]
+      }
+    },
+    {
+      "id": "e8345ceb",
+      "source": "ashby",
+      "company": "OpenAI",
+      "title": "Software Engineer, Developer Productivity",
+      "location": "San Francisco",
+      "remote": "unknown",
+      "url": "https://jobs.ashbyhq.com/openai/2cba0d45-7a4f-4f38-ac73-3f8633bf0349",
+      "descriptionText": "About the Team\n\nThe Applied AI team safely brings OpenAI's technology to the world. We released ChatGPT, Plugins, DALL·E, and the APIs for GPT-4, GPT-3, embeddings, and fine-tuning. We also operate inference infrastructure at scale. There's a lot more on the immediate horizon.\n\nWe seek to learn from deployment and distribute the benefits of AI, while ensuring that this powerful tool is used responsibly and safely. Safety is more important to us than unfettered growth. We serve end-users directly through ChatGPT, and serve developers through our APIs, which power product features that were…",
+      "postedAt": "2025-03-27T16:44:10.676+00:00",
+      "compHint": "$210K - $490K",
+      "score": {
+        "fit": 87,
+        "verdict": "strong",
+        "rationale": "Software Engineer, Developer Productivity at OpenAI scores 87/100 (strong) on the Tier-1 deterministic pass. Matched: Backend / distributed / event-driven — Ryan's core strength; Senior / staff / lead level; Platform / reliability / observability — Ryan's secondary strength; AI-native engineering (a SWE who drives AI adoption); Product engineering. Concerns: remote unstated.",
+        "matched": [
+          "Backend / distributed / event-driven — Ryan's core strength",
+          "Senior / staff / lead level",
+          "Platform / reliability / observability — Ryan's secondary strength",
+          "AI-native engineering (a SWE who drives AI adoption)",
+          "Product engineering"
+        ],
+        "concerns": [
+          "remote unstated"
+        ]
+      }
+    },
+    {
+      "id": "b15047bf",
+      "source": "ashby",
+      "company": "Linear",
+      "title": "Senior / Staff Fullstack Engineer",
+      "location": "North America",
+      "remote": true,
+      "url": "https://jobs.ashbyhq.com/linear/cd5ae036-0223-427a-b038-ba16ef9dcb32",
+      "descriptionText": "At Linear, we're building the product development system for teams and agents. AI is fundamentally changing how software gets built, and we’re shaping the tools this new era requires.\n\nFounded in 2019, Linear has become the platform of choice for more than 30,000 companies (including OpenAI, Coinbase, and Ramp) to plan, build, and ship their products. Today, our team is distributed across North America, Europe, and Australia, and we’re continuing to grow internationally. What unites us is relentless focus, fast execution, and a deep care for software craftsmanship.\n\nAs a small team, we’re all…",
+      "postedAt": "2021-08-18T20:48:26.891+00:00",
+      "score": {
+        "fit": 87,
+        "verdict": "strong",
+        "rationale": "Senior / Staff Fullstack Engineer at Linear scores 87/100 (strong) on the Tier-1 deterministic pass. Matched: Backend / distributed / event-driven — Ryan's core strength; Senior / staff / lead level; Platform / reliability / observability — Ryan's secondary strength; AI-native engineering (a SWE who drives AI adoption); Strong engineering culture. Concerns: comp unstated.",
+        "matched": [
+          "Backend / distributed / event-driven — Ryan's core strength",
+          "Senior / staff / lead level",
+          "Platform / reliability / observability — Ryan's secondary strength",
+          "AI-native engineering (a SWE who drives AI adoption)",
+          "Strong engineering culture"
+        ],
+        "concerns": [
+          "comp unstated"
+        ]
+      }
+    },
+    {
+      "id": "0fe0dbce",
+      "source": "adzuna",
+      "company": "Verkada",
+      "title": "Senior Backend Engineer - Streaming",
+      "location": "San Mateo, San Mateo County",
+      "remote": "unknown",
+      "url": "https://www.adzuna.com/details/5795085373?utm_medium=api&utm_source=e9201d43",
+      "descriptionText": "Who We Are Verkada is transforming how organizations protect their people and places with an integrated, privacy-sensitive AI-powered platform that includes solutions for video security, access control, air quality sensors, alarms, intercoms, and visitor management. We’ve got serious momentum in the market: more than 30,000 customers (including 100 of the Fortune 500), a $5.8B valuation , more than $1 billion in annualized bookings, and backing from CapitalG, Sequoia Capital, General Catalyst, …",
+      "postedAt": "2026-07-09T23:58:56Z",
+      "compHint": "$130,000 - $280,000",
+      "score": {
+        "fit": 84,
+        "verdict": "strong",
+        "rationale": "Senior Backend Engineer - Streaming at Verkada scores 84/100 (strong) on the Tier-1 deterministic pass. Matched: Backend / distributed / event-driven — Ryan's core strength; Senior / staff / lead level; Platform / reliability / observability — Ryan's secondary strength; AI-native engineering (a SWE who drives AI adoption). Concerns: location \"San Mateo, San Mateo County\" — confirm US eligibility; remote unstated.",
+        "matched": [
+          "Backend / distributed / event-driven — Ryan's core strength",
+          "Senior / staff / lead level",
+          "Platform / reliability / observability — Ryan's secondary strength",
+          "AI-native engineering (a SWE who drives AI adoption)"
+        ],
+        "concerns": [
+          "location \"San Mateo, San Mateo County\" — confirm US eligibility",
+          "remote unstated"
+        ]
+      }
+    },
+    {
+      "id": "94cc00c6",
+      "source": "adzuna",
+      "company": "Selby Jennings",
+      "title": "AI Development Platform Engineer",
+      "location": "Chicago, Cook County",
+      "remote": "unknown",
+      "url": "https://www.adzuna.com/details/5794938744?utm_medium=api&utm_source=e9201d43",
+      "descriptionText": "Senior Software Engineer - AI Developer Platform A leading high-frequency trading firm is looking for a backend-focused Software Engineer to help build the next generation of AI-powered developer platforms and engineering productivity tools. This team is responsible for improving how software is built, tested, deployed, and operated by creating scalable internal platforms, automation, and AI-enabled workflows. Responsibilities Build backend services, APIs, and platform capabilities that power A…",
+      "postedAt": "2026-07-09T21:49:21Z",
+      "compHint": "$400,000",
+      "score": {
+        "fit": 84,
+        "verdict": "strong",
+        "rationale": "AI Development Platform Engineer at Selby Jennings scores 84/100 (strong) on the Tier-1 deterministic pass. Matched: Backend / distributed / event-driven — Ryan's core strength; Senior / staff / lead level; Platform / reliability / observability — Ryan's secondary strength; AI-native engineering (a SWE who drives AI adoption). Concerns: remote unstated.",
+        "matched": [
+          "Backend / distributed / event-driven — Ryan's core strength",
+          "Senior / staff / lead level",
+          "Platform / reliability / observability — Ryan's secondary strength",
+          "AI-native engineering (a SWE who drives AI adoption)"
+        ],
+        "concerns": [
+          "remote unstated"
         ]
       }
     }
