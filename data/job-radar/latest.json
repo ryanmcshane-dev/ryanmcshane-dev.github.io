@@ -1,22 +1,22 @@
 {
-  "generatedAt": "2026-07-11T16:31:48.055Z",
+  "generatedAt": "2026-07-12T16:35:49.742Z",
   "tier": "tier-1",
   "counts": {
-    "fetched": 1957,
-    "kept": 563,
-    "dropped": 1394,
+    "fetched": 1963,
+    "kept": 550,
+    "dropped": 1413,
     "byVerdict": {
-      "strong": 100,
+      "strong": 104,
       "possible": 215,
-      "weak": 199,
-      "skip": 49
+      "weak": 185,
+      "skip": 46
     },
     "droppedByReason": {
-      "excluded-title": 730,
-      "off-role-family": 441,
-      "on-site-only": 15,
-      "non-us-location": 185,
-      "below-comp-floor": 23
+      "excluded-title": 733,
+      "off-role-family": 439,
+      "on-site-only": 14,
+      "non-us-location": 191,
+      "below-comp-floor": 36
     }
   },
   "errors": [],
@@ -134,32 +134,6 @@
       }
     },
     {
-      "id": "38a32fde",
-      "source": "greenhouse",
-      "company": "Airbnb",
-      "title": "Staff Software Engineer, Communication & Connectivity",
-      "location": "United States",
-      "remote": true,
-      "url": "https://careers.airbnb.com/positions/7421419?gh_jid=7421419",
-      "descriptionText": "Airbnb was born in 2007 when two hosts welcomed three guests to their San Francisco home, and has since grown to over 5 million hosts who have welcomed over 2 billion guest arrivals in almost every country across the globe. Every day, hosts offer unique stays and experiences that make it possible for guests to connect with communities in a more authentic way.\n\nThe Community You Will Join:\n\nWe connect Airbnb’s community with the right information, in the right place, at the right time. We tailor Messaging & Notifications so hosts on Airbnb can streamline their operations, and travelers get…",
-      "postedAt": "2026-07-10T16:08:16-04:00",
-      "score": {
-        "fit": 92,
-        "verdict": "strong",
-        "rationale": "Staff Software Engineer, Communication & Connectivity at Airbnb scores 92/100 (strong) on the Tier-1 deterministic pass. Matched: Backend / distributed / event-driven — Ryan's core strength; Senior / staff / lead level; Platform / reliability / observability — Ryan's secondary strength; AI-native engineering (a SWE who drives AI adoption); Top-choice company. Concerns: comp unstated.",
-        "matched": [
-          "Backend / distributed / event-driven — Ryan's core strength",
-          "Senior / staff / lead level",
-          "Platform / reliability / observability — Ryan's secondary strength",
-          "AI-native engineering (a SWE who drives AI adoption)",
-          "Top-choice company"
-        ],
-        "concerns": [
-          "comp unstated"
-        ]
-      }
-    },
-    {
       "id": "410d4b5e",
       "source": "greenhouse",
       "company": "Twilio",
@@ -267,13 +241,13 @@
       }
     },
     {
-      "id": "98303f35",
+      "id": "70b090a4",
       "source": "greenhouse",
       "company": "Block",
       "title": "Software Engineer, Cash App - Lending Products",
-      "location": "New York, NY, United States of America",
+      "location": "Bay Area, CA, United States of America",
       "remote": true,
-      "url": "http://block.xyz/careers/jobs/5201726008?gh_jid=5201726008",
+      "url": "http://block.xyz/careers/jobs/5196173008?gh_jid=5196173008",
       "descriptionText": "It all started with an idea at Block in 2013. Initially built to take the pain out of peer-to-peer payments, Cash App has gone from a simple product with a single purpose to a dynamic ecosystem, developing unique financial products, including Afterpay/Clearpay, to provide a better way to send, spend, invest, borrow and save to our 50+ million monthly active customers. We want to redefine the world's relationship with money to make it more relatable, instantly available, and universally accessible.\n\nToday, Cash App has thousands of employees working globally across office and remote locations,…",
       "postedAt": "2026-07-03T11:57:17-04:00",
       "compHint": "$180,000–$270,000, $171,000–$256,600, $162,000–$243,000, $153,000–$229,600",
@@ -821,31 +795,6 @@
       }
     },
     {
-      "id": "fb236222",
-      "source": "greenhouse",
-      "company": "Block",
-      "title": "Senior Software Engineer, Product Platform",
-      "location": "Bay Area, CA, United States of America",
-      "remote": true,
-      "url": "http://block.xyz/careers/jobs/5231964008?gh_jid=5231964008",
-      "descriptionText": "Block is one company built from many blocks, all united by the same purpose of economic empowerment. The blocks that form our foundational teams — People, Finance, Counsel, Hardware, Information Security, Platform Infrastructure Engineering, and more — provide support and guidance at the corporate level. They work across business groups and around the globe, spanning time zones and disciplines to develop inclusive People policies, forecast finances, give legal counsel, safeguard systems, nurture new initiatives, and more. Every challenge creates possibilities, and we need different…",
-      "postedAt": "2026-07-06T22:02:02-04:00",
-      "compHint": "$217,800–$326,800, $207,000–$310,400, $196,100–$294,100, $185,200–$277,800",
-      "score": {
-        "fit": 89,
-        "verdict": "strong",
-        "rationale": "Senior Software Engineer, Product Platform at Block scores 89/100 (strong) on the Tier-1 deterministic pass. Matched: Backend / distributed / event-driven — Ryan's core strength; Senior / staff / lead level; Platform / reliability / observability — Ryan's secondary strength; AI-native engineering (a SWE who drives AI adoption); Large, reputable, remote-friendly engineering org with a strong Java / distributed-systems bar.",
-        "matched": [
-          "Backend / distributed / event-driven — Ryan's core strength",
-          "Senior / staff / lead level",
-          "Platform / reliability / observability — Ryan's secondary strength",
-          "AI-native engineering (a SWE who drives AI adoption)",
-          "Large, reputable, remote-friendly engineering org with a strong Java / distributed-systems bar"
-        ],
-        "concerns": []
-      }
-    },
-    {
       "id": "6e51ba66",
       "source": "smartrecruiters",
       "company": "ServiceNow",
@@ -922,32 +871,6 @@
         "concerns": [
           "comp unstated",
           "remote unstated"
-        ]
-      }
-    },
-    {
-      "id": "f9829a09",
-      "source": "greenhouse",
-      "company": "Affirm",
-      "title": "Senior CIAM Software Engineer",
-      "location": "Remote US",
-      "remote": true,
-      "url": "https://job-boards.greenhouse.io/affirm/jobs/7671388003",
-      "descriptionText": "Affirm is reinventing credit to make it more honest and friendly, giving consumers the flexibility to buy now and pay later without any hidden fees or compounding interest.\n\nAffirm is building the next generation of customer identity and authentication. This role is a hands-on engineering position inside Information Security, focused on designing and shipping core CIAM capabilities that protect customers and support growth.\n\nYou will build and operate backend services that power registration, login, authorization, and account lifecycle flows across B2C and B2B experiences. You will work…",
-      "postedAt": "2026-06-18T11:27:47-04:00",
-      "score": {
-        "fit": 89,
-        "verdict": "strong",
-        "rationale": "Senior CIAM Software Engineer at Affirm scores 89/100 (strong) on the Tier-1 deterministic pass. Matched: Backend / distributed / event-driven — Ryan's core strength; Senior / staff / lead level; Platform / reliability / observability — Ryan's secondary strength; AI-native engineering (a SWE who drives AI adoption); Large, reputable, remote-friendly engineering org with a strong Java / distributed-systems bar. Concerns: comp unstated.",
-        "matched": [
-          "Backend / distributed / event-driven — Ryan's core strength",
-          "Senior / staff / lead level",
-          "Platform / reliability / observability — Ryan's secondary strength",
-          "AI-native engineering (a SWE who drives AI adoption)",
-          "Large, reputable, remote-friendly engineering org with a strong Java / distributed-systems bar"
-        ],
-        "concerns": [
-          "comp unstated"
         ]
       }
     },
@@ -1322,19 +1245,20 @@
       }
     },
     {
-      "id": "134c0fc3",
-      "source": "greenhouse",
-      "company": "Pinterest",
-      "title": "Sr. Production Engineer, Solutions Engineering",
-      "location": "Chicago, IL, US; Remote, CA, US",
-      "remote": true,
-      "url": "https://www.pinterestcareers.com/jobs/?gh_jid=7772875",
-      "descriptionText": "About Pinterest:\n\nMillions of people around the world come to our platform to find creative ideas, dream about new possibilities and plan for memories that will last a lifetime. At Pinterest, we’re on a mission to bring everyone the inspiration to create a life they love, and that starts with the people behind the product.\n\nDiscover a career where you ignite innovation for millions, transform passion into growth opportunities, celebrate each other’s unique experiences and embrace the flexibility to do your best work. Creating a career you love? It’s Possible.\n\nAt Pinterest, AI isn't just a…",
-      "postedAt": "2026-07-11T07:35:05-04:00",
+      "id": "722d50cc",
+      "source": "adzuna",
+      "company": "Deepgram",
+      "title": "Sr. Backend Engineer - Engine Team: API",
+      "location": "US",
+      "remote": "unknown",
+      "url": "https://www.adzuna.com/details/5797904746?utm_medium=api&utm_source=e9201d43",
+      "descriptionText": "Company Overview Deepgram is the leading platform underpinning the emerging trillion-dollar Voice AI economy, providing real-time APIs for speech-to-text (STT), text-to-speech (TTS), and building production-grade voice agents at scale. More than 200,000 developers and 1,300 organizations build voice offerings that are ‘Powered by Deepgram’, including Twilio, Cloudflare, Sierra, Decagon, Vapi, Daily, Cresta, Granola, and Jack in the Box. Deepgram’s voice-native foundation models are accessed thr…",
+      "postedAt": "2026-07-12T06:43:45Z",
+      "compHint": "$150,000 - $220,000",
       "score": {
         "fit": 84,
         "verdict": "strong",
-        "rationale": "Sr. Production Engineer, Solutions Engineering at Pinterest scores 84/100 (strong) on the Tier-1 deterministic pass. Matched: Backend / distributed / event-driven — Ryan's core strength; Senior / staff / lead level; Platform / reliability / observability — Ryan's secondary strength; AI-native engineering (a SWE who drives AI adoption). Concerns: comp unstated.",
+        "rationale": "Sr. Backend Engineer - Engine Team: API at Deepgram scores 84/100 (strong) on the Tier-1 deterministic pass. Matched: Backend / distributed / event-driven — Ryan's core strength; Senior / staff / lead level; Platform / reliability / observability — Ryan's secondary strength; AI-native engineering (a SWE who drives AI adoption). Concerns: remote unstated.",
         "matched": [
           "Backend / distributed / event-driven — Ryan's core strength",
           "Senior / staff / lead level",
@@ -1342,8 +1266,84 @@
           "AI-native engineering (a SWE who drives AI adoption)"
         ],
         "concerns": [
-          "comp unstated"
+          "remote unstated"
         ]
+      }
+    },
+    {
+      "id": "0146e8e1",
+      "source": "adzuna",
+      "company": "CrowdStrike",
+      "title": "Senior AI Infrastructure Engineer, LLM/AI Platforms",
+      "location": "US",
+      "remote": "unknown",
+      "url": "https://www.adzuna.com/details/5797893496?utm_medium=api&utm_source=e9201d43",
+      "descriptionText": "As a global leader in cybersecurity, CrowdStrike protects the people, processes and technologies that drive modern organizations. Since 2011, our mission hasn’t changed — we’re here to stop breaches, and we’ve redefined modern security with the world’s most advanced AI-native platform. We work on large scale distributed systems, processing almost 3 trillion events per day and this traffic is growing daily. Our customers span all industries, and they count on CrowdStrike to keep their businesses…",
+      "postedAt": "2026-07-12T06:31:41Z",
+      "compHint": "$140,000 - $215,000",
+      "score": {
+        "fit": 84,
+        "verdict": "strong",
+        "rationale": "Senior AI Infrastructure Engineer, LLM/AI Platforms at CrowdStrike scores 84/100 (strong) on the Tier-1 deterministic pass. Matched: Backend / distributed / event-driven — Ryan's core strength; Senior / staff / lead level; Platform / reliability / observability — Ryan's secondary strength; AI-native engineering (a SWE who drives AI adoption). Concerns: remote unstated.",
+        "matched": [
+          "Backend / distributed / event-driven — Ryan's core strength",
+          "Senior / staff / lead level",
+          "Platform / reliability / observability — Ryan's secondary strength",
+          "AI-native engineering (a SWE who drives AI adoption)"
+        ],
+        "concerns": [
+          "remote unstated"
+        ]
+      }
+    },
+    {
+      "id": "5e88e334",
+      "source": "adzuna",
+      "company": "Booz Allen Hamilton",
+      "title": "Backend Infrastructure & Agentic AI Software Engineer",
+      "location": "Washington, D.C., US",
+      "remote": "unknown",
+      "url": "https://www.adzuna.com/land/ad/5797819567?se=8gx0uw9-8RGVv68B6sMQZA&utm_medium=api&utm_source=e9201d43&v=A8D617805C2D98F807643487115A5636BE48CE7C",
+      "descriptionText": "Backend Infrastructure & Agentic AI Software Engineer The Opportunity: The G RACE team at ARPA-H is building the next generation of agentic AI to transform how the agency accelerates research, makes decisions, and ships products at scale. G RACE is ARPA-H's production AI assistant, and we are evolving it into an ecosystem of autonomous, multi-agent systems. We are a small, startup-minded team that ships fast and owns what we build end-to-end. We are looking for a senior software development eng…",
+      "postedAt": "2026-07-12T05:34:17Z",
+      "compHint": "$99,000 - $225,000",
+      "score": {
+        "fit": 84,
+        "verdict": "strong",
+        "rationale": "Backend Infrastructure & Agentic AI Software Engineer at Booz Allen Hamilton scores 84/100 (strong) on the Tier-1 deterministic pass. Matched: Backend / distributed / event-driven — Ryan's core strength; Senior / staff / lead level; Platform / reliability / observability — Ryan's secondary strength; AI-native engineering (a SWE who drives AI adoption). Concerns: remote unstated.",
+        "matched": [
+          "Backend / distributed / event-driven — Ryan's core strength",
+          "Senior / staff / lead level",
+          "Platform / reliability / observability — Ryan's secondary strength",
+          "AI-native engineering (a SWE who drives AI adoption)"
+        ],
+        "concerns": [
+          "remote unstated"
+        ]
+      }
+    },
+    {
+      "id": "1841d6e7",
+      "source": "adzuna",
+      "company": "Teleport",
+      "title": "Senior Backend Engineer - Application Access",
+      "location": "US",
+      "remote": true,
+      "url": "https://www.adzuna.com/details/5797812093?utm_medium=api&utm_source=e9201d43",
+      "descriptionText": "About Teleport Don't wait for the future of infrastructure. Be part of it. Teleport is the AI Infrastructure Identity Company. We're solving one of the hardest problems in security: giving every human, machine, workload, and AI agent a cryptographically secured identity, improving engineering velocity while maintaining security. We make trusted computing simple. This gives you the freedom, power, and autonomy to build and innovate with confidence. Remote-first and globally distributed, we work …",
+      "postedAt": "2026-07-12T05:14:51Z",
+      "compHint": "$189,040 - $342,000",
+      "score": {
+        "fit": 84,
+        "verdict": "strong",
+        "rationale": "Senior Backend Engineer - Application Access at Teleport scores 84/100 (strong) on the Tier-1 deterministic pass. Matched: Backend / distributed / event-driven — Ryan's core strength; Senior / staff / lead level; Platform / reliability / observability — Ryan's secondary strength; AI-native engineering (a SWE who drives AI adoption).",
+        "matched": [
+          "Backend / distributed / event-driven — Ryan's core strength",
+          "Senior / staff / lead level",
+          "Platform / reliability / observability — Ryan's secondary strength",
+          "AI-native engineering (a SWE who drives AI adoption)"
+        ],
+        "concerns": []
       }
     }
   ]
