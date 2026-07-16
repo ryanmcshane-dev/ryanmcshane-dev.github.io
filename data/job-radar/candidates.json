@@ -1,22 +1,22 @@
 {
-  "generatedAt": "2026-07-15T15:07:35.266Z",
+  "generatedAt": "2026-07-16T15:17:16.083Z",
   "tier": "tier-1",
   "counts": {
-    "fetched": 1945,
-    "kept": 570,
-    "dropped": 1375,
+    "fetched": 1901,
+    "kept": 553,
+    "dropped": 1348,
     "byVerdict": {
-      "strong": 106,
-      "possible": 218,
-      "weak": 201,
-      "skip": 45
+      "strong": 107,
+      "possible": 224,
+      "weak": 183,
+      "skip": 39
     },
     "droppedByReason": {
-      "excluded-title": 728,
-      "off-role-family": 429,
-      "on-site-only": 14,
-      "non-us-location": 184,
-      "below-comp-floor": 20
+      "excluded-title": 715,
+      "off-role-family": 427,
+      "on-site-only": 16,
+      "non-us-location": 183,
+      "below-comp-floor": 7
     }
   },
   "errors": [],
@@ -102,6 +102,33 @@
         "concerns": [
           "comp unstated",
           "remote unstated"
+        ]
+      }
+    },
+    {
+      "id": "209127ca",
+      "source": "greenhouse",
+      "company": "Affirm",
+      "title": "Staff Software Engineer, Backend (Lake Analytics Platform)",
+      "location": "Remote US",
+      "remote": true,
+      "url": "https://job-boards.greenhouse.io/affirm/jobs/7801694003",
+      "descriptionText": "Affirm is reinventing credit to make it more honest and friendly, giving consumers the flexibility to buy now and pay later without any hidden fees or compounding interest.\n\nAffirm is reinventing credit to make it more honest and friendly, giving consumers the flexibility to buy now and pay later without any hidden fees or compounding interest. Affirm’s engineering team is building a large-scale, highly available, and global infrastructure that is shared across multiple financial products. Ensuring that our infrastructure is accessible to all engineers is critical to the success of the business. We pride ourselves on our culture across engineering of engaging in thorough technical design review, operational excellence, and capable incident response and analysis.\n\nThe Data and Storage Services team is responsible for Affirm’s data infrastructure across OLTP and OLAP systems, spanning critical online checkout databases, batch orchestration, streaming infrastructure, event-driven frameworks, BI, analytics tooling, large-scale data platforms, and agentic data tools such as semantic layers and internal platform data applications. Our mission is to provide trustworthy, intuitive, and cost-efficient solutions for Affirmers to secure, store, analyze, and transform data at exceptional scale.\n\nThis role will focus on Affirm’s Lakehouse Platform , including Apache Iceberg as a foundational technology for scalable analytical data storage, table management, schema evolution, and…",
+      "postedAt": "2026-07-15T11:44:31-04:00",
+      "score": {
+        "fit": 92,
+        "verdict": "strong",
+        "rationale": "Staff Software Engineer, Backend (Lake Analytics Platform) at Affirm scores 92/100 (strong) on the Tier-1 deterministic pass. Matched: Backend / distributed / event-driven — Ryan's core strength; Senior / staff / lead level; Platform / reliability / observability — Ryan's secondary strength; AI-native engineering (a SWE who drives AI adoption); Product engineering; Large, reputable, remote-friendly engineering org with a strong Java / distributed-systems bar. Concerns: comp unstated.",
+        "matched": [
+          "Backend / distributed / event-driven — Ryan's core strength",
+          "Senior / staff / lead level",
+          "Platform / reliability / observability — Ryan's secondary strength",
+          "AI-native engineering (a SWE who drives AI adoption)",
+          "Product engineering",
+          "Large, reputable, remote-friendly engineering org with a strong Java / distributed-systems bar"
+        ],
+        "concerns": [
+          "comp unstated"
         ]
       }
     },
@@ -505,33 +532,6 @@
       }
     },
     {
-      "id": "5ed2990e",
-      "source": "greenhouse",
-      "company": "Twilio",
-      "title": "Senior Software Engineer",
-      "location": "Remote - Estonia",
-      "remote": true,
-      "url": "https://job-boards.greenhouse.io/twilio/jobs/7993530",
-      "descriptionText": "Who we are\n\nAt Twilio, we’re shaping the future of communications, all from the comfort of our homes. We deliver innovative solutions to hundreds of thousands of businesses and empower millions of developers worldwide to craft personalized customer experiences.\n\nOur dedication to remote-first work , and strong culture of connection and global inclusion means that no matter your location, you’re part of a vibrant team with diverse experiences making a global impact each day. As we continue to revolutionize how the world interacts, we’re acquiring new skills and experiences that make work feel truly rewarding. Your career at Twilio is in your hands.\n\nWe use Artificial Intelligence (AI) to help make our hiring process efficient. That said, every hiring decision is made by real Twilions!\n\n.\n\nSee yourself at Twilio\n\nJoin the team as Twilio’s next Senior Software Engineer.\n\nAbout the job\n\nThis position is needed to develop the future platform of communications. Twilio SMS Engineering is looking for a Software Engineer to join our team to work on our SMS connectivity layer with the purpose to build and optimize for delivery. You will be developing a complex distributed platform in Java and be concerned with availability, throughput, latency, and data integrity. At the core are cloud technologies that enable deployment and management of computing resources globally.\n\nResponsibilities\n\nIn this role, you’ll:\n\nDesign, develop, test and deploy features alongside an experienced,…",
-      "postedAt": "2026-07-15T10:27:20-04:00",
-      "score": {
-        "fit": 89,
-        "verdict": "strong",
-        "rationale": "Senior Software Engineer at Twilio scores 89/100 (strong) on the Tier-1 deterministic pass. Matched: Backend / distributed / event-driven — Ryan's core strength; Senior / staff / lead level; Platform / reliability / observability — Ryan's secondary strength; AI-native engineering (a SWE who drives AI adoption); Large, reputable, remote-friendly engineering org with a strong Java / distributed-systems bar. Concerns: comp unstated; location \"Remote - Estonia\" — confirm US eligibility.",
-        "matched": [
-          "Backend / distributed / event-driven — Ryan's core strength",
-          "Senior / staff / lead level",
-          "Platform / reliability / observability — Ryan's secondary strength",
-          "AI-native engineering (a SWE who drives AI adoption)",
-          "Large, reputable, remote-friendly engineering org with a strong Java / distributed-systems bar"
-        ],
-        "concerns": [
-          "comp unstated",
-          "location \"Remote - Estonia\" — confirm US eligibility"
-        ]
-      }
-    },
-    {
       "id": "1232f2b7",
       "source": "greenhouse",
       "company": "Twilio",
@@ -555,31 +555,6 @@
         "concerns": [
           "comp unstated"
         ]
-      }
-    },
-    {
-      "id": "bf332374",
-      "source": "greenhouse",
-      "company": "Block",
-      "title": "Software Engineer, Finance Applications",
-      "location": "Bay Area, CA, United States of America",
-      "remote": true,
-      "url": "http://block.xyz/careers/jobs/4888459008?gh_jid=4888459008",
-      "descriptionText": "Block is one company built from many blocks, all united by the same purpose of economic empowerment. The blocks that form our foundational teams — People, Finance, Counsel, Hardware, Information Security, Platform Infrastructure Engineering, and more — provide support and guidance at the corporate level. They work across business groups and around the globe, spanning time zones and disciplines to develop inclusive People policies, forecast finances, give legal counsel, safeguard systems, nurture new initiatives, and more. Every challenge creates possibilities, and we need different perspectives to see them all. Bring yours to Block.\n\nThe Role\n\nThe Financial Platform Eng team is part of Block's platform engineering org, with a mandate to run the foundational financial technology infrastructure supporting all our brands. Our charter includes building scalable, reliable, and forward-looking financial infrastructure, from revenue streams to reconciliations to GL to street reporting. This team powers key business functions spanning the CFO org and aids at strategic decision-making.\n\nAs a Software Engineer, you'll design and build the backend services, integrations, and workflow engines that keep the foundational financial operations running. Often you will focus on transforming complex financial requirements into scalable technology solutions — with a specific emphasis on AI enablement. We are an AI-driven engineering team — we use agentic coding tools across our entire…",
-      "postedAt": "2026-07-14T16:24:13-04:00",
-      "compHint": "$180,000–$270,000, $171,000–$256,600, $162,000–$243,000, $153,000–$229,600",
-      "score": {
-        "fit": 89,
-        "verdict": "strong",
-        "rationale": "Software Engineer, Finance Applications at Block scores 89/100 (strong) on the Tier-1 deterministic pass. Matched: Backend / distributed / event-driven — Ryan's core strength; Senior / staff / lead level; Platform / reliability / observability — Ryan's secondary strength; AI-native engineering (a SWE who drives AI adoption); Large, reputable, remote-friendly engineering org with a strong Java / distributed-systems bar.",
-        "matched": [
-          "Backend / distributed / event-driven — Ryan's core strength",
-          "Senior / staff / lead level",
-          "Platform / reliability / observability — Ryan's secondary strength",
-          "AI-native engineering (a SWE who drives AI adoption)",
-          "Large, reputable, remote-friendly engineering org with a strong Java / distributed-systems bar"
-        ],
-        "concerns": []
       }
     },
     {
@@ -952,6 +927,32 @@
       }
     },
     {
+      "id": "f9829a09",
+      "source": "greenhouse",
+      "company": "Affirm",
+      "title": "Senior CIAM Software Engineer",
+      "location": "Remote US",
+      "remote": true,
+      "url": "https://job-boards.greenhouse.io/affirm/jobs/7671388003",
+      "descriptionText": "Affirm is reinventing credit to make it more honest and friendly, giving consumers the flexibility to buy now and pay later without any hidden fees or compounding interest.\n\nAffirm is building the next generation of customer identity and authentication. This role is a hands-on engineering position inside Information Security, focused on designing and shipping core CIAM capabilities that protect customers and support growth.\n\nYou will build and operate backend services that power registration, login, authorization, and account lifecycle flows across B2C and B2B experiences. You will work closely with partner engineering teams and ensure identity features are delivered with strong security fundamentals, reliability, and operational rigor.\n\nWhat you’ll do\n\nDesign, build, and operate core CIAM backend services that support customer registration, authentication, authorization, account lifecycle, and profile management for B2C and B2B platforms.\n\nImplement and extend identity standards such as OAuth 2.0, OIDC, SAML, and SCIM in code, ensuring correctness, scalability, and clean integration patterns.\n\nDevelop backend APIs and services in Python and Kotlin that expose identity capabilities to web, mobile, and partner applications.\n\nIntegrate CIAM platforms with internal systems, including user data stores, messaging, fraud signals, and downstream customer platforms.\n\nOwn secure authentication and account flows end to end, including MFA, step-up authentication, device binding,…",
+      "postedAt": "2026-06-18T11:27:47-04:00",
+      "score": {
+        "fit": 89,
+        "verdict": "strong",
+        "rationale": "Senior CIAM Software Engineer at Affirm scores 89/100 (strong) on the Tier-1 deterministic pass. Matched: Backend / distributed / event-driven — Ryan's core strength; Senior / staff / lead level; Platform / reliability / observability — Ryan's secondary strength; AI-native engineering (a SWE who drives AI adoption); Large, reputable, remote-friendly engineering org with a strong Java / distributed-systems bar. Concerns: comp unstated.",
+        "matched": [
+          "Backend / distributed / event-driven — Ryan's core strength",
+          "Senior / staff / lead level",
+          "Platform / reliability / observability — Ryan's secondary strength",
+          "AI-native engineering (a SWE who drives AI adoption)",
+          "Large, reputable, remote-friendly engineering org with a strong Java / distributed-systems bar"
+        ],
+        "concerns": [
+          "comp unstated"
+        ]
+      }
+    },
+    {
       "id": "377b09c3",
       "source": "greenhouse",
       "company": "Affirm",
@@ -1109,32 +1110,6 @@
         "concerns": [
           "comp unstated",
           "remote unstated"
-        ]
-      }
-    },
-    {
-      "id": "63bcfee1",
-      "source": "adzuna",
-      "company": "Grafana Labs",
-      "title": "Staff Backend Engineer - Second Horizon | US | Remote",
-      "location": "US",
-      "remote": true,
-      "url": "https://www.adzuna.com/details/5800684732?utm_medium=api&utm_source=e9201d43",
-      "descriptionText": "Grafana Labs, the company behind the open observability cloud, is founded on the principles of open source, open standards, open ecosystems, and open culture. Grafana Cloud, our fully managed observability platform, is flexible and built for scale. With Grafana Cloud's actually useful AI, organizations can see, understand, and act on all their disparate data to move at the speed of their ambitions. Today, more than 35 million users and 7,000 customers – including Anthropic, Bloomberg, NVIDIA, M…",
-      "postedAt": "2026-07-14T23:38:41Z",
-      "score": {
-        "fit": 87,
-        "verdict": "strong",
-        "rationale": "Staff Backend Engineer - Second Horizon | US | Remote at Grafana Labs scores 87/100 (strong) on the Tier-1 deterministic pass. Matched: Backend / distributed / event-driven — Ryan's core strength; Senior / staff / lead level; Platform / reliability / observability — Ryan's secondary strength; AI-native engineering (a SWE who drives AI adoption); Strong engineering culture. Concerns: comp unstated.",
-        "matched": [
-          "Backend / distributed / event-driven — Ryan's core strength",
-          "Senior / staff / lead level",
-          "Platform / reliability / observability — Ryan's secondary strength",
-          "AI-native engineering (a SWE who drives AI adoption)",
-          "Strong engineering culture"
-        ],
-        "concerns": [
-          "comp unstated"
         ]
       }
     },
@@ -1345,6 +1320,32 @@
           "remote unstated"
         ]
       }
+    },
+    {
+      "id": "b15047bf",
+      "source": "ashby",
+      "company": "Linear",
+      "title": "Senior / Staff Fullstack Engineer",
+      "location": "North America",
+      "remote": true,
+      "url": "https://jobs.ashbyhq.com/linear/cd5ae036-0223-427a-b038-ba16ef9dcb32",
+      "descriptionText": "At Linear, we're building the product development system for teams and agents. AI is fundamentally changing how software gets built, and we’re shaping the tools this new era requires.\n\nFounded in 2019, Linear has become the platform of choice for more than 30,000 companies (including OpenAI, Coinbase, and Ramp) to plan, build, and ship their products. Today, our team is distributed across North America, Europe, and Australia, and we’re continuing to grow internationally. What unites us is relentless focus, fast execution, and a deep care for software craftsmanship.\n\nAs a small team, we’re all generalists that work across the full stack (built in Typescript end-to-end). We’re looking for experienced engineers that thrive in an environment of autonomy and individual responsibility to help us build the future of product development.\n\nLocation & work mode\n\nLinear is a remote-first company, with optional co-working offices in San Francisco, New York, and London. This role is open to candidates based in the US and Europe. You can work from anywhere within those regions. We value deep focus and async collaboration, with intentional moments to connect in person through team off-sites, optional co-working, and occasional travel.\n\nWhat you'll do\n\n- Build new user-facing features with everything from database models to GraphQL resolvers and UI components\n\n- Optimize our data synchronization stack by applying better serialization protocols\n\n- Add real-time collaborative editing to our…",
+      "postedAt": "2021-08-18T20:48:26.891+00:00",
+      "score": {
+        "fit": 87,
+        "verdict": "strong",
+        "rationale": "Senior / Staff Fullstack Engineer at Linear scores 87/100 (strong) on the Tier-1 deterministic pass. Matched: Backend / distributed / event-driven — Ryan's core strength; Senior / staff / lead level; Platform / reliability / observability — Ryan's secondary strength; AI-native engineering (a SWE who drives AI adoption); Strong engineering culture. Concerns: comp unstated.",
+        "matched": [
+          "Backend / distributed / event-driven — Ryan's core strength",
+          "Senior / staff / lead level",
+          "Platform / reliability / observability — Ryan's secondary strength",
+          "AI-native engineering (a SWE who drives AI adoption)",
+          "Strong engineering culture"
+        ],
+        "concerns": [
+          "comp unstated"
+        ]
+      }
     }
   ],
   "droppedSample": [
@@ -1361,6 +1362,13 @@
       "url": "https://careers.airbnb.com/positions/7946288?gh_jid=7946288",
       "reason": "non-us-location",
       "detail": "location \"China - Remote\" reads as outside the US"
+    },
+    {
+      "company": "Airbnb",
+      "title": "AMER Gathering Programs Manager",
+      "url": "https://careers.airbnb.com/positions/8067991?gh_jid=8067991",
+      "reason": "excluded-title",
+      "detail": "title matches: manager"
     },
     {
       "company": "Airbnb",
@@ -1420,17 +1428,10 @@
     },
     {
       "company": "Airbnb",
-      "title": "Engineering Manager, Community Support Engineering (Routing and Data Services)",
-      "url": "https://careers.airbnb.com/positions/7760914?gh_jid=7760914",
-      "reason": "excluded-title",
-      "detail": "title matches: manager"
-    },
-    {
-      "company": "Airbnb",
-      "title": "Engineering Manager, Guest & Host",
-      "url": "https://careers.airbnb.com/positions/7532824?gh_jid=7532824",
-      "reason": "excluded-title",
-      "detail": "title matches: manager"
+      "title": "Data Scientist - Algorithms, Community Support",
+      "url": "https://careers.airbnb.com/positions/8031901?gh_jid=8031901",
+      "reason": "off-role-family",
+      "detail": "title matches no role-family term"
     }
   ]
 }
