@@ -1,26 +1,53 @@
 {
-  "generatedAt": "2026-07-21T15:21:58.352Z",
+  "generatedAt": "2026-07-22T15:20:07.880Z",
   "tier": "tier-1",
   "counts": {
-    "fetched": 1931,
-    "kept": 552,
-    "dropped": 1379,
+    "fetched": 1943,
+    "kept": 556,
+    "dropped": 1387,
     "byVerdict": {
-      "strong": 101,
-      "possible": 222,
-      "weak": 176,
-      "skip": 53
+      "strong": 103,
+      "possible": 220,
+      "weak": 186,
+      "skip": 47
     },
     "droppedByReason": {
-      "excluded-title": 731,
-      "off-role-family": 439,
-      "on-site-only": 17,
-      "non-us-location": 182,
-      "below-comp-floor": 10
+      "excluded-title": 730,
+      "off-role-family": 436,
+      "on-site-only": 15,
+      "non-us-location": 183,
+      "below-comp-floor": 23
     }
   },
   "errors": [],
   "candidates": [
+    {
+      "id": "b6a86fed",
+      "source": "greenhouse",
+      "company": "Airbnb",
+      "title": "Software Engineer, CI Platform Infrastructure",
+      "location": "Remote - USA",
+      "remote": true,
+      "url": "https://careers.airbnb.com/positions/8077612?gh_jid=8077612",
+      "descriptionText": "Airbnb was born in 2007 when two hosts welcomed three guests to their San Francisco home, and has since grown to over 5 million hosts who have welcomed over 2 billion guest arrivals in almost every country across the globe. Every day, hosts offer unique stays and experiences that make it possible for guests to connect with communities in a more authentic way.\n\nThe Community You Will Join:\n\nThe Developer Infrastructure organization’s mission is to enable Airbnb engineers and AI Coding Agents to ship high-quality software with confidence and speed. We work on infrastructure that accelerates Airbnb’s engineering productivity across all stages of the software development lifecycle.\n\nThe Difference You Will Make:\n\nThis role will work on our CI platform infrastructure on the CI+Build team. This is potentially one of the highest-leverage investments for our engineering organization as we accelerate the iteration loop for engineers and AI coding agents that need a scalable workload orchestration platform to create, build, test, review, and merge PRs.\n\nWe are reimagining our CI platform's workflow orchestration to handle AI-scale software development. You will be doing feature-development work on a green-field opportunity to modernize scheduling, queueing, backpressure, consistency, caching, fault tolerance, and observability across our CI platform infrastructure components.\n\nWorking alongside experienced Staff and Senior Staff engineers, you will help design and build key pieces of…",
+      "postedAt": "2026-07-21T14:49:31-04:00",
+      "score": {
+        "fit": 95,
+        "verdict": "strong",
+        "rationale": "Software Engineer, CI Platform Infrastructure at Airbnb scores 95/100 (strong) on the Tier-1 deterministic pass. Matched: Backend / distributed / event-driven — Ryan's core strength; Senior / staff / lead level; Platform / reliability / observability — Ryan's secondary strength; AI-native engineering (a SWE who drives AI adoption); Product engineering; Top-choice company. Concerns: comp unstated.",
+        "matched": [
+          "Backend / distributed / event-driven — Ryan's core strength",
+          "Senior / staff / lead level",
+          "Platform / reliability / observability — Ryan's secondary strength",
+          "AI-native engineering (a SWE who drives AI adoption)",
+          "Product engineering",
+          "Top-choice company"
+        ],
+        "concerns": [
+          "comp unstated"
+        ]
+      }
+    },
     {
       "id": "d76124c8",
       "source": "greenhouse",
@@ -158,6 +185,32 @@
         "concerns": [
           "comp unstated",
           "remote unstated"
+        ]
+      }
+    },
+    {
+      "id": "c4ade704",
+      "source": "greenhouse",
+      "company": "Airbnb",
+      "title": "Senior Software Engineer, Dev Tools",
+      "location": "Remote - USA",
+      "remote": true,
+      "url": "https://careers.airbnb.com/positions/8021476?gh_jid=8021476",
+      "descriptionText": "Airbnb was born in 2007 when two hosts welcomed three guests to their San Francisco home, and has since grown to over 5 million hosts who have welcomed over 2 billion guest arrivals in almost every country across the globe. Every day, hosts offer unique stays and experiences that make it possible for guests to connect with communities in a more authentic way.\n\nThe Community You Will Join:\n\nDev Tools’ mission is to help Airbnb engineers and AI agents build, validate, review, and ship high-quality software quickly, reliably, and safely.\n\nAI-assisted development is rapidly increasing the speed, volume, and concurrency of software delivery. Our team is building the infrastructure needed to support that growth - from cloud development environments and agent execution platforms to source control, code review, validation, and polyglot monorepo tooling.\n\nThe Difference You Will Make:\n\nAs a senior engineer on Dev Tools, you will design, build, and operate foundational systems used across Airbnb engineering. You will work on technically challenging infrastructure problems involving distributed systems, Kubernetes, developer workflows, scalability, reliability, and cost efficiency, while partnering closely with teams across Developer Platform, DevAI, CI/CD, Cloud Infrastructure, and Security. You won't just build - you'll shape the technical direction and set the bar for craft on a small, high-impact team.\n\nHigh leverage: Every improvement you make is felt by every engineer at Airbnb —…",
+      "postedAt": "2026-07-21T14:47:35-04:00",
+      "score": {
+        "fit": 92,
+        "verdict": "strong",
+        "rationale": "Senior Software Engineer, Dev Tools at Airbnb scores 92/100 (strong) on the Tier-1 deterministic pass. Matched: Backend / distributed / event-driven — Ryan's core strength; Senior / staff / lead level; Platform / reliability / observability — Ryan's secondary strength; AI-native engineering (a SWE who drives AI adoption); Top-choice company. Concerns: comp unstated.",
+        "matched": [
+          "Backend / distributed / event-driven — Ryan's core strength",
+          "Senior / staff / lead level",
+          "Platform / reliability / observability — Ryan's secondary strength",
+          "AI-native engineering (a SWE who drives AI adoption)",
+          "Top-choice company"
+        ],
+        "concerns": [
+          "comp unstated"
         ]
       }
     },
@@ -534,19 +587,46 @@
       }
     },
     {
-      "id": "b6171b11",
+      "id": "5ed2990e",
       "source": "greenhouse",
-      "company": "Block",
-      "title": "Senior Site Reliability Engineer",
-      "location": "Bay Area, CA, United States of America",
+      "company": "Twilio",
+      "title": "Senior Software Engineer",
+      "location": "Remote - Estonia",
       "remote": true,
-      "url": "http://block.xyz/careers/jobs/5181749008?gh_jid=5181749008",
-      "descriptionText": "Block builds simple, powerful tools that make progress towards an economy that’s truly open to all.\n\nEach of our brands unlocks different aspects of the economy for more people. Square makes commerce and financial services accessible to sellers. Cash App is the easy way to spend, send, and store money. Afterpay is transforming the way customers manage their spending over time. TIDAL is a music platform that empowers artists to thrive as entrepreneurs. Bitkey is a simple self-custody wallet built for bitcoin. Proto is a suite of bitcoin mining products and services. Together, we’re helping build a financial system that is open to everyone. Join us.\n\nThe Role\n\nAs a member of the SRE team, you will proactively and reactively improve the reliability of Block's platform and critical infrastructure. You are metrics-driven, systems-oriented, and focused on building distributed platforms that enable safe, scalable product development.\n\nYou will leverage and continuously improve AI-driven tooling and automation to enhance observability, accelerate incident detection and response, and reduce operational toil. This includes applying AI to incident analysis, alert tuning, and operational workflows.\n\nYou will participate in primary platform oncall (12 hours per day, one week every few weeks, depending on team size), supporting Block's most critical (Tier 0) services. In this role, you will lead incident command, coordinate mitigation, and drive effective escalation during high-severity…",
-      "postedAt": "2026-07-20T19:10:26-04:00",
+      "url": "https://job-boards.greenhouse.io/twilio/jobs/7993530",
+      "descriptionText": "Who we are\n\nAt Twilio, we’re shaping the future of communications, all from the comfort of our homes. We deliver innovative solutions to hundreds of thousands of businesses and empower millions of developers worldwide to craft personalized customer experiences.\n\nOur dedication to remote-first work , and strong culture of connection and global inclusion means that no matter your location, you’re part of a vibrant team with diverse experiences making a global impact each day. As we continue to revolutionize how the world interacts, we’re acquiring new skills and experiences that make work feel truly rewarding. Your career at Twilio is in your hands.\n\nWe use Artificial Intelligence (AI) to help make our hiring process efficient. That said, every hiring decision is made by real Twilions!\n\n.\n\nSee yourself at Twilio\n\nJoin the team as Twilio’s next Senior Software Engineer.\n\nAbout the job\n\nThis position is needed to develop the future platform of communications. Twilio SMS Engineering is looking for a Software Engineer to join our team to work on our SMS connectivity layer with the purpose to build and optimize for delivery. You will be developing a complex distributed platform in Java and be concerned with availability, throughput, latency, and data integrity. At the core are cloud technologies that enable deployment and management of computing resources globally.\n\nResponsibilities\n\nIn this role, you’ll:\n\nDesign, develop, test and deploy features alongside an experienced,…",
+      "postedAt": "2026-07-22T10:28:24-04:00",
       "score": {
         "fit": 89,
         "verdict": "strong",
-        "rationale": "Senior Site Reliability Engineer at Block scores 89/100 (strong) on the Tier-1 deterministic pass. Matched: Backend / distributed / event-driven — Ryan's core strength; Senior / staff / lead level; Platform / reliability / observability — Ryan's secondary strength; AI-native engineering (a SWE who drives AI adoption); Large, reputable, remote-friendly engineering org with a strong Java / distributed-systems bar. Concerns: comp unstated.",
+        "rationale": "Senior Software Engineer at Twilio scores 89/100 (strong) on the Tier-1 deterministic pass. Matched: Backend / distributed / event-driven — Ryan's core strength; Senior / staff / lead level; Platform / reliability / observability — Ryan's secondary strength; AI-native engineering (a SWE who drives AI adoption); Large, reputable, remote-friendly engineering org with a strong Java / distributed-systems bar. Concerns: comp unstated; location \"Remote - Estonia\" — confirm US eligibility.",
+        "matched": [
+          "Backend / distributed / event-driven — Ryan's core strength",
+          "Senior / staff / lead level",
+          "Platform / reliability / observability — Ryan's secondary strength",
+          "AI-native engineering (a SWE who drives AI adoption)",
+          "Large, reputable, remote-friendly engineering org with a strong Java / distributed-systems bar"
+        ],
+        "concerns": [
+          "comp unstated",
+          "location \"Remote - Estonia\" — confirm US eligibility"
+        ]
+      }
+    },
+    {
+      "id": "b5b1533e",
+      "source": "greenhouse",
+      "company": "Twilio",
+      "title": "Senior Infrastructure Engineer - Stytch",
+      "location": "Remote - US",
+      "remote": true,
+      "url": "https://job-boards.greenhouse.io/twilio/jobs/7474040",
+      "descriptionText": "Who we are\n\nAt Twilio, we’re shaping the future of communications, all from the comfort of our homes. We deliver innovative solutions to hundreds of thousands of businesses and empower millions of developers worldwide to craft personalized customer experiences.\n\nOur dedication to remote-first work , and strong culture of connection and global inclusion means that no matter your location, you’re part of a vibrant team with diverse experiences making a global impact each day. As we continue to revolutionize how the world interacts, we’re acquiring new skills and experiences that make work feel truly rewarding. Your career at Twilio is in your hands.\n\nWe use Artificial Intelligence (AI) to help make our hiring process efficient. That said, every hiring decision is made by real Twilions!\n\n.\n\nSee yourself at Twilio\n\nJoin the team as Twilio’s next Senior Infrastructure Engineer.\n\nAbout the job\n\nThis position is needed to build and scale Stytch’s core product as we bring Stytch capabilities to Twilio’s full customer base, delivering secure, developer-first identity experiences.\n\nJoin the Stytch team at Twilio to shape the next generation of identity products. You’ll design and build infrastructure that power authentication, authorization, and emerging agentic and non-human identity use cases. You’ll partner closely with product and engineering leadership to set direction, deliver high-impact features, and evolve our platform for Twilio scale. This is a rare chance to operate like a…",
+      "postedAt": "2026-07-21T20:46:11-04:00",
+      "score": {
+        "fit": 89,
+        "verdict": "strong",
+        "rationale": "Senior Infrastructure Engineer - Stytch at Twilio scores 89/100 (strong) on the Tier-1 deterministic pass. Matched: Backend / distributed / event-driven — Ryan's core strength; Senior / staff / lead level; Platform / reliability / observability — Ryan's secondary strength; AI-native engineering (a SWE who drives AI adoption); Large, reputable, remote-friendly engineering org with a strong Java / distributed-systems bar. Concerns: comp unstated.",
         "matched": [
           "Backend / distributed / event-driven — Ryan's core strength",
           "Senior / staff / lead level",
@@ -560,20 +640,20 @@
       }
     },
     {
-      "id": "3ae6bc6c",
+      "id": "b0aa22a6",
       "source": "greenhouse",
       "company": "Block",
-      "title": "Senior Software Engineer, Product Platform",
+      "title": "Senior Software Engineer, Ledgering",
       "location": "New York, NY, United States of America",
       "remote": true,
-      "url": "http://block.xyz/careers/jobs/5239566008?gh_jid=5239566008",
-      "descriptionText": "Block is one company built from many blocks, all united by the same purpose of economic empowerment. The blocks that form our foundational teams — People, Finance, Counsel, Hardware, Information Security, Platform Infrastructure Engineering, and more — provide support and guidance at the corporate level. They work across business groups and around the globe, spanning time zones and disciplines to develop inclusive People policies, forecast finances, give legal counsel, safeguard systems, nurture new initiatives, and more. Every challenge creates possibilities, and we need different perspectives to see them all. Bring yours to Block.\n\nThe Role\n\nProduct Platform Engineering builds and unifies the foundational systems Block engineers use to create, ship, and operate products. We work across platform domains such as deployment systems, event streaming, databases, workflows, and the operational systems that keep Block moving.\n\nWe are looking for a Senior Software Engineer who is broad, curious, and energized by solving platform problems that cut across teams. You will help design and build the next generation of Block's internal platforms, improve the systems engineers depend on every day, and use AI as a native part of how you explore, build, test, and learn. This is a role for someone who wants to ask good questions, make sound technical bets, and turn complex problems into working systems.\n\nYou Will\n\nDesign, build, and operate platform systems that help Block engineers ship…",
-      "postedAt": "2026-07-20T19:10:26-04:00",
+      "url": "http://block.xyz/careers/jobs/5366105008?gh_jid=5366105008",
+      "descriptionText": "Block is one company built from many blocks, all united by the same purpose of economic empowerment. The blocks that form our foundational teams — People, Finance, Counsel, Hardware, Information Security, Platform Infrastructure Engineering, and more — provide support and guidance at the corporate level. They work across business groups and around the globe, spanning time zones and disciplines to develop inclusive People policies, forecast finances, give legal counsel, safeguard systems, nurture new initiatives, and more. Every challenge creates possibilities, and we need different perspectives to see them all. Bring yours to Block.\n\nThe Role\n\nLedgering is the accounting core that other teams at Block build on. We keep the authoritative records of balances for Square and Cash App, along with the transactions and settlement that move that money. As a Senior Software Engineer on the team, you will build and operate the systems of record for balances and transactions, the settlement orchestration that decides how sellers and customers get paid, and the automated treasury systems that position Block's own cash. At Block's transaction volume, this work has direct, measurable impact on financial accuracy and on the trust merchants and customers place in us.\n\nYou Will\n\nDesign, build, and operate the balance and transaction systems of record that serve as the financial source of truth for millions of merchants and customers.\n\nBuild settlement orchestration that determines how…",
+      "postedAt": "2026-07-21T14:34:06-04:00",
       "compHint": "$217,800–$326,800, $207,000–$310,400, $196,100–$294,100, $185,200–$277,800",
       "score": {
         "fit": 89,
         "verdict": "strong",
-        "rationale": "Senior Software Engineer, Product Platform at Block scores 89/100 (strong) on the Tier-1 deterministic pass. Matched: Backend / distributed / event-driven — Ryan's core strength; Senior / staff / lead level; Platform / reliability / observability — Ryan's secondary strength; AI-native engineering (a SWE who drives AI adoption); Large, reputable, remote-friendly engineering org with a strong Java / distributed-systems bar.",
+        "rationale": "Senior Software Engineer, Ledgering at Block scores 89/100 (strong) on the Tier-1 deterministic pass. Matched: Backend / distributed / event-driven — Ryan's core strength; Senior / staff / lead level; Platform / reliability / observability — Ryan's secondary strength; AI-native engineering (a SWE who drives AI adoption); Large, reputable, remote-friendly engineering org with a strong Java / distributed-systems bar.",
         "matched": [
           "Backend / distributed / event-driven — Ryan's core strength",
           "Senior / staff / lead level",
@@ -650,32 +730,6 @@
         "fit": 89,
         "verdict": "strong",
         "rationale": "Senior Staff Software Engineer at ServiceNow scores 89/100 (strong) on the Tier-1 deterministic pass. Matched: Backend / distributed / event-driven — Ryan's core strength; Senior / staff / lead level; Platform / reliability / observability — Ryan's secondary strength; AI-native engineering (a SWE who drives AI adoption); Large, reputable, remote-friendly engineering org with a strong Java / distributed-systems bar. Concerns: comp unstated.",
-        "matched": [
-          "Backend / distributed / event-driven — Ryan's core strength",
-          "Senior / staff / lead level",
-          "Platform / reliability / observability — Ryan's secondary strength",
-          "AI-native engineering (a SWE who drives AI adoption)",
-          "Large, reputable, remote-friendly engineering org with a strong Java / distributed-systems bar"
-        ],
-        "concerns": [
-          "comp unstated"
-        ]
-      }
-    },
-    {
-      "id": "b5b1533e",
-      "source": "greenhouse",
-      "company": "Twilio",
-      "title": "Senior Infrastructure Engineer - Stytch",
-      "location": "Remote - US",
-      "remote": true,
-      "url": "https://job-boards.greenhouse.io/twilio/jobs/7474040",
-      "descriptionText": "Who we are\n\nAt Twilio, we’re shaping the future of communications, all from the comfort of our homes. We deliver innovative solutions to hundreds of thousands of businesses and empower millions of developers worldwide to craft personalized customer experiences.\n\nOur dedication to remote-first work , and strong culture of connection and global inclusion means that no matter your location, you’re part of a vibrant team with diverse experiences making a global impact each day. As we continue to revolutionize how the world interacts, we’re acquiring new skills and experiences that make work feel truly rewarding. Your career at Twilio is in your hands.\n\nWe use Artificial Intelligence (AI) to help make our hiring process efficient. That said, every hiring decision is made by real Twilions!\n\n.\n\nSee yourself at Twilio\n\nJoin the team as Twilio’s next Senior Infrastructure Engineer.\n\nAbout the job\n\nThis position is needed to build and scale Stytch’s core product as we bring Stytch capabilities to Twilio’s full customer base, delivering secure, developer-first identity experiences.\n\nJoin the Stytch team at Twilio to shape the next generation of identity products. You’ll design and build infrastructure that power authentication, authorization, and emerging agentic and non-human identity use cases. You’ll partner closely with product and engineering leadership to set direction, deliver high-impact features, and evolve our platform for Twilio scale. This is a rare chance to operate like a…",
-      "postedAt": "2026-07-20T14:54:18-04:00",
-      "score": {
-        "fit": 89,
-        "verdict": "strong",
-        "rationale": "Senior Infrastructure Engineer - Stytch at Twilio scores 89/100 (strong) on the Tier-1 deterministic pass. Matched: Backend / distributed / event-driven — Ryan's core strength; Senior / staff / lead level; Platform / reliability / observability — Ryan's secondary strength; AI-native engineering (a SWE who drives AI adoption); Large, reputable, remote-friendly engineering org with a strong Java / distributed-systems bar. Concerns: comp unstated.",
         "matched": [
           "Backend / distributed / event-driven — Ryan's core strength",
           "Senior / staff / lead level",
@@ -979,32 +1033,6 @@
       }
     },
     {
-      "id": "358ad0ad",
-      "source": "greenhouse",
-      "company": "Affirm",
-      "title": "Senior Software Engineer, Backend (Lake Analytics Platform)",
-      "location": "Remote US",
-      "remote": true,
-      "url": "https://job-boards.greenhouse.io/affirm/jobs/7799631003",
-      "descriptionText": "Affirm is reinventing credit to make it more honest and friendly, giving consumers the flexibility to buy now and pay later without any hidden fees or compounding interest.\n\nThe Data and Storage Services team is responsible for Affirm's data infrastructure across OLTP and OLAP systems, spanning critical online checkout databases, batch orchestration, streaming infrastructure, event-driven frameworks, BI, analytics tooling, large-scale data platforms, and agentic data tools such as semantic layers and internal platform data applications. Our mission is to provide trustworthy, intuitive, and cost-efficient solutions for Affirmers to secure, store, analyze, and transform data at exceptional scale.\n\nThis role focuses on the platform and applications layer of Affirm's data infrastructure — building, operating, and extending systems that enable teams across Affirm to work with data at scale. You will be a core contributor to platform reliability, self-service capabilities, and the roadmap toward agentic data tooling and semantic layer infrastructure.\n\nWhat You'll Do\n\nBuild and operate core platform capabilities: Design and implement platform features that enable engineers across Affirm to build, deploy, and operate data applications at scale — covering automated provisioning, deploy pipelines, access control, service lifecycle management, and reliability tooling.\n\nDevelop integrations: Build and maintain integrations between the platform and internal systems — CI/CD pipelines,…",
-      "postedAt": "2026-07-13T23:24:50-04:00",
-      "score": {
-        "fit": 89,
-        "verdict": "strong",
-        "rationale": "Senior Software Engineer, Backend (Lake Analytics Platform) at Affirm scores 89/100 (strong) on the Tier-1 deterministic pass. Matched: Backend / distributed / event-driven — Ryan's core strength; Senior / staff / lead level; Platform / reliability / observability — Ryan's secondary strength; AI-native engineering (a SWE who drives AI adoption); Large, reputable, remote-friendly engineering org with a strong Java / distributed-systems bar. Concerns: comp unstated.",
-        "matched": [
-          "Backend / distributed / event-driven — Ryan's core strength",
-          "Senior / staff / lead level",
-          "Platform / reliability / observability — Ryan's secondary strength",
-          "AI-native engineering (a SWE who drives AI adoption)",
-          "Large, reputable, remote-friendly engineering org with a strong Java / distributed-systems bar"
-        ],
-        "concerns": [
-          "comp unstated"
-        ]
-      }
-    },
-    {
       "id": "f3aa01a4",
       "source": "smartrecruiters",
       "company": "ServiceNow",
@@ -1160,32 +1188,6 @@
         "concerns": [
           "comp unstated",
           "remote unstated"
-        ]
-      }
-    },
-    {
-      "id": "f9829a09",
-      "source": "greenhouse",
-      "company": "Affirm",
-      "title": "Senior CIAM Software Engineer",
-      "location": "Remote US",
-      "remote": true,
-      "url": "https://job-boards.greenhouse.io/affirm/jobs/7671388003",
-      "descriptionText": "Affirm is reinventing credit to make it more honest and friendly, giving consumers the flexibility to buy now and pay later without any hidden fees or compounding interest.\n\nAffirm is building the next generation of customer identity and authentication. This role is a hands-on engineering position inside Information Security, focused on designing and shipping core CIAM capabilities that protect customers and support growth.\n\nYou will build and operate backend services that power registration, login, authorization, and account lifecycle flows across B2C and B2B experiences. You will work closely with partner engineering teams and ensure identity features are delivered with strong security fundamentals, reliability, and operational rigor.\n\nWhat you’ll do\n\nDesign, build, and operate core CIAM backend services that support customer registration, authentication, authorization, account lifecycle, and profile management for B2C and B2B platforms.\n\nImplement and extend identity standards such as OAuth 2.0, OIDC, SAML, and SCIM in code, ensuring correctness, scalability, and clean integration patterns.\n\nDevelop backend APIs and services in Python and Kotlin that expose identity capabilities to web, mobile, and partner applications.\n\nIntegrate CIAM platforms with internal systems, including user data stores, messaging, fraud signals, and downstream customer platforms.\n\nOwn secure authentication and account flows end to end, including MFA, step-up authentication, device binding,…",
-      "postedAt": "2026-06-18T11:27:47-04:00",
-      "score": {
-        "fit": 89,
-        "verdict": "strong",
-        "rationale": "Senior CIAM Software Engineer at Affirm scores 89/100 (strong) on the Tier-1 deterministic pass. Matched: Backend / distributed / event-driven — Ryan's core strength; Senior / staff / lead level; Platform / reliability / observability — Ryan's secondary strength; AI-native engineering (a SWE who drives AI adoption); Large, reputable, remote-friendly engineering org with a strong Java / distributed-systems bar. Concerns: comp unstated.",
-        "matched": [
-          "Backend / distributed / event-driven — Ryan's core strength",
-          "Senior / staff / lead level",
-          "Platform / reliability / observability — Ryan's secondary strength",
-          "AI-native engineering (a SWE who drives AI adoption)",
-          "Large, reputable, remote-friendly engineering org with a strong Java / distributed-systems bar"
-        ],
-        "concerns": [
-          "comp unstated"
         ]
       }
     },
@@ -1371,6 +1373,13 @@
     },
     {
       "company": "Airbnb",
+      "title": "Associate Counsel, Innovation and Thought Leadership",
+      "url": "https://careers.airbnb.com/positions/8074833?gh_jid=8074833",
+      "reason": "excluded-title",
+      "detail": "title matches: associate"
+    },
+    {
+      "company": "Airbnb",
       "title": "Associate Legal Counsel, Japan",
       "url": "https://careers.airbnb.com/positions/7789554?gh_jid=7789554",
       "reason": "excluded-title",
@@ -1379,7 +1388,7 @@
     {
       "company": "Airbnb",
       "title": "Associate Principal, Strategic Finance & Analytics",
-      "url": "https://careers.airbnb.com/positions/8072136?gh_jid=8072136",
+      "url": "https://careers.airbnb.com/positions/8043588?gh_jid=8043588",
       "reason": "excluded-title",
       "detail": "title matches: associate"
     },
@@ -1387,13 +1396,6 @@
       "company": "Airbnb",
       "title": "Business Operations and Growth Lead",
       "url": "https://careers.airbnb.com/positions/7999656?gh_jid=7999656",
-      "reason": "off-role-family",
-      "detail": "title matches no role-family term"
-    },
-    {
-      "company": "Airbnb",
-      "title": "Community Engagement Lead, Spain and Portugal",
-      "url": "https://careers.airbnb.com/positions/7982715?gh_jid=7982715",
       "reason": "off-role-family",
       "detail": "title matches no role-family term"
     },
@@ -1427,8 +1429,8 @@
     },
     {
       "company": "Airbnb",
-      "title": "Engineering Manager, Community Support Engineering",
-      "url": "https://careers.airbnb.com/positions/7760914?gh_jid=7760914",
+      "title": "Engineering Manager, Cloud & Data Security",
+      "url": "https://careers.airbnb.com/positions/8074765?gh_jid=8074765",
       "reason": "excluded-title",
       "detail": "title matches: manager"
     }
