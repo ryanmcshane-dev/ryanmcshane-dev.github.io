@@ -1,22 +1,22 @@
 {
-  "generatedAt": "2026-07-25T14:45:55.715Z",
+  "generatedAt": "2026-07-26T14:48:10.201Z",
   "tier": "tier-1",
   "counts": {
-    "fetched": 1951,
-    "kept": 558,
-    "dropped": 1393,
+    "fetched": 1963,
+    "kept": 565,
+    "dropped": 1398,
     "byVerdict": {
-      "strong": 99,
-      "possible": 216,
-      "weak": 199,
-      "skip": 44
+      "strong": 102,
+      "possible": 217,
+      "weak": 200,
+      "skip": 46
     },
     "droppedByReason": {
-      "excluded-title": 745,
-      "off-role-family": 437,
+      "excluded-title": 748,
+      "off-role-family": 438,
       "on-site-only": 14,
-      "non-us-location": 183,
-      "below-comp-floor": 14
+      "non-us-location": 179,
+      "below-comp-floor": 19
     }
   },
   "errors": [],
@@ -161,19 +161,45 @@
       }
     },
     {
-      "id": "068bf044",
-      "source": "adzuna",
-      "company": "Airbnb",
-      "title": "Staff Backend Engineer - Ads Platform",
-      "location": "US",
-      "remote": "unknown",
-      "url": "https://www.adzuna.com/details/5813657595?utm_medium=api&utm_source=e9201d43",
-      "descriptionText": "Airbnb was born in 2007 when two hosts welcomed three guests to their San Francisco home, and has since grown to over 5 million hosts who have welcomed over 2 billion guest arrivals in almost every country across the globe. Every day, hosts offer unique stays and experiences that make it possible for guests to connect with communities in a more authentic way. The Community You Will Join: The Ads Platform team builds the AI-powered growth engine behind Airbnb's paid marketing across Google, Meta…",
-      "postedAt": "2026-07-24T05:46:37Z",
+      "id": "98303f35",
+      "source": "greenhouse",
+      "company": "Block",
+      "title": "Software Engineer, Cash App - Lending Products",
+      "location": "New York, NY, United States of America",
+      "remote": true,
+      "url": "http://block.xyz/careers/jobs/5201726008?gh_jid=5201726008",
+      "descriptionText": "It all started with an idea at Block in 2013. Initially built to take the pain out of peer-to-peer payments, Cash App has gone from a simple product with a single purpose to a dynamic ecosystem, developing unique financial products, including Afterpay/Clearpay, to provide a better way to send, spend, invest, borrow and save to our 50+ million monthly active customers. We want to redefine the world's relationship with money to make it more relatable, instantly available, and universally accessible.\n\nToday, Cash App has thousands of employees working globally across office and remote locations, with a culture geared toward innovation, collaboration and impact. We've been a distributed team since day one, and many of our roles can be done remotely from the countries where Cash App operates. No matter the location, we tailor our experience to ensure our employees are creative, productive, and happy.\n\nThe Role\n\nCash App's mission is to make money instantly available and universally accessible - all the products and features we've released in the app are based on those principles. Lending is one of the newest Cash App products and we're looking for a Software Engineer to join this team and help deliver on our vision of economic empowerment.\n\nLending offers Cash App and Afterpay users low-friction access to credit without prohibitive repayment terms, and the Lending Engineering team is focused on building the complex systems and tooling to support access and availability.The…",
+      "postedAt": "2026-07-23T18:32:58-04:00",
+      "compHint": "$180,000–$270,000, $171,000–$256,600, $162,000–$243,000, $153,000–$229,600",
       "score": {
         "fit": 92,
         "verdict": "strong",
-        "rationale": "Staff Backend Engineer - Ads Platform at Airbnb scores 92/100 (strong) on the Tier-1 deterministic pass. Matched: Backend / distributed / event-driven — Ryan's core strength; Senior / staff / lead level; Platform / reliability / observability — Ryan's secondary strength; AI-native engineering (a SWE who drives AI adoption); Top-choice company. Concerns: comp unstated; remote unstated.",
+        "rationale": "Software Engineer, Cash App - Lending Products at Block scores 92/100 (strong) on the Tier-1 deterministic pass. Matched: Backend / distributed / event-driven — Ryan's core strength; Senior / staff / lead level; Platform / reliability / observability — Ryan's secondary strength; AI-native engineering (a SWE who drives AI adoption); Strong engineering culture; Large, reputable, remote-friendly engineering org with a strong Java / distributed-systems bar.",
+        "matched": [
+          "Backend / distributed / event-driven — Ryan's core strength",
+          "Senior / staff / lead level",
+          "Platform / reliability / observability — Ryan's secondary strength",
+          "AI-native engineering (a SWE who drives AI adoption)",
+          "Strong engineering culture",
+          "Large, reputable, remote-friendly engineering org with a strong Java / distributed-systems bar"
+        ],
+        "concerns": []
+      }
+    },
+    {
+      "id": "a13e76f7",
+      "source": "greenhouse",
+      "company": "Airbnb",
+      "title": "Staff Backend Engineer - Ads Platform",
+      "location": "Remote - USA",
+      "remote": true,
+      "url": "https://careers.airbnb.com/positions/8074897?gh_jid=8074897",
+      "descriptionText": "Airbnb was born in 2007 when two hosts welcomed three guests to their San Francisco home, and has since grown to over 5 million hosts who have welcomed over 2 billion guest arrivals in almost every country across the globe. Every day, hosts offer unique stays and experiences that make it possible for guests to connect with communities in a more authentic way.\n\nThe Community You Will Join:\n\nThe Ads Platform team builds the AI-powered growth engine behind Airbnb's paid marketing across Google, Meta, and the broader advertising ecosystem. We build the platform and intelligent systems that power paid campaigns — from creative to optimization to audience — at scale across every channel, with a strong commitment to brand safety, quality, and human oversight. Our ambition is bold: to build increasingly autonomous, AI-driven marketing systems that grow Airbnb's business.\n\nWe sit at the intersection of engineering, marketing, and AI. You'll partner closely with Marketing, Product, and Design, work alongside Airbnb's ML/AI and data platform teams, and integrate deeply with the core product to turn a rich understanding of the customer journey into differentiated, high-performing paid experiences.\n\nThe Difference You Will Make:\n\nAs a Staff Software Engineer on the Ads Platform team, you will lead the technical strategy and hands-on execution of Airbnb's next-generation, AI-powered Growth Engine for paid channels (Google, Meta, and beyond). You will architect systems that autonomously…",
+      "postedAt": "2026-07-22T15:52:40-04:00",
+      "score": {
+        "fit": 92,
+        "verdict": "strong",
+        "rationale": "Staff Backend Engineer - Ads Platform at Airbnb scores 92/100 (strong) on the Tier-1 deterministic pass. Matched: Backend / distributed / event-driven — Ryan's core strength; Senior / staff / lead level; Platform / reliability / observability — Ryan's secondary strength; AI-native engineering (a SWE who drives AI adoption); Top-choice company. Concerns: comp unstated.",
         "matched": [
           "Backend / distributed / event-driven — Ryan's core strength",
           "Senior / staff / lead level",
@@ -182,8 +208,7 @@
           "Top-choice company"
         ],
         "concerns": [
-          "comp unstated",
-          "remote unstated"
+          "comp unstated"
         ]
       }
     },
@@ -534,31 +559,6 @@
       }
     },
     {
-      "id": "86a8f92d",
-      "source": "greenhouse",
-      "company": "Block",
-      "title": "Staff Software Engineer, Cash App Banking",
-      "location": "Bay Area, CA, United States of America",
-      "remote": true,
-      "url": "http://block.xyz/careers/jobs/5196194008?gh_jid=5196194008",
-      "descriptionText": "It all started with an idea at Block in 2013. Initially built to take the pain out of peer-to-peer payments, Cash App has gone from a simple product with a single purpose to a dynamic ecosystem, developing unique financial products, including Afterpay/Clearpay, to provide a better way to send, spend, invest, borrow and save to our 50+ million monthly active customers. We want to redefine the world's relationship with money to make it more relatable, instantly available, and universally accessible.\n\nToday, Cash App has thousands of employees working globally across office and remote locations, with a culture geared toward innovation, collaboration and impact. We've been a distributed team since day one, and many of our roles can be done remotely from the countries where Cash App operates. No matter the location, we tailor our experience to ensure our employees are creative, productive, and happy.\n\nThe Role\n\nAt Cash App, we strive to build the best consumer financial products in the world. The Cash App Banking team aspires to make Cash App the primary place for our customers to store, manage, and move money across all their banking needs. We achieve this by providing various offerings including a range of deposit and transfer options, savings and automation tools, and a suite of benefits for Banking customers, all while ensuring a fast and reliable experience.\n\nAs a staff software engineer on the Cash App Banking server engineering team, you will help lead the overall…",
-      "postedAt": "2026-07-24T17:25:23-04:00",
-      "compHint": "$263,600–$395,400, $263,600–$395,400, $263,600–$395,400, $263,600–$395,400",
-      "score": {
-        "fit": 89,
-        "verdict": "strong",
-        "rationale": "Staff Software Engineer, Cash App Banking at Block scores 89/100 (strong) on the Tier-1 deterministic pass. Matched: Backend / distributed / event-driven — Ryan's core strength; Senior / staff / lead level; Platform / reliability / observability — Ryan's secondary strength; AI-native engineering (a SWE who drives AI adoption); Large, reputable, remote-friendly engineering org with a strong Java / distributed-systems bar.",
-        "matched": [
-          "Backend / distributed / event-driven — Ryan's core strength",
-          "Senior / staff / lead level",
-          "Platform / reliability / observability — Ryan's secondary strength",
-          "AI-native engineering (a SWE who drives AI adoption)",
-          "Large, reputable, remote-friendly engineering org with a strong Java / distributed-systems bar"
-        ],
-        "concerns": []
-      }
-    },
-    {
       "id": "74f99c12",
       "source": "greenhouse",
       "company": "Twilio",
@@ -793,19 +793,20 @@
       }
     },
     {
-      "id": "ff881728",
+      "id": "ac17e175",
       "source": "greenhouse",
       "company": "Block",
-      "title": "Senior Site Reliability Engineer",
-      "location": "New York, NY, United States of America",
+      "title": "Tech Lead, Business Platform Engineering (Bizplat)",
+      "location": "Bay Area, CA, United States of America",
       "remote": true,
-      "url": "http://block.xyz/careers/jobs/5182994008?gh_jid=5182994008",
-      "descriptionText": "Block builds simple, powerful tools that make progress towards an economy that’s truly open to all.\n\nEach of our brands unlocks different aspects of the economy for more people. Square makes commerce and financial services accessible to sellers. Cash App is the easy way to spend, send, and store money. Afterpay is transforming the way customers manage their spending over time. TIDAL is a music platform that empowers artists to thrive as entrepreneurs. Bitkey is a simple self-custody wallet built for bitcoin. Proto is a suite of bitcoin mining products and services. Together, we’re helping build a financial system that is open to everyone. Join us.\n\nThe Role\n\nAs a member of the SRE team, you will proactively and reactively improve the reliability of Block's platform and critical infrastructure. You are metrics-driven, systems-oriented, and focused on building distributed platforms that enable safe, scalable product development.\n\nYou will leverage and continuously improve AI-driven tooling and automation to enhance observability, accelerate incident detection and response, and reduce operational toil. This includes applying AI to incident analysis, alert tuning, and operational workflows.\n\nYou will participate in primary platform oncall (12 hours per day, one week every few weeks, depending on team size), supporting Block's most critical (Tier 0) services. In this role, you will lead incident command, coordinate mitigation, and drive effective escalation during high-severity…",
+      "url": "http://block.xyz/careers/jobs/5025564008?gh_jid=5025564008",
+      "descriptionText": "Block is one company built from many blocks, all united by the same purpose of economic empowerment. The blocks that form our foundational teams — People, Finance, Counsel, Hardware, Information Security, Platform Infrastructure Engineering, and more — provide support and guidance at the corporate level. They work across business groups and around the globe, spanning time zones and disciplines to develop inclusive People policies, forecast finances, give legal counsel, safeguard systems, nurture new initiatives, and more. Every challenge creates possibilities, and we need different perspectives to see them all. Bring yours to Block.\n\nThe Role\n\nBlock's Business Platform (Bizplat) organization powers operational automation across the company, focused on Risk & Compliance, Customer Support, GTM and Sales, Finance, and Hardware Supply Chain. Over the past year, our teams have delivered measurable business outcomes across every major operational domain. Now, as we scale from isolated automation initiatives to a company-wide automation platform and operating model, we face a critical architectural challenge: too many services and too much fragmentation.\n\nWe are looking for a Tech Lead who will serve as the overall systems architect for Bizplat — someone who can see across our sprawling service landscape, identify redundancy and fragmentation, and drive consolidation onto well-architected central systems. You will be the technical decision-maker responsible for turning down the…",
       "postedAt": "2026-07-20T19:10:26-04:00",
+      "compHint": "$263,600–$395,400, $263,600–$395,400, $263,600–$395,400, $263,600–$395,400",
       "score": {
         "fit": 89,
         "verdict": "strong",
-        "rationale": "Senior Site Reliability Engineer at Block scores 89/100 (strong) on the Tier-1 deterministic pass. Matched: Backend / distributed / event-driven — Ryan's core strength; Senior / staff / lead level; Platform / reliability / observability — Ryan's secondary strength; AI-native engineering (a SWE who drives AI adoption); Large, reputable, remote-friendly engineering org with a strong Java / distributed-systems bar. Concerns: comp unstated.",
+        "rationale": "Tech Lead, Business Platform Engineering (Bizplat) at Block scores 89/100 (strong) on the Tier-1 deterministic pass. Matched: Backend / distributed / event-driven — Ryan's core strength; Senior / staff / lead level; Platform / reliability / observability — Ryan's secondary strength; AI-native engineering (a SWE who drives AI adoption); Large, reputable, remote-friendly engineering org with a strong Java / distributed-systems bar.",
         "matched": [
           "Backend / distributed / event-driven — Ryan's core strength",
           "Senior / staff / lead level",
@@ -813,9 +814,7 @@
           "AI-native engineering (a SWE who drives AI adoption)",
           "Large, reputable, remote-friendly engineering org with a strong Java / distributed-systems bar"
         ],
-        "concerns": [
-          "comp unstated"
-        ]
+        "concerns": []
       }
     },
     {
