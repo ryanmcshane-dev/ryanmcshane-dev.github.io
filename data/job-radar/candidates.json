@@ -1,81 +1,26 @@
 {
-  "generatedAt": "2026-07-29T15:35:19.109Z",
+  "generatedAt": "2026-07-30T15:30:23.813Z",
   "tier": "tier-1",
   "counts": {
-    "fetched": 1949,
-    "kept": 570,
+    "fetched": 1941,
+    "kept": 562,
     "dropped": 1379,
     "byVerdict": {
-      "strong": 106,
-      "possible": 218,
+      "strong": 107,
+      "possible": 207,
       "weak": 199,
-      "skip": 47
+      "skip": 49
     },
     "droppedByReason": {
-      "excluded-title": 731,
-      "off-role-family": 440,
+      "excluded-title": 729,
+      "off-role-family": 444,
       "on-site-only": 15,
-      "non-us-location": 177,
-      "below-comp-floor": 16
+      "non-us-location": 176,
+      "below-comp-floor": 15
     }
   },
   "errors": [],
   "candidates": [
-    {
-      "id": "f75168ae",
-      "source": "greenhouse",
-      "company": "Airbnb",
-      "title": "Senior Software Engineer, Assistant Engineering",
-      "location": "United States",
-      "remote": true,
-      "url": "https://careers.airbnb.com/positions/8092414?gh_jid=8092414",
-      "descriptionText": "Airbnb was born in 2007 when two hosts welcomed three guests to their San Francisco home, and has since grown to over 5 million hosts who have welcomed over 2 billion guest arrivals in almost every country across the globe. Every day, hosts offer unique stays and experiences that make it possible for guests to connect with communities in a more authentic way.\n\nThe Community You Will Join:\n\nArtificial Intelligence is at the heart of Airbnb’s product strategy. The Conversational Product team within Assistant Engineering is responsible for building and scaling Airbnb’s AI Assistant experience, expanding it beyond customer support to empower product domains across Airbnb.\n\nWithin the Conversational Product team, the AI Assistant Product Evaluation team builds the evaluation systems, data foundations, and observability tools that help Airbnb develop reliable, high-quality agentic AI products. Our work enables teams to measure AI product quality, understand model and agent behavior, identify regressions, and accelerate the feedback loop between model development and product iteration.\n\nThe Difference You Will Make:\n\nAs a Senior Software Engineer on the AI Assistant Product Evaluation team, you will design and build scalable data systems and evaluation platforms for Airbnb’s agentic AI products. You will work at the intersection of backend engineering, data systems, AI evaluation, and product quality.\n\nIn this role, you will help define how Airbnb measures, monitors, and improves…",
-      "postedAt": "2026-07-28T16:34:45-04:00",
-      "score": {
-        "fit": 95,
-        "verdict": "strong",
-        "rationale": "Senior Software Engineer, Assistant Engineering at Airbnb scores 95/100 (strong) on the Tier-1 deterministic pass. Matched: Backend / distributed / event-driven — Ryan's core strength; Senior / staff / lead level; Platform / reliability / observability — Ryan's secondary strength; AI-native engineering (a SWE who drives AI adoption); Product engineering; Top-choice company. Concerns: comp unstated.",
-        "matched": [
-          "Backend / distributed / event-driven — Ryan's core strength",
-          "Senior / staff / lead level",
-          "Platform / reliability / observability — Ryan's secondary strength",
-          "AI-native engineering (a SWE who drives AI adoption)",
-          "Product engineering",
-          "Top-choice company"
-        ],
-        "concerns": [
-          "comp unstated"
-        ]
-      }
-    },
-    {
-      "id": "88d12422",
-      "source": "workday",
-      "company": "Workday",
-      "title": "Senior Software Engineer, DBaas (US Federal)",
-      "location": "USA.VA.Reston — United States of America",
-      "remote": "unknown",
-      "url": "https://workday.wd5.myworkdayjobs.com/Workday/job/USAVAReston/Senior-Software-Engineer--DBaas--US-Federal-_JR-0108508",
-      "descriptionText": "Your work days are brighter here.\n\nWe’re obsessed with making hard work pay off, for our people, our customers, and the world around us. As a Fortune 500 company and a leading AI platform for managing people, money, and agents, we’re shaping the future of work so teams can reach their potential and focus on what matters most. The minute you join, you’ll feel it. Not just in the products we build, but in how we show up for each other. Our culture is rooted in integrity, empathy, and shared enthusiasm. We’re in this together, tackling big challenges with bold ideas and genuine care. We look for curious minds and courageous collaborators who bring sun-drenched optimism and drive. Whether you're building smarter solutions, supporting customers, or creating a space where everyone belongs, you’ll do meaningful work with Workmates who’ve got your back. In return, we’ll give you the trust to take risks, the tools to grow, the skills to develop and the support of a company invested in you for the long haul. So, if you want to inspire a brighter work day for everyone, including yourself, you’ve found a match in Workday, and we hope to be a match for you too.\n\nAbout the Team\nThe Database Engineering Team at Workday, designs, builds, develops, maintains, and supervises database infrastructure and ensuring that the entire Workday’s Data related needs are met with dedication and scale, while providing high availability that our customers expect from Workday. We are a fast paced and…",
-      "postedAt": "2026-07-13",
-      "score": {
-        "fit": 95,
-        "verdict": "strong",
-        "rationale": "Senior Software Engineer, DBaas (US Federal) at Workday scores 95/100 (strong) on the Tier-1 deterministic pass. Matched: Backend / distributed / event-driven — Ryan's core strength; Senior / staff / lead level; Platform / reliability / observability — Ryan's secondary strength; AI-native engineering (a SWE who drives AI adoption); Strong engineering culture; HCM / group-benefits domain overlap — Ryan's EOI / Absence Management experience translates directly. Concerns: comp unstated; remote unstated.",
-        "matched": [
-          "Backend / distributed / event-driven — Ryan's core strength",
-          "Senior / staff / lead level",
-          "Platform / reliability / observability — Ryan's secondary strength",
-          "AI-native engineering (a SWE who drives AI adoption)",
-          "Strong engineering culture",
-          "HCM / group-benefits domain overlap — Ryan's EOI / Absence Management experience translates directly"
-        ],
-        "concerns": [
-          "comp unstated",
-          "remote unstated"
-        ]
-      }
-    },
     {
       "id": "c408a1f4",
       "source": "workday",
@@ -161,6 +106,33 @@
       }
     },
     {
+      "id": "f6e5e997",
+      "source": "greenhouse",
+      "company": "Twilio",
+      "title": "Principal Software Engineer",
+      "location": "Remote - US",
+      "remote": true,
+      "url": "https://job-boards.greenhouse.io/twilio/jobs/8081530",
+      "descriptionText": "Who we are\n\nAt Twilio, we’re shaping the future of communications, all from the comfort of our homes. We deliver innovative solutions to hundreds of thousands of businesses and empower millions of developers worldwide to craft personalized customer experiences.\n\nOur dedication to remote-first work , and strong culture of connection and global inclusion means that no matter your location, you’re part of a vibrant team with diverse experiences making a global impact each day. As we continue to revolutionize how the world interacts, we’re acquiring new skills and experiences that make work feel truly rewarding. Your career at Twilio is in your hands.\n\nWe use Artificial Intelligence (AI) to help make our hiring process efficient. That said, every hiring decision is made by real Twilions!\n\n.\n\nSee yourself at Twilio\n\nJoin the team as Twilio's next Principal Software Engineer on our Data Substrate team.\n\nWho we are & why we’re hiring\n\nTwilio powers real-time business communications and data solutions that help companies and developers worldwide build better applications and customer experiences.\n\nAlthough we're headquartered in San Francisco, we have presence throughout South America, Europe, Asia and Australia. We're on a journey to becoming a global company that actively opposes racism and all forms of oppression and bias. At Twilio, we support diversity, equity & inclusion wherever we do business.\n\nAbout the job\n\nWe are seeking an experienced and visionary Principal Engineer to…",
+      "postedAt": "2026-07-29T12:26:04-04:00",
+      "score": {
+        "fit": 92,
+        "verdict": "strong",
+        "rationale": "Principal Software Engineer at Twilio scores 92/100 (strong) on the Tier-1 deterministic pass. Matched: Backend / distributed / event-driven — Ryan's core strength; Senior / staff / lead level; Platform / reliability / observability — Ryan's secondary strength; AI-native engineering (a SWE who drives AI adoption); Strong engineering culture; Large, reputable, remote-friendly engineering org with a strong Java / distributed-systems bar. Concerns: comp unstated.",
+        "matched": [
+          "Backend / distributed / event-driven — Ryan's core strength",
+          "Senior / staff / lead level",
+          "Platform / reliability / observability — Ryan's secondary strength",
+          "AI-native engineering (a SWE who drives AI adoption)",
+          "Strong engineering culture",
+          "Large, reputable, remote-friendly engineering org with a strong Java / distributed-systems bar"
+        ],
+        "concerns": [
+          "comp unstated"
+        ]
+      }
+    },
+    {
       "id": "410d4b5e",
       "source": "greenhouse",
       "company": "Twilio",
@@ -185,6 +157,32 @@
         "concerns": [
           "comp unstated"
         ]
+      }
+    },
+    {
+      "id": "70b090a4",
+      "source": "greenhouse",
+      "company": "Block",
+      "title": "Software Engineer, Cash App - Lending Products",
+      "location": "Bay Area, CA, United States of America",
+      "remote": true,
+      "url": "http://block.xyz/careers/jobs/5196173008?gh_jid=5196173008",
+      "descriptionText": "It all started with an idea at Block in 2013. Initially built to take the pain out of peer-to-peer payments, Cash App has gone from a simple product with a single purpose to a dynamic ecosystem, developing unique financial products, including Afterpay/Clearpay, to provide a better way to send, spend, invest, borrow and save to our 50+ million monthly active customers. We want to redefine the world's relationship with money to make it more relatable, instantly available, and universally accessible.\n\nToday, Cash App has thousands of employees working globally across office and remote locations, with a culture geared toward innovation, collaboration and impact. We've been a distributed team since day one, and many of our roles can be done remotely from the countries where Cash App operates. No matter the location, we tailor our experience to ensure our employees are creative, productive, and happy.\n\nThe Role\n\nCash App's mission is to make money instantly available and universally accessible - all the products and features we've released in the app are based on those principles. Lending is one of the newest Cash App products and we're looking for a Software Engineer to join this team and help deliver on our vision of economic empowerment.\n\nLending offers Cash App and Afterpay users low-friction access to credit without prohibitive repayment terms, and the Lending Engineering team is focused on building the complex systems and tooling to support access and availability.The…",
+      "postedAt": "2026-07-23T18:32:58-04:00",
+      "compHint": "$180,000–$270,000, $171,000–$256,600, $162,000–$243,000, $153,000–$229,600",
+      "score": {
+        "fit": 92,
+        "verdict": "strong",
+        "rationale": "Software Engineer, Cash App - Lending Products at Block scores 92/100 (strong) on the Tier-1 deterministic pass. Matched: Backend / distributed / event-driven — Ryan's core strength; Senior / staff / lead level; Platform / reliability / observability — Ryan's secondary strength; AI-native engineering (a SWE who drives AI adoption); Strong engineering culture; Large, reputable, remote-friendly engineering org with a strong Java / distributed-systems bar.",
+        "matched": [
+          "Backend / distributed / event-driven — Ryan's core strength",
+          "Senior / staff / lead level",
+          "Platform / reliability / observability — Ryan's secondary strength",
+          "AI-native engineering (a SWE who drives AI adoption)",
+          "Strong engineering culture",
+          "Large, reputable, remote-friendly engineering org with a strong Java / distributed-systems bar"
+        ],
+        "concerns": []
       }
     },
     {
@@ -514,7 +512,7 @@
       "remote": true,
       "url": "https://job-boards.greenhouse.io/twilio/jobs/7993530",
       "descriptionText": "Who we are\n\nAt Twilio, we’re shaping the future of communications, all from the comfort of our homes. We deliver innovative solutions to hundreds of thousands of businesses and empower millions of developers worldwide to craft personalized customer experiences.\n\nOur dedication to remote-first work , and strong culture of connection and global inclusion means that no matter your location, you’re part of a vibrant team with diverse experiences making a global impact each day. As we continue to revolutionize how the world interacts, we’re acquiring new skills and experiences that make work feel truly rewarding. Your career at Twilio is in your hands.\n\nWe use Artificial Intelligence (AI) to help make our hiring process efficient. That said, every hiring decision is made by real Twilions!\n\n.\n\nSee yourself at Twilio\n\nJoin the team as Twilio’s next Senior Software Engineer.\n\nAbout the job\n\nThis position is needed to develop the future platform of communications. Twilio SMS Engineering is looking for a Software Engineer to join our team to work on our SMS connectivity layer with the purpose to build and optimize for delivery. You will be developing a complex distributed platform in Java and be concerned with availability, throughput, latency, and data integrity. At the core are cloud technologies that enable deployment and management of computing resources globally.\n\nResponsibilities\n\nIn this role, you’ll:\n\nDesign, develop, test and deploy features alongside an experienced,…",
-      "postedAt": "2026-07-29T10:30:10-04:00",
+      "postedAt": "2026-07-30T10:29:05-04:00",
       "score": {
         "fit": 89,
         "verdict": "strong",
@@ -541,11 +539,63 @@
       "remote": true,
       "url": "https://job-boards.greenhouse.io/affirm/jobs/7686804003",
       "descriptionText": "Affirm is reinventing credit to make it more honest and friendly, giving consumers the flexibility to buy now and pay later without any hidden fees or compounding interest.\n\nZero To One (ZT1) is Affirm’s 0 -> 1 innovation lab, focused on turning bold ideas into validated new businesses. Operating outside the standard Product and Engineering structure, ZT1 is built for speed, autonomy, and decisive execution. We run fast, hypothesis-driven experiments with a clear goal: prototype quickly, generate real signals, and drive explicit “kill or scale” decisions on high-impact opportunities, with AI as a core enabler across the stack.\n\nAs an engineer on ZT1, you will work in a small, highly empowered, AI-native team alongside product managers and cross-functional partners, with direct exposure to senior leadership. You will not just build systems, you will help shape experiments, define technical approaches, and influence product direction. Work happens in rapid sprint cycles, where ideas quickly move from concept to AI-powered prototypes and real-world testing.\n\nEngineers on this team are expected to be comfortable leveraging AI-first tools and approaches, including AI-assisted development, agentic workflows, automation, and rapid prototyping. You should have an eye for product and design, and be able to quickly translate ideas into functional, AI-enabled prototypes that can be tested with users or stakeholders.\n\nThis role is ideal for engineers who thrive in ambiguity, move…",
-      "postedAt": "2026-07-27T14:03:08-04:00",
+      "postedAt": "2026-07-29T13:32:53-04:00",
       "score": {
         "fit": 89,
         "verdict": "strong",
         "rationale": "Senior Software Engineer, Full Stack (Zero to One Labs) at Affirm scores 89/100 (strong) on the Tier-1 deterministic pass. Matched: Backend / distributed / event-driven — Ryan's core strength; Senior / staff / lead level; Platform / reliability / observability — Ryan's secondary strength; AI-native engineering (a SWE who drives AI adoption); Large, reputable, remote-friendly engineering org with a strong Java / distributed-systems bar. Concerns: comp unstated.",
+        "matched": [
+          "Backend / distributed / event-driven — Ryan's core strength",
+          "Senior / staff / lead level",
+          "Platform / reliability / observability — Ryan's secondary strength",
+          "AI-native engineering (a SWE who drives AI adoption)",
+          "Large, reputable, remote-friendly engineering org with a strong Java / distributed-systems bar"
+        ],
+        "concerns": [
+          "comp unstated"
+        ]
+      }
+    },
+    {
+      "id": "b5b1533e",
+      "source": "greenhouse",
+      "company": "Twilio",
+      "title": "Senior Infrastructure Engineer - Stytch",
+      "location": "Remote - US",
+      "remote": true,
+      "url": "https://job-boards.greenhouse.io/twilio/jobs/7474040",
+      "descriptionText": "Who we are\n\nAt Twilio, we’re shaping the future of communications, all from the comfort of our homes. We deliver innovative solutions to hundreds of thousands of businesses and empower millions of developers worldwide to craft personalized customer experiences.\n\nOur dedication to remote-first work , and strong culture of connection and global inclusion means that no matter your location, you’re part of a vibrant team with diverse experiences making a global impact each day. As we continue to revolutionize how the world interacts, we’re acquiring new skills and experiences that make work feel truly rewarding. Your career at Twilio is in your hands.\n\nWe use Artificial Intelligence (AI) to help make our hiring process efficient. That said, every hiring decision is made by real Twilions!\n\n.\n\nSee yourself at Twilio\n\nJoin the team as Twilio’s next Senior Infrastructure Engineer.\n\nAbout the job\n\nThis position is needed to build and scale Stytch’s core product as we bring Stytch capabilities to Twilio’s full customer base, delivering secure, developer-first identity experiences.\n\nJoin the Stytch team at Twilio to shape the next generation of identity products. You’ll design and build infrastructure that power authentication, authorization, and emerging agentic and non-human identity use cases. You’ll partner closely with product and engineering leadership to set direction, deliver high-impact features, and evolve our platform for Twilio scale. This is a rare chance to operate like a…",
+      "postedAt": "2026-07-29T12:32:39-04:00",
+      "score": {
+        "fit": 89,
+        "verdict": "strong",
+        "rationale": "Senior Infrastructure Engineer - Stytch at Twilio scores 89/100 (strong) on the Tier-1 deterministic pass. Matched: Backend / distributed / event-driven — Ryan's core strength; Senior / staff / lead level; Platform / reliability / observability — Ryan's secondary strength; AI-native engineering (a SWE who drives AI adoption); Large, reputable, remote-friendly engineering org with a strong Java / distributed-systems bar. Concerns: comp unstated.",
+        "matched": [
+          "Backend / distributed / event-driven — Ryan's core strength",
+          "Senior / staff / lead level",
+          "Platform / reliability / observability — Ryan's secondary strength",
+          "AI-native engineering (a SWE who drives AI adoption)",
+          "Large, reputable, remote-friendly engineering org with a strong Java / distributed-systems bar"
+        ],
+        "concerns": [
+          "comp unstated"
+        ]
+      }
+    },
+    {
+      "id": "2cdf4e9c",
+      "source": "greenhouse",
+      "company": "Affirm",
+      "title": "Staff Software Engineer, Backend (Marketplace/App Experience)",
+      "location": "Remote US",
+      "remote": true,
+      "url": "https://job-boards.greenhouse.io/affirm/jobs/7803078003",
+      "descriptionText": "Affirm is reinventing credit to make it more honest and friendly, giving consumers the flexibility to buy now and pay later without any hidden fees or compounding interest.\n\nAs we build Affirm's advertising platform and evolve Marketplace into a best in class shopping destination, the ability to route and discover is one of the greatest levers for consumer experiences. Search is one of the highest impact surfaces, and we are building a new team that will own not just the recommendations and search experiences, but also explore opportunities to improve customer experience, monetization, and merchant value. This team will help make Affirm the definitive destination consumers turn to for discovery, understanding, comparing, and shopping through Affirm, and will also lay the foundation for an agentic platform.\n\nWhat You'll Do\n\n· You will be responsible for setting technical strategy for your team on a year-long time scale, and help your team tie it together with critical, business-impacting projects.\n· You will collaborate across teams in the product development lifecycle by collaborating with product management, design & analytics to ensure technical sustainability, risks and trade-offs are well understood and managed.\n· You will act as a force-multiplier for your team through your definition and advocacy of technical solutions and operational processes.\n· You take ownership of your team’s operations and availability by ensuring you have the right monitoring, triage rotations,…",
+      "postedAt": "2026-07-27T19:40:50-04:00",
+      "score": {
+        "fit": 89,
+        "verdict": "strong",
+        "rationale": "Staff Software Engineer, Backend (Marketplace/App Experience) at Affirm scores 89/100 (strong) on the Tier-1 deterministic pass. Matched: Backend / distributed / event-driven — Ryan's core strength; Senior / staff / lead level; Platform / reliability / observability — Ryan's secondary strength; AI-native engineering (a SWE who drives AI adoption); Large, reputable, remote-friendly engineering org with a strong Java / distributed-systems bar. Concerns: comp unstated.",
         "matched": [
           "Backend / distributed / event-driven — Ryan's core strength",
           "Senior / staff / lead level",
@@ -688,32 +738,6 @@
       }
     },
     {
-      "id": "b5b1533e",
-      "source": "greenhouse",
-      "company": "Twilio",
-      "title": "Senior Infrastructure Engineer - Stytch",
-      "location": "Remote - US",
-      "remote": true,
-      "url": "https://job-boards.greenhouse.io/twilio/jobs/7474040",
-      "descriptionText": "Who we are\n\nAt Twilio, we’re shaping the future of communications, all from the comfort of our homes. We deliver innovative solutions to hundreds of thousands of businesses and empower millions of developers worldwide to craft personalized customer experiences.\n\nOur dedication to remote-first work , and strong culture of connection and global inclusion means that no matter your location, you’re part of a vibrant team with diverse experiences making a global impact each day. As we continue to revolutionize how the world interacts, we’re acquiring new skills and experiences that make work feel truly rewarding. Your career at Twilio is in your hands.\n\nWe use Artificial Intelligence (AI) to help make our hiring process efficient. That said, every hiring decision is made by real Twilions!\n\n.\n\nSee yourself at Twilio\n\nJoin the team as Twilio’s next Senior Infrastructure Engineer.\n\nAbout the job\n\nThis position is needed to build and scale Stytch’s core product as we bring Stytch capabilities to Twilio’s full customer base, delivering secure, developer-first identity experiences.\n\nJoin the Stytch team at Twilio to shape the next generation of identity products. You’ll design and build infrastructure that power authentication, authorization, and emerging agentic and non-human identity use cases. You’ll partner closely with product and engineering leadership to set direction, deliver high-impact features, and evolve our platform for Twilio scale. This is a rare chance to operate like a…",
-      "postedAt": "2026-07-24T10:24:29-04:00",
-      "score": {
-        "fit": 89,
-        "verdict": "strong",
-        "rationale": "Senior Infrastructure Engineer - Stytch at Twilio scores 89/100 (strong) on the Tier-1 deterministic pass. Matched: Backend / distributed / event-driven — Ryan's core strength; Senior / staff / lead level; Platform / reliability / observability — Ryan's secondary strength; AI-native engineering (a SWE who drives AI adoption); Large, reputable, remote-friendly engineering org with a strong Java / distributed-systems bar. Concerns: comp unstated.",
-        "matched": [
-          "Backend / distributed / event-driven — Ryan's core strength",
-          "Senior / staff / lead level",
-          "Platform / reliability / observability — Ryan's secondary strength",
-          "AI-native engineering (a SWE who drives AI adoption)",
-          "Large, reputable, remote-friendly engineering org with a strong Java / distributed-systems bar"
-        ],
-        "concerns": [
-          "comp unstated"
-        ]
-      }
-    },
-    {
       "id": "b265c3a2",
       "source": "smartrecruiters",
       "company": "ServiceNow",
@@ -818,13 +842,13 @@
       }
     },
     {
-      "id": "3ae6bc6c",
+      "id": "fb236222",
       "source": "greenhouse",
       "company": "Block",
       "title": "Senior Software Engineer, Product Platform",
-      "location": "New York, NY, United States of America",
+      "location": "Bay Area, CA, United States of America",
       "remote": true,
-      "url": "http://block.xyz/careers/jobs/5239566008?gh_jid=5239566008",
+      "url": "http://block.xyz/careers/jobs/5231964008?gh_jid=5231964008",
       "descriptionText": "Block is one company built from many blocks, all united by the same purpose of economic empowerment. The blocks that form our foundational teams — People, Finance, Counsel, Hardware, Information Security, Platform Infrastructure Engineering, and more — provide support and guidance at the corporate level. They work across business groups and around the globe, spanning time zones and disciplines to develop inclusive People policies, forecast finances, give legal counsel, safeguard systems, nurture new initiatives, and more. Every challenge creates possibilities, and we need different perspectives to see them all. Bring yours to Block.\n\nThe Role\n\nProduct Platform Engineering builds and unifies the foundational systems Block engineers use to create, ship, and operate products. We work across platform domains such as deployment systems, event streaming, databases, workflows, and the operational systems that keep Block moving.\n\nWe are looking for a Senior Software Engineer who is broad, curious, and energized by solving platform problems that cut across teams. You will help design and build the next generation of Block's internal platforms, improve the systems engineers depend on every day, and use AI as a native part of how you explore, build, test, and learn. This is a role for someone who wants to ask good questions, make sound technical bets, and turn complex problems into working systems.\n\nYou Will\n\nDesign, build, and operate platform systems that help Block engineers ship…",
       "postedAt": "2026-07-20T19:10:26-04:00",
       "compHint": "$217,800–$326,800, $207,000–$310,400, $196,100–$294,100, $185,200–$277,800",
@@ -843,13 +867,13 @@
       }
     },
     {
-      "id": "ac17e175",
+      "id": "5cbda8a1",
       "source": "greenhouse",
       "company": "Block",
       "title": "Tech Lead, Business Platform Engineering (Bizplat)",
-      "location": "Bay Area, CA, United States of America",
+      "location": "New York, NY, United States of America",
       "remote": true,
-      "url": "http://block.xyz/careers/jobs/5025564008?gh_jid=5025564008",
+      "url": "http://block.xyz/careers/jobs/5311661008?gh_jid=5311661008",
       "descriptionText": "Block is one company built from many blocks, all united by the same purpose of economic empowerment. The blocks that form our foundational teams — People, Finance, Counsel, Hardware, Information Security, Platform Infrastructure Engineering, and more — provide support and guidance at the corporate level. They work across business groups and around the globe, spanning time zones and disciplines to develop inclusive People policies, forecast finances, give legal counsel, safeguard systems, nurture new initiatives, and more. Every challenge creates possibilities, and we need different perspectives to see them all. Bring yours to Block.\n\nThe Role\n\nBlock's Business Platform (Bizplat) organization powers operational automation across the company, focused on Risk & Compliance, Customer Support, GTM and Sales, Finance, and Hardware Supply Chain. Over the past year, our teams have delivered measurable business outcomes across every major operational domain. Now, as we scale from isolated automation initiatives to a company-wide automation platform and operating model, we face a critical architectural challenge: too many services and too much fragmentation.\n\nWe are looking for a Tech Lead who will serve as the overall systems architect for Bizplat — someone who can see across our sprawling service landscape, identify redundancy and fragmentation, and drive consolidation onto well-architected central systems. You will be the technical decision-maker responsible for turning down the…",
       "postedAt": "2026-07-20T19:10:26-04:00",
       "compHint": "$263,600–$395,400, $263,600–$395,400, $263,600–$395,400, $263,600–$395,400",
@@ -960,33 +984,6 @@
         "fit": 89,
         "verdict": "strong",
         "rationale": "Staff Software Engineer, Developer Experience — Moveworks at ServiceNow scores 89/100 (strong) on the Tier-1 deterministic pass. Matched: Backend / distributed / event-driven — Ryan's core strength; Senior / staff / lead level; Platform / reliability / observability — Ryan's secondary strength; AI-native engineering (a SWE who drives AI adoption); Large, reputable, remote-friendly engineering org with a strong Java / distributed-systems bar. Concerns: comp unstated; remote unstated.",
-        "matched": [
-          "Backend / distributed / event-driven — Ryan's core strength",
-          "Senior / staff / lead level",
-          "Platform / reliability / observability — Ryan's secondary strength",
-          "AI-native engineering (a SWE who drives AI adoption)",
-          "Large, reputable, remote-friendly engineering org with a strong Java / distributed-systems bar"
-        ],
-        "concerns": [
-          "comp unstated",
-          "remote unstated"
-        ]
-      }
-    },
-    {
-      "id": "6493e0d0",
-      "source": "smartrecruiters",
-      "company": "ServiceNow",
-      "title": "Senior Software Engineer, Developer Experience — Moveworks",
-      "location": "Mountain View, CALIFORNIA, United States",
-      "remote": "unknown",
-      "url": "https://jobs.smartrecruiters.com/ServiceNow/744000138209659-senior-software-engineer-developer-experience-moveworks?oga=true",
-      "descriptionText": "The Developer Experience team sits within Moveworks' Platform org, but operates with a vertical mandate: we build products and platforms that serve developers — specifically the developers at Moveworks customer environments who are building on top of the Moveworks Agentic AI platform.\nOur north star is supply. Every developer we enable, every integration they ship faster, every higher-quality skill or workflow they publish — that compounds into more value for the employees who rely on the assistant every day. More builders → more things built → better assistant → more demand. We own that flywheel.\nWe build platforms first, and products on top. As an SE on this team, you'll work across the full stack — from backend services to polished web UIs — and you'll feel the impact of your work directly in the hands of developers using the platform.\nAs a Software Engineer on the Developer Experience team, you are a product builder. You own features end-to-end — from the first design sketch to a shipped, production-quality experience. You move fast, think about the developer using your product, and don't wait for someone else to tell you what good looks like.\nYou're comfortable working across the stack, have an instinct for what makes a great developer experience, and care about the details — visual polish, interaction quality, API ergonomics — as much as you care about correctness and scale. You bring energy and speed to the team without cutting corners on quality.\nWhat You'll Do\nBuild…",
-      "postedAt": "2026-07-17T00:12:41.567Z",
-      "score": {
-        "fit": 89,
-        "verdict": "strong",
-        "rationale": "Senior Software Engineer, Developer Experience — Moveworks at ServiceNow scores 89/100 (strong) on the Tier-1 deterministic pass. Matched: Backend / distributed / event-driven — Ryan's core strength; Senior / staff / lead level; Platform / reliability / observability — Ryan's secondary strength; AI-native engineering (a SWE who drives AI adoption); Large, reputable, remote-friendly engineering org with a strong Java / distributed-systems bar. Concerns: comp unstated; remote unstated.",
         "matched": [
           "Backend / distributed / event-driven — Ryan's core strength",
           "Senior / staff / lead level",
@@ -1160,6 +1157,33 @@
       }
     },
     {
+      "id": "6f89000b",
+      "source": "smartrecruiters",
+      "company": "ServiceNow",
+      "title": "Staff Software Engineer, Conversational and Agentic AI Platform Services",
+      "location": "Santa Clara, California, United States",
+      "remote": "unknown",
+      "url": "https://jobs.smartrecruiters.com/ServiceNow/744000134338969-staff-software-engineer-conversational-and-agentic-ai-platform-services?oga=true",
+      "descriptionText": "ServiceNow is looking for a strong software engineer and technical lead with deep software design and architecture skills, strong coding ability, and the technical judgment to build reliable production systems at enterprise scale.\nServiceNow's core platform is built on a powerful and highly scaled Java service that supports some of the world's largest enterprise workflows. In this team, we are extending that platform with modern Python and Java microservices that complement the main platform architecture and enable new AI-native capabilities. These services are designed to run in Kubernetes-based environments while integrating deeply with the broader ServiceNow platform.\nWe are focused on production-grade services that bring together enterprise data, AI model integrations, scalable APIs, evaluation workflows, and reliable deployment patterns. You will own the design, development, and operation of containerized backend services running in Kubernetes environments. You will apply strong distributed systems and production reliability judgment to build scalable, maintainable services, and you will lead technical design across ambiguous, high-impact problem spaces.\nExperience working on AI, GenAI, ML-powered, or data-intensive products will help you be especially successful in this role.\nResponsibilities\nDesigning, architecting, and implementing Java and Python microservices deployed on Kubernetes\nDesigning APIs, service boundaries, data models, and integration patterns for…",
+      "postedAt": "2026-06-25T20:21:29.608Z",
+      "score": {
+        "fit": 89,
+        "verdict": "strong",
+        "rationale": "Staff Software Engineer, Conversational and Agentic AI Platform Services at ServiceNow scores 89/100 (strong) on the Tier-1 deterministic pass. Matched: Backend / distributed / event-driven — Ryan's core strength; Senior / staff / lead level; Platform / reliability / observability — Ryan's secondary strength; AI-native engineering (a SWE who drives AI adoption); Large, reputable, remote-friendly engineering org with a strong Java / distributed-systems bar. Concerns: comp unstated; remote unstated.",
+        "matched": [
+          "Backend / distributed / event-driven — Ryan's core strength",
+          "Senior / staff / lead level",
+          "Platform / reliability / observability — Ryan's secondary strength",
+          "AI-native engineering (a SWE who drives AI adoption)",
+          "Large, reputable, remote-friendly engineering org with a strong Java / distributed-systems bar"
+        ],
+        "concerns": [
+          "comp unstated",
+          "remote unstated"
+        ]
+      }
+    },
+    {
       "id": "377b09c3",
       "source": "greenhouse",
       "company": "Affirm",
@@ -1315,32 +1339,6 @@
           "remote unstated"
         ]
       }
-    },
-    {
-      "id": "3fe5ed8a",
-      "source": "ashby",
-      "company": "Linear",
-      "title": "Senior / Staff Product Engineer",
-      "location": "North America",
-      "remote": true,
-      "url": "https://jobs.ashbyhq.com/linear/12f8f208-0b9c-4569-bb3d-41c8a197029e",
-      "descriptionText": "At Linear, we're building the product development system for teams and agents. AI is fundamentally changing how software gets built, and we’re shaping the tools this new era requires.\n\nFounded in 2019, Linear has become the platform of choice for more than 30,000 companies (including OpenAI, Coinbase, and Ramp) to plan, build, and ship their products. Today, our team is distributed across North America, Europe, and Australia, and we’re continuing to grow internationally. What unites us is relentless focus, fast execution, and a deep care for software craftsmanship.\n\nAs a small team, we’re all generalists that work across the full stack (built in Typescript end-to-end). We’re looking for experienced engineers that thrive in an environment of autonomy and individual responsibility to help us build the future of product development.\n\nLocation & work mode\n\nLinear is a remote-first company, with optional co-working offices in San Francisco, New York, and London. This role is open to candidates based in the US and Europe. You can work from anywhere within these regions. We value deep focus and async collaboration, with intentional moments to connect in person through team off-sites, optional co-working, and occasional travel.\n\nWhat you'll do\n\n- Work closely with founders and design to implement new concepts and ideas\n\n- Build AI-powered functionality into the core of Linear\n\n- Update our realtime collaborative content editor used across all internal surfaces\n\n- Build new…",
-      "postedAt": "2026-03-04T02:08:44.483+00:00",
-      "score": {
-        "fit": 87,
-        "verdict": "strong",
-        "rationale": "Senior / Staff Product Engineer at Linear scores 87/100 (strong) on the Tier-1 deterministic pass. Matched: Backend / distributed / event-driven — Ryan's core strength; Senior / staff / lead level; Platform / reliability / observability — Ryan's secondary strength; AI-native engineering (a SWE who drives AI adoption); Product engineering. Concerns: comp unstated.",
-        "matched": [
-          "Backend / distributed / event-driven — Ryan's core strength",
-          "Senior / staff / lead level",
-          "Platform / reliability / observability — Ryan's secondary strength",
-          "AI-native engineering (a SWE who drives AI adoption)",
-          "Product engineering"
-        ],
-        "concerns": [
-          "comp unstated"
-        ]
-      }
     }
   ],
   "droppedSample": [
@@ -1369,6 +1367,13 @@
       "company": "Airbnb",
       "title": "Associate Legal Counsel, Japan",
       "url": "https://careers.airbnb.com/positions/7789554?gh_jid=7789554",
+      "reason": "excluded-title",
+      "detail": "title matches: associate"
+    },
+    {
+      "company": "Airbnb",
+      "title": "Associate Principal, Strategic Finance & Analytics",
+      "url": "https://careers.airbnb.com/positions/8072136?gh_jid=8072136",
       "reason": "excluded-title",
       "detail": "title matches: associate"
     },
@@ -1418,13 +1423,6 @@
       "company": "Airbnb",
       "title": "Engineering Manager, Cloud & Data Security",
       "url": "https://careers.airbnb.com/positions/8074765?gh_jid=8074765",
-      "reason": "excluded-title",
-      "detail": "title matches: manager"
-    },
-    {
-      "company": "Airbnb",
-      "title": "Engineering Manager, Community Support Engineering",
-      "url": "https://careers.airbnb.com/positions/7760914?gh_jid=7760914",
       "reason": "excluded-title",
       "detail": "title matches: manager"
     }
