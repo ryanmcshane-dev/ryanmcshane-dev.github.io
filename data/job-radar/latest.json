@@ -1,22 +1,22 @@
 {
-  "generatedAt": "2026-08-01T14:44:25.094Z",
+  "generatedAt": "2026-08-02T14:46:39.381Z",
   "tier": "tier-1",
   "counts": {
-    "fetched": 1920,
-    "kept": 532,
-    "dropped": 1388,
+    "fetched": 1962,
+    "kept": 554,
+    "dropped": 1408,
     "byVerdict": {
-      "strong": 104,
-      "possible": 207,
-      "weak": 175,
+      "strong": 106,
+      "possible": 213,
+      "weak": 189,
       "skip": 46
     },
     "droppedByReason": {
-      "excluded-title": 731,
-      "off-role-family": 457,
+      "excluded-title": 742,
+      "off-role-family": 453,
       "on-site-only": 15,
-      "non-us-location": 179,
-      "below-comp-floor": 6
+      "non-us-location": 177,
+      "below-comp-floor": 21
     }
   },
   "errors": [],
@@ -134,13 +134,13 @@
       }
     },
     {
-      "id": "d41f5c29",
+      "id": "79209ae1",
       "source": "greenhouse",
       "company": "Block",
       "title": "Senior Software Engineer, Square Financial Services",
-      "location": "Bay Area, CA, United States of America",
+      "location": "New York, NY, United States of America",
       "remote": true,
-      "url": "http://block.xyz/careers/jobs/5284343008?gh_jid=5284343008",
+      "url": "http://block.xyz/careers/jobs/5284783008?gh_jid=5284783008",
       "descriptionText": "Block is one company built from many blocks, all united by the same purpose of economic empowerment. The blocks that form our foundational teams — People, Finance, Counsel, Hardware, Information Security, Platform Infrastructure Engineering, and more — provide support and guidance at the corporate level. They work across business groups and around the globe, spanning time zones and disciplines to develop inclusive People policies, forecast finances, give legal counsel, safeguard systems, nurture new initiatives, and more. Every challenge creates possibilities, and we need different…",
       "postedAt": "2026-08-01T04:26:16-04:00",
       "compHint": "$217,800–$326,800, $207,000–$310,400, $196,100–$294,100, $185,200–$277,800",
@@ -428,6 +428,33 @@
       }
     },
     {
+      "id": "773cbb9a",
+      "source": "workday",
+      "company": "Workday",
+      "title": "Senior or Principal Software Development Engineer (Full Stack) - Agent Factory",
+      "location": "USA, WA, Seattle — United States of America",
+      "remote": "unknown",
+      "url": "https://workday.wd5.myworkdayjobs.com/Workday/job/USA-WA-Seattle/Principal-Software-Development-Engineer---Senior-Software-Development-Engineer---Full-Stack_JR-0106537",
+      "descriptionText": "Your work days are brighter here.\n\nWe’re obsessed with making hard work pay off, for our people, our customers, and the world around us. As a Fortune 500 company and a leading AI platform for managing people, money, and agents, we’re shaping the future of work so teams can reach their potential and focus on what matters most. The minute you join, you’ll feel it. Not just in the products we build, but in how we show up for each other. Our culture is rooted in integrity, empathy, and shared enthusiasm. We’re in this together, tackling big challenges with bold ideas and genuine care. We look for…",
+      "postedAt": "2026-06-08",
+      "score": {
+        "fit": 92,
+        "verdict": "strong",
+        "rationale": "Senior or Principal Software Development Engineer (Full Stack) - Agent Factory at Workday scores 92/100 (strong) on the Tier-1 deterministic pass. Matched: Backend / distributed / event-driven — Ryan's core strength; Senior / staff / lead level; Platform / reliability / observability — Ryan's secondary strength; AI-native engineering (a SWE who drives AI adoption); HCM / group-benefits domain overlap — Ryan's EOI / Absence Management experience translates directly. Concerns: comp unstated; remote unstated.",
+        "matched": [
+          "Backend / distributed / event-driven — Ryan's core strength",
+          "Senior / staff / lead level",
+          "Platform / reliability / observability — Ryan's secondary strength",
+          "AI-native engineering (a SWE who drives AI adoption)",
+          "HCM / group-benefits domain overlap — Ryan's EOI / Absence Management experience translates directly"
+        ],
+        "concerns": [
+          "comp unstated",
+          "remote unstated"
+        ]
+      }
+    },
+    {
       "id": "d8ae0828",
       "source": "workday",
       "company": "Workday",
@@ -558,13 +585,38 @@
       }
     },
     {
-      "id": "5cbda8a1",
+      "id": "86a8f92d",
+      "source": "greenhouse",
+      "company": "Block",
+      "title": "Staff Software Engineer, Cash App Banking",
+      "location": "Bay Area, CA, United States of America",
+      "remote": true,
+      "url": "http://block.xyz/careers/jobs/5196194008?gh_jid=5196194008",
+      "descriptionText": "It all started with an idea at Block in 2013. Initially built to take the pain out of peer-to-peer payments, Cash App has gone from a simple product with a single purpose to a dynamic ecosystem, developing unique financial products, including Afterpay/Clearpay, to provide a better way to send, spend, invest, borrow and save to our 50+ million monthly active customers. We want to redefine the world's relationship with money to make it more relatable, instantly available, and universally accessible.\n\nToday, Cash App has thousands of employees working globally across office and remote locations,…",
+      "postedAt": "2026-08-01T04:18:48-04:00",
+      "compHint": "$263,600–$395,400, $263,600–$395,400, $263,600–$395,400, $263,600–$395,400",
+      "score": {
+        "fit": 89,
+        "verdict": "strong",
+        "rationale": "Staff Software Engineer, Cash App Banking at Block scores 89/100 (strong) on the Tier-1 deterministic pass. Matched: Backend / distributed / event-driven — Ryan's core strength; Senior / staff / lead level; Platform / reliability / observability — Ryan's secondary strength; AI-native engineering (a SWE who drives AI adoption); Large, reputable, remote-friendly engineering org with a strong Java / distributed-systems bar.",
+        "matched": [
+          "Backend / distributed / event-driven — Ryan's core strength",
+          "Senior / staff / lead level",
+          "Platform / reliability / observability — Ryan's secondary strength",
+          "AI-native engineering (a SWE who drives AI adoption)",
+          "Large, reputable, remote-friendly engineering org with a strong Java / distributed-systems bar"
+        ],
+        "concerns": []
+      }
+    },
+    {
+      "id": "ac17e175",
       "source": "greenhouse",
       "company": "Block",
       "title": "Tech Lead, Business Platform Engineering (Bizplat)",
-      "location": "New York, NY, United States of America",
+      "location": "Bay Area, CA, United States of America",
       "remote": true,
-      "url": "http://block.xyz/careers/jobs/5311661008?gh_jid=5311661008",
+      "url": "http://block.xyz/careers/jobs/5025564008?gh_jid=5025564008",
       "descriptionText": "Block is one company built from many blocks, all united by the same purpose of economic empowerment. The blocks that form our foundational teams — People, Finance, Counsel, Hardware, Information Security, Platform Infrastructure Engineering, and more — provide support and guidance at the corporate level. They work across business groups and around the globe, spanning time zones and disciplines to develop inclusive People policies, forecast finances, give legal counsel, safeguard systems, nurture new initiatives, and more. Every challenge creates possibilities, and we need different…",
       "postedAt": "2026-08-01T04:13:10-04:00",
       "compHint": "$263,600–$395,400, $263,600–$395,400, $263,600–$395,400, $263,600–$395,400",
@@ -684,32 +736,6 @@
         "concerns": [
           "comp unstated",
           "location \"Remote - Estonia\" — confirm US eligibility"
-        ]
-      }
-    },
-    {
-      "id": "39b58e5c",
-      "source": "greenhouse",
-      "company": "Affirm",
-      "title": "Senior Software Engineer, Full Stack (Zero to One Labs)",
-      "location": "Remote US",
-      "remote": true,
-      "url": "https://job-boards.greenhouse.io/affirm/jobs/7686804003",
-      "descriptionText": "Affirm is reinventing credit to make it more honest and friendly, giving consumers the flexibility to buy now and pay later without any hidden fees or compounding interest.\n\nZero To One (ZT1) is Affirm’s 0 -> 1 innovation lab, focused on turning bold ideas into validated new businesses. Operating outside the standard Product and Engineering structure, ZT1 is built for speed, autonomy, and decisive execution. We run fast, hypothesis-driven experiments with a clear goal: prototype quickly, generate real signals, and drive explicit “kill or scale” decisions on high-impact opportunities, with AI…",
-      "postedAt": "2026-07-29T13:32:53-04:00",
-      "score": {
-        "fit": 89,
-        "verdict": "strong",
-        "rationale": "Senior Software Engineer, Full Stack (Zero to One Labs) at Affirm scores 89/100 (strong) on the Tier-1 deterministic pass. Matched: Backend / distributed / event-driven — Ryan's core strength; Senior / staff / lead level; Platform / reliability / observability — Ryan's secondary strength; AI-native engineering (a SWE who drives AI adoption); Large, reputable, remote-friendly engineering org with a strong Java / distributed-systems bar. Concerns: comp unstated.",
-        "matched": [
-          "Backend / distributed / event-driven — Ryan's core strength",
-          "Senior / staff / lead level",
-          "Platform / reliability / observability — Ryan's secondary strength",
-          "AI-native engineering (a SWE who drives AI adoption)",
-          "Large, reputable, remote-friendly engineering org with a strong Java / distributed-systems bar"
-        ],
-        "concerns": [
-          "comp unstated"
         ]
       }
     },
@@ -1306,32 +1332,6 @@
         "fit": 87,
         "verdict": "strong",
         "rationale": "Senior / Staff Product Engineer at Linear scores 87/100 (strong) on the Tier-1 deterministic pass. Matched: Backend / distributed / event-driven — Ryan's core strength; Senior / staff / lead level; Platform / reliability / observability — Ryan's secondary strength; AI-native engineering (a SWE who drives AI adoption); Product engineering. Concerns: comp unstated.",
-        "matched": [
-          "Backend / distributed / event-driven — Ryan's core strength",
-          "Senior / staff / lead level",
-          "Platform / reliability / observability — Ryan's secondary strength",
-          "AI-native engineering (a SWE who drives AI adoption)",
-          "Product engineering"
-        ],
-        "concerns": [
-          "comp unstated"
-        ]
-      }
-    },
-    {
-      "id": "094e6dac",
-      "source": "ashby",
-      "company": "Linear",
-      "title": "Senior / Staff Product Engineer, AI",
-      "location": "North America",
-      "remote": true,
-      "url": "https://jobs.ashbyhq.com/linear/b4a7764e-c680-4bdf-9956-dc78f2ca94d5",
-      "descriptionText": "At Linear, we're building the product development system for teams and agents. AI is fundamentally changing how software gets built, and we’re shaping the tools this new era requires.\n\nFounded in 2019, Linear has become the platform of choice for more than 30,000 companies (including OpenAI, Coinbase, and Ramp) to plan, build, and ship their products. Today, our team is distributed across North America, Europe, and Australia, and we’re continuing to grow internationally. What unites us is relentless focus, fast execution, and a deep care for software craftsmanship.\n\nWe’re looking for…",
-      "postedAt": "2025-07-10T19:17:43.653+00:00",
-      "score": {
-        "fit": 87,
-        "verdict": "strong",
-        "rationale": "Senior / Staff Product Engineer, AI at Linear scores 87/100 (strong) on the Tier-1 deterministic pass. Matched: Backend / distributed / event-driven — Ryan's core strength; Senior / staff / lead level; Platform / reliability / observability — Ryan's secondary strength; AI-native engineering (a SWE who drives AI adoption); Product engineering. Concerns: comp unstated.",
         "matched": [
           "Backend / distributed / event-driven — Ryan's core strength",
           "Senior / staff / lead level",
