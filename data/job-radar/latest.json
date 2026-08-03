@@ -1,25 +1,31 @@
 {
-  "generatedAt": "2026-08-02T14:46:39.381Z",
+  "generatedAt": "2026-08-03T16:01:22.476Z",
   "tier": "tier-1",
   "counts": {
-    "fetched": 1962,
-    "kept": 554,
-    "dropped": 1408,
+    "fetched": 1879,
+    "kept": 513,
+    "dropped": 1366,
     "byVerdict": {
-      "strong": 106,
-      "possible": 213,
-      "weak": 189,
-      "skip": 46
+      "strong": 103,
+      "possible": 204,
+      "weak": 163,
+      "skip": 43
     },
     "droppedByReason": {
-      "excluded-title": 742,
-      "off-role-family": 453,
+      "excluded-title": 726,
+      "off-role-family": 443,
       "on-site-only": 15,
-      "non-us-location": 177,
-      "below-comp-floor": 21
+      "non-us-location": 171,
+      "below-comp-floor": 11
     }
   },
-  "errors": [],
+  "errors": [
+    {
+      "company": "Adzuna",
+      "ats": "adzuna",
+      "message": "Adzuna \"backend engineer\" → HTTP 503"
+    }
+  ],
   "items": [
     {
       "id": "88d12422",
@@ -148,6 +154,32 @@
         "fit": 92,
         "verdict": "strong",
         "rationale": "Senior Software Engineer, Square Financial Services at Block scores 92/100 (strong) on the Tier-1 deterministic pass. Matched: Backend / distributed / event-driven — Ryan's core strength; Senior / staff / lead level; Platform / reliability / observability — Ryan's secondary strength; AI-native engineering (a SWE who drives AI adoption); Strong engineering culture; Large, reputable, remote-friendly engineering org with a strong Java / distributed-systems bar.",
+        "matched": [
+          "Backend / distributed / event-driven — Ryan's core strength",
+          "Senior / staff / lead level",
+          "Platform / reliability / observability — Ryan's secondary strength",
+          "AI-native engineering (a SWE who drives AI adoption)",
+          "Strong engineering culture",
+          "Large, reputable, remote-friendly engineering org with a strong Java / distributed-systems bar"
+        ],
+        "concerns": []
+      }
+    },
+    {
+      "id": "98303f35",
+      "source": "greenhouse",
+      "company": "Block",
+      "title": "Software Engineer, Cash App - Lending Products",
+      "location": "New York, NY, United States of America",
+      "remote": true,
+      "url": "http://block.xyz/careers/jobs/5201726008?gh_jid=5201726008",
+      "descriptionText": "It all started with an idea at Block in 2013. Initially built to take the pain out of peer-to-peer payments, Cash App has gone from a simple product with a single purpose to a dynamic ecosystem, developing unique financial products, including Afterpay/Clearpay, to provide a better way to send, spend, invest, borrow and save to our 50+ million monthly active customers. We want to redefine the world's relationship with money to make it more relatable, instantly available, and universally accessible.\n\nToday, Cash App has thousands of employees working globally across office and remote locations,…",
+      "postedAt": "2026-08-01T04:19:13-04:00",
+      "compHint": "$180,000–$270,000, $171,000–$256,600, $162,000–$243,000, $153,000–$229,600",
+      "score": {
+        "fit": 92,
+        "verdict": "strong",
+        "rationale": "Software Engineer, Cash App - Lending Products at Block scores 92/100 (strong) on the Tier-1 deterministic pass. Matched: Backend / distributed / event-driven — Ryan's core strength; Senior / staff / lead level; Platform / reliability / observability — Ryan's secondary strength; AI-native engineering (a SWE who drives AI adoption); Strong engineering culture; Large, reputable, remote-friendly engineering org with a strong Java / distributed-systems bar.",
         "matched": [
           "Backend / distributed / event-driven — Ryan's core strength",
           "Senior / staff / lead level",
@@ -585,31 +617,6 @@
       }
     },
     {
-      "id": "86a8f92d",
-      "source": "greenhouse",
-      "company": "Block",
-      "title": "Staff Software Engineer, Cash App Banking",
-      "location": "Bay Area, CA, United States of America",
-      "remote": true,
-      "url": "http://block.xyz/careers/jobs/5196194008?gh_jid=5196194008",
-      "descriptionText": "It all started with an idea at Block in 2013. Initially built to take the pain out of peer-to-peer payments, Cash App has gone from a simple product with a single purpose to a dynamic ecosystem, developing unique financial products, including Afterpay/Clearpay, to provide a better way to send, spend, invest, borrow and save to our 50+ million monthly active customers. We want to redefine the world's relationship with money to make it more relatable, instantly available, and universally accessible.\n\nToday, Cash App has thousands of employees working globally across office and remote locations,…",
-      "postedAt": "2026-08-01T04:18:48-04:00",
-      "compHint": "$263,600–$395,400, $263,600–$395,400, $263,600–$395,400, $263,600–$395,400",
-      "score": {
-        "fit": 89,
-        "verdict": "strong",
-        "rationale": "Staff Software Engineer, Cash App Banking at Block scores 89/100 (strong) on the Tier-1 deterministic pass. Matched: Backend / distributed / event-driven — Ryan's core strength; Senior / staff / lead level; Platform / reliability / observability — Ryan's secondary strength; AI-native engineering (a SWE who drives AI adoption); Large, reputable, remote-friendly engineering org with a strong Java / distributed-systems bar.",
-        "matched": [
-          "Backend / distributed / event-driven — Ryan's core strength",
-          "Senior / staff / lead level",
-          "Platform / reliability / observability — Ryan's secondary strength",
-          "AI-native engineering (a SWE who drives AI adoption)",
-          "Large, reputable, remote-friendly engineering org with a strong Java / distributed-systems bar"
-        ],
-        "concerns": []
-      }
-    },
-    {
       "id": "ac17e175",
       "source": "greenhouse",
       "company": "Block",
@@ -736,6 +743,32 @@
         "concerns": [
           "comp unstated",
           "location \"Remote - Estonia\" — confirm US eligibility"
+        ]
+      }
+    },
+    {
+      "id": "39b58e5c",
+      "source": "greenhouse",
+      "company": "Affirm",
+      "title": "Senior Software Engineer, Full Stack (Zero to One Labs)",
+      "location": "Remote US",
+      "remote": true,
+      "url": "https://job-boards.greenhouse.io/affirm/jobs/7686804003",
+      "descriptionText": "Affirm is reinventing credit to make it more honest and friendly, giving consumers the flexibility to buy now and pay later without any hidden fees or compounding interest.\n\nZero To One (ZT1) is Affirm’s 0 -> 1 innovation lab, focused on turning bold ideas into validated new businesses. Operating outside the standard Product and Engineering structure, ZT1 is built for speed, autonomy, and decisive execution. We run fast, hypothesis-driven experiments with a clear goal: prototype quickly, generate real signals, and drive explicit “kill or scale” decisions on high-impact opportunities, with AI…",
+      "postedAt": "2026-07-29T13:32:53-04:00",
+      "score": {
+        "fit": 89,
+        "verdict": "strong",
+        "rationale": "Senior Software Engineer, Full Stack (Zero to One Labs) at Affirm scores 89/100 (strong) on the Tier-1 deterministic pass. Matched: Backend / distributed / event-driven — Ryan's core strength; Senior / staff / lead level; Platform / reliability / observability — Ryan's secondary strength; AI-native engineering (a SWE who drives AI adoption); Large, reputable, remote-friendly engineering org with a strong Java / distributed-systems bar. Concerns: comp unstated.",
+        "matched": [
+          "Backend / distributed / event-driven — Ryan's core strength",
+          "Senior / staff / lead level",
+          "Platform / reliability / observability — Ryan's secondary strength",
+          "AI-native engineering (a SWE who drives AI adoption)",
+          "Large, reputable, remote-friendly engineering org with a strong Java / distributed-systems bar"
+        ],
+        "concerns": [
+          "comp unstated"
         ]
       }
     },
@@ -1315,32 +1348,6 @@
         ],
         "concerns": [
           "remote unstated"
-        ]
-      }
-    },
-    {
-      "id": "3fe5ed8a",
-      "source": "ashby",
-      "company": "Linear",
-      "title": "Senior / Staff Product Engineer",
-      "location": "North America",
-      "remote": true,
-      "url": "https://jobs.ashbyhq.com/linear/12f8f208-0b9c-4569-bb3d-41c8a197029e",
-      "descriptionText": "At Linear, we're building the product development system for teams and agents. AI is fundamentally changing how software gets built, and we’re shaping the tools this new era requires.\n\nFounded in 2019, Linear has become the platform of choice for more than 30,000 companies (including OpenAI, Coinbase, and Ramp) to plan, build, and ship their products. Today, our team is distributed across North America, Europe, and Australia, and we’re continuing to grow internationally. What unites us is relentless focus, fast execution, and a deep care for software craftsmanship.\n\nAs a small team, we’re all…",
-      "postedAt": "2026-03-04T02:08:44.483+00:00",
-      "score": {
-        "fit": 87,
-        "verdict": "strong",
-        "rationale": "Senior / Staff Product Engineer at Linear scores 87/100 (strong) on the Tier-1 deterministic pass. Matched: Backend / distributed / event-driven — Ryan's core strength; Senior / staff / lead level; Platform / reliability / observability — Ryan's secondary strength; AI-native engineering (a SWE who drives AI adoption); Product engineering. Concerns: comp unstated.",
-        "matched": [
-          "Backend / distributed / event-driven — Ryan's core strength",
-          "Senior / staff / lead level",
-          "Platform / reliability / observability — Ryan's secondary strength",
-          "AI-native engineering (a SWE who drives AI adoption)",
-          "Product engineering"
-        ],
-        "concerns": [
-          "comp unstated"
         ]
       }
     }
