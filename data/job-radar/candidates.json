@@ -1,22 +1,22 @@
 {
-  "generatedAt": "2026-08-12T14:35:34.285Z",
+  "generatedAt": "2026-08-13T14:36:22.605Z",
   "tier": "tier-1",
   "counts": {
-    "fetched": 1913,
-    "kept": 521,
-    "dropped": 1392,
+    "fetched": 1899,
+    "kept": 528,
+    "dropped": 1371,
     "byVerdict": {
-      "strong": 105,
-      "possible": 186,
-      "weak": 183,
-      "skip": 47
+      "strong": 101,
+      "possible": 200,
+      "weak": 177,
+      "skip": 50
     },
     "droppedByReason": {
-      "excluded-title": 762,
-      "off-role-family": 448,
-      "on-site-only": 16,
-      "non-us-location": 161,
-      "below-comp-floor": 5
+      "excluded-title": 748,
+      "off-role-family": 442,
+      "on-site-only": 15,
+      "non-us-location": 158,
+      "below-comp-floor": 8
     }
   },
   "errors": [],
@@ -69,6 +69,33 @@
           "Platform / reliability / observability — Ryan's secondary strength",
           "AI-native engineering (a SWE who drives AI adoption)",
           "Strong engineering culture",
+          "HCM / group-benefits domain overlap — Ryan's EOI / Absence Management experience translates directly"
+        ],
+        "concerns": [
+          "comp unstated",
+          "remote unstated"
+        ]
+      }
+    },
+    {
+      "id": "c38bec25",
+      "source": "workday",
+      "company": "Workday",
+      "title": "Software Development Engineer III / Sr. Software Development Engineer - AI Platform",
+      "location": "USA, CO, Boulder — United States of America",
+      "remote": "unknown",
+      "url": "https://workday.wd5.myworkdayjobs.com/Workday/job/USA-CO-Boulder/Software-Development-Engineer-III---Sr-Software-Development-Engineer---AI-Platform_JR-0107962-1",
+      "descriptionText": "Your work days are brighter here.\n\nWe’re obsessed with making hard work pay off, for our people, our customers, and the world around us. As a Fortune 500 company and a leading AI platform for managing people, money, and agents, we’re shaping the future of work so teams can reach their potential and focus on what matters most. The minute you join, you’ll feel it. Not just in the products we build, but in how we show up for each other. Our culture is rooted in integrity, empathy, and shared enthusiasm. We’re in this together, tackling big challenges with bold ideas and genuine care. We look for curious minds and courageous collaborators who bring sun-drenched optimism and drive. Whether you're building smarter solutions, supporting customers, or creating a space where everyone belongs, you’ll do meaningful work with Workmates who’ve got your back. In return, we’ll give you the trust to take risks, the tools to grow, the skills to develop and the support of a company invested in you for the long haul. So, if you want to inspire a brighter work day for everyone, including yourself, you’ve found a match in Workday, and we hope to be a match for you too.\n\nAbout the Team\nThe Agent Runtime team builds Workday’s secure execution platform for enterprise AI agents. We are creating the runtime substrate that enforces policy by architecture, not by prompt, with deterministic controls for data access, tool use, model routing, and auditability.\n\nOur charter spans runtime isolation, policy…",
+      "postedAt": "2026-08-12",
+      "score": {
+        "fit": 92,
+        "verdict": "strong",
+        "rationale": "Software Development Engineer III / Sr. Software Development Engineer - AI Platform at Workday scores 92/100 (strong) on the Tier-1 deterministic pass. Matched: Backend / distributed / event-driven — Ryan's core strength; Senior / staff / lead level; Platform / reliability / observability — Ryan's secondary strength; AI-native engineering (a SWE who drives AI adoption); HCM / group-benefits domain overlap — Ryan's EOI / Absence Management experience translates directly. Concerns: comp unstated; remote unstated.",
+        "matched": [
+          "Backend / distributed / event-driven — Ryan's core strength",
+          "Senior / staff / lead level",
+          "Platform / reliability / observability — Ryan's secondary strength",
+          "AI-native engineering (a SWE who drives AI adoption)",
           "HCM / group-benefits domain overlap — Ryan's EOI / Absence Management experience translates directly"
         ],
         "concerns": [
@@ -160,13 +187,13 @@
       }
     },
     {
-      "id": "e6f2f8a6",
+      "id": "81d26445",
       "source": "greenhouse",
       "company": "Twilio",
       "title": "Software Engineer (L4)",
       "location": "Remote - US",
       "remote": true,
-      "url": "https://job-boards.greenhouse.io/twilio/jobs/8103253",
+      "url": "https://job-boards.greenhouse.io/twilio/jobs/8098945",
       "descriptionText": "Who we are\n\nAt Twilio, we’re shaping the future of communications, all from the comfort of our homes. We deliver innovative solutions to hundreds of thousands of businesses and empower millions of developers worldwide to craft personalized customer experiences.\n\nOur dedication to remote-first work , and strong culture of connection and global inclusion means that no matter your location, you’re part of a vibrant team with diverse experiences making a global impact each day. As we continue to revolutionize how the world interacts, we’re acquiring new skills and experiences that make work feel truly rewarding. Your career at Twilio is in your hands.\n.\n\nHiring and how we work\n\nWe use Artificial Intelligence (AI) to help make our hiring process efficient. That said, every hiring decision is made by real Twilions!\n\nAlso, while we are a remote-first company, you may be asked to report in person on an ad-hoc basis for team gatherings, functional off-sites or customer meetings.\n.\n\nSee yourself at Twilio\n\nJoin the team as Twilio’s next Voice and Video Android SDK Staff Engineer.\n\nAbout the job\n\nThis position is needed to build and deliver Voice and Video functionalities to our customers through the Android SDKs. Programmable Voice and Video are few of Twilio’s foundational channels that empower our customers and internal product team to build delightful solutions. The features you deliver will be used by thousands of customers at scale, often as their business’ lifeline. Use cases…",
       "postedAt": "2026-08-04T17:50:46-04:00",
       "score": {
@@ -214,14 +241,14 @@
       }
     },
     {
-      "id": "d41f5c29",
+      "id": "79209ae1",
       "source": "greenhouse",
       "company": "Block",
       "title": "Senior Software Engineer, Square Financial Services",
-      "location": "Bay Area, CA, United States of America",
+      "location": "New York, NY, United States of America",
       "remote": true,
-      "url": "http://block.xyz/careers/jobs/5284343008?gh_jid=5284343008",
-      "descriptionText": "Block is one company built from many blocks, all united by the same purpose of economic empowerment. The blocks that form our foundational teams — People, Finance, Counsel, Hardware, Information Security, Platform Infrastructure Engineering, and more — provide support and guidance at the corporate level. They work across business groups and around the globe, spanning time zones and disciplines to develop inclusive People policies, forecast finances, give legal counsel, safeguard systems, nurture new initiatives, and more. Every challenge creates possibilities, and we need different perspectives to see them all. Bring yours to Block.\n\nThe Role\n\nSquare Financial Services, Inc (\"SFS\") is Block's bank. The SFS Bank Platform team makes it easy to safely manage, move, reconcile, and understand all of the funds at SFS and with integrated Block products. We build the core system-of-record ledger for the bank, gateways to bank payment networks, and automations for the finance, treasury, and accounting teams. We're building a foundation to support more of Block's products. Come help us build a better bank!\n\nAs a Senior Software Engineer on the SFS Bank Platform team, you will lead the technical design, execution, and delivery of new banking primitives through close collaboration across teams and disciplines. In addition, you'll drive architectural decisions and infrastructure improvements to make our systems more robust and scalable. The things that you build will create significant…",
+      "url": "http://block.xyz/careers/jobs/5284783008?gh_jid=5284783008",
+      "descriptionText": "Block is one company built from many blocks, all united by the same purpose of economic empowerment. The blocks that form our foundational teams — People, Finance, Counsel, Hardware, Information Security, Platform Infrastructure Engineering, and more — provide support and guidance at the corporate level. They work across business groups and around the globe, spanning time zones and disciplines to develop inclusive People policies, forecast finances, give legal counsel, safeguard systems, nurture new initiatives, and more. Every challenge creates possibilities, and we need different perspectives to see them all. Bring yours to Block.\n\nThe Role\n\nSquare Financial Services, Inc (\"SFS\") is Block's bank. The SFS Bank Platform team makes it easy to safely manage, move, reconcile, and understand all of the funds at SFS and with integrated Block products. We build the core system-of-record ledger for the bank, gateways to bank payment networks, and automations for the finance, treasury, and accounting teams. We're building a foundation to support more of Block's products. Come help us build a better bank!\n\nAs a senior software engineer on the SFS Bank Platform team, you will lead the technical design, execution, and delivery of new banking primitives through close collaboration across teams and disciplines. In addition, you'll drive architectural decisions and infrastructure improvements to make our systems more robust and scalable. The things that you build will create significant…",
       "postedAt": "2026-08-03T14:30:09-04:00",
       "compHint": "$217,800–$326,800, $207,000–$310,400, $196,100–$294,100, $185,200–$277,800",
       "score": {
@@ -240,30 +267,29 @@
       }
     },
     {
-      "id": "209127ca",
+      "id": "98303f35",
       "source": "greenhouse",
-      "company": "Affirm",
-      "title": "Staff Software Engineer, Backend (Lake Analytics Platform)",
-      "location": "Remote US",
+      "company": "Block",
+      "title": "Software Engineer, Cash App - Lending Products",
+      "location": "New York, NY, United States of America",
       "remote": true,
-      "url": "https://job-boards.greenhouse.io/affirm/jobs/7801694003",
-      "descriptionText": "Affirm is reinventing credit to make it more honest and friendly, giving consumers the flexibility to buy now and pay later without any hidden fees or compounding interest.\n\nAffirm’s engineering team is building a large-scale, highly available, and global infrastructure that is shared across multiple financial products. Ensuring that our infrastructure is accessible to all engineers is critical to the success of the business. We pride ourselves on our culture across engineering of engaging in thorough technical design review, operational excellence, and capable incident response and analysis.\n\nThe Data and Storage Services team is responsible for Affirm’s data infrastructure across OLTP and OLAP systems, spanning critical online checkout databases, batch orchestration, streaming infrastructure, event-driven frameworks, BI, analytics tooling, large-scale data platforms, and agentic data tools such as semantic layers and internal platform data applications. Our mission is to provide trustworthy, intuitive, and cost-efficient solutions for Affirmers to secure, store, analyze, and transform data at exceptional scale.\n\nThis role will focus on Affirm’s Lakehouse Platform , including Apache Iceberg as a foundational technology for scalable analytical data storage, table management, schema evolution, and interoperability across compute engines such as Spark and Snowflake.\n\nWhat You’ll Do\n\nInfluence technical strategy: Define and drive the long-term technical roadmap for Affirm’s…",
-      "postedAt": "2026-07-31T15:56:27-04:00",
+      "url": "http://block.xyz/careers/jobs/5201726008?gh_jid=5201726008",
+      "descriptionText": "It all started with an idea at Block in 2013. Initially built to take the pain out of peer-to-peer payments, Cash App has gone from a simple product with a single purpose to a dynamic ecosystem, developing unique financial products, including Afterpay/Clearpay, to provide a better way to send, spend, invest, borrow and save to our 50+ million monthly active customers. We want to redefine the world's relationship with money to make it more relatable, instantly available, and universally accessible.\n\nToday, Cash App has thousands of employees working globally across office and remote locations, with a culture geared toward innovation, collaboration and impact. We've been a distributed team since day one, and many of our roles can be done remotely from the countries where Cash App operates. No matter the location, we tailor our experience to ensure our employees are creative, productive, and happy.\n\nThe Role\n\nCash App's mission is to make money instantly available and universally accessible - all the products and features we've released in the app are based on those principles. Lending is one of the newest Cash App products and we're looking for a Software Engineer to join this team and help deliver on our vision of economic empowerment.\n\nLending offers Cash App and Afterpay users low-friction access to credit without prohibitive repayment terms, and the Lending Engineering team is focused on building the complex systems and tooling to support access and availability.The…",
+      "postedAt": "2026-08-03T14:30:09-04:00",
+      "compHint": "$180,000–$270,000, $171,000–$256,600, $162,000–$243,000, $153,000–$229,600",
       "score": {
         "fit": 92,
         "verdict": "strong",
-        "rationale": "Staff Software Engineer, Backend (Lake Analytics Platform) at Affirm scores 92/100 (strong) on the Tier-1 deterministic pass. Matched: Backend / distributed / event-driven — Ryan's core strength; Senior / staff / lead level; Platform / reliability / observability — Ryan's secondary strength; AI-native engineering (a SWE who drives AI adoption); Product engineering; Large, reputable, remote-friendly engineering org with a strong Java / distributed-systems bar. Concerns: comp unstated.",
+        "rationale": "Software Engineer, Cash App - Lending Products at Block scores 92/100 (strong) on the Tier-1 deterministic pass. Matched: Backend / distributed / event-driven — Ryan's core strength; Senior / staff / lead level; Platform / reliability / observability — Ryan's secondary strength; AI-native engineering (a SWE who drives AI adoption); Strong engineering culture; Large, reputable, remote-friendly engineering org with a strong Java / distributed-systems bar.",
         "matched": [
           "Backend / distributed / event-driven — Ryan's core strength",
           "Senior / staff / lead level",
           "Platform / reliability / observability — Ryan's secondary strength",
           "AI-native engineering (a SWE who drives AI adoption)",
-          "Product engineering",
+          "Strong engineering culture",
           "Large, reputable, remote-friendly engineering org with a strong Java / distributed-systems bar"
         ],
-        "concerns": [
-          "comp unstated"
-        ]
+        "concerns": []
       }
     },
     {
@@ -478,19 +504,19 @@
       }
     },
     {
-      "id": "d6651ab0",
-      "source": "greenhouse",
-      "company": "Stripe",
-      "title": "Staff Software Engineer, Payments Intelligence",
-      "location": "Seattle, New York, San Francisco",
+      "id": "2f6c5ed4",
+      "source": "smartrecruiters",
+      "company": "ServiceNow",
+      "title": "Staff Full Stack Software Engineer",
+      "location": "Santa Clara, California, United States",
       "remote": "unknown",
-      "url": "https://stripe.com/jobs/search?gh_jid=7986004",
-      "descriptionText": "Who we are\n\nAbout Stripe\n\nStripe is a financial infrastructure platform for businesses. Millions of companies—from the world’s largest enterprises to the most ambitious startups—use Stripe to accept payments, grow their revenue, and accelerate new business opportunities. Our mission is to increase the GDP of the internet, and we have a staggering amount of work ahead. That means you have an unprecedented opportunity to put the global economy within everyone’s reach while doing the most important work of your career.\n\nAbout the team\n\nPayment Intelligence is comprised of multiple product teams building AI-first solutions to some of our customers’ biggest challenges, including fraud/abuse ( Radar ), payment optimizations ( AuthBoost ), Disputes, Authentication, and merchant analytics. We’re a mix of machine engineering engineers and full-stack software engineers impacting ~every Stripe transaction, creating revenue opportunities for Stripe and our customers, and helping protect the broader ecosystem.\n\nWe have the benefit and privilege of working on cutting edge technologies with incredible scale and reach while also working directly with our merchants every day to build the right products for their needs.\n\nWhat you'll do\n\nAs a Staff Engineer on Payment Intelligence, you’ll work across our product portfolio to ensure we’re building in a consistent, efficient, and effective manner. Experience with large, distributed systems on the critical path will help candidates succeed, as…",
-      "postedAt": "2026-08-12T10:16:02-04:00",
+      "url": "https://jobs.smartrecruiters.com/ServiceNow/744000143174559-staff-full-stack-software-engineer?oga=true",
+      "descriptionText": "About the Team:    \nThe AI Agents team is a key part of our broader Platform Engineering division, focused on creating innovative solutions that empower our customers to design and deploy intelligent agents tailored to automate their unique tasks and workflows. Our platform provides the capabilities for users to seamlessly define and configure AI agents that can operate autonomously, driving efficiency and optimizing processes across industries.  \nAt the heart of this cutting-edge product, our team is motivated by the need to continuously innovate, adapt to latest AI Advancements, and collaborate across multiple disciplines to deliver powerful, user-centric solutions. We work at the intersection of AI research, engineering, and product development, ensuring that our platform not only meets current demands but also anticipates future trends in automation and intelligent decision-making.  \nJoining our team means being part of a dynamic, forward-thinking group that thrives on solving complex challenges, pushing boundaries, and staying ahead of the curve. We are looking for talented members who are passionate about AI, enjoy working in a collaborative environment, and are eager to contribute to the development of a transformative product that is reshaping how businesses leverage AI to solve real-world problems.  \nWhat you get to do in this role:     \nIn this role, you will serve as a full-stack engineering leader within the Conversational Interfaces team, to shape and elevate…",
+      "postedAt": "2026-08-12T20:02:28.067Z",
       "score": {
         "fit": 89,
         "verdict": "strong",
-        "rationale": "Staff Software Engineer, Payments Intelligence at Stripe scores 89/100 (strong) on the Tier-1 deterministic pass. Matched: Backend / distributed / event-driven — Ryan's core strength; Senior / staff / lead level; Platform / reliability / observability — Ryan's secondary strength; AI-native engineering (a SWE who drives AI adoption); Large, reputable, remote-friendly engineering org with a strong Java / distributed-systems bar. Concerns: comp unstated; remote unstated.",
+        "rationale": "Staff Full Stack Software Engineer at ServiceNow scores 89/100 (strong) on the Tier-1 deterministic pass. Matched: Backend / distributed / event-driven — Ryan's core strength; Senior / staff / lead level; Platform / reliability / observability — Ryan's secondary strength; AI-native engineering (a SWE who drives AI adoption); Large, reputable, remote-friendly engineering org with a strong Java / distributed-systems bar. Concerns: comp unstated; remote unstated.",
         "matched": [
           "Backend / distributed / event-driven — Ryan's core strength",
           "Senior / staff / lead level",
@@ -501,6 +527,110 @@
         "concerns": [
           "comp unstated",
           "remote unstated"
+        ]
+      }
+    },
+    {
+      "id": "f9829a09",
+      "source": "greenhouse",
+      "company": "Affirm",
+      "title": "Senior CIAM Software Engineer",
+      "location": "Remote US",
+      "remote": true,
+      "url": "https://job-boards.greenhouse.io/affirm/jobs/7671388003",
+      "descriptionText": "Affirm is reinventing credit to make it more honest and friendly, giving consumers the flexibility to buy now and pay later without any hidden fees or compounding interest.\n\nAffirm is building the next generation of customer identity and authentication. This role is a hands-on engineering position inside Information Security, focused on designing and shipping core CIAM capabilities that protect customers and support growth.\n\nYou will build and operate backend services that power registration, login, authorization, and account lifecycle flows across B2C and B2B experiences. You will work closely with partner engineering teams and ensure identity features are delivered with strong security fundamentals, reliability, and operational rigor.\n\nWhat you’ll do\n\nDesign, build, and operate core CIAM backend services that support customer registration, authentication, authorization, account lifecycle, and profile management for B2C and B2B platforms.\n\nImplement and extend identity standards such as OAuth 2.0, OIDC, SAML, and SCIM in code, ensuring correctness, scalability, and clean integration patterns.\n\nDevelop backend APIs and services in Python and Kotlin that expose identity capabilities to web, mobile, and partner applications.\n\nIntegrate CIAM platforms with internal systems, including user data stores, messaging, fraud signals, and downstream customer platforms.\n\nOwn secure authentication and account flows end to end, including MFA, step-up authentication, device binding,…",
+      "postedAt": "2026-08-12T15:12:11-04:00",
+      "score": {
+        "fit": 89,
+        "verdict": "strong",
+        "rationale": "Senior CIAM Software Engineer at Affirm scores 89/100 (strong) on the Tier-1 deterministic pass. Matched: Backend / distributed / event-driven — Ryan's core strength; Senior / staff / lead level; Platform / reliability / observability — Ryan's secondary strength; AI-native engineering (a SWE who drives AI adoption); Large, reputable, remote-friendly engineering org with a strong Java / distributed-systems bar. Concerns: comp unstated.",
+        "matched": [
+          "Backend / distributed / event-driven — Ryan's core strength",
+          "Senior / staff / lead level",
+          "Platform / reliability / observability — Ryan's secondary strength",
+          "AI-native engineering (a SWE who drives AI adoption)",
+          "Large, reputable, remote-friendly engineering org with a strong Java / distributed-systems bar"
+        ],
+        "concerns": [
+          "comp unstated"
+        ]
+      }
+    },
+    {
+      "id": "377b09c3",
+      "source": "greenhouse",
+      "company": "Affirm",
+      "title": "Software Engineer II, Backend (Capital Orchestration)",
+      "location": "Remote US",
+      "remote": true,
+      "url": "https://job-boards.greenhouse.io/affirm/jobs/7749755003",
+      "descriptionText": "Affirm is reinventing credit to make it more honest and friendly, giving consumers the flexibility to buy now and pay later without any hidden fees or compounding interest.\n\nWe are looking for a passionate engineer to join our Capital Orchestration team, which is responsible for providing liquidity to Affirm by enabling the sale and collateralization of Affirm loan assets. To achieve this, our team develops a robust and extensible platform for on-demand transactions with low operational risk that scales to billions of dollars of collateral movement each month. In simpler terms, we help ensure Affirm has enough money to originate loans, pay merchants, and continue to grow.\n\nWhat You'll Do\n\nBuild a foundational platform enabling us to reconcile each transaction across systems, partners, and cash movements.\n\nBuild and integrate data pipelines from a variety of products and systems.\n\nBuild intuitive and thoughtful user experiences to streamline the workflows of our business counterparts.\n\nDevelop a deep understanding of the capital systems which power and fund Affirm.\n\nPartner with engineers on the team to help improve designs, code quality, and testing.\n\nCollaborate with product managers and business counterparts to design best-in-class systems and processes.\n\nWith the support of your team’s tech lead and manager, you will break down larger projects into individual tasks, deliver them in multiple phases, and collaborate with others to ensure timely delivery of your work.\n\nYou…",
+      "postedAt": "2026-08-12T15:12:11-04:00",
+      "score": {
+        "fit": 89,
+        "verdict": "strong",
+        "rationale": "Software Engineer II, Backend (Capital Orchestration) at Affirm scores 89/100 (strong) on the Tier-1 deterministic pass. Matched: Backend / distributed / event-driven — Ryan's core strength; Senior / staff / lead level; Platform / reliability / observability — Ryan's secondary strength; AI-native engineering (a SWE who drives AI adoption); Large, reputable, remote-friendly engineering org with a strong Java / distributed-systems bar. Concerns: comp unstated.",
+        "matched": [
+          "Backend / distributed / event-driven — Ryan's core strength",
+          "Senior / staff / lead level",
+          "Platform / reliability / observability — Ryan's secondary strength",
+          "AI-native engineering (a SWE who drives AI adoption)",
+          "Large, reputable, remote-friendly engineering org with a strong Java / distributed-systems bar"
+        ],
+        "concerns": [
+          "comp unstated"
+        ]
+      }
+    },
+    {
+      "id": "2cdf4e9c",
+      "source": "greenhouse",
+      "company": "Affirm",
+      "title": "Staff Software Engineer, Backend (Search)",
+      "location": "Remote US",
+      "remote": true,
+      "url": "https://job-boards.greenhouse.io/affirm/jobs/7803078003",
+      "descriptionText": "Affirm is reinventing credit to make it more honest and friendly, giving consumers the flexibility to buy now and pay later without any hidden fees or compounding interest.\n\nAs we build Affirm's advertising platform and evolve Marketplace into a best in class shopping destination, the ability to route and discover is one of the greatest levers for consumer experiences. Search is one of the highest impact surfaces, and we are building a new team that will own not just the recommendations and search experiences, but also explore opportunities to improve customer experience, monetization, and merchant value. This team will help make Affirm the definitive destination consumers turn to for discovery, understanding, comparing, and shopping through Affirm, and will also lay the foundation for an agentic platform.\n\nWhat You'll Do\n\n· You will be responsible for setting technical strategy for your team on a year-long time scale, and help your team tie it together with critical, business-impacting projects.\n· You will collaborate across teams in the product development lifecycle by collaborating with product management, design & analytics to ensure technical sustainability, risks and trade-offs are well understood and managed.\n· You will act as a force-multiplier for your team through your definition and advocacy of technical solutions and operational processes.\n· You take ownership of your team’s operations and availability by ensuring you have the right monitoring, triage rotations,…",
+      "postedAt": "2026-08-12T15:12:11-04:00",
+      "score": {
+        "fit": 89,
+        "verdict": "strong",
+        "rationale": "Staff Software Engineer, Backend (Search) at Affirm scores 89/100 (strong) on the Tier-1 deterministic pass. Matched: Backend / distributed / event-driven — Ryan's core strength; Senior / staff / lead level; Platform / reliability / observability — Ryan's secondary strength; AI-native engineering (a SWE who drives AI adoption); Large, reputable, remote-friendly engineering org with a strong Java / distributed-systems bar. Concerns: comp unstated.",
+        "matched": [
+          "Backend / distributed / event-driven — Ryan's core strength",
+          "Senior / staff / lead level",
+          "Platform / reliability / observability — Ryan's secondary strength",
+          "AI-native engineering (a SWE who drives AI adoption)",
+          "Large, reputable, remote-friendly engineering org with a strong Java / distributed-systems bar"
+        ],
+        "concerns": [
+          "comp unstated"
+        ]
+      }
+    },
+    {
+      "id": "a3a0a513",
+      "source": "smartrecruiters",
+      "company": "ServiceNow",
+      "title": "Senior AI Agent Engineer | Moveworks",
+      "location": "San Francisco, California, United States",
+      "remote": true,
+      "url": "https://jobs.smartrecruiters.com/ServiceNow/744000143149569-senior-ai-agent-engineer-moveworks?oga=true",
+      "descriptionText": "About the Role \nYou'll own the end-to-end technical relationship with enterprise customers, translating complex business challenges into high-impact AI solutions built on the Moveworks Platform. This is a customer-facing, field-based role — you'll be the primary technical point of contact throughout the full implementation lifecycle, from solution design through launch. You are equally comfortable whiteboarding with a customer's IT team in the morning and collaborating with internal engineering and product teams in the afternoon. \nThis is not a back-office engineering role — you will be in front of customers regularly and are expected to travel up to 25% of the time. \nWhat You'll Own \nCustomer Technical Relationships:  Serve as the primary technical owner across 5–8 enterprise customer engagements simultaneously, driving adoption and measurable outcomes across the full Moveworks implementation lifecycle. \nSolution Design & Architecture:  Partner with customers to architect and deliver high-impact AI solutions that solve real business challenges — leveraging the Moveworks Platform in innovative and meaningful ways. \nIntegration & Implementation:  Design and build secure, performant integrations between the Moveworks Platform and customer enterprise systems including ServiceNow, Workday, Okta, Jira, and others. \nStrategic Advisory:  Serve as a trusted technical advisor, helping customers develop their Agentic AI roadmap and upskilling their teams to operate the platform…",
+      "postedAt": "2026-08-12T16:53:45.393Z",
+      "score": {
+        "fit": 89,
+        "verdict": "strong",
+        "rationale": "Senior AI Agent Engineer | Moveworks at ServiceNow scores 89/100 (strong) on the Tier-1 deterministic pass. Matched: Backend / distributed / event-driven — Ryan's core strength; Senior / staff / lead level; Platform / reliability / observability — Ryan's secondary strength; AI-native engineering (a SWE who drives AI adoption); Large, reputable, remote-friendly engineering org with a strong Java / distributed-systems bar. Concerns: comp unstated.",
+        "matched": [
+          "Backend / distributed / event-driven — Ryan's core strength",
+          "Senior / staff / lead level",
+          "Platform / reliability / observability — Ryan's secondary strength",
+          "AI-native engineering (a SWE who drives AI adoption)",
+          "Large, reputable, remote-friendly engineering org with a strong Java / distributed-systems bar"
+        ],
+        "concerns": [
+          "comp unstated"
         ]
       }
     },
@@ -518,32 +648,6 @@
         "fit": 89,
         "verdict": "strong",
         "rationale": "Senior Staff Software Engineer at ServiceNow scores 89/100 (strong) on the Tier-1 deterministic pass. Matched: Backend / distributed / event-driven — Ryan's core strength; Senior / staff / lead level; Platform / reliability / observability — Ryan's secondary strength; AI-native engineering (a SWE who drives AI adoption); Large, reputable, remote-friendly engineering org with a strong Java / distributed-systems bar. Concerns: comp unstated.",
-        "matched": [
-          "Backend / distributed / event-driven — Ryan's core strength",
-          "Senior / staff / lead level",
-          "Platform / reliability / observability — Ryan's secondary strength",
-          "AI-native engineering (a SWE who drives AI adoption)",
-          "Large, reputable, remote-friendly engineering org with a strong Java / distributed-systems bar"
-        ],
-        "concerns": [
-          "comp unstated"
-        ]
-      }
-    },
-    {
-      "id": "e0440e84",
-      "source": "greenhouse",
-      "company": "Affirm",
-      "title": "Staff Software Engineer, Backend (Online Storage)",
-      "location": "Remote US",
-      "remote": true,
-      "url": "https://job-boards.greenhouse.io/affirm/jobs/7833950003",
-      "descriptionText": "Affirm is reinventing credit to make it more honest and friendly, giving consumers the flexibility to buy now and pay later without any hidden fees or compounding interest.\n\nThe Data and Storage Services team is responsible for Affirm's data infrastructure across OLTP and OLAP systems, spanning critical online checkout databases, batch orchestration, streaming infrastructure, event-driven frameworks, BI, analytics tooling, large-scale data platforms, and agentic data tools such as semantic layers and internal platform data applications. Our mission is to provide trustworthy, intuitive, and cost-efficient solutions for Affirmers to secure, store, analyze, and transform data at exceptional scale.\n\nThe Online Storage team provides a set of managed databases as a platform, used to persist data for all Affirm services. Our platform enables self-service access to OLTP storage systems, including Relational DB(MySQL), DynamoDB, Distributed SQL, Cache(Redis). As a team, we are responsible for various data and access patterns, including but not limited to mission-critical financial transactional data, data science models, and any new persistence use case. These responsibilities require us to learn and gain deep expertise in various database systems.\n\nWe are looking for a highly skilled and detail-oriented Staff Software Engineer who can drive the technical roadmap for our Databases (Relational and KeyValue) identifying opportunities to improve how we build, productize, operate and…",
-      "postedAt": "2026-08-10T18:39:50-04:00",
-      "score": {
-        "fit": 89,
-        "verdict": "strong",
-        "rationale": "Staff Software Engineer, Backend (Online Storage) at Affirm scores 89/100 (strong) on the Tier-1 deterministic pass. Matched: Backend / distributed / event-driven — Ryan's core strength; Senior / staff / lead level; Platform / reliability / observability — Ryan's secondary strength; AI-native engineering (a SWE who drives AI adoption); Large, reputable, remote-friendly engineering org with a strong Java / distributed-systems bar. Concerns: comp unstated.",
         "matched": [
           "Backend / distributed / event-driven — Ryan's core strength",
           "Senior / staff / lead level",
@@ -924,93 +1028,13 @@
       }
     },
     {
-      "id": "c3a5ca09",
-      "source": "smartrecruiters",
-      "company": "ServiceNow",
-      "title": "Copy of Senior Software Engineer",
-      "location": "San Diego, California, United States",
-      "remote": "unknown",
-      "url": "https://jobs.smartrecruiters.com/ServiceNow/744000141543109-copy-of-senior-software-engineer?oga=true",
-      "descriptionText": "The ITOM Cloud Services team at ServiceNow builds scalable, multi-tenant services on Kubernetes to help IT teams discover and manage their infrastructure and provide a seamless digital end-user experience. Our services has a strong emphasis on high-scale and high-performance engineering. We operate under a DevOps model and team is spread in US & India.  In addition to core infrastructure services, the team contributes to agentic AI initiatives and uses tools like ClaudeCode, Devin to accelerate development. \nRole can be in Santa Clara or San Diego, CA \nWhat you get to do in this role: \nBuild high-quality, clean, and scalable code by enforcing best practices in software engineering architecture and processes, including code reviews and unit testing.\nDesign, build, deploy, and manage highly available and performant services using Kubernetes, microservices multi tenant architecture\nCollaborate with product owners to understand requirements and own your code from design through implementation, testing, and delivery.\nDevelop software that is extensible and customizable to meet diverse customer needs.\nContribute to the design and implementation of new products and features, while enhancing existing services. Mentor other engineers and help foster a strong, customer-focused culture.\n\nTo be successful in this role you have:\nExperience in leveraging or critically thinking about how to integrate AI into work processes, decision-making, or problem-solving. This may include using…",
-      "postedAt": "2026-08-04T16:33:18.245Z",
-      "score": {
-        "fit": 89,
-        "verdict": "strong",
-        "rationale": "Copy of Senior Software Engineer at ServiceNow scores 89/100 (strong) on the Tier-1 deterministic pass. Matched: Backend / distributed / event-driven — Ryan's core strength; Senior / staff / lead level; Platform / reliability / observability — Ryan's secondary strength; AI-native engineering (a SWE who drives AI adoption); Large, reputable, remote-friendly engineering org with a strong Java / distributed-systems bar. Concerns: comp unstated; remote unstated.",
-        "matched": [
-          "Backend / distributed / event-driven — Ryan's core strength",
-          "Senior / staff / lead level",
-          "Platform / reliability / observability — Ryan's secondary strength",
-          "AI-native engineering (a SWE who drives AI adoption)",
-          "Large, reputable, remote-friendly engineering org with a strong Java / distributed-systems bar"
-        ],
-        "concerns": [
-          "comp unstated",
-          "remote unstated"
-        ]
-      }
-    },
-    {
-      "id": "a3794ee3",
-      "source": "smartrecruiters",
-      "company": "ServiceNow",
-      "title": "Senior Software Engineer",
-      "location": "Santa Clara, California, United States",
-      "remote": "unknown",
-      "url": "https://jobs.smartrecruiters.com/ServiceNow/744000141541897-senior-software-engineer?oga=true",
-      "descriptionText": "The ITOM Cloud Services team at ServiceNow builds scalable, multi-tenant services on Kubernetes to help IT teams discover and manage their infrastructure and provide a seamless digital end-user experience. Our services has a strong emphasis on high-scale and high-performance engineering. We operate under a DevOps model and team is spread in US & India.  In addition to core infrastructure services, the team contributes to agentic AI initiatives and uses tools like ClaudeCode, Devin to accelerate development. \nRole can be in Santa Clara or San Diego, CA \nWhat you get to do in this role: \nBuild high-quality, clean, and scalable code by enforcing best practices in software engineering architecture and processes, including code reviews and unit testing.\nDesign, build, deploy, and manage highly available and performant services using Kubernetes, microservices multi tenant architecture\nCollaborate with product owners to understand requirements and own your code from design through implementation, testing, and delivery.\nDevelop software that is extensible and customizable to meet diverse customer needs.\nContribute to the design and implementation of new products and features, while enhancing existing services. Mentor other engineers and help foster a strong, customer-focused culture.\n\nTo be successful in this role you have:\nExperience in leveraging or critically thinking about how to integrate AI into work processes, decision-making, or problem-solving. This may include using…",
-      "postedAt": "2026-08-04T16:29:59.553Z",
-      "score": {
-        "fit": 89,
-        "verdict": "strong",
-        "rationale": "Senior Software Engineer at ServiceNow scores 89/100 (strong) on the Tier-1 deterministic pass. Matched: Backend / distributed / event-driven — Ryan's core strength; Senior / staff / lead level; Platform / reliability / observability — Ryan's secondary strength; AI-native engineering (a SWE who drives AI adoption); Large, reputable, remote-friendly engineering org with a strong Java / distributed-systems bar. Concerns: comp unstated; remote unstated.",
-        "matched": [
-          "Backend / distributed / event-driven — Ryan's core strength",
-          "Senior / staff / lead level",
-          "Platform / reliability / observability — Ryan's secondary strength",
-          "AI-native engineering (a SWE who drives AI adoption)",
-          "Large, reputable, remote-friendly engineering org with a strong Java / distributed-systems bar"
-        ],
-        "concerns": [
-          "comp unstated",
-          "remote unstated"
-        ]
-      }
-    },
-    {
-      "id": "ff881728",
-      "source": "greenhouse",
-      "company": "Block",
-      "title": "Senior Site Reliability Engineer",
-      "location": "New York, NY, United States of America",
-      "remote": true,
-      "url": "http://block.xyz/careers/jobs/5182994008?gh_jid=5182994008",
-      "descriptionText": "Block builds simple, powerful tools that make progress towards an economy that’s truly open to all.\n\nEach of our brands unlocks different aspects of the economy for more people. Square makes commerce and financial services accessible to sellers. Cash App is the easy way to spend, send, and store money. Afterpay is transforming the way customers manage their spending over time. TIDAL is a music platform that empowers artists to thrive as entrepreneurs. Bitkey is a simple self-custody wallet built for bitcoin. Proto is a suite of bitcoin mining products and services. Together, we’re helping build a financial system that is open to everyone. Join us.\n\nThe Role\n\nAs a member of the SRE team, you will proactively and reactively improve the reliability of Block's platform and critical infrastructure. You are metrics-driven, systems-oriented, and focused on building distributed platforms that enable safe, scalable product development.\n\nYou will leverage and continuously improve AI-driven tooling and automation to enhance observability, accelerate incident detection and response, and reduce operational toil. This includes applying AI to incident analysis, alert tuning, and operational workflows.\n\nYou will participate in primary platform oncall (12 hours per day, one week every few weeks, depending on team size), supporting Block's most critical (Tier 0) services. In this role, you will lead incident command, coordinate mitigation, and drive effective escalation during high-severity…",
-      "postedAt": "2026-08-03T14:30:09-04:00",
-      "score": {
-        "fit": 89,
-        "verdict": "strong",
-        "rationale": "Senior Site Reliability Engineer at Block scores 89/100 (strong) on the Tier-1 deterministic pass. Matched: Backend / distributed / event-driven — Ryan's core strength; Senior / staff / lead level; Platform / reliability / observability — Ryan's secondary strength; AI-native engineering (a SWE who drives AI adoption); Large, reputable, remote-friendly engineering org with a strong Java / distributed-systems bar. Concerns: comp unstated.",
-        "matched": [
-          "Backend / distributed / event-driven — Ryan's core strength",
-          "Senior / staff / lead level",
-          "Platform / reliability / observability — Ryan's secondary strength",
-          "AI-native engineering (a SWE who drives AI adoption)",
-          "Large, reputable, remote-friendly engineering org with a strong Java / distributed-systems bar"
-        ],
-        "concerns": [
-          "comp unstated"
-        ]
-      }
-    },
-    {
-      "id": "d3bf5b6a",
+      "id": "b0aa22a6",
       "source": "greenhouse",
       "company": "Block",
       "title": "Senior Software Engineer, Ledgering",
-      "location": "Bay Area, CA, United States of America",
+      "location": "New York, NY, United States of America",
       "remote": true,
-      "url": "http://block.xyz/careers/jobs/5281196008?gh_jid=5281196008",
+      "url": "http://block.xyz/careers/jobs/5366105008?gh_jid=5366105008",
       "descriptionText": "Block is one company built from many blocks, all united by the same purpose of economic empowerment. The blocks that form our foundational teams — People, Finance, Counsel, Hardware, Information Security, Platform Infrastructure Engineering, and more — provide support and guidance at the corporate level. They work across business groups and around the globe, spanning time zones and disciplines to develop inclusive People policies, forecast finances, give legal counsel, safeguard systems, nurture new initiatives, and more. Every challenge creates possibilities, and we need different perspectives to see them all. Bring yours to Block.\n\nThe Role\n\nLedgering is the accounting core that other teams at Block build on. We keep the authoritative records of balances for Square and Cash App, along with the transactions and settlement that move that money. As a Senior Software Engineer on the team, you will build and operate the systems of record for balances and transactions, the settlement orchestration that decides how sellers and customers get paid, and the automated treasury systems that position Block's own cash. At Block's transaction volume, this work has direct, measurable impact on financial accuracy and on the trust merchants and customers place in us.\n\nYou Will\n\nDesign, build, and operate the balance and transaction systems of record that serve as the financial source of truth for millions of merchants and customers.\n\nBuild settlement orchestration that determines how…",
       "postedAt": "2026-08-03T14:30:09-04:00",
       "compHint": "$217,800–$326,800, $207,000–$310,400, $196,100–$294,100, $185,200–$277,800",
@@ -1029,13 +1053,13 @@
       }
     },
     {
-      "id": "5fcf0251",
+      "id": "86a8f92d",
       "source": "greenhouse",
       "company": "Block",
       "title": "Staff Software Engineer, Cash App Banking",
-      "location": "New York, NY, United States of America",
+      "location": "Bay Area, CA, United States of America",
       "remote": true,
-      "url": "http://block.xyz/careers/jobs/5207148008?gh_jid=5207148008",
+      "url": "http://block.xyz/careers/jobs/5196194008?gh_jid=5196194008",
       "descriptionText": "It all started with an idea at Block in 2013. Initially built to take the pain out of peer-to-peer payments, Cash App has gone from a simple product with a single purpose to a dynamic ecosystem, developing unique financial products, including Afterpay/Clearpay, to provide a better way to send, spend, invest, borrow and save to our 50+ million monthly active customers. We want to redefine the world's relationship with money to make it more relatable, instantly available, and universally accessible.\n\nToday, Cash App has thousands of employees working globally across office and remote locations, with a culture geared toward innovation, collaboration and impact. We've been a distributed team since day one, and many of our roles can be done remotely from the countries where Cash App operates. No matter the location, we tailor our experience to ensure our employees are creative, productive, and happy.\n\nThe Role\n\nAt Cash App, we strive to build the best consumer financial products in the world. The Cash App Banking team aspires to make Cash App the primary place for our customers to store, manage, and move money across all their banking needs. We achieve this by providing various offerings including a range of deposit and transfer options, savings and automation tools, and a suite of benefits for Banking customers, all while ensuring a fast and reliable experience.\n\nAs a staff software engineer on the Cash App Banking server engineering team, you will help lead the overall…",
       "postedAt": "2026-08-03T14:30:09-04:00",
       "compHint": "$263,600–$395,400, $263,600–$395,400, $263,600–$395,400, $263,600–$395,400",
@@ -1054,100 +1078,20 @@
       }
     },
     {
-      "id": "92d4254c",
-      "source": "smartrecruiters",
-      "company": "ServiceNow",
-      "title": "Staff Software Engineer, Developer Experience — Moveworks",
-      "location": "Mountain View, CALIFORNIA, United States",
-      "remote": "unknown",
-      "url": "https://jobs.smartrecruiters.com/ServiceNow/744000138210239-staff-software-engineer-developer-experience-moveworks?oga=true",
-      "descriptionText": "The Developer Experience team sits within Moveworks' Platform org, but operates with a vertical mandate: we build products and platforms that serve developers — specifically the developers at Moveworks customer environments who are building on top of the Moveworks Agentic AI platform.\nOur north star is supply. Every developer we enable, every integration they ship faster, every higher-quality skill or workflow they publish — that compounds into more value for the employees who rely on the assistant every day. More builders → more things built → better assistant → more demand. We own that flywheel.\nTo do this well, we build platforms first. Scalable, general-purpose developer infrastructure that products can be built on top of — and then we build those products too. The team lives at the intersection of platform engineering discipline and developer-facing product thinking.\nAs a Staff Engineer on the Developer Experience team, you are the technical foundation the team builds on. You own the hardest platform problems — generality, scalability, extensibility — while keeping the developer experience as the measure of success. You think in systems: what's the right abstraction, what does this need to support in two years, how do you build something that a developer in a customer environment can actually depend on?\nYou're not just an architect. You ship. And you bring others along with you.\nDesign and build the core developer platforms that power the MW developer ecosystem — SDKs,…",
-      "postedAt": "2026-07-17T00:29:32.211Z",
-      "score": {
-        "fit": 89,
-        "verdict": "strong",
-        "rationale": "Staff Software Engineer, Developer Experience — Moveworks at ServiceNow scores 89/100 (strong) on the Tier-1 deterministic pass. Matched: Backend / distributed / event-driven — Ryan's core strength; Senior / staff / lead level; Platform / reliability / observability — Ryan's secondary strength; AI-native engineering (a SWE who drives AI adoption); Large, reputable, remote-friendly engineering org with a strong Java / distributed-systems bar. Concerns: comp unstated; remote unstated.",
-        "matched": [
-          "Backend / distributed / event-driven — Ryan's core strength",
-          "Senior / staff / lead level",
-          "Platform / reliability / observability — Ryan's secondary strength",
-          "AI-native engineering (a SWE who drives AI adoption)",
-          "Large, reputable, remote-friendly engineering org with a strong Java / distributed-systems bar"
-        ],
-        "concerns": [
-          "comp unstated",
-          "remote unstated"
-        ]
-      }
-    },
-    {
-      "id": "0a464fda",
-      "source": "smartrecruiters",
-      "company": "ServiceNow",
-      "title": "Software Engineer, DevOps - Moveworks",
-      "location": "Mountain View, CALIFORNIA, United States",
-      "remote": "unknown",
-      "url": "https://jobs.smartrecruiters.com/ServiceNow/744000138205419-software-engineer-devops-moveworks?oga=true",
-      "descriptionText": "Responsible for building and scaling the Moveworks AI cloud infrastructure and developer platform\nClosely work with platform, machine learning, search, data, and frontend teams, understand their DevOps and infrastructure needs, influence DevOps roadmap, and lead as well as execute on various projects\nDesign, build, and manage the Moveworks cloud infrastructure across many regions / clouds ensuring security, scalability, performance, observability, resilience, and cost optimization\nBuild and manage CI/CD pipelines with infrastructure as code and full automation to provision and manage Moveworks application stack across different environments\nWork with Moveworks’ security team on enhancing the security posture of the infrastructure\n\n2+ years of experience\nHands on technical member with a strong sense of ownership - proactively leading complex platform and infrastructure initiatives from conception through delivery and measurement\nStrong technical expertise in designing and building AWS (or other) cloud infrastructure with extensive experience in managing AWS security groups, IAM roles, Elastic Load Balancers, Cloud Formation, and other cloud services\nStrong knowledge of VPN, AWS VPC, DNS, etc. and experience in troubleshooting network issues\nExperience with deploying and managing Kubernetes clusters, Istio, etc.\nWorking knowledge of disaster recovery process and security areas such as data backup and recovery, replication, AWS KMS, certificate management, encryption,…",
-      "postedAt": "2026-07-16T22:52:59.743Z",
-      "score": {
-        "fit": 89,
-        "verdict": "strong",
-        "rationale": "Software Engineer, DevOps - Moveworks at ServiceNow scores 89/100 (strong) on the Tier-1 deterministic pass. Matched: Backend / distributed / event-driven — Ryan's core strength; Senior / staff / lead level; Platform / reliability / observability — Ryan's secondary strength; AI-native engineering (a SWE who drives AI adoption); Large, reputable, remote-friendly engineering org with a strong Java / distributed-systems bar. Concerns: comp unstated; remote unstated.",
-        "matched": [
-          "Backend / distributed / event-driven — Ryan's core strength",
-          "Senior / staff / lead level",
-          "Platform / reliability / observability — Ryan's secondary strength",
-          "AI-native engineering (a SWE who drives AI adoption)",
-          "Large, reputable, remote-friendly engineering org with a strong Java / distributed-systems bar"
-        ],
-        "concerns": [
-          "comp unstated",
-          "remote unstated"
-        ]
-      }
-    },
-    {
-      "id": "e89d75da",
-      "source": "smartrecruiters",
-      "company": "ServiceNow",
-      "title": "Senior Software Engineer, DevOps - Moveworks",
-      "location": "Mountain View, CALIFORNIA, United States",
-      "remote": "unknown",
-      "url": "https://jobs.smartrecruiters.com/ServiceNow/744000138204940-senior-software-engineer-devops-moveworks?oga=true",
-      "descriptionText": "Responsible for building and scaling the Moveworks AI cloud infrastructure and developer platform\nClosely work with platform, machine learning, search, data, and frontend teams, understand their DevOps and infrastructure needs, influence DevOps roadmap, and lead as well as execute on various projects\nDesign, build, and manage the Moveworks cloud infrastructure across many regions / clouds ensuring security, scalability, performance, observability, resilience, and cost optimization\nBuild and manage CI/CD pipelines with infrastructure as code and full automation to provision and manage Moveworks application stack across different environments\nWork with Moveworks’ security team on enhancing the security posture of the infrastructure\n\n3+ years of experience\nHands on technical member with a strong sense of ownership - proactively leading complex platform and infrastructure initiatives from conception through delivery and measurement\nStrong technical expertise in designing and building AWS (or other) cloud infrastructure with extensive experience in managing AWS security groups, IAM roles, Elastic Load Balancers, Cloud Formation, and other cloud services\nStrong knowledge of VPN, AWS VPC, DNS, etc. and experience in troubleshooting network issues\nExperience with deploying and managing Kubernetes clusters, Istio, etc.\nWorking knowledge of disaster recovery process and security areas such as data backup and recovery, replication, AWS KMS, certificate management, encryption,…",
-      "postedAt": "2026-07-16T22:52:57.489Z",
-      "score": {
-        "fit": 89,
-        "verdict": "strong",
-        "rationale": "Senior Software Engineer, DevOps - Moveworks at ServiceNow scores 89/100 (strong) on the Tier-1 deterministic pass. Matched: Backend / distributed / event-driven — Ryan's core strength; Senior / staff / lead level; Platform / reliability / observability — Ryan's secondary strength; AI-native engineering (a SWE who drives AI adoption); Large, reputable, remote-friendly engineering org with a strong Java / distributed-systems bar. Concerns: comp unstated; remote unstated.",
-        "matched": [
-          "Backend / distributed / event-driven — Ryan's core strength",
-          "Senior / staff / lead level",
-          "Platform / reliability / observability — Ryan's secondary strength",
-          "AI-native engineering (a SWE who drives AI adoption)",
-          "Large, reputable, remote-friendly engineering org with a strong Java / distributed-systems bar"
-        ],
-        "concerns": [
-          "comp unstated",
-          "remote unstated"
-        ]
-      }
-    },
-    {
-      "id": "377b09c3",
+      "id": "5cbda8a1",
       "source": "greenhouse",
-      "company": "Affirm",
-      "title": "Software Engineer II, Backend (Capital Orchestration)",
-      "location": "Remote US",
+      "company": "Block",
+      "title": "Tech Lead, Business Platform Engineering (Bizplat)",
+      "location": "New York, NY, United States of America",
       "remote": true,
-      "url": "https://job-boards.greenhouse.io/affirm/jobs/7749755003",
-      "descriptionText": "Affirm is reinventing credit to make it more honest and friendly, giving consumers the flexibility to buy now and pay later without any hidden fees or compounding interest.\n\nWe are looking for a passionate engineer to join our Capital Orchestration team, which is responsible for providing liquidity to Affirm by enabling the sale and collateralization of Affirm loan assets. To achieve this, our team develops a robust and extensible platform for on-demand transactions with low operational risk that scales to billions of dollars of collateral movement each month. In simpler terms, we help ensure Affirm has enough money to originate loans, pay merchants, and continue to grow.\n\nWhat You'll Do\n\nBuild a foundational platform enabling us to reconcile each transaction across systems, partners, and cash movements.\n\nBuild and integrate data pipelines from a variety of products and systems.\n\nBuild intuitive and thoughtful user experiences to streamline the workflows of our business counterparts.\n\nDevelop a deep understanding of the capital systems which power and fund Affirm.\n\nPartner with engineers on the team to help improve designs, code quality, and testing.\n\nCollaborate with product managers and business counterparts to design best-in-class systems and processes.\n\nWith the support of your team’s tech lead and manager, you will break down larger projects into individual tasks, deliver them in multiple phases, and collaborate with others to ensure timely delivery of your work.\n\nYou…",
-      "postedAt": "2026-06-18T11:27:47-04:00",
+      "url": "http://block.xyz/careers/jobs/5311661008?gh_jid=5311661008",
+      "descriptionText": "Block is one company built from many blocks, all united by the same purpose of economic empowerment. The blocks that form our foundational teams — People, Finance, Counsel, Hardware, Information Security, Platform Infrastructure Engineering, and more — provide support and guidance at the corporate level. They work across business groups and around the globe, spanning time zones and disciplines to develop inclusive People policies, forecast finances, give legal counsel, safeguard systems, nurture new initiatives, and more. Every challenge creates possibilities, and we need different perspectives to see them all. Bring yours to Block.\n\nThe Role\n\nBlock's Business Platform (Bizplat) organization powers operational automation across the company, focused on Risk & Compliance, Customer Support, GTM and Sales, Finance, and Hardware Supply Chain. Over the past year, our teams have delivered measurable business outcomes across every major operational domain. Now, as we scale from isolated automation initiatives to a company-wide automation platform and operating model, we face a critical architectural challenge: too many services and too much fragmentation.\n\nWe are looking for a Tech Lead who will serve as the overall systems architect for Bizplat — someone who can see across our sprawling service landscape, identify redundancy and fragmentation, and drive consolidation onto well-architected central systems. You will be the technical decision-maker responsible for turning down the…",
+      "postedAt": "2026-08-03T14:30:09-04:00",
+      "compHint": "$263,600–$395,400, $263,600–$395,400, $263,600–$395,400, $263,600–$395,400",
       "score": {
         "fit": 89,
         "verdict": "strong",
-        "rationale": "Software Engineer II, Backend (Capital Orchestration) at Affirm scores 89/100 (strong) on the Tier-1 deterministic pass. Matched: Backend / distributed / event-driven — Ryan's core strength; Senior / staff / lead level; Platform / reliability / observability — Ryan's secondary strength; AI-native engineering (a SWE who drives AI adoption); Large, reputable, remote-friendly engineering org with a strong Java / distributed-systems bar. Concerns: comp unstated.",
+        "rationale": "Tech Lead, Business Platform Engineering (Bizplat) at Block scores 89/100 (strong) on the Tier-1 deterministic pass. Matched: Backend / distributed / event-driven — Ryan's core strength; Senior / staff / lead level; Platform / reliability / observability — Ryan's secondary strength; AI-native engineering (a SWE who drives AI adoption); Large, reputable, remote-friendly engineering org with a strong Java / distributed-systems bar.",
         "matched": [
           "Backend / distributed / event-driven — Ryan's core strength",
           "Senior / staff / lead level",
@@ -1155,9 +1099,7 @@
           "AI-native engineering (a SWE who drives AI adoption)",
           "Large, reputable, remote-friendly engineering org with a strong Java / distributed-systems bar"
         ],
-        "concerns": [
-          "comp unstated"
-        ]
+        "concerns": []
       }
     },
     {
@@ -1341,6 +1283,59 @@
         ],
         "concerns": [
           "comp unstated"
+        ]
+      }
+    },
+    {
+      "id": "094e6dac",
+      "source": "ashby",
+      "company": "Linear",
+      "title": "Senior / Staff Product Engineer, AI",
+      "location": "North America",
+      "remote": true,
+      "url": "https://jobs.ashbyhq.com/linear/b4a7764e-c680-4bdf-9956-dc78f2ca94d5",
+      "descriptionText": "At Linear, we're building the product development system for teams and agents. AI is fundamentally changing how software gets built, and we’re shaping the tools this new era requires.\n\nFounded in 2019, Linear has become the platform of choice for more than 40,000 companies (including OpenAI, Coinbase, and Ramp) to plan, build, and ship their products. Today, our team is distributed across North America, Europe, and Australia, and we’re continuing to grow internationally. What unites us is relentless focus, fast execution, and a deep care for software craftsmanship.\n\nWe’re looking for experienced engineers who have shipped applied AI systems to production and want to define what the agent-native future looks like. We are building intelligence into the core of Linear, enabling the product to orchestrate coding, proactively move work forward, and power-up every software team.\n\nYou’ll work closely with product and design to transform foundation models into structured, reliable workflows embedded deeply in the core of Linear. We care deeply about keeping Linear fast, intuitive, and opinionated—AI is no exception.\n\nLocation & work mode\n\nLinear is a remote-first company, with optional co-working offices in San Francisco, New York, and London. This role is open to candidates based in the North America. You can work from anywhere within this region. We value deep focus and async collaboration, with intentional moments to connect in person through team off-sites, optional co-working,…",
+      "postedAt": "2025-07-10T19:17:43.653+00:00",
+      "score": {
+        "fit": 87,
+        "verdict": "strong",
+        "rationale": "Senior / Staff Product Engineer, AI at Linear scores 87/100 (strong) on the Tier-1 deterministic pass. Matched: Backend / distributed / event-driven — Ryan's core strength; Senior / staff / lead level; Platform / reliability / observability — Ryan's secondary strength; AI-native engineering (a SWE who drives AI adoption); Product engineering. Concerns: comp unstated.",
+        "matched": [
+          "Backend / distributed / event-driven — Ryan's core strength",
+          "Senior / staff / lead level",
+          "Platform / reliability / observability — Ryan's secondary strength",
+          "AI-native engineering (a SWE who drives AI adoption)",
+          "Product engineering"
+        ],
+        "concerns": [
+          "comp unstated"
+        ]
+      }
+    },
+    {
+      "id": "e8345ceb",
+      "source": "ashby",
+      "company": "OpenAI",
+      "title": "Software Engineer, Developer Productivity",
+      "location": "San Francisco",
+      "remote": "unknown",
+      "url": "https://jobs.ashbyhq.com/openai/2cba0d45-7a4f-4f38-ac73-3f8633bf0349",
+      "descriptionText": "About the Team\n\nThe Applied AI team safely brings OpenAI's technology to the world. We released ChatGPT, Plugins, DALL·E, and the APIs for GPT-4, GPT-3, embeddings, and fine-tuning. We also operate inference infrastructure at scale. There's a lot more on the immediate horizon.\n\nWe seek to learn from deployment and distribute the benefits of AI, while ensuring that this powerful tool is used responsibly and safely. Safety is more important to us than unfettered growth. We serve end-users directly through ChatGPT, and serve developers through our APIs, which power product features that were never before possible. \n\nAbout the Role\n\nThe Engineering Acceleration team designs, builds and maintains the foundational systems that engineers use to build ChatGPT and the API. This is a fast-growing team and you will get a chance to own and define the strategy, vision, and plan for how to increase developer productivity.\n\nIn this role, you will:\n\n- Drive the design, development, and implementation of tools, systems, and processes that accelerate engineering velocity, reduce manual effort, and increase the quality of output.\n\n- Use our latest AI tools to re-think how we can be the most productive team in the industry.\n\n- Work closely with various teams within OpenAI to understand their workflows, challenges, and needs, and ensure the tools and systems built by the Engineering Acceleration team address these requirements.\n\n- Bring new features and research capabilities to the world by…",
+      "postedAt": "2025-03-27T16:44:10.676+00:00",
+      "compHint": "$210K - $490K",
+      "score": {
+        "fit": 87,
+        "verdict": "strong",
+        "rationale": "Software Engineer, Developer Productivity at OpenAI scores 87/100 (strong) on the Tier-1 deterministic pass. Matched: Backend / distributed / event-driven — Ryan's core strength; Senior / staff / lead level; Platform / reliability / observability — Ryan's secondary strength; AI-native engineering (a SWE who drives AI adoption); Product engineering. Concerns: remote unstated.",
+        "matched": [
+          "Backend / distributed / event-driven — Ryan's core strength",
+          "Senior / staff / lead level",
+          "Platform / reliability / observability — Ryan's secondary strength",
+          "AI-native engineering (a SWE who drives AI adoption)",
+          "Product engineering"
+        ],
+        "concerns": [
+          "remote unstated"
         ]
       }
     }
