@@ -1,22 +1,22 @@
 {
-  "generatedAt": "2026-09-03T17:06:26.685Z",
+  "generatedAt": "2026-09-04T16:55:41.227Z",
   "tier": "tier-1",
   "counts": {
-    "fetched": 1879,
-    "kept": 494,
-    "dropped": 1385,
+    "fetched": 1962,
+    "kept": 558,
+    "dropped": 1404,
     "byVerdict": {
-      "strong": 107,
-      "possible": 197,
-      "weak": 152,
-      "skip": 38
+      "strong": 111,
+      "possible": 204,
+      "weak": 176,
+      "skip": 67
     },
     "droppedByReason": {
-      "excluded-title": 782,
-      "off-role-family": 436,
+      "excluded-title": 794,
+      "off-role-family": 425,
       "on-site-only": 17,
-      "non-us-location": 150,
-      "below-comp-floor": 0
+      "non-us-location": 153,
+      "below-comp-floor": 15
     }
   },
   "errors": [
@@ -27,6 +27,34 @@
     }
   ],
   "candidates": [
+    {
+      "id": "6de9280a",
+      "source": "workday",
+      "company": "Workday",
+      "title": "Sr Software Engineer – API Platform, Product Engineering (Python/Typescript)",
+      "location": "USA, CA, Pleasanton — United States of America",
+      "remote": "unknown",
+      "url": "https://workday.wd5.myworkdayjobs.com/Workday/job/USA-CA-Pleasanton/Sr-Software-Development-Engineer--Product-Engineering---API-Platform---Agentic-AI_JR-0108225",
+      "descriptionText": "Your work days are brighter here.\n\nWe’re obsessed with making hard work pay off, for our people, our customers, and the world around us. As a Fortune 500 company and a leading AI platform for managing people, money, and agents, we’re shaping the future of work so teams can reach their potential and focus on what matters most. The minute you join, you’ll feel it. Not just in the products we build, but in how we show up for each other. Our culture is rooted in integrity, empathy, and shared enthusiasm. We’re in this together, tackling big challenges with bold ideas and genuine care. We look for curious minds and courageous collaborators who bring sun-drenched optimism and drive. Whether you're building smarter solutions, supporting customers, or creating a space where everyone belongs, you’ll do meaningful work with Workmates who’ve got your back. In return, we’ll give you the trust to take risks, the tools to grow, the skills to develop and the support of a company invested in you for the long haul. So, if you want to inspire a brighter work day for everyone, including yourself, you’ve found a match in Workday, and we hope to be a match for you too.\n\nAbout the Team\nThe Product Engineering organization builds the product experiences that customers use every day. Our teams design and deliver features that sit on top of Workday’s core platforms and services, and increasingly depend on powerful, well-designed APIs to support agentic experiences and AI-driven scenarios.\n\nThis team…",
+      "postedAt": "2026-09-03",
+      "score": {
+        "fit": 95,
+        "verdict": "strong",
+        "rationale": "Sr Software Engineer – API Platform, Product Engineering (Python/Typescript) at Workday scores 95/100 (strong) on the Tier-1 deterministic pass. Matched: Backend / distributed / event-driven — Ryan's core strength; Senior / staff / lead level; Platform / reliability / observability — Ryan's secondary strength; AI-native engineering (a SWE who drives AI adoption); Product engineering; HCM / group-benefits domain overlap — Ryan's EOI / Absence Management experience translates directly. Concerns: comp unstated; remote unstated.",
+        "matched": [
+          "Backend / distributed / event-driven — Ryan's core strength",
+          "Senior / staff / lead level",
+          "Platform / reliability / observability — Ryan's secondary strength",
+          "AI-native engineering (a SWE who drives AI adoption)",
+          "Product engineering",
+          "HCM / group-benefits domain overlap — Ryan's EOI / Absence Management experience translates directly"
+        ],
+        "concerns": [
+          "comp unstated",
+          "remote unstated"
+        ]
+      }
+    },
     {
       "id": "621ed5b1",
       "source": "greenhouse",
@@ -138,13 +166,13 @@
       }
     },
     {
-      "id": "81d26445",
+      "id": "e6f2f8a6",
       "source": "greenhouse",
       "company": "Twilio",
       "title": "Software Engineer (L4)",
       "location": "Remote - US",
       "remote": true,
-      "url": "https://job-boards.greenhouse.io/twilio/jobs/8098945",
+      "url": "https://job-boards.greenhouse.io/twilio/jobs/8103253",
       "descriptionText": "Who we are\n\nAt Twilio, we’re shaping the future of communications, all from the comfort of our homes. We deliver innovative solutions to hundreds of thousands of businesses and empower millions of developers worldwide to craft personalized customer experiences.\n\nOur dedication to remote-first work , and strong culture of connection and global inclusion means that no matter your location, you’re part of a vibrant team with diverse experiences making a global impact each day. As we continue to revolutionize how the world interacts, we’re acquiring new skills and experiences that make work feel truly rewarding. Your career at Twilio is in your hands.\n.\n\nHiring and how we work\n\nWe use Artificial Intelligence (AI) to help make our hiring process efficient. That said, every hiring decision is made by real Twilions!\n\nAlso, while we are a remote-first company, you may be asked to report in person on an ad-hoc basis for team gatherings, functional off-sites or customer meetings.\n.\n\nSee yourself at Twilio\n\nJoin the team as Twilio’s next Voice and Video Android SDK Staff Engineer.\n\nAbout the job\n\nThis position is needed to build and deliver Voice and Video functionalities to our customers through the Android SDKs. Programmable Voice and Video are few of Twilio’s foundational channels that empower our customers and internal product team to build delightful solutions. The features you deliver will be used by thousands of customers at scale, often as their business’ lifeline. Use cases…",
       "postedAt": "2026-09-02T12:00:24-04:00",
       "score": {
@@ -516,6 +544,114 @@
       }
     },
     {
+      "id": "bb2fc214",
+      "source": "smartrecruiters",
+      "company": "ServiceNow",
+      "title": "Senior Software Engineer, Agentic Systems - Moveworks",
+      "location": "Mountain View, CALIFORNIA, United States",
+      "remote": "unknown",
+      "url": "https://jobs.smartrecruiters.com/ServiceNow/744000147350414-senior-software-engineer-agentic-systems-moveworks?oga=true",
+      "descriptionText": "The Role\nWe're building the runtime infrastructure that powers Moveworks' AI agents — the systems that orchestrate, execute, and deliver agent responses to millions of enterprise users in real time. This is not an ML role. This is a distributed systems engineering role at the heart of the agentic AI wave.\nOur AI agents can plan, execute multi-step workflows, call tools, wait on human input, and resume — all while maintaining correctness, observability, and low latency. The systems that make this possible are what you'll build and own.\n \n\nWhat you get to do in this role:\nAgent orchestration engine — A state machine that manages long-running agent sessions, coordinating planning, execution, and user interaction across multiple LLM calls and tool invocations\nDistributed session management — Lease-based ownership using DynamoDB conditional writes, heartbeat protocols, and crash recovery via checkpointing\nEvent-driven message pipeline — SQS FIFO queues for ordered delivery, Kafka consumers for event processing, and real-time streaming via gRPC and Socket.IO\nStructured concurrency — Python asyncio TaskGroups running multiple concurrent tasks per session (message polling, lease heartbeats, output publishing, orchestrator execution) with fail-fast semantics and graceful cancellation\nObservability infrastructure — OpenTelemetry instrumentation, distributed trace context propagation across async boundaries, custom span lifecycle management for sessions that span minutes\nCaching and…",
+      "postedAt": "2026-09-03T20:17:05.007Z",
+      "score": {
+        "fit": 89,
+        "verdict": "strong",
+        "rationale": "Senior Software Engineer, Agentic Systems - Moveworks at ServiceNow scores 89/100 (strong) on the Tier-1 deterministic pass. Matched: Backend / distributed / event-driven — Ryan's core strength; Senior / staff / lead level; Platform / reliability / observability — Ryan's secondary strength; AI-native engineering (a SWE who drives AI adoption); Large, reputable, remote-friendly engineering org with a strong Java / distributed-systems bar. Concerns: comp unstated; remote unstated.",
+        "matched": [
+          "Backend / distributed / event-driven — Ryan's core strength",
+          "Senior / staff / lead level",
+          "Platform / reliability / observability — Ryan's secondary strength",
+          "AI-native engineering (a SWE who drives AI adoption)",
+          "Large, reputable, remote-friendly engineering org with a strong Java / distributed-systems bar"
+        ],
+        "concerns": [
+          "comp unstated",
+          "remote unstated"
+        ]
+      }
+    },
+    {
+      "id": "9159d3d7",
+      "source": "smartrecruiters",
+      "company": "ServiceNow",
+      "title": "Staff Software Engineer, Agentic Systems - Moveworks",
+      "location": "Mountain View, CALIFORNIA, United States",
+      "remote": "unknown",
+      "url": "https://jobs.smartrecruiters.com/ServiceNow/744000147350239-staff-software-engineer-agentic-systems-moveworks?oga=true",
+      "descriptionText": "The Role\nWe're building the runtime infrastructure that powers Moveworks' AI agents — the systems that orchestrate, execute, and deliver agent responses to millions of enterprise users in real time. This is not an ML role. This is a distributed systems engineering role at the heart of the agentic AI wave.\nOur AI agents can plan, execute multi-step workflows, call tools, wait on human input, and resume — all while maintaining correctness, observability, and low latency. The systems that make this possible are what you'll build and own.\n \n\nWhat you get to do in this role:\nAgent orchestration engine — A state machine that manages long-running agent sessions, coordinating planning, execution, and user interaction across multiple LLM calls and tool invocations\nDistributed session management — Lease-based ownership using DynamoDB conditional writes, heartbeat protocols, and crash recovery via checkpointing\nEvent-driven message pipeline — SQS FIFO queues for ordered delivery, Kafka consumers for event processing, and real-time streaming via gRPC and Socket.IO\nStructured concurrency — Python asyncio TaskGroups running multiple concurrent tasks per session (message polling, lease heartbeats, output publishing, orchestrator execution) with fail-fast semantics and graceful cancellation\nObservability infrastructure — OpenTelemetry instrumentation, distributed trace context propagation across async boundaries, custom span lifecycle management for sessions that span minutes\nCaching and…",
+      "postedAt": "2026-09-03T20:12:48.025Z",
+      "score": {
+        "fit": 89,
+        "verdict": "strong",
+        "rationale": "Staff Software Engineer, Agentic Systems - Moveworks at ServiceNow scores 89/100 (strong) on the Tier-1 deterministic pass. Matched: Backend / distributed / event-driven — Ryan's core strength; Senior / staff / lead level; Platform / reliability / observability — Ryan's secondary strength; AI-native engineering (a SWE who drives AI adoption); Large, reputable, remote-friendly engineering org with a strong Java / distributed-systems bar. Concerns: comp unstated; remote unstated.",
+        "matched": [
+          "Backend / distributed / event-driven — Ryan's core strength",
+          "Senior / staff / lead level",
+          "Platform / reliability / observability — Ryan's secondary strength",
+          "AI-native engineering (a SWE who drives AI adoption)",
+          "Large, reputable, remote-friendly engineering org with a strong Java / distributed-systems bar"
+        ],
+        "concerns": [
+          "comp unstated",
+          "remote unstated"
+        ]
+      }
+    },
+    {
+      "id": "95f2ba8c",
+      "source": "smartrecruiters",
+      "company": "ServiceNow",
+      "title": "Senior Staff Software Engineer, Agentic Systems - Moveworks",
+      "location": "Mountain View, CALIFORNIA, United States",
+      "remote": "unknown",
+      "url": "https://jobs.smartrecruiters.com/ServiceNow/744000147349629-senior-staff-software-engineer-agentic-systems-moveworks?oga=true",
+      "descriptionText": "The Role\nWe're building the runtime infrastructure that powers Moveworks' AI agents — the systems that orchestrate, execute, and deliver agent responses to millions of enterprise users in real time. This is not an ML role. This is a distributed systems engineering role at the heart of the agentic AI wave.\nOur AI agents can plan, execute multi-step workflows, call tools, wait on human input, and resume — all while maintaining correctness, observability, and low latency. The systems that make this possible are what you'll build and own.\n\nWhat you get to do in this role:\nAgent orchestration engine — A state machine that manages long-running agent sessions, coordinating planning, execution, and user interaction across multiple LLM calls and tool invocations\nDistributed session management — Lease-based ownership using DynamoDB conditional writes, heartbeat protocols, and crash recovery via checkpointing\nEvent-driven message pipeline — SQS FIFO queues for ordered delivery, Kafka consumers for event processing, and real-time streaming via gRPC and Socket.IO\nStructured concurrency — Python asyncio TaskGroups running multiple concurrent tasks per session (message polling, lease heartbeats, output publishing, orchestrator execution) with fail-fast semantics and graceful cancellation\nObservability infrastructure — OpenTelemetry instrumentation, distributed trace context propagation across async boundaries, custom span lifecycle management for sessions that span minutes\nCaching and…",
+      "postedAt": "2026-09-03T20:08:50.247Z",
+      "score": {
+        "fit": 89,
+        "verdict": "strong",
+        "rationale": "Senior Staff Software Engineer, Agentic Systems - Moveworks at ServiceNow scores 89/100 (strong) on the Tier-1 deterministic pass. Matched: Backend / distributed / event-driven — Ryan's core strength; Senior / staff / lead level; Platform / reliability / observability — Ryan's secondary strength; AI-native engineering (a SWE who drives AI adoption); Large, reputable, remote-friendly engineering org with a strong Java / distributed-systems bar. Concerns: comp unstated; remote unstated.",
+        "matched": [
+          "Backend / distributed / event-driven — Ryan's core strength",
+          "Senior / staff / lead level",
+          "Platform / reliability / observability — Ryan's secondary strength",
+          "AI-native engineering (a SWE who drives AI adoption)",
+          "Large, reputable, remote-friendly engineering org with a strong Java / distributed-systems bar"
+        ],
+        "concerns": [
+          "comp unstated",
+          "remote unstated"
+        ]
+      }
+    },
+    {
+      "id": "c0e102c8",
+      "source": "smartrecruiters",
+      "company": "ServiceNow",
+      "title": "Senior Software Engineer, Agentic Platform - Moveworks",
+      "location": "Mountain View, CALIFORNIA, United States",
+      "remote": "unknown",
+      "url": "https://jobs.smartrecruiters.com/ServiceNow/744000147347919-senior-software-engineer-agentic-platform-moveworks?oga=true",
+      "descriptionText": "The Role\nWe're building the runtime infrastructure that powers Moveworks' AI agents — the systems that orchestrate, execute, and deliver agent responses to millions of enterprise users in real time. This is not an ML role. This is a distributed systems engineering role at the heart of the agentic AI wave.\nOur AI agents can plan, execute multi-step workflows, call tools, wait on human input, and resume — all while maintaining correctness, observability, and low latency. The systems that make this possible are what you'll build and own.\n \n\nWhat you get to do in this role:\nAgent orchestration engine — A state machine that manages long-running agent sessions, coordinating planning, execution, and user interaction across multiple LLM calls and tool invocations\nDistributed session management — Lease-based ownership using DynamoDB conditional writes, heartbeat protocols, and crash recovery via checkpointing\nEvent-driven message pipeline — SQS FIFO queues for ordered delivery, Kafka consumers for event processing, and real-time streaming via gRPC and Socket.IO\nStructured concurrency — Python asyncio TaskGroups running multiple concurrent tasks per session (message polling, lease heartbeats, output publishing, orchestrator execution) with fail-fast semantics and graceful cancellation\nObservability infrastructure — OpenTelemetry instrumentation, distributed trace context propagation across async boundaries, custom span lifecycle management for sessions that span minutes\nCaching and…",
+      "postedAt": "2026-09-03T19:56:37.132Z",
+      "score": {
+        "fit": 89,
+        "verdict": "strong",
+        "rationale": "Senior Software Engineer, Agentic Platform - Moveworks at ServiceNow scores 89/100 (strong) on the Tier-1 deterministic pass. Matched: Backend / distributed / event-driven — Ryan's core strength; Senior / staff / lead level; Platform / reliability / observability — Ryan's secondary strength; AI-native engineering (a SWE who drives AI adoption); Large, reputable, remote-friendly engineering org with a strong Java / distributed-systems bar. Concerns: comp unstated; remote unstated.",
+        "matched": [
+          "Backend / distributed / event-driven — Ryan's core strength",
+          "Senior / staff / lead level",
+          "Platform / reliability / observability — Ryan's secondary strength",
+          "AI-native engineering (a SWE who drives AI adoption)",
+          "Large, reputable, remote-friendly engineering org with a strong Java / distributed-systems bar"
+        ],
+        "concerns": [
+          "comp unstated",
+          "remote unstated"
+        ]
+      }
+    },
+    {
       "id": "c6377370",
       "source": "smartrecruiters",
       "company": "ServiceNow",
@@ -801,13 +937,13 @@
       }
     },
     {
-      "id": "5fcf0251",
+      "id": "86a8f92d",
       "source": "greenhouse",
       "company": "Block",
       "title": "Staff Software Engineer, Cash App Banking",
-      "location": "New York, NY, United States of America",
+      "location": "Bay Area, CA, United States of America",
       "remote": true,
-      "url": "http://block.xyz/careers/jobs/5207148008?gh_jid=5207148008",
+      "url": "http://block.xyz/careers/jobs/5196194008?gh_jid=5196194008",
       "descriptionText": "It all started with an idea at Block in 2013. Initially built to take the pain out of peer-to-peer payments, Cash App has gone from a simple product with a single purpose to a dynamic ecosystem, developing unique financial products, including Afterpay/Clearpay, to provide a better way to send, spend, invest, borrow and save to our 50+ million monthly active customers. We want to redefine the world's relationship with money to make it more relatable, instantly available, and universally accessible.\n\nToday, Cash App has thousands of employees working globally across office and remote locations, with a culture geared toward innovation, collaboration and impact. We've been a distributed team since day one, and many of our roles can be done remotely from the countries where Cash App operates. No matter the location, we tailor our experience to ensure our employees are creative, productive, and happy.\n\nThe Role\n\nAt Cash App, we strive to build the best consumer financial products in the world. The Cash App Banking team aspires to make Cash App the primary place for our customers to store, manage, and move money across all their banking needs. We achieve this by providing various offerings including a range of deposit and transfer options, savings and automation tools, and a suite of benefits for Banking customers, all while ensuring a fast and reliable experience.\n\nAs a staff software engineer on the Cash App Banking server engineering team, you will help lead the overall…",
       "postedAt": "2026-08-31T14:18:16-04:00",
       "compHint": "$263,600–$395,400, $263,600–$395,400, $263,600–$395,400, $263,600–$395,400",
@@ -823,33 +959,6 @@
           "Large, reputable, remote-friendly engineering org with a strong Java / distributed-systems bar"
         ],
         "concerns": []
-      }
-    },
-    {
-      "id": "b341d0cf",
-      "source": "smartrecruiters",
-      "company": "ServiceNow",
-      "title": "Senior Staff Software Engineer, Agentic Systems - Moveworks",
-      "location": "Mountain View, CALIFORNIA, United States",
-      "remote": "unknown",
-      "url": "https://jobs.smartrecruiters.com/ServiceNow/744000145848949-senior-staff-software-engineer-agentic-systems-moveworks?oga=true",
-      "descriptionText": "The Role\nWe're building the runtime infrastructure that powers Moveworks' AI agents — the systems that orchestrate, execute, and deliver agent responses to millions of enterprise users in real time. This is not an ML role. This is a distributed systems engineering role at the heart of the agentic AI wave.\nOur AI agents can plan, execute multi-step workflows, call tools, wait on human input, and resume — all while maintaining correctness, observability, and low latency. The systems that make this possible are what you'll build and own.\n\nWhat you get to do in this role:\nAgent orchestration engine — A state machine that manages long-running agent sessions, coordinating planning, execution, and user interaction across multiple LLM calls and tool invocations\nDistributed session management — Lease-based ownership using DynamoDB conditional writes, heartbeat protocols, and crash recovery via checkpointing\nEvent-driven message pipeline — SQS FIFO queues for ordered delivery, Kafka consumers for event processing, and real-time streaming via gRPC and Socket.IO\nStructured concurrency — Python asyncio TaskGroups running multiple concurrent tasks per session (message polling, lease heartbeats, output publishing, orchestrator execution) with fail-fast semantics and graceful cancellation\nObservability infrastructure — OpenTelemetry instrumentation, distributed trace context propagation across async boundaries, custom span lifecycle management for sessions that span minutes\nCaching and…",
-      "postedAt": "2026-08-26T23:32:01.189Z",
-      "score": {
-        "fit": 89,
-        "verdict": "strong",
-        "rationale": "Senior Staff Software Engineer, Agentic Systems - Moveworks at ServiceNow scores 89/100 (strong) on the Tier-1 deterministic pass. Matched: Backend / distributed / event-driven — Ryan's core strength; Senior / staff / lead level; Platform / reliability / observability — Ryan's secondary strength; AI-native engineering (a SWE who drives AI adoption); Large, reputable, remote-friendly engineering org with a strong Java / distributed-systems bar. Concerns: comp unstated; remote unstated.",
-        "matched": [
-          "Backend / distributed / event-driven — Ryan's core strength",
-          "Senior / staff / lead level",
-          "Platform / reliability / observability — Ryan's secondary strength",
-          "AI-native engineering (a SWE who drives AI adoption)",
-          "Large, reputable, remote-friendly engineering org with a strong Java / distributed-systems bar"
-        ],
-        "concerns": [
-          "comp unstated",
-          "remote unstated"
-        ]
       }
     },
     {
@@ -946,33 +1055,6 @@
         "fit": 89,
         "verdict": "strong",
         "rationale": "Staff Full Stack Software Engineer at ServiceNow scores 89/100 (strong) on the Tier-1 deterministic pass. Matched: Backend / distributed / event-driven — Ryan's core strength; Senior / staff / lead level; Platform / reliability / observability — Ryan's secondary strength; AI-native engineering (a SWE who drives AI adoption); Large, reputable, remote-friendly engineering org with a strong Java / distributed-systems bar. Concerns: comp unstated; remote unstated.",
-        "matched": [
-          "Backend / distributed / event-driven — Ryan's core strength",
-          "Senior / staff / lead level",
-          "Platform / reliability / observability — Ryan's secondary strength",
-          "AI-native engineering (a SWE who drives AI adoption)",
-          "Large, reputable, remote-friendly engineering org with a strong Java / distributed-systems bar"
-        ],
-        "concerns": [
-          "comp unstated",
-          "remote unstated"
-        ]
-      }
-    },
-    {
-      "id": "711d6116",
-      "source": "smartrecruiters",
-      "company": "ServiceNow",
-      "title": "Senior Software Engineer, Agent Eval Platform",
-      "location": "Mountain View, CALIFORNIA, United States",
-      "remote": "unknown",
-      "url": "https://jobs.smartrecruiters.com/ServiceNow/744000143386961-senior-software-engineer-agent-eval-platform?oga=true",
-      "descriptionText": "The Role\nMoveworks' AI agents don't just generate text — they act. They plan, call tools, and change real state in enterprise systems on behalf of 5.5 million employees. That makes the central problem of our team an unusually hard measurement problem: how do you score what an agent did — across a multi-step trajectory through a world it changed — precisely enough that the score can teach it to do better?\nThat signal is what this role owns. You'll build the judgement layer of our agent evaluation platform: the rubrics, the judges, the calibration against human labels, the methodology that makes a score mean something. And the payoff is larger than a report card — a judge good enough to grade a trajectory is a judge good enough to train against . The same calibrated signal that explains why an agent failed becomes the reward signal that stops it failing.\nThis isn't a pretraining role, and it isn't a testing role. It's applied ML at a point where the methodology genuinely isn't settled: LLMs judging LLMs is an open research problem, and we're working it against agents that take real, irreversible actions in stateful, multi-tenant enterprise environments.\n \n\nWhat you get to do in this role:\nWe're hiring across three areas. You'll anchor on one and touch the others; which one is a conversation we have with you, not a slot we drop you into.\nEval orchestration at scale\nThe runtime that executes multi-turn agent scenarios end-to-end — stand up the environment and user simulator,…",
-      "postedAt": "2026-08-13T20:04:12.417Z",
-      "score": {
-        "fit": 89,
-        "verdict": "strong",
-        "rationale": "Senior Software Engineer, Agent Eval Platform at ServiceNow scores 89/100 (strong) on the Tier-1 deterministic pass. Matched: Backend / distributed / event-driven — Ryan's core strength; Senior / staff / lead level; Platform / reliability / observability — Ryan's secondary strength; AI-native engineering (a SWE who drives AI adoption); Large, reputable, remote-friendly engineering org with a strong Java / distributed-systems bar. Concerns: comp unstated; remote unstated.",
         "matched": [
           "Backend / distributed / event-driven — Ryan's core strength",
           "Senior / staff / lead level",
@@ -1143,13 +1225,13 @@
       }
     },
     {
-      "id": "ff881728",
+      "id": "b6171b11",
       "source": "greenhouse",
       "company": "Block",
       "title": "Senior Site Reliability Engineer",
-      "location": "New York, NY, United States of America",
+      "location": "Bay Area, CA, United States of America",
       "remote": true,
-      "url": "http://block.xyz/careers/jobs/5182994008?gh_jid=5182994008",
+      "url": "http://block.xyz/careers/jobs/5181749008?gh_jid=5181749008",
       "descriptionText": "Block builds simple, powerful tools that make progress towards an economy that’s truly open to all.\n\nEach of our brands unlocks different aspects of the economy for more people. Square makes commerce and financial services accessible to sellers. Cash App is the easy way to spend, send, and store money. Afterpay is transforming the way customers manage their spending over time. TIDAL is a music platform that empowers artists to thrive as entrepreneurs. Bitkey is a simple self-custody wallet built for bitcoin. Proto is a suite of bitcoin mining products and services. Together, we’re helping build a financial system that is open to everyone. Join us.\n\nThe Role\n\nAs a member of the SRE team, you will proactively and reactively improve the reliability of Block's platform and critical infrastructure. You are metrics-driven, systems-oriented, and focused on building distributed platforms that enable safe, scalable product development.\n\nYou will leverage and continuously improve AI-driven tooling and automation to enhance observability, accelerate incident detection and response, and reduce operational toil. This includes applying AI to incident analysis, alert tuning, and operational workflows.\n\nYou will participate in primary platform oncall (12 hours per day, one week every few weeks, depending on team size), supporting Block's most critical (Tier 0) services. In this role, you will lead incident command, coordinate mitigation, and drive effective escalation during high-severity…",
       "postedAt": "2026-08-03T14:30:09-04:00",
       "score": {
@@ -1166,6 +1248,31 @@
         "concerns": [
           "comp unstated"
         ]
+      }
+    },
+    {
+      "id": "5756857e",
+      "source": "ashby",
+      "company": "OpenAI",
+      "title": "Software Engineer, Native Learning Experiences",
+      "location": "San Francisco",
+      "remote": true,
+      "url": "https://jobs.ashbyhq.com/openai/1098311d-3a07-40ad-8107-6245a492a0b3",
+      "descriptionText": "About the Team\n\nCustomer education helps customers and partners build the practical skills and confidence to use AI and OpenAI products safely and effectively. The team focuses on role- and skill-based learning paths, practical content, and product experiences that accelerate learning in the workplace. It brings together learning and enablement expertise, field insight, product signals, and measurement to improve learner and business outcomes.\n\nTogether, these experiences will help enterprise users build practical AI skills, apply them with confidence in their work, and demonstrate what they can do. Employers will gain a clearer view of workforce skills and progress, helping them recognize capability, focus development where it matters most, and build confidence in workforce readiness.\n\nAbout the Role\n\nWe’re looking for a full-stack engineer to define and build a new class of learning experiences. This is an early-stage product area where technical judgment, product sense, and learner empathy are critical. You will be setting a technical vision for how people use AI to learn how to use AI, safely and beneficially.\n\nThis is a hands-on, 0-1 product engineering role with broad technical and product ownership. You’ll set direction, make foundational decisions, and ship the first versions of experiences that can grow into the default way people learn at work. You will drive full-stack product experiences end to end, from prototype through launch, instrumentation, iteration, and…",
+      "postedAt": "2026-09-03T19:51:26.815+00:00",
+      "compHint": "$266K - $385K",
+      "score": {
+        "fit": 87,
+        "verdict": "strong",
+        "rationale": "Software Engineer, Native Learning Experiences at OpenAI scores 87/100 (strong) on the Tier-1 deterministic pass. Matched: Backend / distributed / event-driven — Ryan's core strength; Senior / staff / lead level; Platform / reliability / observability — Ryan's secondary strength; AI-native engineering (a SWE who drives AI adoption); Product engineering.",
+        "matched": [
+          "Backend / distributed / event-driven — Ryan's core strength",
+          "Senior / staff / lead level",
+          "Platform / reliability / observability — Ryan's secondary strength",
+          "AI-native engineering (a SWE who drives AI adoption)",
+          "Product engineering"
+        ],
+        "concerns": []
       }
     },
     {
@@ -1245,111 +1352,6 @@
           "Product engineering"
         ],
         "concerns": []
-      }
-    },
-    {
-      "id": "5c88f28d",
-      "source": "ashby",
-      "company": "Ramp",
-      "title": "Software Engineer, Developer API",
-      "location": "New York, NY (HQ)",
-      "remote": true,
-      "url": "https://jobs.ashbyhq.com/ramp/42527ca9-03b9-499e-a5c4-18e4245af138",
-      "descriptionText": "ABOUT RAMP\n\nRamp is building the smart infrastructure for finance teams, embedded in the transaction flow of every dollar a business spends. We automate how over $200B in annualized spend flows in and out of 70,000+ companies: authorizing payments, flagging risk, categorizing spend, and closing books.\n\nThe problems are high-stakes, data-dense, and unforgiving.\n\nWe hire people with high agency and high urgency. We look for slope over intercept. We care less about where you trained and more about what you’ve built. At Ramp, everyone is a builder who owns problems end to end and makes consequential decisions that shape the outcome.\n\nThe median Ramp customer saves 5% and grows revenue 16% in their first year – far in excess of businesses operating without Ramp. We believe every ambitious company deserves the same.\n\nIf you want to build systems that directly shape how companies move and manage billions, Ramp is the place to do it.\n\nABOUT THE ROLE\n\nRamp's Dev API team builds the programmatic surfaces that let developers and AI agents read from and write to Ramp. We are an AI-focused platform team making it trivially easy for any engineer at Ramp (or outside it) to ship new capabilities across all surfaces. Our ideal candidate thinks agent-first, has strong opinions on developer experience, and wants to define how software interacts with financial infrastructure at scale.\n\nCheck out our Engineering Blog https://engineering.ramp.com/ for more on our tech stack, mission, and values!…",
-      "postedAt": "2026-06-29T17:10:36.236+00:00",
-      "compHint": "$168K - $330K",
-      "score": {
-        "fit": 87,
-        "verdict": "strong",
-        "rationale": "Software Engineer, Developer API at Ramp scores 87/100 (strong) on the Tier-1 deterministic pass. Matched: Backend / distributed / event-driven — Ryan's core strength; Senior / staff / lead level; Platform / reliability / observability — Ryan's secondary strength; AI-native engineering (a SWE who drives AI adoption); Strong engineering culture.",
-        "matched": [
-          "Backend / distributed / event-driven — Ryan's core strength",
-          "Senior / staff / lead level",
-          "Platform / reliability / observability — Ryan's secondary strength",
-          "AI-native engineering (a SWE who drives AI adoption)",
-          "Strong engineering culture"
-        ],
-        "concerns": []
-      }
-    },
-    {
-      "id": "ce82c46a",
-      "source": "ashby",
-      "company": "OpenAI",
-      "title": "AI Systems Engineer, Codex Agents",
-      "location": "San Francisco",
-      "remote": "unknown",
-      "url": "https://jobs.ashbyhq.com/openai/de06790a-7243-4e33-a6f1-e7bd34009588",
-      "descriptionText": "AI Systems Engineer - Codex Core Agents\n\nAbout The Team\nThe Codex Core Agents team builds the agent harness that turns model capability into real-world action. We own the systems around the model: prompting and interpreting model outputs, executing actions safely in real environments, and feeding production experience back into better models and better agent behavior.\nThis team sits close to research and works across the stack: harness, model interaction, inference, sandboxed execution, orchestration, evals, production reliability, and the performance envelope around tokens, latency, cost, capacity, and quality. The harness is open source and increasingly part of how models are trained and evaluated, making this one of the highest-leverage layers in Codex.\n\nAbout The Role\nWe’re looking for engineers to build the AI systems that make Codex agents dependable in production. The ideal candidate is an agent-systems builder: hands-on across low-level systems and ML workflows, able to debug Codex behavior end to end across the harness, model behavior, inference/runtime stack, GPU fleet, and product surface.\n\nYou’ll work with research, infrastructure, and product to design agent harness capabilities, run experiments and ablations across the model + system prompt + harness stack, build frameworks for assessing production agent performance, and turn messy failures into durable improvements.\n\nWhat You’ll Do\n\n- Design and build the core agent harness and execution loop that lets Codex…",
-      "postedAt": "2026-05-15T00:10:14.175+00:00",
-      "compHint": "$230K - $385K",
-      "score": {
-        "fit": 87,
-        "verdict": "strong",
-        "rationale": "AI Systems Engineer, Codex Agents at OpenAI scores 87/100 (strong) on the Tier-1 deterministic pass. Matched: Backend / distributed / event-driven — Ryan's core strength; Senior / staff / lead level; Platform / reliability / observability — Ryan's secondary strength; AI-native engineering (a SWE who drives AI adoption); Strong engineering culture. Concerns: remote unstated.",
-        "matched": [
-          "Backend / distributed / event-driven — Ryan's core strength",
-          "Senior / staff / lead level",
-          "Platform / reliability / observability — Ryan's secondary strength",
-          "AI-native engineering (a SWE who drives AI adoption)",
-          "Strong engineering culture"
-        ],
-        "concerns": [
-          "remote unstated"
-        ]
-      }
-    },
-    {
-      "id": "1ac030a7",
-      "source": "ashby",
-      "company": "OpenAI",
-      "title": "Software Engineer, Localization",
-      "location": "San Francisco",
-      "remote": "unknown",
-      "url": "https://jobs.ashbyhq.com/openai/deff9215-217d-4392-825e-7788cb8205f3",
-      "descriptionText": "ABOUT THE TEAM\n\nOpenAI’s mission is to ensure that artificial general intelligence benefits all of humanity. A majority of our users interact with our products in languages other than English, and our products must work seamlessly across languages, regions, and cultures.\n\nThe Internationalization team builds the infrastructure that enables OpenAI products to ship globally by default. We develop the systems that power localization, international product launches, and high-quality global user experiences across all OpenAI products.\n\nABOUT THE ROLE\n\nAs a Senior Software Engineer on the Internationalization team, you will build the systems that power localization and international product launches at OpenAI. You’ll work on the platform that manages product content, translation workflows, and localization infrastructure across our products.\n\nThis role sits at the intersection of AI systems, developer platforms, and product infrastructure.\n\nIN THIS ROLE, YOU WILL\n\n- Build and scale OpenAI’s localization, content, and experimentation platform used across OpenAI product teams, including open-source components:\n\n- Develop AI-powered translation pipelines combined with human-in-the-loop review workflows.\n\n- Design systems that reliably deliver localized product content across web and mobile apps.\n\n- Build tools that enable linguists and localization teams to review and improve translations.\n\n- Develop developer tooling that simplifies localization and internationalization workflows.…",
-      "postedAt": "2026-03-18T21:25:49.295+00:00",
-      "compHint": "$347K - $445K",
-      "score": {
-        "fit": 87,
-        "verdict": "strong",
-        "rationale": "Software Engineer, Localization at OpenAI scores 87/100 (strong) on the Tier-1 deterministic pass. Matched: Backend / distributed / event-driven — Ryan's core strength; Senior / staff / lead level; Platform / reliability / observability — Ryan's secondary strength; AI-native engineering (a SWE who drives AI adoption); Strong engineering culture. Concerns: remote unstated.",
-        "matched": [
-          "Backend / distributed / event-driven — Ryan's core strength",
-          "Senior / staff / lead level",
-          "Platform / reliability / observability — Ryan's secondary strength",
-          "AI-native engineering (a SWE who drives AI adoption)",
-          "Strong engineering culture"
-        ],
-        "concerns": [
-          "remote unstated"
-        ]
-      }
-    },
-    {
-      "id": "3fe5ed8a",
-      "source": "ashby",
-      "company": "Linear",
-      "title": "Senior / Staff Product Engineer",
-      "location": "North America",
-      "remote": true,
-      "url": "https://jobs.ashbyhq.com/linear/12f8f208-0b9c-4569-bb3d-41c8a197029e",
-      "descriptionText": "At Linear, we're building the product development system for teams and agents. AI is fundamentally changing how software gets built, and we’re shaping the tools this new era requires.\n\nFounded in 2019, Linear has become the platform of choice for more than 40,000 companies (including OpenAI, Coinbase, and Ramp) to plan, build, and ship their products. Today, our team is distributed across North America, Europe, and Australia, and we’re continuing to grow internationally. What unites us is relentless focus, fast execution, and a deep care for software craftsmanship.\n\nAs a small team, we’re all generalists that work across the full stack (built in Typescript end-to-end). We’re looking for experienced engineers that thrive in an environment of autonomy and individual responsibility to help us build the future of product development.\n\nLocation & work mode\n\nLinear is a remote-first company, with optional co-working offices in San Francisco, New York, and London. This role is open to candidates based in the US and Europe. You can work from anywhere within these regions. We value deep focus and async collaboration, with intentional moments to connect in person through team off-sites, optional co-working, and occasional travel.\n\nWhat you'll do\n\n- Work closely with founders and design to implement new concepts and ideas\n\n- Build AI-powered functionality into the core of Linear\n\n- Update our realtime collaborative content editor used across all internal surfaces\n\n- Build new…",
-      "postedAt": "2026-03-04T02:08:44.483+00:00",
-      "score": {
-        "fit": 87,
-        "verdict": "strong",
-        "rationale": "Senior / Staff Product Engineer at Linear scores 87/100 (strong) on the Tier-1 deterministic pass. Matched: Backend / distributed / event-driven — Ryan's core strength; Senior / staff / lead level; Platform / reliability / observability — Ryan's secondary strength; AI-native engineering (a SWE who drives AI adoption); Product engineering. Concerns: comp unstated.",
-        "matched": [
-          "Backend / distributed / event-driven — Ryan's core strength",
-          "Senior / staff / lead level",
-          "Platform / reliability / observability — Ryan's secondary strength",
-          "AI-native engineering (a SWE who drives AI adoption)",
-          "Product engineering"
-        ],
-        "concerns": [
-          "comp unstated"
-        ]
       }
     }
   ],
@@ -1433,10 +1435,10 @@
     },
     {
       "company": "Airbnb",
-      "title": "Data Scientist - Inference, Community Support",
-      "url": "https://careers.airbnb.com/positions/8031907?gh_jid=8031907",
-      "reason": "off-role-family",
-      "detail": "title matches no role-family term"
+      "title": "Engineering Manager, Community Support Engineering",
+      "url": "https://careers.airbnb.com/positions/7760914?gh_jid=7760914",
+      "reason": "excluded-title",
+      "detail": "title matches: manager"
     }
   ]
 }
