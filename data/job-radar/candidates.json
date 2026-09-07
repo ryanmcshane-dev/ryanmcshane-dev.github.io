@@ -1,22 +1,22 @@
 {
-  "generatedAt": "2026-09-06T16:22:35.677Z",
+  "generatedAt": "2026-09-07T18:19:24.668Z",
   "tier": "tier-1",
   "counts": {
-    "fetched": 1985,
-    "kept": 541,
-    "dropped": 1444,
+    "fetched": 1939,
+    "kept": 524,
+    "dropped": 1415,
     "byVerdict": {
-      "strong": 105,
-      "possible": 208,
-      "weak": 186,
+      "strong": 110,
+      "possible": 197,
+      "weak": 175,
       "skip": 42
     },
     "droppedByReason": {
-      "excluded-title": 795,
-      "off-role-family": 438,
-      "on-site-only": 17,
-      "non-us-location": 160,
-      "below-comp-floor": 34
+      "excluded-title": 789,
+      "off-role-family": 434,
+      "on-site-only": 18,
+      "non-us-location": 157,
+      "below-comp-floor": 17
     }
   },
   "errors": [
@@ -1096,19 +1096,19 @@
       }
     },
     {
-      "id": "f9829a09",
+      "id": "358ad0ad",
       "source": "greenhouse",
       "company": "Affirm",
-      "title": "Senior CIAM Software Engineer",
+      "title": "Senior Software Engineer, Backend (Lake Analytics Platform)",
       "location": "Remote US",
       "remote": true,
-      "url": "https://job-boards.greenhouse.io/affirm/jobs/7671388003",
-      "descriptionText": "Affirm is reinventing credit to make it more honest and friendly, giving consumers the flexibility to buy now and pay later without any hidden fees or compounding interest.\n\nAffirm is building the next generation of customer identity and authentication. This role is a hands-on engineering position inside Information Security, focused on designing and shipping core CIAM capabilities that protect customers and support growth.\n\nYou will build and operate backend services that power registration, login, authorization, and account lifecycle flows across B2C and B2B experiences. You will work closely with partner engineering teams and ensure identity features are delivered with strong security fundamentals, reliability, and operational rigor.\n\nWhat you’ll do\n\nDesign, build, and operate core CIAM backend services that support customer registration, authentication, authorization, account lifecycle, and profile management for B2C and B2B platforms.\n\nImplement and extend identity standards such as OAuth 2.0, OIDC, SAML, and SCIM in code, ensuring correctness, scalability, and clean integration patterns.\n\nDevelop backend APIs and services in Python and Kotlin that expose identity capabilities to web, mobile, and partner applications.\n\nIntegrate CIAM platforms with internal systems, including user data stores, messaging, fraud signals, and downstream customer platforms.\n\nOwn secure authentication and account flows end to end, including MFA, step-up authentication, device binding,…",
+      "url": "https://job-boards.greenhouse.io/affirm/jobs/7799631003",
+      "descriptionText": "Affirm is reinventing credit to make it more honest and friendly, giving consumers the flexibility to buy now and pay later without any hidden fees or compounding interest.\n\nThe Data and Storage Services team is responsible for Affirm's data infrastructure across OLTP and OLAP systems, spanning critical online checkout databases, batch orchestration, streaming infrastructure, event-driven frameworks, BI, analytics tooling, large-scale data platforms, and agentic data tools such as semantic layers and internal platform data applications. Our mission is to provide trustworthy, intuitive, and cost-efficient solutions for Affirmers to secure, store, analyze, and transform data at exceptional scale.\n\nThis role focuses on the platform and applications layer of Affirm's data infrastructure — building, operating, and extending systems that enable teams across Affirm to work with data at scale. You will be a core contributor to platform reliability, self-service capabilities, and the roadmap toward agentic data tooling and semantic layer infrastructure.\n\nWhat You'll Do\n\nBuild and operate core platform capabilities: Design and implement platform features that enable engineers across Affirm to build, deploy, and operate data applications at scale — covering automated provisioning, deploy pipelines, access control, service lifecycle management, and reliability tooling.\n\nDevelop integrations: Build and maintain integrations between the platform and internal systems — CI/CD pipelines,…",
       "postedAt": "2026-08-12T15:12:11-04:00",
       "score": {
         "fit": 89,
         "verdict": "strong",
-        "rationale": "Senior CIAM Software Engineer at Affirm scores 89/100 (strong) on the Tier-1 deterministic pass. Matched: Backend / distributed / event-driven — Ryan's core strength; Senior / staff / lead level; Platform / reliability / observability — Ryan's secondary strength; AI-native engineering (a SWE who drives AI adoption); Large, reputable, remote-friendly engineering org with a strong Java / distributed-systems bar. Concerns: comp unstated.",
+        "rationale": "Senior Software Engineer, Backend (Lake Analytics Platform) at Affirm scores 89/100 (strong) on the Tier-1 deterministic pass. Matched: Backend / distributed / event-driven — Ryan's core strength; Senior / staff / lead level; Platform / reliability / observability — Ryan's secondary strength; AI-native engineering (a SWE who drives AI adoption); Large, reputable, remote-friendly engineering org with a strong Java / distributed-systems bar. Concerns: comp unstated.",
         "matched": [
           "Backend / distributed / event-driven — Ryan's core strength",
           "Senior / staff / lead level",
@@ -1148,32 +1148,6 @@
       }
     },
     {
-      "id": "a05928ff",
-      "source": "greenhouse",
-      "company": "Affirm",
-      "title": "Software Engineer II, Backend (Test Infra)",
-      "location": "Remote US",
-      "remote": true,
-      "url": "https://job-boards.greenhouse.io/affirm/jobs/7727320003",
-      "descriptionText": "Affirm is reinventing credit to make it more honest and friendly, giving consumers the flexibility to buy now and pay later without any hidden fees or compounding interest.\n\nAffirm is reinventing credit to make it more honest and friendly, giving consumers the flexibility to buy now and pay later without any hidden fees or compounding interest.\nWe are seeking a highly motivated Software Engineer II with strong experience in test automation to contribute to Developer Productivity, with a focus on Test Platform Engineering. The Test Infra team empowers developers to efficiently write, run, analyze, and maintain automated tests. The team’s goals include expanding testing capabilities; building and maintaining testing frameworks; optimizing test orchestration; improving post-run reporting; ensuring the performance and reliability of CI pipelines; introducing AI-driven solutions to enhance developer productivity; and promoting best practices for test automation across the organization.\n\nAs a Software Engineer II in Test Platform Engineering, you will play a key role in building and evolving the core testing infrastructure that supports engineering productivity across the organization. Your work will have a direct impact on how hundreds of engineers develop, validate, and deliver high-quality software. You will focus on designing and maintaining scalable, reliable, and developer-friendly frontend and backend test automation solutions, as well as CI pipelines, enabling teams to…",
-      "postedAt": "2026-08-12T15:12:11-04:00",
-      "score": {
-        "fit": 89,
-        "verdict": "strong",
-        "rationale": "Software Engineer II, Backend (Test Infra) at Affirm scores 89/100 (strong) on the Tier-1 deterministic pass. Matched: Backend / distributed / event-driven — Ryan's core strength; Senior / staff / lead level; Platform / reliability / observability — Ryan's secondary strength; AI-native engineering (a SWE who drives AI adoption); Large, reputable, remote-friendly engineering org with a strong Java / distributed-systems bar. Concerns: comp unstated.",
-        "matched": [
-          "Backend / distributed / event-driven — Ryan's core strength",
-          "Senior / staff / lead level",
-          "Platform / reliability / observability — Ryan's secondary strength",
-          "AI-native engineering (a SWE who drives AI adoption)",
-          "Large, reputable, remote-friendly engineering org with a strong Java / distributed-systems bar"
-        ],
-        "concerns": [
-          "comp unstated"
-        ]
-      }
-    },
-    {
       "id": "b6171b11",
       "source": "greenhouse",
       "company": "Block",
@@ -1193,6 +1167,32 @@
           "Platform / reliability / observability — Ryan's secondary strength",
           "AI-native engineering (a SWE who drives AI adoption)",
           "Large, reputable, remote-friendly engineering org with a strong Java / distributed-systems bar"
+        ],
+        "concerns": [
+          "comp unstated"
+        ]
+      }
+    },
+    {
+      "id": "ac20d08e",
+      "source": "greenhouse",
+      "company": "Dropbox",
+      "title": "Principal Software Engineer, Product Engineering",
+      "location": "Remote - US: All locations",
+      "remote": true,
+      "url": "https://jobs.dropbox.com/listing/8006972?gh_jid=8006972",
+      "descriptionText": "Role Description\n\nAs a Principal Engineer at Dropbox, you will own company critical, loosely defined technical problems with multi year impact, operating at the intersection of technology, product, business strategy, and applied AI. You will define long term technical direction for customer facing experiences used by millions, identifying where AI meaningfully improves customer value and translating evolving business context and industry advances into durable, multi area strategies and roadmaps that shape how Dropbox builds, scales, and innovates, while remaining hands on in software development where it provides the greatest leverage.\n\nYour influence will span organizations, setting foundational architecture, driving execution standards, and aligning senior technical and product leaders across boundaries. You will lead the responsible introduction and adoption of AI across product capabilities and engineering workflows, bring clarity to the most complex decisions, institutionalize engineering excellence, and contribute directly through critical design, prototyping, and code reviews.\n\nIn return, you will operate as a trusted technical partner to senior leadership, shape systems and platforms including AI powered foundations that define Dropbox’s future, and act as a company level technical strategist, advancing Dropbox’s mission to create a more enlightened way of working.\n\nOur Engineering Career Framework is viewable by anyone outside the company and describes what’s…",
+      "postedAt": "2026-09-04T18:02:11-04:00",
+      "score": {
+        "fit": 87,
+        "verdict": "strong",
+        "rationale": "Principal Software Engineer, Product Engineering at Dropbox scores 87/100 (strong) on the Tier-1 deterministic pass. Matched: Backend / distributed / event-driven — Ryan's core strength; Senior / staff / lead level; Platform / reliability / observability — Ryan's secondary strength; AI-native engineering (a SWE who drives AI adoption); Product engineering. Concerns: comp unstated.",
+        "matched": [
+          "Backend / distributed / event-driven — Ryan's core strength",
+          "Senior / staff / lead level",
+          "Platform / reliability / observability — Ryan's secondary strength",
+          "AI-native engineering (a SWE who drives AI adoption)",
+          "Product engineering"
         ],
         "concerns": [
           "comp unstated"
