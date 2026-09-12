@@ -1,22 +1,22 @@
 {
-  "generatedAt": "2026-09-11T17:05:03.723Z",
+  "generatedAt": "2026-09-12T16:24:49.040Z",
   "tier": "tier-1",
   "counts": {
-    "fetched": 1972,
-    "kept": 552,
-    "dropped": 1420,
+    "fetched": 1991,
+    "kept": 556,
+    "dropped": 1435,
     "byVerdict": {
-      "strong": 114,
-      "possible": 217,
-      "weak": 178,
-      "skip": 43
+      "strong": 121,
+      "possible": 219,
+      "weak": 174,
+      "skip": 42
     },
     "droppedByReason": {
-      "excluded-title": 809,
-      "off-role-family": 429,
-      "on-site-only": 17,
-      "non-us-location": 149,
-      "below-comp-floor": 16
+      "excluded-title": 807,
+      "off-role-family": 436,
+      "on-site-only": 16,
+      "non-us-location": 148,
+      "below-comp-floor": 28
     }
   },
   "errors": [
@@ -139,13 +139,40 @@
       }
     },
     {
-      "id": "e6f2f8a6",
+      "id": "242a6ed2",
+      "source": "greenhouse",
+      "company": "Airbnb",
+      "title": "Senior Systems Engineer, BizTech",
+      "location": "Remote",
+      "remote": true,
+      "url": "https://careers.airbnb.com/positions/8197652?gh_jid=8197652",
+      "descriptionText": "Airbnb was born in 2007 when two hosts welcomed three guests to their San Francisco home, and has since grown to over 5 million hosts who have welcomed over 2 billion guest arrivals in almost every country across the globe. Every day, hosts offer unique stays and experiences that make it possible for guests to connect with communities in a more authentic way.\n\nThe Community You Will Join:\n\nThe BizTech BI&Analytics team partners with business and finance stakeholders to deliver scalable self-serve analytics & AI transformation programs, budgeting & forecasting solutions, reliable data pipelines, and trusted metrics & dashboards. Empowering timely, compliant, data-driven decisions and a robust analytics foundation across Airbnb.\n\nThe Difference You Will Make:\n\nWe are seeking a skilled Senior Systems Engineer to support our Oracle EPM Planning systems and processes, with a strong focus on bringing AI automation and AI agent capabilities into Finance workflows. This is an important role within the Airbnb BizTech organization supporting Finance. The ideal candidate combines solid technical depth in the Finance Budgeting and Forecasting function with hands-on experience building AI automation and AI agents. Responsibilities include financial forecast modeling, system and AI-driven process transformation, integration with the data warehouse, and translating business requirements into scalable Oracle EPM and AI-enabled solutions.\n\nA Typical Day:\n\nTechnical Support & System Admin…",
+      "postedAt": "2026-09-11T16:40:45-04:00",
+      "score": {
+        "fit": 92,
+        "verdict": "strong",
+        "rationale": "Senior Systems Engineer, BizTech at Airbnb scores 92/100 (strong) on the Tier-1 deterministic pass. Matched: Backend / distributed / event-driven — Ryan's core strength; Senior / staff / lead level; Platform / reliability / observability — Ryan's secondary strength; AI-native engineering (a SWE who drives AI adoption); Top-choice company. Concerns: comp unstated; location \"Remote\" — confirm US eligibility.",
+        "matched": [
+          "Backend / distributed / event-driven — Ryan's core strength",
+          "Senior / staff / lead level",
+          "Platform / reliability / observability — Ryan's secondary strength",
+          "AI-native engineering (a SWE who drives AI adoption)",
+          "Top-choice company"
+        ],
+        "concerns": [
+          "comp unstated",
+          "location \"Remote\" — confirm US eligibility"
+        ]
+      }
+    },
+    {
+      "id": "81d26445",
       "source": "greenhouse",
       "company": "Twilio",
       "title": "Software Engineer (L4)",
       "location": "Remote - US",
       "remote": true,
-      "url": "https://job-boards.greenhouse.io/twilio/jobs/8103253",
+      "url": "https://job-boards.greenhouse.io/twilio/jobs/8098945",
       "descriptionText": "Who we are\n\nAt Twilio, we’re shaping the future of communications, all from the comfort of our homes. We deliver innovative solutions to hundreds of thousands of businesses and empower millions of developers worldwide to craft personalized customer experiences.\n\nOur dedication to remote-first work , and strong culture of connection and global inclusion means that no matter your location, you’re part of a vibrant team with diverse experiences making a global impact each day. As we continue to revolutionize how the world interacts, we’re acquiring new skills and experiences that make work feel truly rewarding. Your career at Twilio is in your hands.\n.\n\nHiring and how we work\n\nWe use Artificial Intelligence (AI) to help make our hiring process efficient. That said, every hiring decision is made by real Twilions!\n\nAlso, while we are a remote-first company, you may be asked to report in person on an ad-hoc basis for team gatherings, functional off-sites or customer meetings.\n.\n\nSee yourself at Twilio\n\nJoin the team as Twilio’s next Voice and Video Android SDK Staff Engineer.\n\nAbout the job\n\nThis position is needed to build and deliver Voice and Video functionalities to our customers through the Android SDKs. Programmable Voice and Video are few of Twilio’s foundational channels that empower our customers and internal product team to build delightful solutions. The features you deliver will be used by thousands of customers at scale, often as their business’ lifeline. Use cases…",
       "postedAt": "2026-09-10T15:18:08-04:00",
       "score": {
@@ -621,56 +648,6 @@
           "comp unstated",
           "remote unstated"
         ]
-      }
-    },
-    {
-      "id": "2ff41af3",
-      "source": "greenhouse",
-      "company": "Block",
-      "title": "Staff Software Engineer, Financial Platform - Issuing",
-      "location": "Seattle, WA, United States of America",
-      "remote": true,
-      "url": "http://block.xyz/careers/jobs/5421096008?gh_jid=5421096008",
-      "descriptionText": "It all started with an idea at Block in 2013. Initially built to take the pain out of peer-to-peer payments, Cash App has gone from a simple product with a single purpose to a dynamic ecosystem, developing unique financial products, including Afterpay/Clearpay, to provide a better way to send, spend, invest, borrow and save to our 50+ million monthly active customers. We want to redefine the world’s relationship with money to make it more relatable, instantly available, and universally accessible.\n\nToday, Cash App has thousands of employees working globally across office and remote locations, with a culture geared toward innovation, collaboration and impact. We’ve been a distributed team since day one, and many of our roles can be done remotely from the countries where Cash App operates. No matter the location, we tailor our experience to ensure our employees are creative, productive, and happy.\n\nThe Role\n\nAt Block, we strive to build the best financial products in the world. The Financial Platform Issuing team owns the card issuing platform that serves every Block brand — powering Cash App Card, the fourth-largest debit card program in the US, alongside Square Card and the new card programs Block launches next.\n\nWe run the full lifecycle of a card: issuance, fulfillment, and activation; real-time transaction authorization and processing across card networks; digital wallet provisioning; 3-D Secure authentication; clearing and settlement; and disputes. When a customer taps…",
-      "postedAt": "2026-09-10T15:02:57-04:00",
-      "compHint": "$263,600–$395,400, $263,600–$395,400, $263,600–$395,400, $263,600–$395,400",
-      "score": {
-        "fit": 89,
-        "verdict": "strong",
-        "rationale": "Staff Software Engineer, Financial Platform - Issuing at Block scores 89/100 (strong) on the Tier-1 deterministic pass. Matched: Backend / distributed / event-driven — Ryan's core strength; Senior / staff / lead level; Platform / reliability / observability — Ryan's secondary strength; AI-native engineering (a SWE who drives AI adoption); Large, reputable, remote-friendly engineering org with a strong Java / distributed-systems bar.",
-        "matched": [
-          "Backend / distributed / event-driven — Ryan's core strength",
-          "Senior / staff / lead level",
-          "Platform / reliability / observability — Ryan's secondary strength",
-          "AI-native engineering (a SWE who drives AI adoption)",
-          "Large, reputable, remote-friendly engineering org with a strong Java / distributed-systems bar"
-        ],
-        "concerns": []
-      }
-    },
-    {
-      "id": "86a8f92d",
-      "source": "greenhouse",
-      "company": "Block",
-      "title": "Staff Software Engineer, Cash App Banking",
-      "location": "Bay Area, CA, United States of America",
-      "remote": true,
-      "url": "http://block.xyz/careers/jobs/5196194008?gh_jid=5196194008",
-      "descriptionText": "It all started with an idea at Block in 2013. Initially built to take the pain out of peer-to-peer payments, Cash App has gone from a simple product with a single purpose to a dynamic ecosystem, developing unique financial products, including Afterpay/Clearpay, to provide a better way to send, spend, invest, borrow and save to our 50+ million monthly active customers. We want to redefine the world's relationship with money to make it more relatable, instantly available, and universally accessible.\n\nToday, Cash App has thousands of employees working globally across office and remote locations, with a culture geared toward innovation, collaboration and impact. We've been a distributed team since day one, and many of our roles can be done remotely from the countries where Cash App operates. No matter the location, we tailor our experience to ensure our employees are creative, productive, and happy.\n\nThe Role\n\nAt Cash App, we strive to build the best consumer financial products in the world. The Cash App Banking team aspires to make Cash App the primary place for our customers to store, manage, and move money across all their banking needs. We achieve this by providing various offerings including a range of deposit and transfer options, savings and automation tools, and a suite of benefits for Banking customers, all while ensuring a fast and reliable experience.\n\nAs a staff software engineer on the Cash App Banking server engineering team, you will help lead the overall…",
-      "postedAt": "2026-09-10T06:17:44-04:00",
-      "compHint": "$263,600–$395,400, $263,600–$395,400, $263,600–$395,400, $263,600–$395,400",
-      "score": {
-        "fit": 89,
-        "verdict": "strong",
-        "rationale": "Staff Software Engineer, Cash App Banking at Block scores 89/100 (strong) on the Tier-1 deterministic pass. Matched: Backend / distributed / event-driven — Ryan's core strength; Senior / staff / lead level; Platform / reliability / observability — Ryan's secondary strength; AI-native engineering (a SWE who drives AI adoption); Large, reputable, remote-friendly engineering org with a strong Java / distributed-systems bar.",
-        "matched": [
-          "Backend / distributed / event-driven — Ryan's core strength",
-          "Senior / staff / lead level",
-          "Platform / reliability / observability — Ryan's secondary strength",
-          "AI-native engineering (a SWE who drives AI adoption)",
-          "Large, reputable, remote-friendly engineering org with a strong Java / distributed-systems bar"
-        ],
-        "concerns": []
       }
     },
     {
@@ -1305,25 +1282,51 @@
       }
     },
     {
-      "id": "ac20d08e",
+      "id": "7107d5a3",
       "source": "greenhouse",
-      "company": "Dropbox",
-      "title": "Principal Software Engineer, Product Engineering",
-      "location": "Remote - US: All locations",
+      "company": "Affirm",
+      "title": "Senior Software Engineer, Backend (Reliability Platform)",
+      "location": "Remote US",
       "remote": true,
-      "url": "https://jobs.dropbox.com/listing/8006972?gh_jid=8006972",
-      "descriptionText": "Role Description\n\nAs a Principal Engineer at Dropbox, you will own company critical, loosely defined technical problems with multi year impact, operating at the intersection of technology, product, business strategy, and applied AI. You will define long term technical direction for customer facing experiences used by millions, identifying where AI meaningfully improves customer value and translating evolving business context and industry advances into durable, multi area strategies and roadmaps that shape how Dropbox builds, scales, and innovates, while remaining hands on in software development where it provides the greatest leverage.\n\nYour influence will span organizations, setting foundational architecture, driving execution standards, and aligning senior technical and product leaders across boundaries. You will lead the responsible introduction and adoption of AI across product capabilities and engineering workflows, bring clarity to the most complex decisions, institutionalize engineering excellence, and contribute directly through critical design, prototyping, and code reviews.\n\nIn return, you will operate as a trusted technical partner to senior leadership, shape systems and platforms including AI powered foundations that define Dropbox’s future, and act as a company level technical strategist, advancing Dropbox’s mission to create a more enlightened way of working.\n\nOur Engineering Career Framework is viewable by anyone outside the company and describes what’s…",
-      "postedAt": "2026-09-04T18:02:11-04:00",
+      "url": "https://job-boards.greenhouse.io/affirm/jobs/7820306003",
+      "descriptionText": "At Affirm, we exist for the moments that matter—giving people a clear, predictable way to pay over time, with no hidden fees, no surprises, and no tradeoffs on what matters most.\n\nAffirm is reinventing credit to make it more honest and friendly, giving consumers the flexibility to buy now and pay later without any hidden fees or compounding interest.\n\nWe’re looking for a Software Engineer to design and build a next-generation reliability platform for Affirm’s production systems. You’ll blend traditional distributed systems engineering with AI-assisted development to give teams a single place to understand, debug, and improve the health of their services.\n\nThis is a highly creative, hands-on role for someone who loves “vibe coding” — rapidly iterating, shipping, and refining with strong intuition— while still holding a very high bar for reliability, quality, and maintainability.\n\nWhat You'll Do\n· You will be responsible for owning and delivering quarterly goals for your team, leading engineers on your team through ambiguity to solve open-ended problems, and ensuring that everyone is supported throughout delivery.\n· You will support your peers and stakeholders in the product development lifecycle by collaborating with product management, design & analytics by participating in ideation, articulating technical constraints, and partnering on decisions that properly consider risks and trade-offs.\n· You will proactively identify project, process, technology or business issues,…",
+      "postedAt": "2026-08-12T15:12:11-04:00",
       "score": {
-        "fit": 87,
+        "fit": 89,
         "verdict": "strong",
-        "rationale": "Principal Software Engineer, Product Engineering at Dropbox scores 87/100 (strong) on the Tier-1 deterministic pass. Matched: Backend / distributed / event-driven — Ryan's core strength; Senior / staff / lead level; Platform / reliability / observability — Ryan's secondary strength; AI-native engineering (a SWE who drives AI adoption); Product engineering. Concerns: comp unstated.",
+        "rationale": "Senior Software Engineer, Backend (Reliability Platform) at Affirm scores 89/100 (strong) on the Tier-1 deterministic pass. Matched: Backend / distributed / event-driven — Ryan's core strength; Senior / staff / lead level; Platform / reliability / observability — Ryan's secondary strength; AI-native engineering (a SWE who drives AI adoption); Large, reputable, remote-friendly engineering org with a strong Java / distributed-systems bar. Concerns: comp unstated.",
         "matched": [
           "Backend / distributed / event-driven — Ryan's core strength",
           "Senior / staff / lead level",
           "Platform / reliability / observability — Ryan's secondary strength",
           "AI-native engineering (a SWE who drives AI adoption)",
-          "Product engineering"
+          "Large, reputable, remote-friendly engineering org with a strong Java / distributed-systems bar"
+        ],
+        "concerns": [
+          "comp unstated"
+        ]
+      }
+    },
+    {
+      "id": "e0440e84",
+      "source": "greenhouse",
+      "company": "Affirm",
+      "title": "Staff Software Engineer, Backend (Online Storage)",
+      "location": "Remote US",
+      "remote": true,
+      "url": "https://job-boards.greenhouse.io/affirm/jobs/7833950003",
+      "descriptionText": "At Affirm, we exist for the moments that matter—giving people a clear, predictable way to pay over time, with no hidden fees, no surprises, and no tradeoffs on what matters most.\n\nThe Data and Storage Services team is responsible for Affirm's data infrastructure across OLTP and OLAP systems, spanning critical online checkout databases, batch orchestration, streaming infrastructure, event-driven frameworks, BI, analytics tooling, large-scale data platforms, and agentic data tools such as semantic layers and internal platform data applications. Our mission is to provide trustworthy, intuitive, and cost-efficient solutions for Affirmers to secure, store, analyze, and transform data at exceptional scale.\n\nThe Online Storage team provides a set of managed databases as a platform, used to persist data for all Affirm services. Our platform enables self-service access to OLTP storage systems, including Relational DB(MySQL), DynamoDB, Distributed SQL, Cache(Redis). As a team, we are responsible for various data and access patterns, including but not limited to mission-critical financial transactional data, data science models, and any new persistence use case. These responsibilities require us to learn and gain deep expertise in various database systems.\n\nWe are looking for a highly skilled and detail-oriented Staff Software Engineer who can drive the technical roadmap for our Databases (Relational and KeyValue) identifying opportunities to improve how we build, productize, operate…",
+      "postedAt": "2026-08-12T15:12:11-04:00",
+      "score": {
+        "fit": 89,
+        "verdict": "strong",
+        "rationale": "Staff Software Engineer, Backend (Online Storage) at Affirm scores 89/100 (strong) on the Tier-1 deterministic pass. Matched: Backend / distributed / event-driven — Ryan's core strength; Senior / staff / lead level; Platform / reliability / observability — Ryan's secondary strength; AI-native engineering (a SWE who drives AI adoption); Large, reputable, remote-friendly engineering org with a strong Java / distributed-systems bar. Concerns: comp unstated.",
+        "matched": [
+          "Backend / distributed / event-driven — Ryan's core strength",
+          "Senior / staff / lead level",
+          "Platform / reliability / observability — Ryan's secondary strength",
+          "AI-native engineering (a SWE who drives AI adoption)",
+          "Large, reputable, remote-friendly engineering org with a strong Java / distributed-systems bar"
         ],
         "concerns": [
           "comp unstated"
@@ -1388,7 +1391,7 @@
     {
       "company": "Airbnb",
       "title": "Business Operations and Growth Lead",
-      "url": "https://careers.airbnb.com/positions/7834481?gh_jid=7834481",
+      "url": "https://careers.airbnb.com/positions/7999656?gh_jid=7999656",
       "reason": "off-role-family",
       "detail": "title matches no role-family term"
     },
@@ -1405,13 +1408,6 @@
       "url": "https://careers.airbnb.com/positions/7839229?gh_jid=7839229",
       "reason": "excluded-title",
       "detail": "title matches: analyst"
-    },
-    {
-      "company": "Airbnb",
-      "title": "Compensation Partner",
-      "url": "https://careers.airbnb.com/positions/8104102?gh_jid=8104102",
-      "reason": "off-role-family",
-      "detail": "title matches no role-family term"
     },
     {
       "company": "Airbnb",
@@ -1438,6 +1434,13 @@
       "company": "Airbnb",
       "title": "Customer Service Partner Operations Manager, Mandarin Speaking (Singapore Based)",
       "url": "https://careers.airbnb.com/positions/8172706?gh_jid=8172706",
+      "reason": "excluded-title",
+      "detail": "title matches: manager"
+    },
+    {
+      "company": "Airbnb",
+      "title": "Customer Service Partner Operations Manager, Mandarin Speaking (Tokyo Based)",
+      "url": "https://careers.airbnb.com/positions/8172734?gh_jid=8172734",
       "reason": "excluded-title",
       "detail": "title matches: manager"
     }
