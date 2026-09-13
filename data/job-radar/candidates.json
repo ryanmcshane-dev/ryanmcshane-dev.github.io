@@ -1,22 +1,22 @@
 {
-  "generatedAt": "2026-09-12T16:24:49.040Z",
+  "generatedAt": "2026-09-13T17:00:55.362Z",
   "tier": "tier-1",
   "counts": {
-    "fetched": 1991,
-    "kept": 556,
-    "dropped": 1435,
+    "fetched": 1977,
+    "kept": 535,
+    "dropped": 1442,
     "byVerdict": {
-      "strong": 121,
-      "possible": 219,
-      "weak": 174,
-      "skip": 42
+      "strong": 119,
+      "possible": 216,
+      "weak": 161,
+      "skip": 39
     },
     "droppedByReason": {
-      "excluded-title": 807,
-      "off-role-family": 436,
-      "on-site-only": 16,
-      "non-us-location": 148,
-      "below-comp-floor": 28
+      "excluded-title": 818,
+      "off-role-family": 433,
+      "on-site-only": 17,
+      "non-us-location": 147,
+      "below-comp-floor": 27
     }
   },
   "errors": [
@@ -648,6 +648,31 @@
           "comp unstated",
           "remote unstated"
         ]
+      }
+    },
+    {
+      "id": "2ff41af3",
+      "source": "greenhouse",
+      "company": "Block",
+      "title": "Staff Software Engineer, Financial Platform - Issuing",
+      "location": "Seattle, WA, United States of America",
+      "remote": true,
+      "url": "http://block.xyz/careers/jobs/5421096008?gh_jid=5421096008",
+      "descriptionText": "It all started with an idea at Block in 2013. Initially built to take the pain out of peer-to-peer payments, Cash App has gone from a simple product with a single purpose to a dynamic ecosystem, developing unique financial products, including Afterpay/Clearpay, to provide a better way to send, spend, invest, borrow and save to our 50+ million monthly active customers. We want to redefine the world’s relationship with money to make it more relatable, instantly available, and universally accessible.\n\nToday, Cash App has thousands of employees working globally across office and remote locations, with a culture geared toward innovation, collaboration and impact. We’ve been a distributed team since day one, and many of our roles can be done remotely from the countries where Cash App operates. No matter the location, we tailor our experience to ensure our employees are creative, productive, and happy.\n\nThe Role\n\nAt Block, we strive to build the best financial products in the world. The Financial Platform Issuing team owns the card issuing platform that serves every Block brand — powering Cash App Card, the fourth-largest debit card program in the US, alongside Square Card and the new card programs Block launches next.\n\nWe run the full lifecycle of a card: issuance, fulfillment, and activation; real-time transaction authorization and processing across card networks; digital wallet provisioning; 3-D Secure authentication; clearing and settlement; and disputes. When a customer taps…",
+      "postedAt": "2026-09-10T15:02:57-04:00",
+      "compHint": "$263,600–$395,400, $263,600–$395,400, $263,600–$395,400, $263,600–$395,400",
+      "score": {
+        "fit": 89,
+        "verdict": "strong",
+        "rationale": "Staff Software Engineer, Financial Platform - Issuing at Block scores 89/100 (strong) on the Tier-1 deterministic pass. Matched: Backend / distributed / event-driven — Ryan's core strength; Senior / staff / lead level; Platform / reliability / observability — Ryan's secondary strength; AI-native engineering (a SWE who drives AI adoption); Large, reputable, remote-friendly engineering org with a strong Java / distributed-systems bar.",
+        "matched": [
+          "Backend / distributed / event-driven — Ryan's core strength",
+          "Senior / staff / lead level",
+          "Platform / reliability / observability — Ryan's secondary strength",
+          "AI-native engineering (a SWE who drives AI adoption)",
+          "Large, reputable, remote-friendly engineering org with a strong Java / distributed-systems bar"
+        ],
+        "concerns": []
       }
     },
     {
@@ -1331,31 +1356,6 @@
         "concerns": [
           "comp unstated"
         ]
-      }
-    },
-    {
-      "id": "5756857e",
-      "source": "ashby",
-      "company": "OpenAI",
-      "title": "Software Engineer, Native Learning Experiences",
-      "location": "San Francisco",
-      "remote": true,
-      "url": "https://jobs.ashbyhq.com/openai/1098311d-3a07-40ad-8107-6245a492a0b3",
-      "descriptionText": "About the Team\n\nCustomer education helps customers and partners build the practical skills and confidence to use AI and OpenAI products safely and effectively. The team focuses on role- and skill-based learning paths, practical content, and product experiences that accelerate learning in the workplace. It brings together learning and enablement expertise, field insight, product signals, and measurement to improve learner and business outcomes.\n\nTogether, these experiences will help enterprise users build practical AI skills, apply them with confidence in their work, and demonstrate what they can do. Employers will gain a clearer view of workforce skills and progress, helping them recognize capability, focus development where it matters most, and build confidence in workforce readiness.\n\nAbout the Role\n\nWe’re looking for a full-stack engineer to define and build a new class of learning experiences. This is an early-stage product area where technical judgment, product sense, and learner empathy are critical. You will be setting a technical vision for how people use AI to learn how to use AI, safely and beneficially.\n\nThis is a hands-on, 0-1 product engineering role with broad technical and product ownership. You’ll set direction, make foundational decisions, and ship the first versions of experiences that can grow into the default way people learn at work. You will drive full-stack product experiences end to end, from prototype through launch, instrumentation, iteration, and…",
-      "postedAt": "2026-09-03T19:51:26.815+00:00",
-      "compHint": "$266K - $385K",
-      "score": {
-        "fit": 87,
-        "verdict": "strong",
-        "rationale": "Software Engineer, Native Learning Experiences at OpenAI scores 87/100 (strong) on the Tier-1 deterministic pass. Matched: Backend / distributed / event-driven — Ryan's core strength; Senior / staff / lead level; Platform / reliability / observability — Ryan's secondary strength; AI-native engineering (a SWE who drives AI adoption); Product engineering.",
-        "matched": [
-          "Backend / distributed / event-driven — Ryan's core strength",
-          "Senior / staff / lead level",
-          "Platform / reliability / observability — Ryan's secondary strength",
-          "AI-native engineering (a SWE who drives AI adoption)",
-          "Product engineering"
-        ],
-        "concerns": []
       }
     }
   ],
