@@ -1,22 +1,22 @@
 {
-  "generatedAt": "2026-09-17T17:41:25.167Z",
+  "generatedAt": "2026-09-18T17:08:40.042Z",
   "tier": "tier-1",
   "counts": {
-    "fetched": 2001,
-    "kept": 543,
-    "dropped": 1458,
+    "fetched": 2005,
+    "kept": 557,
+    "dropped": 1448,
     "byVerdict": {
-      "strong": 111,
-      "possible": 213,
-      "weak": 184,
-      "skip": 35
+      "strong": 104,
+      "possible": 220,
+      "weak": 193,
+      "skip": 40
     },
     "droppedByReason": {
-      "excluded-title": 829,
-      "off-role-family": 441,
-      "on-site-only": 16,
-      "non-us-location": 150,
-      "below-comp-floor": 22
+      "excluded-title": 824,
+      "off-role-family": 442,
+      "on-site-only": 14,
+      "non-us-location": 147,
+      "below-comp-floor": 21
     }
   },
   "errors": [
@@ -112,6 +112,32 @@
       }
     },
     {
+      "id": "3e2de062",
+      "source": "greenhouse",
+      "company": "Airbnb",
+      "title": "Senior Staff Software Engineer, Guest & Host",
+      "location": "Remote - USA",
+      "remote": true,
+      "url": "https://careers.airbnb.com/positions/8017277?gh_jid=8017277",
+      "descriptionText": "Airbnb was born in 2007 when two hosts welcomed three guests to their San Francisco home, and has since grown to over 5 million hosts who have welcomed over 2 billion guest arrivals in almost every country across the globe. Every day, hosts offer unique stays and experiences that make it possible for guests to connect with communities in a more authentic way.\n\nThe Community You Will Join:\n\nAirbnb is powered by our Guests & Hosts. Our teams work on everything from driving improvements for the end-to-end Host and Guest experience to launching new product verticals from the ground up. Our job is to build world-class, comprehensive platforms and features to create high quality experiences for our outstanding guest and host communities.\n\nWithin our Guest & Host organization is the Communication and Connectivity team. The communication branch owns the tools used daily by millions of guests and hosts, including Messaging (2nd most used surface within Airbnb), push notifications, and other deep integrations with key operating system features. The connectivity branch is responsible to connect hosts together through various ways, it also built a platform to connect 3rd party partners from various domains with Airbnb. The communication and connectivity team has engineers cover multiple disciplines including web engineers, native engineers, backend engineers, data engineers, and machine learning engineers. The role posted here will focus on general backend architecture and application…",
+      "postedAt": "2026-09-18T04:55:55-04:00",
+      "score": {
+        "fit": 92,
+        "verdict": "strong",
+        "rationale": "Senior Staff Software Engineer, Guest & Host at Airbnb scores 92/100 (strong) on the Tier-1 deterministic pass. Matched: Backend / distributed / event-driven — Ryan's core strength; Senior / staff / lead level; Platform / reliability / observability — Ryan's secondary strength; AI-native engineering (a SWE who drives AI adoption); Top-choice company. Concerns: comp unstated.",
+        "matched": [
+          "Backend / distributed / event-driven — Ryan's core strength",
+          "Senior / staff / lead level",
+          "Platform / reliability / observability — Ryan's secondary strength",
+          "AI-native engineering (a SWE who drives AI adoption)",
+          "Top-choice company"
+        ],
+        "concerns": [
+          "comp unstated"
+        ]
+      }
+    },
+    {
       "id": "17ed3271",
       "source": "greenhouse",
       "company": "Airbnb",
@@ -120,7 +146,7 @@
       "remote": true,
       "url": "https://careers.airbnb.com/positions/7818982?gh_jid=7818982",
       "descriptionText": "Airbnb was born in 2007 when two hosts welcomed three guests to their San Francisco home, and has since grown to over 5 million hosts who have welcomed over 2 billion guest arrivals in almost every country across the globe. Every day, hosts offer unique stays and experiences that make it possible for guests to connect with communities in a more authentic way.\n\nThe Community You Will Join:\n\nEveryone at Airbnb thinks about trust, but our team obsesses over it daily. At the core of trust is safety, and thus we spend a significant amount of our time and energy keeping the community safe. The Trust team is responsible for developing the technology that helps protect our community and platform from fraud while also ensuring our hosts, guests, homes, and experiences meet our high standards. We constantly work to fight against online fraud (such as monetary loss, compromised accounts, spam and scam in messages, fake inventory, etc.) as well as offline fraud (theft, property damage, personal safety, etc.). We also work on onboarding and screening of users, and think about complex topics like identity and reputation to ensure that every interaction with Airbnb helps build trust in us and our community. Trust Engineering is responsible for the technology vision and development of a complex stack that runs on every key interaction on the platform.\n\nThe Difference You Will Make:\n\nAs a senior technical individual contributor, you will partner closely with our leaders across the broader…",
-      "postedAt": "2026-09-16T12:54:41-04:00",
+      "postedAt": "2026-09-18T04:55:55-04:00",
       "score": {
         "fit": 92,
         "verdict": "strong",
@@ -134,6 +160,138 @@
         ],
         "concerns": [
           "comp unstated"
+        ]
+      }
+    },
+    {
+      "id": "242a6ed2",
+      "source": "greenhouse",
+      "company": "Airbnb",
+      "title": "Senior Systems Engineer, BizTech",
+      "location": "Remote",
+      "remote": true,
+      "url": "https://careers.airbnb.com/positions/8197652?gh_jid=8197652",
+      "descriptionText": "Airbnb was born in 2007 when two hosts welcomed three guests to their San Francisco home, and has since grown to over 5 million hosts who have welcomed over 2 billion guest arrivals in almost every country across the globe. Every day, hosts offer unique stays and experiences that make it possible for guests to connect with communities in a more authentic way.\n\nThe Community You Will Join:\n\nThe BizTech BI&Analytics team partners with business and finance stakeholders to deliver scalable self-serve analytics & AI transformation programs, budgeting & forecasting solutions, reliable data pipelines, and trusted metrics & dashboards. Empowering timely, compliant, data-driven decisions and a robust analytics foundation across Airbnb.\n\nThe Difference You Will Make:\n\nWe are seeking a skilled Senior Systems Engineer to support our Oracle EPM Planning systems and processes, with a strong focus on bringing AI automation and AI agent capabilities into Finance workflows. This is an important role within the Airbnb BizTech organization supporting Finance. The ideal candidate combines solid technical depth in the Finance Budgeting and Forecasting function with hands-on experience building AI automation and AI agents. Responsibilities include financial forecast modeling, system and AI-driven process transformation, integration with the data warehouse, and translating business requirements into scalable Oracle EPM and AI-enabled solutions.\n\nA Typical Day:\n\nTechnical Support & System Admin…",
+      "postedAt": "2026-09-18T04:55:55-04:00",
+      "score": {
+        "fit": 92,
+        "verdict": "strong",
+        "rationale": "Senior Systems Engineer, BizTech at Airbnb scores 92/100 (strong) on the Tier-1 deterministic pass. Matched: Backend / distributed / event-driven — Ryan's core strength; Senior / staff / lead level; Platform / reliability / observability — Ryan's secondary strength; AI-native engineering (a SWE who drives AI adoption); Top-choice company. Concerns: comp unstated; location \"Remote\" — confirm US eligibility.",
+        "matched": [
+          "Backend / distributed / event-driven — Ryan's core strength",
+          "Senior / staff / lead level",
+          "Platform / reliability / observability — Ryan's secondary strength",
+          "AI-native engineering (a SWE who drives AI adoption)",
+          "Top-choice company"
+        ],
+        "concerns": [
+          "comp unstated",
+          "location \"Remote\" — confirm US eligibility"
+        ]
+      }
+    },
+    {
+      "id": "a13e76f7",
+      "source": "greenhouse",
+      "company": "Airbnb",
+      "title": "Staff Backend Engineer - Ads Platform",
+      "location": "Remote - USA",
+      "remote": true,
+      "url": "https://careers.airbnb.com/positions/8074897?gh_jid=8074897",
+      "descriptionText": "Airbnb was born in 2007 when two hosts welcomed three guests to their San Francisco home, and has since grown to over 5 million hosts who have welcomed over 2 billion guest arrivals in almost every country across the globe. Every day, hosts offer unique stays and experiences that make it possible for guests to connect with communities in a more authentic way.\n\nThe Community You Will Join:\n\nThe Ads Platform team builds the AI-powered growth engine behind Airbnb's paid marketing across Google, Meta, and the broader advertising ecosystem. We build the platform and intelligent systems that power paid campaigns — from creative to optimization to audience — at scale across every channel, with a strong commitment to brand safety, quality, and human oversight. Our ambition is bold: to build increasingly autonomous, AI-driven marketing systems that grow Airbnb's business.\n\nWe sit at the intersection of engineering, marketing, and AI. You'll partner closely with Marketing, Product, and Design, work alongside Airbnb's ML/AI and data platform teams, and integrate deeply with the core product to turn a rich understanding of the customer journey into differentiated, high-performing paid experiences.\n\nThe Difference You Will Make:\n\nAs a Staff Software Engineer on the Ads Platform team, you will lead the technical strategy and hands-on execution of Airbnb's next-generation, AI-powered Growth Engine for paid channels (Google, Meta, and beyond). You will architect systems that autonomously…",
+      "postedAt": "2026-09-18T04:55:55-04:00",
+      "score": {
+        "fit": 92,
+        "verdict": "strong",
+        "rationale": "Staff Backend Engineer - Ads Platform at Airbnb scores 92/100 (strong) on the Tier-1 deterministic pass. Matched: Backend / distributed / event-driven — Ryan's core strength; Senior / staff / lead level; Platform / reliability / observability — Ryan's secondary strength; AI-native engineering (a SWE who drives AI adoption); Top-choice company. Concerns: comp unstated.",
+        "matched": [
+          "Backend / distributed / event-driven — Ryan's core strength",
+          "Senior / staff / lead level",
+          "Platform / reliability / observability — Ryan's secondary strength",
+          "AI-native engineering (a SWE who drives AI adoption)",
+          "Top-choice company"
+        ],
+        "concerns": [
+          "comp unstated"
+        ]
+      }
+    },
+    {
+      "id": "a6f57e27",
+      "source": "greenhouse",
+      "company": "Airbnb",
+      "title": "Staff Software Engineer, Assistance Engineering",
+      "location": "Remote - USA",
+      "remote": true,
+      "url": "https://careers.airbnb.com/positions/7463421?gh_jid=7463421",
+      "descriptionText": "Airbnb was born in 2007 when two hosts welcomed three guests to their San Francisco home, and has since grown to over 5 million hosts who have welcomed over 2 billion guest arrivals in almost every country across the globe. Every day, hosts offer unique stays and experiences that make it possible for guests to connect with communities in a more authentic way.\n\nThe Community You Will Join:\n\nProviding world-class customer service for our community of guests and hosts is a critical mission at Airbnb. The Ambassador Routing & Channels (ARC) team sits within Airbnb Assistance Engineering and is responsible for powering intelligent, differentiated service experiences, ensuring every support request, across any channel, is addressed by the right expert at the right time. Our work directly drives faster resolutions, higher quality interactions, and exceptional customer satisfaction at scale.\n\nThe Difference You Will Make:\n\nAs a Staff GenAI Backend Engineer on the ARC team, you will drive meaningful impact across our core routing and differentiated service programs:\n\nLead engineering delivery on strategic programs that enable intelligent agent matching, personalized support experiences for high-value customers, and next-generation routing and communication channel capabilities.\n\nOwn and evolve core routing infrastructure, including decision engines, workflow orchestration, and routing rule management. Ensuring high availability, correctness, and scalability across millions of daily…",
+      "postedAt": "2026-09-18T04:55:55-04:00",
+      "score": {
+        "fit": 92,
+        "verdict": "strong",
+        "rationale": "Staff Software Engineer, Assistance Engineering at Airbnb scores 92/100 (strong) on the Tier-1 deterministic pass. Matched: Backend / distributed / event-driven — Ryan's core strength; Senior / staff / lead level; Platform / reliability / observability — Ryan's secondary strength; AI-native engineering (a SWE who drives AI adoption); Top-choice company. Concerns: comp unstated.",
+        "matched": [
+          "Backend / distributed / event-driven — Ryan's core strength",
+          "Senior / staff / lead level",
+          "Platform / reliability / observability — Ryan's secondary strength",
+          "AI-native engineering (a SWE who drives AI adoption)",
+          "Top-choice company"
+        ],
+        "concerns": [
+          "comp unstated"
+        ]
+      }
+    },
+    {
+      "id": "38a32fde",
+      "source": "greenhouse",
+      "company": "Airbnb",
+      "title": "Staff Software Engineer, Communication & Connectivity",
+      "location": "United States",
+      "remote": true,
+      "url": "https://careers.airbnb.com/positions/7421419?gh_jid=7421419",
+      "descriptionText": "Airbnb was born in 2007 when two hosts welcomed three guests to their San Francisco home, and has since grown to over 5 million hosts who have welcomed over 2 billion guest arrivals in almost every country across the globe. Every day, hosts offer unique stays and experiences that make it possible for guests to connect with communities in a more authentic way.\n\nThe Community You Will Join:\n\nWe connect Airbnb’s community with the right information, in the right place, at the right time. We tailor Messaging & Notifications so hosts on Airbnb can streamline their operations, and travelers get just the information they need to enjoy their stay worry-free. Additionally, we are building new connections within our community to help enrich the experience of hosting & traveling on Airbnb: easing the process of hosting, and adding meaning to our guest’s trips.\n\nThe data team utilizes industry-leading tools, builds scalable data systems and applies cutting-edge ML models to provide insights and empower all products in the Communication and Connectivity (CnC) organization.\n\nThe Difference You Will Make:\n\nAt CnC, data is foundational to our organization’s success.This role will lead key initiatives to design and build large-scale, distributed data systems - both batch and real-time processing. The data will power machine learning models and unlock new product features. You’ll be at the center of cross-functional collaboration, bridging backend, frontend/client, and machine learning…",
+      "postedAt": "2026-09-18T04:55:55-04:00",
+      "score": {
+        "fit": 92,
+        "verdict": "strong",
+        "rationale": "Staff Software Engineer, Communication & Connectivity at Airbnb scores 92/100 (strong) on the Tier-1 deterministic pass. Matched: Backend / distributed / event-driven — Ryan's core strength; Senior / staff / lead level; Platform / reliability / observability — Ryan's secondary strength; AI-native engineering (a SWE who drives AI adoption); Top-choice company. Concerns: comp unstated.",
+        "matched": [
+          "Backend / distributed / event-driven — Ryan's core strength",
+          "Senior / staff / lead level",
+          "Platform / reliability / observability — Ryan's secondary strength",
+          "AI-native engineering (a SWE who drives AI adoption)",
+          "Top-choice company"
+        ],
+        "concerns": [
+          "comp unstated"
+        ]
+      }
+    },
+    {
+      "id": "38e78986",
+      "source": "workday",
+      "company": "Workday",
+      "title": "Software Engineer/Senior Software Engineer - AI Platform (Agent Runtime)",
+      "location": "USA, CO, Boulder — United States of America",
+      "remote": "unknown",
+      "url": "https://workday.wd5.myworkdayjobs.com/Workday/job/USA-CO-Boulder/Software-Engineer-Senior-Software-Engineer---AI-Platform--Agent-Runtime-_JR-0109507",
+      "descriptionText": "Your work days are brighter here.\n\nWe’re obsessed with making hard work pay off, for our people, our customers, and the world around us. As a Fortune 500 company and a leading AI platform for managing people, money, and agents, we’re shaping the future of work so teams can reach their potential and focus on what matters most. The minute you join, you’ll feel it. Not just in the products we build, but in how we show up for each other. Our culture is rooted in integrity, empathy, and shared enthusiasm. We’re in this together, tackling big challenges with bold ideas and genuine care. We look for curious minds and courageous collaborators who bring sun-drenched optimism and drive. Whether you're building smarter solutions, supporting customers, or creating a space where everyone belongs, you’ll do meaningful work with Workmates who’ve got your back. In return, we’ll give you the trust to take risks, the tools to grow, the skills to develop and the support of a company invested in you for the long haul. So, if you want to inspire a brighter work day for everyone, including yourself, you’ve found a match in Workday, and we hope to be a match for you too.\n\nAbout the Team\nThe Agent Runtime team builds Workday’s secure execution platform for enterprise AI agents. We are creating the runtime substrate that enforces policy by architecture, not by prompt, with deterministic controls for data access, tool use, model routing, and auditability.\n\nOur charter spans runtime isolation, policy…",
+      "postedAt": "2026-09-17",
+      "score": {
+        "fit": 92,
+        "verdict": "strong",
+        "rationale": "Software Engineer/Senior Software Engineer - AI Platform (Agent Runtime) at Workday scores 92/100 (strong) on the Tier-1 deterministic pass. Matched: Backend / distributed / event-driven — Ryan's core strength; Senior / staff / lead level; Platform / reliability / observability — Ryan's secondary strength; AI-native engineering (a SWE who drives AI adoption); HCM / group-benefits domain overlap — Ryan's EOI / Absence Management experience translates directly. Concerns: comp unstated; remote unstated.",
+        "matched": [
+          "Backend / distributed / event-driven — Ryan's core strength",
+          "Senior / staff / lead level",
+          "Platform / reliability / observability — Ryan's secondary strength",
+          "AI-native engineering (a SWE who drives AI adoption)",
+          "HCM / group-benefits domain overlap — Ryan's EOI / Absence Management experience translates directly"
+        ],
+        "concerns": [
+          "comp unstated",
+          "remote unstated"
         ]
       }
     },
@@ -219,33 +377,6 @@
       }
     },
     {
-      "id": "ff096181",
-      "source": "workday",
-      "company": "Workday",
-      "title": "Software Engineer - Context and Semantics (AI)",
-      "location": "USA, CA, Pleasanton — United States of America",
-      "remote": "unknown",
-      "url": "https://workday.wd5.myworkdayjobs.com/Workday/job/USA-CA-Pleasanton/Software-Engineer---Context-and-Semantics--AI-_JR-0110210",
-      "descriptionText": "Your work days are brighter here.\n\nWe’re obsessed with making hard work pay off, for our people, our customers, and the world around us. As a Fortune 500 company and a leading AI platform for managing people, money, and agents, we’re shaping the future of work so teams can reach their potential and focus on what matters most. The minute you join, you’ll feel it. Not just in the products we build, but in how we show up for each other. Our culture is rooted in integrity, empathy, and shared enthusiasm. We’re in this together, tackling big challenges with bold ideas and genuine care. We look for curious minds and courageous collaborators who bring sun-drenched optimism and drive. Whether you're building smarter solutions, supporting customers, or creating a space where everyone belongs, you’ll do meaningful work with Workmates who’ve got your back. In return, we’ll give you the trust to take risks, the tools to grow, the skills to develop and the support of a company invested in you for the long haul. So, if you want to inspire a brighter work day for everyone, including yourself, you’ve found a match in Workday, and we hope to be a match for you too.\n\nAbout the Team\nThe Data Cloud organization is at the forefront of Workday’s next major wave of innovation, driven by a bold mandate to build the industry’s first true Platform for Agents.\n\nWe are a high-energy, ambitious team that balances Workday's deep foundational expertise with fresh, forward-thinking perspectives to…",
-      "postedAt": "2026-09-16",
-      "score": {
-        "fit": 92,
-        "verdict": "strong",
-        "rationale": "Software Engineer - Context and Semantics (AI) at Workday scores 92/100 (strong) on the Tier-1 deterministic pass. Matched: Backend / distributed / event-driven — Ryan's core strength; Senior / staff / lead level; Platform / reliability / observability — Ryan's secondary strength; AI-native engineering (a SWE who drives AI adoption); HCM / group-benefits domain overlap — Ryan's EOI / Absence Management experience translates directly. Concerns: comp unstated; remote unstated.",
-        "matched": [
-          "Backend / distributed / event-driven — Ryan's core strength",
-          "Senior / staff / lead level",
-          "Platform / reliability / observability — Ryan's secondary strength",
-          "AI-native engineering (a SWE who drives AI adoption)",
-          "HCM / group-benefits domain overlap — Ryan's EOI / Absence Management experience translates directly"
-        ],
-        "concerns": [
-          "comp unstated",
-          "remote unstated"
-        ]
-      }
-    },
-    {
       "id": "beb5a20d",
       "source": "smartrecruiters",
       "company": "ServiceNow",
@@ -259,87 +390,6 @@
         "fit": 92,
         "verdict": "strong",
         "rationale": "Senior Staff AI-Native Software Engineer – Agentic Systems at ServiceNow scores 92/100 (strong) on the Tier-1 deterministic pass. Matched: Backend / distributed / event-driven — Ryan's core strength; Senior / staff / lead level; Platform / reliability / observability — Ryan's secondary strength; AI-native engineering (a SWE who drives AI adoption); Strong engineering culture; Large, reputable, remote-friendly engineering org with a strong Java / distributed-systems bar. Concerns: comp unstated; remote unstated.",
-        "matched": [
-          "Backend / distributed / event-driven — Ryan's core strength",
-          "Senior / staff / lead level",
-          "Platform / reliability / observability — Ryan's secondary strength",
-          "AI-native engineering (a SWE who drives AI adoption)",
-          "Strong engineering culture",
-          "Large, reputable, remote-friendly engineering org with a strong Java / distributed-systems bar"
-        ],
-        "concerns": [
-          "comp unstated",
-          "remote unstated"
-        ]
-      }
-    },
-    {
-      "id": "242a6ed2",
-      "source": "greenhouse",
-      "company": "Airbnb",
-      "title": "Senior Systems Engineer, BizTech",
-      "location": "Remote",
-      "remote": true,
-      "url": "https://careers.airbnb.com/positions/8197652?gh_jid=8197652",
-      "descriptionText": "Airbnb was born in 2007 when two hosts welcomed three guests to their San Francisco home, and has since grown to over 5 million hosts who have welcomed over 2 billion guest arrivals in almost every country across the globe. Every day, hosts offer unique stays and experiences that make it possible for guests to connect with communities in a more authentic way.\n\nThe Community You Will Join:\n\nThe BizTech BI&Analytics team partners with business and finance stakeholders to deliver scalable self-serve analytics & AI transformation programs, budgeting & forecasting solutions, reliable data pipelines, and trusted metrics & dashboards. Empowering timely, compliant, data-driven decisions and a robust analytics foundation across Airbnb.\n\nThe Difference You Will Make:\n\nWe are seeking a skilled Senior Systems Engineer to support our Oracle EPM Planning systems and processes, with a strong focus on bringing AI automation and AI agent capabilities into Finance workflows. This is an important role within the Airbnb BizTech organization supporting Finance. The ideal candidate combines solid technical depth in the Finance Budgeting and Forecasting function with hands-on experience building AI automation and AI agents. Responsibilities include financial forecast modeling, system and AI-driven process transformation, integration with the data warehouse, and translating business requirements into scalable Oracle EPM and AI-enabled solutions.\n\nA Typical Day:\n\nTechnical Support & System Admin…",
-      "postedAt": "2026-09-11T16:40:45-04:00",
-      "score": {
-        "fit": 92,
-        "verdict": "strong",
-        "rationale": "Senior Systems Engineer, BizTech at Airbnb scores 92/100 (strong) on the Tier-1 deterministic pass. Matched: Backend / distributed / event-driven — Ryan's core strength; Senior / staff / lead level; Platform / reliability / observability — Ryan's secondary strength; AI-native engineering (a SWE who drives AI adoption); Top-choice company. Concerns: comp unstated; location \"Remote\" — confirm US eligibility.",
-        "matched": [
-          "Backend / distributed / event-driven — Ryan's core strength",
-          "Senior / staff / lead level",
-          "Platform / reliability / observability — Ryan's secondary strength",
-          "AI-native engineering (a SWE who drives AI adoption)",
-          "Top-choice company"
-        ],
-        "concerns": [
-          "comp unstated",
-          "location \"Remote\" — confirm US eligibility"
-        ]
-      }
-    },
-    {
-      "id": "3e2de062",
-      "source": "greenhouse",
-      "company": "Airbnb",
-      "title": "Senior Staff Software Engineer, Guest & Host",
-      "location": "Remote - USA",
-      "remote": true,
-      "url": "https://careers.airbnb.com/positions/8017277?gh_jid=8017277",
-      "descriptionText": "Airbnb was born in 2007 when two hosts welcomed three guests to their San Francisco home, and has since grown to over 5 million hosts who have welcomed over 2 billion guest arrivals in almost every country across the globe. Every day, hosts offer unique stays and experiences that make it possible for guests to connect with communities in a more authentic way.\n\nThe Community You Will Join:\n\nAirbnb is powered by our Guests & Hosts. Our teams work on everything from driving improvements for the end-to-end Host and Guest experience to launching new product verticals from the ground up. Our job is to build world-class, comprehensive platforms and features to create high quality experiences for our outstanding guest and host communities.\n\nWithin our Guest & Host organization is the Communication and Connectivity team. The communication branch owns the tools used daily by millions of guests and hosts, including Messaging (2nd most used surface within Airbnb), push notifications, and other deep integrations with key operating system features. The connectivity branch is responsible to connect hosts together through various ways, it also built a platform to connect 3rd party partners from various domains with Airbnb. The communication and connectivity team has engineers cover multiple disciplines including web engineers, native engineers, backend engineers, data engineers, and machine learning engineers. The role posted here will focus on general backend architecture and application…",
-      "postedAt": "2026-09-09T16:58:26-04:00",
-      "score": {
-        "fit": 92,
-        "verdict": "strong",
-        "rationale": "Senior Staff Software Engineer, Guest & Host at Airbnb scores 92/100 (strong) on the Tier-1 deterministic pass. Matched: Backend / distributed / event-driven — Ryan's core strength; Senior / staff / lead level; Platform / reliability / observability — Ryan's secondary strength; AI-native engineering (a SWE who drives AI adoption); Top-choice company. Concerns: comp unstated.",
-        "matched": [
-          "Backend / distributed / event-driven — Ryan's core strength",
-          "Senior / staff / lead level",
-          "Platform / reliability / observability — Ryan's secondary strength",
-          "AI-native engineering (a SWE who drives AI adoption)",
-          "Top-choice company"
-        ],
-        "concerns": [
-          "comp unstated"
-        ]
-      }
-    },
-    {
-      "id": "9c525646",
-      "source": "smartrecruiters",
-      "company": "ServiceNow",
-      "title": "Staff Research Engineer/Scientist",
-      "location": "Santa Clara, California, United States",
-      "remote": "unknown",
-      "url": "https://jobs.smartrecruiters.com/ServiceNow/744000147044517-staff-research-engineer-scientist?oga=true",
-      "descriptionText": "Our Core AI Research team develops novel methods for enterprise agents that reason over multimodal information, use tools, take reliable action across stateful workflows, and improve through feedback. We work across LLM model post-training, agent harnesses, training environments, evaluations, ML, search and reasoning systems, partnering closely with product, engineering, infrastructure, security, and domain experts. \nAbout the role \nAs a Staff Research Scientist, you will independently lead a major workstream in agent learning and recursive self-improvement. You will turn systematic failures and successful trajectories into hypotheses, experiments, training signals, and deployable improvements to model weights and/or the executable harness around the model. \nThis is a research role for someone who can move between scientific reasoning, training code, agent systems, and production constraints. \nWhat you get to do in this role:   \nDesign and execute end-to-end research projects that improve long-horizon enterprise agents across planning, reasoning, memory, tool use, retrieval, computer use, multi-agent coordination, and verification. \nResearch model post-training methods such as continued pretraining, supervised fine-tuning (SFT), RL, DPO/GRPO, reward modeling, and distillation. \nResearch harness-level optimization across prompts and task framing, tool and schema design, skills, MCP-backed providers, subagents, context and memory management, agent-loop policy, and reliable…",
-      "postedAt": "2026-09-02T16:47:06.582Z",
-      "score": {
-        "fit": 92,
-        "verdict": "strong",
-        "rationale": "Staff Research Engineer/Scientist at ServiceNow scores 92/100 (strong) on the Tier-1 deterministic pass. Matched: Backend / distributed / event-driven — Ryan's core strength; Senior / staff / lead level; Platform / reliability / observability — Ryan's secondary strength; AI-native engineering (a SWE who drives AI adoption); Strong engineering culture; Large, reputable, remote-friendly engineering org with a strong Java / distributed-systems bar. Concerns: comp unstated; remote unstated.",
         "matched": [
           "Backend / distributed / event-driven — Ryan's core strength",
           "Senior / staff / lead level",
@@ -409,111 +459,6 @@
       }
     },
     {
-      "id": "41a34779",
-      "source": "smartrecruiters",
-      "company": "ServiceNow",
-      "title": "Senior Staff IAM Software Engineer",
-      "location": "Bangor, MAINE, United States",
-      "remote": true,
-      "url": "https://jobs.smartrecruiters.com/ServiceNow/744000146839629-senior-staff-iam-software-engineer?oga=true",
-      "descriptionText": "Due to Federal requirements, only US citizens, US naturalized citizens or US Permanent Residents, holding a green card, will be considered.\n\nPLEASE DO NOT APPLY if you cannot meet this Federal Requirement. Thank you in advance.\nThe ServiceNow Security Organization (SSO) \nThe ServiceNow Security Organization (SSO) delivers world-class, innovative security solutions to reduce risk and protect the company and our customers. We enable our customers to migrate their most sensitive data and workloads to the cloud, accelerating our business so that we are the most trusted SaaS provider. We create an environment where our employees are proud to work and can make a positive impact \nAbout the Team\n\nThe Identity Platform Engineering team builds and operates the enterprise Identity and Access Management platform that secures ServiceNow employees, systems, and partners worldwide. We are a team focused on engineering excellence — modernizing how identity governance is built, tested, and delivered.\nWe manage enterprise-scale Identity Platforms and ServiceNow integrations across global and regulated environments, and we are expanding our capabilities into Non-Human Identity governance and AI-assisted access intelligence.\nWe are looking for a Senior Staff IAM Software Engineer to bring full stack and systems depth to the team, build our DevOps engineering foundation, own critical platform integrations, and elevate the engineers around them.\n\nWhat you'll do\nParticipate in all technical…",
-      "postedAt": "2026-09-01T23:35:24.078Z",
-      "score": {
-        "fit": 92,
-        "verdict": "strong",
-        "rationale": "Senior Staff IAM Software Engineer at ServiceNow scores 92/100 (strong) on the Tier-1 deterministic pass. Matched: Backend / distributed / event-driven — Ryan's core strength; Senior / staff / lead level; Platform / reliability / observability — Ryan's secondary strength; AI-native engineering (a SWE who drives AI adoption); Strong engineering culture; Large, reputable, remote-friendly engineering org with a strong Java / distributed-systems bar. Concerns: comp unstated.",
-        "matched": [
-          "Backend / distributed / event-driven — Ryan's core strength",
-          "Senior / staff / lead level",
-          "Platform / reliability / observability — Ryan's secondary strength",
-          "AI-native engineering (a SWE who drives AI adoption)",
-          "Strong engineering culture",
-          "Large, reputable, remote-friendly engineering org with a strong Java / distributed-systems bar"
-        ],
-        "concerns": [
-          "comp unstated"
-        ]
-      }
-    },
-    {
-      "id": "a6f57e27",
-      "source": "greenhouse",
-      "company": "Airbnb",
-      "title": "Staff Software Engineer, Assistance Engineering",
-      "location": "Remote - USA",
-      "remote": true,
-      "url": "https://careers.airbnb.com/positions/7463421?gh_jid=7463421",
-      "descriptionText": "Airbnb was born in 2007 when two hosts welcomed three guests to their San Francisco home, and has since grown to over 5 million hosts who have welcomed over 2 billion guest arrivals in almost every country across the globe. Every day, hosts offer unique stays and experiences that make it possible for guests to connect with communities in a more authentic way.\n\nThe Community You Will Join:\n\nProviding world-class customer service for our community of guests and hosts is a critical mission at Airbnb. The Ambassador Routing & Channels (ARC) team sits within Airbnb Assistance Engineering and is responsible for powering intelligent, differentiated service experiences, ensuring every support request, across any channel, is addressed by the right expert at the right time. Our work directly drives faster resolutions, higher quality interactions, and exceptional customer satisfaction at scale.\n\nThe Difference You Will Make:\n\nAs a Staff GenAI Backend Engineer on the ARC team, you will drive meaningful impact across our core routing and differentiated service programs:\n\nLead engineering delivery on strategic programs that enable intelligent agent matching, personalized support experiences for high-value customers, and next-generation routing and communication channel capabilities.\n\nOwn and evolve core routing infrastructure, including decision engines, workflow orchestration, and routing rule management. Ensuring high availability, correctness, and scalability across millions of daily…",
-      "postedAt": "2026-09-01T18:57:44-04:00",
-      "score": {
-        "fit": 92,
-        "verdict": "strong",
-        "rationale": "Staff Software Engineer, Assistance Engineering at Airbnb scores 92/100 (strong) on the Tier-1 deterministic pass. Matched: Backend / distributed / event-driven — Ryan's core strength; Senior / staff / lead level; Platform / reliability / observability — Ryan's secondary strength; AI-native engineering (a SWE who drives AI adoption); Top-choice company. Concerns: comp unstated.",
-        "matched": [
-          "Backend / distributed / event-driven — Ryan's core strength",
-          "Senior / staff / lead level",
-          "Platform / reliability / observability — Ryan's secondary strength",
-          "AI-native engineering (a SWE who drives AI adoption)",
-          "Top-choice company"
-        ],
-        "concerns": [
-          "comp unstated"
-        ]
-      }
-    },
-    {
-      "id": "38a32fde",
-      "source": "greenhouse",
-      "company": "Airbnb",
-      "title": "Staff Software Engineer, Communication & Connectivity",
-      "location": "United States",
-      "remote": true,
-      "url": "https://careers.airbnb.com/positions/7421419?gh_jid=7421419",
-      "descriptionText": "Airbnb was born in 2007 when two hosts welcomed three guests to their San Francisco home, and has since grown to over 5 million hosts who have welcomed over 2 billion guest arrivals in almost every country across the globe. Every day, hosts offer unique stays and experiences that make it possible for guests to connect with communities in a more authentic way.\n\nThe Community You Will Join:\n\nWe connect Airbnb’s community with the right information, in the right place, at the right time. We tailor Messaging & Notifications so hosts on Airbnb can streamline their operations, and travelers get just the information they need to enjoy their stay worry-free. Additionally, we are building new connections within our community to help enrich the experience of hosting & traveling on Airbnb: easing the process of hosting, and adding meaning to our guest’s trips.\n\nThe data team utilizes industry-leading tools, builds scalable data systems and applies cutting-edge ML models to provide insights and empower all products in the Communication and Connectivity (CnC) organization.\n\nThe Difference You Will Make:\n\nAt CnC, data is foundational to our organization’s success.This role will lead key initiatives to design and build large-scale, distributed data systems - both batch and real-time processing. The data will power machine learning models and unlock new product features. You’ll be at the center of cross-functional collaboration, bridging backend, frontend/client, and machine learning…",
-      "postedAt": "2026-08-18T13:07:47-04:00",
-      "score": {
-        "fit": 92,
-        "verdict": "strong",
-        "rationale": "Staff Software Engineer, Communication & Connectivity at Airbnb scores 92/100 (strong) on the Tier-1 deterministic pass. Matched: Backend / distributed / event-driven — Ryan's core strength; Senior / staff / lead level; Platform / reliability / observability — Ryan's secondary strength; AI-native engineering (a SWE who drives AI adoption); Top-choice company. Concerns: comp unstated.",
-        "matched": [
-          "Backend / distributed / event-driven — Ryan's core strength",
-          "Senior / staff / lead level",
-          "Platform / reliability / observability — Ryan's secondary strength",
-          "AI-native engineering (a SWE who drives AI adoption)",
-          "Top-choice company"
-        ],
-        "concerns": [
-          "comp unstated"
-        ]
-      }
-    },
-    {
-      "id": "a13e76f7",
-      "source": "greenhouse",
-      "company": "Airbnb",
-      "title": "Staff Backend Engineer - Ads Platform",
-      "location": "Remote - USA",
-      "remote": true,
-      "url": "https://careers.airbnb.com/positions/8074897?gh_jid=8074897",
-      "descriptionText": "Airbnb was born in 2007 when two hosts welcomed three guests to their San Francisco home, and has since grown to over 5 million hosts who have welcomed over 2 billion guest arrivals in almost every country across the globe. Every day, hosts offer unique stays and experiences that make it possible for guests to connect with communities in a more authentic way.\n\nThe Community You Will Join:\n\nThe Ads Platform team builds the AI-powered growth engine behind Airbnb's paid marketing across Google, Meta, and the broader advertising ecosystem. We build the platform and intelligent systems that power paid campaigns — from creative to optimization to audience — at scale across every channel, with a strong commitment to brand safety, quality, and human oversight. Our ambition is bold: to build increasingly autonomous, AI-driven marketing systems that grow Airbnb's business.\n\nWe sit at the intersection of engineering, marketing, and AI. You'll partner closely with Marketing, Product, and Design, work alongside Airbnb's ML/AI and data platform teams, and integrate deeply with the core product to turn a rich understanding of the customer journey into differentiated, high-performing paid experiences.\n\nThe Difference You Will Make:\n\nAs a Staff Software Engineer on the Ads Platform team, you will lead the technical strategy and hands-on execution of Airbnb's next-generation, AI-powered Growth Engine for paid channels (Google, Meta, and beyond). You will architect systems that autonomously…",
-      "postedAt": "2026-07-22T15:52:40-04:00",
-      "score": {
-        "fit": 92,
-        "verdict": "strong",
-        "rationale": "Staff Backend Engineer - Ads Platform at Airbnb scores 92/100 (strong) on the Tier-1 deterministic pass. Matched: Backend / distributed / event-driven — Ryan's core strength; Senior / staff / lead level; Platform / reliability / observability — Ryan's secondary strength; AI-native engineering (a SWE who drives AI adoption); Top-choice company. Concerns: comp unstated.",
-        "matched": [
-          "Backend / distributed / event-driven — Ryan's core strength",
-          "Senior / staff / lead level",
-          "Platform / reliability / observability — Ryan's secondary strength",
-          "AI-native engineering (a SWE who drives AI adoption)",
-          "Top-choice company"
-        ],
-        "concerns": [
-          "comp unstated"
-        ]
-      }
-    },
-    {
       "id": "c07a9e4b",
       "source": "workday",
       "company": "Workday",
@@ -533,6 +478,60 @@
           "Platform / reliability / observability — Ryan's secondary strength",
           "AI-native engineering (a SWE who drives AI adoption)",
           "HCM / group-benefits domain overlap — Ryan's EOI / Absence Management experience translates directly"
+        ],
+        "concerns": [
+          "comp unstated",
+          "remote unstated"
+        ]
+      }
+    },
+    {
+      "id": "d1925a13",
+      "source": "smartrecruiters",
+      "company": "ServiceNow",
+      "title": "Senior Staff Software Engineer, Developer Experience — Moveworks",
+      "location": "Mountain View, California, United States",
+      "remote": "unknown",
+      "url": "https://jobs.smartrecruiters.com/ServiceNow/744000150407739-senior-staff-software-engineer-developer-experience-moveworks?oga=true",
+      "descriptionText": "**This role requires in-office presence in Mountain View, CA 5x/week**\nAbout the Team\nThe Developer Experience team builds platforms that enable developers building on the Moveworks Agentic AI platform. We own the flywheel: more builders → more integrations shipped → better assistant → more demand. We build scalable infrastructure first, then the products on top of it. Platform engineering discipline meets developer-facing product thinking.\nThe Role \nYou own the technical foundation the team ships on. You design and build the hardest platform problems — generality, scalability, extensibility — while keeping developer experience as the measure. You think in systems. You ship. You bring others along.\nWhat You'll Do \nDesign and build core developer platforms: SDKs, APIs, runtime abstractions, tooling infrastructure, developer-facing services\nOwn end-to-end delivery of products that increase developer productivity: faster time-to-market, higher-quality artifacts, lower friction\nDefine platform primitives other products build on — bias toward generality, reliability, clean abstractions\nDrive measurable supply metrics: developer activation, integration velocity, artifact quality, ecosystem breadth\nLead technical strategy for your platform areas: roadmap, API design, cross-team alignment\nSet the engineering bar: architecture, design standards, observability, operational excellence\nMentor senior engineers; raise the team's technical depth\n\nWhat We Look For at Senior Staff Level…",
+      "postedAt": "2026-09-18T15:28:17.350Z",
+      "score": {
+        "fit": 89,
+        "verdict": "strong",
+        "rationale": "Senior Staff Software Engineer, Developer Experience — Moveworks at ServiceNow scores 89/100 (strong) on the Tier-1 deterministic pass. Matched: Backend / distributed / event-driven — Ryan's core strength; Senior / staff / lead level; Platform / reliability / observability — Ryan's secondary strength; AI-native engineering (a SWE who drives AI adoption); Large, reputable, remote-friendly engineering org with a strong Java / distributed-systems bar. Concerns: comp unstated; remote unstated.",
+        "matched": [
+          "Backend / distributed / event-driven — Ryan's core strength",
+          "Senior / staff / lead level",
+          "Platform / reliability / observability — Ryan's secondary strength",
+          "AI-native engineering (a SWE who drives AI adoption)",
+          "Large, reputable, remote-friendly engineering org with a strong Java / distributed-systems bar"
+        ],
+        "concerns": [
+          "comp unstated",
+          "remote unstated"
+        ]
+      }
+    },
+    {
+      "id": "90645047",
+      "source": "smartrecruiters",
+      "company": "ServiceNow",
+      "title": "Staff Software Engineer",
+      "location": "Santa Clara, California, United States",
+      "remote": "unknown",
+      "url": "https://jobs.smartrecruiters.com/ServiceNow/744000150214364-staff-software-engineer?oga=true",
+      "descriptionText": "Overview\n \nThe Staff Software Engineer, Voice Connectivity Engineering designs, builds, ships, and operates the connectivity layer between a customer's existing telephony and CCaaS environment and the ServiceNow Voice ecosystem. The engineer works across the full lifecycle: mapping a customer's SIP trunks, CTI integrations, and CCaaS-specific APIs, building and hardening the signaling, media, and event integrations that connect those systems to ServiceNow's Voice/CTI and Native Voice Controls platform, and proving through testing and production monitoring that calls connect, stay connected, and hand off cleanly under real network and carrier conditions. This is not an agent-building role — the engineer is not primarily authoring the prompts or instructions that drive voice AI agent behavior — but it is the foundation those agents run on: without a reliable connectivity layer, no agent, however well designed, can reach a live caller.\nTwo things follow. First, correctness here is measured in call setup success, audio quality, latency, and failover behavior rather than model output — the engineer's product is a connection that has to hold up under real carrier, network, and vendor conditions, not just in a reference environment. Second, because every customer's telephony and CCaaS setup differs — different SIP providers, media gateways, authentication schemes, and CCaaS vendor quirks — the engineer must design integrations that are resilient and diagnosable, with clear failure…",
+      "postedAt": "2026-09-17T20:52:47.194Z",
+      "score": {
+        "fit": 89,
+        "verdict": "strong",
+        "rationale": "Staff Software Engineer at ServiceNow scores 89/100 (strong) on the Tier-1 deterministic pass. Matched: Backend / distributed / event-driven — Ryan's core strength; Senior / staff / lead level; Platform / reliability / observability — Ryan's secondary strength; AI-native engineering (a SWE who drives AI adoption); Large, reputable, remote-friendly engineering org with a strong Java / distributed-systems bar. Concerns: comp unstated; remote unstated.",
+        "matched": [
+          "Backend / distributed / event-driven — Ryan's core strength",
+          "Senior / staff / lead level",
+          "Platform / reliability / observability — Ryan's secondary strength",
+          "AI-native engineering (a SWE who drives AI adoption)",
+          "Large, reputable, remote-friendly engineering org with a strong Java / distributed-systems bar"
         ],
         "concerns": [
           "comp unstated",
@@ -634,32 +633,6 @@
         "fit": 89,
         "verdict": "strong",
         "rationale": "Principal Software Engineer / AI Solution Consultant (Armis) at ServiceNow scores 89/100 (strong) on the Tier-1 deterministic pass. Matched: Backend / distributed / event-driven — Ryan's core strength; Senior / staff / lead level; Platform / reliability / observability — Ryan's secondary strength; AI-native engineering (a SWE who drives AI adoption); Large, reputable, remote-friendly engineering org with a strong Java / distributed-systems bar. Concerns: comp unstated.",
-        "matched": [
-          "Backend / distributed / event-driven — Ryan's core strength",
-          "Senior / staff / lead level",
-          "Platform / reliability / observability — Ryan's secondary strength",
-          "AI-native engineering (a SWE who drives AI adoption)",
-          "Large, reputable, remote-friendly engineering org with a strong Java / distributed-systems bar"
-        ],
-        "concerns": [
-          "comp unstated"
-        ]
-      }
-    },
-    {
-      "id": "8899212c",
-      "source": "smartrecruiters",
-      "company": "ServiceNow",
-      "title": "Staff Software Engineer",
-      "location": "Albany, NEW YORK, United States",
-      "remote": true,
-      "url": "https://jobs.smartrecruiters.com/ServiceNow/744000149961559-staff-software-engineer?oga=true",
-      "descriptionText": "Job Description \n\nThe GAIL (Get AI Live) program deploys engineers directly into strategic customer engagements to drive real AI adoption and measurable value realization. The GAIL Core Team is the permanent engine behind that program — the stable foundation of institutional knowledge, tooling ownership, and senior expertise that makes every engagement, and every rotating engineer, better than the last. \nAs a Staff Software Engineer on the GAIL Core Team, you will own the hardest engagements, set the quality standard for the entire practice, and build the infrastructure that scales it. This is hands-on, customer-facing work — not theoretical process — and it compounds in impact with every engagement you lead, and every engineer you bring up behind you. \nWhat you get to do in this role: \nLead the most complex GAIL and Go-Live Support engagements — large-scale enterprise deployments, escalations, and high-stakes go-lives where depth and experience matter most. \n\nOwn and evolve the GAIL playbook — keeping deployment standards, required gates, and prescribed sequences current, accurate, and actionable across the program. \n\nBuild, maintain, and push shared GAIL tooling across all engagements — reducing reinvention and raising the floor for every engineer in the rotation. \n\nMentor and ramp incoming GAIL engineers through structured onboarding, shadowing, and coaching on first customer interactions. \n\nCapture patterns from complex deployments and feed them into the team's knowledge…",
-      "postedAt": "2026-09-16T22:00:39.082Z",
-      "score": {
-        "fit": 89,
-        "verdict": "strong",
-        "rationale": "Staff Software Engineer at ServiceNow scores 89/100 (strong) on the Tier-1 deterministic pass. Matched: Backend / distributed / event-driven — Ryan's core strength; Senior / staff / lead level; Platform / reliability / observability — Ryan's secondary strength; AI-native engineering (a SWE who drives AI adoption); Large, reputable, remote-friendly engineering org with a strong Java / distributed-systems bar. Concerns: comp unstated.",
         "matched": [
           "Backend / distributed / event-driven — Ryan's core strength",
           "Senior / staff / lead level",
@@ -842,33 +815,6 @@
         "fit": 89,
         "verdict": "strong",
         "rationale": "Staff Engineer, Machine Learning Systems & Reliability - Moveworks at ServiceNow scores 89/100 (strong) on the Tier-1 deterministic pass. Matched: Backend / distributed / event-driven — Ryan's core strength; Senior / staff / lead level; Platform / reliability / observability — Ryan's secondary strength; AI-native engineering (a SWE who drives AI adoption); Large, reputable, remote-friendly engineering org with a strong Java / distributed-systems bar. Concerns: comp unstated; remote unstated.",
-        "matched": [
-          "Backend / distributed / event-driven — Ryan's core strength",
-          "Senior / staff / lead level",
-          "Platform / reliability / observability — Ryan's secondary strength",
-          "AI-native engineering (a SWE who drives AI adoption)",
-          "Large, reputable, remote-friendly engineering org with a strong Java / distributed-systems bar"
-        ],
-        "concerns": [
-          "comp unstated",
-          "remote unstated"
-        ]
-      }
-    },
-    {
-      "id": "d70d87fe",
-      "source": "smartrecruiters",
-      "company": "ServiceNow",
-      "title": "Senior Staff Information Systems Engineer",
-      "location": "Mountain View, California, United States",
-      "remote": "unknown",
-      "url": "https://jobs.smartrecruiters.com/ServiceNow/744000148856449-senior-staff-information-systems-engineer?oga=true",
-      "descriptionText": "What you get to do in this role:\nLead the technical design, implementation, and optimization of global infrastructure services; primarily focused on our Hybrid Cloud initiative.\nLead the architectural and topology design, new technology evaluation and integration planning activities.\nResearch and recommend new technology, such as integrated hardware and software solutions, that meet key business requirements.\nEnsure architecture and design provides reliability and redundancy for all IT Services. \nManage assigned projects and program components to deliver services in accordance with established objectives.\nEnsure high quality documentation for supported infrastructure is developed and maintained.\nDrive the automation of operational activities for Windows, Linux , and Cloud related technologies.\nPartner with ServiceNow developers to integrate Systems technologies with the ServiceNow platform.\nEnsure SOX and other legal and regulatory compliance in the infrastructure area.\n\nTo be successful in this role you have:\nExperience in leveraging or critically thinking about how to integrate AI into work processes, decision-making, or problem-solving. This may include using AI-powered tools, automating workflows, analyzing AI-driven insights, or exploring AI's potential impact on the function or industry.\nDeep experience designing and administrating public cloud Infrastructure-as-a-Service in Azure or AWS\nA minimum of 10 years of experience in the design and development of Windows and…",
-      "postedAt": "2026-09-10T19:37:55.519Z",
-      "score": {
-        "fit": 89,
-        "verdict": "strong",
-        "rationale": "Senior Staff Information Systems Engineer at ServiceNow scores 89/100 (strong) on the Tier-1 deterministic pass. Matched: Backend / distributed / event-driven — Ryan's core strength; Senior / staff / lead level; Platform / reliability / observability — Ryan's secondary strength; AI-native engineering (a SWE who drives AI adoption); Large, reputable, remote-friendly engineering org with a strong Java / distributed-systems bar. Concerns: comp unstated; remote unstated.",
         "matched": [
           "Backend / distributed / event-driven — Ryan's core strength",
           "Senior / staff / lead level",
@@ -1118,19 +1064,19 @@
       }
     },
     {
-      "id": "358ad0ad",
+      "id": "2cdf4e9c",
       "source": "greenhouse",
       "company": "Affirm",
-      "title": "Senior Software Engineer, Backend (Lake Analytics Platform)",
+      "title": "Staff Software Engineer, Backend (Search)",
       "location": "Remote US",
       "remote": true,
-      "url": "https://job-boards.greenhouse.io/affirm/jobs/7799631003",
-      "descriptionText": "At Affirm, we exist for the moments that matter—giving people a clear, predictable way to pay over time, with no hidden fees, no surprises, and no tradeoffs on what matters most.\n\nThe Data and Storage Services team is responsible for Affirm's data infrastructure across OLTP and OLAP systems, spanning critical online checkout databases, batch orchestration, streaming infrastructure, event-driven frameworks, BI, analytics tooling, large-scale data platforms, and agentic data tools such as semantic layers and internal platform data applications. Our mission is to provide trustworthy, intuitive, and cost-efficient solutions for Affirmers to secure, store, analyze, and transform data at exceptional scale.\n\nThis role focuses on the platform and applications layer of Affirm's data infrastructure — building, operating, and extending systems that enable teams across Affirm to work with data at scale. You will be a core contributor to platform reliability, self-service capabilities, and the roadmap toward agentic data tooling and semantic layer infrastructure.\n\nWhat You'll Do\n\nBuild and operate core platform capabilities: Design and implement platform features that enable engineers across Affirm to build, deploy, and operate data applications at scale — covering automated provisioning, deploy pipelines, access control, service lifecycle management, and reliability tooling.\n\nDevelop integrations: Build and maintain integrations between the platform and internal systems — CI/CD…",
-      "postedAt": "2026-08-12T15:12:11-04:00",
+      "url": "https://job-boards.greenhouse.io/affirm/jobs/7803078003",
+      "descriptionText": "At Affirm, we exist for the moments that matter—giving people a clear, predictable way to pay over time, with no hidden fees, no surprises, and no tradeoffs on what matters most.\n\nAs we build Affirm's advertising platform and evolve Marketplace into a best in class shopping destination, the ability to route and discover is one of the greatest levers for consumer experiences. Search is one of the highest impact surfaces, and we are building a new team that will own not just the recommendations and search experiences, but also explore opportunities to improve customer experience, monetization, and merchant value. This team will help make Affirm the definitive destination consumers turn to for discovery, understanding, comparing, and shopping through Affirm, and will also lay the foundation for an agentic platform.\n\nWhat You'll Do\n\n· You will be responsible for setting technical strategy for your team on a year-long time scale, and help your team tie it together with critical, business-impacting projects.\n· You will collaborate across teams in the product development lifecycle by collaborating with product management, design & analytics to ensure technical sustainability, risks and trade-offs are well understood and managed.\n· You will act as a force-multiplier for your team through your definition and advocacy of technical solutions and operational processes.\n· You take ownership of your team’s operations and availability by ensuring you have the right monitoring, triage…",
+      "postedAt": "2026-08-13T12:33:37-04:00",
       "score": {
         "fit": 89,
         "verdict": "strong",
-        "rationale": "Senior Software Engineer, Backend (Lake Analytics Platform) at Affirm scores 89/100 (strong) on the Tier-1 deterministic pass. Matched: Backend / distributed / event-driven — Ryan's core strength; Senior / staff / lead level; Platform / reliability / observability — Ryan's secondary strength; AI-native engineering (a SWE who drives AI adoption); Large, reputable, remote-friendly engineering org with a strong Java / distributed-systems bar. Concerns: comp unstated.",
+        "rationale": "Staff Software Engineer, Backend (Search) at Affirm scores 89/100 (strong) on the Tier-1 deterministic pass. Matched: Backend / distributed / event-driven — Ryan's core strength; Senior / staff / lead level; Platform / reliability / observability — Ryan's secondary strength; AI-native engineering (a SWE who drives AI adoption); Large, reputable, remote-friendly engineering org with a strong Java / distributed-systems bar. Concerns: comp unstated.",
         "matched": [
           "Backend / distributed / event-driven — Ryan's core strength",
           "Senior / staff / lead level",
@@ -1144,19 +1090,19 @@
       }
     },
     {
-      "id": "7107d5a3",
+      "id": "a05928ff",
       "source": "greenhouse",
       "company": "Affirm",
-      "title": "Senior Software Engineer, Backend (Reliability Platform)",
+      "title": "Software Engineer II, Backend (Test Infra)",
       "location": "Remote US",
       "remote": true,
-      "url": "https://job-boards.greenhouse.io/affirm/jobs/7820306003",
-      "descriptionText": "At Affirm, we exist for the moments that matter—giving people a clear, predictable way to pay over time, with no hidden fees, no surprises, and no tradeoffs on what matters most.\n\nAffirm is reinventing credit to make it more honest and friendly, giving consumers the flexibility to buy now and pay later without any hidden fees or compounding interest.\n\nWe’re looking for a Software Engineer to design and build a next-generation reliability platform for Affirm’s production systems. You’ll blend traditional distributed systems engineering with AI-assisted development to give teams a single place to understand, debug, and improve the health of their services.\n\nThis is a highly creative, hands-on role for someone who loves “vibe coding” — rapidly iterating, shipping, and refining with strong intuition— while still holding a very high bar for reliability, quality, and maintainability.\n\nWhat You'll Do\n· You will be responsible for owning and delivering quarterly goals for your team, leading engineers on your team through ambiguity to solve open-ended problems, and ensuring that everyone is supported throughout delivery.\n· You will support your peers and stakeholders in the product development lifecycle by collaborating with product management, design & analytics by participating in ideation, articulating technical constraints, and partnering on decisions that properly consider risks and trade-offs.\n· You will proactively identify project, process, technology or business issues,…",
+      "url": "https://job-boards.greenhouse.io/affirm/jobs/7727320003",
+      "descriptionText": "At Affirm, we exist for the moments that matter—giving people a clear, predictable way to pay over time, with no hidden fees, no surprises, and no tradeoffs on what matters most.\n\nAffirm is reinventing credit to make it more honest and friendly, giving consumers the flexibility to buy now and pay later without any hidden fees or compounding interest.\nWe are seeking a highly motivated Software Engineer II with strong experience in test automation to contribute to Developer Productivity, with a focus on Test Platform Engineering. The Test Infra team empowers developers to efficiently write, run, analyze, and maintain automated tests. The team’s goals include expanding testing capabilities; building and maintaining testing frameworks; optimizing test orchestration; improving post-run reporting; ensuring the performance and reliability of CI pipelines; introducing AI-driven solutions to enhance developer productivity; and promoting best practices for test automation across the organization.\n\nAs a Software Engineer II in Test Platform Engineering, you will play a key role in building and evolving the core testing infrastructure that supports engineering productivity across the organization. Your work will have a direct impact on how hundreds of engineers develop, validate, and deliver high-quality software. You will focus on designing and maintaining scalable, reliable, and developer-friendly frontend and backend test automation solutions, as well as CI pipelines, enabling teams…",
       "postedAt": "2026-08-12T15:12:11-04:00",
       "score": {
         "fit": 89,
         "verdict": "strong",
-        "rationale": "Senior Software Engineer, Backend (Reliability Platform) at Affirm scores 89/100 (strong) on the Tier-1 deterministic pass. Matched: Backend / distributed / event-driven — Ryan's core strength; Senior / staff / lead level; Platform / reliability / observability — Ryan's secondary strength; AI-native engineering (a SWE who drives AI adoption); Large, reputable, remote-friendly engineering org with a strong Java / distributed-systems bar. Concerns: comp unstated.",
+        "rationale": "Software Engineer II, Backend (Test Infra) at Affirm scores 89/100 (strong) on the Tier-1 deterministic pass. Matched: Backend / distributed / event-driven — Ryan's core strength; Senior / staff / lead level; Platform / reliability / observability — Ryan's secondary strength; AI-native engineering (a SWE who drives AI adoption); Large, reputable, remote-friendly engineering org with a strong Java / distributed-systems bar. Concerns: comp unstated.",
         "matched": [
           "Backend / distributed / event-driven — Ryan's core strength",
           "Senior / staff / lead level",
@@ -1350,6 +1296,59 @@
           "remote unstated"
         ]
       }
+    },
+    {
+      "id": "1ac030a7",
+      "source": "ashby",
+      "company": "OpenAI",
+      "title": "Software Engineer, Localization",
+      "location": "San Francisco",
+      "remote": "unknown",
+      "url": "https://jobs.ashbyhq.com/openai/deff9215-217d-4392-825e-7788cb8205f3",
+      "descriptionText": "ABOUT THE TEAM\n\nOpenAI’s mission is to ensure that artificial general intelligence benefits all of humanity. A majority of our users interact with our products in languages other than English, and our products must work seamlessly across languages, regions, and cultures.\n\nThe Internationalization team builds the infrastructure that enables OpenAI products to ship globally by default. We develop the systems that power localization, international product launches, and high-quality global user experiences across all OpenAI products.\n\nABOUT THE ROLE\n\nAs a Senior Software Engineer on the Internationalization team, you will build the systems that power localization and international product launches at OpenAI. You’ll work on the platform that manages product content, translation workflows, and localization infrastructure across our products.\n\nThis role sits at the intersection of AI systems, developer platforms, and product infrastructure.\n\nIN THIS ROLE, YOU WILL\n\n- Build and scale OpenAI’s localization, content, and experimentation platform used across OpenAI product teams, including open-source components:\n\n- Develop AI-powered translation pipelines combined with human-in-the-loop review workflows.\n\n- Design systems that reliably deliver localized product content across web and mobile apps.\n\n- Build tools that enable linguists and localization teams to review and improve translations.\n\n- Develop developer tooling that simplifies localization and internationalization workflows.…",
+      "postedAt": "2026-03-18T21:25:49.295+00:00",
+      "compHint": "$347K - $445K",
+      "score": {
+        "fit": 87,
+        "verdict": "strong",
+        "rationale": "Software Engineer, Localization at OpenAI scores 87/100 (strong) on the Tier-1 deterministic pass. Matched: Backend / distributed / event-driven — Ryan's core strength; Senior / staff / lead level; Platform / reliability / observability — Ryan's secondary strength; AI-native engineering (a SWE who drives AI adoption); Strong engineering culture. Concerns: remote unstated.",
+        "matched": [
+          "Backend / distributed / event-driven — Ryan's core strength",
+          "Senior / staff / lead level",
+          "Platform / reliability / observability — Ryan's secondary strength",
+          "AI-native engineering (a SWE who drives AI adoption)",
+          "Strong engineering culture"
+        ],
+        "concerns": [
+          "remote unstated"
+        ]
+      }
+    },
+    {
+      "id": "3fe5ed8a",
+      "source": "ashby",
+      "company": "Linear",
+      "title": "Senior / Staff Product Engineer",
+      "location": "North America",
+      "remote": true,
+      "url": "https://jobs.ashbyhq.com/linear/12f8f208-0b9c-4569-bb3d-41c8a197029e",
+      "descriptionText": "At Linear, we're building the product development system for teams and agents. AI is fundamentally changing how software gets built, and we’re shaping the tools this new era requires.\n\nFounded in 2019, Linear has become the platform of choice for more than 40,000 companies (including OpenAI, Coinbase, and Ramp) to plan, build, and ship their products. Today, our team is distributed across North America, Europe, and Australia, and we’re continuing to grow internationally. What unites us is relentless focus, fast execution, and a deep care for software craftsmanship.\n\nAs a small team, we’re all generalists that work across the full stack (built in Typescript end-to-end). We’re looking for experienced engineers that thrive in an environment of autonomy and individual responsibility to help us build the future of product development.\n\nLocation & work mode\n\nLinear is a remote-first company, with optional co-working offices in San Francisco, New York, and London. This role is open to candidates based in the US and Europe. You can work from anywhere within these regions. We value deep focus and async collaboration, with intentional moments to connect in person through team off-sites, optional co-working, and occasional travel.\n\nWhat you'll do\n\n- Work closely with founders and design to implement new concepts and ideas\n\n- Build AI-powered functionality into the core of Linear\n\n- Update our realtime collaborative content editor used across all internal surfaces\n\n- Build new…",
+      "postedAt": "2026-03-04T02:08:44.483+00:00",
+      "score": {
+        "fit": 87,
+        "verdict": "strong",
+        "rationale": "Senior / Staff Product Engineer at Linear scores 87/100 (strong) on the Tier-1 deterministic pass. Matched: Backend / distributed / event-driven — Ryan's core strength; Senior / staff / lead level; Platform / reliability / observability — Ryan's secondary strength; AI-native engineering (a SWE who drives AI adoption); Product engineering. Concerns: comp unstated.",
+        "matched": [
+          "Backend / distributed / event-driven — Ryan's core strength",
+          "Senior / staff / lead level",
+          "Platform / reliability / observability — Ryan's secondary strength",
+          "AI-native engineering (a SWE who drives AI adoption)",
+          "Product engineering"
+        ],
+        "concerns": [
+          "comp unstated"
+        ]
+      }
     }
   ],
   "droppedSample": [
@@ -1432,8 +1431,8 @@
     },
     {
       "company": "Airbnb",
-      "title": "Engineering Manager, Community Support Engineering",
-      "url": "https://careers.airbnb.com/positions/7760914?gh_jid=7760914",
+      "title": "Engineering Manager, Guest & Host",
+      "url": "https://careers.airbnb.com/positions/7532824?gh_jid=7532824",
       "reason": "excluded-title",
       "detail": "title matches: manager"
     }
