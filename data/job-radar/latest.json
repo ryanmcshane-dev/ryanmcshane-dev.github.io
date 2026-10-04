@@ -1,22 +1,22 @@
 {
-  "generatedAt": "2026-10-03T17:30:20.590Z",
+  "generatedAt": "2026-10-04T17:44:33.194Z",
   "tier": "tier-1",
   "counts": {
-    "fetched": 1997,
+    "fetched": 2000,
     "kept": 549,
-    "dropped": 1448,
+    "dropped": 1451,
     "byVerdict": {
-      "strong": 98,
-      "possible": 226,
-      "weak": 183,
-      "skip": 42
+      "strong": 99,
+      "possible": 222,
+      "weak": 189,
+      "skip": 39
     },
     "droppedByReason": {
-      "excluded-title": 787,
-      "off-role-family": 464,
+      "excluded-title": 792,
+      "off-role-family": 459,
       "on-site-only": 14,
       "non-us-location": 169,
-      "below-comp-floor": 14
+      "below-comp-floor": 17
     }
   },
   "errors": [
@@ -873,33 +873,6 @@
       }
     },
     {
-      "id": "7de957d1",
-      "source": "adzuna",
-      "company": "Brex",
-      "title": "Senior Software Engineer, Backend (Product Engineering)",
-      "location": "San Francisco, California",
-      "remote": "unknown",
-      "url": "https://www.adzuna.com/details/5909728979?utm_medium=api&utm_source=e9201d43",
-      "descriptionText": "Why join us Brex is the intelligent finance platform that enables companies to spend smarter and move faster in more than 200 markets. By combining global corporate cards and banking with intuitive spend management, bill pay, and travel software, Brex enables founders and finance teams to accelerate operations, gain real-time visibility, and control spend effortlessly. Brex’s AI-native automation and world-class service eliminate manual expense and accounting tasks for customers so they can foc…",
-      "postedAt": "2026-10-03T05:26:55Z",
-      "compHint": "$192,000 - $240,000",
-      "score": {
-        "fit": 87,
-        "verdict": "strong",
-        "rationale": "Senior Software Engineer, Backend (Product Engineering) at Brex scores 87/100 (strong) on the Tier-1 deterministic pass. Matched: Backend / distributed / event-driven — Ryan's core strength; Senior / staff / lead level; Platform / reliability / observability — Ryan's secondary strength; AI-native engineering (a SWE who drives AI adoption); Product engineering. Concerns: remote unstated.",
-        "matched": [
-          "Backend / distributed / event-driven — Ryan's core strength",
-          "Senior / staff / lead level",
-          "Platform / reliability / observability — Ryan's secondary strength",
-          "AI-native engineering (a SWE who drives AI adoption)",
-          "Product engineering"
-        ],
-        "concerns": [
-          "remote unstated"
-        ]
-      }
-    },
-    {
       "id": "5756857e",
       "source": "ashby",
       "company": "OpenAI",
@@ -1216,126 +1189,46 @@
       }
     },
     {
-      "id": "26e64666",
+      "id": "cb4e864c",
       "source": "adzuna",
-      "company": "Verkada",
+      "company": "Oracle",
+      "title": "Senior Platform Software Engineer",
+      "location": "Nashville, Davidson County",
+      "remote": "unknown",
+      "url": "https://www.adzuna.com/details/5911594314?utm_medium=api&utm_source=e9201d43",
+      "descriptionText": "Description Own moderately complex components within the AI Platform team and Console AI service, developing secure, scalable, robust AI agents that deliver high quality and low latency. Collaborate with Science, Product, and Engineering teams to improve agent quality. Perform deep debugging across a defined set of distributed services and deliver fixes that protect downstream consumers and preserve upgrade paths. Analyze usage, performance, and latency across assigned platform features to iden…",
+      "postedAt": "2026-10-04T10:04:12Z",
+      "compHint": "$92,500 - $209,500",
+      "score": {
+        "fit": 84,
+        "verdict": "strong",
+        "rationale": "Senior Platform Software Engineer at Oracle scores 84/100 (strong) on the Tier-1 deterministic pass. Matched: Backend / distributed / event-driven — Ryan's core strength; Senior / staff / lead level; Platform / reliability / observability — Ryan's secondary strength; AI-native engineering (a SWE who drives AI adoption). Concerns: location \"Nashville, Davidson County\" — confirm US eligibility; remote unstated.",
+        "matched": [
+          "Backend / distributed / event-driven — Ryan's core strength",
+          "Senior / staff / lead level",
+          "Platform / reliability / observability — Ryan's secondary strength",
+          "AI-native engineering (a SWE who drives AI adoption)"
+        ],
+        "concerns": [
+          "location \"Nashville, Davidson County\" — confirm US eligibility",
+          "remote unstated"
+        ]
+      }
+    },
+    {
+      "id": "7fadf3b4",
+      "source": "adzuna",
+      "company": "Transparent Search Group",
       "title": "Senior Backend Engineer",
       "location": "San Mateo, San Mateo County",
       "remote": "unknown",
-      "url": "https://www.adzuna.com/details/5910114674?utm_medium=api&utm_source=e9201d43",
-      "descriptionText": "Who We Are Verkada is transforming how organizations protect their people and places with an integrated, privacy-sensitive AI-powered platform that includes solutions for video security, access control, air quality sensors, alarms, intercoms, and visitor management. We’ve got serious momentum in the market: more than 30,000 customers (including 100 of the Fortune 500), a $5.8B valuation , more than $1 billion in annualized bookings, and backing from CapitalG, Sequoia Capital, General Catalyst, …",
-      "postedAt": "2026-10-03T10:19:33Z",
-      "compHint": "$170,000 - $260,000",
+      "url": "https://www.adzuna.com/details/5911485618?utm_medium=api&utm_source=e9201d43",
+      "descriptionText": "Senior Backend Engineer Company: WisdomAI Location: San Mateo, CA (in office 4 days per week) Compensation: $250,000 - $300,000 0.05% - 0.25% equity Employment Type: Full-time Visa Sponsorship: Confirm with recruiter About WisdomAI WisdomAI builds AI-native analytics and business intelligence. Its Adaptive Context Engine and federated agentic platform deliver highly accurate answers on real enterprise data, putting data insights in front of every employee. Founded in 2023, the company has rais…",
+      "postedAt": "2026-10-04T08:03:54Z",
       "score": {
         "fit": 84,
         "verdict": "strong",
-        "rationale": "Senior Backend Engineer at Verkada scores 84/100 (strong) on the Tier-1 deterministic pass. Matched: Backend / distributed / event-driven — Ryan's core strength; Senior / staff / lead level; Platform / reliability / observability — Ryan's secondary strength; AI-native engineering (a SWE who drives AI adoption). Concerns: location \"San Mateo, San Mateo County\" — confirm US eligibility; remote unstated.",
-        "matched": [
-          "Backend / distributed / event-driven — Ryan's core strength",
-          "Senior / staff / lead level",
-          "Platform / reliability / observability — Ryan's secondary strength",
-          "AI-native engineering (a SWE who drives AI adoption)"
-        ],
-        "concerns": [
-          "location \"San Mateo, San Mateo County\" — confirm US eligibility",
-          "remote unstated"
-        ]
-      }
-    },
-    {
-      "id": "a7950c91",
-      "source": "adzuna",
-      "company": "AstraZeneca",
-      "title": "Senior Cloud Platform Engineer (AWS), AI Infrastructure - Evinova",
-      "location": "Gaithersburg, Montgomery County",
-      "remote": "unknown",
-      "url": "https://www.adzuna.com/details/5910102786?utm_medium=api&utm_source=e9201d43",
-      "descriptionText": "WHY JOIN US? Evinova is a health-tech business focused on accelerating better health outcomes by advancing digital transformation across the life sciences sector. By combining science-based expertise, evidence-led rigor, and deep human insight, we design digital solutions that enable healthcare to work better for everyone. Operating at the intersection of healthcare, technology, data, and analytics, we are helping unlock the full potential of digital health, transforming how clinical research i…",
-      "postedAt": "2026-10-03T09:58:22Z",
-      "compHint": "$145,000 - $185,000",
-      "score": {
-        "fit": 84,
-        "verdict": "strong",
-        "rationale": "Senior Cloud Platform Engineer (AWS), AI Infrastructure - Evinova at AstraZeneca scores 84/100 (strong) on the Tier-1 deterministic pass. Matched: Backend / distributed / event-driven — Ryan's core strength; Senior / staff / lead level; Platform / reliability / observability — Ryan's secondary strength; AI-native engineering (a SWE who drives AI adoption). Concerns: location \"Gaithersburg, Montgomery County\" — confirm US eligibility; remote unstated.",
-        "matched": [
-          "Backend / distributed / event-driven — Ryan's core strength",
-          "Senior / staff / lead level",
-          "Platform / reliability / observability — Ryan's secondary strength",
-          "AI-native engineering (a SWE who drives AI adoption)"
-        ],
-        "concerns": [
-          "location \"Gaithersburg, Montgomery County\" — confirm US eligibility",
-          "remote unstated"
-        ]
-      }
-    },
-    {
-      "id": "917bfad3",
-      "source": "adzuna",
-      "company": "Verkada",
-      "title": "Senior Backend Engineer - Device Platform",
-      "location": "San Mateo, San Mateo County",
-      "remote": "unknown",
-      "url": "https://www.adzuna.com/details/5910077417?utm_medium=api&utm_source=e9201d43",
-      "descriptionText": "Who We Are Verkada is transforming how organizations protect their people and places with an integrated, privacy-sensitive AI-powered platform that includes solutions for video security, access control, air quality sensors, alarms, intercoms, and visitor management. We’ve got serious momentum in the market: more than 30,000 customers (including 100 of the Fortune 500), a $5.8B valuation , more than $1 billion in annualized bookings, and backing from CapitalG, Sequoia Capital, General Catalyst, …",
-      "postedAt": "2026-10-03T09:37:50Z",
-      "compHint": "$190,000 - $275,000",
-      "score": {
-        "fit": 84,
-        "verdict": "strong",
-        "rationale": "Senior Backend Engineer - Device Platform at Verkada scores 84/100 (strong) on the Tier-1 deterministic pass. Matched: Backend / distributed / event-driven — Ryan's core strength; Senior / staff / lead level; Platform / reliability / observability — Ryan's secondary strength; AI-native engineering (a SWE who drives AI adoption). Concerns: location \"San Mateo, San Mateo County\" — confirm US eligibility; remote unstated.",
-        "matched": [
-          "Backend / distributed / event-driven — Ryan's core strength",
-          "Senior / staff / lead level",
-          "Platform / reliability / observability — Ryan's secondary strength",
-          "AI-native engineering (a SWE who drives AI adoption)"
-        ],
-        "concerns": [
-          "location \"San Mateo, San Mateo County\" — confirm US eligibility",
-          "remote unstated"
-        ]
-      }
-    },
-    {
-      "id": "39dd3192",
-      "source": "ashby",
-      "company": "OpenAI",
-      "title": "Software Engineer, Enterprise Controls",
-      "location": "San Francisco",
-      "remote": "unknown",
-      "url": "https://jobs.ashbyhq.com/openai/88164d12-c8ed-4b62-ae26-dcb6f1cc8482",
-      "descriptionText": "About the Team\n\nEnterprise Controls & Console is part of Enterprise Engineering. We build the permissions, governance, and administration capabilities that help organizations use and deploy ChatGPT, Codex, and OpenAI products with confidence. We give administrators granular controls over access and security, helping ensure that people and agents operate within the boundaries their organizations define.\n\nOur work combines complex backend platform engineering with enterprise product needs and touches every major product and model launch. We build scalable, reusable services and intuitive…",
-      "postedAt": "2026-10-03T05:27:16.161+00:00",
-      "compHint": "$230K - $385K",
-      "score": {
-        "fit": 84,
-        "verdict": "strong",
-        "rationale": "Software Engineer, Enterprise Controls at OpenAI scores 84/100 (strong) on the Tier-1 deterministic pass. Matched: Backend / distributed / event-driven — Ryan's core strength; Senior / staff / lead level; Platform / reliability / observability — Ryan's secondary strength; AI-native engineering (a SWE who drives AI adoption). Concerns: remote unstated.",
-        "matched": [
-          "Backend / distributed / event-driven — Ryan's core strength",
-          "Senior / staff / lead level",
-          "Platform / reliability / observability — Ryan's secondary strength",
-          "AI-native engineering (a SWE who drives AI adoption)"
-        ],
-        "concerns": [
-          "remote unstated"
-        ]
-      }
-    },
-    {
-      "id": "66b26a7e",
-      "source": "adzuna",
-      "company": "Zscaler",
-      "title": "Sr. Staff Software Development Engineer-AI Security (Network, Security, LLM)",
-      "location": "Alviso, San Jose",
-      "remote": "unknown",
-      "url": "https://www.adzuna.com/land/ad/5909606667?se=Lu7SF1C_8RGTyvTH5qRQ7A&utm_medium=api&utm_source=e9201d43&v=9B794BA105C540AA831A4D50C908AD830BE8C0D5",
-      "descriptionText": "Zscaler (NASDAQ: ZS) accelerates digital transformation so customers can be more agile, efficient, resilient, and secure. The Zscaler Zero Trust Exchange™️ platform protects thousands of customers from cyberattacks and data loss by securely connecting users, devices, and applications in any location. Distributed across 160 public exchanges globally and thousands of private exchanges at the edge, the SASE-based Zero Trust Exchange is the world’s largest in-line cloud security platform. We believ…",
-      "postedAt": "2026-10-03T02:49:35Z",
-      "score": {
-        "fit": 84,
-        "verdict": "strong",
-        "rationale": "Sr. Staff Software Development Engineer-AI Security (Network, Security, LLM) at Zscaler scores 84/100 (strong) on the Tier-1 deterministic pass. Matched: Backend / distributed / event-driven — Ryan's core strength; Senior / staff / lead level; Platform / reliability / observability — Ryan's secondary strength; AI-native engineering (a SWE who drives AI adoption). Concerns: comp unstated; remote unstated.",
+        "rationale": "Senior Backend Engineer at Transparent Search Group scores 84/100 (strong) on the Tier-1 deterministic pass. Matched: Backend / distributed / event-driven — Ryan's core strength; Senior / staff / lead level; Platform / reliability / observability — Ryan's secondary strength; AI-native engineering (a SWE who drives AI adoption). Concerns: comp unstated; location \"San Mateo, San Mateo County\" — confirm US eligibility; remote unstated.",
         "matched": [
           "Backend / distributed / event-driven — Ryan's core strength",
           "Senior / staff / lead level",
@@ -1344,6 +1237,112 @@
         ],
         "concerns": [
           "comp unstated",
+          "location \"San Mateo, San Mateo County\" — confirm US eligibility",
+          "remote unstated"
+        ]
+      }
+    },
+    {
+      "id": "f7dedf20",
+      "source": "adzuna",
+      "company": "DOUGLAS ELLIMAN OF LI",
+      "title": "Senior Cloud Platform Engineer",
+      "location": "Carl Fisher, Miami-Dade County",
+      "remote": true,
+      "url": "https://www.adzuna.com/details/5911352923?utm_medium=api&utm_source=e9201d43",
+      "descriptionText": "Senior Cloud Platform Engineer Role Title: Senior Cloud Platform Engineer Department: Enterprise Technology & AI Transformation Location: Remote (US-based) Reports To: Head of AI Transformation Employment Type: Full-Time 1. Role Overview & Core Mission We are seeking an execution-focused Senior Cloud Platform Engineer to build and maintain the cloud infrastructure, CI/CD pipelines, and backend API integration layers supporting 6,000 real estate agents and enterprise operations nationwide. You w…",
+      "postedAt": "2026-10-04T06:48:30Z",
+      "compHint": "$150,000 - $200,000",
+      "score": {
+        "fit": 84,
+        "verdict": "strong",
+        "rationale": "Senior Cloud Platform Engineer at DOUGLAS ELLIMAN OF LI scores 84/100 (strong) on the Tier-1 deterministic pass. Matched: Backend / distributed / event-driven — Ryan's core strength; Senior / staff / lead level; Platform / reliability / observability — Ryan's secondary strength; AI-native engineering (a SWE who drives AI adoption). Concerns: location \"Carl Fisher, Miami-Dade County\" — confirm US eligibility.",
+        "matched": [
+          "Backend / distributed / event-driven — Ryan's core strength",
+          "Senior / staff / lead level",
+          "Platform / reliability / observability — Ryan's secondary strength",
+          "AI-native engineering (a SWE who drives AI adoption)"
+        ],
+        "concerns": [
+          "location \"Carl Fisher, Miami-Dade County\" — confirm US eligibility"
+        ]
+      }
+    },
+    {
+      "id": "a36946ad",
+      "source": "adzuna",
+      "company": "NxT Level",
+      "title": "Senior Backend Engineer",
+      "location": "Tenderloin, San Francisco",
+      "remote": "unknown",
+      "url": "https://www.adzuna.com/details/5911292747?utm_medium=api&utm_source=e9201d43",
+      "descriptionText": "Senior Backend Engineer Location: San Francisco, CA Employment Type: Full-time Experience: 4 years Focus: Backend Engineering, AI-Native Analytics, Data Infrastructure, Distributed Systems About Our Client Our client is building the next generation of AI-native business intelligence. Their platform enables organizations to interact with business data using AI, transforming how teams analyze information, make decisions, and unlock insights. As a founding engineering hire, you'll help build the c…",
+      "postedAt": "2026-10-04T04:56:48Z",
+      "score": {
+        "fit": 84,
+        "verdict": "strong",
+        "rationale": "Senior Backend Engineer at NxT Level scores 84/100 (strong) on the Tier-1 deterministic pass. Matched: Backend / distributed / event-driven — Ryan's core strength; Senior / staff / lead level; Platform / reliability / observability — Ryan's secondary strength; AI-native engineering (a SWE who drives AI adoption). Concerns: comp unstated; remote unstated.",
+        "matched": [
+          "Backend / distributed / event-driven — Ryan's core strength",
+          "Senior / staff / lead level",
+          "Platform / reliability / observability — Ryan's secondary strength",
+          "AI-native engineering (a SWE who drives AI adoption)"
+        ],
+        "concerns": [
+          "comp unstated",
+          "remote unstated"
+        ]
+      }
+    },
+    {
+      "id": "da8929e3",
+      "source": "adzuna",
+      "company": "Clera",
+      "title": "Senior/Staff Software Engineer (Platform)",
+      "location": "San Francisco, California",
+      "remote": "unknown",
+      "url": "https://www.adzuna.com/details/5911177204?utm_medium=api&utm_source=e9201d43",
+      "descriptionText": "About the Role Join the Platform team at an early-stage AI-powered manufacturing supply chain company. You will build the backend services, data pipelines, and integrations that coordinate intelligent agents and support reliable movement of goods through complex manufacturing workflows. What You'll Do Design and scale backend services, Next.js API routes, background jobs, and serverless functions for high-throughput order processing. Build and productionize LLM-based agents, AI/ML infrastructur…",
+      "postedAt": "2026-10-04T01:49:58Z",
+      "compHint": "$160,000 - $250,000",
+      "score": {
+        "fit": 84,
+        "verdict": "strong",
+        "rationale": "Senior/Staff Software Engineer (Platform) at Clera scores 84/100 (strong) on the Tier-1 deterministic pass. Matched: Backend / distributed / event-driven — Ryan's core strength; Senior / staff / lead level; Platform / reliability / observability — Ryan's secondary strength; AI-native engineering (a SWE who drives AI adoption). Concerns: remote unstated.",
+        "matched": [
+          "Backend / distributed / event-driven — Ryan's core strength",
+          "Senior / staff / lead level",
+          "Platform / reliability / observability — Ryan's secondary strength",
+          "AI-native engineering (a SWE who drives AI adoption)"
+        ],
+        "concerns": [
+          "remote unstated"
+        ]
+      }
+    },
+    {
+      "id": "c42845ae",
+      "source": "adzuna",
+      "company": "Scale AI",
+      "title": "Staff Software Engineer, Enterprise GenAI",
+      "location": "Grand Central, Manhattan",
+      "remote": "unknown",
+      "url": "https://www.adzuna.com/land/ad/5911089335?se=bIJ1QBvA8RGN96JAzfykhw&utm_medium=api&utm_source=e9201d43&v=94933D79B723879178587DD8F29C6324A08DBCF3",
+      "descriptionText": "Scale GP (Scale Generative AI Platform) is an enterprise-grade Generative AI platform that provides APIs for knowledge retrieval, inference, evaluation, and more. We are looking for a strong engineer to join our team and help us build and scale our product in a fast-paced environment. The ideal candidate will have a strong understanding of software engineering principles and practices, as well as experience with large-scale distributed systems. You will be responsible for owning large new areas…",
+      "postedAt": "2026-10-04T00:58:24Z",
+      "score": {
+        "fit": 84,
+        "verdict": "strong",
+        "rationale": "Staff Software Engineer, Enterprise GenAI at Scale AI scores 84/100 (strong) on the Tier-1 deterministic pass. Matched: Backend / distributed / event-driven — Ryan's core strength; Senior / staff / lead level; Platform / reliability / observability — Ryan's secondary strength; AI-native engineering (a SWE who drives AI adoption). Concerns: comp unstated; location \"Grand Central, Manhattan\" — confirm US eligibility; remote unstated.",
+        "matched": [
+          "Backend / distributed / event-driven — Ryan's core strength",
+          "Senior / staff / lead level",
+          "Platform / reliability / observability — Ryan's secondary strength",
+          "AI-native engineering (a SWE who drives AI adoption)"
+        ],
+        "concerns": [
+          "comp unstated",
+          "location \"Grand Central, Manhattan\" — confirm US eligibility",
           "remote unstated"
         ]
       }
