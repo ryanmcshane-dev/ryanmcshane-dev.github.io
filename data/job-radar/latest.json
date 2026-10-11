@@ -1,22 +1,22 @@
 {
-  "generatedAt": "2026-10-10T17:56:15.899Z",
+  "generatedAt": "2026-10-11T18:14:25.238Z",
   "tier": "tier-1",
   "counts": {
-    "fetched": 2023,
-    "kept": 568,
-    "dropped": 1455,
+    "fetched": 2014,
+    "kept": 572,
+    "dropped": 1442,
     "byVerdict": {
-      "strong": 105,
-      "possible": 239,
-      "weak": 187,
-      "skip": 37
+      "strong": 104,
+      "possible": 238,
+      "weak": 190,
+      "skip": 40
     },
     "droppedByReason": {
-      "excluded-title": 805,
-      "off-role-family": 446,
+      "excluded-title": 794,
+      "off-role-family": 449,
       "on-site-only": 14,
       "non-us-location": 171,
-      "below-comp-floor": 19
+      "below-comp-floor": 14
     }
   },
   "errors": [
@@ -348,33 +348,6 @@
       }
     },
     {
-      "id": "af802081",
-      "source": "workday",
-      "company": "Workday",
-      "title": "Mid / Senior Full Stack Software Engineer - (US Federal)",
-      "location": "USA.VA.Reston — United States of America",
-      "remote": "unknown",
-      "url": "https://workday.wd5.myworkdayjobs.com/Workday/job/USAVAReston/Sr-Full-Stack-Software-Engineer----US-Federal-_JR-0105397",
-      "descriptionText": "Your work days are brighter here.\n\nWe’re obsessed with making hard work pay off, for our people, our customers, and the world around us. As a Fortune 500 company and a leading AI platform for managing people, money, and agents, we’re shaping the future of work so teams can reach their potential and focus on what matters most. The minute you join, you’ll feel it. Not just in the products we build, but in how we show up for each other. Our culture is rooted in integrity, empathy, and shared enthusiasm. We’re in this together, tackling big challenges with bold ideas and genuine care. We look for…",
-      "postedAt": "2026-09-30",
-      "score": {
-        "fit": 92,
-        "verdict": "strong",
-        "rationale": "Mid / Senior Full Stack Software Engineer - (US Federal) at Workday scores 92/100 (strong) on the Tier-1 deterministic pass. Matched: Backend / distributed / event-driven — Ryan's core strength; Senior / staff / lead level; Platform / reliability / observability — Ryan's secondary strength; AI-native engineering (a SWE who drives AI adoption); HCM / group-benefits domain overlap — Ryan's EOI / Absence Management experience translates directly. Concerns: comp unstated; remote unstated.",
-        "matched": [
-          "Backend / distributed / event-driven — Ryan's core strength",
-          "Senior / staff / lead level",
-          "Platform / reliability / observability — Ryan's secondary strength",
-          "AI-native engineering (a SWE who drives AI adoption)",
-          "HCM / group-benefits domain overlap — Ryan's EOI / Absence Management experience translates directly"
-        ],
-        "concerns": [
-          "comp unstated",
-          "remote unstated"
-        ]
-      }
-    },
-    {
       "id": "9b83ca7c",
       "source": "smartrecruiters",
       "company": "ServiceNow",
@@ -442,6 +415,33 @@
         "fit": 92,
         "verdict": "strong",
         "rationale": "Senior Software Engineer(Distributed Systems) at Workday scores 92/100 (strong) on the Tier-1 deterministic pass. Matched: Backend / distributed / event-driven — Ryan's core strength; Senior / staff / lead level; Platform / reliability / observability — Ryan's secondary strength; AI-native engineering (a SWE who drives AI adoption); HCM / group-benefits domain overlap — Ryan's EOI / Absence Management experience translates directly. Concerns: comp unstated; remote unstated.",
+        "matched": [
+          "Backend / distributed / event-driven — Ryan's core strength",
+          "Senior / staff / lead level",
+          "Platform / reliability / observability — Ryan's secondary strength",
+          "AI-native engineering (a SWE who drives AI adoption)",
+          "HCM / group-benefits domain overlap — Ryan's EOI / Absence Management experience translates directly"
+        ],
+        "concerns": [
+          "comp unstated",
+          "remote unstated"
+        ]
+      }
+    },
+    {
+      "id": "f1070ce0",
+      "source": "workday",
+      "company": "Workday",
+      "title": "Senior Software Engineer - Context and Semantics (AI)",
+      "location": "USA, CA, Pleasanton — United States of America",
+      "remote": "unknown",
+      "url": "https://workday.wd5.myworkdayjobs.com/Workday/job/USA-CA-Pleasanton/Senior-Software-Engineer---Context-and-Semantics--AI-_JR-0110208",
+      "descriptionText": "Your work days are brighter here.\n\nWe’re obsessed with making hard work pay off, for our people, our customers, and the world around us. As a Fortune 500 company and a leading AI platform for managing people, money, and agents, we’re shaping the future of work so teams can reach their potential and focus on what matters most. The minute you join, you’ll feel it. Not just in the products we build, but in how we show up for each other. Our culture is rooted in integrity, empathy, and shared enthusiasm. We’re in this together, tackling big challenges with bold ideas and genuine care. We look for…",
+      "postedAt": "2026-09-16",
+      "score": {
+        "fit": 92,
+        "verdict": "strong",
+        "rationale": "Senior Software Engineer - Context and Semantics (AI) at Workday scores 92/100 (strong) on the Tier-1 deterministic pass. Matched: Backend / distributed / event-driven — Ryan's core strength; Senior / staff / lead level; Platform / reliability / observability — Ryan's secondary strength; AI-native engineering (a SWE who drives AI adoption); HCM / group-benefits domain overlap — Ryan's EOI / Absence Management experience translates directly. Concerns: comp unstated; remote unstated.",
         "matched": [
           "Backend / distributed / event-driven — Ryan's core strength",
           "Senior / staff / lead level",
@@ -950,33 +950,6 @@
       }
     },
     {
-      "id": "7495d32d",
-      "source": "greenhouse",
-      "company": "Databricks",
-      "title": "Senior Production Engineer - Realtime Products",
-      "location": "Mountain View, California",
-      "remote": "unknown",
-      "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8407875002",
-      "descriptionText": "CSQ127R154\n\nAs a Senior Production Engineer working on Databricks’ realtime products you will be directly contributing to our customers’ success. You will build advanced monitoring and incident mitigation tooling, and drive changes across the stack to proactively make the realtime products like Lakebase, Neon and Model Serving reliable, secure, and scalable in production.\n\nOur production engineers understand the Databricks platform from end to end, and partner across engineering teams, building durable solutions for a platform operating across AWS, Azure, and GCP.\n\nThe Impact You’ll Have…",
-      "postedAt": "2026-10-10T12:01:05-04:00",
-      "score": {
-        "fit": 87,
-        "verdict": "strong",
-        "rationale": "Senior Production Engineer - Realtime Products at Databricks scores 87/100 (strong) on the Tier-1 deterministic pass. Matched: Backend / distributed / event-driven — Ryan's core strength; Senior / staff / lead level; Platform / reliability / observability — Ryan's secondary strength; AI-native engineering (a SWE who drives AI adoption); Product engineering. Concerns: comp unstated; remote unstated.",
-        "matched": [
-          "Backend / distributed / event-driven — Ryan's core strength",
-          "Senior / staff / lead level",
-          "Platform / reliability / observability — Ryan's secondary strength",
-          "AI-native engineering (a SWE who drives AI adoption)",
-          "Product engineering"
-        ],
-        "concerns": [
-          "comp unstated",
-          "remote unstated"
-        ]
-      }
-    },
-    {
       "id": "5756857e",
       "source": "ashby",
       "company": "OpenAI",
@@ -1293,20 +1266,20 @@
       }
     },
     {
-      "id": "3816db7e",
+      "id": "3c022a09",
       "source": "adzuna",
-      "company": "C3.ai",
-      "title": "Senior Software Engineer, Platform - Data  AI (Back-End)",
-      "location": "Redwood City, San Mateo County",
+      "company": "Microsoft",
+      "title": "Senior & Principal Software Engineer - Systems & Infrastructure",
+      "location": "Mountain View, Santa Clara County",
       "remote": "unknown",
-      "url": "https://www.adzuna.com/details/5922257725?utm_medium=api&utm_source=e9201d43",
-      "descriptionText": "C3 AI (NYSE: AI), is the Enterprise AI application software company. C3 AI delivers a family of fully integrated products including the C3 Agentic AI Platform, an end-to-end platform for developing, deploying, and operating enterprise AI applications, C3 AI applications, a portfolio of industry-specific SaaS enterprise AI applications that enable the digital transformation of organizations globally, and C3 Generative AI, a suite of domain-specific generative AI offerings for the enterprise. Lea…",
-      "postedAt": "2026-10-10T10:19:27Z",
-      "compHint": "$145,000 - $187,000",
+      "url": "https://www.adzuna.com/details/5923358680?utm_medium=api&utm_source=e9201d43",
+      "descriptionText": "Overview Team Purpose The Artificial Intelligence (AI) Infrastructure Engineering Systems team at Microsoft builds the cloud platform, engineering infrastructure, and developer systems that enable teams to develop, deploy, and operate AI services at scale. You will help create foundational capabilities spanning data infrastructure, storage systems, streaming platforms, traffic and network infrastructure, observability, security, and service lifecycle management. Working with AI researchers, pro…",
+      "postedAt": "2026-10-11T10:00:33Z",
+      "compHint": "$119,800 - $234,700",
       "score": {
         "fit": 84,
         "verdict": "strong",
-        "rationale": "Senior Software Engineer, Platform - Data  AI (Back-End) at C3.ai scores 84/100 (strong) on the Tier-1 deterministic pass. Matched: Backend / distributed / event-driven — Ryan's core strength; Senior / staff / lead level; Platform / reliability / observability — Ryan's secondary strength; AI-native engineering (a SWE who drives AI adoption). Concerns: location \"Redwood City, San Mateo County\" — confirm US eligibility; remote unstated.",
+        "rationale": "Senior & Principal Software Engineer - Systems & Infrastructure at Microsoft scores 84/100 (strong) on the Tier-1 deterministic pass. Matched: Backend / distributed / event-driven — Ryan's core strength; Senior / staff / lead level; Platform / reliability / observability — Ryan's secondary strength; AI-native engineering (a SWE who drives AI adoption). Concerns: remote unstated.",
         "matched": [
           "Backend / distributed / event-driven — Ryan's core strength",
           "Senior / staff / lead level",
@@ -1314,26 +1287,25 @@
           "AI-native engineering (a SWE who drives AI adoption)"
         ],
         "concerns": [
-          "location \"Redwood City, San Mateo County\" — confirm US eligibility",
           "remote unstated"
         ]
       }
     },
     {
-      "id": "05eacc7f",
+      "id": "a6f44269",
       "source": "adzuna",
-      "company": "Google",
-      "title": "Staff Software Engineer, Data Center and AI Infrastructure",
-      "location": "Sunnyvale, Santa Clara County",
+      "company": "Unity Technologies SF",
+      "title": "Senior Backend Engineer, Vector AI",
+      "location": "Mountain View, Santa Clara County",
       "remote": "unknown",
-      "url": "https://www.adzuna.com/land/ad/5922257296?se=NFLC39PE8RGRs48L_-pA7w&utm_medium=api&utm_source=e9201d43&v=DC511FAF8CD0A51A27AB19DAA32D7EAB871F9F54",
-      "descriptionText": "info_outline X In most instances, this position requires in-person interviews as part of the hiring process. Minimum qualifications: Bachelor's degree or equivalent practical experience. 8 years of experience programming in C++. 5 years of experience testing, and launching software products. 5 years of experience building and developing large-scale infrastructure, distributed systems or networks, or experience with compute technologies, storage, or hardware architecture. Experience in problem m…",
-      "postedAt": "2026-10-10T10:18:23Z",
-      "compHint": "$207,000 - $300,000",
+      "url": "https://www.adzuna.com/details/5923340546?utm_medium=api&utm_source=e9201d43",
+      "descriptionText": "The opportunity Every day, we connect billions of players with the games and experiences they love. Our Vector Gamer AI team sits at the heart of that mission, governing ad ranking and bidding decisions across billions of daily impressions, where large-scale machine learning and real-world impact converge at scale. We're hiring a Senior Backend Engineer to build and operate the infrastructure those models depend on. You'll design and operate the distributed systems that power billions of daily …",
+      "postedAt": "2026-10-11T09:22:49Z",
+      "compHint": "$165,600 - $273,400",
       "score": {
         "fit": 84,
         "verdict": "strong",
-        "rationale": "Staff Software Engineer, Data Center and AI Infrastructure at Google scores 84/100 (strong) on the Tier-1 deterministic pass. Matched: Backend / distributed / event-driven — Ryan's core strength; Senior / staff / lead level; Platform / reliability / observability — Ryan's secondary strength; AI-native engineering (a SWE who drives AI adoption). Concerns: remote unstated.",
+        "rationale": "Senior Backend Engineer, Vector AI at Unity Technologies SF scores 84/100 (strong) on the Tier-1 deterministic pass. Matched: Backend / distributed / event-driven — Ryan's core strength; Senior / staff / lead level; Platform / reliability / observability — Ryan's secondary strength; AI-native engineering (a SWE who drives AI adoption). Concerns: remote unstated.",
         "matched": [
           "Backend / distributed / event-driven — Ryan's core strength",
           "Senior / staff / lead level",
@@ -1341,6 +1313,33 @@
           "AI-native engineering (a SWE who drives AI adoption)"
         ],
         "concerns": [
+          "remote unstated"
+        ]
+      }
+    },
+    {
+      "id": "2b4c9188",
+      "source": "adzuna",
+      "company": "Microsoft",
+      "title": "Principal Software Engineer, ML & Distributed Systems",
+      "location": "Redmond, King County",
+      "remote": "unknown",
+      "url": "https://www.adzuna.com/details/5923335286?utm_medium=api&utm_source=e9201d43",
+      "descriptionText": "Overview We are looking for a Principal Software Engineer to design, build, and operationalize machine learning systems and hyperscale distributed services that power Microsoft's AI experiences. This is a role for an engineer who is equally at home training and shipping ML models and building the large-scale distributed infrastructure that serves them — and who has the appetite to do both. You will own systems end to end: from model development and evaluation, through the serving and orchestrat…",
+      "postedAt": "2026-10-11T09:03:17Z",
+      "compHint": "$142,800 - $274,800",
+      "score": {
+        "fit": 84,
+        "verdict": "strong",
+        "rationale": "Principal Software Engineer, ML & Distributed Systems at Microsoft scores 84/100 (strong) on the Tier-1 deterministic pass. Matched: Backend / distributed / event-driven — Ryan's core strength; Senior / staff / lead level; Platform / reliability / observability — Ryan's secondary strength; AI-native engineering (a SWE who drives AI adoption). Concerns: location \"Redmond, King County\" — confirm US eligibility; remote unstated.",
+        "matched": [
+          "Backend / distributed / event-driven — Ryan's core strength",
+          "Senior / staff / lead level",
+          "Platform / reliability / observability — Ryan's secondary strength",
+          "AI-native engineering (a SWE who drives AI adoption)"
+        ],
+        "concerns": [
+          "location \"Redmond, King County\" — confirm US eligibility",
           "remote unstated"
         ]
       }
