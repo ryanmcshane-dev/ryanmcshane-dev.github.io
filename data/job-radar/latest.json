@@ -1,22 +1,22 @@
 {
-  "generatedAt": "2026-10-11T18:14:25.238Z",
+  "generatedAt": "2026-10-12T21:48:37.525Z",
   "tier": "tier-1",
   "counts": {
-    "fetched": 2014,
-    "kept": 572,
-    "dropped": 1442,
+    "fetched": 2021,
+    "kept": 585,
+    "dropped": 1436,
     "byVerdict": {
-      "strong": 104,
-      "possible": 238,
-      "weak": 190,
-      "skip": 40
+      "strong": 105,
+      "possible": 229,
+      "weak": 194,
+      "skip": 57
     },
     "droppedByReason": {
-      "excluded-title": 794,
-      "off-role-family": 449,
+      "excluded-title": 802,
+      "off-role-family": 446,
       "on-site-only": 14,
-      "non-us-location": 171,
-      "below-comp-floor": 14
+      "non-us-location": 174,
+      "below-comp-floor": 0
     }
   },
   "errors": [
@@ -27,6 +27,33 @@
     }
   ],
   "items": [
+    {
+      "id": "15def300",
+      "source": "greenhouse",
+      "company": "Twilio",
+      "title": "Staff Mobile Software Engineer (P4)",
+      "location": "Remote - US",
+      "remote": true,
+      "url": "https://job-boards.greenhouse.io/twilio/jobs/8067027",
+      "descriptionText": "Who we are\n\nAt Twilio, we’re shaping the future of communications, all from the comfort of our homes. We deliver innovative solutions to hundreds of thousands of businesses and empower millions of developers worldwide to craft personalized customer experiences.\n\nOur dedication to remote-first work , and strong culture of connection and global inclusion means that no matter your location, you’re part of a vibrant team with diverse experiences making a global impact each day. As we continue to revolutionize how the world interacts, we’re acquiring new skills and experiences that make work feel…",
+      "postedAt": "2026-10-12T12:01:36-04:00",
+      "score": {
+        "fit": 92,
+        "verdict": "strong",
+        "rationale": "Staff Mobile Software Engineer (P4) at Twilio scores 92/100 (strong) on the Tier-1 deterministic pass. Matched: Backend / distributed / event-driven — Ryan's core strength; Senior / staff / lead level; Platform / reliability / observability — Ryan's secondary strength; AI-native engineering (a SWE who drives AI adoption); Strong engineering culture; Large, reputable, remote-friendly engineering org with a strong Java / distributed-systems bar. Concerns: comp unstated.",
+        "matched": [
+          "Backend / distributed / event-driven — Ryan's core strength",
+          "Senior / staff / lead level",
+          "Platform / reliability / observability — Ryan's secondary strength",
+          "AI-native engineering (a SWE who drives AI adoption)",
+          "Strong engineering culture",
+          "Large, reputable, remote-friendly engineering org with a strong Java / distributed-systems bar"
+        ],
+        "concerns": [
+          "comp unstated"
+        ]
+      }
+    },
     {
       "id": "410d4b5e",
       "source": "greenhouse",
@@ -456,6 +483,33 @@
       }
     },
     {
+      "id": "d29a491e",
+      "source": "smartrecruiters",
+      "company": "ServiceNow",
+      "title": "Principal Software Engineer",
+      "location": "San Diego, CALIFORNIA, United States",
+      "remote": "unknown",
+      "url": "https://jobs.smartrecruiters.com/ServiceNow/744000155079974-principal-software-engineer?oga=true",
+      "descriptionText": "About Veza\nVeza is the identity security platform for human, non-human, and AI agent access. Customers use it to see who and what has access to what, govern it, and remediate risk across cloud, SaaS, and on-prem systems.\nAgent security is the inflection point. Static access reviews can't keep up with autonomous agents acting at machine speed. Security is shifting to continuous, real-time control: just-in-time access for agents, automated remediation of policy violations, and real-time governance of agent actions as they happen—replacing standing privileges and periodic reviews.\nVeza is in…",
+      "postedAt": "2026-10-12T17:12:35.980Z",
+      "score": {
+        "fit": 89,
+        "verdict": "strong",
+        "rationale": "Principal Software Engineer at ServiceNow scores 89/100 (strong) on the Tier-1 deterministic pass. Matched: Backend / distributed / event-driven — Ryan's core strength; Senior / staff / lead level; Platform / reliability / observability — Ryan's secondary strength; AI-native engineering (a SWE who drives AI adoption); Large, reputable, remote-friendly engineering org with a strong Java / distributed-systems bar. Concerns: comp unstated; remote unstated.",
+        "matched": [
+          "Backend / distributed / event-driven — Ryan's core strength",
+          "Senior / staff / lead level",
+          "Platform / reliability / observability — Ryan's secondary strength",
+          "AI-native engineering (a SWE who drives AI adoption)",
+          "Large, reputable, remote-friendly engineering org with a strong Java / distributed-systems bar"
+        ],
+        "concerns": [
+          "comp unstated",
+          "remote unstated"
+        ]
+      }
+    },
+    {
       "id": "13e2101f",
       "source": "smartrecruiters",
       "company": "ServiceNow",
@@ -815,32 +869,6 @@
         "concerns": [
           "comp unstated",
           "remote unstated"
-        ]
-      }
-    },
-    {
-      "id": "cff67639",
-      "source": "smartrecruiters",
-      "company": "ServiceNow",
-      "title": "Sr Staff Software Engineer ( AI Agents, Observability)",
-      "location": "Santa Clara, CALIFORNIA, United States",
-      "remote": true,
-      "url": "https://jobs.smartrecruiters.com/ServiceNow/744000153834444-sr-staff-software-engineer-ai-agents-observability-?oga=true",
-      "descriptionText": "Job Description\nCome join our team. We're rapidly expanding AI agents for Observability group and building a new generation of AI Agents designed to transform how enterprises investigate, respond to, and remediate critical incidents and alerts. Our mission is to reduce mean time to resolution (MTTR) by orders of magnitude, turning reactive firefighting into proactive, intelligent automation.\nThe AI agents for Observability combines the intelligence of large language models , the predictive power of observability analytics , and the judgment of human incident commanders , all within a single…",
-      "postedAt": "2026-10-06T18:09:02.188Z",
-      "score": {
-        "fit": 89,
-        "verdict": "strong",
-        "rationale": "Sr Staff Software Engineer ( AI Agents, Observability) at ServiceNow scores 89/100 (strong) on the Tier-1 deterministic pass. Matched: Backend / distributed / event-driven — Ryan's core strength; Senior / staff / lead level; Platform / reliability / observability — Ryan's secondary strength; AI-native engineering (a SWE who drives AI adoption); Large, reputable, remote-friendly engineering org with a strong Java / distributed-systems bar. Concerns: comp unstated.",
-        "matched": [
-          "Backend / distributed / event-driven — Ryan's core strength",
-          "Senior / staff / lead level",
-          "Platform / reliability / observability — Ryan's secondary strength",
-          "AI-native engineering (a SWE who drives AI adoption)",
-          "Large, reputable, remote-friendly engineering org with a strong Java / distributed-systems bar"
-        ],
-        "concerns": [
-          "comp unstated"
         ]
       }
     },
@@ -1266,20 +1294,19 @@
       }
     },
     {
-      "id": "3c022a09",
+      "id": "a5921fe0",
       "source": "adzuna",
-      "company": "Microsoft",
-      "title": "Senior & Principal Software Engineer - Systems & Infrastructure",
-      "location": "Mountain View, Santa Clara County",
+      "company": "GitLab",
+      "title": "Senior Backend Engineer, Platform Readiness",
+      "location": "US",
       "remote": "unknown",
-      "url": "https://www.adzuna.com/details/5923358680?utm_medium=api&utm_source=e9201d43",
-      "descriptionText": "Overview Team Purpose The Artificial Intelligence (AI) Infrastructure Engineering Systems team at Microsoft builds the cloud platform, engineering infrastructure, and developer systems that enable teams to develop, deploy, and operate AI services at scale. You will help create foundational capabilities spanning data infrastructure, storage systems, streaming platforms, traffic and network infrastructure, observability, security, and service lifecycle management. Working with AI researchers, pro…",
-      "postedAt": "2026-10-11T10:00:33Z",
-      "compHint": "$119,800 - $234,700",
+      "url": "https://www.adzuna.com/land/ad/5924838467?se=YFGErIbG8RGmXeaUG_Yk-Q&utm_medium=api&utm_source=e9201d43&v=E6427DAC9526BB1C5BA91F774BE2BB89D35F87A7",
+      "descriptionText": "GitLab is the intelligent orchestration platform for DevSecOps. GitLab enables organizations to increase developer productivity, improve operational efficiency, reduce security and compliance risk, and accelerate digital transformation. More than 50 million registered users and more than 50% of the Fortune 100* trust GitLab to ship better, more secure software faster. The same principles built into our products are reflected in how our team works: we embrace AI as a core productivity multiplier…",
+      "postedAt": "2026-10-12T17:32:12Z",
       "score": {
         "fit": 84,
         "verdict": "strong",
-        "rationale": "Senior & Principal Software Engineer - Systems & Infrastructure at Microsoft scores 84/100 (strong) on the Tier-1 deterministic pass. Matched: Backend / distributed / event-driven — Ryan's core strength; Senior / staff / lead level; Platform / reliability / observability — Ryan's secondary strength; AI-native engineering (a SWE who drives AI adoption). Concerns: remote unstated.",
+        "rationale": "Senior Backend Engineer, Platform Readiness at GitLab scores 84/100 (strong) on the Tier-1 deterministic pass. Matched: Backend / distributed / event-driven — Ryan's core strength; Senior / staff / lead level; Platform / reliability / observability — Ryan's secondary strength; AI-native engineering (a SWE who drives AI adoption). Concerns: comp unstated; remote unstated.",
         "matched": [
           "Backend / distributed / event-driven — Ryan's core strength",
           "Senior / staff / lead level",
@@ -1287,25 +1314,25 @@
           "AI-native engineering (a SWE who drives AI adoption)"
         ],
         "concerns": [
+          "comp unstated",
           "remote unstated"
         ]
       }
     },
     {
-      "id": "a6f44269",
+      "id": "8ddca5a4",
       "source": "adzuna",
-      "company": "Unity Technologies SF",
-      "title": "Senior Backend Engineer, Vector AI",
-      "location": "Mountain View, Santa Clara County",
+      "company": "Crusoe",
+      "title": "Staff Software Engineer, Cloud Monitoring Service (Distributed Systems)",
+      "location": "South San Francisco, San Mateo County",
       "remote": "unknown",
-      "url": "https://www.adzuna.com/details/5923340546?utm_medium=api&utm_source=e9201d43",
-      "descriptionText": "The opportunity Every day, we connect billions of players with the games and experiences they love. Our Vector Gamer AI team sits at the heart of that mission, governing ad ranking and bidding decisions across billions of daily impressions, where large-scale machine learning and real-world impact converge at scale. We're hiring a Senior Backend Engineer to build and operate the infrastructure those models depend on. You'll design and operate the distributed systems that power billions of daily …",
-      "postedAt": "2026-10-11T09:22:49Z",
-      "compHint": "$165,600 - $273,400",
+      "url": "https://www.adzuna.com/land/ad/5924830579?se=nvQ_q4bG8RGmXeaUG_Yk-Q&utm_medium=api&utm_source=e9201d43&v=00397A7BBD0432716D77E3F92AB1405B07A6C0F7",
+      "descriptionText": "Crusoe is on a mission to accelerate the abundance of energy and intelligence . As the only vertically integrated AI infrastructure company built from the ground up, we own and operate each layer of the stack — from electrons to tokens — to power the world's most ambitious AI workloads. When you join Crusoe, you join a team that is building the future, faster. We're in the midst of the greatest industrial revolution of our time. The demand for AI compute is boundless, and power is a bottleneck.…",
+      "postedAt": "2026-10-12T17:27:18Z",
       "score": {
         "fit": 84,
         "verdict": "strong",
-        "rationale": "Senior Backend Engineer, Vector AI at Unity Technologies SF scores 84/100 (strong) on the Tier-1 deterministic pass. Matched: Backend / distributed / event-driven — Ryan's core strength; Senior / staff / lead level; Platform / reliability / observability — Ryan's secondary strength; AI-native engineering (a SWE who drives AI adoption). Concerns: remote unstated.",
+        "rationale": "Staff Software Engineer, Cloud Monitoring Service (Distributed Systems) at Crusoe scores 84/100 (strong) on the Tier-1 deterministic pass. Matched: Backend / distributed / event-driven — Ryan's core strength; Senior / staff / lead level; Platform / reliability / observability — Ryan's secondary strength; AI-native engineering (a SWE who drives AI adoption). Concerns: comp unstated; remote unstated.",
         "matched": [
           "Backend / distributed / event-driven — Ryan's core strength",
           "Senior / staff / lead level",
@@ -1313,33 +1340,7 @@
           "AI-native engineering (a SWE who drives AI adoption)"
         ],
         "concerns": [
-          "remote unstated"
-        ]
-      }
-    },
-    {
-      "id": "2b4c9188",
-      "source": "adzuna",
-      "company": "Microsoft",
-      "title": "Principal Software Engineer, ML & Distributed Systems",
-      "location": "Redmond, King County",
-      "remote": "unknown",
-      "url": "https://www.adzuna.com/details/5923335286?utm_medium=api&utm_source=e9201d43",
-      "descriptionText": "Overview We are looking for a Principal Software Engineer to design, build, and operationalize machine learning systems and hyperscale distributed services that power Microsoft's AI experiences. This is a role for an engineer who is equally at home training and shipping ML models and building the large-scale distributed infrastructure that serves them — and who has the appetite to do both. You will own systems end to end: from model development and evaluation, through the serving and orchestrat…",
-      "postedAt": "2026-10-11T09:03:17Z",
-      "compHint": "$142,800 - $274,800",
-      "score": {
-        "fit": 84,
-        "verdict": "strong",
-        "rationale": "Principal Software Engineer, ML & Distributed Systems at Microsoft scores 84/100 (strong) on the Tier-1 deterministic pass. Matched: Backend / distributed / event-driven — Ryan's core strength; Senior / staff / lead level; Platform / reliability / observability — Ryan's secondary strength; AI-native engineering (a SWE who drives AI adoption). Concerns: location \"Redmond, King County\" — confirm US eligibility; remote unstated.",
-        "matched": [
-          "Backend / distributed / event-driven — Ryan's core strength",
-          "Senior / staff / lead level",
-          "Platform / reliability / observability — Ryan's secondary strength",
-          "AI-native engineering (a SWE who drives AI adoption)"
-        ],
-        "concerns": [
-          "location \"Redmond, King County\" — confirm US eligibility",
+          "comp unstated",
           "remote unstated"
         ]
       }
