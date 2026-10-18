@@ -1,22 +1,22 @@
 {
-  "generatedAt": "2026-10-17T16:34:05.026Z",
+  "generatedAt": "2026-10-18T16:40:30.876Z",
   "tier": "tier-1",
   "counts": {
-    "fetched": 2046,
-    "kept": 583,
-    "dropped": 1463,
+    "fetched": 2039,
+    "kept": 585,
+    "dropped": 1454,
     "byVerdict": {
-      "strong": 113,
-      "possible": 249,
-      "weak": 180,
+      "strong": 115,
+      "possible": 237,
+      "weak": 192,
       "skip": 41
     },
     "droppedByReason": {
-      "excluded-title": 809,
-      "off-role-family": 459,
+      "excluded-title": 808,
+      "off-role-family": 456,
       "on-site-only": 15,
       "non-us-location": 157,
-      "below-comp-floor": 23
+      "below-comp-floor": 18
     }
   },
   "errors": [
@@ -524,33 +524,6 @@
         "fit": 92,
         "verdict": "strong",
         "rationale": "Senior Software Engineer(Distributed Systems) at Workday scores 92/100 (strong) on the Tier-1 deterministic pass. Matched: Backend / distributed / event-driven — Ryan's core strength; Senior / staff / lead level; Platform / reliability / observability — Ryan's secondary strength; AI-native engineering (a SWE who drives AI adoption); HCM / group-benefits domain overlap — Ryan's EOI / Absence Management experience translates directly. Concerns: comp unstated; remote unstated.",
-        "matched": [
-          "Backend / distributed / event-driven — Ryan's core strength",
-          "Senior / staff / lead level",
-          "Platform / reliability / observability — Ryan's secondary strength",
-          "AI-native engineering (a SWE who drives AI adoption)",
-          "HCM / group-benefits domain overlap — Ryan's EOI / Absence Management experience translates directly"
-        ],
-        "concerns": [
-          "comp unstated",
-          "remote unstated"
-        ]
-      }
-    },
-    {
-      "id": "f1070ce0",
-      "source": "workday",
-      "company": "Workday",
-      "title": "Senior Software Engineer - Context and Semantics (AI)",
-      "location": "USA, CA, Pleasanton — United States of America",
-      "remote": "unknown",
-      "url": "https://workday.wd5.myworkdayjobs.com/Workday/job/USA-CA-Pleasanton/Senior-Software-Engineer---Context-and-Semantics--AI-_JR-0110208",
-      "descriptionText": "Your work days are brighter here.\n\nWe’re obsessed with making hard work pay off, for our people, our customers, and the world around us. As a Fortune 500 company and a leading AI platform for managing people, money, and agents, we’re shaping the future of work so teams can reach their potential and focus on what matters most. The minute you join, you’ll feel it. Not just in the products we build, but in how we show up for each other. Our culture is rooted in integrity, empathy, and shared enthusiasm. We’re in this together, tackling big challenges with bold ideas and genuine care. We look for…",
-      "postedAt": "2026-09-16",
-      "score": {
-        "fit": 92,
-        "verdict": "strong",
-        "rationale": "Senior Software Engineer - Context and Semantics (AI) at Workday scores 92/100 (strong) on the Tier-1 deterministic pass. Matched: Backend / distributed / event-driven — Ryan's core strength; Senior / staff / lead level; Platform / reliability / observability — Ryan's secondary strength; AI-native engineering (a SWE who drives AI adoption); HCM / group-benefits domain overlap — Ryan's EOI / Absence Management experience translates directly. Concerns: comp unstated; remote unstated.",
         "matched": [
           "Backend / distributed / event-driven — Ryan's core strength",
           "Senior / staff / lead level",
@@ -1191,28 +1164,30 @@
       }
     },
     {
-      "id": "13b706b0",
-      "source": "ashby",
-      "company": "OpenAI",
-      "title": "Software Engineer, Full Stack — Dots",
-      "location": "New York City",
-      "remote": true,
-      "url": "https://jobs.ashbyhq.com/openai/dbe79b89-e593-44b3-8aec-c667f7134445",
-      "descriptionText": "About the Team\n\nDots is building personal AI agents that help people make progress on their goals, including when they are away from ChatGPT. These agents can learn preferences, maintain context, work across applications, and use cloud computers to carry out tasks.\n\nOur team brings together product engineering, design, and research to turn frontier model capabilities into useful everyday experiences. We are defining how people delegate work, understand what an agent is doing, and stay in control. Engineers help shape both the product and the systems behind it, from early prototypes through…",
-      "postedAt": "2026-10-16T23:48:11.093+00:00",
-      "compHint": "$347K - $385K",
+      "id": "39fb38f5",
+      "source": "adzuna",
+      "company": "ClickHouse",
+      "title": "Langfuse - Senior Backend Engineer (US-East)",
+      "location": "New York City, New York",
+      "remote": "unknown",
+      "url": "https://www.adzuna.com/details/5933358351?utm_medium=api&utm_source=e9201d43",
+      "descriptionText": "Why Backend Engineering at Langfuse Your work will have an outsized impact. Langfuse ingests terabytes of AI tracing data per day. When a Fortune 50 company instruments their application with Langfuse, they hit the infrastructure you built. Everything you ship is open source and immediately visible. The core of your role is making Langfuse fast and affordable at scale: owning the ingestion pipeline, optimizing ClickHouse data models and queries so dashboards load instantly, and building the bac…",
+      "postedAt": "2026-10-18T09:16:58Z",
       "score": {
         "fit": 87,
         "verdict": "strong",
-        "rationale": "Software Engineer, Full Stack — Dots at OpenAI scores 87/100 (strong) on the Tier-1 deterministic pass. Matched: Backend / distributed / event-driven — Ryan's core strength; Senior / staff / lead level; Platform / reliability / observability — Ryan's secondary strength; AI-native engineering (a SWE who drives AI adoption); Product engineering.",
+        "rationale": "Langfuse - Senior Backend Engineer (US-East) at ClickHouse scores 87/100 (strong) on the Tier-1 deterministic pass. Matched: Backend / distributed / event-driven — Ryan's core strength; Senior / staff / lead level; Platform / reliability / observability — Ryan's secondary strength; AI-native engineering (a SWE who drives AI adoption); Strong engineering culture. Concerns: comp unstated; remote unstated.",
         "matched": [
           "Backend / distributed / event-driven — Ryan's core strength",
           "Senior / staff / lead level",
           "Platform / reliability / observability — Ryan's secondary strength",
           "AI-native engineering (a SWE who drives AI adoption)",
-          "Product engineering"
+          "Strong engineering culture"
         ],
-        "concerns": []
+        "concerns": [
+          "comp unstated",
+          "remote unstated"
+        ]
       }
     },
     {
@@ -1332,6 +1307,33 @@
         "fit": 87,
         "verdict": "strong",
         "rationale": "AI Systems Engineer, Codex Agents at OpenAI scores 87/100 (strong) on the Tier-1 deterministic pass. Matched: Backend / distributed / event-driven — Ryan's core strength; Senior / staff / lead level; Platform / reliability / observability — Ryan's secondary strength; AI-native engineering (a SWE who drives AI adoption); Strong engineering culture. Concerns: remote unstated.",
+        "matched": [
+          "Backend / distributed / event-driven — Ryan's core strength",
+          "Senior / staff / lead level",
+          "Platform / reliability / observability — Ryan's secondary strength",
+          "AI-native engineering (a SWE who drives AI adoption)",
+          "Strong engineering culture"
+        ],
+        "concerns": [
+          "remote unstated"
+        ]
+      }
+    },
+    {
+      "id": "1ac030a7",
+      "source": "ashby",
+      "company": "OpenAI",
+      "title": "Software Engineer, Localization",
+      "location": "San Francisco",
+      "remote": "unknown",
+      "url": "https://jobs.ashbyhq.com/openai/deff9215-217d-4392-825e-7788cb8205f3",
+      "descriptionText": "ABOUT THE TEAM\n\nOpenAI’s mission is to ensure that artificial general intelligence benefits all of humanity. A majority of our users interact with our products in languages other than English, and our products must work seamlessly across languages, regions, and cultures.\n\nThe Internationalization team builds the infrastructure that enables OpenAI products to ship globally by default. We develop the systems that power localization, international product launches, and high-quality global user experiences across all OpenAI products.\n\nABOUT THE ROLE\n\nAs a Senior Software Engineer on the…",
+      "postedAt": "2026-03-18T21:25:49.295+00:00",
+      "compHint": "$347K - $445K",
+      "score": {
+        "fit": 87,
+        "verdict": "strong",
+        "rationale": "Software Engineer, Localization at OpenAI scores 87/100 (strong) on the Tier-1 deterministic pass. Matched: Backend / distributed / event-driven — Ryan's core strength; Senior / staff / lead level; Platform / reliability / observability — Ryan's secondary strength; AI-native engineering (a SWE who drives AI adoption); Strong engineering culture. Concerns: remote unstated.",
         "matched": [
           "Backend / distributed / event-driven — Ryan's core strength",
           "Senior / staff / lead level",
