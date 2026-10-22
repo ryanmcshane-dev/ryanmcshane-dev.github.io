@@ -1,22 +1,22 @@
 {
-  "generatedAt": "2026-10-21T18:09:42.529Z",
+  "generatedAt": "2026-10-22T18:06:20.685Z",
   "tier": "tier-1",
   "counts": {
-    "fetched": 2061,
-    "kept": 571,
-    "dropped": 1490,
+    "fetched": 2008,
+    "kept": 550,
+    "dropped": 1458,
     "byVerdict": {
-      "strong": 119,
-      "possible": 228,
-      "weak": 177,
-      "skip": 47
+      "strong": 114,
+      "possible": 232,
+      "weak": 161,
+      "skip": 43
     },
     "droppedByReason": {
-      "excluded-title": 821,
-      "off-role-family": 459,
-      "on-site-only": 18,
-      "non-us-location": 162,
-      "below-comp-floor": 30
+      "excluded-title": 807,
+      "off-role-family": 454,
+      "on-site-only": 19,
+      "non-us-location": 159,
+      "below-comp-floor": 19
     }
   },
   "errors": [
@@ -24,36 +24,14 @@
       "company": "Plaid",
       "ats": "lever",
       "message": "Lever \"plaid\" → HTTP 404"
+    },
+    {
+      "company": "Adzuna",
+      "ats": "adzuna",
+      "message": "Adzuna \"backend engineer\" → HTTP 503"
     }
   ],
   "items": [
-    {
-      "id": "51d13fba",
-      "source": "greenhouse",
-      "company": "Airbnb",
-      "title": "Senior Software Engineer,  Cloud Experience",
-      "location": "United States",
-      "remote": true,
-      "url": "https://careers.airbnb.com/positions/7763610?gh_jid=7763610",
-      "descriptionText": "Airbnb was born in 2007 when two hosts welcomed three guests to their San Francisco home, and has since grown to over 5 million hosts who have welcomed over 2 billion guest arrivals in almost every country across the globe. Every day, hosts offer unique stays and experiences that make it possible for guests to connect with communities in a more authentic way.\n\nThe Community You Will Join:\n\nAt Airbnb, our mission is to create a world where anyone can belong anywhere. Operating within the Cloud Infrastructure organization, the Cloud Experience team builds and maintains the foundational cloud…",
-      "postedAt": "2026-10-20T12:03:29-04:00",
-      "score": {
-        "fit": 95,
-        "verdict": "strong",
-        "rationale": "Senior Software Engineer,  Cloud Experience at Airbnb scores 95/100 (strong) on the Tier-1 deterministic pass. Matched: Backend / distributed / event-driven — Ryan's core strength; Senior / staff / lead level; Platform / reliability / observability — Ryan's secondary strength; AI-native engineering (a SWE who drives AI adoption); Strong engineering culture; Top-choice company. Concerns: comp unstated.",
-        "matched": [
-          "Backend / distributed / event-driven — Ryan's core strength",
-          "Senior / staff / lead level",
-          "Platform / reliability / observability — Ryan's secondary strength",
-          "AI-native engineering (a SWE who drives AI adoption)",
-          "Strong engineering culture",
-          "Top-choice company"
-        ],
-        "concerns": [
-          "comp unstated"
-        ]
-      }
-    },
     {
       "id": "6de9280a",
       "source": "workday",
@@ -567,6 +545,140 @@
       }
     },
     {
+      "id": "611a7d8d",
+      "source": "smartrecruiters",
+      "company": "ServiceNow",
+      "title": "Senior Staff Software Engineer, Agentic Systems - Moveworks",
+      "location": "Mountain View, CALIFORNIA, United States",
+      "remote": "unknown",
+      "url": "https://jobs.smartrecruiters.com/ServiceNow/744000157146370-senior-staff-software-engineer-agentic-systems-moveworks?oga=true",
+      "descriptionText": "The Role\nWe're building the runtime infrastructure that powers Moveworks' AI agents — the systems that orchestrate, execute, and deliver agent responses to millions of enterprise users in real time. This is not an ML role. This is a distributed systems engineering role at the heart of the agentic AI wave.\nOur AI agents can plan, execute multi-step workflows, call tools, wait on human input, and resume — all while maintaining correctness, observability, and low latency. The systems that make this possible are what you'll build and own.\n\nWhat you get to do in this role:\nAgent orchestration…",
+      "postedAt": "2026-10-22T14:10:40.767Z",
+      "score": {
+        "fit": 89,
+        "verdict": "strong",
+        "rationale": "Senior Staff Software Engineer, Agentic Systems - Moveworks at ServiceNow scores 89/100 (strong) on the Tier-1 deterministic pass. Matched: Backend / distributed / event-driven — Ryan's core strength; Senior / staff / lead level; Platform / reliability / observability — Ryan's secondary strength; AI-native engineering (a SWE who drives AI adoption); Large, reputable, remote-friendly engineering org with a strong Java / distributed-systems bar. Concerns: comp unstated; remote unstated.",
+        "matched": [
+          "Backend / distributed / event-driven — Ryan's core strength",
+          "Senior / staff / lead level",
+          "Platform / reliability / observability — Ryan's secondary strength",
+          "AI-native engineering (a SWE who drives AI adoption)",
+          "Large, reputable, remote-friendly engineering org with a strong Java / distributed-systems bar"
+        ],
+        "concerns": [
+          "comp unstated",
+          "remote unstated"
+        ]
+      }
+    },
+    {
+      "id": "674e07fd",
+      "source": "smartrecruiters",
+      "company": "ServiceNow",
+      "title": "Sr Staff Software Engineer (Distributed Systems | Data Ingestion | Storage | Analytics) - Remote",
+      "location": "San Diego, CALIFORNIA, United States",
+      "remote": true,
+      "url": "https://jobs.smartrecruiters.com/ServiceNow/744000156912806-sr-staff-software-engineer-distributed-systems-data-ingestion-storage-analytics-remote-?oga=true",
+      "descriptionText": "About the role\nHealth Log Analytics (HLA) ingests, stores, and analyzes the logs that power ServiceNow's AIOps suite. We want it to be the data backbone teams trust to find problems early and fix them fast.\nHLA is a data platform for operational logs at high volume, built for ServiceNow’s large enterprise customers. The work spans the full data path: collection and ingestion, routing and enrichment, durable storage and retention, and fast, cost-aware query. Our ingest builds on OpenTelemetry, and we have our own Rust-based log storage. As data volume, customer needs, and AI-driven use cases…",
+      "postedAt": "2026-10-22T00:52:46.633Z",
+      "score": {
+        "fit": 89,
+        "verdict": "strong",
+        "rationale": "Sr Staff Software Engineer (Distributed Systems | Data Ingestion | Storage | Analytics) - Remote at ServiceNow scores 89/100 (strong) on the Tier-1 deterministic pass. Matched: Backend / distributed / event-driven — Ryan's core strength; Senior / staff / lead level; Platform / reliability / observability — Ryan's secondary strength; AI-native engineering (a SWE who drives AI adoption); Large, reputable, remote-friendly engineering org with a strong Java / distributed-systems bar. Concerns: comp unstated.",
+        "matched": [
+          "Backend / distributed / event-driven — Ryan's core strength",
+          "Senior / staff / lead level",
+          "Platform / reliability / observability — Ryan's secondary strength",
+          "AI-native engineering (a SWE who drives AI adoption)",
+          "Large, reputable, remote-friendly engineering org with a strong Java / distributed-systems bar"
+        ],
+        "concerns": [
+          "comp unstated"
+        ]
+      }
+    },
+    {
+      "id": "612a7e52",
+      "source": "smartrecruiters",
+      "company": "ServiceNow",
+      "title": "Senior Staff Software Engineer - Platform Access Control - Security",
+      "location": "Santa Clara, CALIFORNIA, United States",
+      "remote": "unknown",
+      "url": "https://jobs.smartrecruiters.com/ServiceNow/744000156894349-senior-staff-software-engineer-platform-access-control-security?oga=true",
+      "descriptionText": "Team:  \n\nThe Platform Access Controls team is within the Platform Security Core Organization and owns ServiceNow's core authorization frameworks, including ACLs, Security Policies, Security Attributes, and Security Filters. We are responsible for validating identity and access for every transaction across the platform, helping ensure a secure-by-default experience. Our team consists of passionate, self-directed engineers who enjoy solving complex security challenges and building scalable security controls. We foster a highly collaborative culture across distributed teams, empowering…",
+      "postedAt": "2026-10-21T21:02:04.050Z",
+      "score": {
+        "fit": 89,
+        "verdict": "strong",
+        "rationale": "Senior Staff Software Engineer - Platform Access Control - Security at ServiceNow scores 89/100 (strong) on the Tier-1 deterministic pass. Matched: Backend / distributed / event-driven — Ryan's core strength; Senior / staff / lead level; Platform / reliability / observability — Ryan's secondary strength; AI-native engineering (a SWE who drives AI adoption); Large, reputable, remote-friendly engineering org with a strong Java / distributed-systems bar. Concerns: comp unstated; remote unstated.",
+        "matched": [
+          "Backend / distributed / event-driven — Ryan's core strength",
+          "Senior / staff / lead level",
+          "Platform / reliability / observability — Ryan's secondary strength",
+          "AI-native engineering (a SWE who drives AI adoption)",
+          "Large, reputable, remote-friendly engineering org with a strong Java / distributed-systems bar"
+        ],
+        "concerns": [
+          "comp unstated",
+          "remote unstated"
+        ]
+      }
+    },
+    {
+      "id": "d50c7351",
+      "source": "smartrecruiters",
+      "company": "ServiceNow",
+      "title": "Senior Security Software Engineer, IAM - Moveworks",
+      "location": "Mountain View, CALIFORNIA, United States",
+      "remote": "unknown",
+      "url": "https://jobs.smartrecruiters.com/ServiceNow/744000156890160-senior-security-software-engineer-iam-moveworks?oga=true",
+      "descriptionText": "The Role\nDo you care deeply about secure access at scale? Making sure the right people have the right access, exactly when they need it, without slowing teams down? Join Moveworks and help shape the future of our identity and access strategy.\nAt Moveworks, we believe great security is an enabler, not a blocker. As a Senior Identity & Access Management Engineer, you’ll be a hands-on technical developer, coding, designing, building, and scaling IAM solutions across cloud infrastructure, SaaS applications, and internal systems. You’ll own the development of IAM initiatives end-to-end, from…",
+      "postedAt": "2026-10-21T20:49:39.365Z",
+      "score": {
+        "fit": 89,
+        "verdict": "strong",
+        "rationale": "Senior Security Software Engineer, IAM - Moveworks at ServiceNow scores 89/100 (strong) on the Tier-1 deterministic pass. Matched: Backend / distributed / event-driven — Ryan's core strength; Senior / staff / lead level; Platform / reliability / observability — Ryan's secondary strength; AI-native engineering (a SWE who drives AI adoption); Large, reputable, remote-friendly engineering org with a strong Java / distributed-systems bar. Concerns: comp unstated; remote unstated.",
+        "matched": [
+          "Backend / distributed / event-driven — Ryan's core strength",
+          "Senior / staff / lead level",
+          "Platform / reliability / observability — Ryan's secondary strength",
+          "AI-native engineering (a SWE who drives AI adoption)",
+          "Large, reputable, remote-friendly engineering org with a strong Java / distributed-systems bar"
+        ],
+        "concerns": [
+          "comp unstated",
+          "remote unstated"
+        ]
+      }
+    },
+    {
+      "id": "f721f976",
+      "source": "smartrecruiters",
+      "company": "ServiceNow",
+      "title": "Principal Software Engineer - Veza",
+      "location": "San Diego, CALIFORNIA, United States",
+      "remote": "unknown",
+      "url": "https://jobs.smartrecruiters.com/ServiceNow/744000156874729-principal-software-engineer-veza?oga=true",
+      "descriptionText": "What you'll do\nIdentity\nOwn the identity model for workloads and agents: SPIFFE/SPIRE trust domains, workload attestation, and how identities are issued, scoped, rotated, and revoked.\nArchitect ephemeral authentication and authorization end to end: short-lived credential issuance, token exchange and delegation (for example RFC 8693-style flows), and revocation that takes effect in practice.\nDefine runtime authorization for agents: what an agent can access, under whose delegated authority, with what guardrails, and with audit trails that hold up to review.\nLead the identity architecture for…",
+      "postedAt": "2026-10-21T18:58:06.998Z",
+      "score": {
+        "fit": 89,
+        "verdict": "strong",
+        "rationale": "Principal Software Engineer - Veza at ServiceNow scores 89/100 (strong) on the Tier-1 deterministic pass. Matched: Backend / distributed / event-driven — Ryan's core strength; Senior / staff / lead level; Platform / reliability / observability — Ryan's secondary strength; AI-native engineering (a SWE who drives AI adoption); Large, reputable, remote-friendly engineering org with a strong Java / distributed-systems bar. Concerns: comp unstated; remote unstated.",
+        "matched": [
+          "Backend / distributed / event-driven — Ryan's core strength",
+          "Senior / staff / lead level",
+          "Platform / reliability / observability — Ryan's secondary strength",
+          "AI-native engineering (a SWE who drives AI adoption)",
+          "Large, reputable, remote-friendly engineering org with a strong Java / distributed-systems bar"
+        ],
+        "concerns": [
+          "comp unstated",
+          "remote unstated"
+        ]
+      }
+    },
+    {
       "id": "ace238cb",
       "source": "smartrecruiters",
       "company": "ServiceNow",
@@ -728,72 +840,19 @@
       }
     },
     {
-      "id": "a6e54a89",
-      "source": "smartrecruiters",
-      "company": "ServiceNow",
-      "title": "Principal Software Engineer - Veza",
-      "location": "San Diego, CALIFORNIA, United States",
-      "remote": "unknown",
-      "url": "https://jobs.smartrecruiters.com/ServiceNow/744000156093019-principal-software-engineer-veza?oga=true",
-      "descriptionText": "About Veza\nVeza is the identity security platform for human, non-human, and AI agent access. Customers use it to see who and what has access to what, govern it, and remediate risk across cloud, SaaS, and on-prem systems.\nAgent security is the inflection point. Static access reviews can't keep up with autonomous agents acting at machine speed. Security is shifting to continuous, real-time control: just-in-time access for agents, automated remediation of policy violations, and real-time governance of agent actions as they happen—replacing standing privileges and periodic reviews.\nVeza is in…",
-      "postedAt": "2026-10-16T23:15:30.201Z",
-      "score": {
-        "fit": 89,
-        "verdict": "strong",
-        "rationale": "Principal Software Engineer - Veza at ServiceNow scores 89/100 (strong) on the Tier-1 deterministic pass. Matched: Backend / distributed / event-driven — Ryan's core strength; Senior / staff / lead level; Platform / reliability / observability — Ryan's secondary strength; AI-native engineering (a SWE who drives AI adoption); Large, reputable, remote-friendly engineering org with a strong Java / distributed-systems bar. Concerns: comp unstated; remote unstated.",
-        "matched": [
-          "Backend / distributed / event-driven — Ryan's core strength",
-          "Senior / staff / lead level",
-          "Platform / reliability / observability — Ryan's secondary strength",
-          "AI-native engineering (a SWE who drives AI adoption)",
-          "Large, reputable, remote-friendly engineering org with a strong Java / distributed-systems bar"
-        ],
-        "concerns": [
-          "comp unstated",
-          "remote unstated"
-        ]
-      }
-    },
-    {
-      "id": "7107d5a3",
+      "id": "a05928ff",
       "source": "greenhouse",
       "company": "Affirm",
-      "title": "Senior Software Engineer, Backend (Reliability Platform)",
+      "title": "Software Engineer II, Backend (Test Infra)",
       "location": "Remote US",
       "remote": true,
-      "url": "https://job-boards.greenhouse.io/affirm/jobs/7820306003",
-      "descriptionText": "At Affirm, we exist for the moments that matter—giving people a clear, predictable way to pay over time, with no hidden fees, no surprises, and no tradeoffs on what matters most.\n\nAffirm is reinventing credit to make it more honest and friendly, giving consumers the flexibility to buy now and pay later without any hidden fees or compounding interest.\n\nWe’re looking for a Software Engineer to design and build a next-generation reliability platform for Affirm’s production systems. You’ll blend traditional distributed systems engineering with AI-assisted development to give teams a single place…",
+      "url": "https://job-boards.greenhouse.io/affirm/jobs/7727320003",
+      "descriptionText": "At Affirm, we exist for the moments that matter—giving people a clear, predictable way to pay over time, with no hidden fees, no surprises, and no tradeoffs on what matters most.\n\nAffirm is reinventing credit to make it more honest and friendly, giving consumers the flexibility to buy now and pay later without any hidden fees or compounding interest.\nWe are seeking a highly motivated Software Engineer II with strong experience in test automation to contribute to Developer Productivity, with a focus on Test Platform Engineering. The Test Infra team empowers developers to efficiently write,…",
       "postedAt": "2026-10-16T17:13:47-04:00",
       "score": {
         "fit": 89,
         "verdict": "strong",
-        "rationale": "Senior Software Engineer, Backend (Reliability Platform) at Affirm scores 89/100 (strong) on the Tier-1 deterministic pass. Matched: Backend / distributed / event-driven — Ryan's core strength; Senior / staff / lead level; Platform / reliability / observability — Ryan's secondary strength; AI-native engineering (a SWE who drives AI adoption); Large, reputable, remote-friendly engineering org with a strong Java / distributed-systems bar. Concerns: comp unstated.",
-        "matched": [
-          "Backend / distributed / event-driven — Ryan's core strength",
-          "Senior / staff / lead level",
-          "Platform / reliability / observability — Ryan's secondary strength",
-          "AI-native engineering (a SWE who drives AI adoption)",
-          "Large, reputable, remote-friendly engineering org with a strong Java / distributed-systems bar"
-        ],
-        "concerns": [
-          "comp unstated"
-        ]
-      }
-    },
-    {
-      "id": "832a4b37",
-      "source": "greenhouse",
-      "company": "Affirm",
-      "title": "Staff CIAM Software Engineer",
-      "location": "Remote US",
-      "remote": true,
-      "url": "https://job-boards.greenhouse.io/affirm/jobs/7819449003",
-      "descriptionText": "At Affirm, we exist for the moments that matter—giving people a clear, predictable way to pay over time, with no hidden fees, no surprises, and no tradeoffs on what matters most.\n\nAffirm is building the next generation of customer identity and authentication. This role is a hands-on engineering position inside Information Security, focused on designing and shipping core CIAM capabilities that protect customers and support growth.\n\nYou will build and operate backend services that power registration, login, authorization, and account lifecycle flows across B2C and B2B experiences. You will work…",
-      "postedAt": "2026-10-16T17:13:47-04:00",
-      "score": {
-        "fit": 89,
-        "verdict": "strong",
-        "rationale": "Staff CIAM Software Engineer at Affirm scores 89/100 (strong) on the Tier-1 deterministic pass. Matched: Backend / distributed / event-driven — Ryan's core strength; Senior / staff / lead level; Platform / reliability / observability — Ryan's secondary strength; AI-native engineering (a SWE who drives AI adoption); Large, reputable, remote-friendly engineering org with a strong Java / distributed-systems bar. Concerns: comp unstated.",
+        "rationale": "Software Engineer II, Backend (Test Infra) at Affirm scores 89/100 (strong) on the Tier-1 deterministic pass. Matched: Backend / distributed / event-driven — Ryan's core strength; Senior / staff / lead level; Platform / reliability / observability — Ryan's secondary strength; AI-native engineering (a SWE who drives AI adoption); Large, reputable, remote-friendly engineering org with a strong Java / distributed-systems bar. Concerns: comp unstated.",
         "matched": [
           "Backend / distributed / event-driven — Ryan's core strength",
           "Senior / staff / lead level",
@@ -1016,31 +1075,6 @@
       }
     },
     {
-      "id": "31c77d8e",
-      "source": "greenhouse",
-      "company": "Block",
-      "title": "Staff Software Engineer, Financial Platform - Issuing",
-      "location": "Bay Area, CA, United States of America",
-      "remote": true,
-      "url": "http://block.xyz/careers/jobs/5414624008?gh_jid=5414624008",
-      "descriptionText": "It all started with an idea at Block in 2013. Initially built to take the pain out of peer-to-peer payments, Cash App has gone from a simple product with a single purpose to a dynamic ecosystem, developing unique financial products, including Afterpay/Clearpay, to provide a better way to send, spend, invest, borrow and save to our 50+ million monthly active customers. We want to redefine the world’s relationship with money to make it more relatable, instantly available, and universally accessible.\n\nToday, Cash App has thousands of employees working globally across office and remote locations,…",
-      "postedAt": "2026-10-08T17:42:09-04:00",
-      "compHint": "$263,600–$395,400, $263,600–$395,400, $263,600–$395,400, $263,600–$395,400",
-      "score": {
-        "fit": 89,
-        "verdict": "strong",
-        "rationale": "Staff Software Engineer, Financial Platform - Issuing at Block scores 89/100 (strong) on the Tier-1 deterministic pass. Matched: Backend / distributed / event-driven — Ryan's core strength; Senior / staff / lead level; Platform / reliability / observability — Ryan's secondary strength; AI-native engineering (a SWE who drives AI adoption); Large, reputable, remote-friendly engineering org with a strong Java / distributed-systems bar.",
-        "matched": [
-          "Backend / distributed / event-driven — Ryan's core strength",
-          "Senior / staff / lead level",
-          "Platform / reliability / observability — Ryan's secondary strength",
-          "AI-native engineering (a SWE who drives AI adoption)",
-          "Large, reputable, remote-friendly engineering org with a strong Java / distributed-systems bar"
-        ],
-        "concerns": []
-      }
-    },
-    {
       "id": "267bdf1d",
       "source": "greenhouse",
       "company": "Block",
@@ -1055,31 +1089,6 @@
         "fit": 89,
         "verdict": "strong",
         "rationale": "Software Engineer, Payment Interfaces at Block scores 89/100 (strong) on the Tier-1 deterministic pass. Matched: Backend / distributed / event-driven — Ryan's core strength; Senior / staff / lead level; Platform / reliability / observability — Ryan's secondary strength; AI-native engineering (a SWE who drives AI adoption); Large, reputable, remote-friendly engineering org with a strong Java / distributed-systems bar.",
-        "matched": [
-          "Backend / distributed / event-driven — Ryan's core strength",
-          "Senior / staff / lead level",
-          "Platform / reliability / observability — Ryan's secondary strength",
-          "AI-native engineering (a SWE who drives AI adoption)",
-          "Large, reputable, remote-friendly engineering org with a strong Java / distributed-systems bar"
-        ],
-        "concerns": []
-      }
-    },
-    {
-      "id": "d7fcf533",
-      "source": "greenhouse",
-      "company": "Block",
-      "title": "Senior GRC Engineer",
-      "location": "Bay Area, CA, United States of America",
-      "remote": true,
-      "url": "http://block.xyz/careers/jobs/5400004008?gh_jid=5400004008",
-      "descriptionText": "Block is one company built from many blocks, all united by the same purpose of economic empowerment. The blocks that form our foundational teams — People, Finance, Counsel, Hardware, Information Security, Platform Infrastructure Engineering, and more — provide support and guidance at the corporate level. They work across business groups and around the globe, spanning time zones and disciplines to develop inclusive People policies, forecast finances, give legal counsel, safeguard systems, nurture new initiatives, and more. Every challenge creates possibilities, and we need different…",
-      "postedAt": "2026-10-08T17:41:39-04:00",
-      "compHint": "$217,800–$326,800, $207,000–$310,400, $196,100–$294,100, $185,200–$277,800",
-      "score": {
-        "fit": 89,
-        "verdict": "strong",
-        "rationale": "Senior GRC Engineer at Block scores 89/100 (strong) on the Tier-1 deterministic pass. Matched: Backend / distributed / event-driven — Ryan's core strength; Senior / staff / lead level; Platform / reliability / observability — Ryan's secondary strength; AI-native engineering (a SWE who drives AI adoption); Large, reputable, remote-friendly engineering org with a strong Java / distributed-systems bar.",
         "matched": [
           "Backend / distributed / event-driven — Ryan's core strength",
           "Senior / staff / lead level",
@@ -1113,32 +1122,6 @@
           "Large, reputable, remote-friendly engineering org with a strong Java / distributed-systems bar"
         ],
         "concerns": []
-      }
-    },
-    {
-      "id": "b0e631ef",
-      "source": "smartrecruiters",
-      "company": "ServiceNow",
-      "title": "Forward Deployed Solution Engineer – Applied AI FDE",
-      "location": "Santa Clara, California, United States",
-      "remote": true,
-      "url": "https://jobs.smartrecruiters.com/ServiceNow/744000154154044-forward-deployed-solution-engineer-applied-ai-fde?oga=true",
-      "descriptionText": "Team Bio:  \nServiceNow’s Applied AI Forward Deployed Engineering (FDE)  team is where bold ideas meet transformative action. We partner with our most strategic customers to shape the future of enterprise AI. Together, we identify high-value opportunities, accelerate business outcomes, and build reusable AI-native solutions that advance the Now AI Platform. \nOur mission:  We partner deeply with our customers to build intelligent, scalable AI solutions that solve their most mission-critical challenges. By embedding in real-world complexity, we deliver fast, iterate with purpose, and transform…",
-      "postedAt": "2026-10-07T16:45:52.725Z",
-      "score": {
-        "fit": 89,
-        "verdict": "strong",
-        "rationale": "Forward Deployed Solution Engineer – Applied AI FDE at ServiceNow scores 89/100 (strong) on the Tier-1 deterministic pass. Matched: Backend / distributed / event-driven — Ryan's core strength; Senior / staff / lead level; Platform / reliability / observability — Ryan's secondary strength; AI-native engineering (a SWE who drives AI adoption); Large, reputable, remote-friendly engineering org with a strong Java / distributed-systems bar. Concerns: comp unstated.",
-        "matched": [
-          "Backend / distributed / event-driven — Ryan's core strength",
-          "Senior / staff / lead level",
-          "Platform / reliability / observability — Ryan's secondary strength",
-          "AI-native engineering (a SWE who drives AI adoption)",
-          "Large, reputable, remote-friendly engineering org with a strong Java / distributed-systems bar"
-        ],
-        "concerns": [
-          "comp unstated"
-        ]
       }
     },
     {
@@ -1346,6 +1329,32 @@
         ],
         "concerns": [
           "remote unstated"
+        ]
+      }
+    },
+    {
+      "id": "3fe5ed8a",
+      "source": "ashby",
+      "company": "Linear",
+      "title": "Senior / Staff Product Engineer",
+      "location": "North America",
+      "remote": true,
+      "url": "https://jobs.ashbyhq.com/linear/12f8f208-0b9c-4569-bb3d-41c8a197029e",
+      "descriptionText": "At Linear, we're building the product development system for teams and agents. AI is fundamentally changing how software gets built, and we’re shaping the tools this new era requires.\n\nFounded in 2019, Linear has become the platform of choice for more than 40,000 companies (including OpenAI, Coinbase, and Ramp) to plan, build, and ship their products. Today, our team is distributed across North America, Europe, and Australia, and we’re continuing to grow internationally. What unites us is relentless focus, fast execution, and a deep care for software craftsmanship.\n\nAs a small team, we’re all…",
+      "postedAt": "2026-03-04T02:08:44.483+00:00",
+      "score": {
+        "fit": 87,
+        "verdict": "strong",
+        "rationale": "Senior / Staff Product Engineer at Linear scores 87/100 (strong) on the Tier-1 deterministic pass. Matched: Backend / distributed / event-driven — Ryan's core strength; Senior / staff / lead level; Platform / reliability / observability — Ryan's secondary strength; AI-native engineering (a SWE who drives AI adoption); Product engineering. Concerns: comp unstated.",
+        "matched": [
+          "Backend / distributed / event-driven — Ryan's core strength",
+          "Senior / staff / lead level",
+          "Platform / reliability / observability — Ryan's secondary strength",
+          "AI-native engineering (a SWE who drives AI adoption)",
+          "Product engineering"
+        ],
+        "concerns": [
+          "comp unstated"
         ]
       }
     }
