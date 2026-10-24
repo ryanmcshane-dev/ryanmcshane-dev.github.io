@@ -1,22 +1,22 @@
 {
-  "generatedAt": "2026-10-23T17:55:44.288Z",
+  "generatedAt": "2026-10-24T16:46:54.835Z",
   "tier": "tier-1",
   "counts": {
-    "fetched": 2067,
-    "kept": 587,
-    "dropped": 1480,
+    "fetched": 2063,
+    "kept": 588,
+    "dropped": 1475,
     "byVerdict": {
-      "strong": 122,
-      "possible": 235,
-      "weak": 191,
-      "skip": 39
+      "strong": 119,
+      "possible": 240,
+      "weak": 181,
+      "skip": 48
     },
     "droppedByReason": {
-      "excluded-title": 831,
-      "off-role-family": 461,
+      "excluded-title": 810,
+      "off-role-family": 462,
       "on-site-only": 16,
-      "non-us-location": 160,
-      "below-comp-floor": 12
+      "non-us-location": 162,
+      "below-comp-floor": 25
     }
   },
   "errors": [
@@ -835,19 +835,19 @@
       }
     },
     {
-      "id": "a05928ff",
+      "id": "7107d5a3",
       "source": "greenhouse",
       "company": "Affirm",
-      "title": "Software Engineer II, Backend (Test Infra)",
+      "title": "Senior Software Engineer, Backend (Reliability Platform)",
       "location": "Remote US",
       "remote": true,
-      "url": "https://job-boards.greenhouse.io/affirm/jobs/7727320003",
-      "descriptionText": "At Affirm, we exist for the moments that matter—giving people a clear, predictable way to pay over time, with no hidden fees, no surprises, and no tradeoffs on what matters most.\n\nAffirm is reinventing credit to make it more honest and friendly, giving consumers the flexibility to buy now and pay later without any hidden fees or compounding interest.\nWe are seeking a highly motivated Software Engineer II with strong experience in test automation to contribute to Developer Productivity, with a focus on Test Platform Engineering. The Test Infra team empowers developers to efficiently write, run, analyze, and maintain automated tests. The team’s goals include expanding testing capabilities; building and maintaining testing frameworks; optimizing test orchestration; improving post-run reporting; ensuring the performance and reliability of CI pipelines; introducing AI-driven solutions to enhance developer productivity; and promoting best practices for test automation across the organization.\n\nAs a Software Engineer II in Test Platform Engineering, you will play a key role in building and evolving the core testing infrastructure that supports engineering productivity across the organization. Your work will have a direct impact on how hundreds of engineers develop, validate, and deliver high-quality software. You will focus on designing and maintaining scalable, reliable, and developer-friendly frontend and backend test automation solutions, as well as CI pipelines, enabling teams…",
+      "url": "https://job-boards.greenhouse.io/affirm/jobs/7820306003",
+      "descriptionText": "At Affirm, we exist for the moments that matter—giving people a clear, predictable way to pay over time, with no hidden fees, no surprises, and no tradeoffs on what matters most.\n\nAffirm is reinventing credit to make it more honest and friendly, giving consumers the flexibility to buy now and pay later without any hidden fees or compounding interest.\n\nWe’re looking for a Software Engineer to design and build a next-generation reliability platform for Affirm’s production systems. You’ll blend traditional distributed systems engineering with AI-assisted development to give teams a single place to understand, debug, and improve the health of their services.\n\nThis is a highly creative, hands-on role for someone who loves “vibe coding” — rapidly iterating, shipping, and refining with strong intuition— while still holding a very high bar for reliability, quality, and maintainability.\n\nWhat You'll Do\n· You will be responsible for owning and delivering quarterly goals for your team, leading engineers on your team through ambiguity to solve open-ended problems, and ensuring that everyone is supported throughout delivery.\n· You will support your peers and stakeholders in the product development lifecycle by collaborating with product management, design & analytics by participating in ideation, articulating technical constraints, and partnering on decisions that properly consider risks and trade-offs.\n· You will proactively identify project, process, technology or business issues,…",
       "postedAt": "2026-10-16T17:13:47-04:00",
       "score": {
         "fit": 89,
         "verdict": "strong",
-        "rationale": "Software Engineer II, Backend (Test Infra) at Affirm scores 89/100 (strong) on the Tier-1 deterministic pass. Matched: Backend / distributed / event-driven — Ryan's core strength; Senior / staff / lead level; Platform / reliability / observability — Ryan's secondary strength; AI-native engineering (a SWE who drives AI adoption); Large, reputable, remote-friendly engineering org with a strong Java / distributed-systems bar. Concerns: comp unstated.",
+        "rationale": "Senior Software Engineer, Backend (Reliability Platform) at Affirm scores 89/100 (strong) on the Tier-1 deterministic pass. Matched: Backend / distributed / event-driven — Ryan's core strength; Senior / staff / lead level; Platform / reliability / observability — Ryan's secondary strength; AI-native engineering (a SWE who drives AI adoption); Large, reputable, remote-friendly engineering org with a strong Java / distributed-systems bar. Concerns: comp unstated.",
         "matched": [
           "Backend / distributed / event-driven — Ryan's core strength",
           "Senior / staff / lead level",
@@ -874,32 +874,6 @@
         "fit": 89,
         "verdict": "strong",
         "rationale": "Staff CIAM Software Engineer at Affirm scores 89/100 (strong) on the Tier-1 deterministic pass. Matched: Backend / distributed / event-driven — Ryan's core strength; Senior / staff / lead level; Platform / reliability / observability — Ryan's secondary strength; AI-native engineering (a SWE who drives AI adoption); Large, reputable, remote-friendly engineering org with a strong Java / distributed-systems bar. Concerns: comp unstated.",
-        "matched": [
-          "Backend / distributed / event-driven — Ryan's core strength",
-          "Senior / staff / lead level",
-          "Platform / reliability / observability — Ryan's secondary strength",
-          "AI-native engineering (a SWE who drives AI adoption)",
-          "Large, reputable, remote-friendly engineering org with a strong Java / distributed-systems bar"
-        ],
-        "concerns": [
-          "comp unstated"
-        ]
-      }
-    },
-    {
-      "id": "e0440e84",
-      "source": "greenhouse",
-      "company": "Affirm",
-      "title": "Staff Software Engineer, Backend (Online Storage)",
-      "location": "Remote US",
-      "remote": true,
-      "url": "https://job-boards.greenhouse.io/affirm/jobs/7833950003",
-      "descriptionText": "At Affirm, we exist for the moments that matter—giving people a clear, predictable way to pay over time, with no hidden fees, no surprises, and no tradeoffs on what matters most.\n\nThe Data and Storage Services team is responsible for Affirm's data infrastructure across OLTP and OLAP systems, spanning critical online checkout databases, batch orchestration, streaming infrastructure, event-driven frameworks, BI, analytics tooling, large-scale data platforms, and agentic data tools such as semantic layers and internal platform data applications. Our mission is to provide trustworthy, intuitive, and cost-efficient solutions for Affirmers to secure, store, analyze, and transform data at exceptional scale.\n\nThe Online Storage team provides a set of managed databases as a platform, used to persist data for all Affirm services. Our platform enables self-service access to OLTP storage systems, including Relational DB(MySQL), DynamoDB, Distributed SQL, Cache(Redis). As a team, we are responsible for various data and access patterns, including but not limited to mission-critical financial transactional data, data science models, and any new persistence use case. These responsibilities require us to learn and gain deep expertise in various database systems.\n\nWe are looking for a highly skilled and detail-oriented Staff Software Engineer who can drive the technical roadmap for our Databases (Relational and KeyValue) identifying opportunities to improve how we build, productize, operate…",
-      "postedAt": "2026-10-16T17:13:47-04:00",
-      "score": {
-        "fit": 89,
-        "verdict": "strong",
-        "rationale": "Staff Software Engineer, Backend (Online Storage) at Affirm scores 89/100 (strong) on the Tier-1 deterministic pass. Matched: Backend / distributed / event-driven — Ryan's core strength; Senior / staff / lead level; Platform / reliability / observability — Ryan's secondary strength; AI-native engineering (a SWE who drives AI adoption); Large, reputable, remote-friendly engineering org with a strong Java / distributed-systems bar. Concerns: comp unstated.",
         "matched": [
           "Backend / distributed / event-driven — Ryan's core strength",
           "Senior / staff / lead level",
@@ -1197,56 +1171,53 @@
       }
     },
     {
-      "id": "b8ad2438",
-      "source": "ashby",
-      "company": "OpenAI",
-      "title": "Principal Software Engineer, ChatGPT Education and Learning",
-      "location": "San Francisco",
-      "remote": "unknown",
-      "url": "https://jobs.ashbyhq.com/openai/40de0618-fb19-443d-85fd-ba690d3721a8",
-      "descriptionText": "ABOUT THE TEAM\n\nThe ChatGPT Learning team creates the next generation of learning experiences within ChatGPT. Millions of people use ChatGPT each week to explore concepts, practice skills, and work through challenges, making learning one of the platform’s largest consumer use cases.\n\nWe want ChatGPT to support sustained learning and progress over time, beyond answering individual questions. We’re exploring how AI can make powerful learning tools more accessible, helping people understand the world, develop skills, and pursue their goals.\n\nOur work brings together product engineering, design, AI research, and education to serve learners around the world.\n\nABOUT THE ROLE\n\nAs a Principal Software Engineer on the ChatGPT Learning team, you will set technical direction and lead the design and development of products that help millions of people learn with ChatGPT.\n\nYou’ll remain hands-on across the stack, building polished interfaces and scalable backend services. Working closely with product managers, designers, researchers, and platform teams, you’ll bring new model capabilities into everyday learning experiences.\n\nYou’ll drive product and design decisions alongside your cross-functional partners, helping define what we build, how it works, and how it serves learners. We’re looking for an engineer with strong product judgment who can turn ambiguous opportunities into clear direction, lead complex initiatives from concept through launch, and raise the quality of the team’s…",
-      "postedAt": "2026-10-23T00:36:22.701+00:00",
-      "compHint": "$459K - $536K",
+      "id": "5fcf0251",
+      "source": "greenhouse",
+      "company": "Block",
+      "title": "Staff Software Engineer, Cash App Banking",
+      "location": "New York, NY, United States of America",
+      "remote": true,
+      "url": "http://block.xyz/careers/jobs/5207148008?gh_jid=5207148008",
+      "descriptionText": "It all started with an idea at Block in 2013. Initially built to take the pain out of peer-to-peer payments, Cash App has gone from a simple product with a single purpose to a dynamic ecosystem, developing unique financial products, including Afterpay/Clearpay, to provide a better way to send, spend, invest, borrow and save to our 50+ million monthly active customers. We want to redefine the world's relationship with money to make it more relatable, instantly available, and universally accessible.\n\nToday, Cash App has thousands of employees working globally across office and remote locations, with a culture geared toward innovation, collaboration and impact. We've been a distributed team since day one, and many of our roles can be done remotely from the countries where Cash App operates. No matter the location, we tailor our experience to ensure our employees are creative, productive, and happy.\n\nThe Role\n\nAt Cash App, we strive to build the best consumer financial products in the world. The Cash App Banking team aspires to make Cash App the primary place for our customers to store, manage, and move money across all their banking needs. We achieve this by providing various offerings including a range of deposit and transfer options, savings and automation tools, and a suite of benefits for Banking customers, all while ensuring a fast and reliable experience.\n\nAs a staff software engineer on the Cash App Banking server engineering team, you will help lead the overall…",
+      "postedAt": "2026-10-08T17:40:03-04:00",
+      "compHint": "$263,600–$395,400, $263,600–$395,400, $263,600–$395,400, $263,600–$395,400",
       "score": {
-        "fit": 87,
+        "fit": 89,
         "verdict": "strong",
-        "rationale": "Principal Software Engineer, ChatGPT Education and Learning at OpenAI scores 87/100 (strong) on the Tier-1 deterministic pass. Matched: Backend / distributed / event-driven — Ryan's core strength; Senior / staff / lead level; Platform / reliability / observability — Ryan's secondary strength; AI-native engineering (a SWE who drives AI adoption); Product engineering. Concerns: remote unstated.",
+        "rationale": "Staff Software Engineer, Cash App Banking at Block scores 89/100 (strong) on the Tier-1 deterministic pass. Matched: Backend / distributed / event-driven — Ryan's core strength; Senior / staff / lead level; Platform / reliability / observability — Ryan's secondary strength; AI-native engineering (a SWE who drives AI adoption); Large, reputable, remote-friendly engineering org with a strong Java / distributed-systems bar.",
         "matched": [
           "Backend / distributed / event-driven — Ryan's core strength",
           "Senior / staff / lead level",
           "Platform / reliability / observability — Ryan's secondary strength",
           "AI-native engineering (a SWE who drives AI adoption)",
-          "Product engineering"
+          "Large, reputable, remote-friendly engineering org with a strong Java / distributed-systems bar"
         ],
-        "concerns": [
-          "remote unstated"
-        ]
+        "concerns": []
       }
     },
     {
-      "id": "d0a376a8",
-      "source": "ashby",
-      "company": "OpenAI",
-      "title": "Principal Software Engineer, Full Stack — Codex",
-      "location": "San Francisco",
-      "remote": "unknown",
-      "url": "https://jobs.ashbyhq.com/openai/74842880-e750-4664-9e2e-83b4c96c5a03",
-      "descriptionText": "About the Role\nWe’re hiring a Principal Software Engineer to help define and build the next generation of AI-powered software development workflows.\n\n“Full stack” in this role extends well beyond traditional frontend and backend development. You will set technical direction and lead major product initiatives spanning user interfaces, developer tooling, workflow orchestration, agent and prompt design, backend systems, and cloud infrastructure.\n\nThis is a highly product-oriented technical leadership role. You will identify the highest-leverage opportunities across the software development lifecycle, turn ambiguous user and technical problems into durable product and system strategies, and lead execution across multiple engineers and partner teams. Your work will shape both the architecture of Codex and how developers around the world design, write, review, test, and maintain software.\nYou will operate as a senior individual contributor: remaining deeply involved in design and implementation while raising the technical judgment, execution quality, and ambition of the broader team.\n\nIn this role, you will\n\n- Set the technical and product direction for significant areas of Codex, translating an evolving product vision into scalable architectures and an actionable engineering strategy.\n\n- Lead complex, multi-quarter initiatives spanning client applications, backend services, agent systems, cloud infrastructure, and developer tooling.\n\n- Design AI-powered workflows that generalize…",
-      "postedAt": "2026-10-21T17:32:33.465+00:00",
-      "compHint": "$459K - $536K",
+      "id": "b0e631ef",
+      "source": "smartrecruiters",
+      "company": "ServiceNow",
+      "title": "Forward Deployed Solution Engineer – Applied AI FDE",
+      "location": "Santa Clara, California, United States",
+      "remote": true,
+      "url": "https://jobs.smartrecruiters.com/ServiceNow/744000154154044-forward-deployed-solution-engineer-applied-ai-fde?oga=true",
+      "descriptionText": "Team Bio:  \nServiceNow’s Applied AI Forward Deployed Engineering (FDE)  team is where bold ideas meet transformative action. We partner with our most strategic customers to shape the future of enterprise AI. Together, we identify high-value opportunities, accelerate business outcomes, and build reusable AI-native solutions that advance the Now AI Platform. \nOur mission:  We partner deeply with our customers to build intelligent, scalable AI solutions that solve their most mission-critical challenges. By embedding in real-world complexity, we deliver fast, iterate with purpose, and transform every success into reusable patterns that accelerate transformation across the Now Platform and the broader enterprise. \nWhy This Role Matters:\nEnterprises are raising the bar. AI initiatives must deliver business value—not just promise potential. That means taking cutting-edge LLM capabilities and turning them into resilient, secure, and scalable software. \nAs a  Forward Deployed Software Engineer (FDSE) , you act as the CTO of the build—owning everything from backend services to LLM pipelines and front-end integrations. You partner with customers in the field to design, implement, and deliver solution-ready builds in agile sprints. Your software becomes the reference implementation for scalable GenAI in the enterprise. You codify patterns, shape internal tooling, and accelerate innovation—delivering systems that are battle-tested in production and scalable across industries. \nWho You…",
+      "postedAt": "2026-10-07T16:45:52.725Z",
       "score": {
-        "fit": 87,
+        "fit": 89,
         "verdict": "strong",
-        "rationale": "Principal Software Engineer, Full Stack — Codex at OpenAI scores 87/100 (strong) on the Tier-1 deterministic pass. Matched: Backend / distributed / event-driven — Ryan's core strength; Senior / staff / lead level; Platform / reliability / observability — Ryan's secondary strength; AI-native engineering (a SWE who drives AI adoption); Strong engineering culture. Concerns: remote unstated.",
+        "rationale": "Forward Deployed Solution Engineer – Applied AI FDE at ServiceNow scores 89/100 (strong) on the Tier-1 deterministic pass. Matched: Backend / distributed / event-driven — Ryan's core strength; Senior / staff / lead level; Platform / reliability / observability — Ryan's secondary strength; AI-native engineering (a SWE who drives AI adoption); Large, reputable, remote-friendly engineering org with a strong Java / distributed-systems bar. Concerns: comp unstated.",
         "matched": [
           "Backend / distributed / event-driven — Ryan's core strength",
           "Senior / staff / lead level",
           "Platform / reliability / observability — Ryan's secondary strength",
           "AI-native engineering (a SWE who drives AI adoption)",
-          "Strong engineering culture"
+          "Large, reputable, remote-friendly engineering org with a strong Java / distributed-systems bar"
         ],
         "concerns": [
-          "remote unstated"
+          "comp unstated"
         ]
       }
     },
@@ -1351,6 +1322,31 @@
         ],
         "concerns": []
       }
+    },
+    {
+      "id": "5c88f28d",
+      "source": "ashby",
+      "company": "Ramp",
+      "title": "Software Engineer, Developer API",
+      "location": "New York, NY (HQ)",
+      "remote": true,
+      "url": "https://jobs.ashbyhq.com/ramp/42527ca9-03b9-499e-a5c4-18e4245af138",
+      "descriptionText": "ABOUT RAMP\n\nRamp is building the smart infrastructure for finance teams, embedded in the transaction flow of every dollar a business spends. We automate how over $275B in annualized spend flows in and out of 85,000+ companies: authorizing payments, flagging risk, categorizing spend, and closing books.\n\nThe problems are high-stakes, data-dense, and unforgiving.\n\nWe hire people with high agency and high urgency. We look for slope over intercept. We care less about where you trained and more about what you’ve built. At Ramp, everyone is a builder who owns problems end to end and makes consequential decisions that shape the outcome.\n\nThe median Ramp customer saves 7.5% and grows revenue 16% in their first year – far in excess of businesses operating without Ramp. We believe every ambitious company deserves the same.\n\nIf you want to build systems that directly shape how companies move and manage billions, Ramp is the place to do it.\n\nABOUT THE ROLE\n\nRamp's Dev API team builds the programmatic surfaces that let developers and AI agents read from and write to Ramp. We are an AI-focused platform team making it trivially easy for any engineer at Ramp (or outside it) to ship new capabilities across all surfaces. Our ideal candidate thinks agent-first, has strong opinions on developer experience, and wants to define how software interacts with financial infrastructure at scale.\n\nCheck out our Engineering Blog https://engineering.ramp.com/ for more on our tech stack, mission, and…",
+      "postedAt": "2026-06-29T17:10:36.236+00:00",
+      "compHint": "$168K - $330K",
+      "score": {
+        "fit": 87,
+        "verdict": "strong",
+        "rationale": "Software Engineer, Developer API at Ramp scores 87/100 (strong) on the Tier-1 deterministic pass. Matched: Backend / distributed / event-driven — Ryan's core strength; Senior / staff / lead level; Platform / reliability / observability — Ryan's secondary strength; AI-native engineering (a SWE who drives AI adoption); Strong engineering culture.",
+        "matched": [
+          "Backend / distributed / event-driven — Ryan's core strength",
+          "Senior / staff / lead level",
+          "Platform / reliability / observability — Ryan's secondary strength",
+          "AI-native engineering (a SWE who drives AI adoption)",
+          "Strong engineering culture"
+        ],
+        "concerns": []
+      }
     }
   ],
   "droppedSample": [
@@ -1384,24 +1380,10 @@
     },
     {
       "company": "Airbnb",
-      "title": "Community Crisis Investigator",
-      "url": "https://careers.airbnb.com/positions/8282839?gh_jid=8282839",
-      "reason": "off-role-family",
-      "detail": "title matches no role-family term"
-    },
-    {
-      "company": "Airbnb",
       "title": "Community Engagement Lead, Spain and Portugal",
       "url": "https://careers.airbnb.com/positions/7982715?gh_jid=7982715",
       "reason": "off-role-family",
       "detail": "title matches no role-family term"
-    },
-    {
-      "company": "Airbnb",
-      "title": "Community Support Forecasting and Demand Planning Analyst",
-      "url": "https://careers.airbnb.com/positions/7839229?gh_jid=7839229",
-      "reason": "excluded-title",
-      "detail": "title matches: analyst"
     },
     {
       "company": "Airbnb",
@@ -1416,6 +1398,13 @@
       "url": "https://careers.airbnb.com/positions/8275370?gh_jid=8275370",
       "reason": "off-role-family",
       "detail": "title matches no role-family term"
+    },
+    {
+      "company": "Airbnb",
+      "title": "CS Forecasting and Demand Planning Analyst",
+      "url": "https://careers.airbnb.com/positions/7839229?gh_jid=7839229",
+      "reason": "excluded-title",
+      "detail": "title matches: analyst"
     },
     {
       "company": "Airbnb",
@@ -1435,6 +1424,13 @@
       "company": "Airbnb",
       "title": "Customer Service Partner Operations Manager, Mandarin Speaking (Singapore Based)",
       "url": "https://careers.airbnb.com/positions/8172706?gh_jid=8172706",
+      "reason": "excluded-title",
+      "detail": "title matches: manager"
+    },
+    {
+      "company": "Airbnb",
+      "title": "Customer Service Partner Operations Manager, Mandarin Speaking (Tokyo Based)",
+      "url": "https://careers.airbnb.com/positions/8172734?gh_jid=8172734",
       "reason": "excluded-title",
       "detail": "title matches: manager"
     }
