@@ -1,22 +1,22 @@
 {
-  "generatedAt": "2026-10-31T17:52:07.914Z",
+  "generatedAt": "2026-11-01T18:29:38.024Z",
   "tier": "tier-1",
   "counts": {
-    "fetched": 2087,
-    "kept": 586,
-    "dropped": 1501,
+    "fetched": 2081,
+    "kept": 583,
+    "dropped": 1498,
     "byVerdict": {
-      "strong": 120,
-      "possible": 246,
-      "weak": 175,
-      "skip": 45
+      "strong": 118,
+      "possible": 237,
+      "weak": 180,
+      "skip": 48
     },
     "droppedByReason": {
-      "excluded-title": 817,
-      "off-role-family": 479,
+      "excluded-title": 815,
+      "off-role-family": 480,
       "on-site-only": 17,
       "non-us-location": 165,
-      "below-comp-floor": 23
+      "below-comp-floor": 21
     }
   },
   "errors": [
@@ -103,6 +103,32 @@
           "AI-native engineering (a SWE who drives AI adoption)",
           "Strong engineering culture",
           "Large, reputable, remote-friendly engineering org with a strong Java / distributed-systems bar"
+        ],
+        "concerns": [
+          "comp unstated"
+        ]
+      }
+    },
+    {
+      "id": "0d241078",
+      "source": "greenhouse",
+      "company": "Airbnb",
+      "title": "Staff Software Engineer AI, Platform",
+      "location": "United States",
+      "remote": true,
+      "url": "https://careers.airbnb.com/positions/8307226?gh_jid=8307226",
+      "descriptionText": "Airbnb was born in 2007 when two hosts welcomed three guests to their San Francisco home, and has since grown to over 5 million hosts who have welcomed over 2 billion guest arrivals in almost every country across the globe. Every day, hosts offer unique stays and experiences that make it possible for guests to connect with communities in a more authentic way.\n\nThe Community You Will Join:\n\nAt Airbnb, our mission is to create a world where anyone can belong anywhere. We use Machine Learning extensively to create a more connected, empowered, and safer global community and enable an intelligent…",
+      "postedAt": "2026-10-29T19:27:23-04:00",
+      "score": {
+        "fit": 92,
+        "verdict": "strong",
+        "rationale": "Staff Software Engineer AI, Platform at Airbnb scores 92/100 (strong) on the Tier-1 deterministic pass. Matched: Backend / distributed / event-driven — Ryan's core strength; Senior / staff / lead level; Platform / reliability / observability — Ryan's secondary strength; AI-native engineering (a SWE who drives AI adoption); Top-choice company. Concerns: comp unstated.",
+        "matched": [
+          "Backend / distributed / event-driven — Ryan's core strength",
+          "Senior / staff / lead level",
+          "Platform / reliability / observability — Ryan's secondary strength",
+          "AI-native engineering (a SWE who drives AI adoption)",
+          "Top-choice company"
         ],
         "concerns": [
           "comp unstated"
@@ -1320,32 +1346,6 @@
         ],
         "concerns": [
           "remote unstated"
-        ]
-      }
-    },
-    {
-      "id": "3fe5ed8a",
-      "source": "ashby",
-      "company": "Linear",
-      "title": "Senior / Staff Product Engineer",
-      "location": "North America",
-      "remote": true,
-      "url": "https://jobs.ashbyhq.com/linear/12f8f208-0b9c-4569-bb3d-41c8a197029e",
-      "descriptionText": "At Linear, we're building the product development system for teams and agents. AI is fundamentally changing how software gets built, and we’re shaping the tools this new era requires.\n\nFounded in 2019, Linear has become the platform of choice for more than 40,000 companies (including OpenAI, Coinbase, and Ramp) to plan, build, and ship their products. Today, our team is distributed across North America, Europe, and Australia, and we’re continuing to grow internationally. What unites us is relentless focus, fast execution, and a deep care for software craftsmanship.\n\nAs a small team, we’re all…",
-      "postedAt": "2026-03-04T02:08:44.483+00:00",
-      "score": {
-        "fit": 87,
-        "verdict": "strong",
-        "rationale": "Senior / Staff Product Engineer at Linear scores 87/100 (strong) on the Tier-1 deterministic pass. Matched: Backend / distributed / event-driven — Ryan's core strength; Senior / staff / lead level; Platform / reliability / observability — Ryan's secondary strength; AI-native engineering (a SWE who drives AI adoption); Product engineering. Concerns: comp unstated.",
-        "matched": [
-          "Backend / distributed / event-driven — Ryan's core strength",
-          "Senior / staff / lead level",
-          "Platform / reliability / observability — Ryan's secondary strength",
-          "AI-native engineering (a SWE who drives AI adoption)",
-          "Product engineering"
-        ],
-        "concerns": [
-          "comp unstated"
         ]
       }
     }
