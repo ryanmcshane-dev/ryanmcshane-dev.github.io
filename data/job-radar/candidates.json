@@ -1,22 +1,22 @@
 {
-  "generatedAt": "2026-11-24T23:11:25.449Z",
+  "generatedAt": "2026-11-25T22:40:10.964Z",
   "tier": "tier-1",
   "counts": {
-    "fetched": 2114,
-    "kept": 566,
-    "dropped": 1548,
+    "fetched": 2123,
+    "kept": 582,
+    "dropped": 1541,
     "byVerdict": {
-      "strong": 112,
-      "possible": 237,
-      "weak": 170,
-      "skip": 47
+      "strong": 113,
+      "possible": 249,
+      "weak": 177,
+      "skip": 43
     },
     "droppedByReason": {
-      "excluded-title": 850,
-      "off-role-family": 486,
-      "on-site-only": 22,
-      "non-us-location": 180,
-      "below-comp-floor": 10
+      "excluded-title": 854,
+      "off-role-family": 473,
+      "on-site-only": 21,
+      "non-us-location": 178,
+      "below-comp-floor": 15
     }
   },
   "errors": [
@@ -56,19 +56,47 @@
       }
     },
     {
-      "id": "a473d6a1",
+      "id": "7f2f13da",
       "source": "workday",
       "company": "Workday",
       "title": "Senior Software Development Engineer",
-      "location": "USA, CA, San Francisco — United States of America",
+      "location": "USA.VA.Reston — United States of America",
       "remote": "unknown",
-      "url": "https://workday.wd5.myworkdayjobs.com/Workday/job/USA-CA-San-Francisco/Senior-Software-Development-Engineer_JR-0109928",
-      "descriptionText": "Your work days are brighter here.\n\nWe’re obsessed with making hard work pay off, for our people, our customers, and the world around us. As a Fortune 500 company and a leading AI platform for managing people, money, and agents, we’re shaping the future of work so teams can reach their potential and focus on what matters most. The minute you join, you’ll feel it. Not just in the products we build, but in how we show up for each other. Our culture is rooted in integrity, empathy, and shared enthusiasm. We’re in this together, tackling big challenges with bold ideas and genuine care. We look for curious minds and courageous collaborators who bring sun-drenched optimism and drive. Whether you're building smarter solutions, supporting customers, or creating a space where everyone belongs, you’ll do meaningful work with Workmates who’ve got your back. In return, we’ll give you the trust to take risks, the tools to grow, the skills to develop and the support of a company invested in you for the long haul. So, if you want to inspire a brighter work day for everyone, including yourself, you’ve found a match in Workday, and we hope to be a match for you too.\n\nAbout the Team\nThe Pipedream team is on a mission to arm AI Agents with connectors to third-party applications and APIs, unlocking tremendous value for Workday and its customers. We are the bridge between Workday's intelligent platform and the broader ecosystem of tools and services that businesses rely on every day.\n\nNewly…",
-      "postedAt": "2026-11-24",
+      "url": "https://workday.wd5.myworkdayjobs.com/Workday/job/USAVAReston/Senior-Software-Development-Engineer_JR-0104081",
+      "descriptionText": "Your work days are brighter here.\n\nWe’re obsessed with making hard work pay off, for our people, our customers, and the world around us. As a Fortune 500 company and a leading AI platform for managing people, money, and agents, we’re shaping the future of work so teams can reach their potential and focus on what matters most. The minute you join, you’ll feel it. Not just in the products we build, but in how we show up for each other. Our culture is rooted in integrity, empathy, and shared enthusiasm. We’re in this together, tackling big challenges with bold ideas and genuine care. We look for curious minds and courageous collaborators who bring sun-drenched optimism and drive. Whether you're building smarter solutions, supporting customers, or creating a space where everyone belongs, you’ll do meaningful work with Workmates who’ve got your back. In return, we’ll give you the trust to take risks, the tools to grow, the skills to develop and the support of a company invested in you for the long haul. So, if you want to inspire a brighter work day for everyone, including yourself, you’ve found a match in Workday, and we hope to be a match for you too.\n\nAbout the Team\nThe Data Platform and Observability team, located in Pleasanton, CA; Boston, MA; Boulder, CO, Atlanta, GA, and Dublin, Ireland, empowers real-time insights across Workday's platforms, infrastructure, and applications. Our mission is to develop and operate a large-scale distributed data platform that fuels…",
+      "postedAt": "2026-09-21",
+      "score": {
+        "fit": 95,
+        "verdict": "strong",
+        "rationale": "Senior Software Development Engineer at Workday scores 95/100 (strong) on the Tier-1 deterministic pass. Matched: Backend / distributed / event-driven — Ryan's core strength; Senior / staff / lead level; Platform / reliability / observability — Ryan's secondary strength; AI-native engineering (a SWE who drives AI adoption); Strong engineering culture; HCM / group-benefits domain overlap — Ryan's EOI / Absence Management experience translates directly. Concerns: comp unstated; remote unstated.",
+        "matched": [
+          "Backend / distributed / event-driven — Ryan's core strength",
+          "Senior / staff / lead level",
+          "Platform / reliability / observability — Ryan's secondary strength",
+          "AI-native engineering (a SWE who drives AI adoption)",
+          "Strong engineering culture",
+          "HCM / group-benefits domain overlap — Ryan's EOI / Absence Management experience translates directly"
+        ],
+        "concerns": [
+          "comp unstated",
+          "remote unstated"
+        ]
+      }
+    },
+    {
+      "id": "78da6726",
+      "source": "workday",
+      "company": "Workday",
+      "title": "Principal Software Development Engineer - Data Cloud",
+      "location": "USA, CA, Pleasanton — United States of America",
+      "remote": "unknown",
+      "url": "https://workday.wd5.myworkdayjobs.com/Workday/job/USA-CA-Pleasanton/Principal-Software-Development-Engineer_JR-0111151-1",
+      "descriptionText": "Your work days are brighter here.\n\nWe’re obsessed with making hard work pay off, for our people, our customers, and the world around us. As a Fortune 500 company and a leading AI platform for managing people, money, and agents, we’re shaping the future of work so teams can reach their potential and focus on what matters most. The minute you join, you’ll feel it. Not just in the products we build, but in how we show up for each other. Our culture is rooted in integrity, empathy, and shared enthusiasm. We’re in this together, tackling big challenges with bold ideas and genuine care. We look for curious minds and courageous collaborators who bring sun-drenched optimism and drive. Whether you're building smarter solutions, supporting customers, or creating a space where everyone belongs, you’ll do meaningful work with Workmates who’ve got your back. In return, we’ll give you the trust to take risks, the tools to grow, the skills to develop and the support of a company invested in you for the long haul. So, if you want to inspire a brighter work day for everyone, including yourself, you’ve found a match in Workday, and we hope to be a match for you too.\n\nAbout the Team\nThe Data Cloud organization is at the forefront of Workday’s next major wave of innovation, driven by a bold mandate to build the industry’s first true Platform for Agents. We are a high-energy, ambitious team that balances Workday's deep foundational expertise with fresh, forward-thinking perspectives to…",
+      "postedAt": "2026-11-25",
       "score": {
         "fit": 92,
         "verdict": "strong",
-        "rationale": "Senior Software Development Engineer at Workday scores 92/100 (strong) on the Tier-1 deterministic pass. Matched: Backend / distributed / event-driven — Ryan's core strength; Senior / staff / lead level; Platform / reliability / observability — Ryan's secondary strength; AI-native engineering (a SWE who drives AI adoption); HCM / group-benefits domain overlap — Ryan's EOI / Absence Management experience translates directly. Concerns: comp unstated; remote unstated.",
+        "rationale": "Principal Software Development Engineer - Data Cloud at Workday scores 92/100 (strong) on the Tier-1 deterministic pass. Matched: Backend / distributed / event-driven — Ryan's core strength; Senior / staff / lead level; Platform / reliability / observability — Ryan's secondary strength; AI-native engineering (a SWE who drives AI adoption); HCM / group-benefits domain overlap — Ryan's EOI / Absence Management experience translates directly. Concerns: comp unstated; remote unstated.",
         "matched": [
           "Backend / distributed / event-driven — Ryan's core strength",
           "Senior / staff / lead level",
@@ -83,13 +111,40 @@
       }
     },
     {
-      "id": "40e2c166",
+      "id": "9717fbfe",
+      "source": "workday",
+      "company": "Workday",
+      "title": "Principal Software Engineer, Agentic UX",
+      "location": "USA, CA, Pleasanton — United States of America",
+      "remote": "unknown",
+      "url": "https://workday.wd5.myworkdayjobs.com/Workday/job/USA-CA-Pleasanton/Principal-Software-Engineer--Agentic-UX_JR-0110769",
+      "descriptionText": "Your work days are brighter here.\n\nWe’re obsessed with making hard work pay off, for our people, our customers, and the world around us. As a Fortune 500 company and a leading AI platform for managing people, money, and agents, we’re shaping the future of work so teams can reach their potential and focus on what matters most. The minute you join, you’ll feel it. Not just in the products we build, but in how we show up for each other. Our culture is rooted in integrity, empathy, and shared enthusiasm. We’re in this together, tackling big challenges with bold ideas and genuine care. We look for curious minds and courageous collaborators who bring sun-drenched optimism and drive. Whether you're building smarter solutions, supporting customers, or creating a space where everyone belongs, you’ll do meaningful work with Workmates who’ve got your back. In return, we’ll give you the trust to take risks, the tools to grow, the skills to develop and the support of a company invested in you for the long haul. So, if you want to inspire a brighter work day for everyone, including yourself, you’ve found a match in Workday, and we hope to be a match for you too.\n\nAbout the Team\nAgent Factory is where Workday’s next chapter gets built. We’re forming small, senior, cross-functional AI teams that bring together product leaders, AI engineers, and full-stack builders to create intelligent agents used by millions of people every day. This is production-grade AI—deeply embedded into Workday’s…",
+      "postedAt": "2026-11-24",
+      "score": {
+        "fit": 92,
+        "verdict": "strong",
+        "rationale": "Principal Software Engineer, Agentic UX at Workday scores 92/100 (strong) on the Tier-1 deterministic pass. Matched: Backend / distributed / event-driven — Ryan's core strength; Senior / staff / lead level; Platform / reliability / observability — Ryan's secondary strength; AI-native engineering (a SWE who drives AI adoption); HCM / group-benefits domain overlap — Ryan's EOI / Absence Management experience translates directly. Concerns: comp unstated; remote unstated.",
+        "matched": [
+          "Backend / distributed / event-driven — Ryan's core strength",
+          "Senior / staff / lead level",
+          "Platform / reliability / observability — Ryan's secondary strength",
+          "AI-native engineering (a SWE who drives AI adoption)",
+          "HCM / group-benefits domain overlap — Ryan's EOI / Absence Management experience translates directly"
+        ],
+        "concerns": [
+          "comp unstated",
+          "remote unstated"
+        ]
+      }
+    },
+    {
+      "id": "3fe2bfd3",
       "source": "workday",
       "company": "Workday",
       "title": "Software Development Engineer – Authentication Security",
       "location": "USA, CA, Pleasanton — United States of America",
       "remote": "unknown",
-      "url": "https://workday.wd5.myworkdayjobs.com/Workday/job/USA-CA-Pleasanton/Software-Development-Engineer---Authentication-Security_JR-0111216-1",
+      "url": "https://workday.wd5.myworkdayjobs.com/Workday/job/USA-CA-Pleasanton/Software-Development-Engineer---Authentication-Security_JR-0111215-1",
       "descriptionText": "Your work days are brighter here.\n\nWe’re obsessed with making hard work pay off, for our people, our customers, and the world around us. As a Fortune 500 company and a leading AI platform for managing people, money, and agents, we’re shaping the future of work so teams can reach their potential and focus on what matters most. The minute you join, you’ll feel it. Not just in the products we build, but in how we show up for each other. Our culture is rooted in integrity, empathy, and shared enthusiasm. We’re in this together, tackling big challenges with bold ideas and genuine care. We look for curious minds and courageous collaborators who bring sun-drenched optimism and drive. Whether you're building smarter solutions, supporting customers, or creating a space where everyone belongs, you’ll do meaningful work with Workmates who’ve got your back. In return, we’ll give you the trust to take risks, the tools to grow, the skills to develop and the support of a company invested in you for the long haul. So, if you want to inspire a brighter work day for everyone, including yourself, you’ve found a match in Workday, and we hope to be a match for you too.\n\nAbout the Team\nAt Workday, trust and security are foundational to everything we do. The Authentication Security team builds and operates the platform that is the front door to Workday. We provide a secure, resilient, unified authentication platform that evaluates a user’s identity and access across the Workday suite and protects…",
       "postedAt": "2026-11-24",
       "score": {
@@ -186,33 +241,6 @@
         ],
         "concerns": [
           "comp unstated"
-        ]
-      }
-    },
-    {
-      "id": "10119cdc",
-      "source": "workday",
-      "company": "Workday",
-      "title": "Principal Software Engineer, Agentic UX",
-      "location": "USA, CA, Pleasanton — United States of America",
-      "remote": "unknown",
-      "url": "https://workday.wd5.myworkdayjobs.com/Workday/job/USA-CA-Pleasanton/Principal-AI-UX-Lead_JR-0109765-1",
-      "descriptionText": "Your work days are brighter here.\n\nWe’re obsessed with making hard work pay off, for our people, our customers, and the world around us. As a Fortune 500 company and a leading AI platform for managing people, money, and agents, we’re shaping the future of work so teams can reach their potential and focus on what matters most. The minute you join, you’ll feel it. Not just in the products we build, but in how we show up for each other. Our culture is rooted in integrity, empathy, and shared enthusiasm. We’re in this together, tackling big challenges with bold ideas and genuine care. We look for curious minds and courageous collaborators who bring sun-drenched optimism and drive. Whether you're building smarter solutions, supporting customers, or creating a space where everyone belongs, you’ll do meaningful work with Workmates who’ve got your back. In return, we’ll give you the trust to take risks, the tools to grow, the skills to develop and the support of a company invested in you for the long haul. So, if you want to inspire a brighter work day for everyone, including yourself, you’ve found a match in Workday, and we hope to be a match for you too.\n\nAbout the Team\nAgent Factory is where Workday’s next chapter gets built. We’re forming small, senior, cross-functional AI teams that bring together product leaders, AI engineers, and full-stack builders to create intelligent agents used by millions of people every day. This is production-grade AI—deeply embedded into Workday’s…",
-      "postedAt": "2026-11-19",
-      "score": {
-        "fit": 92,
-        "verdict": "strong",
-        "rationale": "Principal Software Engineer, Agentic UX at Workday scores 92/100 (strong) on the Tier-1 deterministic pass. Matched: Backend / distributed / event-driven — Ryan's core strength; Senior / staff / lead level; Platform / reliability / observability — Ryan's secondary strength; AI-native engineering (a SWE who drives AI adoption); HCM / group-benefits domain overlap — Ryan's EOI / Absence Management experience translates directly. Concerns: comp unstated; remote unstated.",
-        "matched": [
-          "Backend / distributed / event-driven — Ryan's core strength",
-          "Senior / staff / lead level",
-          "Platform / reliability / observability — Ryan's secondary strength",
-          "AI-native engineering (a SWE who drives AI adoption)",
-          "HCM / group-benefits domain overlap — Ryan's EOI / Absence Management experience translates directly"
-        ],
-        "concerns": [
-          "comp unstated",
-          "remote unstated"
         ]
       }
     },
@@ -458,6 +486,31 @@
       }
     },
     {
+      "id": "48d58eb5",
+      "source": "greenhouse",
+      "company": "Block",
+      "title": "Principal AI Research Engineer, Customer World Model & Proactive Intelligence",
+      "location": "Bay Area, CA, United States of America",
+      "remote": true,
+      "url": "http://block.xyz/careers/jobs/5460772008?gh_jid=5460772008",
+      "descriptionText": "It all started with an idea at Block in 2013. Initially built to take the pain out of peer-to-peer payments, Cash App has gone from a simple product with a single purpose to a dynamic ecosystem, developing unique financial products, including Afterpay/Clearpay, to provide a better way to send, spend, invest, borrow and save to our 50+ million monthly active customers. We want to redefine the world’s relationship with money to make it more relatable, instantly available, and universally accessible.\n\nToday, Cash App has thousands of employees working globally across office and remote locations, with a culture geared toward innovation, collaboration and impact. We’ve been a distributed team since day one, and many of our roles can be done remotely from the countries where Cash App operates. No matter the location, we tailor our experience to ensure our employees are creative, productive, and happy.\n\nThe Team\n\nApollo leads Block's work on the Customer World Model : a continuously evolving representation of each customer's goals, context, history, constraints, and likely future needs. The Customer World Model powers Proactive Intelligence across Block's ecosystem, including Square, Cash App, and Afterpay. Instead of customers searching through products for the feature they need, the system understands what matters to them, anticipates what comes next, and takes timely action that improves their outcomes. Both are top priorities for Block.\n\nThe Role\n\nWe're hiring exceptional AI…",
+      "postedAt": "2026-11-25T11:33:03-05:00",
+      "compHint": "$351,000–$526,400, $351,000–$526,400, $351,000–$526,400, $351,000–$526,400",
+      "score": {
+        "fit": 89,
+        "verdict": "strong",
+        "rationale": "Principal AI Research Engineer, Customer World Model & Proactive Intelligence at Block scores 89/100 (strong) on the Tier-1 deterministic pass. Matched: Backend / distributed / event-driven — Ryan's core strength; Senior / staff / lead level; Platform / reliability / observability — Ryan's secondary strength; AI-native engineering (a SWE who drives AI adoption); Large, reputable, remote-friendly engineering org with a strong Java / distributed-systems bar.",
+        "matched": [
+          "Backend / distributed / event-driven — Ryan's core strength",
+          "Senior / staff / lead level",
+          "Platform / reliability / observability — Ryan's secondary strength",
+          "AI-native engineering (a SWE who drives AI adoption)",
+          "Large, reputable, remote-friendly engineering org with a strong Java / distributed-systems bar"
+        ],
+        "concerns": []
+      }
+    },
+    {
       "id": "e1dbd298",
       "source": "greenhouse",
       "company": "Twilio",
@@ -535,13 +588,13 @@
       }
     },
     {
-      "id": "5fcf0251",
+      "id": "86a8f92d",
       "source": "greenhouse",
       "company": "Block",
       "title": "Staff Software Engineer, Cash App Banking",
-      "location": "New York, NY, United States of America",
+      "location": "Bay Area, CA, United States of America",
       "remote": true,
-      "url": "http://block.xyz/careers/jobs/5207148008?gh_jid=5207148008",
+      "url": "http://block.xyz/careers/jobs/5196194008?gh_jid=5196194008",
       "descriptionText": "It all started with an idea at Block in 2013. Initially built to take the pain out of peer-to-peer payments, Cash App has gone from a simple product with a single purpose to a dynamic ecosystem, developing unique financial products, including Afterpay/Clearpay, to provide a better way to send, spend, invest, borrow and save to our 50+ million monthly active customers. We want to redefine the world's relationship with money to make it more relatable, instantly available, and universally accessible.\n\nToday, Cash App has thousands of employees working globally across office and remote locations, with a culture geared toward innovation, collaboration and impact. We've been a distributed team since day one, and many of our roles can be done remotely from the countries where Cash App operates. No matter the location, we tailor our experience to ensure our employees are creative, productive, and happy.\n\nThe Role\n\nAt Cash App, we strive to build the best consumer financial products in the world. The Cash App Banking team aspires to make Cash App the primary place for our customers to store, manage, and move money across all their banking needs. We achieve this by providing various offerings including a range of deposit and transfer options, savings and automation tools, and a suite of benefits for Banking customers, all while ensuring a fast and reliable experience.\n\nAs a staff software engineer on the Cash App Banking server engineering team, you will help lead the overall…",
       "postedAt": "2026-11-23T14:11:04-05:00",
       "compHint": "$263,600–$395,400, $263,600–$395,400, $263,600–$395,400, $263,600–$395,400",
@@ -745,32 +798,6 @@
       }
     },
     {
-      "id": "0b0f61df",
-      "source": "greenhouse",
-      "company": "Twilio",
-      "title": "Software Engineer - Platform Engineering",
-      "location": "Remote - US",
-      "remote": true,
-      "url": "https://job-boards.greenhouse.io/twilio/jobs/8385593",
-      "descriptionText": "Who we are\n\nAt Twilio, we’re shaping the future of communications, all from the comfort of our homes. We deliver innovative solutions to hundreds of thousands of businesses and empower millions of developers worldwide to craft personalized customer experiences.\n\nOur dedication to remote-first work , and strong culture of connection and global inclusion means that no matter your location, you’re part of a vibrant team with diverse experiences making a global impact each day. As we continue to revolutionize how the world interacts, we’re acquiring new skills and experiences that make work feel truly rewarding. Your career at Twilio is in your hands.\n.\n\nHiring and how we work\n\nWe use Artificial Intelligence (AI) to help make our hiring process efficient. That said, every hiring decision is made by real Twilions!\n\nAlso, while we are a remote-first company, you may be asked to report in person on an ad-hoc basis for team gatherings, functional off-sites or customer meetings.\n.\n\nSee yourself at Twilio\n\nJoin the team as Twilio's next Software Development Engineer 1 - Platform Engineering.\n\nAbout the job\n\nThis position is needed to help operate, secure, and modernize Twilio's shared Kubernetes platform substrate (OTK, Segment, and ZipWhip EKS fleets) at scale.\n\nJoin our Cloud Native Container Operations team as an entry-level platform engineer. You will help manage over 1,000 Kubernetes clusters, tackling real-world multi-cloud complexity. This high-impact role offers structured…",
-      "postedAt": "2026-11-19T15:26:38-05:00",
-      "score": {
-        "fit": 89,
-        "verdict": "strong",
-        "rationale": "Software Engineer - Platform Engineering at Twilio scores 89/100 (strong) on the Tier-1 deterministic pass. Matched: Backend / distributed / event-driven — Ryan's core strength; Senior / staff / lead level; Platform / reliability / observability — Ryan's secondary strength; AI-native engineering (a SWE who drives AI adoption); Large, reputable, remote-friendly engineering org with a strong Java / distributed-systems bar. Concerns: comp unstated.",
-        "matched": [
-          "Backend / distributed / event-driven — Ryan's core strength",
-          "Senior / staff / lead level",
-          "Platform / reliability / observability — Ryan's secondary strength",
-          "AI-native engineering (a SWE who drives AI adoption)",
-          "Large, reputable, remote-friendly engineering org with a strong Java / distributed-systems bar"
-        ],
-        "concerns": [
-          "comp unstated"
-        ]
-      }
-    },
-    {
       "id": "d6427159",
       "source": "smartrecruiters",
       "company": "ServiceNow",
@@ -821,31 +848,6 @@
         "concerns": [
           "comp unstated"
         ]
-      }
-    },
-    {
-      "id": "31c77d8e",
-      "source": "greenhouse",
-      "company": "Block",
-      "title": "Staff Software Engineer, Financial Platform - Issuing",
-      "location": "Bay Area, CA, United States of America",
-      "remote": true,
-      "url": "http://block.xyz/careers/jobs/5414624008?gh_jid=5414624008",
-      "descriptionText": "It all started with an idea at Block in 2013. Initially built to take the pain out of peer-to-peer payments, Cash App has gone from a simple product with a single purpose to a dynamic ecosystem, developing unique financial products, including Afterpay/Clearpay, to provide a better way to send, spend, invest, borrow and save to our 50+ million monthly active customers. We want to redefine the world’s relationship with money to make it more relatable, instantly available, and universally accessible.\n\nToday, Cash App has thousands of employees working globally across office and remote locations, with a culture geared toward innovation, collaboration and impact. We’ve been a distributed team since day one, and many of our roles can be done remotely from the countries where Cash App operates. No matter the location, we tailor our experience to ensure our employees are creative, productive, and happy.\n\nThe Role\n\nAt Block, we strive to build the best financial products in the world. The Financial Platform Issuing team owns the card issuing platform that serves every Block brand — powering Cash App Card, the fourth-largest debit card program in the US, alongside Square Card and the new card programs Block launches next.\n\nWe run the full lifecycle of a card: issuance, fulfillment, and activation; real-time transaction authorization and processing across card networks; digital wallet provisioning; 3-D Secure authentication; clearing and settlement; and disputes. When a customer taps…",
-      "postedAt": "2026-11-18T20:23:09-05:00",
-      "compHint": "$263,600–$395,400, $263,600–$395,400, $263,600–$395,400, $263,600–$395,400",
-      "score": {
-        "fit": 89,
-        "verdict": "strong",
-        "rationale": "Staff Software Engineer, Financial Platform - Issuing at Block scores 89/100 (strong) on the Tier-1 deterministic pass. Matched: Backend / distributed / event-driven — Ryan's core strength; Senior / staff / lead level; Platform / reliability / observability — Ryan's secondary strength; AI-native engineering (a SWE who drives AI adoption); Large, reputable, remote-friendly engineering org with a strong Java / distributed-systems bar.",
-        "matched": [
-          "Backend / distributed / event-driven — Ryan's core strength",
-          "Senior / staff / lead level",
-          "Platform / reliability / observability — Ryan's secondary strength",
-          "AI-native engineering (a SWE who drives AI adoption)",
-          "Large, reputable, remote-friendly engineering org with a strong Java / distributed-systems bar"
-        ],
-        "concerns": []
       }
     },
     {
@@ -983,33 +985,6 @@
       }
     },
     {
-      "id": "742ea9d0",
-      "source": "adzuna",
-      "company": "True Talent Solutions Partners",
-      "title": "Senior/Staff Product Engineer, Applied AI",
-      "location": "New York City, New York",
-      "remote": "unknown",
-      "url": "https://www.adzuna.com/details/5976770838?utm_medium=api&utm_source=e9201d43",
-      "descriptionText": "About the Role Join the product engineering team at a Series A/B AI-powered staffing marketplace, building the platform that connects industrial businesses with workers and automates operational workflows. You will apply AI agents across the product while owning the backend systems and infrastructure that support marketplace operations. What You'll Do Apply AI agents and frontier models across the product to automate worker sourcing, vetting, matching, and placement. Design and lead core backen…",
-      "postedAt": "2026-11-24T00:47:01Z",
-      "compHint": "$200,000 - $300,000",
-      "score": {
-        "fit": 87,
-        "verdict": "strong",
-        "rationale": "Senior/Staff Product Engineer, Applied AI at True Talent Solutions Partners scores 87/100 (strong) on the Tier-1 deterministic pass. Matched: Backend / distributed / event-driven — Ryan's core strength; Senior / staff / lead level; Platform / reliability / observability — Ryan's secondary strength; AI-native engineering (a SWE who drives AI adoption); Product engineering. Concerns: remote unstated.",
-        "matched": [
-          "Backend / distributed / event-driven — Ryan's core strength",
-          "Senior / staff / lead level",
-          "Platform / reliability / observability — Ryan's secondary strength",
-          "AI-native engineering (a SWE who drives AI adoption)",
-          "Product engineering"
-        ],
-        "concerns": [
-          "remote unstated"
-        ]
-      }
-    },
-    {
       "id": "928603b6",
       "source": "greenhouse",
       "company": "Dropbox",
@@ -1018,7 +993,7 @@
       "remote": true,
       "url": "https://jobs.dropbox.com/listing/8261911?gh_jid=8261911",
       "descriptionText": "Role Description\n\nAs a Principal Engineer at Dropbox, you will own company critical, loosely defined technical problems with multi year impact, operating at the intersection of technology, product, business strategy, and applied AI. You will define long term technical direction for customer facing experiences used by millions, identifying where AI meaningfully improves customer value and translating evolving business context and industry advances into durable, multi area strategies and roadmaps that shape how Dropbox builds, scales, and innovates, while remaining hands on in software development where it provides the greatest leverage.\n\nYour influence will span organizations, setting foundational architecture, driving execution standards, and aligning senior technical and product leaders across boundaries. You will lead the responsible introduction and adoption of AI across product capabilities and engineering workflows, bring clarity to the most complex decisions, institutionalize engineering excellence, and contribute directly through critical design, prototyping, and code reviews.\n\nIn return, you will operate as a trusted technical partner to senior leadership, shape systems and platforms including AI powered foundations that define Dropbox’s future, and act as a company level technical strategist, advancing Dropbox’s mission to create a more enlightened way of working.\n\nResponsibilities\n\nOwn and drive technical outcomes across multiple teams and organizations, delivering…",
-      "postedAt": "2026-11-12T10:15:44-05:00",
+      "postedAt": "2026-11-25T14:08:25-05:00",
       "score": {
         "fit": 87,
         "verdict": "strong",
@@ -1346,6 +1321,33 @@
           "comp unstated"
         ]
       }
+    },
+    {
+      "id": "615e0af5",
+      "source": "greenhouse",
+      "company": "Airbnb",
+      "title": "Senior Web Engineer, Profile & Community",
+      "location": "Remote, USA",
+      "remote": true,
+      "url": "https://careers.airbnb.com/positions/8412312?gh_jid=8412312",
+      "descriptionText": "Airbnb was born in 2007 when two hosts welcomed three guests to their San Francisco home, and has since grown to over 5 million hosts who have welcomed over 2 billion guest arrivals in almost every country across the globe. Every day, hosts offer unique stays and experiences that make it possible for guests to connect with communities in a more authentic way.\n\nThe Community You Will Join:\n\nAs a Web Engineer on the Profile & Community team within Airbnb’s Passport & Commerce organization, you’ll help build the social layer of Airbnb: a trusted social graph of real-world connections, the social features built on top of it, and the foundations that let people connect with the travelers they know and the people they meet along the way. The team is highly collaborative with its partners in design, product, data science, legal, and marketing to deliver features and experiences used by millions of people. We work closely with other engineering teams to ensure we build systems that are performant and configurable with architecture that's scalable and robust.\n\nA Typical Day:\n\nCollaborate with cross-functional partners such as Product Managers, Experience Designers and Engineers to design and deliver high-quality products on web\n\nDeliver high-impact social initiatives end to end.\n\nBuild efficient and reusable web components and architect reliable, performant, and scalable solutions\n\nIdentify areas of improvement and drive web best practices\n\nWorking closely with Android and iOS…",
+      "postedAt": "2026-11-25T16:24:06-05:00",
+      "score": {
+        "fit": 85,
+        "verdict": "strong",
+        "rationale": "Senior Web Engineer, Profile & Community at Airbnb scores 85/100 (strong) on the Tier-1 deterministic pass. Matched: Backend / distributed / event-driven — Ryan's core strength; Senior / staff / lead level; Platform / reliability / observability — Ryan's secondary strength; Product engineering; Top-choice company. Concerns: comp unstated; no AI-native engineering signal.",
+        "matched": [
+          "Backend / distributed / event-driven — Ryan's core strength",
+          "Senior / staff / lead level",
+          "Platform / reliability / observability — Ryan's secondary strength",
+          "Product engineering",
+          "Top-choice company"
+        ],
+        "concerns": [
+          "comp unstated",
+          "no AI-native engineering signal"
+        ]
+      }
     }
   ],
   "droppedSample": [
@@ -1359,7 +1361,7 @@
     {
       "company": "Airbnb",
       "title": "AirCover Specialist, Claims Experience",
-      "url": "https://careers.airbnb.com/positions/8345532?gh_jid=8345532",
+      "url": "https://careers.airbnb.com/positions/8306554?gh_jid=8306554",
       "reason": "off-role-family",
       "detail": "title matches no role-family term"
     },
